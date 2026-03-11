@@ -14,15 +14,6 @@ public sealed partial class AtmosphereSystem
      implementation.
      */
 
-    /// <inheritdoc/>
-    /// <remarks>No-op on client as reactions aren't entirely in shared.
-    /// Don't call it. Smile.</remarks>
-    public override ReactionResult React(GasMixture mixture, IGasMixtureHolder? holder)
-    {
-        // Reactions don't work on client so don't even try.
-        throw new NotImplementedException();
-    }
-
     public override bool IsMixtureFuel(GasMixture mixture, float epsilon = Atmospherics.Epsilon)
     {
         var tmp = new float[Atmospherics.AdjustedNumberOfGases];
@@ -35,20 +26,6 @@ public sealed partial class AtmosphereSystem
         var tmp = new float[Atmospherics.AdjustedNumberOfGases];
         NumericsHelpers.Multiply(mixture.Moles, GasOxidizerMask, tmp);
         return NumericsHelpers.HorizontalAdd(tmp) > epsilon;
-    }
-
-    public override float GetMass(GasMixture mix)
-    {
-        return GetMass(mix.Moles);
-    }
-
-    public override float GetMass(float[] moles)
-    {
-        var tmp = new float[moles.Length];
-        NumericsHelpers.Multiply(moles, GasMolarMasses, tmp);
-
-        // Conversion of grams to kilograms.
-        return NumericsHelpers.HorizontalAdd(tmp) * Atmospherics.gToKg;
     }
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
