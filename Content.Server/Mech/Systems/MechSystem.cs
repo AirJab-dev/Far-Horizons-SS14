@@ -37,6 +37,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Content.Shared.Atmos.Components;
+using Content.Shared.Atmos;
 
 namespace Content.Server.Mech.Systems;
 
