@@ -21,6 +21,7 @@
   - ExternalNS  # Far Horizons
   extendedAccess:
   - Salvage
+  - Mail
 
 - type: startingGear
   id: MiningSpecialistGear
