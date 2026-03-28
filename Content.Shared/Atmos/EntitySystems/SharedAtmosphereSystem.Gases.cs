@@ -16,7 +16,7 @@ public abstract partial class SharedAtmosphereSystem
      */
 
     /// <summary>
-    /// Cached array of gas specific heats.
+    /// Cached array of molar heat capacities of the gases.
     /// </summary>
     public float[] GasMolarHeatCapacities => _gasMolarHeatCapacities;
 
@@ -58,6 +58,7 @@ public abstract partial class SharedAtmosphereSystem
     /// Primarily used to quickly report the specific moles in a mixture that caused a flammable reaction to occur.
     /// </summary>
     protected readonly float[] GasOxidiserFuelMask = new float[Atmospherics.TotalNumberOfGases];
+    private float[] _gasMolarHeatCapacities = new float[Atmospherics.TotalNumberOfGases];
 
     /// <summary>
     /// Mask used to determine if a gas is flammable or not.
@@ -106,6 +107,8 @@ public abstract partial class SharedAtmosphereSystem
             GasPrototypes[idx] = gasPrototype;
             GasReagents[idx] = gasPrototype.Reagent;
         }
+
+        Array.Resize(ref _gasMolarHeatCapacities, MathHelper.NextMultipleOf(Atmospherics.TotalNumberOfGases, 4));
 
         for (var i = 0; i < GasPrototypes.Length; i++)
         {
