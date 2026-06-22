@@ -1,11 +1,18 @@
+#region =Neutral=
+
+
+
+
+
+#region Kammerer Citadel
 - type: entity
   name: Kammerer Citadel
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunKammererCitadel
-  description: An old faithful design refurbished for modern applications, and a personal favorite amongst many NanoTransen security forces. Uses .50 Shotgun Shells.
+  description: An old faithful design refurbished for modern applications, and a personal favorite amongst many Corporate Security forces. Uses .50 Shotgun Shells.
   components:
   - type: Item
-    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/securitypump_inhands_64x.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer_Citadel/inhands_64x.rsi
   - type: Gun
     spread: 10
     pump: true
@@ -16,14 +23,15 @@
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
   - type: Sprite
-    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/securitypump.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer_Citadel/clothing.rsi
   - type: Clothing
-    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/securitypump.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer_Citadel/clothing.rsi
   - type: GunRequiresWield
   - type: Tag
     tags:
     - ShotgunKammererCitadel
 
+#region Kammerer 5001
 - type: entity
   name: Kammerer 5001
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
@@ -31,7 +39,7 @@
   description: A highly advanced shotgun in the "Kammerer" series, typically employed in riot control. #It can quickly toggle between lethal and non-lethal rounds thanks to it's dual chamber. ##Pending rework to allow this
   components:
   - type: Item
-    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/kammerer5001_inhands_64x.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer5001/inhands_64x.rsi
   - type: Gun
     spread: 20
   - type: BallisticAmmoProvider
@@ -40,14 +48,15 @@
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
   - type: Sprite
-    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/kammerer5001.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer5001/clothing.rsi
   - type: Clothing
-    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/kammerer5001.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer5001/clothing.rsi
   - type: GunRequiresWield
   - type: Tag
     tags:
     - ShotgunKammerer5001
 
+#region Combat Shotgun
 # Bit of an odd one, inherets from revolver to have instant speedloader reloads - a cheap way to include the shellholder on the sprite.
 - type: entity
   name: Combat Shotgun
@@ -56,7 +65,7 @@
   description: A semi automatic shotgun with a shellholder allowing for much faster reloads. Holds eight rounds.
   components:
   - type: Item
-    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/cshotgunfolded_inhands_64x.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Combat_Shotgun_Folded/inhands_64x.rsi
     size: Large
     shape:
     - 0,0,4,0
@@ -71,12 +80,12 @@
       path: /Audio/Weapons/Guns/Empty/empty.ogg
     spread: 20
   - type: Sprite
-    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/cshotgunfolded.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Combat_Shotgun_Folded/clothing.rsi
     layers:
     - state: icon
       map: [ "enum.GunVisualLayers.Base" ]
   - type: Clothing
-    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/cshotgunfolded.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Combat_Shotgun_Folded/clothing.rsi
     quickEquip: false
     slots:
     - Back
@@ -116,6 +125,7 @@
     tags:
     - CombatShotgun
 
+#region Sentinel
 - type: entity
   name: Sentinel
   parent: [BaseWeaponShotgunAny, BaseGunWieldable, BaseSecurityContraband]
@@ -123,16 +133,16 @@
   description: An odd magazine-fed pump action shotgun that is the result of a regulatory compromise. Fires as fast as you can pump it, loads .50 shotgun shells.
   components:
   - type: Sprite
-    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/sentinel.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Sentinel/inhands_x64.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/sentinel_inhands_64x.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Sentinel/clothing.rsi
   - type: Clothing
-    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/sentinel.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Sentinel/clothing.rsi
   - type: GunRequiresWield
   - type: Gun
     spread: 15
@@ -177,3 +187,136 @@
   - type: Tag
     tags:
     - ShotgunSentinel
+
+#region =NanoTrasen=
+
+
+
+
+
+#region Kammerer Citadel-T
+- type: entity
+  name: Kammerer Citadel-T
+  parent: [WeaponShotgunKammererCitadel]
+  id: WeaponShotgunKammererCitadelT
+  description: An old faithful design refurbished for modern applications given a holographic sight with status LEDs, and is a personal favorite amongst many NanoTransen Security forces. Uses .50 Shotgun Shells.
+  suffix: NT  
+  components:
+  - type: Item
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer_Citadel_T/inhands_64x.rsi
+  - type: Sprite
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer_Citadel_T/clothing.rsi
+  - type: Clothing
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer_Citadel_T/clothing.rsi
+  - type: UseDelay
+    delay: 1
+  - type: GunRequiresWield
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: Scope
+    canUseInsideContainer: true
+    canUseNightVision: true
+    zoomLevels:
+      - name: 1x
+        zoom: 1
+        offset: 7
+        doAfter: 0
+        allowMovement: true
+      - name: 1.5x
+        zoom: 1.5
+        offset: 0
+        doAfter: 0
+        allowMovement: true
+  - type: KnockbackByUserTag
+    doestContain:
+      Skating:
+        knockback: 2.5
+        staminaMultiplier: 50
+      Animal:
+        knockback: 3.5
+        staminaMultiplier: 20
+      Resomi:
+        knockback: 3.5
+        staminaMultiplier: 20
+      Felionoid:
+        knockback: 2.5
+        staminaMultiplier: 20
+      Avali:
+        knockback: 1.5
+        staminaMultiplier: 20
+  #type: Attachments (or smth)
+  #- Holo-Sight (+2.5 tile range / -2 Spread)
+  #- Light Stock (-0.5 ADS / +0.5 Speed / +2 Spread / +0.5 Knockback)
+  #- Status LEDs (+Gunstates)
+
+  # Compared to stock - (-0.5s ADS / +Gunstates / +0.5 Knockback / +0.5 speed / +2.5 tile range)
+#region =NeoSol=
+
+
+
+
+
+#region Kammerer Citadel-S
+- type: entity
+  name: Kammerer Citadel-S
+  parent: [WeaponShotgunKammererCitadel]
+  id: WeaponShotgunKammererCitadelS
+  description: An old faithful design refurbished for modern applications given a red dot sight, longer stock and shotgun choke, and is a personal favorite amongst many NeoSol Security forces. Uses .50 Shotgun Shells.
+  suffix: NS
+  components:
+  - type: Item
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer_Citadel_S/inhands_64x.rsi
+  - type: Gun
+    spread: 4 # Does literally nothing.
+    pump: true
+    fireRate: 2
+  - type: CursorOffsetRequiresWield
+  - type: EyeCursorOffset
+    maxOffset: 1
+    pvsIncrease: 0.1
+  - type: Sprite
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer_Citadel_S/sprite_64x32.rsi
+  - type: Clothing
+    sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer_Citadel_S/clothing.rsi
+  - type: UseDelay
+    delay: 2
+  - type: GunRequiresWield
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: Sharp
+  - type: MeleeWeapon
+    wideAnimationRotation: -90
+    attackRate: 1
+    damage:
+      types:
+        Slash: 22
+    soundHit: /Audio/Weapons/bladeslice.ogg
+    angle: 0
+    animation: WeaponArcThrust
+  - type: AltFireMelee
+  - type: KnockbackByUserTag
+    doestContain:
+      Skating:
+        knockback: 1.5
+        staminaMultiplier: 50
+      Animal:
+        knockback: 2.5
+        staminaMultiplier: 20
+      Resomi:
+        knockback: 2.5
+        staminaMultiplier: 20
+      Felionoid:
+        knockback: 1.5
+        staminaMultiplier: 20
+      Avali:
+        knockback: 0.5
+        staminaMultiplier: 20
+  #type: Attachments (or smth)
+  #- Red Dot Sight (+1 tile range / -0.5s ADS)
+  #- Choke (-4 Spread)
+  #- Heavy Stock (+0.5 ADS / -0.5 Speed / -2 Spread / -0.5 Knockback)
+  #- Gunsword (+0.5 ADS / +22 Slash melee)
+
+  # Compared to stock - (+0.5s ADS / +Melee / -6 Spread / -0.5 Knockback / -0.5 speed)
