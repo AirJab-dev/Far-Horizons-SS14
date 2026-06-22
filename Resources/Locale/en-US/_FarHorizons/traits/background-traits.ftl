@@ -6,3 +6,6 @@ trait-background-chromehead-description = For most, cybernetics are something th
 
 trait-background-vampire-name = Lesser Vampire
 trait-background-vampire-description = You are infected with an ancient virus, forcing you to consume blood for sustenance. It comes with various side-effects, both negative and positive.
+
+trait-background-custom-frame-name = Custom Frame
+trait-background-custom-frame-description = You frame is custom built to accept cyborg modules whether it was done by yourself, another person or built in from the start. This modifications came with a cost as they are power hungry due to the new systems.

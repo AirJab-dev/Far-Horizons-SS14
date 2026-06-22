@@ -54,3 +54,32 @@
       species:
         - IPC
       inverted: true
+
+- type: trait
+  id: CustomFrame
+  name: trait-background-custom-frame-name
+  description: trait-background-custom-frame-description
+  category: BackgroundTraits
+  cost: 2
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+      - type: PowerCellDraw
+        drawRate: 1.0
+      - type: ItemSlots
+        slots:
+          cell_slot:
+            name: power-cell-slot-component-slot-name-default
+            startingItem: PowerCellMedium
+          borg_module:             
+            name: Module
+            whitelist:
+              tags:
+              - BorgModuleGeneric
+    - !type:AddCompsEffect
+      components:
+      - type: IPCModules
+  requirements:
+    - !type:SpeciesRequirement
+      species:
+        - IPC
