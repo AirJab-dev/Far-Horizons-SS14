@@ -62,7 +62,6 @@ public sealed partial class IPCSystem : SharedIPCSystem
 
         InitializeUI();
         InitializeWeld();
-        InitializeModules();
 
         SubscribeLocalEvent<GetVerbsEvent<Verb>>(AddVerbs);
     }

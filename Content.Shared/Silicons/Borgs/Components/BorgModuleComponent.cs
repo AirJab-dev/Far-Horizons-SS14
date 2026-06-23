@@ -1,5 +1,5 @@
-﻿using Content.Shared._FarHorizons.Silicons.IPC; //FarHorizons
-using Robust.Shared.GameStates;
+﻿using Robust.Shared.GameStates;
+using Content.Shared._FarHorizons.Silicons.IPC; //FarHorizons
 
 namespace Content.Shared.Silicons.Borgs.Components;
 
