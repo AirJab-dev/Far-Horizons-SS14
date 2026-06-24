@@ -25,7 +25,16 @@
   id: BioSec
 
 - type: Tag
+  id: BorgModuleAdvanced
+
+- type: Tag
+  id: BorgModuleBasic
+
+- type: Tag
   id: BorgModuleCentcomm
+
+- type: Tag
+  id: BorgModuleCombat
 
 - type: Tag
   id: BorgModuleSecurity

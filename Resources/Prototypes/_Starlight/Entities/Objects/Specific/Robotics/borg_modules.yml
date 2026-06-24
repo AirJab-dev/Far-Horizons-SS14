@@ -69,6 +69,7 @@
   - type: Tag
     tags:
     - BorgModulePurrfus
+    - BorgModuleBasic #FH
   - type: Sprite
     sprite: Objects/Specific/Robotics/borgmodule.rsi
   - type: Item
@@ -127,7 +128,7 @@
 - type: entity
   id: BorgModuleBartending
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: bartending cyborg Module #FH-Edit
+  name: Bartending Cyborg Module #FH-Edit
   components:
   - type: Sprite
     layers:
@@ -304,7 +305,7 @@
 # region Syndicate
 - type: entity
   id: BorgModuleSyndicateAdvancedTool
-  parent: [ BaseBorgModule, BaseProviderBorgModule, BaseSyndicateContraband] #FH-Edit
+  parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseSyndicateContraband] #FH-Edit
   name: Syndicate Advanced Tool Cyborg Module #FH-Edit
   description: A syndicate version of the advanced tools module, containing disguised syndicate jaws of life.
   components:
@@ -325,7 +326,7 @@
 
 - type: entity
   id: BorgModuleSyndicateAdvancedChemical
-  parent: [ BaseBorgModule, BaseProviderBorgModule, BaseSyndicateContraband] #FH-Edit
+  parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseSyndicateContraband] #FH-Edit
   name: Syndicate Advanced Chemical Cyborg Module #FH-Edit
   description: A syndicate version of the advanced chemical module, including a gorlex hypospray.
   components:
@@ -380,7 +381,7 @@
 
 - type: entity
   id: BorgModuleSyndicateRescue
-  parent: [ BaseBorgModule, BaseProviderBorgModule, BaseSyndicateContraband ] #FH-Edi
+  parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseSyndicateContraband ] #FH-Edi
   name: Syndicate Rescue Cyborg Module #FH-Edit
   description: A syndicate version of the rescue module, featuring a syndicate defibrillator.
   components:
@@ -418,7 +419,7 @@
 
 - type: entity
   id: BorgModuleSyndicateChameleonProjector
-  parent: [ BaseBorgModule, BaseProviderBorgModule, BaseSyndicateContraband ] #FH-Edit
+  parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseSyndicateContraband ] #FH-Edit
   name: Syndicate Chameleon Cyborg Module #FH-Edit
   description: Contains an adaptation of the chameleon projector for the syndicate stealth cyborg.
   components:
@@ -435,7 +436,7 @@
     
 - type: entity
   id: BorgModuleSyndicatePaperwork
-  parent: [ BaseBorgModule, BaseProviderBorgModule, BaseSyndicateContraband ]
+  parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseSyndicateContraband ] #FH
   name: Syndicate Paperwork Cyborg Module #FH-Edit
   description: Allows for the forging of documents.
   components:
@@ -549,6 +550,7 @@
   - type: Tag
     tags:
     - BorgModuleMining
+    - BorgModuleBasic #FH
   - type: Item
     inhandVisuals:
       left:
@@ -577,6 +579,7 @@
   - type: Tag
     tags:
     - BorgModuleSupply
+    - BorgModuleBasic #FH
   - type: Item
     inhandVisuals:
       left:
@@ -692,6 +695,10 @@
     - item: BorgClamp
   - type: BorgModuleIcon
     icon: { sprite: _Starlight/Interface/Actions/actions_borg.rsi, state: loading-module }
+  - type: Tag
+    tags:
+    - BorgModuleSupply
+    - BorgModuleAdvanced #FH
 
 
 # Makeshift Start
