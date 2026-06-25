@@ -1,19 +1,20 @@
 using System.Linq;
+using Content.Shared._FarHorizons.UI.BackgroundTraits;
 using Content.Shared._FarHorizons.Vampire;
 using Content.Shared._Starlight.Traits.Effects;
 using Robust.Shared.Utility;
 
-namespace Content.Server._FarHorizons.Vampire;
+namespace Content.Server._FarHorizons.UI.BackgroundTraits;
 
-public partial class LesserVampireSystem
+public sealed partial class BackGroundTraitsSystem : EntitySystem
 {
     private void InitializeTraits()
     {
-        SubscribeLocalEvent<LesserVampireComponent, OpenVampireTraitsEvent>(OnOpenStore);
-        SubscribeLocalEvent<LesserVampireComponent, SubmitVampireTraitSelectionMessage>(OnSubmitTraits);
+        SubscribeLocalEvent<BackgroundTraitsComponent, OpenVampireTraitsEvent>(OnOpenStore);
+        SubscribeLocalEvent<BackgroundTraitsComponent, SubmitVampireTraitSelectionMessage>(OnSubmitTraits);
     }
 
-    private void OnSubmitTraits(Entity<LesserVampireComponent> ent, ref SubmitVampireTraitSelectionMessage args)
+    private void OnSubmitTraits(Entity<BackgroundTraitsComponent> ent, ref SubmitVampireTraitSelectionMessage args)
     {
         if (args.Actor != ent.Owner ||
             !ent.Comp.AllowTraitSelection)
@@ -47,7 +48,7 @@ public partial class LesserVampireSystem
             effect.Apply(effectCtx);
     }
 
-    private void OnOpenStore(Entity<LesserVampireComponent> ent, ref OpenVampireTraitsEvent args)
+    private void OnOpenStore(Entity<BackgroundTraitsComponent> ent, ref OpenVampireTraitsEvent args)
     {
         if (_ui.IsUiOpen(ent.Owner, ent.Comp.TraitsUiKey)) return;
         

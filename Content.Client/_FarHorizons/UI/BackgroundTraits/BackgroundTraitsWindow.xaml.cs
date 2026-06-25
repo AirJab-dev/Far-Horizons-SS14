@@ -8,7 +8,7 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Prototypes;
 
-namespace Content.Client._FarHorizons.Vampire;
+namespace Content.Client._FarHorizons.UI.BackgroundTraits;
 
 [GenerateTypedNameReferences]
 public sealed partial class VampireTraitsWindow : FancyWindow
@@ -16,8 +16,8 @@ public sealed partial class VampireTraitsWindow : FancyWindow
     [Dependency] private readonly IPrototypeManager _protoMan = default!;
     [Dependency] private readonly IResourceCache _resCache = default!;
 
-    private readonly List<LesserVampireTraitPrototype> _availableTraits;
-    private List<ProtoId<LesserVampireTraitPrototype>> _selectedTraits = new();
+    private readonly List<BackgroundTraitPrototype> _availableTraits;
+    private List<ProtoId<BackgroundTraitPrototype>> _selectedTraits = new();
 
     private static readonly Dictionary<int, string> _preloadCachePaths = new()
     {
@@ -43,7 +43,7 @@ public sealed partial class VampireTraitsWindow : FancyWindow
 
     private readonly Dictionary<int, Texture> _textureCache;
 
-    public Action<List<ProtoId<LesserVampireTraitPrototype>>>? SelectTraitsCallback;
+    public Action<List<ProtoId<BackgroundTraitPrototype>>>? SelectTraitsCallback;
 
     public VampireTraitsWindow()
     {
@@ -52,7 +52,7 @@ public sealed partial class VampireTraitsWindow : FancyWindow
 
         _textureCache = PreloadCache();
 
-        _availableTraits = _protoMan.EnumeratePrototypes<LesserVampireTraitPrototype>().ToList();
+        _availableTraits = _protoMan.EnumeratePrototypes<BackgroundTraitPrototype>().ToList();
         GenerateLists();
         RefreshButtons();
         UpdatePointsDisplay();
@@ -137,7 +137,7 @@ public sealed partial class VampireTraitsWindow : FancyWindow
     {
         var allSelected = PositiveTraits.GetSelected();
         if (allSelected.FirstOrDefault() is not { } selected ||
-            selected.Metadata is not LesserVampireTraitPrototype trait ||
+            selected.Metadata is not BackgroundTraitPrototype trait ||
             !IsCompatible(trait))
             return;
 
@@ -152,7 +152,7 @@ public sealed partial class VampireTraitsWindow : FancyWindow
     {
         var allSelected = NegativeTraits.GetSelected();
         if (allSelected.FirstOrDefault() is not { } selected ||
-            selected.Metadata is not LesserVampireTraitPrototype trait ||
+            selected.Metadata is not BackgroundTraitPrototype trait ||
             !IsCompatible(trait))
             return;
 
@@ -167,7 +167,7 @@ public sealed partial class VampireTraitsWindow : FancyWindow
     {
         var allSelected = SelectedTraits.GetSelected();
         if (allSelected.FirstOrDefault() is not { } selected ||
-            selected.Metadata is not LesserVampireTraitPrototype trait)
+            selected.Metadata is not BackgroundTraitPrototype trait)
             return;
 
         _selectedTraits.Remove(trait.ID);
@@ -221,28 +221,28 @@ public sealed partial class VampireTraitsWindow : FancyWindow
 
     private int GetCurrentPoints() =>
         _selectedTraits.Select(selected => _availableTraits.FirstOrDefault(p => p.ID == selected))
-            .OfType<LesserVampireTraitPrototype>().Aggregate(0, (current, trait) => current - trait.Cost);
+            .OfType<BackgroundTraitPrototype>().Aggregate(0, (current, trait) => current - trait.Cost);
 
     private void UpdatePointsDisplay() =>
         TotalPointsLabel.Text = Loc.GetString("lesser-vampire-ui-menu-points-label", ("value", GetCurrentPoints()));
 
-    private bool IsCompatible(ProtoId<LesserVampireTraitPrototype> target)
+    private bool IsCompatible(ProtoId<BackgroundTraitPrototype> target)
     {
         var proto = _availableTraits.FirstOrDefault(p => p.ID == target);
         if (proto == null) return false;
         return IsCompatible(proto);
     }
 
-    private bool IsCompatible(LesserVampireTraitPrototype target) =>
+    private bool IsCompatible(BackgroundTraitPrototype target) =>
         !_selectedTraits.Intersect(target.Incompatible).Any();
 
-    private LesserVampireTraitPrototype? GetCurrentSelected()
+    private BackgroundTraitPrototype? GetCurrentSelected()
     {
         var selected = PositiveTraits.GetSelected().ToList();
         selected.AddRange(NegativeTraits.GetSelected());
         selected.AddRange(SelectedTraits.GetSelected());
 
-        var selectedProtos = selected.Select(p => p.Metadata as LesserVampireTraitPrototype).ToList();
+        var selectedProtos = selected.Select(p => p.Metadata as BackgroundTraitPrototype).ToList();
 
         if (selectedProtos.Count != 1) return null;
         return selectedProtos.First();

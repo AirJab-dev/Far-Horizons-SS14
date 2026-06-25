@@ -1,11 +1,11 @@
+using Content.Shared._FarHorizons.UI.BackgroundTraits;
 using Content.Shared._FarHorizons.Vampire;
-using Content.Shared._FarHorizons.Vampire.Traits;
 using Robust.Client.UserInterface;
 using Robust.Shared.Prototypes;
 
-namespace Content.Client._FarHorizons.Vampire;
+namespace Content.Client._FarHorizons.UI.BackgroundTraits;
 
-public sealed partial class VampireTraitsBoundUserInterface(EntityUid owner, Enum uiKey) : BoundUserInterface(owner, uiKey)
+public sealed partial class BackgroundTraitsBoundUserInterface(EntityUid owner, Enum uiKey) : BoundUserInterface(owner, uiKey)
 {
     private VampireTraitsWindow? _window;
 
@@ -17,6 +17,6 @@ public sealed partial class VampireTraitsBoundUserInterface(EntityUid owner, Enu
         _window.SelectTraitsCallback += SubmitTraits;
     }
 
-    private void SubmitTraits(List<ProtoId<LesserVampireTraitPrototype>> traits) =>
+    private void SubmitTraits(List<ProtoId<BackgroundTraitPrototype>> traits) =>
         SendMessage(new SubmitVampireTraitSelectionMessage(traits));
 }
