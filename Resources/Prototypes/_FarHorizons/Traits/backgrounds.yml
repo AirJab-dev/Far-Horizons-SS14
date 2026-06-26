@@ -96,9 +96,22 @@
               - BorgModuleCombat
     - !type:AddCompsEffect
       components:
-      - type: IPCModules
-    - !type:SpawnItemInHandEffect
-      item: BorgModuleSelector
+      - type: BackgroundTraits
+        traitsAction: ActionOpenCustomFrameTraits
+        traitsUiKey: enum.BackgroundTraitsUiKey.Key
+        allowTraitSelection: true
+        traits: 
+          #Negative
+          - OvervoltedI
+          - OvervoltedII
+          - CheapOilFilter
+          - CompromisedIntegrity
+          - RadiationVulnerability
+          #Positive
+          - UndervoltedI
+          - UndervoltedII
+          - RepairNanites
+          - DeluxeOilFilter
   requirements:
     - !type:SpeciesRequirement
       species:

@@ -328,6 +328,8 @@
       enum.ThavenMoodsUiKey.Key: # impstation edit
         type: ThavenMoodsBoundUserInterface
         requireInputValidation: false
+      enum.BackgroundTraitsUiKey.Key:
+        type: BackgroundTraitsBoundUserInterface
   - type: ActivatableUI
     key: enum.IPCUiKey.Key
   - type: UIRequiresLock

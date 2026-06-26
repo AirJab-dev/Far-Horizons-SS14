@@ -1,0 +1,163 @@
+#region Negative Traits
+- type: backgroundTrait
+  id: OvervoltedI
+  name: custom-frame-trait-overvolted-i-name
+  description: custom-frame-trait-overvolted-i-description
+  incompatible:
+    - OvervoltedII
+    - UndervoltedI
+    - UndervoltedII
+  cost: -2
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+        - type: PowerCellDraw
+          drawRate: 0.75
+
+- type: backgroundTrait
+  id: OvervoltedII
+  name: custom-frame-trait-overvolted-ii-name
+  description: custom-frame-trait-overvolted-ii-description
+  incompatible:
+    - OvervoltedI
+    - UndervoltedI
+    - UndervoltedII
+  cost: -4
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+        - type: PowerCellDraw
+          drawRate: 0.9
+
+- type: backgroundTrait
+  id: CheapOilFilter
+  name: custom-frame-trait-cheap-oil-filter-name
+  description: custom-frame-trait-cheap-oil-filter-description
+  incompatible: 
+    - DeluxeOilFilter
+  cost: -3
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+      - type: Bloodstream
+        bloodReferenceSolution:
+          reagents:
+          - ReagentId: Oil
+            Quantity: 300
+        bleedReductionAmount: 0
+        bloodlossThreshold: 0.75
+        bloodRefreshAmount: 0
+        bloodlossDamage:
+          types:
+            Bloodloss: 0.5
+        bloodlossHealDamage:
+          types:
+            Bloodloss: -1
+
+- type: backgroundTrait
+  id: CompromisedIntegrity
+  name: custom-frame-trait-compromised-integrity-name
+  description: custom-frame-trait-compromised-integrity-description
+  incompatible:
+    - IonStormVulnerability
+  cost: -6
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+      - type: Damageable
+        damageContainer: Robotic
+        damageModifierSet: IPCWeaker
+
+- type: backgroundTrait
+  id: RadiationVulnerability
+  name: custom-frame-trait-radiation-vulnerability-name
+  description: custom-frame-trait-radiation-vulnerability-description
+  incompatible:
+    - CompromisedIntegrity
+  cost: -6
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+      - type: Damageable
+        damageContainer: Robotic
+        damageModifierSet: IPCRadiation
+      - type: GlitchOnIonStorm
+        duration: 60
+        ramp: 5
+
+#region Positive Traits
+
+- type: backgroundTrait
+  id: UndervoltedI
+  name: custom-frame-trait-undervolted-i-name
+  description: custom-frame-trait-undervolted-i-description
+  incompatible:
+    - UndervoltedII
+    - OvervoltedI
+    - OvervoltedII
+  cost: 2
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+        - type: PowerCellDraw
+          drawRate: 0.5
+
+- type: backgroundTrait
+  id: UndervoltedII
+  name: custom-frame-trait-undervolted-ii-name
+  description: custom-frame-trait-undervolted-ii-description
+  incompatible:
+    - UndervoltedI
+    - OvervoltedI
+    - OvervoltedII
+  cost: 4
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+        - type: PowerCellDraw
+          drawRate: 0.4
+
+- type: backgroundTrait
+  id: RepairNanites
+  name: custom-frame-trait-repair-nanites-name
+  description: custom-frame-trait-repair-nanites-description
+  cost: 5
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+      - type: PassiveDamage 
+        allowedStates:
+        - Alive
+        - ActiveCritical
+        damageCap: 75
+        damage:
+          types:
+            Heat: -0.1
+            Blunt: -0.1
+            Piercing: -0.1
+            Slash: -0.1
+
+- type: backgroundTrait
+  id: DeluxeOilFilter
+  name: custom-frame-trait-deluxe-oil-filter-name
+  description: custom-frame-trait-deluxe-oil-filter-description
+  incompatible: 
+    - CheapOilFilter
+  cost: 4
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+      - type: Bloodstream
+        bloodReferenceSolution:
+          reagents:
+          - ReagentId: Oil
+            Quantity: 300
+        bleedReductionAmount: 0.33
+        bloodlossThreshold: 0.75
+        bloodRefreshAmount: 2
+        bloodlossDamage:
+          types:
+            Bloodloss: 0.5
+        bloodlossHealDamage:
+          types:
+            Bloodloss: -1

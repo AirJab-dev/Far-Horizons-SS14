@@ -1,8 +1,6 @@
 using Content.Shared._FarHorizons.Silicons.IPC.Components;
 using Content.Shared.Emag.Systems;
-using Content.Shared.PowerCell.Components;
 using Content.Shared.Silicons.Borgs.Components;
-using Content.Shared.Tag;
 using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 
@@ -28,14 +26,6 @@ public abstract partial class SharedIPCSystem
         if (module.Installed)
             return;
 
-        if(TryComp<TagComponent>(args.Entity, out var tag))
-        {
-            var tags = tag.Tags;
-            if(tags.Contains("BorgModuleBasic"))
-                _powerCell.SetDrawRate(ent.Owner, 0.80f);
-            else if(tags.Contains("BorgModuleAdvanced") || tags.Contains("BorgModuleSyndicate"))
-                _powerCell.SetDrawRate(ent.Owner, 1.0f);
-        }
         module.InstalledEntity = ent.Owner;
         Dirty(args.Entity, module);
         var ev = new BorgModuleInstalledEvent(ent.Owner);
@@ -49,12 +39,6 @@ public abstract partial class SharedIPCSystem
 
         if (!module.Installed || args.Container.ID != ent.Comp.ModuleContainerId)
             return;
-
-        if(_proto.TryIndex<EntityPrototype>(_baseIPC, out var entProto) && 
-            entProto.TryGetComponent<PowerCellDrawComponent>(out var drawComp, _compFact))
-        {
-            _powerCell.SetDrawRate(ent.Owner, drawComp.DrawRate);
-        }
 
         module.InstalledEntity = null;
         Dirty(args.Entity, module);

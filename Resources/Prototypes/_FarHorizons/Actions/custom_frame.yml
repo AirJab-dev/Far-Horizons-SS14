@@ -1,0 +1,14 @@
+- type: entity
+  parent: BaseAction
+  id: ActionOpenCustomFrameTraits
+  name: Custom Frame Traits
+  description: Select your modifications.
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: -20
+    icon:
+      sprite: _FarHorizons/Interface/Actions/actions_custom_frame.rsi
+      state: trait_selection
+  - type: InstantAction
+    event: !type:OpenBackgroundTraitsEvent
