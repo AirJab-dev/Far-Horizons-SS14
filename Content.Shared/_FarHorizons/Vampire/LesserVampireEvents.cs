@@ -1,5 +1,3 @@
-using Content.Shared._FarHorizons.Vampire.Traits;
-using Content.Shared.Actions;
 using Content.Shared.DoAfter;
 using Content.Shared.Metabolism;
 using Robust.Shared.Prototypes;
@@ -39,11 +37,3 @@ public record struct OnVampireBite(Entity<LesserVampireComponent> Vampire, Entit
 
 [ByRefEvent]
 public record struct VampireFangsCheck(bool FangsHidden = false);
-
-public sealed partial class OpenVampireTraitsEvent : InstantActionEvent;
-
-[Serializable, NetSerializable]
-public sealed class SubmitVampireTraitSelectionMessage(List<ProtoId<LesserVampireTraitPrototype>> selection) : BoundUserInterfaceMessage
-{
-    public List<ProtoId<LesserVampireTraitPrototype>> Selection = selection;
-}

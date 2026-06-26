@@ -21,14 +21,9 @@ public sealed partial class LesserVampireSystem : SharedLesserVampireSystem
     public override void Initialize()
     {
         base.Initialize();
-        InitializeTraits();
 
-        SubscribeLocalEvent<LesserVampireComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<MetabolizerComponent, BodyRelayedEvent<MakeVampireOrganEvent>>(OnConvertOrgan);
     }
-
-    private void OnMapInit(Entity<LesserVampireComponent> ent, ref MapInitEvent args) =>
-        MakeVampire(ent.AsNullable());
 
     private void OnConvertOrgan(Entity<MetabolizerComponent> ent, ref BodyRelayedEvent<MakeVampireOrganEvent> args)
     {
@@ -53,9 +48,6 @@ public sealed partial class LesserVampireSystem : SharedLesserVampireSystem
 
         if (!reactive.ReactiveGroups.ContainsKey("Unholy"))
             reactive.ReactiveGroups.Add("Unholy", [ReactionMethod.Touch]);
-
-        if (ent.Comp.AllowTraitSelection)
-            _actions.AddAction(ent, ent.Comp.TraitsAction);
 
         var ev = new MakeVampireOrganEvent(ent.Comp.Metabolizer);
         RaiseLocalEvent(ent, ref ev);

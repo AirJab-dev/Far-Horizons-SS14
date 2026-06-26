@@ -46,9 +46,25 @@
         metabolizer: LesserVampire
         drinkDelay: 2
         drinkAmount: 4 # Tiny little sips, we wouldn't want to hurt anyone, would we?
+      - type: BackgroundTraits
         traitsAction: ActionOpenVampireTraits
-        traitsUiKey: enum.VampireTraitsUiKey.Key
+        traitsUiKey: enum.BackgroundTraitsUiKey.Key
         allowTraitSelection: true
+        traits: 
+          - Scavenger
+          - BloodDependencyI
+          - InsatiableHunger
+          - Gourmand
+          - Defanged
+          - UvSensitivity
+          - BloodDependencyII
+          - ExtendableFangs
+          - Charm
+          - AbsorbLanguage
+          - Transfusion
+          - SupernaturalStrength
+          - HealingBlood
+          - Conversion
   requirements:
     - !type:SpeciesRequirement
       species:

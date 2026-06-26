@@ -11,7 +11,7 @@
       sprite: Interface/Actions/actions_vampire.rsi
       state: fullpotential
   - type: InstantAction
-    event: !type:OpenVampireTraitsEvent
+    event: !type:OpenBackgroundTraitsEvent
 
 - type: entity
   parent: BaseAction
