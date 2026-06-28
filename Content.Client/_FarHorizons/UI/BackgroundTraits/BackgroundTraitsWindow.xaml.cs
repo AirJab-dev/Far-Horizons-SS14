@@ -76,6 +76,7 @@ public sealed partial class BackgroundTraitsWindow : FancyWindow
             return;
         
         _availableTraits = traitsComp.Traits;
+        Title = Loc.GetString(traitsComp.WindowName);
 
         GenerateLists();
         RefreshButtons();

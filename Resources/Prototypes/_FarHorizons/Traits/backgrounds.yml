@@ -50,6 +50,7 @@
         traitsAction: ActionOpenVampireTraits
         traitsUiKey: enum.BackgroundTraitsUiKey.Key
         allowTraitSelection: true
+        windowName: lesser-vampire-ui-menu-title
         traits: 
           - Scavenger
           - BloodDependencyI

@@ -8,6 +8,7 @@ public sealed partial class BackgroundTraitsComponent : Component
 {
     [DataField] public EntProtoId TraitsAction = "ActionOpenVampireTraits";
     [DataField] public Enum TraitsUiKey = BackgroundTraitsUiKey.Key;
+    [DataField, AutoNetworkedField] public string WindowName = "Traits Menu";
     [DataField, AutoNetworkedField] public List<ProtoId<BackgroundTraitPrototype>> Traits = new();
     [DataField] public bool AllowTraitSelection = true;
     [ViewVariables(VVAccess.ReadOnly)] public List<ProtoId<BackgroundTraitPrototype>>? SelectedTraits;
