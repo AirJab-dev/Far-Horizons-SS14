@@ -609,4 +609,22 @@ public abstract class SharedBloodstreamSystem : EntitySystem
         return bloodSolution.GetColor(null);
     }
     //starlight end
+
+    //FarHorizons Start
+    public void SetBloodRefreshRate(Entity<BloodstreamComponent?> ent, FixedPoint2 value)
+    {
+        if (!Resolve(ent, ref ent.Comp, logMissing: false))
+            return;
+        
+        ent.Comp.BloodRefreshAmount = value;
+    }
+
+    public void SetBloodReductionAmount(Entity<BloodstreamComponent?> ent, float value)
+    {
+        if (!Resolve(ent, ref ent.Comp, logMissing: false))
+            return;
+        
+        ent.Comp.BleedReductionAmount = value;
+    }
+    //FarHorizons End
 }
