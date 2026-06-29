@@ -211292,15 +211292,6 @@ entities:
     - type: Transform
       pos: -46.41005,62.395233
       parent: 2
-- proto: WeaponPistolGoldenMk58
-  entities:
-  - uid: 33356
-    components:
-    - type: MetaData
-      desc: A heavy, expensive sidearm, produced by a Nanotrasen subsidiary. Uses .35 auto ammo
-    - type: Transform
-      pos: -23.430008,71.83708
-      parent: 2
 - proto: WeaponRifleFoam
   entities:
   - uid: 33357

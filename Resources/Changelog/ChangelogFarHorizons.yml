@@ -15378,5 +15378,123 @@ Entries:
   id: 140701
   time: '2026-06-22T10:02:02.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1407
+- author: Killer Tamashi
+  changes:
+  - message: Added Ammo Bundle Selector to Loneops Ship.
+    type: Add
+  id: 141000
+  time: '2026-06-22T18:47:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1410
+- author: Killer Tamashi
+  changes:
+  - message: Fixed WT500 spread being somehow worse when wielded.
+    type: Fix
+  id: 141001
+  time: '2026-06-22T18:47:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1410
+- author: Killer Tamashi
+  changes:
+  - message: Fixed .44 Magnum magazines spawning as SP in the FMJ ammo bundle.
+    type: Fix
+  id: 141002
+  time: '2026-06-22T18:47:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1410
+- author: princess_gurchi
+  changes:
+  - message: 'New enemy type for dungeons: Flesh. An easier enemy to tackle before
+      you have gear.'
+    type: Add
+  id: 141200
+  time: '2026-06-26T01:58:24.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1412
+- author: princess_gurchi
+  changes:
+  - message: 'New salvage dungeon: Factory.'
+    type: Add
+  id: 141201
+  time: '2026-06-26T01:58:24.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1412
+- author: princess_gurchi
+  changes:
+  - message: 'New salvage mission: Disarm. This is a rare mission to roll, you will
+      need to find codes and enter them into correct consoles to disarm factory''s
+      self-destruct sequence.'
+    type: Add
+  id: 141202
+  time: '2026-06-26T01:58:24.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1412
+- author: FAR HORIZONS TEAM
+  changes:
+  - message: Engine update 272.0.5.
+    type: Tweak
+  id: 141400
+  time: '2026-06-26T18:06:40.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1414
+- author: princess_gurchi
+  changes:
+  - message: There's now a bit less meat spawning in meat expeditions
+    type: Tweak
+  id: 141600
+  time: '2026-06-27T10:46:50.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1416
+- author: Killer Tamashi
+  changes:
+  - message: Removed Decimus & Thanatos
+    type: Remove
+  id: 141700
+  time: '2026-06-27T10:52:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1417
+- author: Killer Tamashi
+  changes:
+  - message: Removed Golden MK 57
+    type: Remove
+  id: 141701
+  time: '2026-06-27T10:52:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1417
+- author: princess_gurchi
+  changes:
+  - message: Friendship ended with Urist. You can now select which species will be
+      used in limb targetting UI. General tab in settings
+    type: Add
+  id: 141800
+  time: '2026-06-27T17:19:48.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1418
+- author: princess_gurchi
+  changes:
+  - message: You can also set it to automatically match the species you currently
+      play
+    type: Add
+  id: 141801
+  time: '2026-06-27T17:19:48.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1418
+- author: princess_gurchi
+  changes:
+  - message: Splitting flesh enemies in salvage dungeons won't split if they are on
+      fire when they die
+    type: Tweak
+  id: 142100
+  time: '2026-06-27T17:35:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1421
+- author: qriqii
+  changes:
+  - message: Made proot cybernetics only visible when they logically should be visible.
+    type: Tweak
+  id: 142400
+  time: '2026-06-28T00:00:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1424
+- author: qriqii
+  changes:
+  - message: Allowed proots to use pockets regardless of clothing.
+    type: Tweak
+  id: 142401
+  time: '2026-06-28T00:00:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1424
+- author: qriqii
+  changes:
+  - message: Fixed protoavali missing outerclothing displacements.
+    type: Fix
+  id: 142402
+  time: '2026-06-28T00:00:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1424
 Order: -1
 
