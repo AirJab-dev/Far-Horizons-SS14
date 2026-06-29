@@ -1,26 +1,24 @@
-using Robust.Shared.Prototypes;
+using Content.Shared._FarHorizons.UI.BackgroundTraits;
 
 namespace Content.Shared._FarHorizons.Vampire.Traits;
 
-public abstract partial class LesserVampireTraitComponent : Component
+public abstract partial class LesserVampireTraitComponent : BackgroundTraitComponent
 {
     [DataField] public float PassiveDrain;
 }
 
-public abstract partial class LesserVampirePassiveTraitComponent : LesserVampireTraitComponent
+public abstract partial class LesserVampirePassiveTraitComponent : BackgroundPassiveTraitComponent
 {
-    [DataField] public TimeSpan TickRate = TimeSpan.Zero;
-    [ViewVariables(VVAccess.ReadOnly)] public TimeSpan NextUpdate = TimeSpan.Zero;
+    [DataField] public float PassiveDrain;
 }
 
-public abstract partial class LesserVampireActionTraitComponent : LesserVampireTraitComponent
+public abstract partial class LesserVampireActionTraitComponent : BackgroundActionTraitComponent
 {
-    [DataField(required: true)] public EntProtoId Action;
+    [DataField] public float PassiveDrain;
 }
 
-public abstract partial class LesserVampireToggleActionComponent : LesserVampireActionTraitComponent
+public abstract partial class LesserVampireToggleActionComponent : BackgroundToggleActionComponent
 {
+    [DataField] public float PassiveDrain;
     [DataField] public float DrainWhenToggled;
-
-    [DataField, AutoNetworkedField] public bool Toggled;
 }

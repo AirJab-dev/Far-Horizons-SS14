@@ -1,10 +1,11 @@
 using System.Linq;
-using Content.Shared._FarHorizons.UI.BackgroundTraits;
 using Content.Shared.Actions;
+using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
+using Robust.Shared.Utility;
 
-namespace Content.Shared._FarHorizons.Vampire;
+namespace Content.Shared._FarHorizons.UI.BackgroundTraits;
 
 public abstract partial class SharedBackgroundTraitSystem : EntitySystem
 {
@@ -35,3 +36,125 @@ public abstract partial class SharedBackgroundTraitSystem : EntitySystem
         return points >= 0 ? result : [];
     }
 }
+
+public abstract class BackgroundTraitSystem<TBase, T> : EntitySystem
+    where TBase : Component
+    where T : Component
+{
+    public override void Initialize()
+    {
+        base.Initialize();
+        SubscribeLocalEvent<T, MapInitEvent>(OnInit);
+    }
+
+    private void OnInit(Entity<T> ent, ref MapInitEvent args)
+    {
+        if (!TryComp<TBase>(ent, out var anchor)) return;
+        TraitInit((ent.Owner, anchor, ent.Comp));
+    }
+
+    protected virtual void TraitInit(Entity<TBase, T> ent) { }
+}
+
+public abstract class BackgroundPassiveTraitSystem<TBase, T> : BackgroundTraitSystem<TBase, T>
+    where TBase : Component
+    where T : BackgroundPassiveTraitComponent
+{
+    [Dependency] protected readonly IGameTiming Timing = default!;
+
+    public override void Update(float frameTime)
+    {
+        base.Update(frameTime);
+
+        var query = EntityManager.AllEntityQueryEnumerator<TBase, T>();
+        while (query.MoveNext(out var uid, out var anchor, out var comp))
+        {
+            if (comp.TickRate == TimeSpan.Zero || Timing.CurTime < comp.NextUpdate) continue;
+            comp.NextUpdate = Timing.CurTime + comp.TickRate;
+            UpdateEffect((uid, anchor, comp));
+        }
+    }
+
+    protected virtual void UpdateEffect(Entity<TBase, T> ent) { }
+}
+
+public abstract class BackgroundActionTraitSystem<TBase, T, TEvent> : BackgroundTraitSystem<TBase, T>
+    where TBase : Component
+    where T : BackgroundActionTraitComponent
+    where TEvent : BaseActionEvent
+{
+    [Dependency] protected readonly SharedActionsSystem Actions = default!;
+
+    public override void Initialize()
+    {
+        base.Initialize();
+        SubscribeLocalEvent<T, TEvent>(OnActionUsed);
+    }
+
+    private void OnActionUsed(Entity<T> ent, ref TEvent args)
+    {
+        if (!TryComp<TBase>(ent, out var anchor)) return;
+        ActionUsed((ent.Owner, anchor, ent.Comp), ref args);
+    }
+
+    protected override void TraitInit(Entity<TBase, T> ent)
+    {
+        base.TraitInit(ent);
+        Actions.AddAction(ent, ent.Comp2.Action);
+    }
+
+    protected virtual void ActionUsed(Entity<TBase, T> ent, ref TEvent args) { }
+}
+
+public abstract class BackgroundToggleActionTraitSystem<TBase, T, TEvent> : BackgroundActionTraitSystem<TBase, T, TEvent>
+    where TBase : Component
+    where T : BackgroundToggleActionComponent
+    where TEvent : InstantActionEvent
+{
+    [Dependency] private readonly INetManager _net = default!;
+
+    public override void Initialize() => base.Initialize();
+
+    protected override void TraitInit(Entity<TBase, T> ent)
+    {
+        base.TraitInit(ent);
+
+        var action = Actions.GetActions(ent)
+            .Where(p => MetaData(p).EntityPrototype is { } entProto && entProto.ID == ent.Comp2.Action)
+            .FirstOrNull();
+
+        if (action == null) return;
+
+        Actions.SetToggled(action.Value.AsNullable(), ent.Comp2.Toggled);
+        OnToggled(ent);
+    }
+
+    protected override void ActionUsed(Entity<TBase, T> ent, ref TEvent args)
+    {
+        base.ActionUsed(ent, ref args);
+
+        if (_net.IsServer)
+        {
+            ent.Comp2.Toggled = !ent.Comp2.Toggled;
+            Dirty(ent);
+        }
+
+        Actions.SetToggled(args.Action.AsNullable(), ent.Comp2.Toggled);
+        OnToggled(ent);
+    }
+
+    protected virtual void OnToggled(Entity<TBase, T> ent) { }
+}
+public abstract class BackgroundTraitSystem<T> : BackgroundTraitSystem<BackgroundTraitComponent, T>
+    where T : BackgroundTraitComponent { }
+
+public abstract class BackgroundPassiveTraitSystem<T> : BackgroundPassiveTraitSystem<BackgroundTraitComponent, T>
+    where T : BackgroundPassiveTraitComponent { }
+
+public abstract class BackgroundActionTraitSystem<T, TEvent> : BackgroundActionTraitSystem<BackgroundTraitComponent, T, TEvent>
+    where T : BackgroundActionTraitComponent
+    where TEvent : BaseActionEvent { }
+
+public abstract class BackgroundToggleActionTraitSystem<T, TEvent> : BackgroundToggleActionTraitSystem<BackgroundTraitComponent, T, TEvent>
+    where T : BackgroundToggleActionComponent
+    where TEvent : InstantActionEvent { }

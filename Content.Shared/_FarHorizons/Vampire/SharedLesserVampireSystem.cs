@@ -1,5 +1,3 @@
-using System.Linq;
-using Content.Shared._FarHorizons.Vampire.Traits;
 using Content.Shared.Body.Systems;
 using Content.Shared.Chemistry;
 using Content.Shared.Chemistry.EntitySystems;

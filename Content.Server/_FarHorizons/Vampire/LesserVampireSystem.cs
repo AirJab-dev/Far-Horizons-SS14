@@ -11,19 +11,17 @@ using Robust.Server.GameObjects;
 namespace Content.Server._FarHorizons.Vampire;
 
 public sealed partial class LesserVampireSystem : SharedLesserVampireSystem
-{
-    [Dependency] private readonly IComponentFactory _compFactory = default!;
-    [Dependency] private readonly ILogManager _log = default!;
-    [Dependency] private readonly MetabolizerSystem _metabolism = default!;
-    [Dependency] private readonly ActionsSystem _actions = default!;
-    [Dependency] private readonly UserInterfaceSystem _ui = default!;
+{    [Dependency] private readonly MetabolizerSystem _metabolism = default!;
 
     public override void Initialize()
     {
         base.Initialize();
-
+        SubscribeLocalEvent<LesserVampireComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<MetabolizerComponent, BodyRelayedEvent<MakeVampireOrganEvent>>(OnConvertOrgan);
     }
+
+    private void OnMapInit(Entity<LesserVampireComponent> ent, ref MapInitEvent args) 
+        => MakeVampire(ent.AsNullable());
 
     private void OnConvertOrgan(Entity<MetabolizerComponent> ent, ref BodyRelayedEvent<MakeVampireOrganEvent> args)
     {
