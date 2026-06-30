@@ -108,6 +108,7 @@
           - CheapOilFilter
           - CompromisedIntegrity
           - RadiationVulnerability
+          - BloodPowered
           #Positive
           - UndervoltedI
           - UndervoltedII

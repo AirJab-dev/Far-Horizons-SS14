@@ -1,6 +1,5 @@
 using System.Linq;
 using Content.Shared._FarHorizons.UI.BackgroundTraits;
-using Content.Shared._FarHorizons.Vampire;
 using Content.Shared._Starlight.Traits.Effects;
 using Robust.Shared.Utility;
 
