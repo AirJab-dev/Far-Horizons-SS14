@@ -41,7 +41,7 @@
   - type: Tag
     tags:
     - BorgModuleGeneric
-    - BorgModuleCombat
+    - BorgModuleIPCIncompatible
     - BorgModuleSyndicate
   - type: Item
     inhandVisuals:
@@ -281,7 +281,6 @@
   - type: Tag
     tags:
     - BorgModuleJanitor
-    - BorgModuleAdvanced 
 
 - type: entity
   parent: [ BaseBorgModuleMining, BaseProviderBorgModule ]

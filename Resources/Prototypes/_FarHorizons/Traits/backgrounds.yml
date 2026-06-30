@@ -79,22 +79,6 @@
   category: BackgroundTraits
   cost: 2
   effects:
-    - !type:OverrideCompsEffect
-      components:
-      - type: ItemSlots
-        slots:
-          cell_slot:
-            name: power-cell-slot-component-slot-name-default
-            startingItem: PowerCellMedium
-          borg_module:             
-            name: Module
-            whitelist:
-              tags:
-              - BorgModuleAdvanced
-              - BorgModuleBasic
-            blacklist:
-              tags:
-              - BorgModuleCombat
     - !type:AddCompsEffect
       components:
       - type: BackgroundTraits
@@ -109,11 +93,13 @@
           - CompromisedIntegrity
           - RadiationVulnerability
           - BloodPowered
+          - MicroreactorIncompatibility
           #Positive
           - UndervoltedI
           - UndervoltedII
           - RepairNanites
           - DeluxeOilFilter
+          - ModuleCompatibility
   requirements:
     - !type:SpeciesRequirement
       species:

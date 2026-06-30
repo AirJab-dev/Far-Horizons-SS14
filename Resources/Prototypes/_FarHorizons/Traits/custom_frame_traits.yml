@@ -72,7 +72,11 @@
   id: BloodPowered
   name: custom-frame-trait-blood-powered-name
   description: custom-frame-trait-blood-powered-description
-  cost: -4
+  cost: -5
+  incompatiblity: 
+  - RepairNanites
+  - DeluxeOilFilter
+  - MicroreactorIncompatibility
   effects:
     - !type:OverrideCompsEffect
       components:
@@ -102,11 +106,23 @@
               type: Local
               visualType: Large
               messages: [ "custom-frame-trait-blood-powered-healed" ]
-              probability: 0.25
+              probability: 1.0
       - type: BloodPoweredTrait
     - !type:RemCompsEffect
       components:
       - BatteryDrainer
+
+- type: backgroundTrait
+  id: MicroreactorIncompatibility
+  name: custom-frame-trait-microreactor-incompatibility-name
+  description: custom-frame-trait-microreactor-incompatibility-description
+  cost: -6
+  incompatible: 
+  - BloodPowered
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+      - type: MicroreactorIncompatibility
 
 #region Positive Traits
 
@@ -145,6 +161,8 @@
   name: custom-frame-trait-repair-nanites-name
   description: custom-frame-trait-repair-nanites-description
   cost: 5
+  incompatiblity: 
+  - BloodPowered
   effects:
     - !type:OverrideCompsEffect
       components:
@@ -166,6 +184,7 @@
   description: custom-frame-trait-deluxe-oil-filter-description
   incompatible: 
     - CheapOilFilter
+    - BloodPowered
   cost: 4
   effects:
     - !type:OverrideCompsEffect
@@ -173,3 +192,14 @@
       - type: ModifyBloodstreamTrait
         bloodRefreshRate: 2.0
         bloodReductionAmount: 0.33
+
+- type: backgroundTrait
+  id: ModuleCompatibility
+  name: custom-frame-trait-module-compatibility-name
+  description: custom-frame-trait-module-compatibility-description
+  cost: 9
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+      - type: CyborgModuleTrait
+      - type: IPCModules

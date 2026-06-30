@@ -19,6 +19,6 @@ public sealed partial class ModifyBatteryLevelEntityEffectSystem : EntityEffectS
         if (!_powerCell.TryGetBatteryFromSlot(ent.Owner, out var cell) || cell is not { } battery)
             return;
 
-        _battery.ChangeCharge((battery.Owner, battery.Comp), args.Effect.amount);
+        _battery.ChangeCharge((battery.Owner, battery.Comp), args.Effect.amount * args.Scale);
     }
 }

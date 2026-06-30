@@ -69,7 +69,7 @@
   - type: Tag
     tags:
     - BorgModulePurrfus
-    - BorgModuleBasic #FH
+    - BorgModuleIPCCompatible #FH
   - type: Sprite
     sprite: Objects/Specific/Robotics/borgmodule.rsi
   - type: Item
@@ -550,7 +550,7 @@
   - type: Tag
     tags:
     - BorgModuleMining
-    - BorgModuleBasic #FH
+    - BorgModuleIPCCompatible #FH
   - type: Item
     inhandVisuals:
       left:
@@ -579,7 +579,7 @@
   - type: Tag
     tags:
     - BorgModuleSupply
-    - BorgModuleBasic #FH
+    - BorgModuleIPCCompatible #FH
   - type: Item
     inhandVisuals:
       left:
@@ -698,8 +698,6 @@
   - type: Tag
     tags:
     - BorgModuleSupply
-    - BorgModuleAdvanced #FH
-
 
 # Makeshift Start
 

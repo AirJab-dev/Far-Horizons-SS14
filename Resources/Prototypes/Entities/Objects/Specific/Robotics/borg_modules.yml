@@ -36,7 +36,7 @@
   - type: Tag
     tags:
     - BorgModuleGeneric
-    - BorgModuleBasic #FH
+    - BorgModuleIPCCompatible #FH
   - type: GuideHelp
     guides:
     - Cyborgs
@@ -78,7 +78,7 @@
   - type: Tag
     tags:
     - BorgModuleCargo
-    - BorgModuleBasic #FH
+    - BorgModuleIPCCompatible #FH
   - type: Item
     inhandVisuals:
       left:
@@ -107,7 +107,7 @@
   - type: Tag
     tags:
     - BorgModuleEngineering
-    - BorgModuleBasic #FH
+    - BorgModuleIPCCompatible #FH
   - type: Item
     inhandVisuals:
       left:
@@ -138,7 +138,7 @@
   - type: Tag
     tags:
     - BorgModuleJanitor
-    - BorgModuleBasic #FH
+    - BorgModuleIPCCompatible #FH
   - type: Item
     inhandVisuals:
       left:
@@ -169,7 +169,7 @@
   - type: Tag
     tags:
     - BorgModuleMedical
-    - BorgModuleBasic #FH
+    - BorgModuleIPCCompatible #FH
   - type: Item
     inhandVisuals:
       left:
@@ -200,7 +200,7 @@
   - type: Tag
     tags:
     - BorgModuleScience
-    - BorgModuleBasic #FH
+    - BorgModuleIPCCompatible #FH
   - type: Item
     inhandVisuals:
       left:
@@ -231,7 +231,7 @@
   - type: Tag
     tags:
     - BorgModuleService
-    - BorgModuleBasic #FH
+    - BorgModuleIPCCompatible #FH
   - type: Item
     inhandVisuals:
       left:
@@ -678,12 +678,6 @@
     - item: RadioHandheldExpedition # Starlight
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: adv-mining-module }
-  #FarHorizons Start
-  - type: Tag
-    tags:
-    - BorgModuleMining
-    - BorgModuleAdvanced 
-  #FarHorizons End
 
 - type: entity
   id: BorgModuleTraversal
@@ -724,12 +718,6 @@
     - item: SprayPainterBorg # Starlight
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: adv-tools-module }
-  #FarHorizons Start
-  - type: Tag
-    tags:
-    - BorgModuleEngineering
-    - BorgModuleAdvanced 
-  #FarHorizons End
 
 - type: entity
   id: BorgModuleConstructionMaterialPlaceholder
@@ -913,12 +901,6 @@
     - item: FloorCleaner ##Far-Horizons
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: adv-cleaning-module }
-  #FarHorizons Start
-  - type: Tag
-    tags:
-    - BorgModuleJanitor
-    - BorgModuleAdvanced 
-  #FarHorizons End
 
 # medical modules
 - type: entity
@@ -1128,12 +1110,6 @@
     - item: HandLabeler
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: adv-chem-module }
-  #FarHorizons Start
-  - type: Tag
-    tags:
-    - BorgModuleMedical
-    - BorgModuleAdvanced 
-  #FarHorizons End
 
 # science modules
 # todo: if science ever gets their own custom robot, add more "sci" modules.
@@ -1358,12 +1334,6 @@
     - item: BikeHornInstrument
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: adv-clowning-module }
-  #FarHorizons Start
-  - type: Tag
-    tags:
-    - BorgModuleService
-    - BorgModuleAdvanced 
-  #FarHorizons End
 
 #syndicate modules
 - type: entity

@@ -15,8 +15,11 @@ custom-frame-trait-radiation-vulnerability-name = Radiation Vulnerability
 custom-frame-trait-radiation-vulnerability-description = Your frame was built with a cheaper grade of radiation proctection. (-30% Radiation resistance and +50% duration to Ion storm glitches)
 
 custom-frame-trait-blood-powered-name = Blood Powered
-custom-frame-trait-blood-powered-description = Your frame was build with a rather esoteric battery its capable of minor repairs and recharging on its own, but at the cost of requiring blood. (What it says on the tin)
+custom-frame-trait-blood-powered-description = Your frame was build with a rather esoteric battery its capable of minor repairs and recharging on its own, but at the cost of requiring blood. (Blood heals you and recharges your batter also batteries aren't swappable and you lose the ability to recharge from APCs)
 custom-frame-trait-blood-powered-healed = You feel the blood restoring your body.
+
+custom-frame-trait-microreactor-incompatibility-name = Microreactor Incompatibility
+custom-frame-trait-microreactor-incompatibility-description = Your frame was built in delicate internals that cannot withstand the radiation from a microreactor. (Disables microreactors insertion)
 
 #Positives
 custom-frame-trait-undervolted-i-name = Undervolted I
@@ -30,3 +33,6 @@ custom-frame-trait-repair-nanites-description = Your frame was built with an in-
 
 custom-frame-trait-deluxe-oil-filter-name = Deluxe Oil Filter
 custom-frame-trait-deluxe-oil-filter-description = Your frame was built with a deluxe oil filter its capable of clotting wounds and faster oil recycling. (Enables blood clotting and increased oil regeneration)
+
+custom-frame-trait-module-compatibility-name = Module Compatibility
+custom-frame-trait-module-compatibility-description = Your frame was built with the ability to support cyborg modules. (Allows cyborg modules to be installed)
