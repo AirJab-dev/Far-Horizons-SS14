@@ -63,5 +63,4 @@ public sealed partial class BackGroundTraitsSystem : SharedBackgroundTraitSystem
         
         _ui.OpenUi(ent.Owner, ent.Comp.TraitsUiKey, ent.Owner);
     }
-
 }
