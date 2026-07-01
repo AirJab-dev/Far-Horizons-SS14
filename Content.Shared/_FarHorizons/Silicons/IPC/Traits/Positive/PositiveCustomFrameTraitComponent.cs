@@ -1,4 +1,7 @@
 using Content.Shared._FarHorizons.IPC.Traits;
+using Content.Shared.Damage;
+using Content.Shared.FixedPoint;
+using Content.Shared.Mobs;
 using Robust.Shared.GameStates;
 
 namespace Content.Shared._FarHorizons.Silicons.IPC.Traits.Positive;
@@ -11,4 +14,16 @@ public sealed partial class OverclockingTraitComponent : IPCToggleActionComponen
 {
     [DataField] public float drawRateMultiplier = 2f;
     [DataField] public float speedModifier = 1.35f;
+}
+
+[RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
+public sealed partial class RepairNanitesTraitComponent : IPCToggleActionComponent
+{
+    [ViewVariables] public DamageSpecifier oldDamage = new();
+    [ViewVariables] public List<MobState> oldAllowedStates = new();
+    [ViewVariables] public FixedPoint2 oldDamageCap = 0;
+    [DataField] public float drawRateMultiplier = 3f;
+    [DataField("damage")] public DamageSpecifier Damage = new();
+    [DataField("allowedStates")] public List<MobState> AllowedStates = new();
+    [DataField("damageCap")] public FixedPoint2 DamageCap = 0;
 }

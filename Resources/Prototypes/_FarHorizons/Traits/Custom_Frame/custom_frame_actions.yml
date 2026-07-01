@@ -23,11 +23,30 @@
     itemIconStyle: BigAction
     priority: -20
     icon:
+      sprite: _FarHorizons/Interface/Actions/actions_custom_frame.rsi
+      state: trait_overclocking_off
+    iconOn:
+      sprite: _FarHorizons/Interface/Actions/actions_custom_frame.rsi
+      state: trait_overclocking_on
+    useDelay: 10
+  - type: InstantAction
+    event: !type:OverclockingTraitEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionCustomTraitRepairNanites
+  name: Repair Nanites Toggle
+  description: Activate your repair nanites.
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: -20
+    icon:
       sprite: Interface/Actions/actions_mecha.rsi
       state: mech_internals_off
     iconOn:
       sprite: Interface/Actions/actions_mecha.rsi
       state: mech_internals_on
-    useDelay: 10
+    useDelay: 5
   - type: InstantAction
-    event: !type:OverclockingTraitEvent
+    event: !type:RepairNanitesTraitEvent

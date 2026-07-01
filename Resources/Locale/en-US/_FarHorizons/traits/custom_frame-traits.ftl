@@ -29,7 +29,7 @@ custom-frame-trait-undervolted-ii-name = Undervolted II
 custom-frame-trait-undervolted-ii-description = Your frame was built with a undervolted power supply. (-30% power drain)
 
 custom-frame-trait-repair-nanites-name = Self Repair Nanites
-custom-frame-trait-repair-nanites-description = Your frame was built with an in-built nanite replicator cable of doing minor repairs on the go. (Enables regeneration)
+custom-frame-trait-repair-nanites-description = Your frame was built with an in-built nanite replicator capable of doing repairs on command but at the cost of extra power. (Adds ability that can toggle regeneration on and off)
 
 custom-frame-trait-deluxe-oil-filter-name = Deluxe Oil Filter
 custom-frame-trait-deluxe-oil-filter-description = Your frame was built with a deluxe oil filter its capable of clotting wounds and faster oil recycling. (Enables blood clotting and increased oil regeneration)
