@@ -197,9 +197,25 @@
   id: ModuleCompatibility
   name: custom-frame-trait-module-compatibility-name
   description: custom-frame-trait-module-compatibility-description
+  incompatible: 
+    - Overclocking
   cost: 9
   effects:
     - !type:OverrideCompsEffect
       components:
       - type: CyborgModuleTrait
       - type: IPCModules
+
+
+- type: backgroundTrait
+  id: Overclocking
+  name: custom-frame-trait-overclocking-name
+  description: custom-frame-trait-overclocking-description
+  incompatible: 
+    - ModuleCompatibility
+  cost: 9
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+      - type: OverclockingTrait
+        action: ActionCustomTraitOverclocking

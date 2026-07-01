@@ -36,3 +36,6 @@ custom-frame-trait-deluxe-oil-filter-description = Your frame was built with a d
 
 custom-frame-trait-module-compatibility-name = Module Compatibility
 custom-frame-trait-module-compatibility-description = Your frame was built with the ability to support cyborg modules. (Allows cyborg modules to be installed)
+
+custom-frame-trait-overclocking-name = Overclocking
+custom-frame-trait-overclocking-description = Your frame was built with the ability to redirect power from your fans directly to your servos. (Adds ability that shuts down your cooling fans but increases your speed by x1.35 and cosnumes some power)

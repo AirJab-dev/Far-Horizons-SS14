@@ -1,0 +1,33 @@
+- type: entity
+  parent: BaseAction
+  id: ActionOpenCustomFrameTraits
+  name: Custom Frame Traits
+  description: Select your modifications.
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: -20
+    icon:
+      sprite: _FarHorizons/Interface/Actions/actions_custom_frame.rsi
+      state: trait_selection
+  - type: InstantAction
+    event: !type:OpenBackgroundTraitsEvent
+    
+- type: entity
+  parent: BaseAction
+  id: ActionCustomTraitOverclocking
+  name: Overclocking
+  description: Turn up the voltage going to your legs at the cost of shutting down your fans for extra speed.
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: -20
+    icon:
+      sprite: Interface/Actions/actions_mecha.rsi
+      state: mech_internals_off
+    iconOn:
+      sprite: Interface/Actions/actions_mecha.rsi
+      state: mech_internals_on
+    useDelay: 10
+  - type: InstantAction
+    event: !type:OverclockingTraitEvent

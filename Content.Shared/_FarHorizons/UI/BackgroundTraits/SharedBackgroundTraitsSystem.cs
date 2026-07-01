@@ -95,6 +95,7 @@ public abstract class BackgroundActionTraitSystem<TBase, T, TEvent> : Background
     {
         if (!TryComp<TBase>(ent, out var anchor)) return;
         ActionUsed((ent.Owner, anchor, ent.Comp), ref args);
+        args.Handled = true;
     }
 
     protected override void TraitInit(Entity<TBase, T> ent)
@@ -126,7 +127,6 @@ public abstract class BackgroundToggleActionTraitSystem<TBase, T, TEvent> : Back
         if (action == null) return;
 
         Actions.SetToggled(action.Value.AsNullable(), ent.Comp2.Toggled);
-        OnToggled(ent);
     }
 
     protected override void ActionUsed(Entity<TBase, T> ent, ref TEvent args)
@@ -140,10 +140,11 @@ public abstract class BackgroundToggleActionTraitSystem<TBase, T, TEvent> : Back
         }
 
         Actions.SetToggled(args.Action.AsNullable(), ent.Comp2.Toggled);
-        OnToggled(ent);
+        OnToggled(ent, ent.Comp2.Toggled);
+        args.Handled = true;
     }
 
-    protected virtual void OnToggled(Entity<TBase, T> ent) { }
+    protected virtual void OnToggled(Entity<TBase, T> ent, bool toggle) { }
 }
 public abstract class BackgroundTraitSystem<T> : BackgroundTraitSystem<BackgroundTraitComponent, T>
     where T : BackgroundTraitComponent { }
