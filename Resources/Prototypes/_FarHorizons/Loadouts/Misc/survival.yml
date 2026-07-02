@@ -1,3 +1,10 @@
+- type: loadoutEffectGroup
+  id: EffectSpeciesIPC
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - IPC
+
 #region Command
 - type: loadout
   id: EmergencyOxygenExtendedCommand02

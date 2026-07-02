@@ -84,6 +84,7 @@
   - type: Tag
     tags:
       - PowerCellSmall
+      - SurvivalKitItems #FH
 
 - type: entity
   id: PowerCellSmallPrinted

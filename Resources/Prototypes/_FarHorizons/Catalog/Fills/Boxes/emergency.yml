@@ -67,6 +67,27 @@
         - id: Bloodpack
         - id: BloodpackAmmonia
 
+- type: entity
+  parent: CaseSurvivalMedical
+  id: CaseSurvivalMedicalFilledIPC
+  suffix: Standard IPC
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: EmergencyMedipen
+          amount: 2
+        - id: SpaceMedipen
+        - id: Gauze
+        - id: Tourniquet
+        - id: Brutepack
+        - id: Bloodpack
+        - id: BloodpackAmmonia
+        - id: EmergencyCoolingUnit
+        - id: PowerCellSmall
+          amount: 2
+
 #region Security
 - type: entity
   parent: CaseSurvivalSecurity
@@ -136,6 +157,26 @@
         - id: ShellShotgunFlare
           amount: 3
         - id: ShellShotgun
+          amount: 2
+
+- type: entity
+  parent: CaseSurvivalSecurity
+  id: CaseSurvivalSecurityFilledIPC
+  suffix: Standard IPC
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ClothingMaskGasSecurity
+        - id: Tourniquet
+        - id: WeaponFlareGunSecurity
+        - id: ShellShotgunFlare
+          amount: 3
+        - id: ShellShotgun
+          amount: 2
+        - id: EmergencyCoolingUnit
+        - id: PowerCellSmall
           amount: 2
 
 #region Service
@@ -211,6 +252,26 @@
         - id: KoboldCubeWrapped
         - id: MonkeyCubeWrapped
 
+- type: entity
+  parent: CaseSurvivalService
+  id: CaseSurvivalServiceFilledIPC
+  suffix: Standard IPC
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: CannabisSeeds
+        - id: RealCapfruitSeeds
+        - id: FoodPieBananaCream
+        - id: DrinkSilencerGlass
+        - id: DrinkShaker
+        - id: KoboldCubeWrapped
+        - id: MonkeyCubeWrapped
+        - id: EmergencyCoolingUnit
+        - id: PowerCellSmall
+          amount: 2
+
 #region Science
 - type: entity
   parent: CaseSurvivalScience
@@ -279,6 +340,25 @@
         - id: Ointment
         - id: APECircuitboard
         - id: MicroManipulatorStockPart
+          amount: 2
+
+- type: entity
+  parent: CaseSurvivalScience
+  id: CaseSurvivalScienceFilledIPC
+  suffix: Standard IPC
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: CableApcStack
+        - id: FireExtinguisherMini
+        - id: CableHVStack
+        - id: APECircuitboard
+        - id: MicroManipulatorStockPart
+          amount: 2
+        - id: EmergencyCoolingUnit
+        - id: PowerCellSmall
           amount: 2
 
 #region Command
@@ -351,6 +431,25 @@
         - id: FoodSnackMREBrownie
           amount: 2
 
+- type: entity
+  parent: CaseSurvivalCommand
+  id: CaseSurvivalCommandFilledIPC
+  suffix: Standard IPC
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: WeaponFlareGun
+        - id: ShellShotgunFlare
+          amount: 3
+        - id: BoxFolderNanoTrasenClipboard
+        - id: RubberStampApproved
+        - id: RubberStampDenied
+        - id: EmergencyCoolingUnit
+        - id: PowerCellSmall
+          amount: 2
+
 #region Engineering
 - type: entity
   parent: CaseSurvivalEngineering
@@ -417,6 +516,24 @@
         - id: InflatableWallStack
         - id: InflatableDoorStack
         - id: CableApcStack
+
+- type: entity
+  parent: CaseSurvivalEngineering
+  id: CaseSurvivalEngineeringFilledIPC
+  suffix: Standard IPC
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: RCD
+        - id: RCDAmmo
+        - id: InflatableWallStack
+        - id: InflatableDoorStack
+        - id: CableApcStack
+        - id: EmergencyCoolingUnit
+        - id: PowerCellSmall
+          amount: 2
 
 #region Cargo
 - type: entity
@@ -488,6 +605,25 @@
         - id: FoodSnackMREBrownie
           amount: 2
 
+- type: entity
+  parent: CaseSurvivalCargo
+  id: CaseSurvivalCargoFilledIPC
+  suffix: Standard IPC
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: WeaponFlareGun
+        - id: ShellShotgunFlare
+          amount: 3
+        - id: BoxFolderClipboardFilled
+        - id: RubberStampApproved
+        - id: RubberStampDenied
+        - id: EmergencyCoolingUnit
+        - id: PowerCellSmall
+          amount: 2
+
 #region Station Management
 - type: entity
   parent: CaseSurvivalStationManagement
@@ -556,4 +692,23 @@
         - id: RubberStampApproved
         - id: RubberStampDenied
         - id: FoodSnackMREBrownie
+          amount: 2
+
+- type: entity
+  parent: CaseSurvivalStationManagement
+  id: CaseSurvivalStationManagementFilledIPC
+  suffix: Standard IPC
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: WeaponFlareGun
+        - id: ShellShotgunFlare
+          amount: 3
+        - id: BoxFolderNanoTrasenClipboard
+        - id: RubberStampApproved
+        - id: RubberStampDenied
+        - id: EmergencyCoolingUnit
+        - id: PowerCellSmall
           amount: 2
