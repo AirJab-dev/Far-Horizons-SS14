@@ -195,7 +195,11 @@ public abstract class SharedBloodstreamSystem : EntitySystem
         var oldBleedAmount = ent.Comp.BleedAmount;
         var total = bloodloss.GetTotal();
         var totalFloat = total.Float();
-        TryModifyBleedAmount(ent.AsNullable(), totalFloat);
+        
+        //Far Horizons Start
+        if(ent.Comp.minBloodDamage < damage.GetTotal())
+            TryModifyBleedAmount(ent.AsNullable(), totalFloat);
+        //Far Horizons End
 
         // Critical hit. Causes target to lose blood, using the bleed rate modifier of the weapon, currently divided by 5
         // The crit chance is currently the bleed rate modifier divided by 25.
