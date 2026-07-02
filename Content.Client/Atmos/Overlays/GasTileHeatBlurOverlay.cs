@@ -28,12 +28,12 @@ public sealed class GasTileHeatBlurOverlay : Overlay
     private static readonly ProtoId<ShaderPrototype> HeatOverlayShader = "HeatBlur";
 
     [Dependency] private readonly IEntityManager _entManager = default!;
-    [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly IPrototypeManager _proto = default!;
     [Dependency] private readonly IClyde _clyde = default!;
     [Dependency] private readonly IConfigurationManager _configManager = default!;
     [Dependency] private readonly IResourceCache _resourceCache = default!;
 
+    private readonly SharedMapSystem _maps;
     private readonly SharedTransformSystem _xformSys;
     private readonly ShaderInstance _shader;
 
@@ -63,6 +63,7 @@ public sealed class GasTileHeatBlurOverlay : Overlay
     public GasTileHeatBlurOverlay()
     {
         IoCManager.InjectDependencies(this);
+        _maps = _entManager.System<SharedMapSystem>();
         _xformSys = _entManager.System<SharedTransformSystem>();
 
         _noiseTexture = _resourceCache.GetTexture("/Textures/Effects/HeatBlur/perlin_noise.png");
@@ -126,7 +127,7 @@ public sealed class GasTileHeatBlurOverlay : Overlay
             () =>
             {
                 _intersectingGrids.Clear();
-                _mapManager.FindGridsIntersecting(mapId, worldAABB, ref _intersectingGrids);
+                _maps.FindGridsIntersecting(mapId, worldAABB, ref _intersectingGrids);
                 foreach (var grid in _intersectingGrids)
                 {
                     if (!overlayQuery.TryGetComponent(grid.Owner, out var comp))

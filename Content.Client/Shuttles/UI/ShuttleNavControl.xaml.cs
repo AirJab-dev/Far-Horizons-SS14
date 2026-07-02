@@ -22,7 +22,6 @@ namespace Content.Client.Shuttles.UI;
 [GenerateTypedNameReferences, Virtual]
 public partial class ShuttleNavControl : BaseShuttleControl // Far Horizons - made sealed type [Virtual] to allow inheritance
 {
-    [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly IGameTiming _timing = default!; // Far Horizons
     [Dependency] private readonly IEntityManager _entMan = default!; // Far Horizons
     private readonly SharedShuttleSystem _shuttles;
@@ -56,6 +55,7 @@ public partial class ShuttleNavControl : BaseShuttleControl // Far Horizons - ma
     public ShuttleNavControl() : base(64f, 256f, 256f)
     {
         RobustXamlLoader.Load(this);
+        _maps = EntManager.System<SharedMapSystem>();
         _shuttles = EntManager.System<SharedShuttleSystem>();
         _transform = EntManager.System<SharedTransformSystem>();
     }
@@ -194,7 +194,7 @@ public partial class ShuttleNavControl : BaseShuttleControl // Far Horizons - ma
         var viewAABB = viewBounds.CalcBoundingBox();
 
         _grids.Clear();
-        _mapManager.FindGridsIntersecting(xform.MapID, new Box2(mapPos.Position - MaxRadarRangeVector, mapPos.Position + MaxRadarRangeVector), ref _grids, approx: true, includeMap: false);
+        _maps.FindGridsIntersecting(xform.MapID, new Box2(mapPos.Position - MaxRadarRangeVector, mapPos.Position + MaxRadarRangeVector), ref _grids, approx: true, includeMap: false);
 
         // Draw other grids... differently
         foreach (var grid in _grids)

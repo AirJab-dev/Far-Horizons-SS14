@@ -103,22 +103,21 @@ public abstract partial class InteractionTest
     protected int ConstructionGhostId;
 
     // SERVER dependencies
-    protected IEntityManager SEntMan = default!;
-    protected ITileDefinitionManager TileMan = default!;
-    protected IMapManager MapMan = default!;
-    protected IPrototypeManager ProtoMan = default!;
-    protected IGameTiming STiming = default!;
-    protected IComponentFactory Factory = default!;
-    protected HandsSystem HandSys = default!;
-    protected StackSystem Stack = default!;
-    protected SharedInteractionSystem InteractSys = default!;
-    protected Content.Server.Construction.ConstructionSystem SConstruction = default!;
-    protected SharedDoAfterSystem DoAfterSys = default!;
-    protected ToolSystem ToolSys = default!;
-    protected ItemToggleSystem ItemToggleSys = default!;
-    protected InteractionTestSystem STestSystem = default!;
-    protected SharedTransformSystem Transform = default!;
-    protected SharedMapSystem MapSystem = default!;
+    [SidedDependency(Side.Server)] protected ITileDefinitionManager TileMan = default!;
+    [SidedDependency(Side.Server)] protected IPrototypeManager ProtoMan => SProtoMan;
+    protected IGameTiming STiming => SGameTiming;
+    [SidedDependency(Side.Server)] protected IComponentFactory Factory = default!;
+    [SidedDependency(Side.Server)] protected HandsSystem HandSys = default!;
+    [SidedDependency(Side.Server)] protected StackSystem Stack = default!;
+    [SidedDependency(Side.Server)] protected SharedInteractionSystem InteractSys = default!;
+    [SidedDependency(Side.Server)] protected Content.Server.Construction.ConstructionSystem SConstruction = default!;
+    [SidedDependency(Side.Server)] protected SharedDoAfterSystem DoAfterSys = default!;
+    [SidedDependency(Side.Server)] protected ToolSystem ToolSys = default!;
+    [SidedDependency(Side.Server)] protected ItemToggleSystem ItemToggleSys = default!;
+    [SidedDependency(Side.Server)] protected InteractionTestSystem STestSystem = default!;
+    [SidedDependency(Side.Server)] protected SharedTransformSystem Transform = default!;
+    [SidedDependency(Side.Server)] protected SharedMapSystem MapSystem = default!;
+    [SidedDependency(Side.Server)] protected ILogManager SLogMan = default!;
     protected ISawmill SLogger = default!;
     protected SharedUserInterfaceSystem SUiSys = default!;
     protected SharedCombatModeSystem SCombatMode = default!;
