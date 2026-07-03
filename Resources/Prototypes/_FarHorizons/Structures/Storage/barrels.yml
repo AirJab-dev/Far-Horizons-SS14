@@ -1,0 +1,13 @@
+- type: entity
+  parent: BaseBarrelChem
+  id: BarrelChemFilledOil
+  suffix: Oil
+  description: Oily...
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      tank:
+        maxVol: 500
+        reagents:
+        - ReagentId: Oil
+          Quantity: 500

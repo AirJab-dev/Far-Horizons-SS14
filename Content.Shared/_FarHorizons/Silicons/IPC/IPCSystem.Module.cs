@@ -8,9 +8,6 @@ namespace Content.Shared._FarHorizons.Silicons.IPC;
 
 public abstract partial class SharedIPCSystem
 {
-    [Dependency] private readonly IPrototypeManager _proto = default!;
-    [Dependency] private readonly IComponentFactory _compFact = default!;
-    private static readonly string _baseIPC = "MobIPC";
     protected virtual void SetupModule()
     {
         SubscribeLocalEvent<IPCModulesComponent, EntInsertedIntoContainerMessage>(InstallModule);
