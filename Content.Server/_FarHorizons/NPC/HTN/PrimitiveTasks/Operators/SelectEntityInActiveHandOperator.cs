@@ -8,7 +8,6 @@ namespace Content.Server._FarHorizons.NPC.HTN.PrimitiveTasks.Operators;
 
 public sealed partial class SaveEntityInActiveHandOperator : HTNOperator
 {
-    [Dependency] private readonly IEntityManager _entMan = default!;
     private HandsSystem _hands = default!;
 
     [DataField("targetKey", required: true)]
