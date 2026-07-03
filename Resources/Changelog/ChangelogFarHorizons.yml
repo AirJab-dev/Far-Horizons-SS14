@@ -15504,5 +15504,21 @@ Entries:
   id: 142700
   time: '2026-06-30T11:17:15.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1427
+- author: princess_gurchi
+  changes:
+  - message: Humanoid AI mobs can now reload magazine fed weapons from their inventory,
+      if they don't have any, they will search surrounding tiles
+    type: Add
+  id: 142900
+  time: '2026-07-03T10:59:32.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1429
+- author: princess_gurchi
+  changes:
+  - message: Makarov comrade gets 3 and AK comrade gets 1 spare magazines in their
+      belt
+    type: Tweak
+  id: 142901
+  time: '2026-07-03T10:59:32.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1429
 Order: -1
 
