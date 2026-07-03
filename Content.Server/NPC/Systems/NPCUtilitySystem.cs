@@ -30,9 +30,11 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using Content.Shared.Atmos.Components;
 using System.Linq;
+using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Temperature.Components;
+using Content.Shared.Weapons.Ranged.Systems;
 
 namespace Content.Server.NPC.Systems;
 
@@ -59,6 +61,7 @@ public sealed class NPCUtilitySystem : EntitySystem
     [Dependency] private readonly MobThresholdSystem _thresholdSystem = default!;
     [Dependency] private readonly TurretTargetSettingsSystem _turretTargetSettings = default!;
     [Dependency] private readonly DamageableSystem _damageable = default!;
+    [Dependency] private readonly ItemSlotsSystem _itemSlot = default!;
 
     private EntityQuery<PuddleComponent> _puddleQuery;
     private EntityQuery<TransformComponent> _xformQuery;
@@ -256,14 +259,15 @@ public sealed class NPCUtilitySystem : EntitySystem
             }
             case TargetAmmoMatchesCon:
             {
-                if (!blackboard.TryGetValue(NPCBlackboard.ActiveHand, out string? activeHand, EntityManager) ||
+                if (!blackboard.TryGetValue<string>(NPCBlackboard.ActiveHand, out var activeHand, EntityManager) ||
                     !_hands.TryGetHeldItem(owner, activeHand, out var heldEntity) ||
-                    !TryComp<BallisticAmmoProviderComponent>(heldEntity, out var heldGun))
+                    !HasComp<GunComponent>(heldEntity) || // Far Horizons
+                    !_itemSlot.TryGetSlot(heldEntity.Value, SharedGunSystem.MagazineSlot, out var magazineSlot))  // Far Horizons
                 {
                     return 0f;
                 }
 
-                if (_whitelistSystem.IsWhitelistFailOrNull(heldGun.Whitelist, targetUid))
+                if (_whitelistSystem.IsWhitelistFailOrNull(magazineSlot.Whitelist, targetUid))
                 {
                     return 0f;
                 }
@@ -290,7 +294,8 @@ public sealed class NPCUtilitySystem : EntitySystem
             }
             case TargetAmmoCon:
             {
-                if (!HasComp<GunComponent>(targetUid))
+                if (!HasComp<GunComponent>(targetUid) &&
+                    !HasComp<BallisticAmmoProviderComponent>(targetUid)) // Far Horizons
                     return 0f;
 
                 var ev = new GetAmmoCountEvent();
