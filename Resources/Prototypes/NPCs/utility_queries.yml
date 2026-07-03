@@ -14,7 +14,7 @@
   query:
     - !type:ComponentQuery
       components:
-        - type: BallisticAmmoProvider
+        - type: BallisticAmmoProvider # Far Horizons
         - type: Item
   considerations:
     - !type:TargetAmmoMatchesCon
