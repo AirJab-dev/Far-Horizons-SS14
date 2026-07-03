@@ -17,6 +17,8 @@
   - type: Tag
     tags:
     - BoxCardboard
+  - type: Storage #FH
+    maxItemSize: Normal
 
 - type: entity
   parent: BoxBaseSmall

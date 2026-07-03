@@ -1,5 +1,78 @@
 ## Todo - Make some of these a bit less generic. I don't play most of the depts here, need to shape contents based on player feedback..
 
+#region Basic
+- type: entity 
+  parent: BoxHug
+  id: BoxHugIPC
+  description: A special box for sensitive people with robotic needs.
+  suffix: Emergency (IPC)
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: Flare
+        - id: EmergencyCoolingUnit
+        - id: WelderMini
+        - id: PowerCellSmall
+  - type: Sprite
+    layers:
+    - state: box_hug
+
+- type: entity 
+  parent: BoxSurvival
+  id: BoxMimeIPC
+  suffix: Mime, Emergency (IPC)
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: Flare
+        - id: EmergencyCoolingUnit
+        - id: WelderMini
+        - id: PowerCellSmall
+  - type: Sprite
+    layers:
+    - state: internals
+
+- type: entity
+  parent: BoxCardboard # Cannot fit 3x3 boxes into already-filled ERT backpacks.
+  id: BoxSurvivalMilitaryDoubleIPC
+  suffix: Military IPC
+  description: It's a box with basic internals inside. This one is labelled to contain an double extended-capacity tank.
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: EmergencyCoolingUnit
+        - id: WelderMini
+        - id: PowerCellSmall
+        - id: Flare
+  - type: Sprite
+    layers:
+    - state: internals
+    - state: extendedtank
+
+#region Syndicate
+- type: entity #🌟Starlight🌟
+  parent: BoxSurvivalSyndicate
+  id: BoxSurvivalNonIPCSyndicate
+  suffix: Syndicate IPC
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: Flare
+        - id: WelderMini
+        - id: EmergencyCoolingUnit
+        - id: PowerCellSmall
+  - type: Sprite
+    layers:
+    - state: internals
+
 #region Medical
 - type: entity
   parent: CaseSurvivalMedical
@@ -86,7 +159,7 @@
         - id: BloodpackAmmonia
         - id: EmergencyCoolingUnit
         - id: PowerCellSmall
-          amount: 2
+        - id: WelderMini
 
 #region Security
 - type: entity
@@ -178,6 +251,7 @@
         - id: EmergencyCoolingUnit
         - id: PowerCellSmall
           amount: 2
+        - id: WelderMini
 
 #region Service
 - type: entity
@@ -270,7 +344,7 @@
         - id: MonkeyCubeWrapped
         - id: EmergencyCoolingUnit
         - id: PowerCellSmall
-          amount: 2
+        - id: WelderMini
 
 #region Science
 - type: entity
@@ -359,7 +433,7 @@
           amount: 2
         - id: EmergencyCoolingUnit
         - id: PowerCellSmall
-          amount: 2
+        - id: WelderMini
 
 #region Command
 - type: entity
@@ -449,6 +523,7 @@
         - id: EmergencyCoolingUnit
         - id: PowerCellSmall
           amount: 2
+        - id: WelderMini
 
 #region Engineering
 - type: entity
@@ -534,6 +609,7 @@
         - id: EmergencyCoolingUnit
         - id: PowerCellSmall
           amount: 2
+        - id: WelderMini
 
 #region Cargo
 - type: entity
@@ -622,7 +698,7 @@
         - id: RubberStampDenied
         - id: EmergencyCoolingUnit
         - id: PowerCellSmall
-          amount: 2
+        - id: WelderMini
 
 #region Station Management
 - type: entity
@@ -712,3 +788,4 @@
         - id: EmergencyCoolingUnit
         - id: PowerCellSmall
           amount: 2
+        - id: WelderMini
