@@ -11,7 +11,7 @@
   - type: HealthAnalyzer
     damageContainers:
     - Silicon
-    - IPC
+    - Robotic #FH
   - type: GuideHelp
     guides:
     - Robotics

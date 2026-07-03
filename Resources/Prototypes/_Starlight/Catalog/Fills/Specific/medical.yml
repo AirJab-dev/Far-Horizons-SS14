@@ -8,7 +8,7 @@
       storagebase: !type:AllSelector
         children:
         - id: CableHVStack
-        - id: OilPack
+        - id: BloodpackOil #FH
           amount: 2
         - id: Welder
         - id: ClothingHeadHatWelding
