@@ -28,7 +28,7 @@ public sealed class CFALogoTag : IMarkupTag
 
         var icon = new TextureRect
         {
-            Texture = _resourceCache.GetTexture("/Textures/_FarHorizons/Logo/CFAlogo.png"),
+            Texture = _resourceCache.GetTexture("/Textures/_FarHorizons/Logo/CFALogo.png"),
             TextureScale = new Vector2(0.5f, 0.5f),
         };
 
