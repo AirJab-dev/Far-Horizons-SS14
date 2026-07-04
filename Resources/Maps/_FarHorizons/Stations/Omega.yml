@@ -4,7 +4,7 @@ meta:
   engineVersion: 272.0.1
   forkId: ""
   forkVersion: ""
-  time: 07/03/2026 20:49:45
+  time: 07/04/2026 00:05:44
   entityCount: 16275
 maps:
 - 1
@@ -36633,12 +36633,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -22.5,-19.5
       parent: 2
-  - uid: 5131
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -22.5,-15.5
-      parent: 2
   - uid: 5132
     components:
     - type: Transform
@@ -43830,6 +43824,10 @@ entities:
     - type: Transform
       pos: -2.3527098,-2.4557357
       parent: 2
+    - type: Openable
+      opened: True
+    - type: Sealable
+      sealed: False
   - uid: 15454
     components:
     - type: Transform
@@ -47116,7 +47114,7 @@ entities:
       pos: 12.5,-29.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -20062.203
+      secondsUntilStateChange: -20127.53
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -48542,7 +48540,7 @@ entities:
       pos: -7.5,27.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -27011.055
+      secondsUntilStateChange: -27076.38
       state: Closing
     - type: Firelock
       emergencyCloseCooldown: 391.7662769
@@ -48750,7 +48748,7 @@ entities:
       pos: 8.5,-22.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -20226.87
+      secondsUntilStateChange: -20292.195
       state: Closing
   - uid: 6487
     components:
@@ -76529,6 +76527,13 @@ entities:
     - type: Transform
       pos: 10.5,52.5
       parent: 2
+    - type: StationAiCore
+      lawConsole: 11754
+    - type: DeviceLinkSource
+      linkedPorts:
+        11754:
+        - - AiLawConsoleSender
+          - AiLawConsoleReceiver
 - proto: PlushieArachind
   entities:
   - uid: 10052
@@ -80038,6 +80043,19 @@ entities:
       parent: 2
 - proto: PrinterDoc
   entities:
+  - uid: 5131
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -22.5,-15.5
+      parent: 2
+    - type: TechnologyDatabase
+      supportedDisciplines:
+      - Industrial
+      - Arsenal
+      - Experimental
+      - CivilianServices
+      - Biochemical
   - uid: 10507
     components:
     - type: Transform
@@ -88795,6 +88813,8 @@ entities:
     - type: Transform
       pos: 7.5,47.5
       parent: 2
+    - type: SiliconLawUpdater
+      core: 10051
 - proto: StationAnchor
   entities:
   - uid: 11755

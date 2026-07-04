@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.1
   forkId: ""
   forkVersion: ""
-  time: 07/03/2026 21:00:16
-  entityCount: 41943
+  time: 07/03/2026 23:23:26
+  entityCount: 41944
 maps:
 - 1
 grids:
@@ -34296,6 +34296,14 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -24.5,48.5
+      parent: 2
+- proto: ButtonFrameGrey
+  entities:
+  - uid: 41944
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 60.5,-28.5
       parent: 2
 - proto: CableApcExtension
   entities:
@@ -128338,7 +128346,7 @@ entities:
       pos: -15.5,-6.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -9861.939
+      secondsUntilStateChange: -10171.086
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -128491,7 +128499,7 @@ entities:
       pos: 57.5,12.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -60105.066
+      secondsUntilStateChange: -60414.215
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -129798,7 +129806,7 @@ entities:
       pos: 28.5,4.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -54654.17
+      secondsUntilStateChange: -54963.32
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -133753,7 +133761,7 @@ entities:
       pos: 21.5,33.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -37415.668
+      secondsUntilStateChange: -37724.816
       state: Closing
   - uid: 19867
     components:
@@ -221031,7 +221039,8 @@ entities:
   - uid: 31577
     components:
     - type: Transform
-      pos: 59.5,-28.5
+      rot: 3.141592653589793 rad
+      pos: 60.5,-28.5
       parent: 2
     - type: DeviceLinkSource
       linkedPorts:
@@ -268003,7 +268012,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -13604.542
+      secondsUntilStateChange: -13913.688
       state: Opening
     - type: Airlock
       autoClose: False

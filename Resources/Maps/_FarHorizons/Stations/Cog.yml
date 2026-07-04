@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.1
   forkId: ""
   forkVersion: ""
-  time: 07/03/2026 18:05:19
-  entityCount: 35027
+  time: 07/03/2026 23:42:18
+  entityCount: 35025
 maps:
 - 1
 grids:
@@ -84524,6 +84524,10 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 3.5,2.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Security
+      - - Cadet
   - uid: 12601
     components:
     - type: Transform
@@ -86522,7 +86526,7 @@ entities:
       pos: -8.5,33.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -29853.004
+      secondsUntilStateChange: -30091.463
       state: Opening
   - uid: 15273
     components:
@@ -86601,7 +86605,7 @@ entities:
       pos: -41.5,24.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -24457.582
+      secondsUntilStateChange: -24696.041
       state: Closing
   - uid: 12856
     components:
@@ -98294,6 +98298,8 @@ entities:
     - type: Transform
       pos: 35.5,-23.5
       parent: 2
+    - type: ApcPowerReceiver
+      powerDisabled: True
   - uid: 14831
     components:
     - type: Transform
@@ -100334,7 +100340,8 @@ entities:
   - uid: 15158
     components:
     - type: Transform
-      pos: 61.5,-14.5
+      rot: -1.5707963267948966 rad
+      pos: 63.5,-14.5
       parent: 2
   - uid: 15159
     components:
@@ -101300,7 +101307,7 @@ entities:
       pos: 20.5,-15.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -106083.09
+      secondsUntilStateChange: -106321.555
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -103671,7 +103678,7 @@ entities:
       pos: 51.5,-9.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -5715.8447
+      secondsUntilStateChange: -5954.304
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -166181,6 +166188,16 @@ entities:
     - type: Transform
       pos: -0.5,2.5
       parent: 2
+    - type: StationAiCore
+      lawConsole: 27137
+    - type: DeviceLinkSource
+      linkedPorts:
+        27138:
+        - - AiLawConsoleSender
+          - AiLawConsoleReceiver
+        27137:
+        - - AiLawConsoleSender
+          - AiLawConsoleReceiver
 - proto: Plunger
   entities:
   - uid: 23407
@@ -167746,12 +167763,12 @@ entities:
   - uid: 34955
     components:
     - type: Transform
-      pos: -23.943329,-25.235615
+      pos: -23.349468,-25.18278
       parent: 2
   - uid: 34956
     components:
     - type: Transform
-      pos: -23.974579,-25.56374
+      pos: -23.411968,-25.42253
       parent: 2
   - uid: 34962
     components:
@@ -168004,11 +168021,6 @@ entities:
     components:
     - type: Transform
       pos: -23.5,-25.5
-      parent: 2
-  - uid: 34954
-    components:
-    - type: Transform
-      pos: -24.5,-25.5
       parent: 2
   - uid: 34959
     components:
@@ -190948,12 +190960,16 @@ entities:
       rot: 3.141592653589793 rad
       pos: 2.5,-13.5
       parent: 2
+    - type: SiliconLawUpdater
+      core: 23406
   - uid: 27138
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -3.5,-13.5
       parent: 2
+    - type: SiliconLawUpdater
+      core: 23406
 - proto: StationAnchor
   entities:
   - uid: 27139
@@ -196087,11 +196103,6 @@ entities:
     components:
     - type: Transform
       pos: -23.5,-25.5
-      parent: 2
-  - uid: 34952
-    components:
-    - type: Transform
-      pos: -24.5,-25.5
       parent: 2
   - uid: 34957
     components:
@@ -223392,7 +223403,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -43513.016
+      secondsUntilStateChange: -43751.477
       state: Opening
     - type: Airlock
       autoClose: False
@@ -223721,7 +223732,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 0.5,-44.5
       parent: 2
-- proto: WindoorSecureSalvageLocked
+- proto: WindoorSecureSalvageMiningLocked
   entities:
   - uid: 32302
     components:

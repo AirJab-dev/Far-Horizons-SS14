@@ -4,7 +4,7 @@ meta:
   engineVersion: 272.0.1
   forkId: ""
   forkVersion: ""
-  time: 07/03/2026 20:35:18
+  time: 07/04/2026 00:04:11
   entityCount: 33962
 maps:
 - 1
@@ -90624,7 +90624,7 @@ entities:
       pos: 59.5,-20.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -28193.504
+      secondsUntilStateChange: -28337.97
       state: Opening
 - proto: d10Dice
   entities:
@@ -100711,7 +100711,7 @@ entities:
       pos: 6.5,50.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -44461.14
+      secondsUntilStateChange: -44605.61
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -100798,7 +100798,7 @@ entities:
       pos: 7.5,39.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -39149.812
+      secondsUntilStateChange: -39294.28
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -103414,7 +103414,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -361978.9
+      secondsUntilStateChange: -362123.38
       state: Opening
   - uid: 321
     components:
@@ -103426,7 +103426,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -361981.53
+      secondsUntilStateChange: -362126
       state: Opening
   - uid: 322
     components:
@@ -103438,7 +103438,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -361980.38
+      secondsUntilStateChange: -362124.84
       state: Opening
   - uid: 323
     components:
@@ -103449,7 +103449,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -361979.6
+      secondsUntilStateChange: -362124.06
       state: Opening
 - proto: FHAirlockSurgeryLocked
   entities:
@@ -103485,7 +103485,7 @@ entities:
       pos: -29.5,-13.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -27476.994
+      secondsUntilStateChange: -27621.46
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -106784,7 +106784,7 @@ entities:
       pos: -13.5,-1.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -353302.9
+      secondsUntilStateChange: -353447.38
     - type: DeviceNetwork
       deviceLists:
       - 11326
@@ -167538,6 +167538,13 @@ entities:
     - type: Transform
       pos: 51.5,16.5
       parent: 2
+    - type: StationAiCore
+      lawConsole: 21511
+    - type: DeviceLinkSource
+      linkedPorts:
+        21511:
+        - - AiLawConsoleSender
+          - AiLawConsoleReceiver
 - proto: PlushieLamp
   entities:
   - uid: 18361
@@ -191276,6 +191283,8 @@ entities:
     - type: Transform
       pos: 58.5,19.5
       parent: 2
+    - type: SiliconLawUpdater
+      core: 18360
 - proto: StationAnchor
   entities:
   - uid: 21512
@@ -222740,7 +222749,7 @@ entities:
       pos: 24.5,2.5
       parent: 25962
     - type: Door
-      secondsUntilStateChange: -735339.56
+      secondsUntilStateChange: -735484.06
       state: Opening
   - uid: 32215
     components:

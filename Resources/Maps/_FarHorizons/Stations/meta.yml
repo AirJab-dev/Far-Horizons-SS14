@@ -4,7 +4,7 @@ meta:
   engineVersion: 272.0.1
   forkId: ""
   forkVersion: ""
-  time: 07/03/2026 20:13:42
+  time: 07/03/2026 23:57:50
   entityCount: 31899
 maps:
 - 1
@@ -88067,7 +88067,7 @@ entities:
       pos: 1.5,35.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -10614.89
+      secondsUntilStateChange: -10724.274
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -147313,6 +147313,16 @@ entities:
     - type: Transform
       pos: 104.5,8.5
       parent: 2
+    - type: StationAiCore
+      lawConsole: 23006
+    - type: DeviceLinkSource
+      linkedPorts:
+        23005:
+        - - AiLawConsoleSender
+          - AiLawConsoleReceiver
+        23006:
+        - - AiLawConsoleSender
+          - AiLawConsoleReceiver
 - proto: PlushieAsh
   entities:
   - uid: 19829
@@ -169925,11 +169935,15 @@ entities:
     - type: Transform
       pos: -9.5,17.5
       parent: 2
+    - type: SiliconLawUpdater
+      core: 19828
   - uid: 23006
     components:
     - type: Transform
       pos: -11.5,17.5
       parent: 2
+    - type: SiliconLawUpdater
+      core: 19828
 - proto: StationAnchor
   entities:
   - uid: 23007
@@ -199646,7 +199660,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -6004.46
+      secondsUntilStateChange: -6113.8447
       state: Opening
     - type: Airlock
       autoClose: False

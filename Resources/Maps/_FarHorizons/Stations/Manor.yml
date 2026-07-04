@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.1
   forkId: ""
   forkVersion: ""
-  time: 07/03/2026 19:39:34
-  entityCount: 33834
+  time: 07/03/2026 23:46:22
+  entityCount: 33835
 maps:
 - 1
 grids:
@@ -6767,9 +6767,9 @@ entities:
           11,4:
             0: 65534
           12,0:
-            0: 61199
+            0: 43791
           12,1:
-            0: 47344
+            0: 47352
           12,2:
             0: 28859
           12,3:
@@ -6797,7 +6797,7 @@ entities:
           11,6:
             0: 4095
           11,7:
-            0: 62071
+            0: 61695
           12,4:
             0: 65535
           12,5:
@@ -7006,12 +7006,12 @@ entities:
           -17,8:
             0: 251
             1: 32768
-            2: 12288
+            3: 12288
           -16,9:
             0: 65278
           -17,9:
             0: 61568
-            2: 115
+            3: 115
           -16,10:
             0: 65535
           -17,10:
@@ -7634,11 +7634,11 @@ entities:
           -17,1:
             1: 65280
           -16,2:
-            3: 4368
+            2: 4368
             0: 52416
           -17,2:
-            3: 52416
-            4: 4368
+            2: 52416
+            5: 4368
           -16,3:
             1: 240
             0: 61440
@@ -7653,7 +7653,7 @@ entities:
             1: 65280
           -15,2:
             0: 4368
-            2: 52416
+            3: 52416
           -15,3:
             1: 240
             0: 61440
@@ -7666,7 +7666,7 @@ entities:
           -14,1:
             1: 65280
           -14,2:
-            2: 4368
+            3: 4368
             1: 52428
           -14,3:
             1: 252
@@ -7744,17 +7744,17 @@ entities:
           -20,3:
             0: 61166
           -19,6:
-            2: 3967
+            3: 3967
           -19,7:
             0: 58623
           -19,3:
             0: 61811
             1: 136
           -19,4:
-            2: 60928
+            3: 60928
             0: 12
           -19,5:
-            5: 3808
+            4: 3808
           -19,8:
             0: 62703
           -18,6:
@@ -7770,7 +7770,7 @@ entities:
             0: 61166
           -18,8:
             0: 254
-            2: 57344
+            3: 57344
           -21,8:
             0: 29055
           -20,9:
@@ -7792,7 +7792,7 @@ entities:
           -18,10:
             0: 47342
           -18,9:
-            2: 238
+            3: 238
             0: 57344
           -24,5:
             1: 40704
@@ -7917,7 +7917,7 @@ entities:
             1: 65280
           -18,2:
             1: 4369
-            4: 52416
+            5: 52416
           -18,-1:
             1: 17544
             0: 2048
@@ -8545,19 +8545,19 @@ entities:
           moles: {}
         - volume: 2500
           temperature: 293.15
-          moles: {}
-        - volume: 2500
-          temperature: 293.15
           moles:
             Nitrogen: 6666.982
         - volume: 2500
           temperature: 293.15
-          moles:
-            Oxygen: 6666.982
+          moles: {}
         - volume: 2500
           temperature: 293.15
           moles:
             Plasma: 6666.982
+        - volume: 2500
+          temperature: 293.15
+          moles:
+            Oxygen: 6666.982
         chunkSize: 4
     - type: GasTileOverlay
     - type: IFF
@@ -162268,6 +162268,16 @@ entities:
     - type: Transform
       pos: 28.5,89.5
       parent: 2
+    - type: StationAiCore
+      lawConsole: 27877
+    - type: DeviceLinkSource
+      linkedPorts:
+        27878:
+        - - AiLawConsoleSender
+          - AiLawConsoleReceiver
+        27877:
+        - - AiLawConsoleSender
+          - AiLawConsoleReceiver
 - proto: PlushieBreaks
   entities:
   - uid: 24912
@@ -178741,7 +178751,7 @@ entities:
       pos: 51.5,1.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -2143.198
+      secondsUntilStateChange: -2329.6218
       state: Opening
 - proto: SpaceCash10
   entities:
@@ -180215,12 +180225,16 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 33.5,75.5
       parent: 2
+    - type: SiliconLawUpdater
+      core: 24911
   - uid: 27878
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 33.5,81.5
       parent: 2
+    - type: SiliconLawUpdater
+      core: 24911
 - proto: StationAnchor
   entities:
   - uid: 27879
@@ -181124,6 +181138,8 @@ entities:
     - type: Transform
       pos: 17.5,78.5
       parent: 2
+    - type: Lock
+      locked: False
   - uid: 28026
     components:
     - type: Transform
@@ -186481,6 +186497,13 @@ entities:
     components:
     - type: Transform
       pos: -44.5,36.5
+      parent: 2
+- proto: TelecomServerFilledTrinary
+  entities:
+  - uid: 33835
+    components:
+    - type: Transform
+      pos: -39.5,39.5
       parent: 2
 - proto: TeslaGenerator
   entities:
