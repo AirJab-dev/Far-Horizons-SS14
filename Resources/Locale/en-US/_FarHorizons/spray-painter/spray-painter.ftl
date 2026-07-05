@@ -24,6 +24,8 @@ spray-painter-style-fhairlockstandard-salvage = Salvage
 spray-painter-style-fhairlockstandard-science = Science
 spray-painter-style-fhairlockstandard-security = Security
 spray-painter-style-fhairlockstandard-virology = Virology
+spray-painter-style-fhairlockstandard-liaison = Liaison
+spray-painter-style-fhairlockstandard-quartermaster = Quartermaster
 
 spray-painter-style-fhairlockglass-atmospherics = Atmospheric
 spray-painter-style-fhairlockglass-basic = Basic
@@ -39,6 +41,8 @@ spray-painter-style-fhairlockglass-salvage = Salvage
 spray-painter-style-fhairlockglass-science = Science
 spray-painter-style-fhairlockglass-security = Security
 spray-painter-style-fhairlockglass-virology = Virology
+spray-painter-style-fhairlockglass-liaison = Liaison
+spray-painter-style-fhairlockglass-quartermaster = Quartermaster
 
 # Walls
 spray-painter-style-wallsolid-nanotrasen = NanoTrasen
