@@ -12,6 +12,7 @@ using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Utility;
 using Robust.Client.UserInterface.RichText;
+using Content.Client._FarHorizons.UserInterface.RichText;
 using Robust.Shared.Input;
 using Robust.Shared.IoC;
 
