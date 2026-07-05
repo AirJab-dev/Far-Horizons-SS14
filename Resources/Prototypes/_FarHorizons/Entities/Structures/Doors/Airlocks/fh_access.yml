@@ -302,7 +302,7 @@
     containers:
       board: [ DoorElectronicsSalvageLead ]
   - type: Sprite
-    sprite: _FarHorizons/Structures/Doors/Airlocks/Glass/Salvage_syndie.rsi
+    sprite: _FarHorizons/Structures/Doors/Airlocks/Glass/salvage_syndie.rsi
 
 - type: entity
   parent: FHAirlockSalvageGlass
