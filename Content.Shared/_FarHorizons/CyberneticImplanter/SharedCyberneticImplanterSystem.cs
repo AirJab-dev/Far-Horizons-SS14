@@ -31,11 +31,7 @@ public sealed class SharedCyberneticImplanterSystem : EntitySystem
         SubscribeLocalEvent<UsedCyberneticImplanterComponent, ExaminedEvent>(OnExamineUsed);
     }
 
-    private void OnInit(EntityUid entity, CyberneticImplanterComponent component, ComponentInit _)
-    {
-        if (component.ImplantedOrganDesc == null)
-            component.ImplantedOrganDesc = _protoManager.Index<EntityPrototype>(component.ImplantedOrgan).Description;
-    }
+    private void OnInit(EntityUid entity, CyberneticImplanterComponent component, ComponentInit _) => component.ImplantedOrganDesc ??= _protoManager.Index<EntityPrototype>(component.ImplantedOrgan).Description;
 
     private void OnExamineUnused(EntityUid entity, CyberneticImplanterComponent component, ExaminedEvent args) //used to show a description of the implant
     {
@@ -113,7 +109,6 @@ public sealed class SharedCyberneticImplanterSystem : EntitySystem
             return false;
 
         _visualizer.SetData(entity, CyberneticImplanterVisuals.State, CyberneticImplanterState.Implant);
-
 
         if (TryComp(entity, out MetaDataComponent? metadata))
             _popupSystem.PopupClient(Loc.GetString("comp-cyberneticimplanter-implantstart", ("implanter", metadata.EntityName)), target, target, PopupType.Medium);
