@@ -12,7 +12,7 @@ using Robust.Shared.Utility;
 
 namespace Content.Server._FarHorizons.CyberneticImplanter;
 
-public sealed class ServerCyberneticImplanterSystem : EntitySystem
+public sealed class CyberneticImplanterSystem : SharedCyberneticImplanterSystem
 {
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly IPrototypeManager _protoManager = default!;

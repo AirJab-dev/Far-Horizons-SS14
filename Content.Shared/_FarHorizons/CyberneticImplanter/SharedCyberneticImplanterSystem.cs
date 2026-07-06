@@ -11,7 +11,7 @@ using Robust.Shared.Prototypes;
 
 namespace Content.Shared._FarHorizons.CyberneticImplanter;
 
-public sealed class SharedCyberneticImplanterSystem : EntitySystem
+public abstract class SharedCyberneticImplanterSystem : EntitySystem
 {
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly IPrototypeManager _protoManager = default!;
