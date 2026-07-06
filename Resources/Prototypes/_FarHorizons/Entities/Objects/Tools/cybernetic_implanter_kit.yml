@@ -44,8 +44,10 @@
   id: HandCyberneticImplanterKitSyndicateEyes
   abstract: true
   components:
+  - type: Sprite
+    sprite: _FarHorizons/Objects/Tools/eyes_CIK.rsi
   - type: CyberneticImplanter
-    activationTime: 30
+    activationTime: 20
   - type: Item
     size: Normal
 
