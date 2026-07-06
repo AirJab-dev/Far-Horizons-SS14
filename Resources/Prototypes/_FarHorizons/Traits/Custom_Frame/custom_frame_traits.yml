@@ -90,7 +90,7 @@
           methods: [Touch]
           effects:
             - !type:WashCreamPie
-        - reagents: [ Blood, SulfurBlood, AvaliBlood, CopperBlood, AbductorBlood, AmmoniaBlood, InsectBlood, Slime ]
+        - reagents: [ Blood, SulfurBlood, AvaliBlood, CopperBlood, AbductorBlood, AmmoniaBlood, InsectBlood, Slime, UniversalBlood, Amoxla ]
           methods: [ Touch ]
           effects:
             - !type:EvenHealthChange

@@ -42,11 +42,11 @@
     itemIconStyle: BigAction
     priority: -20
     icon:
-      sprite: Interface/Actions/actions_mecha.rsi
-      state: mech_internals_off
+      sprite: _FarHorizons/Interface/Actions/actions_custom_frame.rsi
+      state: trait_overclocking_off
     iconOn:
-      sprite: Interface/Actions/actions_mecha.rsi
-      state: mech_internals_on
+      sprite: _FarHorizons/Interface/Actions/actions_custom_frame.rsi
+      state: trait_overclocking_on
     useDelay: 5
   - type: InstantAction
     event: !type:RepairNanitesTraitEvent

@@ -18,6 +18,12 @@
         },
         {
             "name": "trait_empty"
+        },
+        {
+            "name": "trait_repair_on"
+        },
+        {
+            "name": "trait_repair_off"
         }
     ]
 }
