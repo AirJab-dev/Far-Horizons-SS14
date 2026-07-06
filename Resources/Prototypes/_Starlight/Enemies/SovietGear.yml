@@ -43,9 +43,33 @@
   parent: [SovietComradeGear, SovietComradeGearBelt]
   inhand:
   - WeaponPistolMakarov
+  # Far Horizons start
+  storage:
+    belt:
+    - RadioHandheld
+    - GeigerCounter
+    - Flare
+    - Flare
+    - Flare
+    - Flare
+    - MagazinePistolSP # Added ammo here
+    - MagazinePistolSP
+    - MagazinePistolSP
+  # Far Horizons end
 #rifle
 - type: startingGear
   id: SovietComradeGearAk
   parent: [SovietComradeGear, SovietComradeGearBelt]
   inhand:
   - WeaponRifleAk
+  # Far Horizons start
+  storage:
+    belt:
+    - RadioHandheld
+    - GeigerCounter
+    - Flare
+    - Flare
+    - Flare
+    - Flare
+    - MagazineLightRifleSP # Just one will be enough
+  # Far Horizons end
