@@ -133,6 +133,32 @@
 #        - !type:HTNCompoundTask
 #          task: PickupAmmoCompound
 
+    # FH start
+    # Not todo reload gun
+    - preconditions:
+        - !type:ActiveHandComponentPrecondition
+          components:
+            - type: Gun
+        - !type:GunAmmoPrecondition
+          maxPercent: 0.0
+      tasks:
+        - !type:HTNCompoundTask
+          task: ReloadGunFromInventoryCompound
+
+    # If still at 0 ammo - try to reload from ground
+    - preconditions:
+        - !type:ActiveHandComponentPrecondition
+          components:
+            - type: Gun
+        - !type:GunAmmoPrecondition
+          maxPercent: 0.0
+      tasks:
+        - !type:HTNPrimitiveTask
+          preconditions:
+            - !type:ActiveHandEntityPrecondition
+          operator: !type:DropOperator
+    # FH end
+
     # Pickup gun with ammo if we have no ammo
     -  preconditions:
          - !type:ActiveHandComponentPrecondition

@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 04/14/2026 09:08:53
-  entityCount: 33787
+  time: 06/13/2026 22:08:40
+  entityCount: 33792
 maps:
 - 1
 grids:
@@ -82696,12 +82696,6 @@ entities:
     - type: Transform
       pos: 3.5,84.5
       parent: 2
-  - uid: 13884
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 45.5,11.5
-      parent: 2
   - uid: 13885
     components:
     - type: Transform
@@ -82798,17 +82792,23 @@ entities:
       rot: 3.141592653589793 rad
       pos: -28.5,-9.5
       parent: 2
-  - uid: 13901
-    components:
-    - type: Transform
-      pos: -30.5,-11.5
-      parent: 2
   - uid: 13902
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -22.5,-28.5
       parent: 2
+- proto: ComputerCargoBountyDesktop
+  entities:
+  - uid: 33789
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -29.5,-12.5
+      parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Quartermaster
 - proto: ComputerCargoOrders
   entities:
   - uid: 13903
@@ -82886,6 +82886,63 @@ entities:
     - type: Transform
       pos: -0.5,79.5
       parent: 2
+- proto: ComputerCommsCargo
+  entities:
+  - uid: 13901
+    components:
+    - type: Transform
+      pos: -30.5,-11.5
+      parent: 2
+- proto: ComputerCommsEngineering
+  entities:
+  - uid: 13965
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -34.5,35.5
+      parent: 2
+- proto: ComputerCommsLaw
+  entities:
+  - uid: 33791
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -23.5,77.5
+      parent: 2
+- proto: ComputerCommsMedical
+  entities:
+  - uid: 33790
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 36.5,44.5
+      parent: 2
+- proto: ComputerCommsScience
+  entities:
+  - uid: 13884
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 45.5,11.5
+      parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - ResearchDirector
+- proto: ComputerCommsSecurity
+  entities:
+  - uid: 13941
+    components:
+    - type: Transform
+      pos: -23.5,73.5
+      parent: 2
+- proto: ComputerCommsService
+  entities:
+  - uid: 28961
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 8.5,63.5
+      parent: 2
 - proto: ComputerCrewMonitoring
   entities:
   - uid: 13914
@@ -82938,12 +82995,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 36.5,54.5
-      parent: 2
-  - uid: 13923
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 36.5,44.5
       parent: 2
   - uid: 13924
     components:
@@ -83005,6 +83056,13 @@ entities:
       rot: 3.141592653589793 rad
       pos: 44.5,5.5
       parent: 2
+- proto: ComputerCrewMonitoringDesktop
+  entities:
+  - uid: 13923
+    components:
+    - type: Transform
+      pos: 35.5,45.5
+      parent: 2
 - proto: ComputerCriminalRecords
   entities:
   - uid: 13934
@@ -83049,11 +83107,6 @@ entities:
     - type: Transform
       pos: -2.5,85.5
       parent: 2
-  - uid: 13941
-    components:
-    - type: Transform
-      pos: -23.5,73.5
-      parent: 2
   - uid: 13942
     components:
     - type: Transform
@@ -83066,6 +83119,10 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -18.5,37.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Security
+      - - Cadet
   - uid: 13944
     components:
     - type: Transform
@@ -83084,6 +83141,18 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -29.5,43.5
       parent: 2
+- proto: ComputerCriminalRecordsDesktop
+  entities:
+  - uid: 28717
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -24.5,71.5
+      parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Security
+      - - Cadet
 - proto: ComputerFundingAllocation
   entities:
   - uid: 13947
@@ -83200,12 +83269,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 33.5,88.5
       parent: 2
-  - uid: 13965
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -34.5,35.5
-      parent: 2
   - uid: 13966
     components:
     - type: Transform
@@ -83228,6 +83291,14 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 8.5,53.5
+      parent: 2
+- proto: ComputerPowerMonitoringDesktop
+  entities:
+  - uid: 33788
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -35.5,34.5
       parent: 2
 - proto: ComputerRadar
   entities:
@@ -83273,6 +83344,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 50.5,11.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Research
   - uid: 13977
     components:
     - type: Transform
@@ -96618,6 +96692,8 @@ entities:
     - type: Transform
       pos: -21.5,12.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal: []
   - uid: 16173
     components:
     - type: Transform
@@ -159768,7 +159844,7 @@ entities:
   - uid: 24613
     components:
     - type: Transform
-      pos: -29.493082,-12.370103
+      pos: -29.435005,-12.897617
       parent: 2
   - uid: 24614
     components:
@@ -159961,14 +160037,14 @@ entities:
   - uid: 24646
     components:
     - type: Transform
-      pos: -24.611895,71.40667
+      pos: -23.794592,71.75369
       parent: 2
 - proto: MagazinePistolSP
   entities:
   - uid: 24647
     components:
     - type: Transform
-      pos: -24.34627,71.40667
+      pos: -23.565426,71.712
       parent: 2
 - proto: MagazinePistolSubMachineGunSP
   entities:
@@ -175428,7 +175504,7 @@ entities:
   - uid: 27227
     components:
     - type: Transform
-      pos: -35.554344,34.604313
+      pos: -36.3001,34.84696
       parent: 2
 - proto: SignAi
   entities:
@@ -185248,12 +185324,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -48.5,70.5
       parent: 2
-  - uid: 28717
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -23.5,77.5
-      parent: 2
   - uid: 28718
     components:
     - type: Transform
@@ -187084,15 +187154,15 @@ entities:
     - type: Transform
       pos: 4.5,22.5
       parent: 2
-  - uid: 28961
-    components:
-    - type: Transform
-      pos: 8.5,63.5
-      parent: 2
   - uid: 28962
     components:
     - type: Transform
       pos: 7.5,16.5
+      parent: 2
+  - uid: 33792
+    components:
+    - type: Transform
+      pos: 4.5,65.5
       parent: 2
 - proto: VendingMachineCuraDrobe
   entities:
@@ -211221,15 +211291,6 @@ entities:
     components:
     - type: Transform
       pos: -46.41005,62.395233
-      parent: 2
-- proto: WeaponPistolGoldenMk58
-  entities:
-  - uid: 33356
-    components:
-    - type: MetaData
-      desc: A heavy, expensive sidearm, produced by a Nanotrasen subsidiary. Uses .35 auto ammo
-    - type: Transform
-      pos: -24.639473,71.70092
       parent: 2
 - proto: WeaponRifleFoam
   entities:

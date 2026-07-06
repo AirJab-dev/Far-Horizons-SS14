@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 04/14/2026 09:12:57
-  entityCount: 33940
+  time: 06/13/2026 03:36:21
+  entityCount: 33945
 maps:
 - 1
 grids:
@@ -39130,8 +39130,7 @@ entities:
     - type: MetaData
       name: Smart Dock Mk VII User Manual
     - type: Transform
-      rot: 9.42477796076938 rad
-      pos: -53.18508,9.538769
+      pos: -52.61378,9.525031
       parent: 2
     - type: Paper
       content: >+
@@ -40000,8 +39999,7 @@ entities:
   - uid: 1417
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -53.65753,9.624434
+      pos: -53.947113,9.535456
       parent: 2
 - proto: BoxHandcuff
   entities:
@@ -86470,7 +86468,7 @@ entities:
   - uid: 8954
     components:
     - type: Transform
-      pos: 16.482714,-29.493816
+      pos: 17.441465,-29.374582
       parent: 2
     - type: Storage
       storedItems:
@@ -87975,12 +87973,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 61.5,13.5
       parent: 2
-  - uid: 9172
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 3.5,42.5
-      parent: 2
   - uid: 9173
     components:
     - type: Transform
@@ -87998,6 +87990,14 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -0.5,-7.5
       parent: 25962
+- proto: ComputerAlertDesktop
+  entities:
+  - uid: 9172
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 4.5,43.5
+      parent: 2
 - proto: ComputerAnalysisConsole
   entities:
   - uid: 9174
@@ -88106,16 +88106,18 @@ entities:
     - type: Transform
       pos: -48.5,0.5
       parent: 2
-  - uid: 9185
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -56.5,6.5
-      parent: 2
   - uid: 9186
     components:
     - type: Transform
       pos: -48.5,-7.5
+      parent: 2
+- proto: ComputerCargoOrdersDesktop
+  entities:
+  - uid: 33942
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -53.5,9.5
       parent: 2
 - proto: ComputerCargoOrdersEngineering
   entities:
@@ -88177,6 +88179,60 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -46.5,-23.5
+      parent: 2
+- proto: ComputerCommsCargo
+  entities:
+  - uid: 9185
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -56.5,6.5
+      parent: 2
+- proto: ComputerCommsEngineering
+  entities:
+  - uid: 33941
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 3.5,42.5
+      parent: 2
+- proto: ComputerCommsLaw
+  entities:
+  - uid: 18448
+    components:
+    - type: Transform
+      pos: 56.5,-40.5
+      parent: 2
+- proto: ComputerCommsMedical
+  entities:
+  - uid: 17836
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -26.5,-36.5
+      parent: 2
+- proto: ComputerCommsScience
+  entities:
+  - uid: 17880
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 17.5,-31.5
+      parent: 2
+- proto: ComputerCommsSecurity
+  entities:
+  - uid: 22250
+    components:
+    - type: Transform
+      pos: 39.5,-38.5
+      parent: 2
+- proto: ComputerCommsService
+  entities:
+  - uid: 33944
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 44.5,-6.5
       parent: 2
 - proto: ComputerCrewMonitoring
   entities:
@@ -88245,12 +88301,6 @@ entities:
       parent: 2
 - proto: ComputerCriminalRecords
   entities:
-  - uid: 9202
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 44.5,-6.5
-      parent: 2
   - uid: 9203
     components:
     - type: Transform
@@ -88313,6 +88363,14 @@ entities:
     - type: Transform
       pos: 19.5,-42.5
       parent: 25962
+- proto: ComputerCriminalRecordsDesktop
+  entities:
+  - uid: 9202
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 43.5,-5.5
+      parent: 2
 - proto: ComputerFrame
   entities:
   - uid: 9209
@@ -88479,6 +88537,9 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 13.5,-29.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Research
   - uid: 9230
     components:
     - type: Transform
@@ -88592,11 +88653,6 @@ entities:
       parent: 25962
 - proto: ComputerStationRecords
   entities:
-  - uid: 9244
-    components:
-    - type: Transform
-      pos: 56.5,-40.5
-      parent: 2
   - uid: 9245
     components:
     - type: Transform
@@ -88618,6 +88674,14 @@ entities:
     components:
     - type: Transform
       pos: 45.5,-15.5
+      parent: 2
+- proto: ComputerStationRecordsDesktop
+  entities:
+  - uid: 9244
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 55.5,-41.5
       parent: 2
 - proto: ComputerSurveillanceCameraMonitor
   entities:
@@ -90407,7 +90471,7 @@ entities:
       pos: 59.5,-20.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -26035.291
+      secondsUntilStateChange: -26979.672
       state: Opening
 - proto: d10Dice
   entities:
@@ -99431,17 +99495,11 @@ entities:
     - type: Transform
       pos: -12.285842,-25.484867
       parent: 2
-    - type: ContainerContainer
-      containers:
-        item: !type:ContainerSlot {}
   - uid: 10866
     components:
     - type: Transform
       pos: -12.359225,-25.203562
       parent: 2
-    - type: ContainerContainer
-      containers:
-        item: !type:ContainerSlot {}
 - proto: Emitter
   entities:
   - uid: 10867
@@ -100507,7 +100565,7 @@ entities:
       pos: 6.5,50.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -42302.926
+      secondsUntilStateChange: -43247.31
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -100594,7 +100652,7 @@ entities:
       pos: 7.5,39.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -36991.598
+      secondsUntilStateChange: -37935.98
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -102608,6 +102666,8 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -20.5,-8.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal: []
     - type: DeviceLinkSink
       invokeCounter: 1
   - uid: 11198
@@ -103189,7 +103249,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -359820.7
+      secondsUntilStateChange: -360765.06
       state: Opening
   - uid: 321
     components:
@@ -103201,7 +103261,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -359823.3
+      secondsUntilStateChange: -360767.7
       state: Opening
   - uid: 322
     components:
@@ -103213,7 +103273,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -359822.16
+      secondsUntilStateChange: -360766.53
       state: Opening
   - uid: 323
     components:
@@ -103224,7 +103284,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -359821.38
+      secondsUntilStateChange: -360765.75
       state: Opening
 - proto: FHAirlockSurgeryLocked
   entities:
@@ -103260,7 +103320,7 @@ entities:
       pos: -29.5,-13.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -25318.781
+      secondsUntilStateChange: -26263.162
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -106562,7 +106622,7 @@ entities:
       pos: -13.5,-1.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -351144.7
+      secondsUntilStateChange: -352089.06
     - type: DeviceNetwork
       deviceLists:
       - 11326
@@ -162382,12 +162442,12 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-- proto: LockerChiefMedicalOfficerFilled
+- proto: LockerChiefMedicalOfficerFilledHardsuit
   entities:
-  - uid: 17836
+  - uid: 21596
     components:
     - type: Transform
-      pos: -26.5,-36.5
+      pos: -32.5,-36.5
       parent: 2
 - proto: LockerClown
   entities:
@@ -162840,12 +162900,12 @@ entities:
         moles:
           Oxygen: 1.7459903
           Nitrogen: 6.568249
-- proto: LockerResearchDirectorFilled
+- proto: LockerResearchDirectorFilledHardsuit
   entities:
-  - uid: 17880
+  - uid: 21626
     components:
     - type: Transform
-      pos: 17.5,-31.5
+      pos: 19.5,-31.5
       parent: 2
 - proto: LockerSalvageLeadFilledHardsuit
   entities:
@@ -165828,8 +165888,7 @@ entities:
   - uid: 18197
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 43.48465,-5.607312
+      pos: 43.51781,-5.928517
       parent: 2
   - uid: 18198
     components:
@@ -165881,8 +165940,7 @@ entities:
   - uid: 18207
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 43.474236,-5.326062
+      pos: 43.48656,-5.8034306
       parent: 2
   - uid: 18208
     components:
@@ -165893,8 +165951,7 @@ entities:
   - uid: 18209
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 43.58009,-5.2081184
+      pos: 43.64281,-5.8034306
       parent: 2
   - uid: 18210
     components:
@@ -166762,7 +166819,7 @@ entities:
   - uid: 18290
     components:
     - type: Transform
-      pos: 43.45779,-4.9268684
+      pos: 43.476143,-4.5421376
       parent: 2
 - proto: PersonalAI
   entities:
@@ -168016,11 +168073,6 @@ entities:
     components:
     - type: Transform
       pos: 3.5,-44.5
-      parent: 2
-  - uid: 18448
-    components:
-    - type: Transform
-      pos: 39.5,-38.5
       parent: 2
   - uid: 18449
     components:
@@ -177114,19 +177166,19 @@ entities:
   - uid: 19766
     components:
     - type: Transform
-      pos: 4.508805,43.674324
+      pos: 3.8882124,43.817684
       parent: 2
 - proto: RCDAmmo
   entities:
   - uid: 19767
     components:
     - type: Transform
-      pos: 4.696305,43.5337
+      pos: 3.7632124,43.61963
       parent: 2
   - uid: 19768
     components:
     - type: Transform
-      pos: 4.46193,43.580574
+      pos: 3.9298792,43.630054
       parent: 2
 - proto: ReagentContainerFlour
   entities:
@@ -191573,13 +191625,6 @@ entities:
     - type: Transform
       pos: 3.5,40.5
       parent: 2
-- proto: SuitStorageCMO
-  entities:
-  - uid: 21596
-    components:
-    - type: Transform
-      pos: -27.5,-36.5
-      parent: 2
 - proto: SuitStorageCorpsman
   entities:
   - uid: 32353
@@ -191755,13 +191800,6 @@ entities:
     components:
     - type: Transform
       pos: -56.5,10.5
-      parent: 2
-- proto: SuitStorageRD
-  entities:
-  - uid: 21626
-    components:
-    - type: Transform
-      pos: 17.5,-29.5
       parent: 2
 - proto: SuitStorageSec
   entities:
@@ -196779,12 +196817,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 30.5,-34.5
-      parent: 2
-  - uid: 22250
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 39.5,-38.5
       parent: 2
   - uid: 22251
     components:
@@ -220171,36 +220203,90 @@ entities:
     - type: Transform
       pos: 58.5,16.5
       parent: 2
+    - type: DeviceNetwork
+      deviceLists:
+      - 33943
+      - 33945
   - uid: 25592
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 63.5,8.5
       parent: 2
+    - type: DeviceNetwork
+      deviceLists:
+      - 33943
+      - 33945
   - uid: 25593
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 48.5,13.5
       parent: 2
+    - type: DeviceNetwork
+      deviceLists:
+      - 33943
+      - 33945
   - uid: 25594
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 54.5,22.5
       parent: 2
+    - type: DeviceNetwork
+      deviceLists:
+      - 33943
+      - 33945
   - uid: 25595
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 48.5,22.5
       parent: 2
+    - type: DeviceNetwork
+      deviceLists:
+      - 33943
+      - 33945
   - uid: 25596
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 54.5,13.5
       parent: 2
+    - type: DeviceNetwork
+      deviceLists:
+      - 33943
+      - 33945
+- proto: WeaponEnergyTurretAIControlPanel
+  entities:
+  - uid: 33943
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 59.5,7.5
+      parent: 2
+    - type: DeviceList
+      devices:
+      - 25591
+      - 25596
+      - 25593
+      - 25595
+      - 25594
+      - 25592
+  - uid: 33945
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 55.5,14.5
+      parent: 2
+    - type: DeviceList
+      devices:
+      - 25591
+      - 25596
+      - 25593
+      - 25595
+      - 25594
+      - 25592
 - proto: WeaponEnergyTurretSecurity
   entities:
   - uid: 25597
@@ -222519,7 +222605,7 @@ entities:
       pos: 24.5,2.5
       parent: 25962
     - type: Door
-      secondsUntilStateChange: -733181.4
+      secondsUntilStateChange: -734125.75
       state: Opening
   - uid: 32215
     components:

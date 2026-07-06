@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 04/14/2026 09:05:32
-  entityCount: 34977
+  time: 06/13/2026 02:27:19
+  entityCount: 34980
 maps:
 - 1
 grids:
@@ -277,7 +277,7 @@ entities:
           version: 7
         -3,1:
           ind: -3,1
-          tiles: KwAAAAAAAC4AAAAAAAAqAAAAAAAALAAAAAABACwAAAAAAwAsAAAAAAMALAAAAAADACwAAAAAAgAsAAAAAAIALAAAAAACACwAAAAAAQAsAAAAAAMALAAAAAAAACwAAAAAAQAsAAAAAAIALAAAAAAAACsAAAAAAAArAAAAAAAAKgAAAAAAACwAAAAAAwAsAAAAAAEALAAAAAABACwAAAAAAAAsAAAAAAMALAAAAAACACwAAAAAAQAsAAAAAAAALAAAAAADACwAAAAAAwAsAAAAAAIALAAAAAACACwAAAAAAQAuAAAAAAAALgAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAsAAAAAAEALAAAAAACACwAAAAAAAAsAAAAAAEALgAAAAAAAC4AAAAAAAAuAAAAAAAALgAAAAAAAC4AAAAAAAAuAAAAAAAALgAAAAAAAC4AAAAAAAAuAAAAAAAALgAAAAAAAC4AAAAAAAAqAAAAAAAALAAAAAABACwAAAAAAAAsAAAAAAEALAAAAAADACsAAAAAAAAuAAAAAAAAKgAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACsAAAAAAAArAAAAAAAAKgAAAAAAACoAAAAAAAAtAAAAAAAALQAAAAABAC0AAAAAAgAuAAAAAAAALgAAAAAAACoAAAAAAAAtAAAAAAAALQAAAAABAC0AAAAAAgAtAAAAAAIALQAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAtAAAAAAIALQAAAAADAC0AAAAAAAAtAAAAAAIAKwAAAAAAACsAAAAAAAAqAAAAAAAALQAAAAADAC0AAAAAAwAtAAAAAAMALQAAAAAAAC0AAAAAAQAtAAAAAAAALQAAAAAAAC0AAAAAAAAtAAAAAAEALQAAAAADAC0AAAAAAAAtAAAAAAIALQAAAAABACoAAAAAAAAqAAAAAAAAKgAAAAAAAC0AAAAAAgAtAAAAAAEALQAAAAACAC0AAAAAAQAtAAAAAAMALQAAAAABACoAAAAAAAAtAAAAAAMALQAAAAACAC0AAAAAAAAtAAAAAAIALQAAAAADAC0AAAAAAQAsAAAAAAEALAAAAAACAC0AAAAAAgAtAAAAAAEALQAAAAAAAC0AAAAAAAAtAAAAAAIAKgAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAqAAAAAAAALQAAAAACAC0AAAAAAAAtAAAAAAIALAAAAAABACwAAAAAAQAqAAAAAAAAKgAAAAAAAC0AAAAAAAAtAAAAAAAALQAAAAABACoAAAAAAAAsAAAAAAIALAAAAAACACwAAAAAAgAqAAAAAAAALAAAAAACACwAAAAAAQAsAAAAAAMALAAAAAACACwAAAAAAQAsAAAAAAAALAAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAqAAAAAAAALAAAAAABACwAAAAAAQAsAAAAAAEALAAAAAAAACwAAAAAAgAsAAAAAAIALAAAAAAAACwAAAAAAwAsAAAAAAEALAAAAAAAACwAAAAAAQAqAAAAAAAALAAAAAADACwAAAAAAAAsAAAAAAMAKgAAAAAAACwAAAAAAgAsAAAAAAMALAAAAAAAADMAAAAAAgAzAAAAAAAAMwAAAAADADMAAAAAAQAzAAAAAAIALAAAAAACACwAAAAAAwAsAAAAAAAALAAAAAADACwAAAAAAwAsAAAAAAEALAAAAAACACwAAAAAAAAsAAAAAAAALAAAAAABACwAAAAAAAAzAAAAAAAALAAAAAADACwAAAAAAAAsAAAAAAMALAAAAAACACwAAAAAAgAsAAAAAAEALAAAAAAAACwAAAAAAAAsAAAAAAAALAAAAAAAACwAAAAAAwAsAAAAAAAALAAAAAABACwAAAAAAwAsAAAAAAEALAAAAAABACwAAAAAAAAsAAAAAAAALAAAAAACACwAAAAAAQAsAAAAAAIALAAAAAADACwAAAAAAgAqAAAAAAAALAAAAAABACwAAAAAAwAsAAAAAAEAKgAAAAAAACwAAAAAAgAsAAAAAAIALAAAAAADACwAAAAAAAAsAAAAAAAALAAAAAACACwAAAAAAQAsAAAAAAEALAAAAAADACwAAAAAAgAsAAAAAAIAKgAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAsAAAAAAEALAAAAAACACwAAAAAAwAsAAAAAAMAKgAAAAAAACoAAAAAAAAsAAAAAAAAKgAAAAAAAA==
+          tiles: KwAAAAAAAC4AAAAAAAAqAAAAAAAALAAAAAABACwAAAAAAwAsAAAAAAMALAAAAAADACwAAAAAAgAsAAAAAAIALAAAAAACACwAAAAAAQAsAAAAAAMALAAAAAAAACwAAAAAAQAsAAAAAAIALAAAAAAAACsAAAAAAAArAAAAAAAAKgAAAAAAACwAAAAAAwAsAAAAAAEALAAAAAABACwAAAAAAAAsAAAAAAMALAAAAAACACwAAAAAAQAsAAAAAAAALAAAAAADACwAAAAAAwAsAAAAAAIALAAAAAACACwAAAAAAQAuAAAAAAAALgAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAsAAAAAAEALAAAAAACACwAAAAAAAAsAAAAAAEALgAAAAAAAC4AAAAAAAAuAAAAAAAALgAAAAAAAC4AAAAAAAAuAAAAAAAALgAAAAAAAC4AAAAAAAAuAAAAAAAALgAAAAAAAC4AAAAAAAAqAAAAAAAALAAAAAABACwAAAAAAAAsAAAAAAEALAAAAAADACsAAAAAAAAuAAAAAAAAKgAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACsAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAtAAAAAAAALQAAAAABAC0AAAAAAgAuAAAAAAAALgAAAAAAACoAAAAAAAAtAAAAAAAALQAAAAABAC0AAAAAAgAtAAAAAAIALQAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAAC0AAAAAAAAtAAAAAAIALQAAAAADAC0AAAAAAAAtAAAAAAIAKwAAAAAAACsAAAAAAAAqAAAAAAAALQAAAAADAC0AAAAAAwAtAAAAAAMALQAAAAAAAC0AAAAAAQAtAAAAAAAALQAAAAAAAC0AAAAAAAAtAAAAAAEALQAAAAADAC0AAAAAAAAtAAAAAAIALQAAAAABACoAAAAAAAAqAAAAAAAAKgAAAAAAAC0AAAAAAgAtAAAAAAEALQAAAAACAC0AAAAAAQAtAAAAAAMALQAAAAABACoAAAAAAAAtAAAAAAMALQAAAAACAC0AAAAAAAAtAAAAAAIALQAAAAADAC0AAAAAAQAsAAAAAAEALAAAAAACAC0AAAAAAgAtAAAAAAEALQAAAAAAAC0AAAAAAAAtAAAAAAIAKgAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAqAAAAAAAALQAAAAACAC0AAAAAAAAtAAAAAAIALAAAAAABACwAAAAAAQAqAAAAAAAAKgAAAAAAAC0AAAAAAAAtAAAAAAAALQAAAAABACoAAAAAAAAsAAAAAAIALAAAAAACACwAAAAAAgAqAAAAAAAALAAAAAACACwAAAAAAQAsAAAAAAMALAAAAAACACwAAAAAAQAsAAAAAAAALAAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAqAAAAAAAALAAAAAABACwAAAAAAQAsAAAAAAEALAAAAAAAACwAAAAAAgAsAAAAAAIALAAAAAAAACwAAAAAAwAsAAAAAAEALAAAAAAAACwAAAAAAQAqAAAAAAAALAAAAAADACwAAAAAAAAsAAAAAAMAKgAAAAAAACwAAAAAAgAsAAAAAAMALAAAAAAAADMAAAAAAgAzAAAAAAAAMwAAAAADADMAAAAAAQAzAAAAAAIALAAAAAACACwAAAAAAwAsAAAAAAAALAAAAAADACwAAAAAAwAsAAAAAAEALAAAAAACACwAAAAAAAAsAAAAAAAALAAAAAABACwAAAAAAAAzAAAAAAAALAAAAAADACwAAAAAAAAsAAAAAAMALAAAAAACACwAAAAAAgAsAAAAAAEALAAAAAAAACwAAAAAAAAsAAAAAAAALAAAAAAAACwAAAAAAwAsAAAAAAAALAAAAAABACwAAAAAAwAsAAAAAAEALAAAAAABACwAAAAAAAAsAAAAAAAALAAAAAACACwAAAAAAQAsAAAAAAIALAAAAAADACwAAAAAAgAqAAAAAAAALAAAAAABACwAAAAAAwAsAAAAAAEAKgAAAAAAACwAAAAAAgAsAAAAAAIALAAAAAADACwAAAAAAAAsAAAAAAAALAAAAAACACwAAAAAAQAsAAAAAAEALAAAAAADACwAAAAAAgAsAAAAAAIAKgAAAAAAACoAAAAAAAAqAAAAAAAAKgAAAAAAACoAAAAAAAAsAAAAAAEALAAAAAACACwAAAAAAwAsAAAAAAMAKgAAAAAAACoAAAAAAAAsAAAAAAAAKgAAAAAAAA==
           version: 7
         -2,1:
           ind: -2,1
@@ -22072,8 +22072,7 @@ entities:
   - uid: 1141
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -32.11566,-43.41812
+      pos: -31.818377,-43.32438
       parent: 2
   - uid: 1142
     components:
@@ -22158,7 +22157,7 @@ entities:
   - uid: 1154
     components:
     - type: Transform
-      pos: -34.15786,29.603043
+      pos: -34.488632,29.709873
       parent: 2
   - uid: 1155
     components:
@@ -22553,8 +22552,7 @@ entities:
   - uid: 1221
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -36.5,21.5
+      pos: -31.5,24.5
       parent: 2
   - uid: 1222
     components:
@@ -84098,12 +84096,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 54.5,-22.5
       parent: 2
-  - uid: 12525
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 49.5,-10.5
-      parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Cargo
   - uid: 12526
     components:
     - type: Transform
@@ -84171,6 +84166,78 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -57.5,28.5
       parent: 2
+- proto: ComputerCommsCargo
+  entities:
+  - uid: 12525
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 49.5,-10.5
+      parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Quartermaster
+- proto: ComputerCommsEngineering
+  entities:
+  - uid: 23531
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 27.5,-20.5
+      parent: 2
+- proto: ComputerCommsLaw
+  entities:
+  - uid: 34980
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -33.5,29.5
+      parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Magistrate
+        - Lawyer
+- proto: ComputerCommsMedical
+  entities:
+  - uid: 12538
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -33.5,-41.5
+      parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - ChiefMedicalOfficer
+- proto: ComputerCommsScience
+  entities:
+  - uid: 34979
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -40.5,-24.5
+      parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - ResearchDirector
+- proto: ComputerCommsSecurity
+  entities:
+  - uid: 12599
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -44.5,35.5
+      parent: 2
+- proto: ComputerCommsService
+  entities:
+  - uid: 32163
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -36.5,21.5
+      parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - HeadOfPersonnel
 - proto: ComputerCrewMonitoring
   entities:
   - uid: 12534
@@ -84196,12 +84263,6 @@ entities:
     - type: Transform
       pos: -40.5,56.5
       parent: 2
-  - uid: 12538
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -33.5,-41.5
-      parent: 2
   - uid: 12565
     components:
     - type: Transform
@@ -84218,6 +84279,14 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 23.5,57.5
+      parent: 2
+- proto: ComputerCrewMonitoringDesktop
+  entities:
+  - uid: 34978
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -32.5,-43.5
       parent: 2
 - proto: ComputerCriminalRecords
   entities:
@@ -84257,12 +84326,20 @@ entities:
     - type: Transform
       pos: -43.5,36.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Security
+      - - Cadet
   - uid: 12545
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -37.5,42.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Security
+      - - Cadet
   - uid: 12546
     components:
     - type: Transform
@@ -84323,6 +84400,10 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -31.5,21.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - HeadOfPersonnel
+      - - Quartermaster
 - proto: ComputerId
   entities:
   - uid: 12552
@@ -84547,6 +84628,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -37.5,41.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Armory
 - proto: ComputerShuttleCargo
   entities:
   - uid: 12585
@@ -84651,12 +84735,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -38.5,55.5
-      parent: 2
-  - uid: 12599
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -44.5,35.5
       parent: 2
   - uid: 12600
     components:
@@ -86285,7 +86363,7 @@ entities:
       pos: -8.5,33.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -22744.855
+      secondsUntilStateChange: -24281.176
       state: Opening
   - uid: 15273
     components:
@@ -86364,7 +86442,7 @@ entities:
       pos: -41.5,24.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -17349.434
+      secondsUntilStateChange: -18885.754
       state: Closing
   - uid: 12856
     components:
@@ -101036,7 +101114,7 @@ entities:
       pos: 20.5,-15.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -98974.945
+      secondsUntilStateChange: -100511.266
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -102353,7 +102431,7 @@ entities:
       pos: 26.5,17.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -106142.055
+      secondsUntilStateChange: -107678.375
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -103331,6 +103409,12 @@ entities:
       rot: 3.141592653589793 rad
       pos: 51.5,-9.5
       parent: 2
+    - type: Door
+      secondsUntilStateChange: -144.01645
+      state: Opening
+    - type: DeviceLinkSource
+      lastSignals:
+        DoorStatus: True
 - proto: FHAirlockMaintEngiLocked
   entities:
   - uid: 15470
@@ -110423,7 +110507,7 @@ entities:
   - uid: 33584
     components:
     - type: Transform
-      pos: -36.76047,36.88243
+      pos: -36.68714,36.785965
       parent: 2
 - proto: FoodDonutJellyScurret
   entities:
@@ -162357,6 +162441,9 @@ entities:
     - type: Transform
       pos: -40.5,50.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Armory
 - proto: LockerWeldingSuppliesFilled
   entities:
   - uid: 22866
@@ -166757,13 +166844,6 @@ entities:
       rot: 4.440892098500626E-16 rad
       pos: 6.508507,-59.615746
       parent: 2
-- proto: PottedPlant14
-  entities:
-  - uid: 23531
-    components:
-    - type: Transform
-      pos: 27.5,-20.5
-      parent: 2
 - proto: PottedPlant2
   entities:
   - uid: 23532
@@ -168731,8 +168811,8 @@ entities:
   - uid: 23817
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -35.5,21.5
+      rot: 3.141592653589793 rad
+      pos: -36.5,21.5
       parent: 2
   - uid: 23818
     components:
@@ -183403,6 +183483,8 @@ entities:
     - type: Transform
       pos: -32.5,20.5
       parent: 2
+    - type: DeviceLinkSink
+      invokeCounter: 1
   - uid: 26208
     components:
     - type: Transform
@@ -183438,28 +183520,38 @@ entities:
       rot: 3.141592653589793 rad
       pos: -33.5,24.5
       parent: 2
+    - type: DeviceLinkSink
+      invokeCounter: 1
   - uid: 26214
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -32.5,24.5
       parent: 2
+    - type: DeviceLinkSink
+      invokeCounter: 1
   - uid: 26215
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -34.5,24.5
       parent: 2
+    - type: DeviceLinkSink
+      invokeCounter: 1
   - uid: 26216
     components:
     - type: Transform
       pos: -33.5,20.5
       parent: 2
+    - type: DeviceLinkSink
+      invokeCounter: 1
   - uid: 26217
     components:
     - type: Transform
       pos: -34.5,20.5
       parent: 2
+    - type: DeviceLinkSink
+      invokeCounter: 1
   - uid: 26218
     components:
     - type: Transform
@@ -183915,6 +184007,33 @@ entities:
           - Toggle
     - type: Fixtures
       fixtures: {}
+  - uid: 26286
+    components:
+    - type: Transform
+      pos: -31.5,24.5
+      parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        26214:
+        - - Pressed
+          - Toggle
+        26213:
+        - - Pressed
+          - Toggle
+        26215:
+        - - Pressed
+          - Toggle
+        26207:
+        - - Pressed
+          - Toggle
+        26216:
+        - - Pressed
+          - Toggle
+        26217:
+        - - Pressed
+          - Toggle
+    - type: Fixtures
+      fixtures: {}
 - proto: SignalButtonDirectional
   entities:
   - uid: 26265
@@ -184336,34 +184455,6 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         1042:
-        - - Pressed
-          - Toggle
-    - type: Fixtures
-      fixtures: {}
-  - uid: 26286
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -36.5,21.5
-      parent: 2
-    - type: DeviceLinkSource
-      linkedPorts:
-        26217:
-        - - Pressed
-          - Toggle
-        26216:
-        - - Pressed
-          - Toggle
-        26207:
-        - - Pressed
-          - Toggle
-        26214:
-        - - Pressed
-          - Toggle
-        26213:
-        - - Pressed
-          - Toggle
-        26215:
         - - Pressed
           - Toggle
     - type: Fixtures
@@ -188777,7 +188868,7 @@ entities:
       parent: 2
 - proto: SpawnMechPaddyFilled
   entities:
-  - uid: 32163
+  - uid: 28147
     components:
     - type: Transform
       pos: -35.5,66.5
@@ -191558,6 +191649,9 @@ entities:
     - type: Transform
       pos: -41.5,50.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Armory
 - proto: SupermatterCrystal
   entities:
   - uid: 27288
@@ -197345,12 +197439,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -32.5,29.5
       parent: 2
-  - uid: 28147
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -33.5,29.5
-      parent: 2
   - uid: 28148
     components:
     - type: Transform
@@ -199572,6 +199660,9 @@ entities:
     - type: Transform
       pos: -36.5,23.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - HeadOfPersonnel
 - proto: VendingMachineChapel
   entities:
   - uid: 28357
@@ -204790,8 +204881,7 @@ entities:
   - uid: 29219
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -36.5,21.5
+      pos: -37.5,20.5
       parent: 2
   - uid: 29220
     components:
@@ -222751,7 +222841,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -36404.867
+      secondsUntilStateChange: -37941.188
       state: Opening
     - type: Airlock
       autoClose: False
@@ -222968,6 +223058,8 @@ entities:
     - type: Transform
       pos: -33.5,29.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal: []
 - proto: WindoorSecureEngineeringLocked
   entities:
   - uid: 32286

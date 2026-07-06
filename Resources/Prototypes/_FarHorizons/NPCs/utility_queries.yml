@@ -1,0 +1,13 @@
+- type: utilityQuery
+  id: InventoryAmmo
+  query:
+    - !type:InventoryQuery
+    - !type:ComponentFilter
+      components:
+        - type: BallisticAmmoProvider
+        - type: Item
+  considerations:
+    - !type:TargetAmmoMatchesCon
+      curve: !type:BoolCurve
+    - !type:TargetAmmoCon
+      curve: !type:QuadraticCurve

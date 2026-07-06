@@ -287,3 +287,9 @@ FHAirlockRoboticsGlassSyndieLocked: FHAirlockNSRoboticsGlassLocked
 FHAirlockParamedicGlassSyndieLocked: FHAirlockNSParamedicGlassLocked
 FHAirlockBasicGlassSyndieLocked: FHAirlockSyndicateGlassLocked
 FHAirlockServiceGlassSyndieLocked: FHAirlockNSServiceGlassLocked
+
+# 2026-06-02 - Paintable Walls
+GirderSyndie: Girder
+ReinforcedGirderSyndie: ReinforcedGirder
+# 2026-06-15
+SpawnPointBrighteye: null
