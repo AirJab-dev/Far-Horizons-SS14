@@ -15520,5 +15520,19 @@ Entries:
   id: 142901
   time: '2026-07-03T10:59:32.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1429
+- author: Rain_enjoyer, CorruptOmega
+  changes:
+  - message: change the criminal card fax to no longer come from NT.
+    type: Tweak
+  id: 142600
+  time: '2026-07-06T17:41:35.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1426
+- author: Rain_enjoyer, CorruptOmega
+  changes:
+  - message: redacted information crimes
+    type: Remove
+  id: 142601
+  time: '2026-07-06T17:41:35.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1426
 Order: -1
 
