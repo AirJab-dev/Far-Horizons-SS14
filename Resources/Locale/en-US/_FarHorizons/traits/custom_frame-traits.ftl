@@ -28,7 +28,7 @@ custom-frame-trait-undervolted-i-description = Your frame was built with a sligh
 custom-frame-trait-undervolted-ii-name = Undervolted II
 custom-frame-trait-undervolted-ii-description = Your frame was built with a undervolted power supply. (-30% power drain)
 
-custom-frame-trait-repair-nanites-name = Self Repair Nanites
+custom-frame-trait-repair-nanites-name = Repair Nanites
 custom-frame-trait-repair-nanites-description = Your frame was built with an in-built nanite replicator capable of doing repairs on command but at the cost of extra power. (Adds ability that can toggle regeneration on and off)
 
 custom-frame-trait-deluxe-oil-filter-name = Deluxe Oil Filter
@@ -39,3 +39,6 @@ custom-frame-trait-module-compatibility-description = Your frame was built with 
 
 custom-frame-trait-overclocking-name = Overclocking
 custom-frame-trait-overclocking-description = Your frame was built with the ability to redirect power from your fans directly to your servos. (Adds ability that shuts down your cooling fans but increases your speed by x1.35 and cosnumes some power)
+
+custom-frame-trait-better-insulation-name = Better Insulation
+custom-frame-trait-better-insulation-description = Your frame was built with better insulating materials making you harder to be damaged by the cold and heat as well less effects from shock. (+20% Heat, +20% Cold and +20% Shock. And minor resistance to electrocution.)

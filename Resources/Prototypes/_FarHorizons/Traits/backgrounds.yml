@@ -101,6 +101,7 @@
           - DeluxeOilFilter
           - ModuleCompatibility
           - Overclocking
+          - BetterInsulation
   requirements:
     - !type:SpeciesRequirement
       species:

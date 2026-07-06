@@ -43,10 +43,10 @@
     priority: -20
     icon:
       sprite: _FarHorizons/Interface/Actions/actions_custom_frame.rsi
-      state: trait_overclocking_off
+      state: trait_repair_off
     iconOn:
       sprite: _FarHorizons/Interface/Actions/actions_custom_frame.rsi
-      state: trait_overclocking_on
+      state: trait_repair_on
     useDelay: 5
   - type: InstantAction
     event: !type:RepairNanitesTraitEvent
