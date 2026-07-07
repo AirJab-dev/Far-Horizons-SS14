@@ -19,7 +19,7 @@
   id: EmergencyIPCClown
   effects:
   - !type:GroupLoadoutEffect
-    proto: IPC
+    proto: EffectSpeciesIPC
   storage:
     back:
     - BoxHugIPC

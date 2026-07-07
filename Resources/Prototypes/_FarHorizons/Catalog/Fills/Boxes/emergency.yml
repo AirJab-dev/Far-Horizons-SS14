@@ -58,7 +58,7 @@
 #region Syndicate
 - type: entity #🌟Starlight🌟
   parent: BoxSurvivalSyndicate
-  id: BoxSurvivalNonIPCSyndicate
+  id: BoxSurvivalIPCSyndicate
   suffix: Syndicate IPC
   components:
   - type: EntityTableContainerFill

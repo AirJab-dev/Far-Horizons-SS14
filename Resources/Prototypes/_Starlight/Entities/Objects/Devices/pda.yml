@@ -21,8 +21,8 @@
     scanningEndSound:
       path: "/Audio/Items/Medical/healthscanner.ogg"
     damageContainers:
-    - Silicon
-    - IPC
+    - Silicon #FH
+    - Robotic #FH
 
 - type: entity
   parent: BaseMedicalPDA
