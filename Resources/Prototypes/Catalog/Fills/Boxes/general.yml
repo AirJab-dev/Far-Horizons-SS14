@@ -277,14 +277,10 @@
 
 - type: entity
   name: Flare Box #Far Horizons - The Great Capitalization Crusade
-  parent: BoxCardboardSmall #FH
+  parent: BoxCardboard
   id: BoxFlare
   description: A box of flares. Party time.
   components:
-  - type: Item #FH
-    size: Small
-    shape: 
-    - 0,0,1,1 
   - type: EntityTableContainerFill
     containers:
       storagebase:
