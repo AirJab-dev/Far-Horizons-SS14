@@ -19,7 +19,6 @@
   description: salvage-mission-objective-description-free-danger
   announcement: salvage-mission-objective-announcement-free-danger
   allowedDifficulties:
-    - Difficult
     - Impossible
 
 - type: salvageMissionObjective
@@ -189,3 +188,21 @@
     - Challenging
   allowedDungeons:
     - Factory
+
+- type: salvageMissionObjective
+  id: MissionObjectiveHeadHunt
+  handlerId: "MissionObjectiveHeadHuntHandler"
+  name: salvage-mission-objective-name-headhunt
+  description: salvage-mission-objective-description-headhunt
+  announcement: salvage-mission-objective-announcement-headhunt
+  baseReward:
+    Difficult: 150
+  cashMultiplier: 2.5
+  numTargets:
+    Difficult: 1
+  bonus: 150
+  bonusCap: 29 # 30 total
+  allowedDifficulties:
+    - Difficult
+  allowedFactions:
+    - Soviet

@@ -27,3 +27,7 @@
   handler: !type:SalvageMissionDisarm
     numBodies: 20
     codeLength: 4
+
+- type: salvageMissionObjectiveHandler
+  id: MissionObjectiveHeadHuntHandler
+  handler: !type:SalvageMissionHeadHunt
