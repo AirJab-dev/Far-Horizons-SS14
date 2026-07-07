@@ -15542,5 +15542,29 @@ Entries:
   id: 143200
   time: '2026-07-07T18:01:04.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1432
+- author: AirJab
+  changes:
+  - message: adds new textures for the Quartermaster, Concorde Liaison and NeoSol’s
+      cargo Airlocks
+    type: Add
+  id: 143100
+  time: '2026-07-07T22:39:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1431
+- author: AirJab
+  changes:
+  - message: Changed the name of the Liaison's headset and locker to bring it in line
+      with their job title
+    type: Tweak
+  id: 143101
+  time: '2026-07-07T22:39:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1431
+- author: AirJab
+  changes:
+  - message: Changed the Liaison's locker door texture to bring it in line with their
+      job title
+    type: Tweak
+  id: 143102
+  time: '2026-07-07T22:39:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1431
 Order: -1
 
