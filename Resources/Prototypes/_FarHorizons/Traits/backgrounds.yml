@@ -49,6 +49,8 @@
         traitsAction: ActionOpenVampireTraits
         traitsUiKey: enum.VampireTraitsUiKey.Key
         allowTraitSelection: true
+        hungerDrain: 4
+        thirstDrain: 15
   requirements:
     - !type:SpeciesRequirement
       species:
