@@ -3,7 +3,7 @@
 - type: entity
   parent: FHAirlockLiaison
   id: FHAirlockMagistrateLocked
-  suffix: Concord Liaison, Locked
+  suffix: Concord Liaison, NT, Locked
   components:
   - type: ContainerFill
     containers:
@@ -25,7 +25,7 @@
 - type: entity
   parent: FHAirlockLiaisonGlass
   id: FHAirlockMagistrateGlassLocked
-  suffix: Concord Liaison, Locked
+  suffix: Concord Liaison, NT, Glass, Locked
   components:
     - type: ContainerFill
       containers:
@@ -36,7 +36,7 @@
 - type: entity
   parent: FHAirlockLiaisonGlass
   id: FHAirlockNSMagistrateGlassLocked
-  suffix: Concord Liaison, NS, Locked
+  suffix: Concord Liaison, NS, Glass, Locked
   components:
     - type: ContainerFill
       containers:
@@ -72,7 +72,7 @@
 - type: entity
   parent: FHAirlockQuartermaster
   id: FHAirlockQuartermasterLocked
-  suffix: Quartermaster, Locked
+  suffix: Quartermaster, NT, Locked
   components:
   - type: ContainerFill
     containers:
@@ -94,7 +94,7 @@
 - type: entity
   parent: FHAirlockQuartermasterLocked
   id: FHAirlockMaintQuartermasterLocked
-  suffix: Quartermaster, Locked, Maint
+  suffix: Quartermaster, NT, Locked, Maint
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/maint.rsi
@@ -110,7 +110,7 @@
 - type: entity
   parent: FHAirlockCargo
   id: FHAirlockCargoLocked
-  suffix: Cargo, Locked
+  suffix: Cargo, NT, Locked
   components:
   - type: ContainerFill
     containers:
@@ -130,7 +130,7 @@
 - type: entity
   parent: FHAirlockCargoLocked
   id: FHAirlockMaintCargoLocked
-  suffix: Cargo, Locked, Maint
+  suffix: Cargo, NT, Locked, Maint
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/maint.rsi
@@ -157,7 +157,7 @@
 - type: entity
   parent: FHAirlockSalvageLead
   id: FHAirlockSalvageLeadLocked
-  suffix: Salvage Lead, Locked
+  suffix: Salvage Lead, NT, Locked
   components:
   - type: ContainerFill
     containers:
@@ -234,7 +234,7 @@
 - type: entity
   parent: FHAirlockCommandGlass
   id: FHAirlockQuartermasterGlassLocked
-  suffix: Quartermaster, Locked
+  suffix: Quartermaster, Glass, NT, Locked
   components:
     - type: ContainerFill
       containers:
@@ -245,7 +245,7 @@
 - type: entity
   parent: FHAirlockCommandGlass
   id: FHAirlockNSQuartermasterGlassLocked
-  suffix: Quartermaster, NS, Locked
+  suffix: Quartermaster,Glass, NS, Locked
   components:
     - type: ContainerFill
       containers:
@@ -276,7 +276,7 @@
 - type: entity
   parent: FHAirlockCargoGlass
   id: FHAirlockNSCargoGlassLocked
-  suffix: Cargo, NS, Locked
+  suffix: Cargo, Glass, NS, Locked
   components:
     - type: ContainerFill
       containers:
@@ -287,7 +287,7 @@
 - type: entity
   parent: FHAirlockSalvageLeadGlass
   id: FHAirlockSalvageLeadGlassLocked
-  suffix: Salvage Lead, Locked
+  suffix: Salvage Lead, Glass, NT, Locked
   components:
   - type: ContainerFill
     containers:
@@ -296,7 +296,7 @@
 - type: entity
   parent: FHAirlockSalvageLeadGlass
   id: FHAirlockNSSalvageLeadGlassLocked
-  suffix: Salvage Lead, NS, Locked
+  suffix: Salvage Lead, Glass, NS, Locked
   components:
   - type: ContainerFill
     containers:
@@ -316,7 +316,7 @@
 - type: entity
   parent: FHAirlockCargoGlass
   id: FHAirlockNSSalvageGlassLocked
-  suffix: Salvage, NS, Locked
+  suffix: Salvage, Glass, NS, Locked
   components:
     - type: ContainerFill
       containers:

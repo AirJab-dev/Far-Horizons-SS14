@@ -6,7 +6,7 @@
 - type: entity
   id: LockerMagistrate
   parent: LockerBaseSecure
-  name: Liaison's Locker #Far Horizons
+  name: Concord Liaison's Locker #Far Horizons
   components:
   - type: Appearance
   - type: Sprite

@@ -117,7 +117,7 @@
 - type: entity
   parent: FHAirlock
   id: FHAirlockLiaison
-  suffix: Liaison
+  suffix: Concord Liaison
   components:
     - type: Sprite
       sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/liaison.rsi
@@ -335,7 +335,7 @@
 - type: entity
   parent: FHAirlockGlass
   id: FHAirlockLiaisonGlass
-  suffix: Liaison
+  suffix: Concord Liaison, Glass
   components:
     - type: Sprite
       sprite: _FarHorizons/Structures/Doors/Airlocks/Glass/liaison.rsi
@@ -347,7 +347,7 @@
 - type: entity
   parent: FHAirlockGlass
   id: FHAirlockQuartermasterGlass
-  suffix: Quartermaster
+  suffix: Quartermaster, Glass
   components:
     - type: Sprite
       sprite: _FarHorizons/Structures/Doors/Airlocks/Glass/quartermaster.rsi
