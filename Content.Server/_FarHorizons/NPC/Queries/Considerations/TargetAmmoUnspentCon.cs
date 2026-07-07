@@ -1,11 +1,10 @@
 using Content.Server.NPC;
-using Content.Server.NPC.Queries.Considerations;
 using Content.Shared.Weapons.Ranged.Components;
 
 namespace Content.Server._FarHorizons.NPC.Queries.Considerations;
 
 /// <summary>
-/// Returns 1f where the specified target is valid for the active hand's whitelist.
+/// Returns 1f when target cartridge ammo is unspent, 0f when spent or no cartridge ammo component.
 /// </summary>
 public sealed partial class TargetAmmoUnspentCon : ExternalConsideration
 {
