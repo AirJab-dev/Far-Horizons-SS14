@@ -874,7 +874,7 @@
 - type: entity
   parent: FHAirlockSyndicate
   id: FHAirlockLambdaLocked
-  suffix: Lambda, Locked
+  suffix: NT, Consortium, Locked
   components:
   - type: ContainerFill
     containers:
@@ -883,7 +883,7 @@
 - type: entity
   parent: FHAirlockSyndicate
   id: FHAirlockLambdaSquadopLocked
-  suffix: Lambda SquadOp, Locked
+  suffix: NT, Lambda, SquadOp, Locked
   components:
   - type: ContainerFill
     containers:
@@ -892,7 +892,7 @@
 - type: entity
   parent: FHAirlockExternal
   id: FHAirlockExternalLambdaLocked
-  suffix: External, Lambda, Locked
+  suffix: NT, External, Consortium, Locked
   components:
   - type: ContainerFill
     containers:
@@ -903,7 +903,7 @@
 - type: entity
   parent: FHAirlockExternal
   id: FHAirlockExternalLambdaSquadopLocked
-  suffix: External, Squadop, Locked
+  suffix: NT, Lambda, External, SquadOp, Locked
   components:
   - type: ContainerFill
     containers:
@@ -1304,7 +1304,7 @@
 - type: entity
   parent: FHAirlockSyndicateGlass
   id: FHAirlockLambdaGlassLocked
-  suffix: Lambda, Glass, Locked
+  suffix: NT, Consortium, Glass, Locked
   components:
     - type: ContainerFill
       containers:
@@ -1313,7 +1313,7 @@
 - type: entity
   parent: FHAirlockExternalGlass
   id: FHAirlockExternalGlassLambdaLocked
-  suffix: External, Glass, Lambda, Locked
+  suffix: NT, Consortium, External, Glass, Locked
   components:
   - type: ContainerFill
     containers:
@@ -1324,7 +1324,7 @@
 - type: entity
   parent: FHAirlockSyndicateGlass
   id: FHAirlockLambdaSquadopGlassLocked
-  suffix: Squadop, Glass, Locked
+  suffix: NT, Lambda, SquadOp, Glass, Locked
   components:
     - type: ContainerFill
       containers:
@@ -1333,7 +1333,7 @@
 - type: entity
   parent: FHAirlockExternalGlass
   id: FHAirlockExternalGlassLambdaSquadopLocked
-  suffix: External, Glass, Squadop, Locked
+  suffix: NT, Lambda, External, Glass, SquadOp, Locked
   components:
   - type: ContainerFill
     containers:
@@ -1650,7 +1650,7 @@
 - type: entity
   parent: FHAirlockNSNeoSolHighCommand
   id: FHAirlockNSNeoSolHighCommandLocked
-  suffix: NeiSolHighCommand, Locked
+  suffix: NeoSolHighCommand, Locked
   components:
   - type: ContainerFill
     containers:

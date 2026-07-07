@@ -1017,7 +1017,7 @@
     - id: Rifle556HeavyMagazineHP
       amount: 2
 
-#region Syndicate
+#region NeoSol
 
 
 
@@ -1033,7 +1033,7 @@
 
 - type: entity
   id: LockerSecurityFHFilledSyndi
-  suffix: Filled
+  suffix: NS, Filled
   parent: LockerSecurityFHSyndi
   components:
   - type: StorageFill
@@ -1057,7 +1057,7 @@
   
 - type: entity
   id: LockerSecurityLargeFHFilledSyndi
-  suffix: Filled
+  suffix: NS, Filled, Large
   parent: LockerSecurityLargeFHSyndi
   components:
   - type: StorageFill
@@ -1094,7 +1094,7 @@
 
 - type: entity
   id: LockerSecurityLargeFHLFilledSyndi
-  suffix: Filled, Left
+  suffix: NS, Filled, Left
   parent: LockerSecurityLargeFHLSyndi
   components:
   - type: StorageFill
@@ -1131,7 +1131,7 @@
 
 - type: entity
   id: LockerSecurityLargeFHMFilledSyndi
-  suffix: Filled, Middle
+  suffix: NS, Filled, Middle
   parent: LockerSecurityLargeFHMSyndi
   components:
   - type: StorageFill
@@ -1169,7 +1169,7 @@
 
 - type: entity
   id: LockerSecurityLargeFHRFilledSyndi
-  suffix: Filled, Right
+  suffix: NS, Filled, Right
   parent: LockerSecurityLargeFHRSyndi
   components:
   - type: StorageFill
@@ -1244,7 +1244,7 @@
 
 - type: entity
   id: LockerConstableFilledHardsuit
-  suffix: Filled, Hardsuit
+  suffix: NS, Filled, Hardsuit
   parent: LockerWardenFHSyndi
   components:
   - type: EntityTableContainerFill
@@ -1262,7 +1262,7 @@
 
 - type: entity
   id: LockerBrigmedicLargeFHFilledSyndi
-  suffix: Filled, Hardsuit
+  suffix: NS, Filled, Hardsuit
   parent: LockerBrigmedicLargeFHSyndi
   components:
   - type: StorageFill
@@ -1296,7 +1296,7 @@
 
 - type: entity
   id: LockerBrigmedicFHFilledSyndi
-  suffix: Filled, Hardsuit
+  suffix: NS, Filled, Hardsuit
   parent: LockerBrigmedicFHSyndi
   components:
   - type: StorageFill
@@ -1332,7 +1332,7 @@
 
 - type: entity
   id: LockerCorpsmanFilledSyndi
-  suffix: Filled, Hardsuit
+  suffix: NS, Filled, Hardsuit
   parent: LockerCorpsmanFHSyndi
   components:
   - type: StorageFill
