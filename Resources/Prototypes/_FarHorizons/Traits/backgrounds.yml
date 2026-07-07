@@ -90,20 +90,19 @@
         traits: 
           #Negative
           - OvervoltedI
-          - OvervoltedII
           - CheapOilFilter
+          - HeavierFrame
           - CompromisedIntegrity
           - RadiationVulnerability
-          - BloodPowered
           - MicroreactorIncompatibility
           #Positive
           - UndervoltedI
           - UndervoltedII
           - RepairNanites
-          - DeluxeOilFilter
           - ModuleCompatibility
           - Overclocking
           - BetterInsulation
+          - BloodPowered
   requirements:
     - !type:SpeciesRequirement
       species:

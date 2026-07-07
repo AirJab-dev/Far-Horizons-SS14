@@ -27,3 +27,6 @@ public sealed partial class RepairNanitesTraitComponent : IPCToggleActionCompone
     [DataField("allowedStates")] public List<MobState> AllowedStates = new();
     [DataField("damageCap")] public FixedPoint2 DamageCap = 0;
 }
+
+[RegisterComponent]
+public sealed partial class BloodPoweredTraitComponent : IPCTraitComponent;
