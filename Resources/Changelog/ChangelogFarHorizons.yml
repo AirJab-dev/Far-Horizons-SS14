@@ -15534,5 +15534,13 @@ Entries:
   id: 142601
   time: '2026-07-06T17:41:35.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1426
+- author: princess_gurchi
+  changes:
+  - message: Fixed an issue casing lesser vampires to gain hunger/thirst forever after
+      reaching 0 blood pool once
+    type: Fix
+  id: 143200
+  time: '2026-07-07T18:01:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1432
 Order: -1
 

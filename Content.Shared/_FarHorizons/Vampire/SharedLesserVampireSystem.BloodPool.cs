@@ -1,3 +1,5 @@
+using Content.Shared.Nutrition.Components;
+
 namespace Content.Shared._FarHorizons.Vampire;
 
 public partial class SharedLesserVampireSystem
@@ -16,8 +18,11 @@ public partial class SharedLesserVampireSystem
 
             if (GetBloodPool((uid, vampire)) > 0) continue;
 
-            _hunger.AddHungerDrain(uid, vampire.HungerDrain, vampire.NextUpdate);
-            _thirst.AddThirstDrain(uid, vampire.ThristDrain, vampire.NextUpdate);
+            if (TryComp<HungerComponent>(uid, out var hunger))
+                _hunger.ModifyHunger(uid, -vampire.HungerDrain, hunger);
+            
+            if (TryComp<ThirstComponent>(uid, out var thirst))
+                _thirst.ModifyThirst(uid, thirst, -vampire.ThirstDrain);
 
             var ev = new OutOfBloodPoolEvent();
             RaiseLocalEvent(uid, ref ev);

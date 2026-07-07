@@ -66,6 +66,8 @@
           - SupernaturalStrength
           - HealingBlood
           - Conversion
+        hungerDrain: 4
+        thirstDrain: 15
   requirements:
     - !type:SpeciesRequirement
       species:

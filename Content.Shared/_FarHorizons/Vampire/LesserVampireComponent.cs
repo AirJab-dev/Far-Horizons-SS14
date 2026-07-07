@@ -29,6 +29,6 @@ public sealed partial class LesserVampireComponent : Component
     [DataField] public float DrinkAmount = 3f;
     [DataField] public TimeSpan BloodPoolRefreshTime = TimeSpan.FromSeconds(1);
     [ViewVariables(VVAccess.ReadOnly)] public TimeSpan NextUpdate = TimeSpan.Zero;
-    [DataField] public float HungerDrain = 1.1f;
-    [DataField] public float ThristDrain = 1.1f;
+    [DataField] public float HungerDrain = 4f;
+    [DataField] public float ThirstDrain = 15f;
 }
