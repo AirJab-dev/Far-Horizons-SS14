@@ -35,5 +35,9 @@ salvage-mission-objective-description-disarm = Disable the self-destruction prot
 salvage-mission-objective-announcement-disarm = Your mission is to find the disarm codes, then enter them into security consoles in order to stop the self destruction sequence. There are {$numTargets} codes in total.
 salvage-mission-objective-disarm-paper = Your disarm code for the shift: #{$code}
 
+salvage-mission-objective-name-headhunt = Headhunt
+salvage-mission-objective-description-headhunt = Sector authorities have posted a bounty to evict illegal settlers from the planet surface.
+salvage-mission-objective-announcement-headhunt = Your mission is to either bring the targets into custody alive, or bring proof of their deaths. You will be paid for each target.
+
 salvage-mission-objective-completed-message = Salvage mission completed. {$bonus}/{$maxBonus} bonus objectives completed. Total payout: {$totalReward} tickets and {$totalCash} spesos.
 salvage-mission-objective-failed-message = Salvage mission failed.

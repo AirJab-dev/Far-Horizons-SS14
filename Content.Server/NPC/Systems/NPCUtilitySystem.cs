@@ -35,6 +35,7 @@ using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Temperature.Components;
 using Content.Shared.Weapons.Ranged.Systems;
+using Content.Server._FarHorizons.NPC.Queries.Considerations;
 
 namespace Content.Server.NPC.Systems;
 
@@ -261,16 +262,34 @@ public sealed class NPCUtilitySystem : EntitySystem
             {
                 if (!blackboard.TryGetValue<string>(NPCBlackboard.ActiveHand, out var activeHand, EntityManager) ||
                     !_hands.TryGetHeldItem(owner, activeHand, out var heldEntity) ||
-                    !HasComp<GunComponent>(heldEntity) || // Far Horizons
-                    !_itemSlot.TryGetSlot(heldEntity.Value, SharedGunSystem.MagazineSlot, out var magazineSlot))  // Far Horizons
+                    !HasComp<GunComponent>(heldEntity))  // Far Horizons
                 {
                     return 0f;
                 }
 
-                if (_whitelistSystem.IsWhitelistFailOrNull(magazineSlot.Whitelist, targetUid))
+                // Far Horizons start
+                BallisticAmmoProviderComponent? ballisticAmmoProvider = null;
+
+                if (!TryComp<ItemSlotsComponent>(heldEntity.Value, out var itemSlots) &&
+                    !TryComp(heldEntity.Value, out ballisticAmmoProvider))
                 {
                     return 0f;
                 }
+
+                if (itemSlots != null && 
+                    _itemSlot.TryGetSlot(heldEntity.Value, SharedGunSystem.MagazineSlot, out var magazineSlot) && 
+                    magazineSlot != null &&
+                    _whitelistSystem.IsWhitelistFailOrNull(magazineSlot.Whitelist, targetUid))
+                {
+                    return 0f;
+                }
+
+                if (ballisticAmmoProvider != null && 
+                    _whitelistSystem.IsWhitelistFailOrNull(ballisticAmmoProvider.Whitelist, targetUid))
+                {
+                    return 0f;
+                }
+                // Far Horizons end
 
                 return 1f;
             }
@@ -391,6 +410,13 @@ public sealed class NPCUtilitySystem : EntitySystem
 
                     return temperature.CurrentTemperature <= con.MinTemp ? 1f : 0f;
                 }
+            // Far Horizons start
+            // All FH additions will be defined externally to avoid bloating this function beyond reason
+            case ExternalConsideration externalConsideration:
+                {
+                    return externalConsideration.GetScore(blackboard, targetUid, EntityManager);
+                }
+            // Far Horizons end
             default:
                 throw new NotImplementedException();
         }
