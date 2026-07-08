@@ -46,6 +46,8 @@
         metabolizer: LesserVampire
         drinkDelay: 2
         drinkAmount: 4 # Tiny little sips, we wouldn't want to hurt anyone, would we?
+        hungerDrain: 4
+        thirstDrain: 15
       - type: BackgroundTraits
         traitsAction: ActionOpenVampireTraits
         traitsUiKey: enum.BackgroundTraitsUiKey.Key
@@ -66,8 +68,6 @@
           - SupernaturalStrength
           - HealingBlood
           - Conversion
-        hungerDrain: 4
-        thirstDrain: 15
   requirements:
     - !type:SpeciesRequirement
       species:

@@ -63,8 +63,6 @@
   id: CheapOilFilter
   name: custom-frame-trait-cheap-oil-filter-name
   description: custom-frame-trait-cheap-oil-filter-description
-  incompatible: 
-    - DeluxeOilFilter
   cost: -6
   effects:
     - !type:OverrideCompsEffect
@@ -83,7 +81,7 @@
   effects:
     - !type:OverrideCompsEffect
       components:
-      - type: MicroreactorIncompatibility
+      - type: MicroreactorIncompatibilityTrait
 
 #region Positive Traits
 
@@ -122,7 +120,6 @@
   cost: 5
   incompatible: 
   - RepairNanites
-  - DeluxeOilFilter
   - MicroreactorIncompatibility
   effects:
     - !type:OverrideCompsEffect
