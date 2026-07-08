@@ -1,6 +1,6 @@
 #Negatives
-custom-frame-trait-overvolted-i-name = Overvolted I
-custom-frame-trait-overvolted-i-description = Your frame was built with a slightly overvolted power supply. (+25% power drain)
+custom-frame-trait-overvolted-i-name = Overvolted
+custom-frame-trait-overvolted-i-description = Your frame was built with a overvolted power supply. (+25% power drain)
 
 custom-frame-trait-cheap-oil-filter-name = Cheap Oil Filter
 custom-frame-trait-cheap-oil-filter-description = Your frame was built with a cheap oil filter making it unable to recycle oil. (Disables oil regeneration)
@@ -25,13 +25,13 @@ custom-frame-trait-undervolted-ii-name = Undervolted II
 custom-frame-trait-undervolted-ii-description = Your frame was built with a undervolted power supply. (-30% power drain)
 
 custom-frame-trait-repair-nanites-name = Repair Nanites
-custom-frame-trait-repair-nanites-description = Your frame was built with an in-built nanite replicator capable of doing repairs on command but at the cost of extra power. (Adds ability that can toggle regeneration on and off)
+custom-frame-trait-repair-nanites-description = Your frame was built with an in-built nanite replicator capable of doing repairs on command but at the cost of extra power. (Adds an ability that can toggle regeneration on and off)
 
 custom-frame-trait-module-compatibility-name = Module Compatibility
 custom-frame-trait-module-compatibility-description = Your frame was built with the ability to support cyborg modules. (Allows cyborg modules to be installed)
 
 custom-frame-trait-overclocking-name = Overclocking
-custom-frame-trait-overclocking-description = Your frame was built with the ability to redirect power from your fans directly to your servos. (Adds ability that shuts down your cooling fans but increases your speed by x1.35 and cosnumes some power)
+custom-frame-trait-overclocking-description = Your frame was built with the ability to redirect power from your fans directly to your processor. (Adds an ability that can make you faster at doing things such as building, deconstructing and etc)
 
 custom-frame-trait-better-insulation-name = Better Insulation
 custom-frame-trait-better-insulation-description = Your frame was built with better insulating materials making you harder to electrocute. (Adds electrocution protection. Not full insulated gloves!)

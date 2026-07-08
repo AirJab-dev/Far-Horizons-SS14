@@ -2,7 +2,7 @@ using Content.Shared._FarHorizons.IPC.Traits;
 using Content.Shared._FarHorizons.Silicons.IPC.Components;
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Damage.Components;
-using Content.Shared.Movement.Systems;
+using Content.Shared.DoAfter;
 using Content.Shared.PowerCell;
 using Content.Shared.PowerCell.Components;
 using Content.Shared.StatusEffectNew;
@@ -43,9 +43,21 @@ public sealed class CyborgModuleTraitSystem : IPCTraitSystem<CyborgModuleTraitCo
 
 public sealed class OverclockingTraitSystem : IPCToggleActionTraitSystem<OverclockingTraitComponent, OverclockingTraitEvent>
 {
-    [Dependency] private readonly MovementModStatusSystem _movementMod = default!;
     [Dependency] private readonly StatusEffectsSystem _status = default!;
     [Dependency] private readonly PowerCellSystem _power = default!;
+    public override void Initialize()
+    {
+        base.Initialize();
+        SubscribeLocalEvent<OverclockingTraitComponent, BeforeDoAfterEvent>(BeforeDoAfter);
+    }
+
+    private void BeforeDoAfter(Entity<OverclockingTraitComponent> ent, ref BeforeDoAfterEvent args)
+    {
+        if(!ent.Comp.Toggled) return;
+
+        args.Args.Delay = ent.Comp.speedModifier * args.Args.Delay;
+    }
+
     protected override void OnToggled(Entity<IPCBrainHolderComponent, OverclockingTraitComponent> ent, bool toggle)
     {
         if(!TryComp<PowerCellDrawComponent>(ent.Owner, out var pcdComp))
@@ -54,14 +66,11 @@ public sealed class OverclockingTraitSystem : IPCToggleActionTraitSystem<Overclo
         if(toggle)
         {
             _power.SetDrawRate( ent.Owner, pcdComp.DrawRate * ent.Comp2.drawRateMultiplier);
-            _status.TrySetStatusEffectDuration(ent.Owner, MovementModStatusSystem.ReagentSpeed, out var status);
-            _movementMod.TryUpdateMovementStatus(ent.Owner, status!.Value, ent.Comp2.speedModifier, ent.Comp2.speedModifier);
             _status.TrySetStatusEffectDuration(ent.Owner, "StatusEffectIPCFanDisabled");
         }
         else if(!toggle)
         {
             _power.SetDrawRate( ent.Owner, pcdComp.DrawRate / ent.Comp2.drawRateMultiplier);
-            _status.TryRemoveStatusEffect(ent.Owner, MovementModStatusSystem.ReagentSpeed);
             _status.TryRemoveStatusEffect(ent.Owner, "StatusEffectIPCFanDisabled");
         }
     }
