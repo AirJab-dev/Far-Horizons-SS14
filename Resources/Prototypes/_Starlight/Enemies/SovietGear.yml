@@ -32,8 +32,9 @@
 #shotgun
 - type: startingGear
   id: SovietComradeGearSawn
-  parent: [SovietComradeGear, SovietComradeGearBelt]
+  parent: [SovietComradeGear, SovietComradeGearBelt] #Far Horizons
   equipment:
+#Far Horizons-Start
     rig: ClothingSovietBandolier
   storage:
     belt:
@@ -49,6 +50,7 @@
     - ShellShotgun
     - ShellShotgun
     - ShellShotgun # 12 shots total, but they might as well be airsofts against any kind of armor
+#Far Horizons-End
   inhand:
   - WeaponShotgunSawn
 #pistol
