@@ -15566,5 +15566,34 @@ Entries:
   id: 143102
   time: '2026-07-07T22:39:54.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1431
+- author: princess_gurchi
+  changes:
+  - message: Humanoid NPCs now can also reload internal magazines
+    type: Add
+  id: 143500
+  time: '2026-07-08T16:36:21.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1435
+- author: princess_gurchi
+  changes:
+  - message: Shotgun comrades get 10 extra shells in their belt
+    type: Tweak
+  id: 143501
+  time: '2026-07-08T16:36:21.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1435
+- author: princess_gurchi
+  changes:
+  - message: Commie belt can store individual rounds
+    type: Fix
+  id: 143502
+  time: '2026-07-08T16:36:21.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1435
+- author: princess_gurchi
+  changes:
+  - message: 'New salvage mission: Headhunt. Currently only available for commies,
+      evict local population for profit.'
+    type: Add
+  id: 143503
+  time: '2026-07-08T16:36:21.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1435
 Order: -1
 
