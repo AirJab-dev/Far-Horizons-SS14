@@ -100,6 +100,16 @@
           drawRate: 0.5
 
 - type: backgroundTrait
+  id: LanguageDatabase
+  name: custom-frame-trait-language-database-name
+  description: custom-frame-trait-language-database-description
+  cost: 3
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+      - type: LanguageDatabaseTrait
+
+- type: backgroundTrait
   id: UndervoltedII
   name: custom-frame-trait-undervolted-ii-name
   description: custom-frame-trait-undervolted-ii-description

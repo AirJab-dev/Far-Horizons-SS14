@@ -8,6 +8,7 @@ using Content.Shared.PowerCell.Components;
 using Content.Shared.StatusEffectNew;
 using Content.Shared.Tag;
 using Content.Shared.Whitelist;
+using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 
 namespace Content.Shared._FarHorizons.Silicons.IPC.Traits.Positive;
@@ -117,7 +118,7 @@ public sealed class RepairNanitesTraitSystem : IPCToggleActionTraitSystem<Repair
     }
 }
 
-public sealed class BloodPoweredTraitTraitSystem : IPCTraitSystem<BloodPoweredTraitComponent>
+public sealed class BloodPoweredTraitSystem : IPCTraitSystem<BloodPoweredTraitComponent>
 {
     [Dependency] private readonly ItemSlotsSystem _itemSlots = default!;
     protected override void TraitInit(Entity<IPCBrainHolderComponent, BloodPoweredTraitComponent> ent)
@@ -133,5 +134,14 @@ public sealed class BloodPoweredTraitTraitSystem : IPCTraitSystem<BloodPoweredTr
 
         _itemSlots.SetDisableEject(ent.Owner, cellSlot, true);
         _itemSlots.SetSwap(ent.Owner, cellSlot, false);
+    }
+}
+
+public sealed class LanguageDatabaseTraitSystem : IPCTraitSystem<LanguageDatabaseTraitComponent>
+{
+    [Dependency] private readonly SharedContainerSystem _container = default!;
+    protected override void TraitInit(Entity<IPCBrainHolderComponent, LanguageDatabaseTraitComponent> ent)
+    {
+        _container.EnsureContainer<Container>(ent, ent.Comp2.ContainerId);
     }
 }

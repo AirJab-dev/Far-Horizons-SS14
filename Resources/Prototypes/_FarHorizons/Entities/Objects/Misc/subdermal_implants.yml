@@ -69,3 +69,28 @@
   - type: RadioImplant
     radioChannels:
     - Lambda
+
+- type: entity
+  id: LanguageDatabaseImplant
+  name: Language Database Implant
+  description: A subdermal implant containing a database of languages.
+  parent: BaseSubdermalImplant
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: SubdermalImplant
+      implantAction: ActionPAIOpenShop
+      permanent: true
+    - type: Store
+      name: store-preset-name-pai 
+      categories:
+      - Languages 
+      currencyWhitelist:
+      - SiliconMemory
+      balance:
+        SiliconMemory: 5
+      refundAllowed: true
+      ownerOnly: true
+    - type: UserInterface
+      interfaces:
+        enum.StoreUiKey.Key:
+          type: StoreBoundUserInterface

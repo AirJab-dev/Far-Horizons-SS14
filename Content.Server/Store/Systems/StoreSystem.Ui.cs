@@ -290,7 +290,13 @@ public sealed partial class StoreSystem
         if (listing.ProductLanguage != null) //Starlight-start
         {
             var language = _languageSystem.GetLanguagePrototype(listing.ProductLanguage);
-            if  (language != null) _languageSystem.AddLanguage(buyer, language);
+            //FarHorizons Start
+            if  (language != null)
+            {
+                _languageSystem.AddLanguage(buyer, language);
+                component.BoughtLanguages.Add(language);
+            }
+            //FarHorizons End
         } // Starlight-end
 
         if (listing.ProductEvent != null)
@@ -530,7 +536,7 @@ public sealed partial class StoreSystem
             UpdateUserInterface(buyer, uid, component);
         }
 
-        if (!component.RefundAllowed || component.BoughtEntities.Count == 0)
+        if (!component.RefundAllowed || (component.BoughtEntities.Count == 0 && component.BoughtLanguages.Count == 0)) // FarHorizons
             return;
 
         _admin.Add(LogType.StoreRefund, LogImpact.Low, $"{ToPrettyString(buyer):player} has refunded their purchases from {ToPrettyString(uid):store}");
@@ -550,6 +556,17 @@ public sealed partial class StoreSystem
         }
 
         component.BoughtEntities.Clear();
+
+        //FarHorizons Start
+        for(var x = component.BoughtLanguages.Count - 1; x >= 0; x--)
+        {
+            var purchase = component.BoughtLanguages[x];
+            _languageSystem.RemoveLanguage(buyer, purchase);
+            component.BoughtLanguages.RemoveAt(x);
+        }
+
+        component.BoughtLanguages.Clear();
+        //FarHorizons End
 
         foreach (var (currency, value) in component.BalanceSpent)
         {

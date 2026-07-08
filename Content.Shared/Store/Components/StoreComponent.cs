@@ -1,3 +1,4 @@
+using Content.Shared._Starlight.Language; // FH
 using Content.Shared.FixedPoint;
 using Content.Shared.NPC.Prototypes;
 using Robust.Shared.Audio;
@@ -108,6 +109,16 @@ public sealed partial class StoreComponent : Component
     [DataField]
     public SoundSpecifier BuySuccessSound = new SoundPathSpecifier("/Audio/Effects/kaching.ogg");
     #endregion
+
+    //Far Horizons Start
+
+    /// <summary>
+    ///     All current languages bought from this shop.
+    /// </summary>
+    [ViewVariables, DataField]
+    public List<LanguagePrototype> BoughtLanguages = new();
+
+    //Far Horizons End
 }
 
 /// <summary>

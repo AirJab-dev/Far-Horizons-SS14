@@ -3,6 +3,7 @@ using Content.Shared.Damage;
 using Content.Shared.FixedPoint;
 using Content.Shared.Mobs;
 using Robust.Shared.GameStates;
+using Robust.Shared.Containers;
 
 namespace Content.Shared._FarHorizons.Silicons.IPC.Traits.Positive;
 
@@ -30,3 +31,8 @@ public sealed partial class RepairNanitesTraitComponent : IPCToggleActionCompone
 
 [RegisterComponent]
 public sealed partial class BloodPoweredTraitComponent : IPCTraitComponent;
+[RegisterComponent]
+public sealed partial class LanguageDatabaseTraitComponent : IPCTraitComponent
+{
+    public const string ContainerId = "languageDatabase";
+}

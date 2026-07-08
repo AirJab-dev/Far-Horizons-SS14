@@ -24,6 +24,9 @@ custom-frame-trait-undervolted-i-description = Your frame was built with a sligh
 custom-frame-trait-undervolted-ii-name = Undervolted II
 custom-frame-trait-undervolted-ii-description = Your frame was built with a undervolted power supply. (-30% power drain)
 
+custom-frame-trait-language-database-name = Language Database
+custom-frame-trait-language-database-description = You frame was built with a language database installed. You have access to a near unlimited selection of languages albeit due to memory space you can only have one installed at the time. (What it says on the tin)
+
 custom-frame-trait-repair-nanites-name = Repair Nanites
 custom-frame-trait-repair-nanites-description = Your frame was built with an in-built nanite replicator capable of doing repairs on command but at the cost of extra power. (Adds an ability that can toggle regeneration on and off)
 
