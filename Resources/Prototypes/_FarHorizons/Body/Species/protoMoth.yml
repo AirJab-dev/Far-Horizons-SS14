@@ -33,7 +33,7 @@
       Tongue: OrganProtogenTongue
       Ears: OrganProtogenEars
       Lungs: OrganProtogenLungs
-      Heart: OrganProtogenHeart
+      Heart: OrganProtoMothHeart
       Stomach: OrganProtoMothStomach
       Liver: OrganProtogenLiver
       Kidneys: OrganProtogenKidneys
@@ -58,6 +58,14 @@
   - type: VisualOrganMarkings
     markingData:
       group: ProtoMoth
+
+- type: entity 
+  parent: OrganProtogenHeart
+  id: OrganProtoMothHeart
+  components:
+  - type: Metabolizer
+    maxReagents: 2
+    metabolizerTypes: [ Moth ] 
 
 # Limbs
 
