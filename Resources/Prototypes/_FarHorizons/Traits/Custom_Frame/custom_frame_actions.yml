@@ -50,3 +50,15 @@
     useDelay: 5
   - type: InstantAction
     event: !type:RepairNanitesTraitEvent
+
+- type: entity
+  parent: ActionIntrinsicStore
+  id: ActionCustomTraitLanguageDatabase
+  name: Language Database
+  description: Download new languages on the go.
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    icon:
+      sprite: _FarHorizons/Interface/Actions/actions_custom_frame.rsi
+      state: trait_language_database

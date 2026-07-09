@@ -24,6 +24,9 @@
         },
         {
             "name": "trait_repair_off"
+        },
+        {
+            "name": "trait_language_database"
         }
     ]
 }

@@ -3,6 +3,8 @@ using Content.Shared._FarHorizons.Silicons.IPC.Components;
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Damage.Components;
 using Content.Shared.DoAfter;
+using Content.Shared.Implants;
+using Content.Shared.Implants.Components;
 using Content.Shared.PowerCell;
 using Content.Shared.PowerCell.Components;
 using Content.Shared.StatusEffectNew;
@@ -140,8 +142,11 @@ public sealed class BloodPoweredTraitSystem : IPCTraitSystem<BloodPoweredTraitCo
 public sealed class LanguageDatabaseTraitSystem : IPCTraitSystem<LanguageDatabaseTraitComponent>
 {
     [Dependency] private readonly SharedContainerSystem _container = default!;
+    [Dependency] private readonly SharedImplanterSystem _implanter = default!;
     protected override void TraitInit(Entity<IPCBrainHolderComponent, LanguageDatabaseTraitComponent> ent)
     {
-        _container.EnsureContainer<Container>(ent, ent.Comp2.ContainerId);
+        var implant = SpawnNextToOrDrop("LanguageDatabaseImplanter", ent.Owner);
+        _implanter.Implant(ent.Owner, ent.Owner, implant, Comp<ImplanterComponent>(implant));
+        QueueDel(implant);
     }
 }

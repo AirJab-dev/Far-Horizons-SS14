@@ -32,7 +32,4 @@ public sealed partial class RepairNanitesTraitComponent : IPCToggleActionCompone
 [RegisterComponent]
 public sealed partial class BloodPoweredTraitComponent : IPCTraitComponent;
 [RegisterComponent]
-public sealed partial class LanguageDatabaseTraitComponent : IPCTraitComponent
-{
-    public const string ContainerId = "languageDatabase";
-}
+public sealed partial class LanguageDatabaseTraitComponent : IPCTraitComponent;

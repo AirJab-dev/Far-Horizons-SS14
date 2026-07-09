@@ -118,6 +118,13 @@ public sealed partial class StoreComponent : Component
     [ViewVariables, DataField]
     public List<LanguagePrototype> BoughtLanguages = new();
 
+    /// <summary>
+    ///     Just a check for if the store requires to be on the starting map (apparently it wasn't a thing before?)
+    /// </summary>
+
+    [ViewVariables, DataField]
+    public bool RequireStartingMap = true;
+
     //Far Horizons End
 }
 

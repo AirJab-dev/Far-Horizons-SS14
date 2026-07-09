@@ -202,7 +202,7 @@ public sealed partial class StoreSystem
             }
         }
 
-        if (!IsOnStartingMap(uid, component))
+        if (component.RequireStartingMap && !IsOnStartingMap(uid, component)) // FH
             DisableRefund(uid, component);
 
         //subtract the cash
@@ -530,7 +530,7 @@ public sealed partial class StoreSystem
         if (args.Actor is not { Valid: true } buyer)
             return;
 
-        if (!IsOnStartingMap(uid, component))
+        if (component.RequireStartingMap && !IsOnStartingMap(uid, component)) //FH
         {
             DisableRefund(uid, component);
             UpdateUserInterface(buyer, uid, component);

@@ -78,10 +78,10 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
-      implantAction: ActionPAIOpenShop
+      implantAction: ActionCustomTraitLanguageDatabase
       permanent: true
     - type: Store
-      name: store-preset-name-pai 
+      name: custom-frame-trait-language-database-name 
       categories:
       - Languages 
       currencyWhitelist:
@@ -89,7 +89,9 @@
       balance:
         SiliconMemory: 5
       refundAllowed: true
+      requireStartingMap: false
       ownerOnly: true
+      buySuccessSound: /Audio/Machines/chime.ogg
     - type: UserInterface
       interfaces:
         enum.StoreUiKey.Key:
