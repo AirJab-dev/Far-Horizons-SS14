@@ -14,7 +14,7 @@ public sealed partial class CyborgModuleTraitComponent : IPCTraitComponent;
 public sealed partial class OverclockingTraitComponent : IPCToggleActionComponent
 {
     [DataField] public float drawRateMultiplier = 2f;
-    [DataField] public float speedModifier = 0.80f;
+    [DataField] public float speedModifier = 0.60f;
 }
 
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]

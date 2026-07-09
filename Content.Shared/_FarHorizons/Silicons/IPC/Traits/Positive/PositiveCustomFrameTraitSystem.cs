@@ -141,7 +141,6 @@ public sealed class BloodPoweredTraitSystem : IPCTraitSystem<BloodPoweredTraitCo
 
 public sealed class LanguageDatabaseTraitSystem : IPCTraitSystem<LanguageDatabaseTraitComponent>
 {
-    [Dependency] private readonly SharedContainerSystem _container = default!;
     [Dependency] private readonly SharedImplanterSystem _implanter = default!;
     protected override void TraitInit(Entity<IPCBrainHolderComponent, LanguageDatabaseTraitComponent> ent)
     {

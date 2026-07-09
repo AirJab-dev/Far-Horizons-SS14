@@ -17,6 +17,12 @@ custom-frame-trait-microreactor-incompatibility-description = Your frame was bui
 custom-frame-trait-heavier-frame-name = Heavier Frame
 custom-frame-trait-heavier-frame-description = Your frame was built with a cheaper but heavier plasteel alloy to compensate your servos are stronger but louder but even with the stronger servos you are slightly slower. (Louder footsteps and 5% slowdown)
 
+custom-frame-trait-integrated-battery-name = Integrated Battery 
+custom-frame-trait-integrated-battery-description = Your frame was built with a integrated battery of higher capacity. The tradeoff is that you can't remove it.
+
+custom-frame-trait-outdated-wiring-name = Outdated Wiring
+custom-frame-trait-outdated-wiring-description = Your frame uses an old way of wiring making you incompatible from recharging from your standard APC forcing you to use the Cyborg Chargers. 
+
 #Positives
 custom-frame-trait-undervolted-i-name = Undervolted I
 custom-frame-trait-undervolted-i-description = Your frame was built with a slightly undervolted power supply. (-15% power drain)
@@ -25,7 +31,7 @@ custom-frame-trait-undervolted-ii-name = Undervolted II
 custom-frame-trait-undervolted-ii-description = Your frame was built with a undervolted power supply. (-30% power drain)
 
 custom-frame-trait-language-database-name = Language Database
-custom-frame-trait-language-database-description = You frame was built with a language database installed. You have access to a near unlimited selection of languages albeit due to memory space you can only have one installed at the time. (What it says on the tin)
+custom-frame-trait-language-database-description = You frame was built with a language database installed. You have access to a near unlimited selection of languages albeit due to memory space you can only have one installed at the time.
 
 custom-frame-trait-repair-nanites-name = Repair Nanites
 custom-frame-trait-repair-nanites-description = Your frame was built with an in-built nanite replicator capable of doing repairs on command but at the cost of extra power. (Adds an ability that can toggle regeneration on and off)

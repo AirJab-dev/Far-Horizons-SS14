@@ -92,8 +92,10 @@
           - OvervoltedI
           - CheapOilFilter
           - HeavierFrame
+          - IntegratedBattery
           - CompromisedIntegrity
           - RadiationVulnerability
+          - OutdatedWiring
           - MicroreactorIncompatibility
           #Positive
           - UndervoltedI

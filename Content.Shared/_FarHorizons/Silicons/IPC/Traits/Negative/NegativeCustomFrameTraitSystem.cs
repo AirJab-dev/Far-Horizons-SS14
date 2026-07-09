@@ -4,6 +4,7 @@ using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Movement.Systems;
 using Content.Shared.Tag;
 using Content.Shared.Whitelist;
+using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 
 namespace Content.Shared._FarHorizons.Silicons.IPC.Traits.Negative;
@@ -40,4 +41,23 @@ public sealed class HeavierFrameTraitSystem: IPCTraitSystem<HeavierFrameTraitCom
 
     private void OnRefreshMovementSpeed(Entity<HeavierFrameTraitComponent> ent, ref RefreshMovementSpeedModifiersEvent args) 
         => args.ModifySpeed(ent.Comp.SpeedModifier);
+}
+
+public sealed class IntegratedBatteryTraitSystem : IPCTraitSystem<IntegratedBatteryTraitComponent>
+{
+    [Dependency] private readonly ItemSlotsSystem _itemSlots = default!;
+    [Dependency] private readonly SharedContainerSystem _container = default!;
+    protected override void TraitInit(Entity<IPCBrainHolderComponent, IntegratedBatteryTraitComponent> ent)
+    {
+        if(!TryComp<IPCBatteryComponent>(ent.Owner, out var ipcBattery) || 
+            !_itemSlots.TryGetSlot(ent.Owner, ipcBattery.PowerCellSlot.CellSlotId, out var cellSlot) ||
+            !_container.TryGetContainer(ent.Owner, ipcBattery.PowerCellSlot.CellSlotId, out var container))
+                return;
+
+        Del(cellSlot.Item);
+        var newBattery = SpawnNextToOrDrop("PowerCellHigh", ent.Owner);
+        _container.Insert(newBattery, container, force: true);
+        _itemSlots.SetDisableEject(ent.Owner, cellSlot, true);
+        _itemSlots.SetSwap(ent.Owner, cellSlot, false);
+    }
 }

@@ -29,6 +29,18 @@
       - type: HeavierFrameTrait
         speedModifier: 0.95
 
+- type: backgroundTrait
+  id: IntegratedBattery
+  name: custom-frame-trait-integrated-battery-name
+  description: custom-frame-trait-integrated-battery-description
+  cost: -4
+  incompatible: 
+  - BloodPowered
+  - MicroreactorIncompatibility
+  effects:
+    - !type:OverrideCompsEffect
+      components:
+      - type: IntegratedBatteryTrait
 
 - type: backgroundTrait
   id: CompromisedIntegrity
@@ -60,6 +72,16 @@
         ramp: 5
 
 - type: backgroundTrait
+  id: OutdatedWiring
+  name: custom-frame-trait-outdated-wiring-name
+  description: custom-frame-trait-outdated-wiring-description
+  cost: -6
+  effects:
+    - !type:RemCompsEffect
+      components:
+      - BatteryDrainer
+
+- type: backgroundTrait
   id: CheapOilFilter
   name: custom-frame-trait-cheap-oil-filter-name
   description: custom-frame-trait-cheap-oil-filter-description
@@ -78,6 +100,7 @@
   cost: -8
   incompatible: 
   - BloodPowered
+  - IntegratedBattery
   effects:
     - !type:OverrideCompsEffect
       components:
@@ -131,6 +154,7 @@
   incompatible: 
   - RepairNanites
   - MicroreactorIncompatibility
+  - IntegratedBattery
   effects:
     - !type:OverrideCompsEffect
       components:

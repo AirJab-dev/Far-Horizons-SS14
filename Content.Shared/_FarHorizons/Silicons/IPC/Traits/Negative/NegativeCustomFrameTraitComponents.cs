@@ -10,3 +10,6 @@ public sealed partial class HeavierFrameTraitComponent : IPCTraitComponent
 {
     [DataField] public float SpeedModifier = 1.0f;
 }
+
+[RegisterComponent]
+public sealed partial class IntegratedBatteryTraitComponent : IPCTraitComponent;
