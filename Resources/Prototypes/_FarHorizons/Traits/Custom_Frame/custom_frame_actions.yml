@@ -55,7 +55,7 @@
   parent: ActionIntrinsicStore
   id: ActionCustomTraitLanguageDatabase
   name: Language Database
-  description: Download new languages on the go.
+  description: Swap out languages on the go!
   components:
   - type: Action
     itemIconStyle: BigAction

@@ -105,7 +105,7 @@
     - Medkit
 
 - type: entity
-  name: robotic treatment kit
+  name: Robotic Treatment Kit #Far Horizons
   description: "Used to treat robotic patients, such as Cyborgs and IPCs."
   parent: BaseStorageItem
   id: MedkitRobotic

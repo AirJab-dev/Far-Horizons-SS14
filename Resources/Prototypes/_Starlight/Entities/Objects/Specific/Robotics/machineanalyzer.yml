@@ -1,7 +1,7 @@
 - type: entity
   parent: HandheldHealthAnalyzer
   id: HandheldMachineAnalyzer
-  name: machine analyzer
+  name: Machine Analyzer #Far Horizons
   description: A hand-held scanner able to diagnose robotic injuries and the condition of machinery.
   components:
   - type: Sprite

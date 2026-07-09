@@ -8,4 +8,4 @@ trait-background-vampire-name = Lesser Vampire
 trait-background-vampire-description = You are infected with an ancient virus, forcing you to consume blood for sustenance. It comes with various side-effects, both negative and positive.
 
 trait-background-custom-frame-name = Custom Frame
-trait-background-custom-frame-description = You frame is custom built to accept cyborg modules whether it was done by yourself, another person or built in from the start. This modifications came with a cost as they are power hungry due to the new systems.
+trait-background-custom-frame-description = Your frame has been custom built to accept cyborg modules. However you acquired the custom frame, the modification came with an extra power drain to compensate the utility.

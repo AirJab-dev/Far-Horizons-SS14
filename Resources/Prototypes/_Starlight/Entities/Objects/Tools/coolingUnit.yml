@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: CoolingUnit
-  name: portable cooling unit
+  name: Portable Cooling Unit #Far Horizons
   description: A large portable heat sink with liquid cooled radiator packaged into a modified backpack.
   components:
     - type: Sprite
@@ -57,7 +57,7 @@
 - type: entity
   parent: CoolingUnit
   id: EmergencyCoolingUnit
-  name: emergency cooling unit
+  name: Emergency Cooling Unit #Far Horizons
   description: An easily portable heat sink for emergencies. Contains very little power, rated for survival use only.
   components:
     - type: Sprite
