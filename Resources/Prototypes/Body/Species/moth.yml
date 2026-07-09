@@ -274,6 +274,14 @@
         Brute:
           rsi: /Textures/Mobs/Effects/brute_damage.rsi
           color: "#808A51"
+
+- type: entity
+  parent: [ OrganBaseHeart, OrganMothInternal, OrganMothMetabolizer ] 
+  id: OrganMothHeart
+  components: 
+  - type: Metabolizer
+    maxReagents: 2
+    metabolizerTypes: [ Moth ] 
 # Far Horizons end
 
 - type: entity
