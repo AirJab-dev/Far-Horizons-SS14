@@ -286,8 +286,12 @@
         canReact: false
 
 - type: entity
-  parent: [ OrganBaseHeart, OrganCycloriteInternal, OrganCycloriteMetabolizer ]
+  parent: [ OrganBaseHeart, OrganCycloriteInternal, OrganCycloriteMetabolizer ] 
   id: OrganCycloriteHeart
+  components: 
+  - type: Metabolizer
+    maxReagents: 2
+    metabolizerTypes: [ Cyclorite ] 
 
 - type: entity
   parent: [ OrganBaseStomach, OrganCycloriteInternal, OrganCycloriteMetabolizer ]
