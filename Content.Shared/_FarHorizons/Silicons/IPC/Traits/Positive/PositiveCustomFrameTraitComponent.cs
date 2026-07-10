@@ -3,12 +3,15 @@ using Content.Shared.Damage;
 using Content.Shared.FixedPoint;
 using Content.Shared.Mobs;
 using Robust.Shared.GameStates;
-using Robust.Shared.Containers;
 
 namespace Content.Shared._FarHorizons.Silicons.IPC.Traits.Positive;
 
-[RegisterComponent]
-public sealed partial class CyborgModuleTraitComponent : IPCTraitComponent;
+[RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
+public sealed partial class CyborgModuleTraitComponent : IPCTraitComponent
+{
+    [DataField(required: true), AutoNetworkedField]
+    public string ModuleSlotId = string.Empty;
+}
 
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
 public sealed partial class OverclockingTraitComponent : IPCToggleActionComponent

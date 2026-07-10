@@ -10,7 +10,7 @@ using Content.Shared.PowerCell.Components;
 using Content.Shared.StatusEffectNew;
 using Content.Shared.Tag;
 using Content.Shared.Whitelist;
-using Robust.Shared.Containers;
+using Content.Shared.Wires;
 using Robust.Shared.Prototypes;
 
 namespace Content.Shared._FarHorizons.Silicons.IPC.Traits.Positive;
@@ -18,6 +18,12 @@ namespace Content.Shared._FarHorizons.Silicons.IPC.Traits.Positive;
 public sealed class CyborgModuleTraitSystem : IPCTraitSystem<CyborgModuleTraitComponent>
 {
     [Dependency] private readonly ItemSlotsSystem _itemSlots = default!;
+    public override void Initialize()
+    {
+        base.Initialize();
+        SubscribeLocalEvent<CyborgModuleTraitComponent, ItemSlotInsertAttemptEvent>(OnItemSlotInsertAttempt);
+        SubscribeLocalEvent<CyborgModuleTraitComponent, ItemSlotEjectAttemptEvent>(OnItemSlotEjectAttempt);
+    }
     protected override void TraitInit(Entity<IPCBrainHolderComponent, CyborgModuleTraitComponent> ent)
     {
         var borgSlot = new ItemSlot()
@@ -32,7 +38,7 @@ public sealed class CyborgModuleTraitSystem : IPCTraitSystem<CyborgModuleTraitCo
             },
         };
 
-        _itemSlots.AddItemSlot(ent.Owner, "borg_module", borgSlot);
+        _itemSlots.AddItemSlot(ent.Owner, ent.Comp2.ModuleSlotId, borgSlot);
 
         _itemSlots.SetBlacklist(ent.Owner, borgSlot, new EntityWhitelist()
         {
@@ -41,6 +47,29 @@ public sealed class CyborgModuleTraitSystem : IPCTraitSystem<CyborgModuleTraitCo
                 "BorgModuleIPCIncompatible"
             }
         }, replaceExisting: true);
+    }
+    private void OnItemSlotEjectAttempt(Entity<CyborgModuleTraitComponent> ent, ref ItemSlotEjectAttemptEvent args)
+    {
+        if (args.Cancelled ||
+            !TryComp<WiresPanelComponent>(ent, out var panel) ||
+            !_itemSlots.TryGetSlot(ent, ent.Comp.ModuleSlotId, out var moduleSlot) ||
+            moduleSlot != args.Slot)
+            return;
+
+        if (!panel.Open)
+            args.Cancelled = true;
+    }
+
+    private void OnItemSlotInsertAttempt(Entity<CyborgModuleTraitComponent> ent, ref ItemSlotInsertAttemptEvent args)
+    {
+        if (args.Cancelled ||
+            !TryComp<WiresPanelComponent>(ent, out var panel) ||
+            !_itemSlots.TryGetSlot(ent, ent.Comp.ModuleSlotId, out var moduleSlot) ||
+            moduleSlot != args.Slot)
+            return;
+
+        if (!panel.Open)
+            args.Cancelled = true;
     }
 }
 

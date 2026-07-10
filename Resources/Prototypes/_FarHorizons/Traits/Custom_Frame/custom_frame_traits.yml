@@ -238,6 +238,7 @@
     - !type:OverrideCompsEffect
       components:
       - type: CyborgModuleTrait
+        moduleSlotId: borg_module
       - type: IPCModules
 
 
