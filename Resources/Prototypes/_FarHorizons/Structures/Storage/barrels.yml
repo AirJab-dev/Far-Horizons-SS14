@@ -2,7 +2,7 @@
   parent: BaseBarrelChem
   id: BarrelChemFilledOil
   suffix: Oil
-  description: Oily...
+  description: Well, this is one well oiled barrel.
   components:
   - type: SolutionContainerManager
     solutions:
