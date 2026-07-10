@@ -15625,5 +15625,147 @@ Entries:
   id: 143903
   time: '2026-07-10T01:02:58.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1439
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: New Background called custom frame that is like the lesser vampire with
+      16 new traits.
+    type: Add
+  id: 143400
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: 'Ported #[4507](https://github.com/ss14Starlight/space-station-14/pull/4507)
+      Robotic Medikit by Conflee.'
+    type: Add
+  id: 143401
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: 'Partial Port of #[4106](https://github.com/ss14Starlight/space-station-14/pull/4106)
+      only adding the changes to analyzer and new machine analyzer by Shades.'
+    type: Add
+  id: 143402
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: 'Ported #[3998](https://github.com/ss14Starlight/space-station-14/pull/3998)
+      Cooling Units by Shades.'
+    type: Add
+  id: 143403
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Added new minimum damage threshold for IPCs to begin bleeding. A minor
+      can or a random felonoid scratching you won't spell doom.
+    type: Add
+  id: 143404
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Added new chemical barrel full of oil for robotics (Don't ash it please).
+    type: Add
+  id: 143405
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Added extra oil packs to the robotics vendor.
+    type: Add
+  id: 143406
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Added the missing emergency boxes for IPCs. Instead of an oxygen mask
+      and that organic junk. IPCs get a emergency cooling unit, small extra battery
+      and a emergency welder. (Welding mask sold separately)
+    type: Add
+  id: 143407
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Added new robotics repair bay to all the maps.
+    type: Add
+  id: 143408
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Turned the borg hypo into an advanced jet injector due to balancing of
+      IPCs getting the hypo from the module compatibility trait. Nocturine injector
+      and the syndicate chemical module hypo remain unchanged.
+    type: Tweak
+  id: 143409
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Linked all the AI upload consoles to the cores.
+    type: Fix
+  id: 143410
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Missing directional fans on fland mining dock
+    type: Fix
+  id: 143411
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Missing door access on flank mining
+    type: Fix
+  id: 143412
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Floating alert light on cargo cog.
+    type: Fix
+  id: 143413
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Fland reactor now had a SMES -> Substation -> apc setup.
+    type: Fix
+  id: 143414
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Fland artifact analyzer not being linked.
+    type: Fix
+  id: 143415
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Fland dorm room doors not being linked.
+    type: Fix
+  id: 143416
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Fland sec has now the correct doors.
+    type: Fix
+  id: 143417
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: AthenaAI, Shades, Conflee
+  changes:
+  - message: Bunnies not getting their survival boxes.
+    type: Fix
+  id: 143418
+  time: '2026-07-10T10:39:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
 Order: -1
 
