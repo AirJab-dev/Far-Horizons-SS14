@@ -15595,5 +15595,35 @@ Entries:
   id: 143503
   time: '2026-07-08T16:36:21.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1435
+- author: rain_enjoyer
+  changes:
+  - message: Amoxla now requires copper instead of iron
+    type: Tweak
+  id: 143900
+  time: '2026-07-10T01:02:58.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1439
+- author: rain_enjoyer
+  changes:
+  - message: Avali, Resomi, Moths and Cyclorites (and protogen counterparts) now heal
+      blood level from copper.
+    type: Tweak
+  id: 143901
+  time: '2026-07-10T01:02:58.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1439
+- author: rain_enjoyer
+  changes:
+  - message: Moths and Cyclorites no longer heal blood level from iron and take mild
+      poison instead.
+    type: Tweak
+  id: 143902
+  time: '2026-07-10T01:02:58.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1439
+- author: rain_enjoyer
+  changes:
+  - message: Cyclorites and Moths not having their metabolizer.
+    type: Fix
+  id: 143903
+  time: '2026-07-10T01:02:58.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1439
 Order: -1
 
