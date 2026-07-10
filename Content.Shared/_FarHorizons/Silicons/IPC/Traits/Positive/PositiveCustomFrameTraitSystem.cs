@@ -3,6 +3,7 @@ using Content.Shared._FarHorizons.Silicons.IPC.Components;
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Damage.Components;
 using Content.Shared.DoAfter;
+using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Implants;
 using Content.Shared.Implants.Components;
 using Content.Shared.PowerCell;
@@ -18,6 +19,7 @@ namespace Content.Shared._FarHorizons.Silicons.IPC.Traits.Positive;
 public sealed class CyborgModuleTraitSystem : IPCTraitSystem<CyborgModuleTraitComponent>
 {
     [Dependency] private readonly ItemSlotsSystem _itemSlots = default!;
+    [Dependency] private readonly SharedHandsSystem _hands = default!;
     public override void Initialize()
     {
         base.Initialize();
@@ -47,6 +49,8 @@ public sealed class CyborgModuleTraitSystem : IPCTraitSystem<CyborgModuleTraitCo
                 "BorgModuleIPCIncompatible"
             }
         }, replaceExisting: true);
+        var module = SpawnNextToOrDrop("CyborgModuleSelector", ent.Owner);
+        _hands.TryPickupAnyHand(ent.Owner, module, animate: false, animateUser: false);
     }
     private void OnItemSlotEjectAttempt(Entity<CyborgModuleTraitComponent> ent, ref ItemSlotEjectAttemptEvent args)
     {
