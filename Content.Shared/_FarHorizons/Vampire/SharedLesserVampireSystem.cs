@@ -1,5 +1,3 @@
-using System.Linq;
-using Content.Shared._FarHorizons.Vampire.Traits;
 using Content.Shared.Body.Systems;
 using Content.Shared.Chemistry;
 using Content.Shared.Chemistry.EntitySystems;
@@ -58,22 +56,5 @@ public abstract partial class SharedLesserVampireSystem : EntitySystem
         RaiseLocalEvent(ent, ref ev);
 
         return !ev.FangsHidden;
-    }
-
-    public List<ProtoId<LesserVampireTraitPrototype>> ValidatedTraits(List<ProtoId<LesserVampireTraitPrototype>> traits)
-    {
-        var result = new List<ProtoId<LesserVampireTraitPrototype>>();
-        var points = 0;
-
-        foreach (var t in traits)
-        {
-            var proto = ProtoMan.Index(t);
-            if (proto.Incompatible.Intersect(result).Any()) continue;
-
-            points -= proto.Cost;
-            result.Add(t);
-        }
-
-        return points >= 0 ? result : [];
     }
 }

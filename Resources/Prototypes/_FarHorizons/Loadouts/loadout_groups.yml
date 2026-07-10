@@ -9,6 +9,7 @@
   - EmergencyOxygenCargo
   - EmergencyNitrogenCargo
   - EmergencyNonBreatherCargo
+  - EmergencyIPCCargo #FH
 
 # Quartermaster
 
@@ -21,6 +22,7 @@
   - EmergencyOxygenExtendedCommand02
   - EmergencyNitrogenExtendedCommandN2
   - EmergencyNonBreatherExtendedCommandNone
+  - EmergencyNonBreatherExtendedCommandIPC #FH
 
 # Cargo Tech
 - type: loadoutGroup
@@ -159,6 +161,7 @@
   - EmergencyOxygenStationManagement
   - EmergencyNitrogenStationManagement
   - EmergencyNonBreatherStationManagement
+  - EmergencyIPCStationManagement #FH
 
 
 #region Command
@@ -173,6 +176,7 @@
   - EmergencyOxygenExtendedCommand02
   - EmergencyNitrogenExtendedCommandN2
   - EmergencyNonBreatherExtendedCommandNone
+  - EmergencyNonBreatherExtendedCommandIPC #FH
 
 # Head of Personnel
 - type: loadoutGroup
@@ -184,6 +188,7 @@
   - EmergencyOxygenExtendedCommand02
   - EmergencyNitrogenExtendedCommandN2
   - EmergencyNonBreatherExtendedCommandNone
+  - EmergencyNonBreatherExtendedCommandIPC #FH
 
 # Research Director
 - type: loadoutGroup
@@ -195,6 +200,7 @@
   - EmergencyOxygenExtendedCommand02
   - EmergencyNitrogenExtendedCommandN2
   - EmergencyNonBreatherExtendedCommandNone
+  - EmergencyNonBreatherExtendedCommandIPC #FH
 
 # General Command
 - type: loadoutGroup
@@ -231,6 +237,7 @@
   - EmergencyOxygenExtendedCommand02
   - EmergencyNitrogenExtendedCommandN2
   - EmergencyNonBreatherExtendedCommandNone
+  - EmergencyNonBreatherExtendedCommandIPC #FH
 # Chief Medical Officer
 
 - type: loadoutGroup
@@ -263,6 +270,7 @@
   - EmergencyOxygenExtendedCommand02
   - EmergencyNitrogenExtendedCommandN2
   - EmergencyNonBreatherExtendedCommandNone
+  - EmergencyNonBreatherExtendedCommandIPC #FH
 # NTR
 
 - type: loadoutGroup
@@ -309,6 +317,7 @@
   - EmergencyOxygenExtendedCommand02
   - EmergencyNitrogenExtendedCommandN2
   - EmergencyNonBreatherExtendedCommandNone
+  - EmergencyNonBreatherExtendedCommandIPC #FH
 
 #region Research
 
@@ -321,6 +330,7 @@
   - EmergencyOxygenScience
   - EmergencyNitrogenScience
   - EmergencyNonBreatherScience
+  - EmergencyIPCScience #FH
 
 #region Engineering
 
@@ -635,3 +645,4 @@
   - EmergencyOxygenService
   - EmergencyNitrogenService
   - EmergencyNonBreatherService
+  - EmergencyIPCService #FH

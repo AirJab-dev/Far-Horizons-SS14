@@ -36,6 +36,7 @@
   - type: Tag
     tags:
     - BorgModuleGeneric
+    - BorgModuleIPCCompatible #FH
   - type: GuideHelp
     guides:
     - Cyborgs
@@ -77,6 +78,7 @@
   - type: Tag
     tags:
     - BorgModuleCargo
+    - BorgModuleIPCCompatible #FH
   - type: Item
     inhandVisuals:
       left:
@@ -105,6 +107,7 @@
   - type: Tag
     tags:
     - BorgModuleEngineering
+    - BorgModuleIPCCompatible #FH
   - type: Item
     inhandVisuals:
       left:
@@ -135,6 +138,7 @@
   - type: Tag
     tags:
     - BorgModuleJanitor
+    - BorgModuleIPCCompatible #FH
   - type: Item
     inhandVisuals:
       left:
@@ -165,6 +169,7 @@
   - type: Tag
     tags:
     - BorgModuleMedical
+    - BorgModuleIPCCompatible #FH
   - type: Item
     inhandVisuals:
       left:
@@ -195,6 +200,7 @@
   - type: Tag
     tags:
     - BorgModuleScience
+    - BorgModuleIPCCompatible #FH
   - type: Item
     inhandVisuals:
       left:
@@ -225,6 +231,7 @@
   - type: Tag
     tags:
     - BorgModuleService
+    - BorgModuleIPCCompatible #FH
   - type: Item
     inhandVisuals:
       left:
@@ -254,6 +261,7 @@
     - borg-type-syndicate
   - type: Tag
     tags:
+    - BorgModuleGeneric #FH
     - BorgModuleSyndicate
   - type: Item
     inhandVisuals:
@@ -1329,7 +1337,7 @@
 
 #syndicate modules
 - type: entity
-  parent: [ BaseBorgModule, BaseProviderBorgModule, BaseSyndicateContraband ]
+  parent: [ BaseBorgModuleSyndicateCombat, BaseProviderBorgModule, BaseSyndicateContraband ] #FH
   id: BorgModuleSyndicateWeapon
   name: Weapon Cyborg Module #Far Horizons
   description: a simple weapon module that comes with an Echis and energy dagger. # starlight
@@ -1385,7 +1393,7 @@
       icon: { sprite: Interface/Actions/actions_borg.rsi, state: syndicate-operative-module }
 
 - type: entity
-  parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseSyndicateContraband ]
+  parent: [ BaseBorgModuleSyndicateCombat, BaseProviderBorgModule, BaseSyndicateContraband ] #FH
   id: BorgModuleEsword
   name: Energy Sword Cyborg Module #Far Horizons
   description: A weapons module that comes with an energy sword.
@@ -1403,7 +1411,7 @@
 
 - type: entity
   id: BorgModuleDoubleEsword
-  parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseSyndicateContraband ]
+  parent: [ BaseBorgModuleSyndicateCombat, BaseProviderBorgModule, BaseSyndicateContraband ] #FH
   name: Double Energy Sword Cyborg Module #Far Horizons
   description: A weapons module that comes with a double energy sword.
   components:
@@ -1419,7 +1427,7 @@
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: syndicate-desword-module }
 
 - type: entity
-  parent: [ BaseBorgModule, BaseProviderBorgModule, BaseSyndicateContraband ] #Starlight L6 printing
+  parent: [ BaseBorgModuleSyndicateCombat, BaseProviderBorgModule, BaseSyndicateContraband ] #Starlight L6 printing #FH
   id: BorgModuleL6C
   name: L6C ROW Cyborg Module #Far Horizons
   description: A weapons module that comes with an L6 and capacity to hold 2 spare magazines.
@@ -1452,7 +1460,7 @@
       icon: { sprite: Interface/Actions/actions_borg.rsi, state: syndicate-l6c-module }
 
 - type: entity
-  parent: [ BaseBorgModule, BaseProviderBorgModule, BaseSyndicateContraband ] #Starlight c20 printing
+  parent: [ BaseBorgModuleSyndicateCombat, BaseProviderBorgModule, BaseSyndicateContraband ] #Starlight c20 printing
   id: BorgModuleC20r
   name: C-20r ROW Cyborg Module #Far Horizons
   description: A weapons module that comes with a burst-fire C-20r.
@@ -1469,7 +1477,7 @@
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: syndicate-c20r-module }
 
 - type: entity
-  parent: [ BaseBorgModule, BaseProviderBorgModule, BaseSyndicateContraband ]
+  parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseSyndicateContraband ] #FH
   id: BorgModuleMartyr
   name: Martyr Cyborg Module #Far Horizons
   description: A module that comes with an explosive you probably don't want to handle yourself.

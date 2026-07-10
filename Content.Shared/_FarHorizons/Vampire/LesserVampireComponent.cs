@@ -24,16 +24,9 @@ public sealed partial class LesserVampireComponent : Component
 
     [DataField] public ProtoId<MetabolizerTypePrototype> Metabolizer = "LesserVampire";
 
-    [DataField] public EntProtoId TraitsAction = "ActionOpenVampireTraits";
-    [DataField] public Enum TraitsUiKey = VampireTraitsUiKey.Key;
-
     [DataField] public SoundSpecifier DrinkSound = new SoundPathSpecifier("/Audio/Items/drink.ogg", new AudioParams() { Volume = -1f, MaxDistance = -1f });
     [DataField] public TimeSpan DrinkDelay = TimeSpan.FromSeconds(2.5);
     [DataField] public float DrinkAmount = 3f;
-
-    [DataField] public bool AllowTraitSelection = true;
-    [ViewVariables(VVAccess.ReadOnly)] public List<ProtoId<LesserVampireTraitPrototype>>? SelectedTraits;
-
     [DataField] public TimeSpan BloodPoolRefreshTime = TimeSpan.FromSeconds(1);
     [ViewVariables(VVAccess.ReadOnly)] public TimeSpan NextUpdate = TimeSpan.Zero;
     [DataField] public float HungerDrain = 4f;

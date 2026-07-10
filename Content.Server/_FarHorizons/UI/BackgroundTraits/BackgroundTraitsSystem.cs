@@ -1,19 +1,29 @@
 using System.Linq;
-using Content.Shared._FarHorizons.Vampire;
+using Content.Shared._FarHorizons.UI.BackgroundTraits;
 using Content.Shared._Starlight.Traits.Effects;
 using Robust.Shared.Utility;
 
-namespace Content.Server._FarHorizons.Vampire;
+namespace Content.Server._FarHorizons.UI.BackgroundTraits;
 
-public partial class LesserVampireSystem
+public sealed partial class BackGroundTraitsSystem : SharedBackgroundTraitSystem
 {
-    private void InitializeTraits()
+    public override void Initialize()
     {
-        SubscribeLocalEvent<LesserVampireComponent, OpenVampireTraitsEvent>(OnOpenStore);
-        SubscribeLocalEvent<LesserVampireComponent, SubmitVampireTraitSelectionMessage>(OnSubmitTraits);
+        base.Initialize();
+
+        SubscribeLocalEvent<BackgroundTraitsComponent, MapInitEvent>(OnMapInit);
+        SubscribeLocalEvent<BackgroundTraitsComponent, OpenBackgroundTraitsEvent>(OnOpenStore);
+        SubscribeLocalEvent<BackgroundTraitsComponent, SubmitBackgroundTraitSelectionMessage>(OnSubmitTraits);
+        
     }
 
-    private void OnSubmitTraits(Entity<LesserVampireComponent> ent, ref SubmitVampireTraitSelectionMessage args)
+    private void OnMapInit(Entity<BackgroundTraitsComponent> ent, ref MapInitEvent args)
+    {
+        if (ent.Comp.AllowTraitSelection)
+            _actions.AddAction(ent, ent.Comp.TraitsAction);
+    }
+
+    private void OnSubmitTraits(Entity<BackgroundTraitsComponent> ent, ref SubmitBackgroundTraitSelectionMessage args)
     {
         if (args.Actor != ent.Owner ||
             !ent.Comp.AllowTraitSelection)
@@ -47,12 +57,10 @@ public partial class LesserVampireSystem
             effect.Apply(effectCtx);
     }
 
-    private void OnOpenStore(Entity<LesserVampireComponent> ent, ref OpenVampireTraitsEvent args)
+    private void OnOpenStore(Entity<BackgroundTraitsComponent> ent, ref OpenBackgroundTraitsEvent args)
     {
         if (_ui.IsUiOpen(ent.Owner, ent.Comp.TraitsUiKey)) return;
         
         _ui.OpenUi(ent.Owner, ent.Comp.TraitsUiKey, ent.Owner);
     }
-
 }
-
