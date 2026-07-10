@@ -33,7 +33,7 @@
       Tongue: OrganProtogenTongue
       Ears: OrganProtogenEars
       Lungs: OrganProtogenLungs
-      Heart: OrganProtogenHeart
+      Heart: OrganProtoCyclopsHeart
       Stomach: OrganProtogenStomach
       Liver: OrganProtogenLiver
       Kidneys: OrganProtogenKidneys
@@ -64,6 +64,14 @@
   - type: VisualOrganMarkings
     markingData:
       group: ProtoCyclops
+
+- type: entity 
+  parent: OrganProtogenHeart
+  id: OrganProtoCyclopsHeart
+  components:
+  - type: Metabolizer
+    maxReagents: 2
+    metabolizerTypes: [ Cyclorite ] 
 
 # Limbs
 
