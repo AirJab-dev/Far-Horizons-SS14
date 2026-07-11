@@ -128,10 +128,11 @@ namespace Content.IntegrationTests.Tests
             "FHFland",
             "FHCentCommG24",
             "FHCentCommSC17",
-            "FHCog", 
-            "FHManor", 
+            "FHCog",
+            "FHManor",
             "FHOasis",
             "FHOmega",
+            "FHCore",
             "SHC",
         };
         private static readonly ResPath[] AllMapFiles = GameDataScrounger.FilesInDirectoryInVfs("/Maps/_FarHorizons", "*.yml");

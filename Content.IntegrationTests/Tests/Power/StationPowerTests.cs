@@ -29,6 +29,7 @@ public sealed class StationPowerTests
         // "FHMeta", - currently broken, fix later and reenable
         "FHOasis",
         "FHOmega",
+        "FHCore",
         // Far Horizons end
     ];
 
