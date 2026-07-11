@@ -27,8 +27,8 @@
     sprite: Objects/Specific/Robotics/borgmodule.rsi
     state: generic
   - type: ThiefUndeterminedBackpack
-    toolName: Cyborg Module Selection
-    toolDesc: So many possibilities..
+    toolName: custom-frame-trait-module-compatibility-menu-selection
+    toolDesc: custom-frame-trait-module-compatibility-menu-description
     maxSelectedSets: 1
     possibleSets:
     - ModuleCable
