@@ -56,6 +56,8 @@
       enum.InstrumentUiKey.Key:
         type: InstrumentBoundUserInterface
         requireInputValidation: false
+      enum.BackgroundTraitsUiKey.Key:
+        type: BackgroundTraitsBoundUserInterface
   - type: GlitchOnIonStorm
     duration: 25
     ramp: 3
@@ -496,6 +498,8 @@
       enum.InstrumentUiKey.Key:
         type: InstrumentBoundUserInterface
         requireInputValidation: false
+      enum.BackgroundTraitsUiKey.Key:
+        type: BackgroundTraitsBoundUserInterface
   - type: Icon
     sprite: _FarHorizons/Mobs/Species/Proto-Slime/parts.rsi
     state: full
@@ -705,6 +709,8 @@
         enum.InstrumentUiKey.Key:
           type: InstrumentBoundUserInterface
           requireInputValidation: false
+        enum.BackgroundTraitsUiKey.Key:
+          type: BackgroundTraitsBoundUserInterface
     - type: HumanoidEMP # HumanoidEMP is needed to receive EMP effects, it may carry its own innate effects, but doesn't have to
       effectCooldown: 2
       baseDamage:
@@ -1615,8 +1621,6 @@
         - MobMask
         layer:
         - MobLayer
-  - type: ReplacementAccent
-    accent: dwarf
   - type: Inventory
     templateId: protogen
     femaleDisplacements:
@@ -1984,6 +1988,11 @@
             32:
               sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
               state: jumpsuit
+        outerClothing:
+          sizeMaps:
+            32:
+              sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+              state: outerclothing
         shoes:
           sizeMaps:
             32:
@@ -2004,12 +2013,22 @@
             32:
               sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
               state: back
+        gloves:
+          sizeMaps:
+            32:
+              sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+              state: gloves
       femaleDisplacements:
         jumpsuit:
           sizeMaps:
             32:
               sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
               state: jumpsuit
+        outerClothing:
+          sizeMaps:
+            32:
+              sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+              state: outerclothing
         shoes:
           sizeMaps:
             32:
@@ -2030,6 +2049,11 @@
             32:
               sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
               state: back
+        gloves:
+          sizeMaps:
+            32:
+              sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+              state: gloves
     - type: Butcherable
       butcheringType: Spike
       spawned:

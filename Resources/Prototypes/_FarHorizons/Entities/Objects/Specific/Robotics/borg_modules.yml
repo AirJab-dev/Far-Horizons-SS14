@@ -31,6 +31,38 @@
         color: "#FF00CC"
 
 - type: entity
+  id: BaseBorgModuleSyndicateCombat
+  parent: BaseBorgModule
+  abstract: true
+  components:
+  - type: BorgModule
+    borgFitTypes:
+    - borg-type-syndicate
+  - type: Tag
+    tags:
+    - BorgModuleGeneric
+    - BorgModuleIPCIncompatible
+    - BorgModuleSyndicate
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: base-icon-inhand-left
+        color: "#FF0000"
+      - state: base-module-inhand-left
+        color: "#891417"
+      - state: base-part-inhand-left
+      - state: base-stripes-inhand-left
+        color: "#7B0F12"
+      right:
+      - state: base-icon-inhand-right
+        color: "#FF0000"
+      - state: base-module-inhand-right
+        color: "#891417"
+      - state: base-part-inhand-right
+      - state: base-stripes-inhand-right
+        color: "#7B0F12"
+
+- type: entity
   parent: [BaseBorgModuleSecurity,BaseProviderBorgModule,BaseSecurityContraband]
   id: BorgModuleBaton
   name: Baton Cyborg Module
@@ -200,7 +232,7 @@
     - state: icon-centcomm
   - type: ItemBorgModule
     hands:
-    - item: ChameleonProjector
+    - item: ChameleonProjectorNoBattery
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: xenoborg-projector-module }
 
@@ -246,6 +278,9 @@
           - Cleanade
   - type: BorgModuleIcon
     icon: { sprite: _FarHorizons/Interface/Actions/actions_borg.rsi, state: adv-light-replacer-module }
+  - type: Tag
+    tags:
+    - BorgModuleJanitor
 
 - type: entity
   parent: [ BaseBorgModuleMining, BaseProviderBorgModule ]

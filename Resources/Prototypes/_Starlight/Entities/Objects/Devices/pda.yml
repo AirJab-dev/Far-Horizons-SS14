@@ -21,7 +21,8 @@
     scanningEndSound:
       path: "/Audio/Items/Medical/healthscanner.ogg"
     damageContainers:
-    - Silicon
+    - Silicon #FH
+    - Robotic #FH
 
 - type: entity
   parent: BaseMedicalPDA
@@ -417,6 +418,19 @@
     sprite: _FarHorizons/Objects/Devices/pda.rsi #FH
     state: pda-mailtech
 
+# Pun Pun
+- type: entity
+  parent: BasePDA
+  id: PunPunPDA
+  name: Pun Pun's PDA
+  description: Smells like bananas.
+  components:
+  - type: Pda
+    id: PunPunIDCard
+  - type: PdaBorderColor
+    borderColor: "#333333"
+    accentVColor: "#ffdc54"
+
 - type: entity
   parent: BasePDA
   id: CommanderPDA
@@ -521,33 +535,6 @@
   components:
   - type: Pda
     id: CentcomIDCardNTSF
-  - type: HealthAnalyzer
-    maxScanRange: null
-    scanDelay: 0
-    silent: true
-  - type: Tag #  Ignore Chameleon tags
-    tags:
-    - DoorBumpOpener
-  - type: CartridgeLoader
-    uiKey: enum.PdaUiKey.Key
-    preinstalled:
-      - CrewManifestCartridge
-      - NotekeeperCartridge
-      - NanoTaskCartridge
-      - NewsReaderCartridge
-      - MedTekCartridge
-      - WantedListCartridge
-      - LogProbeCartridge
-      - AstroNavCartridge
-      - NanoChatCartridge
-
-- type: entity
-  parent: CentcomPDA
-  id: DecimusPDA
-  suffix: ERROR #starlight
-  components:
-  - type: Pda
-    id: CentcomIDCardDecimus
   - type: HealthAnalyzer
     maxScanRange: null
     scanDelay: 0

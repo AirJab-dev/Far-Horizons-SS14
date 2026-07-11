@@ -116,6 +116,30 @@
 
 - type: entity
   parent: FHAirlock
+  id: FHAirlockLiaison
+  suffix: Concord Liaison
+  components:
+    - type: Sprite
+      sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/liaison.rsi
+    - type: WiresPanelSecurity
+      securityLevel: medSecurity
+    - type: Wires
+      layoutId: AirlockCommand
+
+- type: entity
+  parent: FHAirlock
+  id: FHAirlockQuartermaster
+  suffix: Quartermaster
+  components:
+    - type: Sprite
+      sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/quartermaster.rsi
+    - type: WiresPanelSecurity
+      securityLevel: medSecurity
+    - type: Wires
+      layoutId: AirlockCommand
+
+- type: entity
+  parent: FHAirlock
   id: FHAirlockSecurity
   suffix: Security
   components:
@@ -303,6 +327,30 @@
   components:
     - type: Sprite
       sprite: _FarHorizons/Structures/Doors/Airlocks/Glass/command.rsi
+    - type: WiresPanelSecurity
+      securityLevel: medSecurity
+    - type: Wires
+      layoutId: AirlockCommand
+
+- type: entity
+  parent: FHAirlockGlass
+  id: FHAirlockLiaisonGlass
+  suffix: Concord Liaison, Glass
+  components:
+    - type: Sprite
+      sprite: _FarHorizons/Structures/Doors/Airlocks/Glass/liaison.rsi
+    - type: WiresPanelSecurity
+      securityLevel: medSecurity
+    - type: Wires
+      layoutId: AirlockCommand
+
+- type: entity
+  parent: FHAirlockGlass
+  id: FHAirlockQuartermasterGlass
+  suffix: Quartermaster, Glass
+  components:
+    - type: Sprite
+      sprite: _FarHorizons/Structures/Doors/Airlocks/Glass/quartermaster.rsi
     - type: WiresPanelSecurity
       securityLevel: medSecurity
     - type: Wires
