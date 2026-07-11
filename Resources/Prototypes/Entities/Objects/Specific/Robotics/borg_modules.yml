@@ -772,6 +772,7 @@
           - PowerCell
           - PowerCellSmall
           - PowerCage
+          - PowerCellMicroreactor #FH
         #STARLIGHT end
     - hand:
         emptyRepresentative: SpaceHeaterFlatpack
