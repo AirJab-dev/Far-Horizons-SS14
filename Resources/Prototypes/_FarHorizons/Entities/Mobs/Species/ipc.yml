@@ -241,7 +241,7 @@
     damagedThreshold:
       min: 85
   - type: Repairable # So welder is just a special little snowflake in the code. I tried making healing with welder work through ConditionalHealing component, but it would require too many changes in too many places. So we will keep on the trend and have brute healing defined here. /shrug
-    doAfterDelay: 1.5 # A bit slower than conventional topicals, but heals for more.
+    doAfterDelay: 2 # A bit slower than conventional topicals, but heals for more.
     allowSelfRepair: true
     fuelCost: 5
     damage:
@@ -249,7 +249,7 @@
         Blunt: -10
         Piercing: -10
         Slash: -10
-    selfRepairPenalty: 2
+    selfRepairPenalty: 1.5
   - type: HumanoidEMP # HumanoidEMP is needed to receive EMP effects, it may carry its own innate effects, but doesn't have to
     effectCooldown: 2
     baseDamage:
