@@ -169,7 +169,7 @@
 - type: listing
   id: UplinkCyberEyeNightVision
   name: uplink-nightvision-eyes
-  description: uplink-nightvision-eyes-desc-fh
+  description: uplink-nightvision-eyes-desc-fh  #FH
   icon:
     {
       sprite: /Textures/_Starlight/Objects/Specific/Medical/implants.rsi,
@@ -186,7 +186,7 @@
 - type: listing
   id: UplinkCyberEyeThermal
   name: uplink-thermalvision-eyes
-  description: uplink-thermalvision-eyes-desc-fh
+  description: uplink-thermalvision-eyes-desc-fh #FH
   icon:
     {
       sprite: /Textures/_Starlight/Objects/Specific/Medical/implants.rsi,
@@ -203,7 +203,7 @@
 - type: listing
   id: UplinkMantisBladeArm
   name: uplink-mantis-blade-arms-name
-  description: uplink-mantis-blade-arms-desc-fh
+  description: uplink-mantis-blade-arms-desc-fh #FH
   icon:
     {
       sprite: /Textures/_Starlight/Objects/Weapons/Melee/cybermantisblade.rsi,
