@@ -4,7 +4,7 @@
   abstract: true
   components:
     - type: Sprite
-      sprite: _FarHorizons/Objects/Tools/singular_eye_CIK.rsi #TODO
+      sprite: _FarHorizons/Objects/Tools/singular_eye_CIK.rsi
       layers:
       - state: icon
         map: ["cyberneticImplanter"]
@@ -20,12 +20,12 @@
     - type: CyberneticImplanter
       implantedOrgan: null
       implantBeginSound:
-        path: "/Audio/_Starlight/Medical/Surgery/scalpel1.ogg" #TODO
+        path: "/Audio/_Starlight/Medical/Surgery/scalpel1.ogg"
         params:
           volume: 1.0
           variation: 0.125
       implantEndSound:
-        path: "/Audio/_Starlight/Medical/Surgery/scalpel2.ogg" #TODO
+        path: "/Audio/_Starlight/Medical/Surgery/scalpel2.ogg"
         params:
           volume: 1.0
           variation: 0.125
@@ -41,7 +41,7 @@
 
 - type: entity
   parent: BaseCyberneticImplanterKitSyndicate
-  id: HandCyberneticImplanterKitSyndicateEyes
+  id: CyberneticImplanterKitSyndicateEyes
   abstract: true
   components:
   - type: Sprite
@@ -53,7 +53,7 @@
 
 - type: entity
   parent: BaseCyberneticImplanterKitSyndicate
-  id: HandCyberneticImplanterKitSyndicateEyeImplant
+  id: CyberneticImplanterKitSyndicateEyeImplant
   abstract: true
   components:
   - type: CyberneticImplanter
@@ -63,19 +63,23 @@
 
 - type: entity
   parent: BaseCyberneticImplanterKitSyndicate
-  id: HandCyberneticImplanterKitSyndicateLimb
+  id: CyberneticImplanterKitSyndicateLimb
   abstract: true
   components:
+  - type: Sprite
+    sprite: _FarHorizons/Objects/Tools/limb_CIK.rsi
   - type: CyberneticImplanter
-    activationTime: 45
+    activationTime: 30
   - type: Item
     size: Large
 
 - type: entity
   parent: BaseCyberneticImplanterKitSyndicate
-  id: HandCyberneticImplanterKitSyndicateHand
+  id: CyberneticImplanterKitSyndicateHand
   abstract: true
   components:
+  - type: Sprite
+    sprite: _FarHorizons/Objects/Tools/hand_CIK.rsi
   - type: CyberneticImplanter
     activationTime: 20
   - type: Item
@@ -83,7 +87,7 @@
 
 #Eyes
 - type: entity
-  parent: HandCyberneticImplanterKitSyndicateEyes
+  parent: CyberneticImplanterKitSyndicateEyes
   id: CyberneticImplanterCyberEyeNightVision
   name: Night Vision Cyber Eyes C.I.K.
   components:
@@ -91,7 +95,7 @@
     implantedOrgan: CyberEyeNightVision
 
 - type: entity
-  parent: HandCyberneticImplanterKitSyndicateEyes
+  parent: CyberneticImplanterKitSyndicateEyes
   id: CyberneticImplanterCyberEyeThermal
   name: Thermal Vision Cyber Eyes C.I.K.
   components:
@@ -101,7 +105,7 @@
 #Eye Implant
 
 - type: entity
-  parent: HandCyberneticImplanterKitSyndicateEyeImplant
+  parent: CyberneticImplanterKitSyndicateEyeImplant
   id: CyberneticImplanterEyeImplantSyndie
   name: Syndicate Eye Implant C.I.K.
   components:
@@ -110,7 +114,7 @@
 
 # Arm
 - type: entity
-  parent: HandCyberneticImplanterKitSyndicateLimb
+  parent: CyberneticImplanterKitSyndicateLimb
   id: CyberneticImplanterLeftArmCyberMantisBlade
   name: Left Mantis Blade Arm C.I.K.
   components:
@@ -118,7 +122,7 @@
     implantedOrgan: LeftArmCyberMantisBlade
 
 - type: entity
-  parent: HandCyberneticImplanterKitSyndicateLimb
+  parent: CyberneticImplanterKitSyndicateLimb
   id: CyberneticImplanterRightArmCyberMantisBlade
   name: Right Mantis Blade Arm C.I.K.
   components:
@@ -127,7 +131,7 @@
 
 #Hand Implant
 - type: entity
-  parent: HandCyberneticImplanterKitSyndicateHand
+  parent: CyberneticImplanterKitSyndicateHand
   id: CyberneticImplanterLeftHandImplantClaws
   name: Left Hand Claws Implant C.I.K.
   components:
@@ -135,7 +139,7 @@
     implantedOrgan: LeftHandImplantClaws
 
 - type: entity
-  parent: HandCyberneticImplanterKitSyndicateHand
+  parent: CyberneticImplanterKitSyndicateHand
   id: CyberneticImplanterRightHandImplantClaws
   name: Right Hand Claws Implant C.I.K.
   components:
@@ -143,7 +147,7 @@
     implantedOrgan: RightHandImplantClaws
 
 - type: entity
-  parent: HandCyberneticImplanterKitSyndicateHand
+  parent: CyberneticImplanterKitSyndicateHand
   id: CyberneticImplanterLeftHandImplantForensics
   name: Left Hand Forensics Implant C.I.K.
   components:
@@ -151,7 +155,7 @@
     implantedOrgan: LeftHandImplantForensics
 
 - type: entity
-  parent: HandCyberneticImplanterKitSyndicateHand
+  parent: CyberneticImplanterKitSyndicateHand
   id: CyberneticImplanterRightHandImplantForensics
   name: Right Hand Forensics Implant C.I.K.
   components:
