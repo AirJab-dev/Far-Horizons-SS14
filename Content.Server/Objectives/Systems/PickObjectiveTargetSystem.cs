@@ -5,7 +5,6 @@ using Content.Server.GameTicking.Rules;
 using Content.Server.Revolutionary.Components;
 using Robust.Shared.Random;
 using System.Linq;
-using Content.Shared.Mind.Filters;
 
 namespace Content.Server.Objectives.Systems;
 
@@ -15,8 +14,8 @@ namespace Content.Server.Objectives.Systems;
 /// </summary>
 public sealed class PickObjectiveTargetSystem : EntitySystem
 {
-    [Dependency] private readonly TargetObjectiveSystem _target = default!;
-    [Dependency] private readonly SharedMindSystem _mind = default!;
+    [Dependency] private TargetObjectiveSystem _target = default!;
+    [Dependency] private SharedMindSystem _mind = default!;
 
     public override void Initialize()
     {
@@ -79,7 +78,7 @@ public sealed class PickObjectiveTargetSystem : EntitySystem
             return;
 
         // couldn't find a target :(
-        if (_mind.PickFromPool(ent.Comp.Pool, ent.Comp.Filters, args.MindId) is not {} picked)
+        if (_mind.PickFromPool(ent.Comp.Pool, args.MindId, ent.Comp.Conditions) is not {} picked)
         {
             args.Cancelled = true;
             return;
