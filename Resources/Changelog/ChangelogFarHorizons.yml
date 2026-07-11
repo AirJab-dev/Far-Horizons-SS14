@@ -15767,5 +15767,20 @@ Entries:
   id: 143418
   time: '2026-07-10T10:39:28.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: KarusKardin and ScorchFollower
+  changes:
+  - message: Added the Cybernetic Implanter Kit, a snazzy new way for syndicate agents
+      to quickly install cybernetics without the help of a friend
+    type: Add
+  id: 137300
+  time: '2026-07-11T23:10:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1373
+- author: KarusKardin and ScorchFollower
+  changes:
+  - message: Replaced cybernetics in the syndicate uplink with C.I.Ks
+    type: Tweak
+  id: 137301
+  time: '2026-07-11T23:10:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1373
 Order: -1
 
