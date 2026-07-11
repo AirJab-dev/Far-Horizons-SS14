@@ -1,9 +1,9 @@
 - type: entity
-  id: BaseFirelock
+  id: BaseFirelockNeoSol
   abstract: true
-  parent: [ BaseStructure, BaseStructureDissolvable ] # Starlight-edit
-  name: Firelock #Far Horizons
-  suffix: NT #Far Horizons
+  parent: [ BaseStructure, BaseStructureDissolvable ]
+  name: Firelock
+  suffix: NS
   description: Apply crowbar.
   components:
     - type: Anchorable
@@ -132,7 +132,7 @@
     - type: StaticPrice
       price: 150
     - type: AccessReader
-      access: [ [ "Engineering" ], [ "Command" ] ] # Starlight-edit
+      access: [ [ "EngineeringNS" ], [ "Executive" ] ]
       examinationText: access-reader-examination-functionality-restricted
     - type: PryUnpowered
       pryModifier: 0.5
@@ -151,9 +151,9 @@
     - type: SyncSprite
 
 - type: entity
-  id: Firelock
-  suffix: NT #Far Horizons
-  parent: BaseFirelock
+  parent: BaseFirelockNeoSol
+  id: FirelockNeoSol
+  suffix: NS
   components:
   - type: StationAiWhitelist
   - type: ContainerContainer
@@ -169,10 +169,10 @@
       board: [ FirelockElectronics ]
 
 - type: entity
-  id: FirelockGlass
+  id: FirelockGlassNeoSol
   parent: Firelock
-  name: Glass Firelock #Far Horizons
-  suffix: NT, Glass #Far Horizons
+  name: Glass Firelock
+  suffix: NS, Glass
   components:
     - type: StationAiWhitelist
     - type: Sprite
@@ -196,10 +196,10 @@
       node: FirelockGlass
 
 - type: entity
-  id: FirelockEdge
-  parent: Firelock
-  name: Firelock #Far Horizons
-  suffix: NT, Edge #Far Horizons
+  id: FirelockEdgeNeoSol
+  parent: FirelockNeoSol
+  name: Firelock
+  suffix: NS, Edge
   components:
     - type: StationAiWhitelist
     - type: Sprite
