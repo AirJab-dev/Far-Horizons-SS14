@@ -249,6 +249,7 @@
         Blunt: -10
         Piercing: -10
         Slash: -10
+    selfRepairPenalty: 1.5
   - type: HumanoidEMP # HumanoidEMP is needed to receive EMP effects, it may carry its own innate effects, but doesn't have to
     effectCooldown: 2
     baseDamage:
