@@ -24,14 +24,14 @@ public abstract class SharedCyberneticImplanterSystem : EntitySystem
     {
         base.Initialize();
 
-        SubscribeLocalEvent<CyberneticImplanterComponent, ComponentInit>(OnInit);
+        SubscribeLocalEvent<CyberneticImplanterComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<CyberneticImplanterComponent, UseInHandEvent>(OnUse);
         SubscribeLocalEvent<CyberneticImplanterComponent, AfterInteractEvent>(OnAfterInteract);
         SubscribeLocalEvent<CyberneticImplanterComponent, ExaminedEvent>(OnExamineUnused);
         SubscribeLocalEvent<UsedCyberneticImplanterComponent, ExaminedEvent>(OnExamineUsed);
     }
 
-    private void OnInit(EntityUid entity, CyberneticImplanterComponent component, ComponentInit _) => component.ImplantedOrganDesc ??= _protoManager.Index<EntityPrototype>(component.ImplantedOrgan).Description;
+    private void OnMapInit(Entity<CyberneticImplanterComponent> entity, ref MapInitEvent args) => entity.Comp.ImplantedOrganDesc ??= _protoManager.Index<EntityPrototype>(entity.Comp.ImplantedOrgan).Description;
 
     private void OnExamineUnused(EntityUid entity, CyberneticImplanterComponent component, ExaminedEvent args) //used to show a description of the implant
     {
