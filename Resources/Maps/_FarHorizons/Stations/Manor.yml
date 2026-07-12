@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.1
   forkId: ""
   forkVersion: ""
-  time: 07/03/2026 23:46:22
-  entityCount: 33835
+  time: 07/11/2026 16:14:29
+  entityCount: 33837
 maps:
 - 1
 grids:
@@ -7006,12 +7006,12 @@ entities:
           -17,8:
             0: 251
             1: 32768
-            3: 12288
+            2: 12288
           -16,9:
             0: 65278
           -17,9:
             0: 61568
-            3: 115
+            2: 115
           -16,10:
             0: 65535
           -17,10:
@@ -7634,11 +7634,11 @@ entities:
           -17,1:
             1: 65280
           -16,2:
-            2: 4368
+            3: 4368
             0: 52416
           -17,2:
-            2: 52416
-            5: 4368
+            3: 52416
+            4: 4368
           -16,3:
             1: 240
             0: 61440
@@ -7653,7 +7653,7 @@ entities:
             1: 65280
           -15,2:
             0: 4368
-            3: 52416
+            2: 52416
           -15,3:
             1: 240
             0: 61440
@@ -7666,7 +7666,7 @@ entities:
           -14,1:
             1: 65280
           -14,2:
-            3: 4368
+            2: 4368
             1: 52428
           -14,3:
             1: 252
@@ -7744,17 +7744,17 @@ entities:
           -20,3:
             0: 61166
           -19,6:
-            3: 3967
+            2: 3967
           -19,7:
             0: 58623
           -19,3:
             0: 61811
             1: 136
           -19,4:
-            3: 60928
+            2: 60928
             0: 12
           -19,5:
-            4: 3808
+            5: 3808
           -19,8:
             0: 62703
           -18,6:
@@ -7770,7 +7770,7 @@ entities:
             0: 61166
           -18,8:
             0: 254
-            3: 57344
+            2: 57344
           -21,8:
             0: 29055
           -20,9:
@@ -7792,7 +7792,7 @@ entities:
           -18,10:
             0: 47342
           -18,9:
-            3: 238
+            2: 238
             0: 57344
           -24,5:
             1: 40704
@@ -7917,7 +7917,7 @@ entities:
             1: 65280
           -18,2:
             1: 4369
-            5: 52416
+            4: 52416
           -18,-1:
             1: 17544
             0: 2048
@@ -8545,19 +8545,19 @@ entities:
           moles: {}
         - volume: 2500
           temperature: 293.15
-          moles:
-            Nitrogen: 6666.982
-        - volume: 2500
-          temperature: 293.15
           moles: {}
         - volume: 2500
           temperature: 293.15
           moles:
-            Plasma: 6666.982
+            Nitrogen: 6666.982
         - volume: 2500
           temperature: 293.15
           moles:
             Oxygen: 6666.982
+        - volume: 2500
+          temperature: 293.15
+          moles:
+            Plasma: 6666.982
         chunkSize: 4
     - type: GasTileOverlay
     - type: IFF
@@ -80954,7 +80954,7 @@ entities:
     - type: Transform
       pos: 42.5,12.5
       parent: 2
-- proto: ClosetRadiationSuit
+- proto: ClosetRadiationSuitFilled
   entities:
   - uid: 13575
     components:
@@ -80996,8 +80996,6 @@ entities:
     - type: Transform
       pos: -77.5,33.5
       parent: 2
-- proto: ClosetRadiationSuitFilled
-  entities:
   - uid: 13583
     components:
     - type: Transform
@@ -81234,6 +81232,11 @@ entities:
     - type: Transform
       pos: -35.432983,14.566805
       parent: 2
+  - uid: 33837
+    components:
+    - type: Transform
+      pos: -35.436565,14.403773
+      parent: 2
 - proto: ClothingBeltUtilityFilled
   entities:
   - uid: 13617
@@ -81339,6 +81342,11 @@ entities:
     components:
     - type: Transform
       pos: -38.464233,14.535555
+      parent: 2
+  - uid: 33836
+    components:
+    - type: Transform
+      pos: -38.49249,14.690956
       parent: 2
 - proto: ClothingHandsGlovesCombat
   entities:
@@ -178751,7 +178759,7 @@ entities:
       pos: 51.5,1.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -2329.6218
+      secondsUntilStateChange: -2473.3813
       state: Opening
 - proto: SpaceCash10
   entities:
