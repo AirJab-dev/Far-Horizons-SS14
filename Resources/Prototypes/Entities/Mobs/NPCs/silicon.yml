@@ -20,8 +20,6 @@
     damageValue: -15 # 8 seconds to repair from dead
     doAfterDelay: 1
     fuelCost: 0.5
-    selfRepairPenalty: 1.5 #FH
-    allowSelfRepair: true #FH
   - type: Pullable
   - type: Tag
     tags:
