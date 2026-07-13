@@ -320,7 +320,8 @@ namespace Content.Server.Voting.Managers
         {
             var maps = new Dictionary<string, GameMapPrototype>();
             var eligibleMaps = _gameMapManager.CurrentlyEligibleMaps().ToList();
-            var selectedMaps = eligibleMaps.OrderBy(_ => _random.Next()).Take(_cfg.GetCVar(StarlightCCVars.MapVotingCount)).ToList();
+            var numOptions = Math.Min(_cfg.GetCVar(StarlightCCVars.MapVotingCount), eligibleMaps.Count); // Far Horizons
+            var selectedMaps = eligibleMaps.OrderBy(_ => _random.Next()).Take(numOptions).ToList(); // Far Horizons
             maps.Add(Loc.GetString("ui-vote-secret-map"), _random.Pick(selectedMaps));
             foreach (var map in selectedMaps)
             {

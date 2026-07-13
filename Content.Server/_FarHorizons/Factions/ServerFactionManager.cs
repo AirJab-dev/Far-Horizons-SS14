@@ -27,15 +27,20 @@ public sealed partial class ServerFactionManager : SharedFactionManager, IServer
         _netManager.RegisterNetMessage<MsgFactionSelected>();
         _netManager.Connected += Connected; // Whenever a new client is connected - we're sending them current faction
         _sawmill = _logManager.GetSawmill("factions");
+        
     }
 
-    public void PostInit() => _cfg.OnValueChanged(FHCCVars.VotableFactions, UpdateEnabled, true);
+    public void PostInit()
+    {
+        _cfg.OnValueChanged(FHCCVars.VotableFactions, UpdateEnabled, true);
+        UpdateEnabled(_cfg.GetCVar(FHCCVars.VotableFactions));
+    }
 
     private void UpdateEnabled(string factions)
     {
         foreach (var id in factions.Split(','))
         {
-            if (_prototypeManager.TryIndex(id, out FactionPrototype? prototype))
+            if (TryFindFaction(id, out var prototype))
                 _enabledFactions.Add(prototype);
             else
                 _sawmill.Fatal($"Faction prototype {id} does not exist.");
