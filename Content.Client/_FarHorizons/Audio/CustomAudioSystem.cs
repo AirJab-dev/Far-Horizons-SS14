@@ -1,10 +1,11 @@
 using System.Numerics;
 using Robust.Client.Audio;
-using Robust.Client.Physics;
 using Robust.Shared;
 using Robust.Shared.Configuration;
 using Robust.Shared.Map;
 using Robust.Shared.Physics;
+
+namespace Content.Client._FarHorizons.Audio.CustomAudio;
 
 public sealed class AudioMuffleSystem : EntitySystem
 {
