@@ -107,6 +107,7 @@
   parent: Window
   id: TintedWindow
   name: Tinted Window #Far Horizons - The Great Capitalization Crusade
+  suffix: NT #Far Horizons
   description: Smart tinted window with state switching option. # Starlight
   components:
   - type: Sprite

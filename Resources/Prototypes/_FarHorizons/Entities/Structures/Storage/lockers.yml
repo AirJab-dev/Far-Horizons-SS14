@@ -737,6 +737,17 @@
   - type: AccessReader
     access: [["BrigmedicNS"]]
 
+# Inspector (Detective)
+
+- type: entity
+  id: LockerInspector
+  parent: LockerBooze
+  name: Inspector's Cabinet #Also needs resprite.
+  description: Usually cold and empty... like your heart.
+  components:
+  - type: AccessReader
+    access: [["DetectiveNS"]]
+
 # Genpop Storage
 - type: entity
   parent: [ GenpopBase , LockerBaseSecureSyndi ]
@@ -834,3 +845,82 @@
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: genpop_door_9
+
+- type: entity
+  id: LockerEvidence
+  parent: LockerSecurityFHSyndi
+  name: Evidence Locker
+  description: To store bags of bullet casings and detainee belongings.
+  components:
+  - type: AccessReader
+    access: [["SecurityNS"]]
+
+#region Service
+
+# Bartender
+
+- type: entity
+  id: LockerBoozeNeoSol
+  parent: LockerBase
+  name: Booze Storage 
+  description: This is where the bartender keeps the booze.
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: cabinet
+    stateDoorOpen: cabinet_open
+    stateDoorClosed: cabinet_door
+  - type: AccessReader
+    access: [["BarNS"]]
+  - type: EntityStorage
+    closeSound:
+      path: /Audio/Effects/woodenclosetclose.ogg
+    openSound:
+      path: /Audio/Effects/woodenclosetopen.ogg
+  - type: Paintable
+    group: null # not shaped like other lockers
+
+# Botanist
+
+- type: entity
+  id: LockerBotanistNeoSol
+  parent: LockerBase
+  name: Botanist's Locker #Far Horizons - The Great Capitalization Crusade
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: hydro
+    stateDoorOpen: hydro_open
+    stateDoorClosed: hydro_door
+  - type: AccessReader
+    access: [ [ "HydroponicsNS" ] ]
+
+# Clown
+
+- type: entity
+  id: LockerClownNeoSol
+  name: Clown Locker 
+  parent: LockerBaseSecure
+  components:
+  - type: Appearance
+  - type: AccessReader
+    access: [["TheatreNS"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: clown
+    stateDoorOpen: clown_open
+    stateDoorClosed: clown_door
+
+# Mime
+
+- type: entity
+  id: LockerMimeNeoSol
+  name: Mime Locker
+  parent: LockerBaseSecure
+  components:
+  - type: Appearance
+  - type: AccessReader
+    access: [["TheatreNS"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: mime
+    stateDoorOpen: mime_open
+    stateDoorClosed: mime_door

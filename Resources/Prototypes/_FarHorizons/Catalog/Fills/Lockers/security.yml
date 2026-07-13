@@ -1231,7 +1231,7 @@
     - id: ClothingShoesBootsJackSyndiFilled
     - id: ClothingOuterCoatWardenSyndi
     - id: ClothingOuterWinterWardenSyndi
-    - id: RubberStampWarden
+    - id: RubberStampConstable
     - id: DoorRemoteArmory
     - id: HoloprojectorSecurity
     - id: BookSpaceLaw
@@ -1360,6 +1360,44 @@
       - id: RubberStampCorpsman
       - id: PlushieMorgana
       - id: PlushieKiller
+
+# Inspector (Detective)
+
+- type: entity
+  id: LockerInspectorFilled
+  suffix: Filled
+  parent: LockerInspector
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: FillLockerInspector
+
+- type: entityTable
+  id: FillLockerInspector
+  table: !type:AllSelector
+    children:
+    - id: ClothingEyesGlassesNoir
+#    - id: WeaponEnergyMagnum #Starlight
+    - id: ClothingHeadHatFedoraBrown
+    - id: ClothingHeadHatDetGadget
+    - id: ClothingNeckTieDet
+    - id: ClothingOuterVestDetectiveSyndi
+    - id: ClothingOuterCoatInspector
+    - id: FlippoEngravedLighter
+    - id: FlashlightSeclite
+    - id: ForensicScanner
+    - id: LogProbeCartridge
+    - id: BoxForensicPad
+    - id: DrinkDetFlask
+    - id: ClothingHandsGlovesForensic
+    - id: RubberStampInspector
+    - id: HoloprojectorSecurity
+    - id: BoxEvidenceMarkers
+    - id: HandLabeler
+    - id: PlushieLizardJobDetective
+      prob: 0.02
+    - id: BoxSurvivalSecurity
 
 #region Racks - NS
 

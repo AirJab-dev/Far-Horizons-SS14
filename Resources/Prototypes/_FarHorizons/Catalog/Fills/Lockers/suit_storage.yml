@@ -359,7 +359,7 @@
       entity_storage: !type:NestedSelector
         tableId: FillCommandantHardsuit
   - type: AccessReader
-    access: [["Captain"]]
+    access: [["Commandant"]]
 
 - type: entityTable
   id: FillCommandantHardsuit
@@ -381,7 +381,7 @@
       entity_storage: !type:NestedSelector
         tableId: FillPCHardsuit
   - type: AccessReader
-    access: [["HeadOfPersonnel"]]
+    access: [["PersonnelManager"]]
 
 - type: entityTable
   id: FillPCHardsuit
@@ -402,7 +402,7 @@
       entity_storage: !type:NestedSelector
         tableId: FillMarshalHardsuit
   - type: AccessReader
-    access: [["HeadOfSecurity"]]
+    access: [["Marshal"]]
 
 - type: entityTable
   id: FillMarshalHardsuit
@@ -423,7 +423,7 @@
       entity_storage: !type:NestedSelector
         tableId: FillMedicalDirectorHardsuit
   - type: AccessReader
-    access: [["ChiefMedicalOfficer"]]
+    access: [["MedicalDirector"]]
 
 - type: entityTable
   id: FillMedicalDirectorHardsuit
@@ -433,6 +433,20 @@
     - id: ClothingMaskBreath
     - id: OxygenTankFilled
     - id: NitrogenTankFilled
+
+- type: entity
+  id: SuitStorageEP
+  parent: SuitStorageBase
+  name: Suit Storage Unit
+  description: A standard-issue suit storage unit. It has burns and explosion markings all over, are you sure it's a new one? 
+  suffix: Research Director
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: FillResearchDirectorHardsuitSyndi
+  - type: AccessReader
+    access: [["EpistemicsProvost"]]
 
 # region Security
 
@@ -446,7 +460,7 @@
       entity_storage: !type:NestedSelector
         tableId: FillSecurityHardsuitSyndi
   - type: AccessReader
-    access: [["Security"]]
+    access: [["SecurityNS"]]
 
 - type: entityTable
   id: FillSecurityHardsuitSyndi
@@ -467,7 +481,7 @@
       entity_storage: !type:NestedSelector
         tableId: FillConstableHarduit
   - type: AccessReader
-    access: [["Armory"]]
+    access: [["ArmoryNS"]]
 
 - type: entityTable
   id: FillConstableHarduit
@@ -488,7 +502,7 @@
       entity_storage: !type:NestedSelector
         tableId: FillBrigSyndiHarduit
   - type: AccessReader
-    access: [["Brigmedic"]]
+    access: [["BrigmedicNS"]]
 
 - type: entityTable
   id: FillBrigSyndiHarduit
@@ -509,7 +523,7 @@
       entity_storage: !type:NestedSelector
         tableId: FillCorpsmanSyndiHarduit
   - type: AccessReader
-    access: [["Brigmedic"]]
+    access: [["BrigmedicNS"]]
 
 - type: entityTable
   id: FillCorpsmanSyndiHarduit
