@@ -99,6 +99,7 @@ public sealed class GameMapManager : IGameMapManager
 
     public IEnumerable<GameMapPrototype> CurrentlyEligibleMaps()
     {
+        var allVotable = AllVotableMaps();
         var maps = AllVotableMaps().Where(IsMapEligible).ToArray();
         return maps.Length == 0 ? AllMaps().Where(x => x.Fallback) : maps;
     }
@@ -106,6 +107,7 @@ public sealed class GameMapManager : IGameMapManager
     public IEnumerable<GameMapPrototype> AllVotableMaps()
     {
         var poolPrototype = _entityManager.System<GameTicker>().Preset?.MapPool ??
+                   _factions.GetMapPool() ?? // Far Horizons
                    _configurationManager.GetCVar(CCVars.GameMapPool);
         
         /*
