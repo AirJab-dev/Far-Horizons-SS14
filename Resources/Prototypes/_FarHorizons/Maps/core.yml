@@ -7,7 +7,7 @@
   faction: FactionSyndicate
   stations:
     StarlightCore:
-      stationProto: StandardNanotrasenStation #Might need something new for NeoSol?
+      stationProto: StandardNeosolStation
       components:
         - type: StationNameSetup
           mapNameTemplate: '{0} Core {1}'
