@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Server.Shuttles.Components;
 using Content.Server.Station.Components;
 using Content.Server.Station.Events;
 using Content.Shared.Access;
@@ -23,44 +24,57 @@ public sealed partial class FactionalAccessSystem : EntitySystem
 
     private void OnStationPostInit(Entity<FactionalAccessComponent> ent, ref StationPostInitEvent args)
     {
-        if (!TryComp<StationDataComponent>(args.Station, out var stationData))
+        HashSet<EntityUid> grids = [];
+
+        if (TryComp<StationDataComponent>(args.Station, out var stationData))
+            grids = stationData.Grids;
+
+        if (TryComp<StationCentcommComponent>(args.Station, out var centComp) && centComp.Entity != null)
+            grids.Add(centComp.Entity.Value);
+
+        if(grids.Count == 0 )
             return;
 
-        foreach (var grid in stationData.Grids)
+        foreach (var grid in grids)
         {
-            var readers = _lookup.GetEntitiesIntersecting(grid, LookupFlags.Uncontained | LookupFlags.Static);
+            ReplaceAccess(grid, ent.Comp);
+        }
+    }
 
-            foreach (var uid in readers)
+    private void ReplaceAccess(EntityUid grid, FactionalAccessComponent faComp)
+    {
+        var readers = _lookup.GetEntitiesIntersecting(grid, LookupFlags.Uncontained | LookupFlags.Static);
+
+        foreach (var uid in readers)
+        {
+            if (!TryComp<AccessReaderComponent>(uid, out var accessComp))
+                continue;
+
+            var oldAccessList = accessComp.AccessLists
+                .Select(set => new HashSet<ProtoId<AccessLevelPrototype>>(set))
+                .ToList();
+
+            if (oldAccessList.Count == 0)
+                continue;
+
+            var newAccessList = new List<HashSet<ProtoId<AccessLevelPrototype>>>();
+
+            foreach (var accessSet in oldAccessList)
             {
-                if (!TryComp<AccessReaderComponent>(uid, out var accessComp))
-                    continue;
+                var newSet = new HashSet<ProtoId<AccessLevelPrototype>>();
 
-                var oldAccessList = accessComp.AccessLists
-                    .Select(set => new HashSet<ProtoId<AccessLevelPrototype>>(set))
-                    .ToList();
-
-                if (oldAccessList.Count == 0)
-                    continue;
-
-                var newAccessList = new List<HashSet<ProtoId<AccessLevelPrototype>>>();
-
-                foreach (var accessSet in oldAccessList)
+                foreach (var access in accessSet)
                 {
-                    var newSet = new HashSet<ProtoId<AccessLevelPrototype>>();
-
-                    foreach (var access in accessSet)
-                    {
-                        newSet.Add(ent.Comp.EquivalentAccessList.TryGetValue(access, out var equivalent)
-                            ? equivalent
-                            : access);
-                    }
-
-                    newAccessList.Add(newSet);
+                    newSet.Add(faComp.EquivalentAccessList.TryGetValue(access, out var equivalent)
+                        ? equivalent
+                        : access);
                 }
 
-                _access.TryRemoveAccesses((uid, accessComp), oldAccessList);
-                _access.TryAddAccesses((uid, accessComp), newAccessList);
+                newAccessList.Add(newSet);
             }
+
+            _access.TryRemoveAccesses((uid, accessComp), oldAccessList);
+            _access.TryAddAccesses((uid, accessComp), newAccessList);
         }
     }
 }
