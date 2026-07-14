@@ -847,7 +847,7 @@
     stateDoorClosed: genpop_door_9
 
 - type: entity
-  id: LockerEvidence
+  id: LockerEvidenceNS
   parent: LockerSecurityFHSyndi
   name: Evidence Locker
   description: To store bags of bullet casings and detainee belongings.
