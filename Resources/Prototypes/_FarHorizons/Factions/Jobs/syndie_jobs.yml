@@ -629,6 +629,7 @@
   override:
     icon: JobIconSyndieAI
     #supervisors: job-supervisors-ep
+    jobEntity: StationAiBrainSyndicate
 
 - type: factionJobAssignment
   id: SyndieBorg

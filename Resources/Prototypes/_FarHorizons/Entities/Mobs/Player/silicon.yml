@@ -1,3 +1,14 @@
+#AI
+- type: entity
+  id: StationAiBrainSyndicate
+  parent: StationAiBrain
+  suffix: NeoSol
+  components:
+  - type: Access
+    groups:
+    - AllAccessNS
+    - SiliconNS
+
 # Borgs
 - type: entity
   id: PlayerSecBorgChassis
@@ -49,11 +60,26 @@
       color: "#dd200b"
       radius: 4
       energy: 2
+    - type: AccessReader
+      access: [["Executive"], ["ArmoryNS"]] # Starlight
+    - type: Access
+      enabled: false
+      groups:
+      - SecurityNS
+      tags:
+      - MaintenanceNS
+      - ExternalNS
 
 - type: entity
   id: PlayerBorgBatterySyndicate
   parent: PlayerBorgBattery
   suffix: Syndicate
+  components:
+  - type: AccessReader
+    access: [["Executive"], ["RoboticsNS"]] # Starlight
+  - type: Access
+    groups:
+    - AllAccessNS
 
 # NTNC
 - type: entity
