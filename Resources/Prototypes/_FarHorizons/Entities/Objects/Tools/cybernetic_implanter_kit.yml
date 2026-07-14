@@ -47,7 +47,7 @@
   - type: Sprite
     sprite: _FarHorizons/Objects/Tools/eyes_CIK.rsi
   - type: CyberneticImplanter
-    activationTime: 20
+    activationTime: 15
   - type: Item
     size: Normal
 
@@ -57,7 +57,7 @@
   abstract: true
   components:
   - type: CyberneticImplanter
-    activationTime: 15
+    activationTime: 10
   - type: Item
     size: Small
 
@@ -69,7 +69,7 @@
   - type: Sprite
     sprite: _FarHorizons/Objects/Tools/limb_CIK.rsi
   - type: CyberneticImplanter
-    activationTime: 30
+    activationTime: 20
   - type: Item
     size: Large
 
@@ -81,7 +81,7 @@
   - type: Sprite
     sprite: _FarHorizons/Objects/Tools/hand_CIK.rsi
   - type: CyberneticImplanter
-    activationTime: 20
+    activationTime: 15
   - type: Item
     size: Normal
 
@@ -128,6 +128,22 @@
   components:
   - type: CyberneticImplanter
     implantedOrgan: RightArmCyberMantisBlade
+
+- type: entity
+  parent: CyberneticImplanterKitSyndicateLimb
+  id: CyberneticImplanterLeftArmCyberIFA30
+  name: Left IFA-30 Cybernetic Arm C.I.K.
+  components:
+  - type: CyberneticImplanter
+    implantedOrgan: LeftArmCyberIFA30
+
+- type: entity
+  parent: CyberneticImplanterKitSyndicateLimb
+  id: CyberneticImplanterRightArmCyberIFA30
+  name: Right IFA-30 Cybernetic Arm C.I.K.
+  components:
+  - type: CyberneticImplanter
+    implantedOrgan: RightArmCyberIFA30
 
 #Hand Implant
 - type: entity

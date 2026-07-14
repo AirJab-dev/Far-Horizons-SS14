@@ -2,8 +2,11 @@
   id: CyberEyeNightVision
   name: Night Vision Cyber Eyes #FH CRUSADE
   description: Enables you to see in the dark.
-  parent: [ OrganCyber, OrganHumanEyes ]
+  parent: [ OrganCyber, OrganHumanEyes, OrganCyberExternal ] #FH
   components:
+  - type: VisualOrgan #FH Start
+    data: 
+      state: eyes_night #FH End
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/implants.rsi
     layers:
@@ -28,8 +31,11 @@
   id: CyberEyeThermal
   name: Thermal Vision Cyber Eyes #FH CRUSADE
   description: Enables you to see in the dark and detect warm objects through walls.
-  parent: [ OrganCyber, OrganHumanEyes ]
+  parent: [ OrganCyber, OrganHumanEyes, OrganCyberExternal ] #FH
   components:
+  - type: VisualOrgan #FH Start
+    data: 
+      state: eyes_thermal #FH End
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/implants.rsi
     layers:
@@ -54,7 +60,7 @@
   id: BudgetCyberEyes
   name: Budget CyberEyes
   description: Cold and soulless. Just as depressing to look out of as to look into.
-  parent: [ OrganCyber, OrganHumanEyes ]
+  parent: [ OrganCyber, OrganHumanEyes, OrganCyberExternal ] #FH
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/budget_cyber_organs.rsi
