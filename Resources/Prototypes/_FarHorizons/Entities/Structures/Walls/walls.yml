@@ -117,7 +117,7 @@
           collection: MetalSlam
 
 - type: entity
-  parent: WallSolidNeoSol
+  parent: WallSolidSyndicate
   id: WallSolidRustNS
   suffix: Rusted, NS
   components:
@@ -156,7 +156,7 @@
         acts: ["Destruction"]
 
 - type: entity
-  parent: WallReinforcedNeoSol
+  parent: WallReinforcedSyndicate
   id: WallReinforcedRustNS
   suffix: Rusted, NS
   components:
