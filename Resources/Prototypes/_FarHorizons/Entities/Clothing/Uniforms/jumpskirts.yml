@@ -280,13 +280,13 @@
       #  color: "#C12D30"
       #  sprite: Clothing/Uniforms/Jumpskirt/color.rsi
       - state: overlay-inhand-left
-        sprite: _FarHorizons/Clothing/Uniforms/Jumpsuit/warden.rsi
+        sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/warden.rsi
       right:
       #- state: inhand-right
       #  color: "#C12D30"
       #  sprite: Clothing/Uniforms/Jumpskirt/color.rsi
       - state: overlay-inhand-right
-        sprite: _FarHorizons/Clothing/Uniforms/Jumpsuit/warden.rsi
+        sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/warden.rsi
 
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
@@ -305,13 +305,26 @@
       #  color: "#C12D30"
       #  sprite: Clothing/Uniforms/Jumpskirt/color.rsi
       - state: overlay-inhand-left
-        sprite: _FarHorizons/Clothing/Uniforms/Jumpsuit/hos.rsi
+        sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/hos.rsi
       right:
       #- state: inhand-right
       #  color: "#C12D30"
       #  sprite: Clothing/Uniforms/Jumpskirt/color.rsi
       - state: overlay-inhand-right
-        sprite: _FarHorizons/Clothing/Uniforms/Jumpsuit/hos.rsi
+        sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/hos.rsi
+
+#region Service
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpskirtOveralls
+  name: Overalls Jumpskirt
+  description: Great for working outdoors.
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/overalls.rsi
+  - type: Clothing
+    sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/overalls.rsi
+
 
 #region ## NeoSol ##
 

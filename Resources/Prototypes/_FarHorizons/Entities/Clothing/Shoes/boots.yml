@@ -8,12 +8,13 @@
     sprite: _FarHorizons/Clothing/Shoes/Boots/bright-performer.rsi
   - type: Clothing
     sprite: _FarHorizons/Clothing/Shoes/Boots/bright-performer.rsi
+    
 #region ## GSL ##
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsCargo
   name: Cargo Boots
-  suffix: NT
+  suffix: GSL
   description: Some rugged boots for giving the cargo department plenty of traction.
   components:
   - type: Sprite
@@ -25,6 +26,22 @@
 #region ## NanoTrasen ##
 
 
+
+
+
+#region Service
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsBotany
+  name: Botanist Boots
+  suffix: NT
+  description: Some rugged boots for toiling in the soil.
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Clothing/Shoes/Boots/botanist.rsi
+  - type: Clothing
+    sprite: _FarHorizons/Clothing/Shoes/Boots/botanist.rsi
+  - type: Matchbox
 
 
 

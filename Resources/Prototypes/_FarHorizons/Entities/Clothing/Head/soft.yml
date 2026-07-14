@@ -1,5 +1,34 @@
 # region ## NanoTrasen ##
 
+#region Service
+- type: entity
+  parent: ClothingHeadHeadHatBaseFlippable
+  id: ClothingHeadHatJanitor
+  name: Janitor Cap
+  description: A purple cap with faint smell of lemon.
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Clothing/Head/Soft/janitor_cap.rsi
+  - type: Clothing
+    sprite: _FarHorizons/Clothing/Head/Soft/janitor_cap.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - Recyclable
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatJanitor]
+  id: ClothingHeadHatJanitorFlipped
+  name: Janitor Cap
+  components:
+  - type: Tag
+    tags:
+    - ClothMade
+    - Recyclable
+    - HamsterWearable
+    - WhitelistChameleon
 
 
 
