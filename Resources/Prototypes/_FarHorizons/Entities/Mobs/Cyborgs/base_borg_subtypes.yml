@@ -1,0 +1,101 @@
+# generic
+- type: entity
+  parent: BorgSubtypeBase
+  abstract: true
+  id: BorgGenericSubtypeBaseNS
+  name: borg generic subtype
+  components:
+    - type: BorgSubtypeDefinition
+      parentType: genericNS
+
+      dummyPrototype: BorgChassisGeneric
+
+
+# mining (salvage)
+- type: entity
+  parent: BorgSubtypeBase
+  abstract: true
+  id: BorgMiningSubtypeBaseNS
+  name: borg mining subtype
+  components:
+    - type: BorgSubtypeDefinition
+      parentType: miningNS
+
+      # Entity prototype for preview in selection menu
+      dummyPrototype: BorgChassisMining
+
+# engineering
+- type: entity
+  parent: BorgSubtypeBase
+  abstract: true
+  id: BorgEngineerSubtypeBaseNS
+  name: borg engineering subtype
+  components:
+    - type: BorgSubtypeDefinition
+      parentType: engineeringNS
+
+      # Entity prototype for preview in selection menu
+      dummyPrototype: BorgChassisEngineer
+
+# janitor
+- type: entity
+  parent: BorgSubtypeBase
+  abstract: true
+  id: BorgJanitorSubtypeBaseNS
+  name: borg janitor subtype
+  components:
+    - type: BorgSubtypeDefinition
+      parentType: janitorNS
+
+      # Entity prototype for preview in selection menu
+      dummyPrototype: BorgChassisJanitor
+
+# medical
+- type: entity
+  parent: BorgSubtypeBase
+  abstract: true
+  id: BorgMedicalSubtypeBaseNS
+  name: borg medical subtype
+  components:
+    - type: BorgSubtypeDefinition
+      parentType: medicalNS
+
+      # Description
+      dummyPrototype: BorgChassisMedical
+
+# service
+- type: entity
+  parent: BorgSubtypeBase
+  abstract: true
+  id: BorgServiceSubtypeBaseNS
+  name: borg service subtype
+  components:
+    - type: BorgSubtypeDefinition
+      parentType: serviceNS
+
+      # Description
+      dummyPrototype: BorgChassisService
+
+- type: entity
+  parent: BorgSubtypeBase
+  abstract: true
+  id: BorgPurrfusSubtypeBase
+  name: borg purrfus subtype
+  components:
+    - type: BorgSubtypeDefinition
+      parentType: purrfusNS
+
+      # Description
+      dummyPrototype: BorgChassisPurrfus
+
+- type: entity
+  parent: BorgSubtypeBase
+  abstract: true
+  id: BorgSecuritySubtypeBaseNS
+  name: borg security subtype
+  components:
+    - type: BorgSubtypeDefinition
+      parentType: securityNS
+
+      # Description
+      dummyPrototype: BorgChassisSecurity

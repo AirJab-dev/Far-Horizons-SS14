@@ -69,7 +69,7 @@
   id: SyndieResearchDirectorGear
   equipment:
     id: EpistemicsProvostPDA
-    ears: ClothingHeadsetRD
+    ears: ClothingHeadsetRDNS
     belt: ClothingBeltScienceRD
   storage:
     back:
@@ -80,7 +80,7 @@
   equipment:
     id: PersonnelManagerPDA
     gloves: ClothingHandsGlovesHopSyndi
-    ears: ClothingHeadsetHoP
+    ears: ClothingHeadsetPMNS
     belt: ClothingBeltHoPSyndi
   storage:
     back:
@@ -201,12 +201,12 @@
   equipment:
     id: MechanistPDA
     belt: ClothingBeltScienceRoboticist
-    ears: ClothingHeadsetRobotics
+    ears: ClothingHeadsetRoboticsNS
 
 - type: startingGear
   id: SyndieScientistGear
   equipment:
-    ears: ClothingHeadsetScience
+    ears: ClothingHeadsetScienceNS
     belt: ClothingBeltScience
 
 - type: startingGear
@@ -214,7 +214,7 @@
   equipment:
     shoes: ClothingShoesColorWhite
     id: LabTechnicianPDA
-    ears: ClothingHeadsetScience
+    ears: ClothingHeadsetScienceNS
     pocket2: BookScientistsGuidebook
     belt: ClothingBeltScience
 
@@ -285,6 +285,37 @@
   storage:
     back:
     - Flash
+    
+#region Service
+- typeS: startingGear
+  id: SyndieAssistantGear
+  equipment:
+    ears: ClothingHeadsetAssistantNS
+
+- type: startingGear
+  id: SyndieChefGear
+  equipment:
+    shoes: ClothingShoesChefNS
+    id: NeoSolChefPDA
+    ears: ClothingHeadsetServiceNS
+    belt: ClothingBeltChefNSFilled
+
+- type: startingGear
+  id: SyndieJanitorGear
+  equipment:
+    shoes: ClothingShoesGaloshesNS
+    id: NeoSolJanitorPDA
+    ears: ClothingHeadsetServiceNS
+    belt: ClothingBeltJanitorNSFilled
+
+- type: startingGear
+  id: SyndieBotanistGear
+  equipment:
+    shoes: ClothingShoesBootsBotanyNS
+    id: NeoSolBotanistPDA
+    ears: ClothingHeadsetServiceNS
+    belt: ClothingBeltPlantNSFilled
+    rig: PlantBag 
 
 #region Silicon
 

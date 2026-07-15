@@ -948,6 +948,15 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtEliteRedSword
 
+- type: loadout
+  id: ChefJumpsuitNS
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChefNS
+
+- type: loadout
+  id: ChefJumpskirtNS
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChefNS
 #region Hands
 
 # Medical

@@ -243,6 +243,7 @@
   override:
     #supervisors: job-supervisors-pm
     loadout: SyndieAssistant
+    startingGear: SyndieAssistantGear
     access:
     - MaintenanceNS
 
@@ -273,6 +274,8 @@
     extendedAccess:
     - KitchenNS
     - BarNS
+    loadout: SyndieBotanist
+    startingGear: SyndieBotanistGear
 
 - type: factionJobAssignment
   id: SyndieBoxer
@@ -299,6 +302,8 @@
   faction: FactionSyndicate
   job: Chef
   override:
+    loadout: SyndieChef
+    startingGear: SyndieChefGear
     #supervisors: job-supervisors-pm
     access:
     - ServiceNS
@@ -329,6 +334,8 @@
     - ServiceNS
     - JanitorNS
     - MaintenanceNS
+    loadout: SyndieJanitor
+    startingGear: SyndieJanitorGear
 
 - type: factionJobAssignment
   id: SyndieLibrarian
@@ -639,7 +646,7 @@
     name: faction-syndicate-job-borg
     icon: JobIconSyndieBorg
     #supervisors: job-supervisors-ep
-    jobEntity: PlayerBorgBatterySyndicate
+    jobEntity: PlayerBorgBatteryNS
 
 #region Security
 
@@ -774,4 +781,4 @@
     name: faction-syndicate-job-secborg
     icon: JobIconSyndieSecborg
     #supervisors: job-supervisors-marshal
-    jobEntity: PlayerSecBorgBatterySyndicate
+    jobEntity: PlayerSecBorgBatteryNS

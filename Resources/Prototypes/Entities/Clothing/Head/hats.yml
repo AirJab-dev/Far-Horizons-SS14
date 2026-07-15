@@ -1449,9 +1449,9 @@
   description: A fancy hat for hot days! Not recommended to wear near fires.
   components:
   - type: Sprite
-    sprite: _FarHorizons/Clothing/Head/Hats/straw_hat.rsi #Far Horizons
+    sprite: Clothing/Head/Hats/straw_hat.rsi
   - type: Clothing
-    sprite: _FarHorizons/Clothing/Head/Hats/straw_hat.rsi #Far Horizons
+    sprite: Clothing/Head/Hats/straw_hat.rsi
   - type: Construction
     graph: StrawHat
     node: strawhat

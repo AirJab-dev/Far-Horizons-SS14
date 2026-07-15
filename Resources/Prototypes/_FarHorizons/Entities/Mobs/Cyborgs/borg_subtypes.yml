@@ -1,3 +1,4 @@
+#region ## NanoTrasen ##
 - type: entity
   parent: BorgSecuritySubtypeBaseNT
   id: BorgSecuritySubtypeRedKnightNT
@@ -88,3 +89,5 @@
       spriteNoMindState: weaponguy_e_r
       spriteToggleLightState: weaponguy_l
       inventoryTemplateId: borgTall
+
+#region ## NeoSol ##

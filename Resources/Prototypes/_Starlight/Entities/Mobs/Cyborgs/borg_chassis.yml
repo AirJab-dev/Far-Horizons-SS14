@@ -46,7 +46,7 @@
 - type: entity
   id: BorgChassisSecurity
   parent: BorgChassisSelectable
-  name: security cyborg
+  name: Security Cyborg #FH
   components:
   - type: BorgSwitchableType
     selectedBorgType: security

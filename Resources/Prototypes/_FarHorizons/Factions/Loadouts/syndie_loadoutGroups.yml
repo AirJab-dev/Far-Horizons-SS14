@@ -1169,3 +1169,11 @@
   loadouts:
     - RecruitSuit
     - RecruitSkirt
+
+#region Service
+- type: loadoutGroup
+  id: ChefJumpsuitNS
+  name: loadout-group-chef-jumpsuit
+  loadouts:
+  - ChefJumpsuitNS
+  - ChefJumpskirtNS

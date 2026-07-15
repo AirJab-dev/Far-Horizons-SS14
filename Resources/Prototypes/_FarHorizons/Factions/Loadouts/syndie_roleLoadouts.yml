@@ -430,6 +430,23 @@
   - Scarves 
   - Pens
 
+#region Service
+- type: roleLoadout
+  id: SyndieChef
+  groups:
+  - ChefHead
+  - ChefMask
+  - ChefJumpsuitNS
+  - CommonBackpack
+  - ChefOuterClothing
+  - CivilianShoes 
+  - Glasses
+  - SurvivalService 
+  - Trinkets
+  - Scarves 
+  - Pens 
+
+
 #region SHC
 
 - type: roleLoadout

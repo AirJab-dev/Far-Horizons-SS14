@@ -62,3 +62,14 @@
     - Recyclable
     - HamsterWearable
     - WhitelistChameleon
+
+  #region Service
+- type: entity
+  parent: ClothingHeadHatJanitor
+  id: ClothingHeadHatJanitorNS
+  suffix: NS
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Clothing/Head/Soft/janitor_cap.rsi
+  - type: Clothing
+    sprite: _FarHorizons/Clothing/Head/Soft/janitor_cap.rsi

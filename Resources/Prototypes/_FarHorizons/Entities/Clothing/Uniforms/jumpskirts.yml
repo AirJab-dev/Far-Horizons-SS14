@@ -898,3 +898,44 @@
     sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/NeoSol/security_cadet.rsi
   - type: Clothing
     sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/NeoSol/security_cadet.rsi
+
+#region Service
+- type: entity
+  parent: ClothingUniformJumpskirtHydroponics
+  id: ClothingUniformJumpskirtHydroponicsNS
+  suffix: NS
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/NeoSol/hydro.rsi 
+  - type: Clothing
+    sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/NeoSol/hydro.rsi 
+
+- type: entity
+  parent: ClothingUniformJumpskirtOveralls
+  id: ClothingUniformJumpskirtOverallsNS
+  suffix: NS
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/NeoSol/overalls.rsi
+  - type: Clothing
+    sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/NeoSol/overalls.rsi
+
+- type: entity
+  parent: ClothingUniformJumpskirtChef
+  id: ClothingUniformJumpskirtChefNS
+  suffix: NS
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/NeoSol/chef.rsi 
+  - type: Clothing
+    sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/NeoSol/chef.rsi 
+
+- type: entity
+  parent: ClothingUniformJumpskirtJanitor
+  id: ClothingUniformJumpskirtJanitorNS
+  suffix: NS
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/NeoSol/janitor.rsi
+  - type: Clothing
+    sprite: _FarHorizons/Clothing/Uniforms/Jumpskirt/NeoSol/janitor.rsi
