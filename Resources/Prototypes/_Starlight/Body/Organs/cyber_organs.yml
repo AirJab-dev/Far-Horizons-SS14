@@ -6,6 +6,7 @@
   components:
   - type: VisualOrgan #FH Start
     data: 
+      sprite: _FarHorizons/Mobs/Species/Cyberlimbs/parts.rsi
       state: eyes_night #FH End
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/implants.rsi
@@ -35,6 +36,7 @@
   components:
   - type: VisualOrgan #FH Start
     data: 
+      sprite: _FarHorizons/Mobs/Species/Cyberlimbs/parts.rsi
       state: eyes_thermal #FH End
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/implants.rsi

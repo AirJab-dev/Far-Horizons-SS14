@@ -177,3 +177,19 @@
   components:
   - type: CyberneticImplanter
     implantedOrgan: RightHandImplantForensics
+
+- type: entity
+  parent: CyberneticImplanterKitSyndicateHand
+  id: CyberneticImplanterLeftHandImplantHypoClaws
+  name: Left Hand Hypo Claws Implant C.I.K.
+  components:
+  - type: CyberneticImplanter
+    implantedOrgan: LeftHandImplantHypoClaws
+
+- type: entity
+  parent: CyberneticImplanterKitSyndicateHand
+  id: CyberneticImplanterRightHandImplantHypoClaws
+  name: Right Hand Hypo Claws Implant C.I.K.
+  components:
+  - type: CyberneticImplanter
+    implantedOrgan: RightHandImplantHypoClaws

@@ -346,8 +346,6 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
-  - type: Clothing
-    sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
   - type: Gun
     minAngle: 2
     maxAngle: 18
@@ -355,7 +353,7 @@
     angleIncrease: 4
     angleDecay: 16
     availableModes:
-    - FullAutos
+    - FullAuto
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
