@@ -8,21 +8,7 @@
     - type: BorgSubtypeDefinition
       parentType: genericNS
 
-      dummyPrototype: BorgChassisGeneric
-
-
-# mining (salvage)
-- type: entity
-  parent: BorgSubtypeBase
-  abstract: true
-  id: BorgMiningSubtypeBaseNS
-  name: borg mining subtype
-  components:
-    - type: BorgSubtypeDefinition
-      parentType: miningNS
-
-      # Entity prototype for preview in selection menu
-      dummyPrototype: BorgChassisMining
+      dummyPrototype: BorgChassisGenericNS
 
 # engineering
 - type: entity
@@ -35,7 +21,7 @@
       parentType: engineeringNS
 
       # Entity prototype for preview in selection menu
-      dummyPrototype: BorgChassisEngineer
+      dummyPrototype: BorgChassisEngineerNS
 
 # janitor
 - type: entity
@@ -48,7 +34,7 @@
       parentType: janitorNS
 
       # Entity prototype for preview in selection menu
-      dummyPrototype: BorgChassisJanitor
+      dummyPrototype: BorgChassisJanitorNS
 
 # medical
 - type: entity
@@ -61,7 +47,7 @@
       parentType: medicalNS
 
       # Description
-      dummyPrototype: BorgChassisMedical
+      dummyPrototype: BorgChassisMedicalNS
 
 # service
 - type: entity
@@ -74,19 +60,19 @@
       parentType: serviceNS
 
       # Description
-      dummyPrototype: BorgChassisService
+      dummyPrototype: BorgChassisServiceNS
 
 - type: entity
   parent: BorgSubtypeBase
   abstract: true
-  id: BorgPurrfusSubtypeBase
+  id: BorgPurrfusSubtypeBaseNS
   name: borg purrfus subtype
   components:
     - type: BorgSubtypeDefinition
       parentType: purrfusNS
 
       # Description
-      dummyPrototype: BorgChassisPurrfus
+      dummyPrototype: BorgChassisPurrfusNS
 
 - type: entity
   parent: BorgSubtypeBase
@@ -98,4 +84,4 @@
       parentType: securityNS
 
       # Description
-      dummyPrototype: BorgChassisSecurity
+      dummyPrototype: BorgChassisSecurityNS

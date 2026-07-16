@@ -70,6 +70,6 @@
   suffix: NS
   components:
   - type: Sprite
-    sprite: _FarHorizons/Clothing/Head/Soft/janitor_cap.rsi
+    sprite: _FarHorizons/Clothing/Head/Soft/NeoSol/janitor_cap.rsi
   - type: Clothing
-    sprite: _FarHorizons/Clothing/Head/Soft/janitor_cap.rsi
+    sprite: _FarHorizons/Clothing/Head/Soft/NeoSol/janitor_cap.rsi

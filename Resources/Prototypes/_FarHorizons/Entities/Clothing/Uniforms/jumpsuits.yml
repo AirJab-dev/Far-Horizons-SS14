@@ -831,7 +831,7 @@
 
 - type: entity
   parent: ClothingUniformOveralls
-  id: ClothingUniformOverallsNS
+  id: ClothingUniformJumpsuitOverallNS
   suffix: NS
   components:
   - type: Sprite

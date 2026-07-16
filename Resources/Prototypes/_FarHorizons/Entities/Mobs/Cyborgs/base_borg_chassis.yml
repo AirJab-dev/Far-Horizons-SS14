@@ -324,7 +324,7 @@
   - type: AccessReader
     access: [["Executive"], ["ArmoryNS"]]
   - type: Sprite
-    sprite: _FarHorizons/Mobs/Silicon/Chassis/security.rsi
+    sprite: Mobs/Silicon/Chassis/synd_sec.rsi
     layers:
     - state: borg
       map: [ "movement", "enum.BorgVisualLayers.Body" ]
@@ -353,6 +353,7 @@
   id: BorgChassisSecurityNS
   parent: BorgChassisSelectableNS
   name: Security Cyborg
+  suffix: NS
   components:
   - type: BorgSwitchableType
     selectedBorgType: securityNS
@@ -394,56 +395,7 @@
     - genericNS
     - janitorNS
     - medicalNS
-    - miningNS
     - purrfusNS
     - serviceNS
     - cargo
-
-- type: entity
-  id: BorgChassisGeneric
-  parent: BorgChassisSelectableNS
-  name: Generic Cyborg 
-  suffix: type picked
-  components:
-  - type: BorgSwitchableType
-    selectedBorgType: genericNS
-
-- type: entity
-  id: BorgChassisMining
-  parent: BorgChassisSelectableNS
-  name: Salvage Cyborg 
-  components:
-  - type: BorgSwitchableType
-    selectedBorgType: miningNS
-
-- type: entity
-  id: BorgChassisEngineer
-  parent: BorgChassisSelectableNS
-  name: Engineer Cyborg 
-  components:
-  - type: BorgSwitchableType
-    selectedBorgType: engineeringNS
-
-- type: entity
-  id: BorgChassisJanitor
-  parent: BorgChassisSelectableNS
-  name: Janitor Cyborg 
-  components:
-  - type: BorgSwitchableType
-    selectedBorgType: janitorNS
-
-- type: entity
-  id: BorgChassisMedical
-  parent: BorgChassisSelectableNS
-  name: Medical Cyborg 
-  components:
-  - type: BorgSwitchableType
-    selectedBorgType: medicalNS
-
-- type: entity
-  id: BorgChassisService
-  parent: BorgChassisSelectableNS
-  name: Service Cyborg 
-  components:
-  - type: BorgSwitchableType
-    selectedBorgType: serviceNS
+    - mining
