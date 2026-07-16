@@ -31,7 +31,6 @@ public sealed class RetractableItemActionSystem : EntitySystem
 
         SubscribeLocalEvent<RetractableItemActionComponent, MapInitEvent>(OnActionInit);
         SubscribeLocalEvent<RetractableItemActionComponent, OnRetractableItemActionEvent>(OnRetractableItemAction);
-        SubscribeLocalEvent<RetractableItemActionComponent, ComponentShutdown>(OnComponentShutdown); //FH
 
         SubscribeLocalEvent<ActionRetractableItemComponent, ComponentShutdown>(OnActionSummonedShutdown);
         Subs.SubscribeWithRelay<ActionRetractableItemComponent, HeldRelayedEvent<TargetHandcuffedEvent>>(OnItemHandcuffed, inventory: false);
@@ -206,11 +205,4 @@ public sealed class RetractableItemActionSystem : EntitySystem
     }
 
     #endregion Starlight
-
-    #region FarHorizons
-
-    private void OnComponentShutdown(Entity<RetractableItemActionComponent> ent, ref ComponentShutdown args) => QueueDel(ent.Comp.ActionItemUid); //Delete the entity created by this component, prevents items from being permenantly grafted to someone.
-
-    #endregion FarHorizons
-
 }
