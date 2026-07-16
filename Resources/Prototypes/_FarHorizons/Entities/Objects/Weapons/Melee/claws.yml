@@ -36,4 +36,8 @@
   - type: Appearance
   - type: RefillableSolution
     solution: hypospray
+  - type: Fiber
+    fiberMaterial: fibers-rubber
+    fiberColor: fibers-red-and-black-woven
+  - type: FingerprintMask
   
