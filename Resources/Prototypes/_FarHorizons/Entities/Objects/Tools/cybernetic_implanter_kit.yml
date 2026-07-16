@@ -145,6 +145,22 @@
   - type: CyberneticImplanter
     implantedOrgan: RightArmCyberIFA30
 
+- type: entity
+  parent: CyberneticImplanterKitSyndicateLimb
+  id: CyberneticImplanterLeftArmCyberBunkerBreaker
+  name: Left Bunker Breaker Arm C.I.K.
+  components:
+  - type: CyberneticImplanter
+    implantedOrgan: LeftArmCyberBunkerBreaker
+
+- type: entity
+  parent: CyberneticImplanterKitSyndicateLimb
+  id: CyberneticImplanterRightArmCyberBunkerBreaker
+  name: Right Bunker Breaker Arm C.I.K.
+  components:
+  - type: CyberneticImplanter
+    implantedOrgan: RightArmCyberBunkerBreaker
+
 #Hand Implant
 - type: entity
   parent: CyberneticImplanterKitSyndicateHand

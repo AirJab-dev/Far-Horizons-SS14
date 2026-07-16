@@ -241,6 +241,7 @@
         - CrowbarCyber
         - WirecutterCyber
         - WelderCyber
+        - NetworkConfiguratorCyber
     - type: LimbItemDeployer
       action: ActionToggleCyberHandLeft
       sound: 
@@ -279,6 +280,7 @@
         - CrowbarCyber
         - WirecutterCyber
         - WelderCyber
+        - NetworkConfiguratorCyber
     - type: LimbItemDeployer
       action: ActionToggleCyberHandRight
       sound: 
@@ -297,6 +299,67 @@
         - roundstart-cybernetics-hand-attached-description
         - roundstart-cybernetics-generic-limb-description
 
+#Bunker Breaker
+
+- type: entity
+  parent: [ OrganCyberArmLeft, WithLeftCyberHand, BaseSyndicateContraband ]
+  id: LeftArmCyberBunkerBreaker
+  name: Left Bunker Breaker Arm
+  description: Augmented arm with all the tools needed to go where you dont belong.
+  components:
+    - type: VisualOrgan
+      data:
+        sprite: _FarHorizons/Mobs/Species/Cyberlimbs/parts.rsi 
+        state: "l_steel_arm"
+    - type: Sprite
+      sprite: _FarHorizons/Mobs/Species/Cyberlimbs/parts.rsi 
+      state: "l_steel_arm"
+    - type: LimbItemStorage
+      items:
+        - WrenchCyber
+        - ScrewdriverCyber
+        - WelderCyber
+        - SyndicateJawsOfLifeCyber
+        - MultitoolCyber
+    - type: LimbItemDeployer
+      action: ActionToggleCyberHandLeft
+      sound: 
+        path: /Audio/_Starlight/Medical/Cyber/deploy.ogg
+      handWhitelist:
+        tags:
+          - CyberHandItem
+      stateOn: l_steel_arm_TOOLS
+      stateOff: l_steel_arm
+
+- type: entity
+  parent: [ OrganCyberArmRight, WithRightCyberHand, BaseSyndicateContraband ]
+  id: RightArmCyberBunkerBreaker
+  name: Right Bunker Breaker Arm
+  description: Augmented arm with all the tools needed to go where you dont belong.
+  components:
+    - type: VisualOrgan
+      data:
+        sprite: _FarHorizons/Mobs/Species/Cyberlimbs/parts.rsi 
+        state: "r_steel_arm"
+    - type: Sprite
+      sprite: _FarHorizons/Mobs/Species/Cyberlimbs/parts.rsi 
+      state: "r_steel_arm"
+    - type: LimbItemStorage
+      items:
+        - WrenchCyber
+        - ScrewdriverCyber
+        - WelderCyber
+        - SyndicateJawsOfLifeCyber
+        - MultitoolCyber
+    - type: LimbItemDeployer
+      action: ActionToggleCyberHandRight
+      sound: 
+        path: /Audio/_Starlight/Medical/Cyber/deploy.ogg
+      handWhitelist:
+        tags:
+          - CyberHandItem
+      stateOn: r_steel_arm_TOOLS
+      stateOff: r_steel_arm
 
 #Bulwark 
 - type: entity
@@ -512,7 +575,7 @@
         - JawsOfLifeCyber
         - PowerDrillCyber
         - WelderExperimentalCyber
-        - RCDCyber
+        - MultitoolCyber
     - type: LimbItemDeployer
       action: ActionToggleCyberHandLeft
       sound: 
@@ -541,7 +604,7 @@
         - JawsOfLifeCyber
         - PowerDrillCyber
         - WelderExperimentalCyber
-        - RCDCyber
+        - MultitoolCyber
     - type: LimbItemDeployer
       action: ActionToggleCyberHandRight
       sound: 

@@ -141,3 +141,31 @@
         - id: WeaponSubMachineGunC20r
         - id: TreasureCoinIron
         - id: AmmoSelection9mmSMGS
+
+- type: entity
+  id: BriefcaseWeaponIFA30LeftFilled
+  parent: BriefcaseWeaponSmall
+  name: Secure IFA-30 Case
+  suffix: Filled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: CyberneticImplanterLeftArmCyberIFA30
+        - id: TreasureCoinIron
+        - id: AmmoSelection9mmSMGS
+
+- type: entity
+  id: BriefcaseWeaponIFA30RightFilled
+  parent: BriefcaseWeaponSmall
+  name: Secure IFA-30 Case
+  suffix: Filled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: CyberneticImplanterRightArmCyberIFA30
+        - id: TreasureCoinIron
+        - id: AmmoSelection9mmSMGS

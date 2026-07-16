@@ -6,7 +6,7 @@
   components:
   - type: VisualOrgan #FH Start
     data: 
-      sprite: _FarHorizons/Mobs/Species/Cyberlimbs/parts.rsi
+      sprite: _FarHorizons/Mobs/Species/Cyberlimbs/parts.rsi #all of the organs in this file probably need to be reparented, using the Human Parents is giving them all stuff they shouldnt have
       state: eyes_night #FH End
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/implants.rsi
