@@ -15767,5 +15767,105 @@ Entries:
   id: 143418
   time: '2026-07-10T10:39:28.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1434
+- author: KarusKardin and ScorchFollower
+  changes:
+  - message: Added the Cybernetic Implanter Kit, a snazzy new way for syndicate agents
+      to quickly install cybernetics without the help of a friend
+    type: Add
+  id: 137300
+  time: '2026-07-11T23:10:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1373
+- author: KarusKardin and ScorchFollower
+  changes:
+  - message: Replaced cybernetics in the syndicate uplink with C.I.Ks
+    type: Tweak
+  id: 137301
+  time: '2026-07-11T23:10:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1373
+- author: AthenaAI
+  changes:
+  - message: Fixed the description on the undetermined cyborg module.
+    type: Fix
+  id: 144200
+  time: '2026-07-12T01:26:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1442
+- author: AthenaAI
+  changes:
+  - message: Fixed microreactors not being pickupable by Engineering cyborgs.
+    type: Fix
+  id: 144201
+  time: '2026-07-12T01:26:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1442
+- author: AthenaAI
+  changes:
+  - message: Tweaked the first aid module to have a jet injector and 2 bottles.
+    type: Tweak
+  id: 144202
+  time: '2026-07-12T01:26:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1442
+- author: AthenaAI
+  changes:
+  - message: Reverted the borg module hand change.
+    type: Fix
+  id: 144203
+  time: '2026-07-12T01:26:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1442
+- author: AthenaAI
+  changes:
+  - message: Fixed emagging a IPC with module compatibility not playing a sound or
+      showing text.
+    type: Fix
+  id: 144204
+  time: '2026-07-12T01:26:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1442
+- author: AthenaAI
+  changes:
+  - message: Changed self repair penalty for IPCS from x3 to x1.5
+    type: Tweak
+  id: 144205
+  time: '2026-07-12T01:26:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1442
+- author: AthenaAI
+  changes:
+  - message: Adjusted do after for IPC repair to 2 from 3.
+    type: Tweak
+  id: 144206
+  time: '2026-07-12T01:26:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1442
+- author: AthenaAI
+  changes:
+  - message: Bumped the protogen self repair penalty to x2 from 1.5.
+    type: Tweak
+  id: 144207
+  time: '2026-07-12T01:26:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1442
+- author: AthenaAI
+  changes:
+  - message: Lowered overall self repair fuel cost to 5 from 10.
+    type: Tweak
+  id: 144208
+  time: '2026-07-12T01:26:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1442
+- author: AthenaAI
+  changes:
+  - message: Fixed fland dorm rooms button toggling doors instead of bolting.
+    type: Fix
+  id: 144209
+  time: '2026-07-12T01:26:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1442
+- author: AthenaAI
+  changes:
+  - message: Fixed manor closets using the wrong prototype.
+    type: Fix
+  id: 144210
+  time: '2026-07-12T01:26:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1442
+- author: AthenaAI
+  changes:
+  - message: Allowed borgs to self repair with a x1.5 penalty.
+    type: Tweak
+  id: 144211
+  time: '2026-07-12T01:26:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1442
 Order: -1
 

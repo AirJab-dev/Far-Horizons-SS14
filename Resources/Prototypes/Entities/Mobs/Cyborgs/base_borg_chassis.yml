@@ -108,7 +108,8 @@
     damageValue: -10 # 10 seconds to repair from crit
     doAfterDelay: 1
     fuelCost: 0.5
-    allowSelfRepair: false
+    selfRepairPenalty: 1.5 #FH
+    allowSelfRepair: true #FH
   - type: BorgChassis
   - type: LockingWhitelist
     blacklist:
