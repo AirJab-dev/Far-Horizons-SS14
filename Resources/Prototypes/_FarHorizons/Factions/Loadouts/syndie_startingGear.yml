@@ -312,7 +312,7 @@
   id: SyndieJanitorGear
   equipment:
     shoes: ClothingShoesGaloshesNS
-    id: NeoSolJanitorPDA
+    id: CustodianPDA
     ears: ClothingHeadsetServiceNS
     belt: ClothingBeltJanitorNSFilled
 
