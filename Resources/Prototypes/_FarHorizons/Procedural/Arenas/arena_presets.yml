@@ -1,0 +1,4 @@
+- type: dungeonPreset
+  id: FHArena
+  roomPacks:
+    - -25,-25,24,24

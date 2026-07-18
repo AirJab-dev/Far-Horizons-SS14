@@ -59,3 +59,30 @@
     line_speed: 1.5
     line_thickness: 0.3
     line_alpha_boost: 0.15
+
+- type: shader
+  id: BossVFXElderInnerCircle
+  kind: source
+  path: "/Textures/_FarHorizons/Shaders/elder_circular_vfx.swsl"
+  params:
+    color1: 0.25, 0.1, 0.3
+    color2: 0, 0, 0
+    noise_scale: 0.1
+    time_scale: 0.3
+    hole_threshold: 0.4
+    outerCircle: false
+    range: 10.0
+
+- type: shader
+  id: BossVFXElderOuterCircle
+  kind: source
+  path: "/Textures/_FarHorizons/Shaders/elder_circular_vfx.swsl"
+  params:
+    color1: 0.25, 0.1, 0.3
+    color2: 0, 0, 0
+    noise_scale: 0.1
+    time_scale: 0.3
+    hole_threshold: 0.4
+    outerCircle: true
+    range: 7
+    falloff_width: 2.5
