@@ -103,6 +103,7 @@
   parent: BorgEngineerSubtypeBaseNS
   id: BorgEngineerSubtypeStandardNS
   name: Standard
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/synd_eng.rsi
@@ -116,6 +117,7 @@
   parent: BorgEngineerSubtypeBaseNS
   id: BorgEngineerSubtypeGenericNS
   name: Generic
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/engineer.rsi
@@ -129,6 +131,7 @@
   parent: BorgEngineerSubtypeBaseNS
   id: BorgEngineerSubtypeAntiqueNS
   name: Antique
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/engineer.rsi
@@ -142,6 +145,7 @@
   parent: BorgEngineerSubtypeBaseNS
   id: BorgEngineerSubtypeNobleNS
   name: Noble-ENG
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/engineer.rsi
@@ -155,6 +159,7 @@
   parent: BorgEngineerSubtypeBaseNS
   id: BorgEngineerSubtypeCricketNS
   name: Cricket
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/engineer.rsi
@@ -170,6 +175,7 @@
   parent: BorgGenericSubtypeBaseNS
   id: BorgGenericSubtypeGenericNS
   name: Generic
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/generic.rsi
@@ -183,6 +189,7 @@
   parent: BorgGenericSubtypeBaseNS
   id: BorgGenericSubtypeDroidNS
   name: Android
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/generic.rsi
@@ -196,6 +203,7 @@
   parent: BorgGenericSubtypeBaseNS
   id: BorgGenericSubtypeNobleNS
   name: Noble-STD
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/generic.rsi
@@ -211,6 +219,7 @@
   parent: BorgJanitorSubtypeBaseNS
   id: BorgJanitorSubtypeStandardNS
   name: Standard 
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/janitor.rsi
@@ -223,7 +232,8 @@
 - type: entity
   parent: BorgJanitorSubtypeBaseNS
   id: BorgJanitorSubtypeGenericNS
-  name: Generic
+  name: Generic 
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/janitor.rsi
@@ -237,6 +247,7 @@
   parent: BorgJanitorSubtypeBaseNS
   id: BorgJanitorSubtypeMopbotNS
   name: Mopbot
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/janitor.rsi
@@ -250,6 +261,7 @@
   parent: BorgJanitorSubtypeBaseNS
   id: BorgJanitorSubtypeNobleNS
   name: Noble-CLN
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/janitor.rsi
@@ -263,6 +275,7 @@
   parent: BorgJanitorSubtypeBaseNS
   id: BorgJanitorSubtypeCricketNS
   name: Cricket
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/janitor.rsi
@@ -278,6 +291,7 @@
   parent: BorgMedicalSubtypeBaseNS
   id: BorgMedicalSubtypeStandardNS
   name: Standard
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/synd_medical.rsi
@@ -291,6 +305,7 @@
   parent: BorgMedicalSubtypeBaseNS
   id: BorgMedicalSubtypeGenericNS
   name: Generic
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/medical.rsi
@@ -304,6 +319,7 @@
   parent: BorgMedicalSubtypeBaseNS
   id: BorgMedicalSubtypeNeedlesNS
   name: Needles
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/medical.rsi
@@ -317,6 +333,7 @@
   parent: BorgMedicalSubtypeBaseNS
   id: BorgMedicalSubtypeDroidNS
   name: Advanced Android
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/medical.rsi
@@ -330,6 +347,7 @@
   parent: BorgMedicalSubtypeBaseNS
   id: BorgMedicalSubtypeNobleNS
   name: Noble-MED
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/medical.rsi
@@ -343,6 +361,7 @@
   parent: BorgMedicalSubtypeBaseNS
   id: BorgMedicalSubtypeCricketNS
   name: Cricket
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/medical.rsi
@@ -358,6 +377,7 @@
   parent: BorgServiceSubtypeBaseNS
   id: BorgServiceSubtypeStandardNS
   name: Standard
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/service.rsi
@@ -371,6 +391,7 @@
   parent: BorgServiceSubtypeBaseNS
   id: BorgServiceSubtypeGenericNS
   name: Generic
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/service.rsi
@@ -381,6 +402,7 @@
   parent: BorgServiceSubtypeBaseNS
   id: BorgServiceSubtypeWaitressNS
   name: Waitress
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/service.rsi
@@ -391,6 +413,7 @@
   parent: BorgServiceSubtypeBaseNS
   id: BorgServiceSubtypeBrobotNS
   name: Brobot
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/service.rsi
@@ -403,6 +426,7 @@
   parent: BorgServiceSubtypeBaseNS
   id: BorgServiceSubtypeMaximillionNS
   name: Maximillion
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/service.rsi
@@ -416,6 +440,7 @@
   parent: BorgServiceSubtypeBaseNS
   id: BorgServiceSubtypeNobleNS
   name: Noble-SRV
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/service.rsi
@@ -429,6 +454,7 @@
   parent: BorgServiceSubtypeBaseNS
   id: BorgServiceSubtypeCricketNS
   name: Cricket
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/service.rsi
@@ -444,6 +470,7 @@
   parent: BorgSecuritySubtypeBaseNS
   id: BorgSecuritySubtypeRedKnightNS
   name: Red Knight
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/security.rsi
@@ -457,6 +484,7 @@
   parent: BorgSecuritySubtypeBaseNS
   id: BorgSecuritySubtypeBlackKnightNS
   name: Black Knight
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/security.rsi
@@ -470,6 +498,7 @@
   parent: BorgSecuritySubtypeBaseNS
   id: BorgSecuritySubtypeStandardNS
   name: Standard
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/security.rsi
@@ -483,6 +512,7 @@
   parent: BorgSecuritySubtypeBaseNS
   id: BorgSecuritySubtypeNobleNS
   name: Noble-SEC
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/security.rsi
@@ -496,6 +526,7 @@
   parent: BorgSecuritySubtypeBaseNS
   id: BorgSecuritySubtypeCricketNS
   name: Cricket
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/security.rsi
@@ -509,6 +540,7 @@
   parent: BorgSecuritySubtypeBaseNS
   id: BorgSecuritySubtypeHeavyNS
   name: Heavy
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/security.rsi
@@ -522,6 +554,7 @@
   parent: BorgSecuritySubtypeBaseNS
   id: BorgSecuritySubtypeWeaponsGuyNS
   name: Weapons Guy
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/security.rsi
@@ -537,6 +570,7 @@
   parent: BorgPurrfusSubtypeBaseNS
   id: BorgPurrfusSubtypeGreenNS
   name: Green Purrfus
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/purrfus.rsi
@@ -550,6 +584,7 @@
   parent: BorgPurrfusSubtypeBaseNS
   id: BorgPurrfusSubtypeOrangeNS
   name: Orange Purrfus
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/purrfus.rsi
@@ -563,6 +598,7 @@
   parent: BorgPurrfusSubtypeBaseNS
   id: BorgPurrfusSubtypePinkNS
   name: Pink Purrfus
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/purrfus.rsi
