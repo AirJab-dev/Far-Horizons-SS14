@@ -641,3 +641,11 @@
   - type: TriggerOnSpawn
   - type: SpawnOnTrigger
     proto: EffectFlashBluespace
+
+- type: entity
+  id: LockerFreezerNSVaultFilled
+  suffix: NS, Vault, Filled
+  parent: LockerFreezerVaultFilled
+  components:
+  - type: AccessReader
+    access: [ [ "Executive" ] ]

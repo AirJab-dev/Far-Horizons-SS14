@@ -254,7 +254,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: AccessReader
-    access: [["SyndicateAgent"]]
+    access: [["SyndicateAgent"], ["BarNS"]]  # FH edit
   - type: GuideHelp
     guides:
     - Bartender

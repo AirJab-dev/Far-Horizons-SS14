@@ -2898,7 +2898,7 @@
       board: [ DoorElectronicsExternal ]
 
 - type: entity
-  parent: FHAirlockNSGlassShuttle
+  parent: FHAirlockGlassShuttle
   id: FHAirlockNSExternalGlassShuttleEscape
   suffix: NS, External, Escape 3x4, Glass, Docking
   components:
