@@ -2,6 +2,7 @@
 # 3 variations of the same attack with different patterns. "Don't stay in red" type mechanic
 - type: entity
   id: TelegraphBossElderFlourish1
+  categories: [ HideSpawnMenu ]
   components:
     - type: TelegraphedAttack
       telegraphs:
@@ -118,6 +119,7 @@
 - type: entity
   id: TelegraphBossElderFlourish2
   parent: TelegraphBossElderFlourish1
+  categories: [ HideSpawnMenu ]
   components:
     - type: TelegraphedAttack
       telegraphs:
@@ -232,6 +234,7 @@
 - type: entity
   id: TelegraphBossElderFlourish3
   parent: TelegraphBossElderFlourish1
+  categories: [ HideSpawnMenu ]
   components:
     - type: TelegraphedAttack
       telegraphs:
@@ -377,6 +380,7 @@
 # when that runs out, same shape is placed under character's feet which will first damage, then leave lingering damaging field
 - type: entity
   id: TelegraphBossElderWarningShotPre
+  categories: [ HideSpawnMenu ]
   components:
     - type: TelegraphedAttack
       kind: Utility
@@ -401,6 +405,7 @@
 
 - type: entity
   id: TelegraphBossElderWarningShotMain
+  categories: [ HideSpawnMenu ]
   components:
     - type: TelegraphedAttack
       telegraphs:
@@ -423,6 +428,7 @@
 
 - type: entity
   id: TelegraphBossElderWarningShotLingering
+  categories: [ HideSpawnMenu ]
   components:
     - type: TelegraphedAttack
       continuous: true
@@ -454,6 +460,7 @@
 # Selects furthest target and create damage around them, then on top of them
 - type: entity
   id: TelegraphBossElderSingleOut
+  categories: [ HideSpawnMenu ]
   components:
     - type: TelegraphedAttack
       telegraphs:
@@ -539,6 +546,7 @@
 # Boss' AI is frozen while it heals
 - type: entity
   id: TelegraphBossElderHealingDecoy
+  categories: [ HideSpawnMenu ]
   components:
     - type: TelegraphedAttack
       telegraphs:
@@ -865,6 +873,7 @@
 
 - type: entity
   id: TelegraphBossElderDecoyExplosion
+  categories: [ HideSpawnMenu ]
   components:
     - type: TelegraphedAttack
       telegraphs:
@@ -985,6 +994,7 @@
 # Makes area smaller at the end of fight
 - type: entity
   id: TelegraphBossElderFinalShowdownMain
+  categories: [ HideSpawnMenu ]
   components:
     - type: TelegraphedAttack
       telegraphs:
@@ -1176,6 +1186,7 @@
 
 - type: entity
   id: TelegraphBossElderFinalShowdownLingering
+  categories: [ HideSpawnMenu ]
   components:
     - type: TelegraphedAttack
       continuous: true
