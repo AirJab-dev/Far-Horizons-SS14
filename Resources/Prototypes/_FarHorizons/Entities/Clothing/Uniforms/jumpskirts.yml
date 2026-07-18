@@ -318,6 +318,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtOveralls
   name: Overalls Jumpskirt
+  suffix: NT
   description: Great for working outdoors.
   components:
   - type: Sprite

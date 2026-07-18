@@ -277,7 +277,7 @@
 - type: entity
   id: ClothingBeltPlantNSFilled
   parent: ClothingBeltPlantNS
-  suffix: Filled
+  suffix: NS, Filled
   components:
   - type: EntityTableContainerFill
     containers:

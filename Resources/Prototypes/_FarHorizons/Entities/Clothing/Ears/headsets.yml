@@ -235,7 +235,7 @@
 - type: entity
   parent: [ClothingHeadsetScience, BaseCommandContraband]
   id: ClothingHeadsetRDNS
-  name: EP Headset 
+  name: Epistemics Provost Headset 
   description: Lamarr used to love chewing on this...
   suffix: NS
   components:
@@ -252,7 +252,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetPMNS
-  name: Executive Over-ear Headset
+  name: Executive Over-Ear Headset
   suffix: NS
   components:
   - type: ContainerFill

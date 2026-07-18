@@ -3,7 +3,8 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgGenericSubtypeBaseNS
-  name: borg generic subtype
+  name: Borg Generic Subtype
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       parentType: genericNS
@@ -15,7 +16,8 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgEngineerSubtypeBaseNS
-  name: borg engineering subtype
+  name: Borg Engineering Subtype
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       parentType: engineeringNS
@@ -28,7 +30,8 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgJanitorSubtypeBaseNS
-  name: borg janitor subtype
+  name: Borg Janitor Subtype
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       parentType: janitorNS
@@ -41,7 +44,8 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgMedicalSubtypeBaseNS
-  name: borg medical subtype
+  name: Borg Medical Subtype
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       parentType: medicalNS
@@ -54,7 +58,8 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgServiceSubtypeBaseNS
-  name: borg service subtype
+  name: Borg Service Subtype
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       parentType: serviceNS
@@ -66,7 +71,8 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgPurrfusSubtypeBaseNS
-  name: borg purrfus subtype
+  name: Borg Purrfus Subtype
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       parentType: purrfusNS
@@ -78,7 +84,8 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgSecuritySubtypeBaseNS
-  name: borg security subtype
+  name: Borg Security Subtype
+  suffix: NS
   components:
     - type: BorgSubtypeDefinition
       parentType: securityNS

@@ -5,6 +5,7 @@
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatJanitor
   name: Janitor Cap
+  suffix: NT
   description: A purple cap with faint smell of lemon.
   components:
   - type: Sprite
@@ -22,6 +23,7 @@
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatJanitor]
   id: ClothingHeadHatJanitorFlipped
   name: Janitor Cap
+  suffix: NT, Flipped
   components:
   - type: Tag
     tags:

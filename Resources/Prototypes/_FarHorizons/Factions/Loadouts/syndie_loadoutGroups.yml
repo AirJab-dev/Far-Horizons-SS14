@@ -1185,7 +1185,7 @@
   name: loadout-group-janitor-head
   minLimit: 0
   loadouts:
-  - JanitorHead
+  - JanitorHeadNS
 
 - type: loadoutGroup
   id: JanitorMaskNS

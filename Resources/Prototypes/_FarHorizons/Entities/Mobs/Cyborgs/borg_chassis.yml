@@ -2,7 +2,7 @@
   id: BorgChassisGenericNS
   parent: BorgChassisSelectableNS
   name: Generic Cyborg 
-  suffix: type picked
+  suffix: NS, Type Picked
   components:
   - type: BorgSwitchableType
     selectedBorgType: genericNS
@@ -10,7 +10,8 @@
 - type: entity
   id: BorgChassisEngineerNS
   parent: BorgChassisSelectableNS
-  name: Engineer Cyborg 
+  name: Engineer Cyborg
+  suffix: NS
   components:
   - type: BorgSwitchableType
     selectedBorgType: engineeringNS
@@ -19,6 +20,7 @@
   id: BorgChassisJanitorNS
   parent: BorgChassisSelectableNS
   name: Janitor Cyborg 
+  suffix: NS
   components:
   - type: BorgSwitchableType
     selectedBorgType: janitorNS
@@ -27,6 +29,7 @@
   id: BorgChassisMedicalNS
   parent: BorgChassisSelectableNS
   name: Medical Cyborg 
+  suffix: NS
   components:
   - type: BorgSwitchableType
     selectedBorgType: medicalNS
@@ -35,6 +38,7 @@
   id: BorgChassisServiceNS
   parent: BorgChassisSelectableNS
   name: Service Cyborg 
+  suffix: NS
   components:
   - type: BorgSwitchableType
     selectedBorgType: serviceNS
@@ -42,7 +46,8 @@
 - type: entity
   id: BorgChassisPurrfusNS
   parent: BorgChassisSelectableNS
-  name: purrfus cyborg
+  name: Purrfus Cyborg
+  suffix: NS
   components:
   - type: TextToSpeech
   - type: BorgSwitchableType

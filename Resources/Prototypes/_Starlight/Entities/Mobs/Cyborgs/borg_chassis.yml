@@ -47,6 +47,7 @@
   id: BorgChassisSecurity
   parent: BorgChassisSelectable
   name: Security Cyborg #FH
+  suffix: NT #FH
   components:
   - type: BorgSwitchableType
     selectedBorgType: security
