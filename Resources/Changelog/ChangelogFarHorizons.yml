@@ -15874,5 +15874,44 @@ Entries:
   id: 144800
   time: '2026-07-18T14:55:51.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1448
+- author: AthenaAI
+  changes:
+  - message: Adds the new resprites by Abby for Chef, Janitor and Botanist for both
+      NeoSol and NanoTrasen.
+    type: Add
+  id: 144900
+  time: '2026-07-18T22:17:07.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1449
+- author: AthenaAI
+  changes:
+  - message: Adds the loadsout for Chef, Janitor, and Botanist for NeoSol.
+    type: Add
+  id: 144901
+  time: '2026-07-18T22:17:07.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1449
+- author: AthenaAI
+  changes:
+  - message: Adds the missing Service Headset prototype and gives it to the respective
+      service jobs.
+    type: Add
+  id: 144902
+  time: '2026-07-18T22:17:07.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1449
+- author: AthenaAI
+  changes:
+  - message: Completely separated NeoSol and NanoTrasen borgs so they can use different
+      sprites and accesses. Used the original secborg red sprites for the NeoSol secborgs.
+    type: Tweak
+  id: 144903
+  time: '2026-07-18T22:17:07.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1449
+- author: AthenaAI
+  changes:
+  - message: Due to how cargo works the salvage and mining borgs are excluded instead
+      having AA on both stations subject to change.
+    type: Tweak
+  id: 144904
+  time: '2026-07-18T22:17:07.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1449
 Order: -1
 
