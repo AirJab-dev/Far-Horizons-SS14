@@ -348,9 +348,9 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
     minAngle: 2
-    maxAngle: 18
+    maxAngle: 12
     fireRate: 6
-    angleIncrease: 4
+    angleIncrease: 3
     angleDecay: 16
     availableModes:
     - FullAuto
