@@ -15937,5 +15937,12 @@ Entries:
   id: 145002
   time: '2026-07-18T23:44:22.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1450
+- author: princess_gurchi
+  changes:
+  - message: Bosses don't break the game anymore, oops
+    type: Fix
+  id: 145400
+  time: '2026-07-19T17:32:22.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1454
 Order: -1
 
