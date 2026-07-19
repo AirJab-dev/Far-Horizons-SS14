@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Shared._FarHorizons.Bosses;
 using Content.Shared._FarHorizons.Telegraphs;
 using Content.Shared.NPC.Components;
 using Content.Shared.NPC.Systems;
@@ -6,13 +7,9 @@ using Content.Shared.Random.Helpers;
 using Robust.Server.GameObjects;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
+using Robust.Shared.Serialization;
 
-namespace Content.Shared._FarHorizons.Bosses;
-
-public interface IBossMechanicLogic
-{
-    void Run(IEntityManager entMan, IRobustRandom random, Entity<BossCombatComponent> ent);
-}
+namespace Content.Server._FarHorizons.Bosses;
 
 [DataDefinition]
 public sealed partial class TelegraphedAttackAroundSelf : IBossMechanicLogic

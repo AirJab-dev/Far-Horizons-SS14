@@ -1,3 +1,5 @@
+using Robust.Shared.Random;
+
 namespace Content.Shared._FarHorizons.Bosses;
 
 [RegisterComponent]
@@ -18,4 +20,9 @@ public sealed partial class BossMechanic
     [DataField] public List<IBossMechanicLogic> Logic = [];
     [DataField] public int CooldownSeconds;
     [DataField] public int InitialCooldown;
+}
+
+public interface IBossMechanicLogic
+{
+    void Run(IEntityManager entMan, IRobustRandom random, Entity<BossCombatComponent> ent);
 }
