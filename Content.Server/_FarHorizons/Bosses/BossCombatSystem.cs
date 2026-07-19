@@ -3,6 +3,7 @@ using Content.Server.NPC.HTN;
 using Content.Shared._FarHorizons.Bosses;
 using Content.Shared.Mobs;
 using Content.Shared.Random.Helpers;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 
@@ -12,6 +13,7 @@ public sealed partial class BossCombatSystem : EntitySystem
 {
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
+    [Dependency] private readonly IPrototypeManager _protoMan = default!;
 
     const string HTN_TARGET_KEY = "Target";
 
@@ -33,9 +35,12 @@ public sealed partial class BossCombatSystem : EntitySystem
 
     private void OnBossInit(Entity<BossCombatComponent> ent, ref MapInitEvent args)
     {
-        foreach (var mechanic in ent.Comp.Mechanics)
+        if (!_protoMan.TryIndex<BossMechanicsSheetPrototype>(ent.Comp.Mechanics, out var mechanics))
+            return;
+
+        foreach (var mechanic in mechanics.Mechanics)
             if (mechanic.InitialCooldown != 0)
-                SetCooldown(ent, ent.Comp.Mechanics.IndexOf(mechanic), mechanic.InitialCooldown);
+                SetCooldown(ent, mechanics.Mechanics.IndexOf(mechanic), mechanic.InitialCooldown);
     }
 
     public override void Update(float frameTime)
@@ -56,13 +61,16 @@ public sealed partial class BossCombatSystem : EntitySystem
             CleanupCooldown(ent);
 
             var mechanics = GetAvailableMechanics(ent);
+            var allMechanics = GetAllMechanic(ent);
+
+            if (!allMechanics.Any()) continue;
 
             if (!mechanics.Any()) continue;
 
             var selected = _random.Pick(mechanics);
             foreach (var logic in selected.Logic)
                 logic.Run(EntityManager, _random, ent);
-            SetCooldown(ent, comp.Mechanics.IndexOf(selected), selected.CooldownSeconds);
+            SetCooldown(ent, allMechanics.IndexOf(selected), selected.CooldownSeconds);
         }
     }
 
@@ -73,12 +81,25 @@ public sealed partial class BossCombatSystem : EntitySystem
         ent.Comp.Paused = val;
     }
 
-    private List<BossMechanic> GetAvailableMechanics(Entity<BossCombatComponent> ent) =>
-        [.. ent.Comp.Mechanics.Select((val, id) => (id, val))
-            .Where(p => !ent.Comp.Cooldowns.ContainsKey(p.id))
-            .Where(p => Consider(ent, p.val))
-            .Select(p => p.val)
+    private List<BossMechanic> GetAvailableMechanics(Entity<BossCombatComponent> ent)
+    {
+        if (!_protoMan.TryIndex<BossMechanicsSheetPrototype>(ent.Comp.Mechanics, out var mechanics))
+            return [];
+
+        return [.. mechanics.Mechanics.Select((val, id) => (id, val))
+                                      .Where(p => !ent.Comp.Cooldowns.ContainsKey(p.id))
+                                      .Where(p => Consider(ent, p.val))
+                                      .Select(p => p.val)
         ];
+    }
+
+    private List<BossMechanic> GetAllMechanic(Entity<BossCombatComponent> ent)
+    {
+        if (!_protoMan.TryIndex<BossMechanicsSheetPrototype>(ent.Comp.Mechanics, out var mechanics))
+            return [];
+        
+        return mechanics.Mechanics;
+    }
 
     private bool Consider(Entity<BossCombatComponent> ent, BossMechanic mechanic) =>
         !mechanic.Considerations.Any() || mechanic.Considerations.All(p => p.Consider(EntityManager, ent));
