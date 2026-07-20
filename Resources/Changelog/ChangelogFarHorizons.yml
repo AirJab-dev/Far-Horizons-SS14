@@ -15944,5 +15944,12 @@ Entries:
   id: 145400
   time: '2026-07-19T17:32:22.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1454
+- author: qriqii
+  changes:
+  - message: Added scarf selection to the salvage lead loadout.
+    type: Add
+  id: 145700
+  time: '2026-07-20T13:29:19.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1457
 Order: -1
 
