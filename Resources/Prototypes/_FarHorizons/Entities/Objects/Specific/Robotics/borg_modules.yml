@@ -384,7 +384,7 @@
   - type: AccessReader
     access: [["CentralCommand"]]
 
-#region NeoSol
+#NeoSol
 - type: entity
   id: BorgModuleAccessNS
   parent: [ BasePassiveBorgModule ]
@@ -510,7 +510,7 @@
   description: A passive module that control the cyborg's armor.
   components:
   - type: PassiveBorgModule
-    passiveType: Access
+    passiveType: Armor
   - type: Sprite
     layers:
     - state: generic
@@ -520,15 +520,104 @@
     - type: Armor
       modifiers: 
         flatReductions: 
-          Piercing: 3 
+          Piercing: 2 
           Heat: 2 
         coefficients: 
-          Blunt: 0.90
-          Slash: 0.85 
-          Piercing: 0.85
+          Blunt: 0.95
+          Slash: 0.95
+          Piercing: 0.90
           Heat: 0.80
           Shock: 1.3
 
+- type: entity
+  id: BorgModuleArmorSecBorg
+  parent: [ BasePassiveBorgModule ]
+  name: Security Cyborg Armor Module
+  description: A passive module that control the cyborg's armor.
+  components:
+  - type: PassiveBorgModule
+    passiveType: Access
+  - type: Sprite
+    layers:
+    - state: generic
+    - state: icon-tools
+  - type: ComponentBorgModule
+    components:
+    - type: Armor 
+      modifiers: 
+        flatReductions: 
+          Piercing: 4 
+          Heat: 3 
+        coefficients: 
+          Blunt: 0.80 
+          Slash: 0.75
+          Piercing: 0.75 
+          Heat: 0.85
+          Shock: 1.3 
+    - type: BodySpeedModifier
+      walkModifier: 0.95
+      sprintModifier: 0.95
+
+- type: entity
+  id: BorgModuleArmorReflective
+  parent: [ BasePassiveBorgModule ]
+  name: Reflective Armor Module
+  description: A passive module that control the cyborg's armor.
+  components:
+  - type: PassiveBorgModule
+    passiveType: Access
+  - type: Sprite
+    layers:
+    - state: generic
+    - state: icon-tools
+  - type: ComponentBorgModule
+    components:
+    - type: Armor 
+      modifiers: 
+        flatReductions: 
+          Heat: 2
+        coefficients:
+          Blunt: 0.95
+          Slash: 0.95
+          Piercing: 0.95
+          Heat: 0.6
+          Shock: 1.3 
+    - type: Reflect
+      reflectProb: 1
+      reflects:
+        - Energy
+    - type: BodySpeedModifier
+      walkModifier: 0.85
+      sprintModifier: 0.85
+
+- type: entity
+  id: BorgModuleArmorSyndicate
+  parent: [ BasePassiveBorgModule ]
+  name: Syndicate Armor Module
+  description: A passive module that control the cyborg's armor.
+  components:
+  - type: PassiveBorgModule
+    passiveType: Access
+  - type: Sprite
+    layers:
+    - state: generic
+    - state: icon-tools
+  - type: ComponentBorgModule
+    components:
+    - type: Armor
+      modifiers:
+        flatReductions:
+          Piercing: 5
+          Heat: 4
+        coefficients:
+          Blunt: 0.7
+          Slash: 0.6
+          Piercing: 0.5
+          Heat: 0.6
+          Shock: 1.3
+    - type: BodySpeedModifier
+      walkModifier: 0.8
+      sprintModifier: 0.8
 
 #region Speed Modules
 
@@ -569,8 +658,8 @@
   - type: ComponentBorgModule
     components:
     - type: MovementSpeedModifier
-      baseWalkSpeed : 4.0
-      baseSprintSpeed : 7.5
+      baseWalkSpeed : 3
+      baseSprintSpeed : 5.4
     uninstallComponents: 
     - type: MovementSpeedModifier
       baseWalkSpeed : 1.0
