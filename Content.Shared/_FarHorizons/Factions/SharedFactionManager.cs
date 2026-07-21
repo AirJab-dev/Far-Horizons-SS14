@@ -13,6 +13,7 @@ namespace Content.Shared._FarHorizons.Factions;
 public abstract partial class SharedFactionManager : ISharedFactionManager
 {
     [Dependency] protected readonly IPrototypeManager _prototypeManager = default!;
+    [Dependency] protected readonly ILocalizationManager _locMan = default!;
 
     public static readonly string FallbackFaction = "FactionNT";
 
@@ -220,5 +221,16 @@ public abstract partial class SharedFactionManager : ISharedFactionManager
     private bool TryGetJobAssignment((ProtoId<FactionPrototype> faction, ProtoId<JobPrototype> job) factionJob, out FactionJobAssignmentPrototype? assignment){
         assignment = GetJobAssignment(factionJob);
         return assignment != null;
+    }
+
+    public string GetAnnouncerSender(ProtoId<FactionPrototype> faction) => 
+        _locMan.TryGetString($"chat-announcer-sender-{faction}", out var sender)
+            ? sender
+            : _locMan.GetString("chat-announcer-sender-default");
+    
+    public string GetAnnouncerSender()
+    {
+        var faction = GetCurrentFaction() ?? GetDefaultFaction();
+        return GetAnnouncerSender(faction);
     }
 }
