@@ -607,7 +607,7 @@
   - type: Sprite 
     sprite: _FarHorizons/Structures/Storage/suit_storage.rsi
     layers:
-    - state: Engi
+    - state: engi
       map: ["enum.StorageVisualLayers.Base"]
     - state: door
       map: ["enum.StorageVisualLayers.Door"]
@@ -620,7 +620,7 @@
     - state: screen-green
       map: ["computerLayerScreen"]
   - type: EntityStorageVisuals
-    stateDoorOpen: Engi
+    stateDoorOpen: engi
   - type: AccessReader
     access: [["EngineeringNS"]]
 
