@@ -273,6 +273,8 @@
       path: /Audio/Ambience/Objects/periodic_beep.ogg
   #endregion
   - type: GlitchOnEMP #Far Horizons
+  - type: AccessReader
+    containerAccessProvider: borg_module
 
 - type: entity
   abstract: true

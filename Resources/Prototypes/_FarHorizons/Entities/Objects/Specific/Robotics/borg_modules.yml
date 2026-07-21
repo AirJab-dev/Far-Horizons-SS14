@@ -315,10 +315,48 @@
 
 
 #region Access Modules
+- type: entity
+  id: BorgModuleAccessBase
+  parent: [ BasePassiveBorgModule ]
+  name: Access Module
+  description: A passive module that control the cyborg's access.
+  components:
+  - type: PassiveBorgModule
+    passiveType: Access
+  - type: Sprite
+    layers:
+    - state: generic
+    - state: icon-tools
+  - type: Tag
+    tags:
+    - BorgModuleGeneric
+    - BorgModuleIPCIncompatible 
+    - BorgModuleAccess
+  - type: DoorElectronics
+    accessGroups:
+    - AllAccess
+    - AllAccessNS
+  - type: ActivatableUI
+    key: enum.DoorElectronicsConfigurationUiKey.Key
+    requiredItems:
+      tags:
+      - DoorElectronicsConfigurator
+  - type: UserInterface
+    interfaces:
+      enum.DoorElectronicsConfigurationUiKey.Key:
+        type: DoorElectronicsBoundUserInterface
+  - type: Access
+    enabled: false
+  - type: AccessReader
+  - type: IdCard
+    canRenameObject: false
+    allowDepartmentChange: false
+
+
 #NanoTrasen
 - type: entity
   id: BorgModuleAccessNT
-  parent: [ BasePassiveBorgModule ]
+  parent: [ BorgModuleAccessBase ]
   name: NanoTrasen Access Module
   description: A passive module that control the cyborg's access.
   suffix: NT
@@ -329,21 +367,19 @@
     layers:
     - state: generic
     - state: icon-tools
-  - type: ComponentBorgModule
-    components:
-    - type: Access
-      groups:
-      - AllAccess
-      tags:
-      - Borg
-    - type: AccessReader
-      access: [["Command"], ["Robotics"]] 
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - Borg
+  - type: AccessReader
+    access: [["Command"], ["Robotics"]] 
 
 - type: entity
   id: BorgModuleSecAccessNT
-  parent: [ BasePassiveBorgModule ]
+  parent: [ BorgModuleAccessBase ]
   name: Nanotrasen Security Access Module
-  description: AA passive module that control the cyborg's access.
+  description: A passive module that control the cyborg's access.
   suffix: NT
   components:
   - type: PassiveBorgModule
@@ -352,20 +388,18 @@
     layers:
     - state: generic
     - state: icon-tools
-  - type: ComponentBorgModule
-    components:
-    - type: Access
-      groups:
-      - Security 
-      tags:
-      - Maintenance 
-      - External 
-    - type: AccessReader
-      access: [["Command"], ["Armory"]]
+  - type: Access
+    groups:
+    - Security 
+    tags:
+    - Maintenance 
+    - External 
+  - type: AccessReader
+    access: [["Command"], ["Armory"]]
 
 - type: entity
   id: BorgModuleAccessCC
-  parent: [ BasePassiveBorgModule ]
+  parent: [ BorgModuleAccessBase ]
   name: Central Command Access Module
   description: AA passive module that control the cyborg's access.
   suffix: NT
@@ -387,7 +421,7 @@
 #NeoSol
 - type: entity
   id: BorgModuleAccessNS
-  parent: [ BasePassiveBorgModule ]
+  parent: [ BorgModuleAccessBase ]
   name: NeoSol Access Module
   description: AA passive module that control the cyborg's access.
   suffix: NS
@@ -398,19 +432,17 @@
     layers:
     - state: generic
     - state: icon-tools
-  - type: ComponentBorgModule
-    components:
-    - type: Access
-      groups:
-      - AllAccessNS
-      tags:
-      - BorgNS
-    - type: AccessReader
-      access: [["Executive"], ["RoboticsNS"]] 
+  - type: Access
+    groups:
+    - AllAccessNS
+    tags:
+    - BorgNS
+  - type: AccessReader
+    access: [["Executive"], ["RoboticsNS"]] 
 
 - type: entity
   id: BorgModuleSecAccessNS
-  parent: [ BasePassiveBorgModule ]
+  parent: [ BorgModuleAccessBase ]
   name: NeoSol Security Access Module
   description: AA passive module that control the cyborg's access.
   suffix: NS
@@ -421,8 +453,6 @@
     layers:
     - state: generic
     - state: icon-tools
-  - type: ComponentBorgModule
-    components:
     - type: Access
       groups:
       - SecurityNS
@@ -435,7 +465,7 @@
 #GSL
 - type: entity
   id: BorgModuleAccessGSL
-  parent: [ BasePassiveBorgModule ]
+  parent: [ BorgModuleAccessBase ]
   name: Gemini Star Logistics Access Module
   description: AA passive module that control the cyborg's access.
   suffix: GSL
@@ -444,23 +474,21 @@
     passiveType: Access
   - type: Sprite
     layers:
-    - state: generic
+    - state: cargo
     - state: icon-tools
-  - type: ComponentBorgModule
-    components:
-    - type: Access
-      groups:
-      - AllAccessNS
-      - AllAccess
-      tags:
-      - BorgNS
-    - type: AccessReader
-      access: [["Quartermaster"], ["SalvageLead"]] 
+  - type: Access
+    groups:
+    - AllAccessNS
+    - AllAccess
+    tags:
+    - BorgNS
+  - type: AccessReader
+    access: [["Quartermaster"], ["SalvageLead"]] 
 
 #Syndicate
 - type: entity
   id: BorgModuleAccessSyndicate
-  parent: [ BasePassiveBorgModule ]
+  parent: [ BorgModuleAccessBase ]
   name: Syndicate Access Module
   description: AA passive module that control the cyborg's access.
   suffix: Syndicate
@@ -469,21 +497,19 @@
     passiveType: Access
   - type: Sprite
     layers:
-    - state: generic
-    - state: icon-tools
-  - type: ComponentBorgModule
-    components:
-    - type: Access
-      tags:
-      - NuclearOperative
-      - SyndicateAgent
-    - type: AccessReader
-      access: [["SyndicateAgent"], ["NuclearOperative"]]
+    - state: syndicate
+    - state: icon-syndicate
+  - type: Access
+    tags:
+    - NuclearOperative
+    - SyndicateAgent
+  - type: AccessReader
+    access: [["SyndicateAgent"], ["NuclearOperative"]]
 
 #XenoBorg
 - type: entity
   id: BorgModuleAccessXenoborg
-  parent: [ BasePassiveBorgModule ]
+  parent: [ BorgModuleAccessBase ]
   name: Xenoborg Access Module
   description: AA passive module that control the cyborg's access.
   suffix: Xenoborg
@@ -492,15 +518,13 @@
     passiveType: Access
   - type: Sprite
     layers:
-    - state: generic
-    - state: icon-tools
-  - type: ComponentBorgModule
-    components:
-    - type: Access
-      tags:
-      - Xenoborg
-    - type: AccessReader
-      access: [["Xenoborg"]]
+    - state: xenoborg_generic
+    - state: icon-xenoborg-basic
+  - type: Access
+    tags:
+    - Xenoborg
+  - type: AccessReader
+    access: [["Xenoborg"]]
 
 #region Armor Modules
 - type: entity
