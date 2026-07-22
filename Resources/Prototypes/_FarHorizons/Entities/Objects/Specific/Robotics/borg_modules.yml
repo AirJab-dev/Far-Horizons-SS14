@@ -496,6 +496,8 @@
   name: Basic Armor Module
   description: A passive module that control the cyborg's armor.
   components:
+  - type: PassiveBorgModule
+    passiveType: Armor
   - type: ComponentBorgModule
     components:
     - type: Damageable
