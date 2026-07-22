@@ -15951,5 +15951,50 @@ Entries:
   id: 145700
   time: '2026-07-20T13:29:19.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1457
+- author: princess_gurchi
+  changes:
+  - message: Added NeoSol name generator for station names
+    type: Add
+  id: 145900
+  time: '2026-07-22T16:44:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1459
+- author: princess_gurchi
+  changes:
+  - message: Fixed faction not being assigned to mind role correctly, causing some
+      UI elements to display NT name during NeoSol round
+    type: Fix
+  id: 145901
+  time: '2026-07-22T16:44:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1459
+- author: princess_gurchi
+  changes:
+  - message: Cargo gift event now changes the sender name based on round faction
+    type: Tweak
+  id: 145902
+  time: '2026-07-22T16:44:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1459
+- author: princess_gurchi
+  changes:
+  - message: Announcements will come from Central Command or High Command depending
+      on the round's faction
+    type: Tweak
+  id: 145903
+  time: '2026-07-22T16:44:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1459
+- author: princess_gurchi
+  changes:
+  - message: Thief's Syndicate Kit is replaced with Splicer Kit, which still has EMAG,
+      access breaker and radio jammer, but doesn't have codeword, TC or pAI.
+    type: Tweak
+  id: 145904
+  time: '2026-07-22T16:44:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1459
+- author: princess_gurchi
+  changes:
+  - message: Jobs may have different supervisors depending on faction
+    type: Tweak
+  id: 145905
+  time: '2026-07-22T16:44:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1459
 Order: -1
 
