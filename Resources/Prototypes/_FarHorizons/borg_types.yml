@@ -27,6 +27,13 @@
   - BorgModuleBaton
   - BorgModuleDominator
 
+  #Far Horizons Start
+  additionalModules:
+  - BorgModuleAccessNT
+  - BorgModuleArmorBasic
+  - BorgModuleSpeedBasic
+  #Far Horizons End
+
   radioChannels:
   - Science
   - Security
