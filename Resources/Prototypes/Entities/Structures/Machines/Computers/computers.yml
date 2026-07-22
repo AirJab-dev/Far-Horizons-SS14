@@ -661,6 +661,9 @@
       whitelist:
         components:
         - IdCard
+      blacklist: #Far Horizons
+        tags: 
+        - BorgModuleAccess
     targetIdSlot:
       name: id-card-console-target-id
       ejectSound: /Audio/Machines/id_swipe.ogg
