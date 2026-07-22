@@ -503,6 +503,9 @@
     - type: Damageable
       damageContainer: Silicon
       damageModifierSet: BorgArmorBase
+    uninstallComponents: 
+    - type: Damageable
+      damageContainer: Silicon
 
 - type: entity
   id: BorgModuleArmorSecBorg
@@ -520,6 +523,9 @@
     - type: BodySpeedModifier
       walkModifier: 0.95
       sprintModifier: 0.95
+    uninstallComponents: 
+    - type: Damageable
+      damageContainer: Silicon
 
 - type: entity
   id: BorgModuleArmorReflective
@@ -541,6 +547,9 @@
     - type: BodySpeedModifier
       walkModifier: 0.85
       sprintModifier: 0.85
+    uninstallComponents: 
+    - type: Damageable
+      damageContainer: Silicon
 
 - type: entity
   id: BorgModuleArmorSyndicate
@@ -558,6 +567,9 @@
     - type: BodySpeedModifier
       walkModifier: 0.8
       sprintModifier: 0.8
+    uninstallComponents: 
+    - type: Damageable
+      damageContainer: Silicon
 
 #region Speed Modules
 
