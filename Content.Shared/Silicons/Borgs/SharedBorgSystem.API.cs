@@ -237,6 +237,22 @@ public abstract partial class SharedBorgSystem
             }
         }
 
+        //Far Horizons Start
+        if (TryComp<PassiveBorgModuleComponent>(module, out var passiveModuleComp))
+        {
+            foreach (var containedModuleUid in chassis.Comp.ModuleContainer.ContainedEntities)
+            {
+                if (!TryComp<PassiveBorgModuleComponent>(containedModuleUid, out var containedPassiveModuleComp))
+                    continue;
+                if(passiveModuleComp.PassiveType == containedPassiveModuleComp.PassiveType)
+                {
+                    _popup.PopupClient(Loc.GetString("borg-module-duplicate"), chassis.Owner, user);
+                    return false;
+                }
+            }
+        }
+        //FaHorizons End
+
         var attemptEv = new BorgModuleInsertAttemptEvent(module.Owner);
         RaiseLocalEvent(chassis, ref attemptEv);
 

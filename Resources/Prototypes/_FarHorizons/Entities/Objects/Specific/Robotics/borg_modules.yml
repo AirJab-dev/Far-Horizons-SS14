@@ -346,7 +346,6 @@
       enum.DoorElectronicsConfigurationUiKey.Key:
         type: DoorElectronicsBoundUserInterface
   - type: Access
-    enabled: false
   - type: AccessReader
   - type: IdCard
     canRenameObject: false
@@ -552,7 +551,7 @@
   description: A passive module that control the cyborg's armor.
   components:
   - type: PassiveBorgModule
-    passiveType: Access
+    passiveType: Armor
   - type: Sprite
     layers:
     - state: generic
@@ -573,7 +572,7 @@
   description: A passive module that control the cyborg's armor.
   components:
   - type: PassiveBorgModule
-    passiveType: Access
+    passiveType: Armor
   - type: Sprite
     layers:
     - state: generic
@@ -598,7 +597,7 @@
   description: A passive module that control the cyborg's armor.
   components:
   - type: PassiveBorgModule
-    passiveType: Access
+    passiveType: Armor
   - type: Sprite
     layers:
     - state: generic

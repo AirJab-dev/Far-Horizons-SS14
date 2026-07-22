@@ -38,18 +38,6 @@ public sealed partial class AccessComponent : Component
     [DataField(readOnly: true)]
     [AutoNetworkedField]
     public HashSet<ProtoId<AccessGroupPrototype>> Groups = new();
-
-    //Far Horizons Start
-
-    /// <summary>
-    /// If specified, then this access reader will instead pull access requirements from entities contained in the
-    /// given container.
-    /// </summary>
-    
-    [DataField]
-    public string? ContainerAccessProvider;
-
-    //Far Horizons End
 }
 
 /// <summary>
