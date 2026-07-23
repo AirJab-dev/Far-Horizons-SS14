@@ -305,7 +305,7 @@
   parent: [ BaseBorgModule ]
   name: Pasive Borg Module
   abstract: true
-  description: AA passive module that control the cyborg's access.
+  description: A passive module that control the cyborg's access.
   components:
     - type: Sprite
       layers:
@@ -372,7 +372,7 @@
 - type: entity
   id: BorgModuleSecAccessNT
   parent: [ BorgModuleAccessBase ]
-  name: Nanotrasen Security Access Module
+  name: NanoTrasen Security Access Module
   description: A passive module that control the cyborg's access.
   suffix: NT
   components:
@@ -389,7 +389,7 @@
   id: BorgModuleAccessCC
   parent: [ BorgModuleAccessBase ]
   name: Central Command Access Module
-  description: AA passive module that control the cyborg's access.
+  description: A passive module that control the cyborg's access.
   suffix: NT
   components:
   - type: Access
@@ -405,7 +405,7 @@
   id: BorgModuleAccessNS
   parent: [ BorgModuleAccessBase ]
   name: NeoSol Access Module
-  description: AA passive module that control the cyborg's access.
+  description: A passive module that control the cyborg's access.
   suffix: NS
   components:
   - type: Access
@@ -420,7 +420,7 @@
   id: BorgModuleSecAccessNS
   parent: [ BorgModuleAccessBase ]
   name: NeoSol Security Access Module
-  description: AA passive module that control the cyborg's access.
+  description: A passive module that control the cyborg's access.
   suffix: NS
   components:
     - type: Access
@@ -437,7 +437,7 @@
   id: BorgModuleAccessGSL
   parent: [ BorgModuleAccessBase ]
   name: Gemini Star Logistics Access Module
-  description: AA passive module that control the cyborg's access.
+  description: A passive module that control the cyborg's access.
   suffix: GSL
   components:
   - type: Sprite
@@ -458,7 +458,7 @@
   id: BorgModuleAccessSyndicate
   parent: [ BorgModuleAccessBase ]
   name: Syndicate Access Module
-  description: AA passive module that control the cyborg's access.
+  description: A passive module that control the cyborg's access.
   suffix: Syndicate
   components:
   - type: Sprite
@@ -477,7 +477,7 @@
   id: BorgModuleAccessXenoborg
   parent: [ BorgModuleAccessBase ]
   name: Xenoborg Access Module
-  description: AA passive module that control the cyborg's access.
+  description: A passive module that control the cyborg's access.
   suffix: Xenoborg
   components:
   - type: Sprite
