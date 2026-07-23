@@ -12,7 +12,7 @@
         - type: StationNameSetup
           mapNameTemplate: '{0} Core {1}'
           nameGenerator:
-            !type:NanotrasenNameGenerator
+            !type:NeosolNameGenerator
             prefixCreator: '14'
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/_FarHorizons/Shuttles/FH_Emergency_Rod.yml

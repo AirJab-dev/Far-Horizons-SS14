@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.1
   forkId: ""
   forkVersion: ""
-  time: 07/23/2026 21:52:24
-  entityCount: 23354
+  time: 07/23/2026 22:13:52
+  entityCount: 23355
 maps:
 - 1
 grids:
@@ -69733,6 +69733,14 @@ entities:
     - type: Transform
       pos: 26.64973,-41.492275
       parent: 2
+- proto: EncryptionKeyTrinary
+  entities:
+  - uid: 19138
+    components:
+    - type: Transform
+      parent: 19137
+    - type: Physics
+      canCollide: False
 - proto: EngineeringHolotable
   entities:
   - uid: 23297
@@ -71180,7 +71188,7 @@ entities:
       pos: -2.5,26.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -4054.479
+      secondsUntilStateChange: -4323.923
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -71455,7 +71463,7 @@ entities:
       pos: -4.5,-9.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -3857.62
+      secondsUntilStateChange: -4127.064
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -72570,7 +72578,7 @@ entities:
       pos: 10.5,38.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -20799.41
+      secondsUntilStateChange: -21068.854
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -75151,7 +75159,7 @@ entities:
       pos: -26.5,-14.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -71618.01
+      secondsUntilStateChange: -71887.45
       state: Closing
     - type: Firelock
       emergencyCloseCooldown: 7916.7587519
@@ -75821,7 +75829,7 @@ entities:
       pos: -2.5,26.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -4055.8457
+      secondsUntilStateChange: -4325.2896
       state: Closing
   - uid: 11076
     components:
@@ -76749,7 +76757,7 @@ entities:
       pos: 11.5,36.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -77876.234
+      secondsUntilStateChange: -78145.68
       state: Closing
   - uid: 11226
     components:
@@ -132931,13 +132939,6 @@ entities:
     - type: Transform
       pos: 68.5,-29.5
       parent: 2
-- proto: TelecomServerFilledCargo
-  entities:
-  - uid: 19134
-    components:
-    - type: Transform
-      pos: 24.5,-43.5
-      parent: 2
 - proto: TelecomServerFilledCommand
   entities:
   - uid: 19135
@@ -132945,49 +132946,73 @@ entities:
     - type: Transform
       pos: 58.5,-32.5
       parent: 2
-  - uid: 19136
-    components:
-    - type: Transform
-      pos: 24.5,-44.5
-      parent: 2
-- proto: TelecomServerFilledCommon
+- proto: TelecomServerFilledLaw
   entities:
-  - uid: 19137
-    components:
-    - type: Transform
-      pos: 25.5,-41.5
-      parent: 2
-- proto: TelecomServerFilledEngineering
-  entities:
-  - uid: 19138
-    components:
-    - type: Transform
-      pos: 25.5,-46.5
-      parent: 2
-- proto: TelecomServerFilledMedical
-  entities:
-  - uid: 19139
-    components:
-    - type: Transform
-      pos: 24.5,-46.5
-      parent: 2
-- proto: TelecomServerFilledScience
-  entities:
-  - uid: 19140
+  - uid: 19257
     components:
     - type: Transform
       pos: 25.5,-43.5
       parent: 2
-- proto: TelecomServerFilledSecurity
+- proto: TelecomServerFilledSyndiCommand
+  entities:
+  - uid: 19137
+    components:
+    - type: Transform
+      pos: 24.5,-44.5
+      parent: 2
+    - type: ContainerContainer
+      containers:
+        key_slots: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 19138
+        machine_board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+        machine_parts: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+- proto: TelecomServerFilledSyndiCommon
+  entities:
+  - uid: 19139
+    components:
+    - type: Transform
+      pos: 25.5,-41.5
+      parent: 2
+- proto: TelecomServerFilledSyndiEngineering
+  entities:
+  - uid: 19134
+    components:
+    - type: Transform
+      pos: 25.5,-46.5
+      parent: 2
+- proto: TelecomServerFilledSyndiMedical
   entities:
   - uid: 19141
     components:
     - type: Transform
+      pos: 24.5,-46.5
+      parent: 2
+- proto: TelecomServerFilledSyndiScience
+  entities:
+  - uid: 19136
+    components:
+    - type: Transform
+      pos: 24.5,-43.5
+      parent: 2
+- proto: TelecomServerFilledSyndiSecurity
+  entities:
+  - uid: 19140
+    components:
+    - type: Transform
       pos: 25.5,-44.5
       parent: 2
-- proto: TelecomServerFilledService
+- proto: TelecomServerFilledSyndiService
   entities:
-  - uid: 19142
+  - uid: 18953
     components:
     - type: Transform
       pos: 24.5,-41.5
@@ -152688,40 +152713,6 @@ entities:
     - type: Transform
       pos: -8.829058,31.720768
       parent: 2
-- proto: WeaponEnergyTurretAI
-  entities:
-  - uid: 22600
-    components:
-    - type: Transform
-      pos: 16.5,-74.5
-      parent: 2
-    - type: DeviceNetwork
-      deviceLists:
-      - 23130
-  - uid: 22631
-    components:
-    - type: Transform
-      pos: 16.5,-67.5
-      parent: 2
-    - type: DeviceNetwork
-      deviceLists:
-      - 23130
-  - uid: 22696
-    components:
-    - type: Transform
-      pos: 22.5,-67.5
-      parent: 2
-    - type: DeviceNetwork
-      deviceLists:
-      - 23130
-  - uid: 22697
-    components:
-    - type: Transform
-      pos: 22.5,-74.5
-      parent: 2
-    - type: DeviceNetwork
-      deviceLists:
-      - 23130
 - proto: WeaponEnergyTurretAIControlPanel
   entities:
   - uid: 23130
@@ -152732,10 +152723,44 @@ entities:
       parent: 2
     - type: DeviceList
       devices:
-      - 22696
-      - 22631
-      - 22600
-      - 22697
+      - 19142
+      - 19235
+      - 19237
+      - 19256
+- proto: WeaponEnergyTurretNSAI
+  entities:
+  - uid: 19142
+    components:
+    - type: Transform
+      pos: 16.5,-74.5
+      parent: 2
+    - type: DeviceNetwork
+      deviceLists:
+      - 23130
+  - uid: 19235
+    components:
+    - type: Transform
+      pos: 16.5,-67.5
+      parent: 2
+    - type: DeviceNetwork
+      deviceLists:
+      - 23130
+  - uid: 19237
+    components:
+    - type: Transform
+      pos: 22.5,-67.5
+      parent: 2
+    - type: DeviceNetwork
+      deviceLists:
+      - 23130
+  - uid: 19256
+    components:
+    - type: Transform
+      pos: 22.5,-74.5
+      parent: 2
+    - type: DeviceNetwork
+      deviceLists:
+      - 23130
 - proto: WeaponSubMachineGunWt550
   entities:
   - uid: 22518
@@ -153118,7 +153143,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -29151.361
+      secondsUntilStateChange: -29420.805
       state: Opening
     - type: Airlock
       autoClose: False
@@ -153492,7 +153517,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -35953.66
+      secondsUntilStateChange: -36223.105
       state: Opening
     - type: Airlock
       autoClose: False
