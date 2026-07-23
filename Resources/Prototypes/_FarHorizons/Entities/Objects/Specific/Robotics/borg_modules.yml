@@ -346,6 +346,7 @@
       enum.DoorElectronicsConfigurationUiKey.Key:
         type: DoorElectronicsBoundUserInterface
   - type: Access
+    enabled: false
   - type: AccessReader
   - type: IdCard
     canRenameObject: false
