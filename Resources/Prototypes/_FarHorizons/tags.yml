@@ -154,6 +154,12 @@
   id: NT
 
 - type: Tag
+  id: OathBreaker
+
+- type: Tag
+  id: OathBreakerM500
+
+- type: Tag
   id: OilPack
 
 - type: Tag
