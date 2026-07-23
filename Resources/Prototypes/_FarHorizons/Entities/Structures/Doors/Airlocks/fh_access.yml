@@ -1,22 +1,48 @@
 #region CFA
 
 - type: entity
-  parent: FHAirlockCommand
+  parent: FHAirlockLiaison
   id: FHAirlockMagistrateLocked
-  suffix: Concord Liaison, Locked
+  suffix: Concord Liaison, NT, Locked
   components:
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsMagistrate ]
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/liaison.rsi
 
 - type: entity
-  parent: FHAirlockCommandGlass
+  parent: FHAirlockLiaison
+  id: FHAirlockNSMagistrateLocked
+  suffix: Concord Liaison, NS, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMagistrate ]
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/liaison_syndie.rsi
+
+- type: entity
+  parent: FHAirlockLiaisonGlass
   id: FHAirlockMagistrateGlassLocked
-  suffix: Concord Liaison, Locked
+  suffix: Concord Liaison, NT, Glass, Locked
   components:
     - type: ContainerFill
       containers:
         board: [ DoorElectronicsMagistrate ]
+    - type: Sprite
+      sprite: _FarHorizons/Structures/Doors/Airlocks/Glass/liaison.rsi
+
+- type: entity
+  parent: FHAirlockLiaisonGlass
+  id: FHAirlockNSMagistrateGlassLocked
+  suffix: Concord Liaison, NS, Glass, Locked
+  components:
+    - type: ContainerFill
+      containers:
+        board: [ DoorElectronicsMagistrate ]
+    - type: Sprite
+      sprite: _FarHorizons/Structures/Doors/Airlocks/Glass/liaison_syndie.rsi
 
 - type: entity
   parent: FHAirlockServiceLocked
@@ -44,38 +70,78 @@
 
 #region Standard Airlocks
 - type: entity
-  parent: FHAirlockCommand
+  parent: FHAirlockQuartermaster
   id: FHAirlockQuartermasterLocked
-  suffix: Quartermaster, Locked
+  suffix: Quartermaster, NT, Locked
   components:
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsQuartermaster ]
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/quartermaster.rsi
+
+- type: entity
+  parent: FHAirlockQuartermaster
+  id: FHAirlockNSQuartermasterLocked
+  suffix: Quartermaster, NS, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsQuartermaster ]
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/quartermaster_syndie.rsi
 
 - type: entity
   parent: FHAirlockQuartermasterLocked
   id: FHAirlockMaintQuartermasterLocked
-  suffix: Quartermaster, Locked, Maint
+  suffix: Quartermaster, NT, Locked, Maint
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+  parent: FHAirlockNSQuartermasterLocked
+  id: FHAirlockNSMaintQuartermasterLocked
+  suffix: Quartermaster, NS, Locked, Maint
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/maint_syndie.rsi
+
+- type: entity
   parent: FHAirlockCargo
   id: FHAirlockCargoLocked
-  suffix: Cargo, Locked
+  suffix: Cargo, NT, Locked
   components:
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsCargo ]
 
 - type: entity
+  parent: FHAirlockCargo
+  id: FHAirlockNSCargoLocked
+  suffix: Cargo, NS, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCargo ]
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/cargo_syndie.rsi
+
+- type: entity
   parent: FHAirlockCargoLocked
   id: FHAirlockMaintCargoLocked
-  suffix: Cargo, Locked, Maint
+  suffix: Cargo, NT, Locked, Maint
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/maint.rsi
+
+- type: entity
+  parent: FHAirlockNSCargoLocked
+  id: FHAirlockNSMaintCargoLocked
+  suffix: Cargo, NS, Locked, Maint
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/maint_syndie.rsi
 
 - type: entity
   parent: FHAirlockExternal
@@ -91,11 +157,33 @@
 - type: entity
   parent: FHAirlockSalvageLead
   id: FHAirlockSalvageLeadLocked
-  suffix: Salvage Lead, Locked
+  suffix: Salvage Lead, NT, Locked
   components:
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsSalvageLead ]
+
+- type: entity
+  parent: FHAirlockSalvageLead
+  id: FHAirlockNSSalvageLeadLocked
+  suffix: Salvage Lead, NS, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSalvageLead ]
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/salvage_syndie.rsi
+
+- type: entity
+  parent: FHAirlockNSSalvageLeadLocked
+  id: FHAirlockNSMaintSalvageLeadLocked
+  suffix: Salvage Lead, NS, Locked, Maint
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSalvageLead ]
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/maint_syndie.rsi
 
 - type: entity
   parent: FHAirlockSalvage
@@ -107,12 +195,31 @@
       board: [ DoorElectronicsSalvage ]
 
 - type: entity
+  parent: FHAirlockSalvage
+  id: FHAirlockNSSalvageLocked
+  suffix: Salvage, NS, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSalvage ]
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/salvage_syndie.rsi
+
+- type: entity
   parent: FHAirlockSalvageLocked
   id: FHAirlockMaintSalvageLocked
   suffix: Salvage, Locked, Maint
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/maint.rsi
+
+- type: entity
+  parent: FHAirlockNSSalvageLocked
+  id: FHAirlockNSMaintSalvageLocked
+  suffix: Salvage, NS, Locked, Maint
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Doors/Airlocks/Standard/maint_syndie.rsi
 
 - type: entity
   parent: FHAirlockMining
@@ -127,11 +234,24 @@
 - type: entity
   parent: FHAirlockCommandGlass
   id: FHAirlockQuartermasterGlassLocked
-  suffix: Quartermaster, Locked
+  suffix: Quartermaster, Glass, NT, Locked
   components:
     - type: ContainerFill
       containers:
         board: [ DoorElectronicsQuartermaster ]
+    - type: Sprite
+      sprite: _FarHorizons/Structures/Doors/Airlocks/Glass/quartermaster.rsi
+
+- type: entity
+  parent: FHAirlockCommandGlass
+  id: FHAirlockNSQuartermasterGlassLocked
+  suffix: Quartermaster,Glass, NS, Locked
+  components:
+    - type: ContainerFill
+      containers:
+        board: [ DoorElectronicsQuartermaster ]
+    - type: Sprite
+      sprite: _FarHorizons/Structures/Doors/Airlocks/Glass/quartermaster_syndie.rsi
 
 - type: entity
   parent: FHAirlockExternalGlass
@@ -154,13 +274,35 @@
         board: [ DoorElectronicsCargo ]
 
 - type: entity
+  parent: FHAirlockCargoGlass
+  id: FHAirlockNSCargoGlassLocked
+  suffix: Cargo, Glass, NS, Locked
+  components:
+    - type: ContainerFill
+      containers:
+        board: [ DoorElectronicsCargo ]
+    - type: Sprite
+      sprite: _FarHorizons/Structures/Doors/Airlocks/Glass/cargo_syndie.rsi
+
+- type: entity
   parent: FHAirlockSalvageLeadGlass
   id: FHAirlockSalvageLeadGlassLocked
-  suffix: Salvage Lead, Locked
+  suffix: Salvage Lead, Glass, NT, Locked
   components:
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsSalvageLead ]
+
+- type: entity
+  parent: FHAirlockSalvageLeadGlass
+  id: FHAirlockNSSalvageLeadGlassLocked
+  suffix: Salvage Lead, Glass, NS, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSalvageLead ]
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Doors/Airlocks/Glass/salvage_syndie.rsi
 
 - type: entity
   parent: FHAirlockSalvageGlass
@@ -170,6 +312,17 @@
     - type: ContainerFill
       containers:
         board: [ DoorElectronicsSalvage ]
+
+- type: entity
+  parent: FHAirlockCargoGlass
+  id: FHAirlockNSSalvageGlassLocked
+  suffix: Salvage, Glass, NS, Locked
+  components:
+    - type: ContainerFill
+      containers:
+        board: [ DoorElectronicsCargo ]
+    - type: Sprite
+      sprite: _FarHorizons/Structures/Doors/Airlocks/Glass/salvage_syndie.rsi
 
 - type: entity
   parent: FHAirlockMiningGlass

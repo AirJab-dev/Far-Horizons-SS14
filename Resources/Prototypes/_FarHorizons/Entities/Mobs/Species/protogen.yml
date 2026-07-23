@@ -16,12 +16,13 @@
   - type: Repairable # So welder is just a special little snowflake in the code. I tried making healing with welder work through ConditionalHealing component, but it would require too many changes in too many places. So we will keep on the trend and have brute healing defined here. /shrug
     doAfterDelay: 1 # Faster than normal so using welding to heal isn't absolute ass for protogens
     allowSelfRepair: true
-    fuelCost: 10
+    fuelCost: 5
     damage:
       types: # 5 for each type with reduction applied
         Blunt: -10
         Piercing: -10
         Slash: -10
+    selfRepairPenalty: 2
   - type: Hunger
   - type: Icon
     sprite: _FarHorizons/Mobs/Species/Protogen/parts.rsi
@@ -56,8 +57,8 @@
       enum.InstrumentUiKey.Key:
         type: InstrumentBoundUserInterface
         requireInputValidation: false
-      enum.VampireTraitsUiKey.Key:
-        type: VampireTraitsBoundUserInterface
+      enum.BackgroundTraitsUiKey.Key:
+        type: BackgroundTraitsBoundUserInterface
   - type: GlitchOnIonStorm
     duration: 25
     ramp: 3
@@ -498,8 +499,8 @@
       enum.InstrumentUiKey.Key:
         type: InstrumentBoundUserInterface
         requireInputValidation: false
-      enum.VampireTraitsUiKey.Key:
-        type: VampireTraitsBoundUserInterface
+      enum.BackgroundTraitsUiKey.Key:
+        type: BackgroundTraitsBoundUserInterface
   - type: Icon
     sprite: _FarHorizons/Mobs/Species/Proto-Slime/parts.rsi
     state: full
@@ -662,12 +663,13 @@
     - type: Repairable # So welder is just a special little snowflake in the code. I tried making healing with welder work through ConditionalHealing component, but it would require too many changes in too many places. So we will keep on the trend and have brute healing defined here. /shrug
       doAfterDelay: 1 # Faster than normal so using welding to heal isn't absolute ass for protogens
       allowSelfRepair: true
-      fuelCost: 10
+      fuelCost: 5
       damage:
         types: # 5 for each type with reduction applied
           Blunt: -10
           Piercing: -10
           Slash: -10
+      selfRepairPenalty: 2
     - type: Shadekin
       thresholds:
         0.8: Low
@@ -709,8 +711,8 @@
         enum.InstrumentUiKey.Key:
           type: InstrumentBoundUserInterface
           requireInputValidation: false
-        enum.VampireTraitsUiKey.Key:
-          type: VampireTraitsBoundUserInterface
+        enum.BackgroundTraitsUiKey.Key:
+          type: BackgroundTraitsBoundUserInterface
     - type: HumanoidEMP # HumanoidEMP is needed to receive EMP effects, it may carry its own innate effects, but doesn't have to
       effectCooldown: 2
       baseDamage:
@@ -1988,6 +1990,11 @@
             32:
               sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
               state: jumpsuit
+        outerClothing:
+          sizeMaps:
+            32:
+              sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+              state: outerclothing
         shoes:
           sizeMaps:
             32:
@@ -2008,12 +2015,22 @@
             32:
               sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
               state: back
+        gloves:
+          sizeMaps:
+            32:
+              sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+              state: gloves
       femaleDisplacements:
         jumpsuit:
           sizeMaps:
             32:
               sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
               state: jumpsuit
+        outerClothing:
+          sizeMaps:
+            32:
+              sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+              state: outerclothing
         shoes:
           sizeMaps:
             32:
@@ -2034,6 +2051,11 @@
             32:
               sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
               state: back
+        gloves:
+          sizeMaps:
+            32:
+              sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+              state: gloves
     - type: Butcherable
       butcheringType: Spike
       spawned:

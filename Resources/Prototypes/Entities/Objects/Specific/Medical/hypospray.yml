@@ -81,7 +81,7 @@
 - type: entity
   parent: BaseHypospray
   id: BorgHypo
-  name: borghypo
+  name: Borg Injector #FH
   description: A sterile injector for rapid administration of drugs to patients. This integrated model is specialized for use by medical borgs.
   components:
   - type: Sprite

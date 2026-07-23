@@ -346,6 +346,7 @@
         - id: ClothingHandsGlovesColorYellowBudget
         - id: DoubleEmergencyOxygenTankFilled
         - id: DoubleEmergencyNitrogenTankFilled
+        - id: EmergencyCoolingUnit # Starlight
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -394,6 +395,7 @@
     - id: ClothingHandsGlovesCombat
     - id: DoubleEmergencyOxygenTankFilled
     - id: DoubleEmergencyNitrogenTankFilled
+    - id: EmergencyCoolingUnit # Starlight
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle

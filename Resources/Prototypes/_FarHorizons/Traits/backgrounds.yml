@@ -46,11 +46,67 @@
         metabolizer: LesserVampire
         drinkDelay: 2
         drinkAmount: 4 # Tiny little sips, we wouldn't want to hurt anyone, would we?
+        hungerDrain: 4
+        thirstDrain: 15
+      - type: BackgroundTraits
         traitsAction: ActionOpenVampireTraits
-        traitsUiKey: enum.VampireTraitsUiKey.Key
+        traitsUiKey: enum.BackgroundTraitsUiKey.Key
         allowTraitSelection: true
+        windowName: lesser-vampire-ui-menu-title
+        traits: 
+          - Scavenger
+          - BloodDependencyI
+          - InsatiableHunger
+          - Gourmand
+          - Defanged
+          - UvSensitivity
+          - BloodDependencyII
+          - ExtendableFangs
+          - Charm
+          - AbsorbLanguage
+          - Transfusion
+          - SupernaturalStrength
+          - HealingBlood
+          - Conversion
   requirements:
     - !type:SpeciesRequirement
       species:
         - IPC
       inverted: true
+
+- type: trait
+  id: CustomFrame
+  name: trait-background-custom-frame-name
+  description: trait-background-custom-frame-description
+  category: BackgroundTraits
+  cost: 2
+  effects:
+    - !type:AddCompsEffect
+      components:
+      - type: BackgroundTraits
+        traitsAction: ActionOpenCustomFrameTraits
+        traitsUiKey: enum.BackgroundTraitsUiKey.Key
+        allowTraitSelection: true
+        traits: 
+          #Negative
+          - OvervoltedI
+          - CheapOilFilter
+          - HeavierFrame
+          - IntegratedBattery
+          - CompromisedIntegrity
+          - RadiationVulnerability
+          - OutdatedWiring
+          - MicroreactorIncompatibility
+          #Positive
+          - UndervoltedI
+          - LanguageDatabase
+          - UndervoltedII
+          - RepairNanites
+          - ModuleCompatibility
+          - Overclocking
+          - BetterInsulation
+          - BloodPowered
+  requirements:
+    - !type:SpeciesRequirement
+      species:
+        - IPC
