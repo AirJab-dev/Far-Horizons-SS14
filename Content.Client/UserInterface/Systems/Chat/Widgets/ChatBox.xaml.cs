@@ -47,6 +47,7 @@ public partial class ChatBox : UIWidget
         _controller.MessageAdded += OnMessageAdded;
         _controller.HighlightsUpdated += OnHighlightsUpdated;
         _controller.RegisterChat(this);
+        InitializeFHOptions(); // Far Horizons
     }
 
     private void OnTextEntered(LineEditEventArgs args)
