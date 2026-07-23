@@ -297,7 +297,7 @@
   parent: ERTEngineerGearEVA
   id: ERTEngineerGearArmed
   equipment:
-    suitstorage: WeaponShotgunEnforcer
+    suitstorage: WeaponShotgunSentinel
   storage:
     back:
     - RCD

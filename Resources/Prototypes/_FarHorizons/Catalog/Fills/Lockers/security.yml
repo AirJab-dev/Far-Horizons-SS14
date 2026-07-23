@@ -676,7 +676,7 @@
     contents:
     - id: WeaponShotgunKammerer5001
       amount: 3
-    - id: WeaponShotgunEnforcer
+    - id: WeaponShotgunSentinel
       amount: 1
     - id: WeaponPistolN1984
       amount: 4
