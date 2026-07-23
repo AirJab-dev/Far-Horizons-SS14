@@ -42,7 +42,7 @@
       state: stamp-iaa
 
 - type: entity
-  Name: Blueshield Officer's Rubber Stamp #Far Horizons
+  name: Blueshield Officer's Rubber Stamp #Far Horizons
   parent: [ RubberStampBase, BaseRepresentativesContraband ] # FH
   id: RubberStampBSO
   suffix: DO NOT MAP
@@ -57,7 +57,7 @@
 
 # Brigmedic stamp
 - type: entity
-  Name: Brigmedic's Rubber Stamp #Far Horizons
+  name: Brigmedic's Rubber Stamp #Far Horizons
   parent: [RubberStampBase, BaseSecurityContraband] #FH change
   id: RubberStampBrigmedic
   suffix: DO NOT MAP
@@ -72,7 +72,7 @@
 
 # CC Division Stamps
 - type: entity
-  Name: Central Administration Division Rubber Stamp #Far Horizons
+  name: Central Administration Division Rubber Stamp #Far Horizons
   parent: RubberStampBase
   id: RubberStampCAD
   categories: [ DoNotMap ]
@@ -85,7 +85,7 @@
     state: stamp-cap
 
 - type: entity
-  Name: Central Cargo Division Rubber Stamp #Far Horizons
+  name: Central Cargo Division Rubber Stamp #Far Horizons
   parent: RubberStampBase
   id: RubberStampCCD
   categories: [ DoNotMap ]
@@ -98,7 +98,7 @@
     state: stamp-detective
 
 - type: entity
-  Name: Central Engineering Division Rubber Stamp #Far Horizons
+  name: Central Engineering Division Rubber Stamp #Far Horizons
   parent: RubberStampBase
   id: RubberStampCED
   categories: [ DoNotMap ]
@@ -111,7 +111,7 @@
     state: stamp-ce
 
 - type: entity
-  Name: Central Intelligence Division Rubber Stamp #Far Horizons
+  name: Central Intelligence Division Rubber Stamp #Far Horizons
   parent: RubberStampBase
   id: RubberStampCID
   categories: [ DoNotMap ]
@@ -124,7 +124,7 @@
     state: stamp-rd
 
 - type: entity
-  Name: Central Medical Division Rubber Stamp #Far Horizons
+  name: Central Medical Division Rubber Stamp #Far Horizons
   parent: RubberStampBase
   id: RubberStampCMD
   categories: [ DoNotMap ]
@@ -137,7 +137,7 @@
     state: stamp-cmo
 
 - type: entity
-  Name: Central Research Division Rubber Stamp #Far Horizons
+  name: Central Research Division Rubber Stamp #Far Horizons
   parent: RubberStampBase
   id: RubberStampCRD
   categories: [ DoNotMap ]
@@ -150,7 +150,7 @@
     state: stamp-wizard
 
 - type: entity
-  Name: Central Domestic Division Rubber Stamp #Far Horizons
+  name: Central Domestic Division Rubber Stamp #Far Horizons
   parent: RubberStampBase
   id: RubberStampCDD
   categories: [ DoNotMap ]
@@ -163,7 +163,7 @@
     state: stamp-centcom
 
 - type: entity
-  Name: Central Special Operations Division Rubber Stamp #Far Horizons
+  name: Central Special Operations Division Rubber Stamp #Far Horizons
   parent: RubberStampBase
   id: RubberStampCSOD
   suffix: DO NOT MAP
@@ -177,7 +177,7 @@
     state: stamp-magistrate
 
 - type: entity
-  Name: Central Security Division Rubber Stamp #Far Horizons
+  name: Central Security Division Rubber Stamp #Far Horizons
   parent: RubberStampBase
   id: RubberStampCSD
   categories: [ DoNotMap ]
@@ -190,7 +190,7 @@
     state: stamp-hos
 
 - type: entity
-  Name: CC Department Stamps Box #Far Horizons
+  name: CC Department Stamps Box #Far Horizons
   parent: BoxCardboard
   id: BoxStampsCCDepartments
   components:
@@ -335,7 +335,7 @@
     state: stamp-standby
 
 - type: entity
-  Name: CC Administrative Stamps Box #Far Horizons
+  name: CC Administrative Stamps Box #Far Horizons
   parent: BoxCardboard
   id: BoxStampsCCAdministrative
   components:

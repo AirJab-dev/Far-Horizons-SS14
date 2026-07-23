@@ -21,8 +21,8 @@
 - type: vendingMachineInventory
   id: EngiDrobeInventoryNeoSol
   startingInventory:
-    ClothingBackpackDuffelNeoSolEngineering: 3
-    ClothingBackpackSatchelNeoSolEngineering: 3
+    ClothingBackpackDuffelNeosolEngineering: 3
+    ClothingBackpackSatchelNeosolEngineering: 3
     ClothingBackpackNeosolEngineering: 3
     ClothingUniformJumpsuitEngineeringSyndi: 3
     ClothingUniformJumpskirtEngineeringSyndi: 3
