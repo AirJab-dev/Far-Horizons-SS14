@@ -401,15 +401,15 @@
   description: uplink-ifa30-arms-desc
   icon:
     {
-      sprite: /Textures/_Starlight/Objects/Weapons/Melee/cybermantisblade.rsi,
-      state: cybermantisblade,
+      sprite: /Textures/_FarHorizons/Objects/Weapons/Guns/SMGs/ifa30.rsi,
+      state: icon,
     }
   productEntity: BriefcaseWeaponIFA30LeftFilled
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 18
+    Telecrystal: 14
   cost:
-    Telecrystal: 25
+    Telecrystal: 20
   categories:
     - UplinkCybernetics
 
@@ -419,14 +419,14 @@
   description: uplink-ifa30-arms-desc
   icon:
     {
-      sprite: /Textures/_Starlight/Objects/Weapons/Melee/cybermantisblade.rsi,
-      state: cybermantisblade,
+      sprite: /Textures/_FarHorizons/Objects/Weapons/Guns/SMGs/ifa30.rsi,
+      state: icon,
     }
   productEntity: BriefcaseWeaponIFA30RightFilled
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 18
+    Telecrystal: 14
   cost:
-    Telecrystal: 25
+    Telecrystal: 20
   categories:
     - UplinkCybernetics

@@ -336,11 +336,12 @@
 #region IFA-30
 - type: entity
   name: IFA-30 Submachine Gun
+  description: A modern IFA-30 SMG for mobile operations attached to your arm, Fires 9mm Magazines.
   parent: [BaseWeaponSubMachineGun, BaseSyndicateContraband]
   id: WeaponSubMachineGunCyberIFA30
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/SMGs/ifa30.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -358,10 +359,10 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
   - type: ChamberMagazineAmmoProvider
-    autoEject: true
+    autoEject: false
   - type: MagazineVisuals
     magState: mag
-    steps: 6
+    steps: 5
     zeroVisible: true
   - type: Appearance
   - type: Tag

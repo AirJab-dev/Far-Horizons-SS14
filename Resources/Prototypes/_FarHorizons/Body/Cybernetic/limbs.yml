@@ -1183,7 +1183,7 @@
       items:
         - WeaponSubMachineGunCyberIFA30
     - type: LimbItemDeployer
-      action: ActionToggleCyberHandLeft
+      action: ActionToggleCyberIFA30Left
       sound:
         path: /Audio/Effects/metal_scrape1.ogg
       handWhitelist:
@@ -1208,7 +1208,7 @@
       items:
         - WeaponSubMachineGunCyberIFA30
     - type: LimbItemDeployer
-      action: ActionToggleCyberHandRight
+      action: ActionToggleCyberIFA30Right
       sound:
         path: /Audio/Effects/metal_scrape1.ogg
       handWhitelist:
