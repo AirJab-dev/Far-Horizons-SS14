@@ -87,7 +87,7 @@ public sealed class GameMapManager : IGameMapManager
             }
         }, true);
 
-        var maps = AllVotableMaps().ToArray();
+        var maps = AllMaps().ToArray();
         _random.Shuffle(maps);
         foreach (var map in maps)
         {
@@ -99,7 +99,6 @@ public sealed class GameMapManager : IGameMapManager
 
     public IEnumerable<GameMapPrototype> CurrentlyEligibleMaps()
     {
-        var allVotable = AllVotableMaps();
         var maps = AllVotableMaps().Where(IsMapEligible).ToArray();
         return maps.Length == 0 ? AllMaps().Where(x => x.Fallback) : maps;
     }

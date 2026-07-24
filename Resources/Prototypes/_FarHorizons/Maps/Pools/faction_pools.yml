@@ -7,8 +7,6 @@
   - FHMeta
   - FHOasis
   - FHOmega
-  - FHCore #This is NeoSol map. It's here currently till we complete setting up stuff.
-  - FHUnity #This is NeoSol map. It's here currently till we complete setting up stuff.
 
 - type: gameMapPool
   id: FarHorizonsNeoSolMapPool
