@@ -173,12 +173,12 @@
   description: It seems to be fitted with a pistol stock, green dot sights, your combat knife and a muzzle brake. The cylinder also appears to have been swapped out for a sealed 4-shooter model.
   components:
   - type: Sprite
-    sprite: _FarHorizons/Objects/Weapons/Guns/Revolvers/stock_oath_breaker.rsi/sprite_64x32.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Revolvers/Stock_Oath_Breaker/sprite_64x32.rsi
   - type: Clothing
-    sprite: _FarHorizons/Objects/Weapons/Guns/Revolvers/stock_oath_breaker.rsi/clothing.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Revolvers/Stock_Oath_Breaker/clothing.rsi
     quickEquip: false
   - type: Item
-    sprite: _FarHorizons/Objects/Weapons/Guns/Revolvers/stock_oath_breaker.rsi/inhands.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Revolvers/Stock_Oath_Breaker/inhands.rsi
     size: Normal
     shape:
     - 0,0,3,0
@@ -296,12 +296,12 @@
   description: It seems to be fitted with a pistol stock, green dot sights, your now sharper combat knife and a muzzle brake. The cylinder also appears to have been swapped out for a premium sealed 6-shooter model. 
   components:
   - type: Sprite
-    sprite: _FarHorizons/Objects/Weapons/Guns/Revolvers/stock_oath_breaker_m500.rsi/sprite_64x32.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Revolvers/Stock_Oath_Breaker_M500/sprite_64x32.rsi
   - type: Clothing
-    sprite: _FarHorizons/Objects/Weapons/Guns/Revolvers/stock_oath_breaker_m500.rsi/clothing.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Revolvers/Stock_Oath_Breaker_M500/clothing.rsi
     quickEquip: false
   - type: Item
-    sprite: _FarHorizons/Objects/Weapons/Guns/Revolvers/stock_oath_breaker_m500.rsi/inhands.rsi
+    sprite: _FarHorizons/Objects/Weapons/Guns/Revolvers/Stock_Oath_Breaker_M500/inhands.rsi
     size: Normal
     shape:
     - 0,0,3,0
