@@ -71,7 +71,7 @@
     - type: RandomSpawner
       rarePrototypes:
         - ClothingHeadHelmetSwat
-        - WeaponShotgunSentinel
+        - WeaponShotgunSentinel #FH
 #        - WeaponRifleAk
       rareChance: 0.05
       prototypes:
@@ -106,7 +106,7 @@
           state: icon
     - type: RandomSpawner
       rarePrototypes:
-        - WeaponShotgunSentinel
+        - WeaponShotgunSentinel #FH
 #        - WeaponRifleAk
       rareChance: 0.05
       prototypes:

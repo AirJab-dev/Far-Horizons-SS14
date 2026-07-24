@@ -60,7 +60,7 @@
         orGroup: Guns
       - id: WeaponShotgunDoubleBarreled
         orGroup: Guns
-      - id: WeaponShotgunSentinel
+      - id: WeaponShotgunSentinel #FH
         orGroup: Guns
       - id: WeaponShotgunKammerer
         orGroup: Guns
