@@ -16269,5 +16269,181 @@ Entries:
   id: 146622
   time: '2026-07-24T09:50:44.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: Began converting Starlight Core to Far Horizons standards (Omega)
+    type: Tweak
+  id: 144300
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: New Far Horizons converted map  {Core} for NeoSol faction (Omega)
+    type: Add
+  id: 144301
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: New Far Horizons map {Unity} for NeoSol faction (ERT Mappers, Thank You
+      All!)
+    type: Add
+  id: 144302
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: Windoor prototypes for NeoSol mapping (Omega)
+    type: Add
+  id: 144303
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: Tweaked some suffixes for the separate factions in spawn menu (Omega)
+    type: Tweak
+  id: 144304
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: Added Map Voting for the separate factions (Gurchi)
+    type: Add
+  id: 144305
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: Factional Access Replacer. Computers won't stay NT access on NeoSol station.
+      (Athena)
+    type: Add
+  id: 144306
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: Suit Storage Sprites for NeoSol (Scorch)
+    type: Add
+  id: 144307
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: Fixed some NeoSol headsets having incorrect encryptions. GSL/CFA will
+      have NT and NS Common. QM/Liaison will have NT and NS Common and Command channels
+      (Omega)
+    type: Fix
+  id: 144308
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: Stamps for all NS Command, SHC, Inspector, Constable (Omega)
+    type: Add
+  id: 144309
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: NS Rusted Wall and Reinforced Wall [Needs spriting still] (Omega)
+    type: Add
+  id: 144310
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: NS Tinted Windows (Omega)
+    type: Add
+  id: 144311
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: NS Secret Wall [Needs spriting still] (Omega)
+    type: Add
+  id: 144312
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: NS Evidence Locker (Omega)
+    type: Add
+  id: 144313
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: NS BoozeCabinet (Bartender Locker)/Clown Locker/Mime Locker/Botanist
+      Lockers (Omega)
+    type: Add
+  id: 144314
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: NS High Security Doors have correct sprite base now. (Omega)
+    type: Fix
+  id: 144315
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: CorruptOmega, Original Core Map conversion for Starlight by Conflee, Princess
+    Gurchi, Athena-AI, ScorchFollower, Minar, Erophosea, qriqii, Catisnice, AngelCastle,
+    Crecc,, CyberCheburek, Milterria, Borgophyll, BadassFreeman, Pasnos, Slendy5k,
+    ItsAbby
+  changes:
+  - message: NS versions of a bunch of drobes, with hopefully correct inventories
+      in them. (Omega)
+    type: Add
+  id: 144316
+  time: '2026-07-24T12:56:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
 Order: -1
 
