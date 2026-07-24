@@ -149,6 +149,18 @@
     - AmmoWeapon44MixedMag
 
 - type: entity
+  id: AmmoSelection12GMagS
+  parent: AmmoSelectionBaseS
+  name: 12 Gauge Ammo Selector (Magazine)
+  components:
+  - type: ThiefUndeterminedBackpack
+    possibleSets:
+    - AmmoWeapon12GHPMag
+    - AmmoWeapon12GSPMag
+    - AmmoWeapon12GFMJMag
+    - AmmoWeapon12GMixedMag
+
+- type: entity
   id: AmmoSelectionAmmoBagS
   parent: AmmoSelectionBaseS
   name: Ammo Bag Selector
