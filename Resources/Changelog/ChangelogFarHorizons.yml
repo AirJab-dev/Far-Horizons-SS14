@@ -16035,5 +16035,22 @@ Entries:
   id: 146004
   time: '2026-07-23T16:05:45.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1460
+- author: princess_gurchi
+  changes:
+  - message: New option for chat that enables faction prefixes for radio channels.
+      So you can tell NT Command and NS command apart if you happen to listen/talk
+      to both
+    type: Add
+  id: 146300
+  time: '2026-07-23T22:25:07.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1463
+- author: princess_gurchi
+  changes:
+  - message: When inspecting headsets and encryption keys - the same prefix will also
+      be shown
+    type: Add
+  id: 146301
+  time: '2026-07-23T22:25:07.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1463
 Order: -1
 

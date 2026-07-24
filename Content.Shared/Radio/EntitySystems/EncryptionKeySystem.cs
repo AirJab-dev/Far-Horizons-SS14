@@ -223,7 +223,7 @@ public sealed partial class EncryptionKeySystem : EntitySystem
             examineEvent.PushMarkup(Loc.GetString(channelFTLPattern,
                 ("color", channel.Color),
                 ("key", key),
-                ("id", channel.LocalizedName),
+                ("id", $"({channel.ChatPrefix}){channel.LocalizedName}"), // Far Horizons
                 ("freq", channel.Frequency / 10f)));
         }
         // Far Horizons end
