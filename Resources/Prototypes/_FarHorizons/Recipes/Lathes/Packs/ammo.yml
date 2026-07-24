@@ -40,6 +40,7 @@
   - MagazineCanisterShotgun12GSlug
   - MagazineCanisterShotgun12GBeanbag
   - MagazineCanisterShotgun12GPractice
+  - MagazineCanisterShotgun12GFlare
 ######################BOX#######################
 # Light Rifle
   - MagazineBoxLightRifleSP
@@ -125,6 +126,7 @@
   - SpeedLoaderShotgunBeanbag
   - SpeedLoaderShotgunFlechette
   - SpeedLoaderShotgunFlare
+  - SpeedLoaderShotgunPractice
 ####################################################
 
 # Shared between AmmoFab and emagged Protolathe

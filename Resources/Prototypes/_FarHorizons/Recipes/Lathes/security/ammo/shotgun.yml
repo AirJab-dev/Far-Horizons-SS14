@@ -157,6 +157,13 @@
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
+  id: SpeedLoaderShotgunPractice
+  result: SpeedLoaderShotgunPractice
+  materials:
+    Steel: 40
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
   id: SpeedLoaderShotgunUranium
   result: SpeedLoaderShotgunUranium
   materials:
@@ -283,6 +290,14 @@
   materials:
     Steel: 1280
     Plastic: 1920
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineCanisterShotgun12GFlare
+  result: MagazineCanisterShotgun12GFlare
+  materials:
+    Steel: 640
+    Plastic: 640
 
 - type: latheRecipe
   parent: BaseAmmoRecipe

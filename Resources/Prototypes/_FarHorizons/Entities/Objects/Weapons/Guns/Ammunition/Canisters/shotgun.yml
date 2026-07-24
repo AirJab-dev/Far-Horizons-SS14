@@ -210,3 +210,23 @@
       map: [ "enum.GunVisualLayers.Tip" ]
     - state: rubber
     - state: b12g
+
+- type: entity
+  id: MagazineCanisterShotgun12GFlare
+  parent: BaseMagazineCanisterShotgun12G
+  name: 12 Gauge Ammunition Canister (Shotgun Flare)
+  description: A heavy duty metal canister of 12 Gauge Flare Slugs. Good for lighting up areas.
+  components:
+  - type: BallisticAmmoProvider
+    proto: ShellShotgunFlare
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+      color: "#ED7942"
+    - state: mag-tip-1
+      map: [ "enum.GunVisualLayers.Tip" ]
+    - state: flare
+    - state: b12g

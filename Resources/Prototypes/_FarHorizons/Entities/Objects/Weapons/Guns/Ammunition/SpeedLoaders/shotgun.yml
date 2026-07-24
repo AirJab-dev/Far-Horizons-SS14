@@ -17,6 +17,24 @@
         color: "#ED7942"
 
 - type: entity
+  id: SpeedLoaderShotgunPractice
+  name: 12 Gauge Blank Speedloader
+  parent: [ BaseSpeedLoaderShotgun, BaseSecurityContraband ]
+  components:
+  - type: BallisticAmmoProvider
+    proto: ShellShotgunPractice
+  - type: Sprite
+    sprite: _FarHorizons/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Shotgun/shotgun_speed_loader.rsi
+    layers:
+      - state: base
+        map: [ "enum.GunVisualLayers.Base" ]
+      - state: base-8
+        map: [ "enum.GunVisualLayers.Mag" ]
+      - state: base-tip-8
+        map: [ "enum.GunVisualLayers.Tip" ]
+        color: "#F5F5F5"
+
+- type: entity
   id: SpeedLoaderShotgunFlechette
   name: 12 Gauge Flechette Speedloader
   parent: [ BaseSpeedLoaderShotgun, BaseSecurityContraband ]
