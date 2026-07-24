@@ -16052,5 +16052,55 @@ Entries:
   id: 146301
   time: '2026-07-23T22:25:07.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1463
+- author: KarusKardin
+  changes:
+  - message: Added the IFA-30 Cybernetic Arm
+    type: Add
+  id: 144700
+  time: '2026-07-24T09:26:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1447
+- author: KarusKardin
+  changes:
+  - message: Added the Hypo Claw Hand Implant
+    type: Add
+  id: 144701
+  time: '2026-07-24T09:26:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1447
+- author: KarusKardin
+  changes:
+  - message: Added the Bunker Breaker Arm
+    type: Add
+  id: 144702
+  time: '2026-07-24T09:26:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1447
+- author: KarusKardin
+  changes:
+  - message: Replaced the RCD in the Engineering Arm with a Multitool
+    type: Tweak
+  id: 144703
+  time: '2026-07-24T09:26:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1447
+- author: KarusKardin
+  changes:
+  - message: added a network configurator to the Mechwright Arm.
+    type: Tweak
+  id: 144704
+  time: '2026-07-24T09:26:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1447
+- author: KarusKardin
+  changes:
+  - message: Made the DoAfter of Cybernetic Implanter Kits slightly faster overall
+    type: Tweak
+  id: 144705
+  time: '2026-07-24T09:26:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1447
+- author: KarusKardin
+  changes:
+  - message: Fixed a yaml issue that caused the VisualOrganComponent on cybernetic
+      eyes to show the wrong sprites
+    type: Fix
+  id: 144706
+  time: '2026-07-24T09:26:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1447
 Order: -1
 
