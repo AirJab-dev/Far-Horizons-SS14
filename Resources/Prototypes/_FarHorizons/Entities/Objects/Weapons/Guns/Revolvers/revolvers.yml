@@ -140,7 +140,7 @@
       - SpeedLoaderShotgun
     proto: null
     capacity: 3
-    chambers: [ True, True, True ]
+    chambers: [ null, null, null ]
     ammoSlots: [ null, null, null ]
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
@@ -198,7 +198,7 @@
       - SpeedLoaderShotgun
     proto: null
     capacity: 4
-    chambers: [ True, True, True, True  ]
+    chambers: [ null, null, null, null  ]
     ammoSlots: [ null, null, null, null ]
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
@@ -276,7 +276,7 @@
       - SpeedLoaderShotgun
     proto: null
     capacity: 4
-    chambers: [ True, True, True, True ]
+    chambers: [ null, null, null, null ]
     ammoSlots: [ null, null, null, null ]
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
@@ -321,7 +321,7 @@
       - SpeedLoaderShotgun
     proto: null
     capacity: 6
-    chambers: [ True, True, True, True, True, True  ]
+    chambers: [ null, null, null, null, null, null  ]
     ammoSlots: [ null, null, null, null, null, null ]
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
