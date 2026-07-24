@@ -16473,5 +16473,12 @@ Entries:
   id: 147103
   time: '2026-07-24T17:39:20.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1471
+- author: Minar
+  changes:
+  - message: Fix cmd and hop locker having enemies ids
+    type: Fix
+  id: 147300
+  time: '2026-07-24T18:59:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1473
 Order: -1
 
