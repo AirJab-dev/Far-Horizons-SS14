@@ -8,7 +8,7 @@
       steps:
       - tag: OathBreaker
         icon:
-          sprite: _FarHorizons/Objects/Weapons/Guns/Revolvers/stock_oath_breaker.rsi/sprite_64x32.rsi
+          sprite: _FarHorizons/Objects/Weapons/Guns/Revolvers/Stock_Oath_Breaker/sprite_64x32.rsi
           state: icon
         name: crafting-menu-name-OathBreakerExtended
         doAfter: 10
