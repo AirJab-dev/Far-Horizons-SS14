@@ -141,6 +141,9 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
     sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Sentinel/inhands_x64.rsi
+    size: Large
+    shape:
+    - 0,0,2,1
   - type: Clothing
     sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Sentinel/clothing.rsi
   - type: SpeedModifiedOnWield
@@ -288,6 +291,9 @@
   components:
   - type: Item
     sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer5084/inhands_64x.rsi
+    size: Large
+    shape:
+    - 0,0,3,1
   - type: Sprite
     sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer5084/clothing.rsi
   - type: Clothing
@@ -479,6 +485,9 @@
   components:
   - type: Item
     sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer5052/inhands_64x.rsi
+    size: Large
+    shape:
+    - 0,0,3,1
   - type: Sprite
     sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Kammerer5052/sprite_64x32.rsi
   - type: Clothing
@@ -557,6 +566,9 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
     sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Sentinel_S/inhands_x64.rsi
+    size: Large
+    shape:
+    - 0,0,3,1
   - type: Clothing
     sprite: _FarHorizons/Objects/Weapons/Guns/Shotguns/Sentinel_S/clothing.rsi
   - type: Gun

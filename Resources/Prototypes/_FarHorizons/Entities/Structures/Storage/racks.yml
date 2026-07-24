@@ -620,34 +620,29 @@
         - MagazineShotgun
         - ShotgunSentinel
 
-# Armory - Krammer
+#region Kammerer Citadel-T
 - type: entity
   id: ShelfArmoryKrammerLarge
   parent: ShelfArmoryBase
-  name: Large Krammer Citadel Rack
-  description: Holds four high-quality Krammer Citadels and lesser-quality Enforcer Pistols.
+  name: Large Kammerer Citadel-T Rack
+  description: Holds four high-quality Kammerer Citadel-Ts and lesser-quality Enforcer Pistols.
+  suffix: NT
   components:
-  - type: EntityStorageVisuals
-    stateBaseClosed: shotguncase
-    stateDoorOpen: shotguncase_open
-    stateDoorClosed: shotguncase_door
-#  - type: Sprite
-#    sprite: _Afterlight/Structures/Storage/closet-large.rsi
-#    layers:
-#    - state: krammercase
-#      map: ["enum.StorageVisualLayers.Base"]
-#    - state: unlocked
-#      shader: unshaded
-#    - state: krammer-0
-#    - map: ["enum.StorageFillLayers.Fill"]
-#    - state: closed
-#      map: ["enum.StorageVisualLayers.Door"]
-#    - state: locked
-#      map: ["enum.LockVisualLayers.Lock"]
-#      shader: unshaded
-#  - type: StorageFillVisualizer
-#    maxFillLevels: 5
-#    fillBaseName: krammer
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Storage/racks.rsi
+    layers:
+    - state: kammerercitadelcase
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: kammerercitadel-0
+      map: ["enum.StorageFillLayers.Fill"]
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: locked
+      map: ["enum.LockVisualLayers.Lock"]
+      shader: unshaded
+  - type: StorageFillVisualizer
+    maxFillLevels: 5
+    fillBaseName: kammerercitadel
   - type: Storage
     grid:
     - 0,0,0,4 #Long 1
@@ -671,48 +666,51 @@
         - SpeedLoaderShotgun
         - ShotgunKammererCitadel
 
-# Armory - Mixed Shotguns
+#region Mixed Shotguns
 - type: entity
   id: ShelfArmoryMixedShotgun
   parent: ShelfArmoryBase
   name: Mixed Shotgun Rack
-  description: Holds two high-quality Krammerer Citadels & Krammerer 5001 shotguns and two Enforcers & N1984s.
+  description: Holds two high-quality Kammerer Citadel-Ts, a Kammerer 5084, Sentinel Type-T and two Enforcer Type-Ts & N1984s.
+  suffix: NT
   components:
-  - type: EntityStorageVisuals
-    stateBaseClosed: shotguncase
-    stateDoorOpen: shotguncase_open
-    stateDoorClosed: shotguncase_door
-#  - type: Sprite
-#    sprite: _Afterlight/Structures/Storage/closet-large.rsi
-#    layers:
-#    - state: krammercase
-#      map: ["enum.StorageVisualLayers.Base"]
-#    - state: unlocked
-#      shader: unshaded
-#    - state: mixedshotgun-0
-#    - map: ["enum.StorageFillLayers.Fill"]
-#    - state: closed
-#      map: ["enum.StorageVisualLayers.Door"]
-#    - state: locked
-#      map: ["enum.LockVisualLayers.Lock"]
-#      shader: unshaded
-#  - type: StorageFillVisualizer
-#    maxFillLevels: 5
-#    fillBaseName: mixedshotgun
-  - type: Storage
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Storage/racks.rsi
+    layers:
+    - state: mixedshotguncase
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: mixedshotgun-0
+      map: ["enum.StorageFillLayers.Fill"]
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: locked
+      map: ["enum.LockVisualLayers.Lock"]
+      shader: unshaded
+  - type: StorageFillVisualizer
+    maxFillLevels: 5
+    fillBaseName: mixedshotgun
+  - type: Storage # Left / Down (from top) / Right / Up (from bottom)
     grid:
-    - 0,0,0,4
-    - 5,0,5,4
-    - 10,0,10,4
-    - 15,0,15,4
-    - 0,6,3,6
-    - 0,7,0,7
-    - 2,7,2,7
-    - 5,6,8,6
-    - 5,7,5,7
-    - 7,7,7,7
-    - 10,6,13,11
-    - 15,6,18,11
+    - 0,0,0,4 #Long 1
+
+    - 2,0,2,4 #Long 2
+
+    - 4,0,5,3 #Long 3
+
+    - 7,0,8,2 #Long 4
+
+    - 0,5,3,5 #Pistol 1&2
+    - 0,6,0,6 #Pistol Bottom 1
+    - 2,6,2,6 #Pistol Bottom 2
+
+    - 5,5,8,5 #Pistol 3&4
+    - 5,6,5,6 #Pistol Bottom 3
+    - 7,6,7,6 #Pistol Bottom 4
+
+    - 0,7,8,8 #Ammo Box - 1
+    - 2,10,7,11 #Ammo Box - 2
+    - 10,4,13,11 #Ammo 1
+    - 15,4,18,11 #Ammo 2
     whitelist:
       tags:
         - Sidearm
@@ -724,6 +722,7 @@
         - SpeedLoaderShotgun
         - ShotgunKammererCitadel
         - ShotgunKammerer5001
+        - ShotgunSentinel
 
 #region Drozd Type-T
 - type: entity

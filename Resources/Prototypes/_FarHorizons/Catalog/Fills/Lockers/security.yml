@@ -718,18 +718,24 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponShotgunKammererCitadel
+    - id: WeaponShotgunKammererCitadelT
       amount: 2
-    - id: WeaponShotgunKammerer5001
-      amount: 2
-    - id: WeaponPistolMk78
+    - id: WeaponShotgunKammerer5084
+      amount: 1
+    - id: WeaponShotgunSentinelT
+      amount: 1
+    - id: WeaponPistolEnforcerTypeT
       amount: 2
     - id: WeaponPistolN1984
       amount: 2
+
     - id: SpeedLoaderMagnumBasic
-      amount: 8
-    - id: SpeedLoaderShotgunBeanbag
-      amount: 4
+      amount: 3
+    - id: SpeedLoaderShotgunFlechette
+      amount: 6
+    - id: SpeedLoaderShotgunSlug
+      amount: 3
+
     - id: MagazinePistolSP
       amount: 4
     - id: MagazinePistolHP

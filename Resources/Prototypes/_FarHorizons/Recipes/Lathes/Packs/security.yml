@@ -46,6 +46,13 @@
   - MagazineCanisterRevolver38HP
   - MagazineCanisterRevolver38FMJ
   - MagazineCanisterRevolver38
+# Shotgun
+  - MagazineCanisterShotgun12G
+  - MagazineCanisterShotgun12GBuckshot
+  - MagazineCanisterShotgun12GFlechette
+  - MagazineCanisterShotgun12GSlug
+  - MagazineCanisterShotgun12GBeanbag
+  - MagazineCanisterShotgun12GPractice
 ######################BOX#######################
 # Rifle
   - MagazineBoxRifle556Rubber
@@ -75,6 +82,7 @@
   - BoxShotgunSlug
   - BoxShellTranquilizer
   - BoxBeanbag
+  - BoxShotgunFlechette
 #####################MAGAZINE#######################
 # Pistol
   - MagazinePistol38Rubber
@@ -111,6 +119,7 @@
   - SpeedLoaderShotgunEmpty
   - SpeedLoaderShotgunSlug
   - SpeedLoaderShotgunBeanbag
+  - SpeedLoaderShotgunFlechette
 # Magnum
   - MagazineMagnum
   - MagazineMagnumHP
@@ -175,6 +184,10 @@
   - MagazineCanisterRevolver38Incendiary
   - MagazineCanisterRevolver38Uranium
   - MagazineCanisterRevolver38AP
+# Shotgun
+  - MagazineCanisterShotgun12GIncendiary
+  - MagazineCanisterShotgun12GUranium
+  - MagazineCanisterShotgun12GUraniumFlechette
 #####################BOX#######################
 # Pistol
   - MagazineBoxPistolIncendiary
@@ -196,6 +209,7 @@
 # Shotgun
   - BoxShotgunIncendiary
   - BoxShotgunUranium
+  - BoxShotgunUraniumFlechette
 #####################MAGAZINE#######################
 # Magnum
   - MagazineMagnumIncendiary
@@ -231,6 +245,7 @@
   - MagazineShotgunIncendiary
   - SpeedLoaderShotgunIncendiary
   - SpeedLoaderShotgunUranium
+  - SpeedLoaderShotgunUraniumFlechette
 # LMG
   - Rifle556HeavyMagazineIncendiary
   - Rifle556HeavyMagazineUranium

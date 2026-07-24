@@ -132,6 +132,7 @@
     - SpeedLoaderShotgunIncendiary
     - SpeedLoaderRevolver38Uranium
     - SpeedLoaderShotgunUranium
+    - SpeedLoaderShotgunUraniumFlechette
     - SpeedLoaderMagnumUranium
     - SpeedLoaderRevolver38Incendiary
 #Magazine
@@ -167,6 +168,7 @@
     - MagazineBoxLightRifleUranium
     - MagazineBoxRifle556Uranium
     - BoxShotgunUranium
+    - BoxShotgunUraniumFlechette
 #Canister
     - MagazineCanisterPistolIncendiary
     - MagazineCanisterPistolUranium
@@ -176,6 +178,9 @@
     - MagazineCanisterMagnumUranium
     - MagazineCanisterRevolver38Incendiary
     - MagazineCanisterRevolver38Uranium
+    - MagazineCanisterShotgun12GIncendiary
+    - MagazineCanisterShotgun12GUranium
+    - MagazineCanisterShotgun12GUraniumFlechette
   announceTo:
     - Security
 
