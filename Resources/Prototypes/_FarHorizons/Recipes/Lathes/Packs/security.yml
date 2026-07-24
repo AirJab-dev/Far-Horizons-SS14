@@ -112,14 +112,19 @@
   - MagazineRifle556FMJ
   - MagazineRifle556Empty
 # Shotgun
-  - MagazineShotgun
   - MagazineShotgunEmpty
+  - MagazineShotgun
+  - MagazineShotgunFlechette
   - MagazineShotgunSlug
+  - MagazineShotgunBeanbag
+  - MagazineShotgunPractice
+  - MagazineShotgunFlare
   - SpeedLoaderMagnumBasic
   - SpeedLoaderShotgunEmpty
   - SpeedLoaderShotgunSlug
   - SpeedLoaderShotgunBeanbag
   - SpeedLoaderShotgunFlechette
+  - SpeedLoaderShotgunFlare
 # Magnum
   - MagazineMagnum
   - MagazineMagnumHP
@@ -243,6 +248,8 @@
   - MagazineRifle556AP
 # Shotgun
   - MagazineShotgunIncendiary
+  - MagazineShotgunUranium
+  - MagazineShotgunUraniumFlechette
   - SpeedLoaderShotgunIncendiary
   - SpeedLoaderShotgunUranium
   - SpeedLoaderShotgunUraniumFlechette

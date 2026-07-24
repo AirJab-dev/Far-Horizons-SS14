@@ -101,6 +101,34 @@
         - id: AmmoSelection9mmSMGS
 
 - type: entity
+  id: BriefcaseWeaponBulldogFilled
+  parent: BriefcaseWeapon
+  name: Secure Bulldog Case
+  suffix: Filled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: WeaponShotgunBulldog
+        - id: TreasureCoinIron
+        - id: AmmoSelection12GMagS
+
+- type: entity
+  id: BriefcaseWeaponMinotaurFilled
+  parent: BriefcaseWeapon
+  name: Secure Minotaur Case
+  suffix: Filled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: WeaponShotgunMinotaur
+        - id: TreasureCoinIron
+        - id: AmmoSelection12GMagS
+
+- type: entity
   id: BriefcaseWeaponLecterSFilled
   parent: BriefcaseWeapon
   name: Secure Lecter Type-W Case

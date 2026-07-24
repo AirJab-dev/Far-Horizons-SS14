@@ -112,14 +112,19 @@
   - MagazineRifle556FMJ
   - MagazineRifle556Empty
 # Shotgun
-  - MagazineShotgun
   - MagazineShotgunEmpty
+  - MagazineShotgun
+  - MagazineShotgunFlechette
   - MagazineShotgunSlug
+  - MagazineShotgunBeanbag
+  - MagazineShotgunPractice
+  - MagazineShotgunFlare
   - SpeedLoaderMagnumBasic
   - SpeedLoaderShotgunEmpty
   - SpeedLoaderShotgunSlug
   - SpeedLoaderShotgunBeanbag
   - SpeedLoaderShotgunFlechette
+  - SpeedLoaderShotgunFlare
 ####################################################
 
 # Shared between AmmoFab and emagged Protolathe
@@ -201,6 +206,8 @@
   - MagazineRifle556AP
 # Shotgun
   - MagazineShotgunIncendiary
+  - MagazineShotgunUranium
+  - MagazineShotgunUraniumFlechette
   - SpeedLoaderShotgunIncendiary
   - SpeedLoaderShotgunUranium
   - SpeedLoaderShotgunUraniumFlechette

@@ -30,7 +30,7 @@
   - type: Appearance
   - type: Tag
     tags:
-      - AmmoBoxRifle556
+      - AmmoBoxShotgun12g
 
 # Boxes
 - type: entity

@@ -61,3 +61,6 @@ uplink-mantis-blade-arms-desc-fh = Originally used as a simple construction tool
 uplink-advanced-claws-desc-fh = A cybernetic implant for hands. Allows an agent to extend sharp plasteel claws at will, and hide them away just as quickly. 
 uplink-forensics-implant-desc-fh = A cybernetic implant for hands. Removes an agent's fingerprints so as to not leave evidence of a crime. Does not work through gloves. 
 uplink-syndie-implant-desc-fh = A cybernetic eye implant. Enables an agent to see information about the station crew, humanoids and syndicate without any glasses. 
+
+uplink-bulldog-bundle-desc-fh = Lean and mean: Contains the popular Bulldog Shotgun and an Ammo Selector.
+uplink-minotaur-desc-fh = Lean and mean: Contains smooth, powerful, highly illegal Shotgun and an Ammo Selector.

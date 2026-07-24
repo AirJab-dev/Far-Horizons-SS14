@@ -22,6 +22,12 @@
   id: AmmoBoxRevolver38
 
 - type: Tag
+  id: AmmoBoxMagnum44
+
+- type: Tag
+  id: AmmoBoxShotgun12g
+
+- type: Tag
   id: BioSec
 
 - type: Tag

@@ -4,39 +4,75 @@
   id: MagazineShotgunEmpty
   result: MagazineShotgunEmpty
   materials:
-    Steel: 50
+    Steel: 40
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
   id: MagazineShotgun
   result: MagazineShotgun
   materials:
-    Steel: 240
+    Steel: 206
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
-  id: MagazineShotgunBeanbag
-  result: MagazineShotgunBeanbag
+  id: MagazineShotgunFlechette
+  result: MagazineShotgunFlechette
   materials:
-    Steel: 150
-    Plastic: 140
+    Steel: 206
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
   id: MagazineShotgunSlug
   result: MagazineShotgunSlug
   materials:
-    Steel: 190
-    Plastic: 100
+    Steel: 206
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineShotgunPractice
+  result: MagazineShotgunPractice
+  materials:
+    Steel: 51
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineShotgunBeanbag
+  result: MagazineShotgunBeanbag
+  materials:
+    Steel: 103
+    Plastic: 154
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
   id: MagazineShotgunIncendiary
   result: MagazineShotgunIncendiary
   materials:
-    Steel: 100
-    Plastic: 190
+    Steel: 51
+    Plastic: 206
 
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineShotgunFlare
+  result: MagazineShotgunFlare
+  materials:
+    Steel: 51
+    Plastic: 51
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineShotgunUranium
+  result: MagazineShotgunUranium
+  materials:
+    Plastic: 206
+    Uranium: 154
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineShotgunUraniumFlechette
+  result: MagazineShotgunUraniumFlechette
+  materials:
+    Plastic: 206
+    Uranium: 154
 
 - type: latheRecipe
   parent: BaseEmptyAmmoRecipe
@@ -110,6 +146,14 @@
   materials:
     Steel: 60
     Plastic: 110
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderShotgunFlare
+  result: SpeedLoaderShotgunFlare
+  materials:
+    Steel: 40
+    Plastic: 40
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
