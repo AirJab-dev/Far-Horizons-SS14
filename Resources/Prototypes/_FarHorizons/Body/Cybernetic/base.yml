@@ -34,6 +34,14 @@
   id: OrganCyberExternal
   abstract: true
   components:
+  - type: Sprite
+    sprite: _FarHorizons/Mobs/Species/Cyberlimbs/parts.rsi #FH
+  - type: VisualOrgan
+    data:
+      sprite: _FarHorizons/Mobs/Species/Cyberlimbs/parts.rsi #FH
+    speciesOverrides:
+      Resomi: _FarHorizons/Mobs/Species/Cyberlimbs/resomiparts.rsi #FH
+      ProtoResomi: _FarHorizons/Mobs/Species/Cyberlimbs/resomiparts.rsi #FH
   - type: VisualOrganMarkings
     markingData:
       group: Cybernetics
