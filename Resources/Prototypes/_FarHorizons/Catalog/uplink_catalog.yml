@@ -343,7 +343,7 @@
   id: UplinkHypoLeftClawsImplant 
   name: uplink-hypo-claws-left-name 
   description: uplink-hypo-claws-desc 
-  icon: { sprite: _Starlight/Objects/Specific/Medical/implants.rsi, state: l_hand_implant_claws } #TODO
+  icon: { sprite: _Starlight/Objects/Specific/Medical/implants.rsi, state: l_hand_implant_claws }
   productEntity: CyberneticImplanterLeftHandImplantHypoClaws 
   discountCategory: usualDiscounts
   discountDownTo:
@@ -357,7 +357,7 @@
   id: UplinkHypoRightClawsImplant 
   name: uplink-hypo-claws-right-name 
   description: uplink-hypo-claws-desc 
-  icon: { sprite: _Starlight/Objects/Specific/Medical/implants.rsi, state: r_hand_implant_claws } #TODO
+  icon: { sprite: _Starlight/Objects/Specific/Medical/implants.rsi, state: r_hand_implant_claws }
   productEntity: CyberneticImplanterRightHandImplantHypoClaws 
   discountCategory: usualDiscounts
   discountDownTo:
@@ -371,7 +371,7 @@
   id: UplinkLeftArmCyberBunkerBreaker
   name: uplink-bunker-breaker-arm-left-name 
   description: uplink-bunker-breaker-desc 
-  icon: { sprite: _Starlight/Objects/Specific/Medical/implants.rsi, state: r_hand_implant_claws } #TODO
+  icon: { sprite:  _FarHorizons/Objects/Tools/limb_CIK.rsi, state: icon }
   productEntity: CyberneticImplanterLeftArmCyberBunkerBreaker 
   discountCategory: rareDiscounts
   discountDownTo:
@@ -385,7 +385,7 @@
   id: UplinkRightArmCyberBunkerBreaker
   name: uplink-bunker-breaker-arm-right-name 
   description: uplink-bunker-breaker-desc 
-  icon: { sprite: _Starlight/Objects/Specific/Medical/implants.rsi, state: r_hand_implant_claws } #TODO
+  icon: { sprite:  _FarHorizons/Objects/Tools/limb_CIK.rsi, state: icon }
   productEntity: CyberneticImplanterRightArmCyberBunkerBreaker 
   discountCategory: rareDiscounts
   discountDownTo:
