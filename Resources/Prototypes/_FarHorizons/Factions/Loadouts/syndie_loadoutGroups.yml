@@ -191,6 +191,15 @@
   - CommandantHud
 
 - type: loadoutGroup
+  id: CommandantBackpack 
+  name: loadout-group-captain-backpack  # FH todo
+  loadouts:
+  - NSRBackpack
+  - NSRDuffel
+  - NSRSatchel
+  - LeatherSatchel # starlight
+
+- type: loadoutGroup
   id: CommandantNeck
   name: loadout-group-commandant-neck
   minLimit: 0
