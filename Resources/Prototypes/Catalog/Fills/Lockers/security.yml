@@ -306,7 +306,7 @@
   - type: EntityTableContainerFill
     containers:
       entity_storage: !type:NestedSelector
-        tableId: FillGunSafeShotgunSentinel
+        tableId: FillGunSafeShotgunSentinel #FH
 
 - type: entityTable
   id: FillGunSafeShotgunSentinel #FH
