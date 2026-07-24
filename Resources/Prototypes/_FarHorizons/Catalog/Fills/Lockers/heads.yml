@@ -162,7 +162,7 @@
     - id: PinpointerNuclear
     - id: PlushieNuke
       prob: 0.1
-    - id: RubberStampCaptain
+    - id: RubberStampCommandant
     - id: SpaceCash1000
     - id: ClothingEyesGlassesCommandSyndi
     - id: ClothingEyesHudCommandSyndi
@@ -249,7 +249,7 @@
     - id: CargoRequestServiceComputerCircuitboard
     - id: RubberStampApproved
     - id: RubberStampDenied
-    - id: RubberStampHop
+    - id: RubberStampPM
     - id: ClothingEyesGlassesCommandSyndi
     - id: ClothingEyesHudCommandSyndi
     - id: PrintedDocumentGreenshiftAlert
@@ -296,7 +296,7 @@
     - id: SheetSteel
     - id: SheetGlass
     - id: RCDAmmo
-    - id: RubberStampCE
+    - id: RubberStampForeman
     - id: MetalFoamGrenade
     - id: PlushieMatthew
       prob: 0.15
@@ -373,7 +373,7 @@
         presets: 
         - Greenshift 
         - Sandbox 
-    - id: RubberStampCMO 
+    - id: RubberStampMD
     - id: PlushieLizardJobChiefmedicalofficer
       prob: 0.02
 
@@ -428,7 +428,7 @@
     - id: ClothingHeadsetAltScience
     - id: DoorRemoteResearchNS
     - id: HandTeleporter
-    - id: RubberStampRd
+    - id: RubberStampEP
     - id: RDDiploma 
     - id: PrintedDocumentGreenshiftAlert 
       conditions: 
@@ -500,7 +500,7 @@
     - id: ClothingShoesBootsJackSyndiFilled
     - id: DoorRemoteSecurityNS
     - id: HoloprojectorSecurity
-    - id: RubberStampHos
+    - id: RubberStampMarshal
     - id: SecurityTechFabCircuitboard
     - id: CargoRequestSecurityComputerCircuitboard
     - id: WeaponDisabler
@@ -630,7 +630,7 @@
         - id: ClothingNeckCloakRsoElite
         - id: RadioHandheldSecurity
         - id: ClothingOuterCoatRedSword
-        - id: RubberStampBSO
+        - id: RubberStampRSO
 
 - type: entity
   id: LockerRSOFilledBluespaced
@@ -641,3 +641,11 @@
   - type: TriggerOnSpawn
   - type: SpawnOnTrigger
     proto: EffectFlashBluespace
+
+- type: entity
+  id: LockerFreezerNSVaultFilled
+  suffix: NS, Vault, Filled
+  parent: LockerFreezerVaultFilled
+  components:
+  - type: AccessReader
+    access: [ [ "Executive" ] ]

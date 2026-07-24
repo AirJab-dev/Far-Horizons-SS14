@@ -30,6 +30,8 @@ public interface ISharedFactionManager
 
     public bool TryFindFaction(string search, out FactionPrototype? faction);
 
+    public string? GetMapPool();
+
     // Overrides for JobPrototype
     public string OverrideLocalizedJobName(FactionJobAssignmentPrototype assignment);
     public string OverrideLocalizedJobName((ProtoId<FactionPrototype>? faction, ProtoId<JobPrototype> job) factionJob);

@@ -353,7 +353,7 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
             extendedAccess = data.ExtendedAccess;
         }
 
-        _accessSystem.SetAccessToJob(cardId, jobPrototype, _factions.DecideFactionForJob(jobPrototype), extendedAccess); //FarHorizons
+        _accessSystem.SetAccessToJob(cardId, jobPrototype, factionPrototype, extendedAccess); //FarHorizons
 
         if (pdaComponent != null)
             _pdaSystem.SetOwner(idUid.Value, pdaComponent, entity, characterName);

@@ -100,7 +100,10 @@ public abstract partial class SharedFactionManager : ISharedFactionManager
         faction = found.Count == 0 ? null : found.First();
 
         return faction != null;
-    }  
+    }
+
+    public string? GetMapPool() => 
+        GetCurrentFaction() is not { } faction ? null : faction.MapPool;
 
     public string OverrideLocalizedJobName(FactionJobAssignmentPrototype assignment) =>
         assignment.Override == null || assignment.Override.Name == null ?

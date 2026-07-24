@@ -1,3 +1,14 @@
+#AI
+- type: entity
+  id: StationAiBrainSyndicate
+  parent: StationAiBrain
+  suffix: NeoSol
+  components:
+  - type: Access
+    groups:
+    - AllAccessNS
+    - SiliconNS
+
 # Borgs
 - type: entity
   id: PlayerSecBorgChassis
