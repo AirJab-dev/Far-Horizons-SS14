@@ -1175,10 +1175,10 @@
     - type: VisualOrgan
       data:
         sprite: _FarHorizons/Mobs/Species/Cyberlimbs/parts.rsi 
-        state: "l_mantis_blade_arm"
+        state: "l_ifa30_arm"
     - type: Sprite
       sprite: _FarHorizons/Mobs/Species/Cyberlimbs/parts.rsi 
-      state: "l_mantis_blade_arm"
+      state: "l_ifa30_arm"
     - type: LimbItemStorage
       items:
         - WeaponSubMachineGunCyberIFA30
@@ -1189,8 +1189,8 @@
       handWhitelist:
         tags:
           - CyberHandItem
-      stateOn: l_mantis_blade_arm_BLADE
-      stateOff: l_mantis_blade_arm
+      stateOn: l_ifa30_arm_GUN
+      stateOff: l_ifa30_arm
 
 - type: entity
   parent: [ OrganCyberArmRight, BaseSyndicateContraband, WithRightCyberHand ]
@@ -1200,10 +1200,10 @@
     - type: VisualOrgan
       data:
         sprite: _FarHorizons/Mobs/Species/Cyberlimbs/parts.rsi 
-        state: "r_mantis_blade_arm"
+        state: "r_ifa30_arm"
     - type: Sprite
       sprite: _FarHorizons/Mobs/Species/Cyberlimbs/parts.rsi 
-      state: "r_mantis_blade_arm"
+      state: "r_ifa30_arm"
     - type: LimbItemStorage
       items:
         - WeaponSubMachineGunCyberIFA30
@@ -1214,8 +1214,8 @@
       handWhitelist:
         tags:
           - CyberHandItem
-      stateOn: r_mantis_blade_arm_BLADE
-      stateOff: r_mantis_blade_arm
+      stateOn: r_ifa30_arm_GUN
+      stateOff: r_ifa30_arm
 
 # Hydraulic Legs
 - type: entity
