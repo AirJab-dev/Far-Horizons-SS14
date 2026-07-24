@@ -16445,5 +16445,33 @@ Entries:
   id: 144316
   time: '2026-07-24T12:56:54.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: Minar
+  changes:
+  - message: FHUnity air, FHUnity evac dock, FHUnity evac.
+    type: Fix
+  id: 147100
+  time: '2026-07-24T17:39:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1471
+- author: Minar
+  changes:
+  - message: give cmd non-nt backpacks
+    type: Fix
+  id: 147101
+  time: '2026-07-24T17:39:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1471
+- author: Minar
+  changes:
+  - message: shc now has warp point
+    type: Fix
+  id: 147102
+  time: '2026-07-24T17:39:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1471
+- author: Minar
+  changes:
+  - message: door migration system disabled
+    type: Fix
+  id: 147103
+  time: '2026-07-24T17:39:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1471
 Order: -1
 
