@@ -13,7 +13,7 @@
     capacity: 8 #FarHorzions - Fits Lever Action (this has always bugged the hell out of me)
     proto: CartridgeMagnumSP # Starlight
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/LightRifle/light_rifle_speed_loader.rsi
+    sprite: Objects/Weapons/Guns/Ammunition/Speedloaders/LightRifle/light_rifle_speed_loader.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

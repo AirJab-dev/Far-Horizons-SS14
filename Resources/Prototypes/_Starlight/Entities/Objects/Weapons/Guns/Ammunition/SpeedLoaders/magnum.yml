@@ -6,7 +6,7 @@
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumRubber
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi
+    sprite: Objects/Weapons/Guns/Ammunition/Speedloaders/Magnum/magnum_speed_loader.rsi
     layers:
       - state: base
         map: [ "enum.GunVisualLayers.Base" ]
@@ -37,7 +37,7 @@
       ballistic-ammo: !type:Container
         ents: []
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/improvised_magnum_speed_loader.rsi
+    sprite: _Starlight/Objects/Weapons/Guns/Ammunition/Speedloaders/Magnum/improvised_magnum_speed_loader.rsi
     layers:
       - state: base
         map: [ "enum.GunVisualLayers.Base" ]
@@ -78,7 +78,7 @@
     shape:
     - 0,0,2,0
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/improvised_lever_action_speed_loader.rsi
+    sprite: _Starlight/Objects/Weapons/Guns/Ammunition/Speedloaders/Magnum/improvised_lever_action_speed_loader.rsi
     layers:
       - state: base
         map: [ "enum.GunVisualLayers.Base" ]
