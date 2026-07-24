@@ -16102,5 +16102,172 @@ Entries:
   id: 144706
   time: '2026-07-24T09:26:26.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1447
+- author: Killer Tamashi
+  changes:
+  - message: Added Oathbreaker w/Stock for borbs (m500 variant as well)
+    type: Add
+  id: 146600
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Added Flechette rounds, they're black and act like shotgun SP. Not great,
+      not terrible either.
+    type: Add
+  id: 146601
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Added Uranium Flechette rounds. You didn't think I would miss this opportunity,
+      would you? Acts like uranium slugs, except they spread.
+    type: Add
+  id: 146602
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Added Shotgun Ammo Selector for Bulldog & Minotaur.
+    type: Add
+  id: 146603
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Added Missing Shotgun Magazine/Box ammo types & made them craftable in
+      fabricator.
+    type: Add
+  id: 146604
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Added Shotgun Ammo Canisters.
+    type: Add
+  id: 146605
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Added Factional Shotguns;
+    type: Add
+  id: 146606
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Sentinel Type-T
+    type: Add
+  id: 146607
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Sentinel Type-S
+    type: Add
+  id: 146608
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Kammerer Citadel-T
+    type: Add
+  id: 146609
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Kammerer Citadel-S
+    type: Add
+  id: 146610
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Kammerer 5052
+    type: Add
+  id: 146611
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Kammerer 5084
+    type: Add
+  id: 146612
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: FH sprites for;
+    type: Add
+  id: 146613
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Shotgun Speedloaders
+    type: Add
+  id: 146614
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Shotgun Magazines
+    type: Add
+  id: 146615
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Shotgun Boxes
+    type: Add
+  id: 146616
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Shotgun Racks
+    type: Add
+  id: 146617
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Reworked Sentinel; It is now a stockless, compact shotgun with a manual
+      bolting mechanism.
+    type: Tweak
+  id: 146618
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Reworked Shotgun Shell color code, yellow is beanbag, white is incind,
+      green is slug, black is flechette & flare is orange.
+    type: Tweak
+  id: 146619
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Replaced normal Buckshot with Flechette where appropriate in ammo spawns.
+    type: Tweak
+  id: 146620
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Reverted Buckshot damage buff, since flechette exists now. It no longer
+      does damage against armor, like other HP bullets.
+    type: Tweak
+  id: 146621
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
+- author: Killer Tamashi
+  changes:
+  - message: Fixed Slugs not having Armor Penetration Value. Whoops.
+    type: Fix
+  id: 146622
+  time: '2026-07-24T09:50:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1466
 Order: -1
 
