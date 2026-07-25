@@ -3,6 +3,7 @@
   parent: [BaseDeltaPressureGlass, BaseStructure, BaseStructureDissolvable] # Starlight-edit 
   name: Window #Far Horizons - The Great Capitalization Crusade
   description: Don't smudge up the glass down there.
+  abstract: true #FH, Paintable Windows
   placement:
     mode: SnapgridCenter
     snap:
