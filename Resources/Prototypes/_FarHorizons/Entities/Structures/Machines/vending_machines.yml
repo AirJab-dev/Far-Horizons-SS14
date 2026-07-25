@@ -374,7 +374,7 @@
 
 # endregion
 
-# region Departmental
+# region Tech
 
 
 - type: entity
@@ -409,6 +409,49 @@
     color: "#ffb0b0"
   - type: AccessReader
     access: [["PersonnelManager"]]
+
+- type: entity
+  parent: VendingMachine
+  id: VendingMachineSecNS
+  name: SecTech
+  suffix: NS
+  description: A vending machine containing Security equipment. A label reads SECURITY PERSONNEL ONLY.
+  components:
+  - type: VendingMachine
+    pack: SecTechInventoryNS
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+    denyState: deny-unshaded
+    showPrices: false
+  - type: Machine
+    board: VendingMachineSecCircuitboard
+  - type: DatasetVocalizer
+    dataset: SecTechAds
+  - type: SpeakOnUIClosed
+    pack: SecTechGoodbyes
+  - type: Sprite
+    sprite: Structures/Machines/VendingMachines/sec.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["SecurityNS"], ["CadetNS"]]
+  - type: PointLight
+    radius: 1
+    energy: 2.0
+    color: "#78645c"
+  - type: GuideHelp
+    guides:
+    - Security
+    - Antagonists
+
 
 - type: entity
   parent: VendingMachineMedicalBase

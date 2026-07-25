@@ -65,8 +65,18 @@
 
 - type: entity
   name: Cyborg Dominator
+  suffix: NT
   parent: WeaponDominator
   id: BorgWeaponDominator
+  components:
+  - type: BatterySelfRecharger
+    autoRechargeRate: 25
+
+- type: entity
+  name: Cyborg Dominator
+  suffix: NS
+  parent: WeaponDominatorNS
+  id: BorgWeaponDominatorNS
   components:
   - type: BatterySelfRecharger
     autoRechargeRate: 25
@@ -261,6 +271,7 @@
   name: Dominator Pistol
   parent: [ BaseWeaponBatterySmall, BaseSecurityContraband ]
   id: WeaponDominator
+  suffix: NT
   description: A high-tech pistol typically used in planetside law enforcement, it boasts 3 modes that are tied into the alert level of the station; Stun, Lethal and Destroy.
   components:
   - type: Sprite
@@ -655,6 +666,7 @@
   name: Dominator Pistol
   parent: [ BaseWeaponBatterySmall, BaseSecurityContraband ]
   id: WeaponDominatorNS
+  suffix: NS
   description: A high-tech pistol typically used in planetside law enforcement, it boasts 3 modes that are tied into the alert level of the station; Stun, Lethal and Destroy.
   components:
   - type: Sprite

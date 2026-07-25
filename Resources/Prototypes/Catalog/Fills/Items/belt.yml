@@ -55,7 +55,7 @@
     - id: Handcuffs
       amount: 2
     - id: HoloprojectorSecurity
-    - id: RadioHandheldSecurity
+    - id: RadioHandheldSecurityNS
 
 - type: entity
   id: ClothingBeltSecurityFilled
