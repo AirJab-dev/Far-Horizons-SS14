@@ -16547,5 +16547,49 @@ Entries:
   id: 148103
   time: '2026-07-25T14:33:25.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1481
+- author: AthenaAI
+  changes:
+  - message: Fixes PassiveModules being counted toward cap.
+    type: Fix
+  id: 147800
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Fixes Pharmacist Coat not working properly.
+    type: Fix
+  id: 147801
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Fixes AI not being properly assigned to the NeoSol side. Replace PlayerStationAi
+      with PlayerStationAiNS and PlayerStationAiEmpty with PlayerStationAiEmptyNS.
+      To fix the issue in mapping.
+    type: Fix
+  id: 147802
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Fixed double borg brain spawn for NeoSol station.
+    type: Fix
+  id: 147803
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Fixed issue with Borgs being dead and alive when crit.
+    type: Fix
+  id: 147804
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Door Electronics now have both lists of NS and NT.
+    type: Tweak
+  id: 147805
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
 Order: -1
 
