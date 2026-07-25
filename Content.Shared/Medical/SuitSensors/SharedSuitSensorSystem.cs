@@ -26,7 +26,8 @@ using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using System.Linq;
 using Content.Shared._FarHorizons.Medical.Disease.Prototypes; // FarHorizons
-using Content.Shared._FarHorizons.Medical.Disease.Components; // FarHorizons
+using Content.Shared._FarHorizons.Medical.Disease.Components;
+using Content.Shared._FarHorizons.Factions;
 
 namespace Content.Shared.Medical.SuitSensors;
 
@@ -46,6 +47,7 @@ public abstract class SharedSuitSensorSystem : EntitySystem
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly DamageableSystem _damageable = default!;
+    [Dependency] private readonly ISharedFactionManager _factions = default!; // Far Horizons
 
     private EntityQuery<SuitSensorComponent> _sensorQuery;
     public override void Initialize()
@@ -367,6 +369,7 @@ public abstract class SharedSuitSensorSystem : EntitySystem
         var userJob = Loc.GetString("suit-sensor-component-unknown-job");
         var userJobIcon = "JobIconNoId";
         var userJobDepartments = new List<string>();
+        ProtoId<FactionPrototype>? userFaction = null; // Far Horizons
 
         if (_idCardSystem.TryFindIdCard(sensor.User.Value, out var card))
         {
@@ -377,7 +380,20 @@ public abstract class SharedSuitSensorSystem : EntitySystem
             userJobIcon = card.Comp.JobIcon;
 
             foreach (var department in card.Comp.JobDepartments)
-                userJobDepartments.Add(Loc.GetString(_proto.Index(department).Name));
+            {
+                // Far Horizons start
+                var dptAssignment = _factions.ListFactionDepartments().Where(p => p.Department == department && p.Faction == card.Comp.Faction).FirstOrDefault();
+                if (dptAssignment == null)
+                    userJobDepartments.Add(Loc.GetString(_proto.Index(department).Name));
+                else
+                {
+                    var departmentName = Loc.GetString(dptAssignment.NameOverride != null && dptAssignment.NameOverride != "" ? 
+                                                       dptAssignment.NameOverride : 
+                                                       _proto.Index(department).Name);
+                    userJobDepartments.Add(departmentName);
+                }
+                // Far Horizons end
+            }   
         }
 
         // get health mob state
