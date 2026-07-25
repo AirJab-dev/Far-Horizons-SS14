@@ -369,7 +369,6 @@ public abstract class SharedSuitSensorSystem : EntitySystem
         var userJob = Loc.GetString("suit-sensor-component-unknown-job");
         var userJobIcon = "JobIconNoId";
         var userJobDepartments = new List<string>();
-        ProtoId<FactionPrototype>? userFaction = null; // Far Horizons
 
         if (_idCardSystem.TryFindIdCard(sensor.User.Value, out var card))
         {
