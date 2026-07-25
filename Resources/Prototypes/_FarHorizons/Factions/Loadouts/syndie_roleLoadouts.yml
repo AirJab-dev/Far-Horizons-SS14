@@ -60,7 +60,7 @@
   - MedicalGlovesSyndi
   - MedicalDirectorBackpack
   - MedicalDirectorOuterClothing
-  - MedicalDirectorNeck
+  #- MedicalDirectorNeck #Disabled currently due to no mantles/cloaks made for NS side.
   - MedicalDirectorShoes
   - MedicalEyewearSyndi
   - SurvivalChiefMedicalOfficer

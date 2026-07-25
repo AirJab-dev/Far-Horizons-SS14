@@ -237,7 +237,7 @@
   name: loadout-group-pm-neck
   minLimit: 0
   loadouts:
-    - HoPCloak
+    #- HoPCloak
     - PMMantle
 
 - type: loadoutGroup
@@ -435,8 +435,8 @@
   name: loadout-group-medical-director-neck
   minLimit: 0
   loadouts:
-  - ChiefMedicalOfficerCloak
-  - ChiefMedicalOfficerMantle
+  - ChiefMedicalOfficerCloak #Needs new ones for NS made.
+  - ChiefMedicalOfficerMantle #Needs new ones for NS made.
 
 - type: loadoutGroup
   id: MedicalDirectorShoes
@@ -995,6 +995,8 @@
 - type: loadoutGroup
   id: SecurityBeltSyndi
   name: loadout-group-security-belt
+  minLimit: 1
+  maxLimit: 2
   loadouts:
     - SecurityBeltSyndi
     - SecurityWebbingSyndi
