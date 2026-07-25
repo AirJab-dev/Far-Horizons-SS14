@@ -18,8 +18,10 @@ using Content.Shared.Maps;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
 using Content.Server.DeviceLinking.Systems;
+using Content.Shared.Audio;
 using Content.Shared.DeviceLinking;
 using Content.Shared.Emag.Systems;
+using Robust.Shared.Audio.Systems;
 
 namespace Content.Server._FarHorizons.GenericFieldGenerator.EntitySystems;
 
@@ -37,6 +39,8 @@ public sealed class GenericFieldGeneratorSystem : EntitySystem
     [Dependency] private readonly SharedMapSystem _mapSystem = default!;
     [Dependency] private readonly GenericFieldSystem _genericfield = default!;
     [Dependency] private readonly DeviceLinkSystem _signalSystem = default!;
+    [Dependency] private readonly SharedAudioSystem _audio = default!;
+    [Dependency] private readonly SharedAmbientSoundSystem _ambientSoundSystem = default!;
 
     public override void Initialize()
     {
@@ -196,6 +200,14 @@ public sealed class GenericFieldGeneratorSystem : EntitySystem
 
         var value = component.Connections.Value;
         var (otheruid, othercomponent) = value.Item1;
+
+        _audio.PlayPvs(component.PowerDownSound, generator);
+        _audio.PlayPvs(component.PowerDownSound, value.Item1);
+
+        if (TryComp<AmbientSoundComponent>(generator, out var ambientComponent))
+            _ambientSoundSystem.SetAmbience(generator, false, ambientComponent);
+        if (TryComp<AmbientSoundComponent>(value.Item1, out var otherambientComponent))
+            _ambientSoundSystem.SetAmbience(value.Item1, false, otherambientComponent);
 
         foreach (var field in value.Item2)
         {
@@ -388,6 +400,12 @@ public sealed class GenericFieldGeneratorSystem : EntitySystem
 
         _popupSystem.PopupEntity(Loc.GetString("comp-genericfield-connected"), generator);
         _popupSystem.PopupEntity(Loc.GetString("comp-genericfield-connected"), ent);
+        _audio.PlayPvs(generator.Comp.PowerUpSound, generator);
+        _audio.PlayPvs(generator.Comp.PowerUpSound, ent);
+        if (TryComp<AmbientSoundComponent>(generator, out var ambientComponent))
+            _ambientSoundSystem.SetAmbience(generator, true, ambientComponent);
+        if (TryComp<AmbientSoundComponent>(ent, out var otherambientComponent))
+            _ambientSoundSystem.SetAmbience(ent, true, otherambientComponent);
         return true;
     }
 
