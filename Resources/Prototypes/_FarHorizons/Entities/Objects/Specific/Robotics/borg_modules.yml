@@ -499,14 +499,8 @@
   components:
   - type: PassiveBorgModule
     passiveType: Armor
-  - type: ComponentBorgModule
-    components:
-    - type: Damageable
-      damageContainer: Silicon
-      damageModifierSet: BorgArmorBase
-    uninstallComponents: 
-    - type: Damageable
-      damageContainer: Silicon
+  - type: ArmorBorgModule
+    damageModifierSet: BorgArmorBase
 
 - type: entity
   id: BorgModuleArmorSecBorg
@@ -516,17 +510,13 @@
   components:
   - type: PassiveBorgModule
     passiveType: Armor
+  - type: ArmorBorgModule
+    damageModifierSet: BorgSecBorgArmor
   - type: ComponentBorgModule
     components:
-    - type: Damageable
-      damageContainer: Silicon
-      damageModifierSet: BorgSecBorgArmor
     - type: BodySpeedModifier
       walkModifier: 0.95
       sprintModifier: 0.95
-    uninstallComponents: 
-    - type: Damageable
-      damageContainer: Silicon
 
 - type: entity
   id: BorgModuleArmorReflective
@@ -536,11 +526,10 @@
   components:
   - type: PassiveBorgModule
     passiveType: Armor
+  - type: ArmorBorgModule
+    damageModifierSet: BorgArmorReflective
   - type: ComponentBorgModule
     components:
-    - type: Damageable
-      damageContainer: Silicon
-      damageModifierSet: BorgArmorReflective
     - type: Reflect
       reflectProb: 1
       reflects:
@@ -548,9 +537,6 @@
     - type: BodySpeedModifier
       walkModifier: 0.85
       sprintModifier: 0.85
-    uninstallComponents: 
-    - type: Damageable
-      damageContainer: Silicon
 
 - type: entity
   id: BorgModuleArmorSyndicate
@@ -560,17 +546,13 @@
   components:
   - type: PassiveBorgModule
     passiveType: Armor
+  - type: ArmorBorgModule
+    damageModifierSet: BorgArmorSyndicate
   - type: ComponentBorgModule
     components:
-    - type: Damageable
-      damageContainer: Silicon
-      damageModifierSet: BorgArmorSyndicate
     - type: BodySpeedModifier
       walkModifier: 0.8
       sprintModifier: 0.8
-    uninstallComponents: 
-    - type: Damageable
-      damageContainer: Silicon
 
 #region Speed Modules
 

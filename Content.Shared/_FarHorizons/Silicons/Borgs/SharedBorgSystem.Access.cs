@@ -1,4 +1,5 @@
 using Content.Shared.Access.Components;
+using Content.Shared.Damage.Systems;
 using Content.Shared.Silicons.Borgs.Components;
 using Robust.Shared.Containers;
 
@@ -7,6 +8,7 @@ namespace Content.Shared.Silicons.Borgs;
 /// <inheritdoc/>
 public abstract partial class SharedBorgSystem
 {
+    [Dependency] private readonly DamageableSystem _damageable = default!;
     private void InitializeAccessModule()
     {
         SubscribeLocalEvent<BorgChassisComponent, GetAdditionalAccessEvent>(OnAdditionalAccess);
@@ -33,6 +35,10 @@ public abstract partial class SharedBorgSystem
                 if(HasComp<BorgChassisComponent>(args.Container.Owner))
                     _access.SetAccessEnabled(ent.Owner, true);
                 break;
+            case PassiveBorgModuleType.Armor:
+                if(TryComp<ArmorBorgModuleComponent>(ent.Owner, out var abmComp))
+                    _damageable.SetDamageModifierSetId(args.Container.Owner, abmComp.DamageModifierSetId);
+                break;
             default:
                 return;
         }
@@ -45,6 +51,9 @@ public abstract partial class SharedBorgSystem
             case PassiveBorgModuleType.Access:
                 if(HasComp<BorgChassisComponent>(args.Container.Owner))
                     _access.SetAccessEnabled(ent.Owner, false);
+                break;
+            case PassiveBorgModuleType.Armor:
+                _damageable.SetDamageModifierSetId(args.Container.Owner, null);
                 break;
             default:
                 return;
