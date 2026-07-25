@@ -59,7 +59,7 @@
   name: chat-radio-syndi-security
   keycode: "s"
   frequency: 3325
-  color: "#8a1313"
+  color: "#b31717"
   chatPrefix: NS
 
 - type: radioChannel

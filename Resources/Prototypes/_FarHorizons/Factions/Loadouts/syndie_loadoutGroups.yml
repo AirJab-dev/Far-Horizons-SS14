@@ -237,7 +237,7 @@
   name: loadout-group-pm-neck
   minLimit: 0
   loadouts:
-    - HoPCloak
+    #- HoPCloak
     - PMMantle
 
 - type: loadoutGroup
@@ -303,6 +303,23 @@
   loadouts:
     - MarshalArmoredTrenchCoat
     - MarshalArmoredWinterCoat
+
+- type: loadoutGroup
+  id: MarshalSidearm
+  name: loadout-group-security-sidearm
+  loadouts:
+  - SecurityPistolMk59
+  - SecurityRevolverInspectorM500
+  - SecurityRevolverInspector
+  - SecurityRevolverOathbreakerM500
+  - SecurityRevolverOathbreaker
+  - SecurityRevolverInstigatorM500
+  - SecurityRevolverInstigator
+  - SecurityPistolN1984
+  - SecurityPistolDueProcess
+  - SecurityPistolEnforcerFHNS
+  - SecurityPistolPathology
+  - SecurityMk78
 
 # Foreman
 
@@ -418,8 +435,8 @@
   name: loadout-group-medical-director-neck
   minLimit: 0
   loadouts:
-  - ChiefMedicalOfficerCloak
-  - ChiefMedicalOfficerMantle
+  - ChiefMedicalOfficerCloak #Needs new ones for NS made.
+  - ChiefMedicalOfficerMantle #Needs new ones for NS made.
 
 - type: loadoutGroup
   id: MedicalDirectorShoes
@@ -978,6 +995,8 @@
 - type: loadoutGroup
   id: SecurityBeltSyndi
   name: loadout-group-security-belt
+  minLimit: 1
+  maxLimit: 2
   loadouts:
     - SecurityBeltSyndi
     - SecurityWebbingSyndi
@@ -989,6 +1008,24 @@
   - JackBootsSyndi
   - CombatBootsSyndi
   - HighHeelBootsFilled
+
+- type: loadoutGroup
+  id: SecurityNonLethalWeaponNS
+  name: loadout-group-security-non-lethal-weapon
+  loadouts:
+  - SecurityTaser
+  - SecurityDominatorNS
+
+- type: loadoutGroup
+  id: SecuritySidearmNS
+  name: loadout-group-security-sidearm
+  loadouts:
+  - SecurityPistolMk59 #NeoSol version
+  - SecurityMk78 # FarHorizons
+  #- SecurityPistolDP //Far Horizons Change
+  #- SecurityPistolEnforcer //Far Horizons Change
+  - SecurityRevolverInstigatorM500 # FarHorizons
+  - SecurityRevolverInstigator # FarHorizons
 
 # Corpsman (Corpsman)
 

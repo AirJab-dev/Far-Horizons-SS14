@@ -628,7 +628,7 @@
         - id: HandheldGPSBasic
         - id: ClothingNeckCloakRsoElite
         - id: ClothingNeckCloakRsoElite
-        - id: RadioHandheldSecurity
+        - id: RadioHandheldSecurityNS
         - id: ClothingOuterCoatRedSword
         - id: RubberStampRSO
 

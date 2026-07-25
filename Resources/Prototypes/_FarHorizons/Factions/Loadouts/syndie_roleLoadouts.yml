@@ -25,8 +25,9 @@
   - MarshalUniform
   - SecurityBackpackSyndi
   - SecurityBeltSyndi
-  - SecurityNonLethalWeapon
+  - SecurityNonLethalWeaponNS
   - MarshalOuterClothing
+  - MarshalSidearm
   - SecurityShoesSyndi
   - SurvivalHeadOfSecurity
   - Trinkets
@@ -59,7 +60,7 @@
   - MedicalGlovesSyndi
   - MedicalDirectorBackpack
   - MedicalDirectorOuterClothing
-  - MedicalDirectorNeck
+  #- MedicalDirectorNeck #Disabled currently due to no mantles/cloaks made for NS side.
   - MedicalDirectorShoes
   - MedicalEyewearSyndi
   - SurvivalChiefMedicalOfficer
@@ -335,8 +336,8 @@
   - SecurityBackpackSyndi
   - SecurityBeltSyndi
   - SecurityShoesSyndi
-  - WardenSidearm 
-  - SecurityNonLethalWeapon 
+  - WardenSidearm #Still needs new NS versions
+  - SecurityNonLethalWeaponNS 
   - SurvivalSecurity
   - Trinkets
   - Scarves
@@ -355,8 +356,8 @@
     - CorpsmanSyndiBelt
     - CorpsmanGloves
     - SecurityShoesSyndi
-    - SecurityNonLethalWeapon
-    - CorpsmanSidearm
+    - SecurityNonLethalWeaponNS
+    - CorpsmanSidearm #Still needs new NS version
     - SurvivalSecurity
     - Trinkets
     - Scarves
@@ -374,8 +375,8 @@
     - BrigSyndiGloves
     - BrigSyndiBelt
     - SecurityShoesSyndi
-    - SecurityNonLethalWeapon
-    - BrigmedicSidearm # FarHorizons
+    - SecurityNonLethalWeaponNS
+    - BrigmedicSidearm #Still needs new NS versions
     - SurvivalSecurity
     - Trinkets
     - Scarves
@@ -392,8 +393,8 @@
   - SecurityBackpackSyndi
   - InspectorOuterClothing
   - InspectorShoes
-  - DetectiveSidearm
-  - SecurityNonLethalWeapon 
+  - DetectiveSidearm #Still needs new NS versions
+  - SecurityNonLethalWeaponNS
   - SurvivalSecurity
   - Trinkets
   - Scarves
@@ -411,8 +412,9 @@
   - SecurityBackpackSyndi
   - SecurityBeltSyndi
   - SecurityPDA
-  - SecurityNonLethalWeapon #Starlight
-  - SecuritySidearm #Starlight
+  - SecurityNonLethalWeaponNS
+  - SecuritySidearmNS
+  - SecurityShoesSyndi
   - SurvivalSecurity
   - Trinkets
   - Scarves # Starlight
@@ -424,7 +426,7 @@
   groups:
   - RecruitUniform
   - SecurityBackpackSyndi
-  - SecurityNonLethalWeapon
+  - SecurityNonLethalWeaponNS
   - SurvivalSecurity
   - Trinkets
   - Scarves 

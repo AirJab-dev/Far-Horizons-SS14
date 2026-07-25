@@ -153,6 +153,8 @@
     - StarlightSecurityWeapons
     - StarlightDefenseStatic
 
+#region NeoSol
+
 - type: entity
   id: ProtofabSubzero
   parent: [Protofab, BaseSubzerofab]
@@ -434,3 +436,49 @@
         - RawMaterial
         - Ingot
   - type: OreSiloClient
+
+#- type: entity
+#  id: ExosuitFabricatorNS
+#  parent: BaseLatheLube
+#  name: Exosuit Fabricator
+#  suffix: NS
+#  description: Creates parts for robotics and other mechanical needs.
+#  components:
+#  - type: Sprite
+#    sprite: Structures/Machines/exosuit_fabricator.rsi
+#    layers:
+#    - state: fab-idle
+#      map: ["enum.LatheVisualLayers.IsRunning"]
+#    - state: fab-load
+#      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+#    - state: fab-o
+#      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+#  - type: Machine
+#    board: ExosuitFabricatorMachineCircuitboard
+#  - type: Lathe
+#    idleState: fab-idle
+#    runningState: fab-active
+#    staticPacks:
+#    - RoboticsStaticNS
+#    - BorgModulesStaticNS
+#    - BorgLimbsStatic
+#    dynamicPacks:
+#    - Robotics
+#    - BorgModules
+#    - MechParts
+#    - MechEquipment
+#    - StarlightMechEquipment
+#    - StarlightSecurityMechs
+#    - StarlightMechParts
+#    - FarHorizonsVehicleBasicPartsDynamic #FarHorizons
+#    - FarHorizonsVehicleBasicAdvancedDynamic #FarHorizons
+#  - type: EmagLatheRecipes
+#    emagStaticPacks:
+#    - StarlightMechWeapon
+#    - StarlightSyndicateModules
+#  - type: MaterialStorage
+#    whitelist: *StandardMaterialWhitelist
+#  - type: OreSiloClient
+#  - type: GuideHelp
+#    guides:
+#    - Robotics
