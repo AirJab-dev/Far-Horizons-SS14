@@ -16480,5 +16480,14 @@ Entries:
   id: 147300
   time: '2026-07-24T18:59:56.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1473
+- author: KarusKardin
+  changes:
+  - message: Fixed a Yaml issue which cause several unintended windows to become paintable,
+      which causes client's screens to go black when an unintended instance of the
+      component was painted.
+    type: Fix
+  id: 147500
+  time: '2026-07-25T01:41:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1475
 Order: -1
 
