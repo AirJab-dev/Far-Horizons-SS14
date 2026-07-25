@@ -304,6 +304,23 @@
     - MarshalArmoredTrenchCoat
     - MarshalArmoredWinterCoat
 
+- type: loadoutGroup
+  id: MarshalSidearm
+  name: loadout-group-security-sidearm
+  loadouts:
+  - SecurityPistolMk59
+  - SecurityRevolverInspectorM500
+  - SecurityRevolverInspector
+  - SecurityRevolverOathbreakerM500
+  - SecurityRevolverOathbreaker
+  - SecurityRevolverInstigatorM500
+  - SecurityRevolverInstigator
+  - SecurityPistolN1984
+  - SecurityPistolDueProcess
+  - SecurityPistolEnforcerFHNS
+  - SecurityPistolPathology
+  - SecurityMk78
+
 # Foreman
 
 - type: loadoutGroup
@@ -989,6 +1006,24 @@
   - JackBootsSyndi
   - CombatBootsSyndi
   - HighHeelBootsFilled
+
+- type: loadoutGroup
+  id: SecurityNonLethalWeaponNS
+  name: loadout-group-security-non-lethal-weapon
+  loadouts:
+  - SecurityTaser
+  - SecurityDominatorNS
+
+- type: loadoutGroup
+  id: SecuritySidearmNS
+  name: loadout-group-security-sidearm
+  loadouts:
+  - SecurityPistolMk59 #NeoSol version
+  - SecurityMk78 # FarHorizons
+  #- SecurityPistolDP //Far Horizons Change
+  #- SecurityPistolEnforcer //Far Horizons Change
+  - SecurityRevolverInstigatorM500 # FarHorizons
+  - SecurityRevolverInstigator # FarHorizons
 
 # Corpsman (Corpsman)
 
