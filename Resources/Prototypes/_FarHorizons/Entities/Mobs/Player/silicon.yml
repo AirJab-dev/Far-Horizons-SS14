@@ -92,9 +92,9 @@
     silent: true
 
 - type: entity
-  id: PlayerBorgBatteryNS
-  parent: BorgChassisSelectableNS
-  suffix: Battery, Brain, NS
+  id: PlayerSecBorgChassisNS
+  parent: BorgChassisSecuritySelectableNS
+  suffix: Battery, NS
   components:
   - type: ContainerFill
     containers:
@@ -108,3 +108,94 @@
   - type: StartingMindRole
     mindRole: "MindRoleSiliconBrain"
     silent: true
+
+- type: entity
+  id: PlayerBorgChassisNS
+  parent: BorgChassisSelectableNS
+  suffix: Battery, NS
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMedium
+  - type: StartingMindRole
+    mindRole: "MindRoleSiliconBrain"
+    silent: true
+
+- type: entity
+  id: PlayerBorgBatteryNS
+  parent: BorgChassisSelectableNS
+  suffix: Battery, Brain, NS
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMedium
+  - type: StartingMindRole
+    mindRole: "MindRoleSiliconBrain"
+    silent: true
+
+- type: entity
+  id: StationAiBrainNS
+  parent: StationAiBrain
+  categories: [ HideSpawnMenu, DoNotMap ]
+  suffix: NS
+  components:
+  - type: Access
+    groups:
+    - AllAccessNS
+    - SiliconNS
+
+- type: entity
+  id: PlayerStationAiNS
+  parent: PlayerStationAiEmptyNS
+  suffix: Job spawn, NS
+  components:
+  - type: ContainerSpawnPoint
+    containerId: station_ai_mind_slot
+    job: StationAi
+  - type: ContainerComp
+    proto: AiHeldNS
+
+- type: entity
+  id: PlayerStationAiEmptyNS
+  parent: PlayerStationAiEmpty
+  name: AI core
+  description: The latest in Artificial Intelligences.
+  suffix: Empty, NS
+  component:
+  - type: ContainerComp
+    proto: AiHeldNS
+
+- type: entity
+  id: AiHeldNS
+  description: Components added / removed from an entity that gets inserted into an AI core.
+  parent: AiHeld
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Binary
+    - CommonNS
+    - Executive
+    - EngineeringNS
+    - MedicalNS
+    - ScienceNS
+    - SecurityNS
+    - ServiceNS
+    - GSL
+    - CFA 
+  - type: ActiveRadio
+    channels:
+    - Binary
+    - CommonNS
+    - Executive
+    - EngineeringNS
+    - MedicalNS
+    - ScienceNS
+    - SecurityNS
+    - ServiceNS
+    - GSL
+    - CFA 

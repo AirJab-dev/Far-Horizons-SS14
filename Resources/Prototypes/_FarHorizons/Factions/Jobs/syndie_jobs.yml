@@ -646,6 +646,7 @@
   override:
     icon: JobIconSyndieAI
     supervisors: job-supervisors-ep
+    jobEntity: StationAiBrainNS
 
 - type: factionJobAssignment
   id: SyndieBorg
@@ -656,7 +657,7 @@
     name: faction-syndicate-job-borg
     icon: JobIconSyndieBorg
     supervisors: job-supervisors-ep
-    jobEntity: PlayerBorgBatteryNS
+    jobEntity: PlayerBorgChassisNS
 
 #region Security
 
@@ -791,4 +792,4 @@
     name: faction-syndicate-job-secborg
     icon: JobIconSyndieSecborg
     supervisors: job-supervisors-marshal
-    jobEntity: PlayerSecBorgBatteryNS
+    jobEntity: PlayerBorgChassisNS
