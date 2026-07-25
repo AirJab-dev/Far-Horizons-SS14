@@ -20,7 +20,6 @@ using Robust.Shared.Map.Components;
 using Content.Server.DeviceLinking.Systems;
 using Content.Shared.Audio;
 using Content.Shared.DeviceLinking;
-using Content.Shared.Emag.Systems;
 using Robust.Shared.Audio.Systems;
 
 namespace Content.Server._FarHorizons.GenericFieldGenerator.EntitySystems;
