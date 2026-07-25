@@ -59,7 +59,10 @@ namespace Content.Client.Paper.UI
             typeof(LogoTag),
             typeof(SyndieLogoTag),
             typeof(CCLogoTag),
-            typeof(CFALogoTag), //Far Horizons
+            //Far Horizons-Start
+            typeof(CFALogoTag),
+            typeof(NSLogoTag),
+            //Far Horizons-End
             typeof(CheckTagHandler)
         };
 
