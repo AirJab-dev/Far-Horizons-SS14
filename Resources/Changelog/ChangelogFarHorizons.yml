@@ -16591,5 +16591,82 @@ Entries:
   id: 147805
   time: '2026-07-25T16:28:37.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: CorruptOmega
+  changes:
+  - message: Marshall has lethal and nonlethal sidearm selections
+    type: Fix
+  id: 147900
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: Enforcers have shoe selection again
+    type: Fix
+  id: 147901
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Dominator for nonlethal takedowns. Now including correct access!
+    type: Fix
+  id: 147902
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Security Cyborg (L.E.A.D.) has NS modules with NS access stuff
+    type: Fix
+  id: 147903
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Security Radio's now use their correct channel
+    type: Fix
+  id: 147904
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Security Basic Vest has correct name/description now
+    type: Fix
+  id: 147905
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Sec Belt correct storage now
+    type: Fix
+  id: 147906
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Sec can choose both belt and webbing like their NT counterparts
+    type: Fix
+  id: 147907
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: Removed some loadout options that some NS leadership had from NT counterparts.
+    type: Fix
+  id: 147908
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Station Beacons for the non-generic places not already covered
+    type: Add
+  id: 147909
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Security Comms color has been brightened.
+    type: Tweak
+  id: 147910
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
 Order: -1
 
