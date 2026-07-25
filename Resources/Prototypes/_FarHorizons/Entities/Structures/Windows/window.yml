@@ -158,7 +158,7 @@
     sprite: Structures/Windows/reinforced_window.rsi
 
 - type: entity
-  parent: Window
+  parent: BaseWindow 
   id: TintedWindowNeoSol
   name: Tinted Window
   suffix: NS
