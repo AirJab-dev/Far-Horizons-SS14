@@ -88,8 +88,13 @@ public sealed class PresetIdCardSystem : EntitySystem
         _cardSystem.TryChangeJobTitle(uid, jobName);
         _cardSystem.TryChangeJobDepartment(uid, job);
 
-        // Far Horizons faction job icon override
+        // Far Horizons start
+        // Faction job icon override
         if (_prototypeManager.Resolve(_factions.OverrideJobIcon((faction, job)), out var jobIcon))
             _cardSystem.TryChangeJobIcon(uid, jobIcon);
+        
+        // SetFaction
+        _cardSystem.TryChangeFaction(uid, id.Faction);
+        // Far Horizons end
     }
 }

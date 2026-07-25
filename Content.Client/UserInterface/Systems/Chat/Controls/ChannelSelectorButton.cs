@@ -82,7 +82,7 @@ public sealed class ChannelSelectorButton : ChatPopupButton<ChannelSelectorPopup
         {
             // Far Horizons start
             var name = Loc.GetString(radio.Name);
-            if (_cfg.GetCVar(FHCCVars.ChatShowFactionPrefix))
+            if (_cfg.GetCVar(FHCCVars.ChatShowFactionPrefix) && radio.ChatPrefix != null)
                 name = $"({radio.ChatPrefix}){name}";
             
             Text = name;

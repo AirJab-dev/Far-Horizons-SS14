@@ -16489,5 +16489,107 @@ Entries:
   id: 147500
   time: '2026-07-25T01:41:25.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1475
+- author: KarusKardin
+  changes:
+  - message: Added audio to Holographic Field Generators
+    type: Add
+  id: 147700
+  time: '2026-07-25T13:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1477
+- author: KarusKardin
+  changes:
+  - message: Minor Improvments to GenericFieldGeneratorSystem
+    type: Tweak
+  id: 147701
+  time: '2026-07-25T13:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1477
+- author: KarusKardin
+  changes:
+  - message: Removed EMAG functionality from Holographic Generators
+    type: Remove
+  id: 147702
+  time: '2026-07-25T13:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1477
+- author: KarusKardin
+  changes:
+  - message: Removed Homographic Fields (EMAG Effect)
+    type: Remove
+  id: 147703
+  time: '2026-07-25T13:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1477
+- author: princess_gurchi
+  changes:
+  - message: Channel prefixes won't show up as empty "()" if there's no prefix
+    type: Fix
+  id: 148100
+  time: '2026-07-25T14:33:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1481
+- author: princess_gurchi
+  changes:
+  - message: Nanotrasen found out about their stolen company card. Now everyone's
+      salary will come from their respective employer (NT, NS, GSL, CFA)
+    type: Fix
+  id: 148101
+  time: '2026-07-25T14:33:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1481
+- author: princess_gurchi
+  changes:
+  - message: Crew monitor will show proper department name depending on faction
+    type: Fix
+  id: 148102
+  time: '2026-07-25T14:33:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1481
+- author: princess_gurchi
+  changes:
+  - message: Elder boss has learned some good manners and is now less likely to decapitate
+      its opponents
+    type: Tweak
+  id: 148103
+  time: '2026-07-25T14:33:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1481
+- author: AthenaAI
+  changes:
+  - message: Fixes PassiveModules being counted toward cap.
+    type: Fix
+  id: 147800
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Fixes Pharmacist Coat not working properly.
+    type: Fix
+  id: 147801
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Fixes AI not being properly assigned to the NeoSol side. Replace PlayerStationAi
+      with PlayerStationAiNS and PlayerStationAiEmpty with PlayerStationAiEmptyNS.
+      To fix the issue in mapping.
+    type: Fix
+  id: 147802
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Fixed double borg brain spawn for NeoSol station.
+    type: Fix
+  id: 147803
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Fixed issue with Borgs being dead and alive when crit.
+    type: Fix
+  id: 147804
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Door Electronics now have both lists of NS and NT.
+    type: Tweak
+  id: 147805
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
 Order: -1
 
