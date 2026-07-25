@@ -156,8 +156,6 @@
   - type: ContainerSpawnPoint
     containerId: station_ai_mind_slot
     job: StationAi
-  - type: ContainerComp
-    proto: AiHeldNS
 
 - type: entity
   id: PlayerStationAiEmptyNS
@@ -165,7 +163,7 @@
   name: AI core
   description: The latest in Artificial Intelligences.
   suffix: Empty, NS
-  component:
+  components:
   - type: ContainerComp
     proto: AiHeldNS
 
@@ -178,24 +176,24 @@
   - type: IntrinsicRadioTransmitter
     channels:
     - Binary
-    - CommonNS
-    - Executive
-    - EngineeringNS
-    - MedicalNS
-    - ScienceNS
-    - SecurityNS
-    - ServiceNS
+    - SyndiCommand
+    - SyndiSec
+    - SyndiEngi
+    - SyndiSci
+    - SyndiMed
+    - SyndiService
+    - SyndiCommon
     - GSL
     - CFA 
   - type: ActiveRadio
     channels:
     - Binary
-    - CommonNS
-    - Executive
-    - EngineeringNS
-    - MedicalNS
-    - ScienceNS
-    - SecurityNS
-    - ServiceNS
+    - SyndiCommand
+    - SyndiSec
+    - SyndiEngi
+    - SyndiSci
+    - SyndiMed
+    - SyndiService
+    - SyndiCommon
     - GSL
     - CFA 

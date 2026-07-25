@@ -792,4 +792,4 @@
     name: faction-syndicate-job-secborg
     icon: JobIconSyndieSecborg
     supervisors: job-supervisors-marshal
-    jobEntity: PlayerBorgChassisNS
+    jobEntity: PlayerSecBorgChassisNS
