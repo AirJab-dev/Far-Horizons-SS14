@@ -9,13 +9,13 @@
   - MechThruster
   - AiInterfaceCube
 
-- type: latheRecipePack
-  id: BorgModulesStaticNS
-  recipes:
-  - BorgModuleTool
-  - BorgModuleCable
-  - BorgModuleFireExtinguisher
-  - BorgModuleInflatable
-  - BorgModuleArtistry
-  - BorgModuleUppies
-  - BorgModuleAccessNS
+#- type: latheRecipePack
+#  id: BorgModulesStaticNS
+#  recipes:
+#  - BorgModuleTool
+#  - BorgModuleCable
+#  - BorgModuleFireExtinguisher
+#  - BorgModuleInflatable
+#  - BorgModuleArtistry
+#  - BorgModuleUppies
+#  - BorgModuleAccessNS
