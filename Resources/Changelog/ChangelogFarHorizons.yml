@@ -16517,5 +16517,35 @@ Entries:
   id: 147703
   time: '2026-07-25T13:35:16.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1477
+- author: princess_gurchi
+  changes:
+  - message: Channel prefixes won't show up as empty "()" if there's no prefix
+    type: Fix
+  id: 148100
+  time: '2026-07-25T14:33:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1481
+- author: princess_gurchi
+  changes:
+  - message: Nanotrasen found out about their stolen company card. Now everyone's
+      salary will come from their respective employer (NT, NS, GSL, CFA)
+    type: Fix
+  id: 148101
+  time: '2026-07-25T14:33:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1481
+- author: princess_gurchi
+  changes:
+  - message: Crew monitor will show proper department name depending on faction
+    type: Fix
+  id: 148102
+  time: '2026-07-25T14:33:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1481
+- author: princess_gurchi
+  changes:
+  - message: Elder boss has learned some good manners and is now less likely to decapitate
+      its opponents
+    type: Tweak
+  id: 148103
+  time: '2026-07-25T14:33:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1481
 Order: -1
 
