@@ -16489,5 +16489,33 @@ Entries:
   id: 147500
   time: '2026-07-25T01:41:25.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1475
+- author: KarusKardin
+  changes:
+  - message: Added audio to Holographic Field Generators
+    type: Add
+  id: 147700
+  time: '2026-07-25T13:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1477
+- author: KarusKardin
+  changes:
+  - message: Minor Improvments to GenericFieldGeneratorSystem
+    type: Tweak
+  id: 147701
+  time: '2026-07-25T13:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1477
+- author: KarusKardin
+  changes:
+  - message: Removed EMAG functionality from Holographic Generators
+    type: Remove
+  id: 147702
+  time: '2026-07-25T13:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1477
+- author: KarusKardin
+  changes:
+  - message: Removed Homographic Fields (EMAG Effect)
+    type: Remove
+  id: 147703
+  time: '2026-07-25T13:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1477
 Order: -1
 
