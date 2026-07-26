@@ -131,7 +131,6 @@
   - type: BlockWeather
 
   #region NeoSol
-
 - type: entity
   id: WindowSyndie
   parent: Window
@@ -183,3 +182,216 @@
     - On
     - Off
     - Toggle
+#region Reinf. Shuttle Window
+- type: entity
+  id: ShuttleWindowReinforced
+  name: Reinforced Shuttle Window
+  parent: [BaseDeltaPressurePlasmaQuarter, WindowRCDResistant]
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/shuttle_window.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/shuttle_window.rsi
+  - type: Repairable
+    fuelCost: 15
+    doAfterDelay: 3
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: RGlass
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 750
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+          PartRodMetal:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IconSmooth
+    key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align.
+    base: swindow
+  - type: Appearance
+  - type: DamageVisuals
+    thresholds: [5, 10, 20]
+    damageDivisor: 20
+    trackAllDamage: true
+    damageOverlay:
+      sprite: Structures/Windows/cracks.rsi
+  - type: StaticPrice
+    price: 250
+  - type: Construction
+    graph: Window
+    node: ReinforcedShuttleWindow
+
+- type: entity
+  parent: ShuttleWindowReinforced
+  id: ShuttleWindowReinforcedDiagonal
+  suffix: Diagonal
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align.
+    base: state
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "-0.5,-0.5"
+            - "0.5,0.5"
+            - "0.5,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - East
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: Structures/Windows/cracks_diagonal.rsi
+  - type: Construction
+    graph: Window
+    node: ReinforcedShuttleWindowDirectional
+
+#region A.Shuttle Window
+- type: entity
+  id: ShuttleWindowArmored
+  name: Armored Shuttle Window
+  parent: [BaseDeltaPressureReinforcedPlasmaQuarter, WindowRCDResistant]
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/shuttle_window.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/shuttle_window.rsi
+  - type: Repairable
+    fuelCost: 15
+    doAfterDelay: 3
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: RGlass
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1200
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+          PartRodMetal:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IconSmooth
+    key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align.
+    base: swindow
+  - type: Appearance
+  - type: DamageVisuals
+    thresholds: [5, 10, 20]
+    damageDivisor: 20
+    trackAllDamage: true
+    damageOverlay:
+      sprite: Structures/Windows/cracks.rsi
+  - type: StaticPrice
+    price: 350
+  - type: Construction
+    graph: Window
+    node: ArmoredShuttleWindow
+
+- type: entity
+  parent: ShuttleWindowArmored
+  id: ShuttleWindowArmoredDiagonal
+  suffix: Diagonal
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align.
+    base: state
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "-0.5,-0.5"
+            - "0.5,0.5"
+            - "0.5,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - East
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: Structures/Windows/cracks_diagonal.rsi
+  - type: Construction
+    graph: Window
+    node: ArmoredShuttleWindowDirectional
