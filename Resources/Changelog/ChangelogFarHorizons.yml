@@ -16696,5 +16696,12 @@ Entries:
   id: 148703
   time: '2026-07-26T16:33:26.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1487
+- author: mogaiskii
+  changes:
+  - message: ns accesses.
+    type: Fix
+  id: 148900
+  time: '2026-07-26T17:06:50.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1489
 Order: -1
 
