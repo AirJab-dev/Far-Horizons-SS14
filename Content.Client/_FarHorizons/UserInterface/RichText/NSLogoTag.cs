@@ -28,7 +28,7 @@ public sealed class NSLogoTag : IMarkupTag
 
         var icon = new TextureRect
         {
-            Texture = _resourceCache.GetTexture("Textures/_FarHorizons/Logo/NSLogo.png"),
+            Texture = _resourceCache.GetTexture("/Textures/_FarHorizons/Logo/NSLogo.png"),
             TextureScale = new Vector2(0.5f, 0.5f),
         };
 
