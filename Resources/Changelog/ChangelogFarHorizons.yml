@@ -16668,5 +16668,33 @@ Entries:
   id: 147910
   time: '2026-07-25T23:19:31.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: Milterria, MightyM1me, mogaiskii, Jhrushbe
+  changes:
+  - message: Core map upkeep&fixes.
+    type: Fix
+  id: 148700
+  time: '2026-07-26T16:33:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1487
+- author: Milterria, MightyM1me, mogaiskii, Jhrushbe
+  changes:
+  - message: Fixed service windoors, renamed most important cameras on FHUnity.
+    type: Fix
+  id: 148701
+  time: '2026-07-26T16:33:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1487
+- author: Milterria, MightyM1me, mogaiskii, Jhrushbe
+  changes:
+  - message: Fixed SHC and Unity bugs
+    type: Fix
+  id: 148702
+  time: '2026-07-26T16:33:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1487
+- author: Milterria, MightyM1me, mogaiskii, Jhrushbe
+  changes:
+  - message: Worked on NeoSol High Command a bit.
+    type: Tweak
+  id: 148703
+  time: '2026-07-26T16:33:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1487
 Order: -1
 
