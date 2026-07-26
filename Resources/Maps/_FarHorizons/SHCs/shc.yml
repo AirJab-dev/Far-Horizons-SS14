@@ -2,10 +2,10 @@ meta:
   format: 7
   category: Grid
   engineVersion: 272.0.1
-  forkId: farhorizons
-  forkVersion: 75a9e9e084
-  time: 07/25/2026 23:02:49
-  entityCount: 14749
+  forkId: ""
+  forkVersion: ""
+  time: 07/26/2026 15:59:54
+  entityCount: 14751
 maps: []
 grids:
 - 1
@@ -47,6 +47,7 @@ entities:
     - type: MetaData
       name: Syndicate High Command
     - type: Transform
+      parent: invalid
     - type: Parallax
       parallax: KettleStation
     - type: MapGrid
@@ -7105,6 +7106,13 @@ entities:
     components:
     - type: Transform
       pos: -71.50409,13.497009
+      parent: 1
+- proto: AiInterfaceCube
+  entities:
+  - uid: 14751
+    components:
+    - type: Transform
+      pos: -44.47953,-8.121614
       parent: 1
 - proto: AirAlarm
   entities:
@@ -46835,7 +46843,7 @@ entities:
       pos: -6.5,-7.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -65411.152
+      secondsUntilStateChange: -67217.33
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -74343,6 +74351,13 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
+- proto: HolopadLongRange
+  entities:
+  - uid: 14752
+    components:
+    - type: Transform
+      pos: -49.5,-8.5
+      parent: 1
 - proto: HolopadMedicalChemistry
   entities:
   - uid: 10421
@@ -78240,12 +78255,11 @@ entities:
     - type: Transform
       pos: -47.5,-18.5
       parent: 1
-- proto: PlayerStationAiEmpty
+- proto: PlayerStationAiEmptyNS
   entities:
-  - uid: 10917
+  - uid: 14750
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
       pos: -48.5,-8.5
       parent: 1
 - proto: PlushieAsh
