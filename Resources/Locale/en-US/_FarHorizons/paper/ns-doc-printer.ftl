@@ -2,7 +2,7 @@
 # Reports
 
 doc-text-printer-neosol-report-morgue =
-     ⠀[NSLogo]               
+     ⠀[nslogo]               
                      
                      
      
