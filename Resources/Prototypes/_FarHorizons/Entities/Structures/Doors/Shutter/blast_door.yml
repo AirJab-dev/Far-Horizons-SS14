@@ -46,7 +46,7 @@
         acts: ["Destruction"]
   - type: ContainerFill
     containers:
-      board: [ DoorElectronicsCommand ]
+      board: [ DoorElectronicsCommandArmory ]
   - type: Construction
     graph: BlastDoorSecure
     node: blastdoor

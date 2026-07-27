@@ -182,6 +182,7 @@
     - On
     - Off
     - Toggle
+
 #region Reinf. Shuttle Window
 - type: entity
   id: ShuttleWindowReinforced
@@ -333,7 +334,7 @@
         acts: [ "Destruction" ]
   - type: IconSmooth
     key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align.
-    base: swindow
+    base: swindow 
   - type: Appearance
   - type: DamageVisuals
     thresholds: [5, 10, 20]

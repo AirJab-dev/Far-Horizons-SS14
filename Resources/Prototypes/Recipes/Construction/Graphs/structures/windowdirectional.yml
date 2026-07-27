@@ -20,23 +20,39 @@
 #FH - Start
         - to: ReinforcedShuttleWindowDirectional
           steps:
+            - material: Steel
+              amount: 1
+              doAfter: 2
             - material: Plasteel
+              amount: 1
+              doAfter: 2
+            - material: MetalRod
               amount: 2
+              doAfter: 1
             - material: ReinforcedPlasmaGlass
               amount: 2
               doAfter: 4
-            - tool: Welding
-              doAfter: 5
 
         - to: ArmoredShuttleWindowDirectional
           steps:
+            - material: Steel
+              amount: 1
+              doAfter: 1
             - material: Plasteel
-              amount: 2
+              amount: 1
+              doAfter: 1
+            - material: MetalRod
+              amount: 4
+              doAfter: 1
             - material: ReinforcedUraniumGlass
               amount: 2
               doAfter: 4
-            - tool: Welding
-              doAfter: 5
+            - material: Steel
+              amount: 1
+              doAfter: 1
+            - material: Plasteel
+              amount: 1
+              doAfter: 1
 #FH - End
 
         - to: plasmaWindowDirectional

@@ -57,23 +57,39 @@
 #FH - Start
         - to: ReinforcedShuttleWindow
           steps:
+            - material: Steel
+              amount: 2
+              doAfter: 2
             - material: Plasteel
+              amount: 2
+              doAfter: 2
+            - material: MetalRod
               amount: 4
+              doAfter: 1
             - material: ReinforcedPlasmaGlass
               amount: 4
               doAfter: 4
-            - tool: Welding
-              doAfter: 5
 
         - to: ArmoredShuttleWindow
           steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
             - material: Plasteel
-              amount: 4
+              amount: 2
+              doAfter: 1
+            - material: MetalRod
+              amount: 8
+              doAfter: 1
             - material: ReinforcedUraniumGlass
               amount: 4
               doAfter: 4
-            - tool: Welding
-              doAfter: 5
+            - material: Steel
+              amount: 2
+              doAfter: 1
+            - material: Plasteel
+              amount: 2
+              doAfter: 1
 #FH - End
 
         - to: clockworkWindow
