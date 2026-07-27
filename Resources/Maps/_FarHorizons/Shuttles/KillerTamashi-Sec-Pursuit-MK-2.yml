@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.1
   forkId: ""
   forkVersion: ""
-  time: 07/27/2026 22:41:59
-  entityCount: 1810
+  time: 07/27/2026 22:56:14
+  entityCount: 1812
 maps: []
 grids:
 - 1
@@ -1242,7 +1242,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -13693.763
+      secondsUntilStateChange: -14051.893
       state: Opening
 - proto: AirSensor
   entities:
@@ -1745,6 +1745,18 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 2.5,-8.5
       parent: 1
+  - uid: 1158
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 0.5,1.5
+      parent: 1
+  - uid: 1180
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -12.5,1.5
+      parent: 1
   - uid: 1199
     components:
     - type: Transform
@@ -1846,6 +1858,18 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 2.5,-11.5
+      parent: 1
+  - uid: 1388
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -12.5,2.5
+      parent: 1
+  - uid: 1389
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 0.5,2.5
       parent: 1
   - uid: 1635
     components:
@@ -2058,14 +2082,12 @@ entities:
   - uid: 106
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
       pos: -7.5,-0.5
       parent: 1
   - uid: 108
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -9.5,-3.5
+      pos: -8.5,-0.5
       parent: 1
   - uid: 109
     components:
@@ -2155,6 +2177,17 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -8.5,20.5
       parent: 1
+  - uid: 134
+    components:
+    - type: Transform
+      pos: -3.5,-0.5
+      parent: 1
+  - uid: 687
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -7.5,-0.5
+      parent: 1
   - uid: 1773
     components:
     - type: Transform
@@ -2170,23 +2203,24 @@ entities:
     - type: Transform
       pos: 0.5,-7.5
       parent: 1
-- proto: ButtonFrameCautionSecurity
-  entities:
-  - uid: 105
+  - uid: 1808
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -12.5,3.5
+      parent: 1
+  - uid: 1812
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
-      pos: -7.5,-0.5
+      pos: 0.5,3.5
       parent: 1
+- proto: ButtonFrameCautionSecurity
+  entities:
   - uid: 125
     components:
     - type: Transform
       pos: -5.5,17.5
-      parent: 1
-  - uid: 126
-    components:
-    - type: Transform
-      pos: -8.5,-0.5
       parent: 1
   - uid: 127
     components:
@@ -2225,11 +2259,6 @@ entities:
     components:
     - type: Transform
       pos: -2.5,-0.5
-      parent: 1
-  - uid: 134
-    components:
-    - type: Transform
-      pos: -3.5,-0.5
       parent: 1
   - uid: 135
     components:
@@ -5299,11 +5328,6 @@ entities:
       parent: 1
 - proto: ComputerRadar
   entities:
-  - uid: 687
-    components:
-    - type: Transform
-      pos: -8.5,-0.5
-      parent: 1
   - uid: 688
     components:
     - type: Transform
@@ -5657,7 +5681,7 @@ entities:
       pos: 0.5,9.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -37046.02
+      secondsUntilStateChange: -37404.15
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8901,37 +8925,34 @@ entities:
     - type: Physics
       canCollide: True
     - type: ActionsContainer
-- proto: LockableButtonBrig
+- proto: LockableButtonSecurity
   entities:
-  - uid: 1147
+  - uid: 105
     components:
     - type: MetaData
-      desc: Shoots the lasers!
-      name: Fire!
+      name: Gunnery Blast Doors
     - type: Transform
       pos: -8.5,-0.5
       parent: 1
     - type: AccessReader
       accessListsOriginal:
-      - - Brig
+      - - Security
     - type: DeviceLinkSource
       linkedPorts:
-        1270:
+        91:
         - - Pressed
-          - Trigger
-        1276:
+          - Toggle
+        94:
         - - Pressed
-          - Trigger
-        1412:
+          - Toggle
+        96:
         - - Pressed
-          - Trigger
-        1414:
+          - Toggle
+        90:
         - - Pressed
-          - Trigger
+          - Toggle
     - type: Fixtures
       fixtures: {}
-- proto: LockableButtonSecurity
-  entities:
   - uid: 1118
     components:
     - type: MetaData
@@ -9009,6 +9030,38 @@ entities:
         - - Pressed
           - Toggle
         1787:
+        - - Pressed
+          - Toggle
+    - type: Fixtures
+      fixtures: {}
+  - uid: 1147
+    components:
+    - type: MetaData
+      name: Shutters
+    - type: Transform
+      pos: -7.5,-0.5
+      parent: 1
+    - type: AccessReader
+      accessListsOriginal:
+      - - Security
+    - type: DeviceLinkSource
+      linkedPorts:
+        649:
+        - - Pressed
+          - Toggle
+        1354:
+        - - Pressed
+          - Toggle
+        1353:
+        - - Pressed
+          - Toggle
+        1120:
+        - - Pressed
+          - Toggle
+        1351:
+        - - Pressed
+          - Toggle
+        1352:
         - - Pressed
           - Toggle
     - type: Fixtures
@@ -9149,61 +9202,26 @@ entities:
   - uid: 1154
     components:
     - type: MetaData
-      desc: Opens and closes the laser blast doors.
-      name: Laser Blast Doors
+      name: Docking Area Lockdown
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: -7.5,-0.5
+      pos: -3.5,-3.5
       parent: 1
     - type: AccessReader
       accessListsOriginal:
       - - Security
     - type: DeviceLinkSource
       linkedPorts:
-        91:
+        1158:
         - - Pressed
           - Toggle
-        90:
+        1389:
         - - Pressed
           - Toggle
-        96:
+        1180:
         - - Pressed
           - Toggle
-        94:
-        - - Pressed
-          - Toggle
-    - type: Fixtures
-      fixtures: {}
-  - uid: 1158
-    components:
-    - type: MetaData
-      desc: Opens and Closes the Bridge shutters.
-      name: Exterior/Interior Shutters
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -9.5,-3.5
-      parent: 1
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-    - type: DeviceLinkSource
-      linkedPorts:
-        1351:
-        - - Pressed
-          - Toggle
-        1352:
-        - - Pressed
-          - Toggle
-        1120:
-        - - Pressed
-          - Toggle
-        1353:
-        - - Pressed
-          - Toggle
-        649:
-        - - Pressed
-          - Toggle
-        1354:
+        1388:
         - - Pressed
           - Toggle
     - type: Fixtures
@@ -9705,19 +9723,6 @@ entities:
       - - Security
     - type: Fixtures
       fixtures: {}
-  - uid: 1180
-    components:
-    - type: MetaData
-      desc: Closes all door shutters in the middle of the ship
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -3.5,-3.5
-      parent: 1
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-    - type: Fixtures
-      fixtures: {}
   - uid: 1181
     components:
     - type: MetaData
@@ -9731,16 +9736,16 @@ entities:
       - - Security
     - type: DeviceLinkSource
       linkedPorts:
+        1180:
+        - - Pressed
+          - Toggle
         1388:
         - - Pressed
           - Toggle
-        1391:
+        1158:
         - - Pressed
           - Toggle
         1389:
-        - - Pressed
-          - Toggle
-        1390:
         - - Pressed
           - Toggle
     - type: Fixtures
@@ -9865,6 +9870,48 @@ entities:
         - - Pressed
           - Toggle
         1399:
+        - - Pressed
+          - Toggle
+    - type: Fixtures
+      fixtures: {}
+  - uid: 1390
+    components:
+    - type: MetaData
+      name: Emergency Override
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -12.5,3.5
+      parent: 1
+    - type: AccessReader
+      accessListsOriginal:
+      - - Security
+    - type: DeviceLinkSource
+      linkedPorts:
+        1388:
+        - - Pressed
+          - Toggle
+        1180:
+        - - Pressed
+          - Toggle
+    - type: Fixtures
+      fixtures: {}
+  - uid: 1391
+    components:
+    - type: MetaData
+      name: Emergency Override
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 0.5,3.5
+      parent: 1
+    - type: AccessReader
+      accessListsOriginal:
+      - - Security
+    - type: DeviceLinkSource
+      linkedPorts:
+        1158:
+        - - Pressed
+          - Toggle
+        1389:
         - - Pressed
           - Toggle
     - type: Fixtures
@@ -10900,18 +10947,6 @@ entities:
     - type: Transform
       pos: -6.5,-4.5
       parent: 1
-  - uid: 1388
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -12.5,2.5
-      parent: 1
-  - uid: 1389
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 0.5,2.5
-      parent: 1
 - proto: ShuttersSecureWindow
   entities:
   - uid: 1395
@@ -10969,18 +11004,6 @@ entities:
     - type: Transform
       pos: -6.5,5.5
       parent: 1
-  - uid: 1390
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 0.5,1.5
-      parent: 1
-  - uid: 1391
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -12.5,1.5
-      parent: 1
   - uid: 1392
     components:
     - type: Transform
@@ -11021,6 +11044,27 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -10.5,14.5
       parent: 1
+- proto: ShuttleGunneryConsole
+  entities:
+  - uid: 126
+    components:
+    - type: Transform
+      pos: -8.5,-0.5
+      parent: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        1412:
+        - - GunneryConsoleTurretControl
+          - Trigger
+        1414:
+        - - GunneryConsoleTurretControl
+          - Trigger
+        1270:
+        - - GunneryConsoleTurretControl
+          - Trigger
+        1276:
+        - - GunneryConsoleTurretControl
+          - Trigger
 - proto: ShuttleGunPerforator
   entities:
   - uid: 1270
@@ -11984,6 +12028,8 @@ entities:
       rot: 3.141592653589793 rad
       pos: 0.5,-0.5
       parent: 1
+    - type: Thruster
+      enabled: False
   - uid: 1470
     components:
     - type: Transform
