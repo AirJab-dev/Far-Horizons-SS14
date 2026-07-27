@@ -220,10 +220,16 @@ public sealed partial class EncryptionKeySystem : EntitySystem
                 ? keyCodes[channel.ID]
                 : $"{SharedChatSystem.RadioChannelPrefix}{keyCodes[channel.ID]}";
 
+            // Far Horizons start
+            var channelName = channel.LocalizedName;
+            if (channel.ChatPrefix != null)
+                channelName = $"({channel.ChatPrefix}){channel.LocalizedName}";
+            // Far Horizons end
+
             examineEvent.PushMarkup(Loc.GetString(channelFTLPattern,
                 ("color", channel.Color),
                 ("key", key),
-                ("id", channel.LocalizedName),
+                ("id", channelName), // Far Horizons
                 ("freq", channel.Frequency / 10f)));
         }
         // Far Horizons end

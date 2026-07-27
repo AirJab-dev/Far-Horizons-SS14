@@ -109476,7 +109476,7 @@ entities:
     - type: Transform
       pos: 50.6435,34.509346
       parent: 2
-- proto: WeaponShotgunEnforcer
+- proto: WeaponShotgunSentinel
   entities:
   - uid: 5153
     components:

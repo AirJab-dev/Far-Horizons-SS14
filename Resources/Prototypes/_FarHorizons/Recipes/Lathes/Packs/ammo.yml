@@ -33,6 +33,14 @@
   - MagazineCanisterRevolver38HP
   - MagazineCanisterRevolver38FMJ
   - MagazineCanisterRevolver38
+# Shotgun
+  - MagazineCanisterShotgun12G
+  - MagazineCanisterShotgun12GBuckshot
+  - MagazineCanisterShotgun12GFlechette
+  - MagazineCanisterShotgun12GSlug
+  - MagazineCanisterShotgun12GBeanbag
+  - MagazineCanisterShotgun12GPractice
+  - MagazineCanisterShotgun12GFlare
 ######################BOX#######################
 # Light Rifle
   - MagazineBoxLightRifleSP
@@ -59,6 +67,7 @@
   - BoxLethalshot
   - BoxShotgunSlug
   - BoxShellTranquilizer
+  - BoxShotgunFlechette
 #####################MAGAZINE#######################
 # LMG
   - Rifle556HeavyMagazineSP
@@ -104,13 +113,20 @@
   - MagazineRifle556FMJ
   - MagazineRifle556Empty
 # Shotgun
-  - MagazineShotgun
   - MagazineShotgunEmpty
+  - MagazineShotgun
+  - MagazineShotgunFlechette
   - MagazineShotgunSlug
+  - MagazineShotgunBeanbag
+  - MagazineShotgunPractice
+  - MagazineShotgunFlare
   - SpeedLoaderMagnumBasic
   - SpeedLoaderShotgunEmpty
   - SpeedLoaderShotgunSlug
   - SpeedLoaderShotgunBeanbag
+  - SpeedLoaderShotgunFlechette
+  - SpeedLoaderShotgunFlare
+  - SpeedLoaderShotgunPractice
 ####################################################
 
 # Shared between AmmoFab and emagged Protolathe
@@ -138,6 +154,10 @@
   - MagazineCanisterRevolver38Incendiary
   - MagazineCanisterRevolver38Uranium
   - MagazineCanisterRevolver38AP
+# Shotgun
+  - MagazineCanisterShotgun12GIncendiary
+  - MagazineCanisterShotgun12GUranium
+  - MagazineCanisterShotgun12GUraniumFlechette
 #####################BOX#######################
 # Light Rifle
   - MagazineBoxLightRifleIncendiary
@@ -159,6 +179,7 @@
 # Shotgun
   - BoxShotgunIncendiary
   - BoxShotgunUranium
+  - BoxShotgunUraniumFlechette
 #####################MAGAZINE#######################
 # LMG
   - Rifle556HeavyMagazineIncendiary
@@ -187,7 +208,10 @@
   - MagazineRifle556AP
 # Shotgun
   - MagazineShotgunIncendiary
+  - MagazineShotgunUranium
+  - MagazineShotgunUraniumFlechette
   - SpeedLoaderShotgunIncendiary
   - SpeedLoaderShotgunUranium
+  - SpeedLoaderShotgunUraniumFlechette
 # Grenade
   - MagazineGrenadeEmpty

@@ -15,7 +15,7 @@ public sealed partial class FHCCVars
     ///     List of factions enabled for vote.
     /// </summary>
     public static readonly CVarDef<string> VotableFactions =
-        CVarDef.Create("factions.votable_factions", "FactionNT", CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("factions.votable_factions", "FactionNT,FactionSyndicate", CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     ///     Sets the duration of the faction vote timer.
@@ -30,5 +30,15 @@ public sealed partial class FHCCVars
     public static readonly CVarDef<bool> LimbTargettingMatchSpecies =
         CVarDef.Create("ui.limb_targetting_match_species", false, CVar.CLIENTONLY | CVar.ARCHIVE);
 
+    public static readonly CVarDef<string> HostileTelegraphsColor = 
+        CVarDef.Create("accessibility.hostile_telegraphs_color", "#FF0000FF", CVar.CLIENTONLY | CVar.ARCHIVE);
+    
+    public static readonly CVarDef<string> UtilityTelegraphsColor = 
+        CVarDef.Create("accessibility.utility_telegraphs_color", "#FFA500FF", CVar.CLIENTONLY | CVar.ARCHIVE);
+    
+    public static readonly CVarDef<bool> ChatShowFactionPrefix =
+        CVarDef.Create("chat.show_faction_prefix", false, CVar.CLIENTONLY | CVar.ARCHIVE);
 
+    public static readonly CVarDef<bool> MigrateDoors =
+        CVarDef.Create("migration.doors", false, CVar.SERVERONLY);
 }

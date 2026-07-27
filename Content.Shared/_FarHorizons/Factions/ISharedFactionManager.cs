@@ -30,11 +30,15 @@ public interface ISharedFactionManager
 
     public bool TryFindFaction(string search, out FactionPrototype? faction);
 
+    public string? GetMapPool();
+
     // Overrides for JobPrototype
     public string OverrideLocalizedJobName(FactionJobAssignmentPrototype assignment);
     public string OverrideLocalizedJobName((ProtoId<FactionPrototype>? faction, ProtoId<JobPrototype> job) factionJob);
     public string? OverrideLocalizedJobDescription(FactionJobAssignmentPrototype assignment);
     public string? OverrideLocalizedJobDescription((ProtoId<FactionPrototype> faction, ProtoId<JobPrototype> job) factionJob);
+    public string OverrideLocalizedJobSupervisors(FactionJobAssignmentPrototype assignment);
+    public string OverrideLocalizedJobSupervisors((ProtoId<FactionPrototype>? faction, ProtoId<JobPrototype> job) factionJob);
     public ProtoId<JobIconPrototype> OverrideJobIcon(FactionJobAssignmentPrototype assignment);
     public ProtoId<JobIconPrototype> OverrideJobIcon((ProtoId<FactionPrototype>? faction, ProtoId<JobPrototype> job) factionJob);
     public ProtoId<StartingGearPrototype>? OverrideJobStartingGear(FactionJobAssignmentPrototype assignment);
@@ -53,4 +57,6 @@ public interface ISharedFactionManager
     public IReadOnlyCollection<ProtoId<AccessLevelPrototype>>? OverrideJobExtendedAccess((ProtoId<FactionPrototype>? faction, ProtoId<JobPrototype> job) factionJob);
     public IReadOnlyCollection<ProtoId<AccessGroupPrototype>>? OverrideJobExtendedAccessGroups(FactionJobAssignmentPrototype assignment);
     public IReadOnlyCollection<ProtoId<AccessGroupPrototype>>? OverrideJobExtendedAccessGroups((ProtoId<FactionPrototype>? faction, ProtoId<JobPrototype> job) factionJob);
+    public string GetAnnouncerSender(ProtoId<FactionPrototype> faction);
+    public string GetAnnouncerSender();
 }

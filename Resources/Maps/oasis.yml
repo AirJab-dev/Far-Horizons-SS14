@@ -203445,7 +203445,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -18.393879,-3.4822903
       parent: 2
-- proto: WeaponShotgunEnforcer
+- proto: WeaponShotgunSentinel
   entities:
   - uid: 30457
     components:

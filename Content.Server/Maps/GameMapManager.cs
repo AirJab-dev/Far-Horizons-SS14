@@ -87,7 +87,7 @@ public sealed class GameMapManager : IGameMapManager
             }
         }, true);
 
-        var maps = AllVotableMaps().ToArray();
+        var maps = AllMaps().ToArray();
         _random.Shuffle(maps);
         foreach (var map in maps)
         {
@@ -106,6 +106,7 @@ public sealed class GameMapManager : IGameMapManager
     public IEnumerable<GameMapPrototype> AllVotableMaps()
     {
         var poolPrototype = _entityManager.System<GameTicker>().Preset?.MapPool ??
+                   _factions.GetMapPool() ?? // Far Horizons
                    _configurationManager.GetCVar(CCVars.GameMapPool);
         
         /*

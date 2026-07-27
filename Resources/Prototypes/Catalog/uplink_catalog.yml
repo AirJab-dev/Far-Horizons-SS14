@@ -265,9 +265,9 @@
 - type: listing
   id: UplinkBulldogBundle
   name: uplink-bulldog-bundle-name
-  description: uplink-bulldog-bundle-desc
+  description: uplink-bulldog-bundle-desc-fh #FH
   icon: { sprite: /Textures/Objects/Weapons/Guns/Shotguns/bulldog.rsi, state: icon }
-  productEntity: ClothingBackpackDuffelSyndicateFilledShotgun
+  productEntity: BriefcaseWeaponBulldogFilled #FH
   discountCategory: veryRareDiscounts
   discountDownTo:
     Telecrystal: 12
