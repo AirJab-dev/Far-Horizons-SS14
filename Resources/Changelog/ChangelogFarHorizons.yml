@@ -16703,5 +16703,13 @@ Entries:
   id: 148900
   time: '2026-07-26T17:06:50.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1489
+- author: jhrushbe
+  changes:
+  - message: Increased the sell value of a full SMES so that engineering has a way
+      to profitably sell power.
+    type: Tweak
+  id: 149100
+  time: '2026-07-27T03:33:12.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1491
 Order: -1
 
