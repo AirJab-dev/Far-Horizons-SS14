@@ -647,6 +647,7 @@
     icon: JobIconSyndieAI
     supervisors: job-supervisors-ep
     jobEntity: StationAiBrainNS
+    loadout: JobStationAiNS
 
 - type: factionJobAssignment
   id: SyndieBorg
@@ -658,6 +659,7 @@
     icon: JobIconSyndieBorg
     supervisors: job-supervisors-ep
     jobEntity: PlayerBorgChassisNS
+    loadout: JobBorgNS
 
 #region Security
 

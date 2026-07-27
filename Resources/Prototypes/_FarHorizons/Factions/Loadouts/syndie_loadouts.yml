@@ -1606,3 +1606,16 @@
     - MagazinePistolSP
     - MagazinePistolSP
     - MagazinePistolRubber
+
+# Silicons
+- type: roleLoadout
+  id: JobBorgNS
+  nameDataset: NamesBorg
+  canCustomizeName: true
+  groups:
+  - SiliconBrainType
+
+- type: roleLoadout
+  id: JobStationAiNS
+  nameDataset: NamesAI
+  canCustomizeName: true
