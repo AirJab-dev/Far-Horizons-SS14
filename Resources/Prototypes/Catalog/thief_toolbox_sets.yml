@@ -13,7 +13,7 @@
 - type: thiefBackpackSet
   id: ToolsSet
   name: thief-backpack-category-tools-name
-  description: thief-backpack-category-tools-description
+  description: fh-thief-backpack-category-tools-description #FH
   sprite:
     sprite: Objects/Weapons/Bombs/c4.rsi
     state: icon
@@ -26,6 +26,7 @@
   - Multitool
   - C4
   - C4
+  - AccessBreaker #FH
 
 - type: thiefBackpackSet
   id: ChemistrySet
@@ -76,21 +77,22 @@
 - type: thiefBackpackSet
   id: CommunicatorSet
   name: thief-backpack-category-communicator-name
-  description: thief-backpack-category-communicator-description
+  description: fh-thief-backpack-category-communicator-description #FH
   sprite:
     sprite: Objects/Devices/communication.rsi
     state: old-radio
   content:
-  - EncryptionKeyStationMaster
+  - EncryptionKeyBlackmarket #FH
   - CyberPen
   - BriefcaseThiefBribingBundleFilled
   - VoiceMaskImplanter
+  - RadioJammer #FH
   #- todo Chameleon Stamp
 
 - type: thiefBackpackSet
   id: SmugglerSet
   name: thief-backpack-category-smuggler-name
-  description: thief-backpack-category-smuggler-description
+  description: fh-thief-backpack-category-smuggler-description #FH
   sprite:
     sprite: Objects/Tools/fulton.rsi
     state: extraction_pack
@@ -101,3 +103,4 @@
   - SmokeGrenade
   - SmokeGrenade
   - SmokeGrenade
+  - Emag #FH
