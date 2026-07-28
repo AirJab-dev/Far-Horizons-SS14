@@ -367,3 +367,18 @@
         - id: Scalpel
         - id: BoneGel
         - id: BoneSetter
+
+#region Thief
+- type: entity
+  parent: BriefcaseBrown
+  id: BriefcaseBrownThiefFilledCyberneticsKit
+  suffix: Thief, Cybernetics
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: CyberneticImplanterRightArmCyberBunkerBreaker
+        - id: CyberneticImplanterCyberEyeThermal
+        - id: CyberneticImplanterLeftHandImplantForensics
+        - id: CyberneticImplanterEyeImplantSyndie
