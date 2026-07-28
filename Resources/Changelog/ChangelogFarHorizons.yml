@@ -16798,5 +16798,27 @@ Entries:
   id: 149508
   time: '2026-07-28T10:31:59.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: princess_gurchi
+  changes:
+  - message: Lights in Elder arena can be broken by damage like normal lights
+    type: Tweak
+  id: 149900
+  time: '2026-07-28T20:32:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1499
+- author: princess_gurchi
+  changes:
+  - message: Boss attacks that target all enemies now will only target alive enemies
+    type: Tweak
+  id: 149901
+  time: '2026-07-28T20:32:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1499
+- author: princess_gurchi
+  changes:
+  - message: NPCs should no longer get their LOS broken by things that don't break
+      LOS for players (bodies, lockers, ore crates, etc.)
+    type: Fix
+  id: 149902
+  time: '2026-07-28T20:32:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1499
 Order: -1
 
