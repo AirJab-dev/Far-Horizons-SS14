@@ -99,6 +99,7 @@
   - type: StaticPrice
     price: 100
   - type: BlockWeather
+  - type: LineOfSightExclude # Far Horizons
 
 - type: entity #FH Start
   id: Window
@@ -239,6 +240,7 @@
       sprite: Structures/Windows/cracks_directional.rsi
   - type: StaticPrice
     price: 15
+  - type: LineOfSightExclude # Far Horizons
 
 - type: entity
   id: WindowDirectionalRCDResistant
