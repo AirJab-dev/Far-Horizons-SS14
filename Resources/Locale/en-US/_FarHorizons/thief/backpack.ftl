@@ -7,7 +7,7 @@ thief-backpack-category-cybernetic-name = Cybernetics Kit
 thief-backpack-category-cybernetic-description =
     The flesh is weak, some stolen military grade NeoSol chrome will help.
     Includes: Forensics Hand Implant, Agent Eye Implant, Bunker Breaker Arm, 
-    and Thermal Eye Cyberitcs prepacked as C.I.Ks inside a briefcase.
+    and Thermal Eye Cybernetics prepacked as C.I.Ks inside a briefcase.
 
 fh-thief-backpack-category-tools-description =
     What's that sound? A lil' C4 knockin' at their door.
