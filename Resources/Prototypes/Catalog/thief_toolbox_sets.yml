@@ -9,6 +9,7 @@
   - ClothingBackpackChameleonFillAgent
   - ChameleonProjector
   - FakeMindShieldImplanter
+  - DnaScramblerImplanter #FH
 
 - type: thiefBackpackSet
   id: ToolsSet
@@ -37,7 +38,8 @@
     state: implanter0
   content:
   - StorageImplanter
-  - DnaScramblerImplanter
+  #- DnaScramblerImplanter #FH, Moved to ChameleonSet
+  - ScramImplant #FH
   - ChemistryBottleEphedrine
   - SoapOmega
   - Syringe
@@ -73,6 +75,7 @@
   - ChemistryBottleNocturine
   - HypopenBox
   - NitrousOxideTankFilled
+  - ChemistryBottleMuteToxin #FH
 
 - type: thiefBackpackSet
   id: CommunicatorSet
