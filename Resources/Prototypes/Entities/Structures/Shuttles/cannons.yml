@@ -23,6 +23,10 @@
     receiveFrequencyId: BasicDevice
   - type: WirelessNetworkConnection
     range: 200
+  - type: GunneryManagedTargeting
+    targetingCollisionMask:
+    - Impassable
+    - BulletImpassable
   - type: DeviceLinkSink
     ports:
     - Trigger
@@ -92,6 +96,9 @@
           tags:
             - PowerCell
             - PowerCellSmall
+  - type: GunneryManagedTargeting
+    targetingCollisionMask:
+      - Opaque
   - type: BatteryAmmoProvider
     proto: RedLightLaser
     fireCost: 50
@@ -148,6 +155,9 @@
         whitelist:
           tags:
             - PowerCage
+  - type: GunneryManagedTargeting
+    targetingCollisionMask:
+      - Opaque
   - type: BatteryAmmoProvider
     proto: RedShuttleLaser
     fireCost: 150
