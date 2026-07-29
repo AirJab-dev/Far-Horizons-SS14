@@ -33,7 +33,7 @@ public sealed class BarSignSystem : EntitySystem
     {
         BarSignPrototype? newPrototype;
         if (ent.Comp.Current is null)
-            newPrototype = _random.Pick(GetAllBarSigns(_prototypeManager));
+            newPrototype = _random.Pick(GetAllBarSigns(_prototypeManager).Where(p => ent.Comp.SignType.HasFlag(p.SignType)).ToList()); //FarHorizons
         else if (!_prototypeManager.Resolve(ent.Comp.Current, out newPrototype))
             return;
 

@@ -8,7 +8,7 @@
   },
   "states": [
     {
-      "name": "television_wall_off"
+      "name": "empty"
     },
     {
       "name": "television_wall"

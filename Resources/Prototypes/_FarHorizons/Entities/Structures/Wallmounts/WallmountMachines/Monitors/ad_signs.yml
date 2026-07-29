@@ -6,9 +6,10 @@
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
-    state: television_wall_off
+    state: empty
   - type: BarSign
-    emped: EmpBarSign
+    emped: EmpedSign
+    titleName: adsign-ui-menu
   - type: Destructible
     thresholds:
     - trigger:
@@ -21,11 +22,44 @@
         sound:
           collection: MetalGlassBreak
 
+#region Generics
+- type: barSign
+  id: EmpedSign
+  name: barsign-prototype-name-emped-screen
+  icon:
+    sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
+    state: television_wall
+  description: barsign-prototype-description-emped-screen
+  hidden: true
+  signType: AdSignGeneric
+          
+#region ## GSL ##
+- type: barSign
+  id: MinersSign
+  name: barsign-prototype-name-miner-screen
+  icon:
+    sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
+    state: MinersLMC
+  description: barsign-prototype-description-miner-screen
+  signType: AdSignGSL
+
 #region ## NanoTrasen ##
 - type: entity
+  id: BaseAdSignNT
   parent: BaseAdSign
+  name: Ad Sign
+  suffix: NT
+  components:
+  - type: AccessReader
+    access: [["Service"]]
+  - type: BarSign
+    emped: EmpedSign
+    signType: [AdSignNT, AdSignGeneric, AdSignGSL]
+
+- type: entity
+  parent: BaseAdSignNT
   id: AdSignCWS
-  name: Clockwork Solutions
+  name: Clockwork Solutions Ad
   description: Just a simple sign displaying an ad for Clockwork Solutions trying to look tough.
   suffix: CWS, NT
   components:
@@ -39,12 +73,13 @@
     sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
     state: CWSscreen
   description: barsign-prototype-description-cwc-screen
+  signType: AdSignNT
 
 - type: entity
-  parent: BaseAdSign
+  parent: BaseAdSignNT
   id: AdSignSec
-  name: NT Corporate Security
-  description: A ad sign attempting to repair security's reputation.
+  name: NT Corporate Security Ad
+  description: An ad sign attempting to repair security's reputation.
   suffix: Sec, NT
   components:
   - type: BarSign
@@ -57,80 +92,103 @@
     sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
     state: Secpropa
   description: barsign-prototype-description-sec-screen
+  signType: AdSignNT
 
 - type: entity
-  parent: WallmountTelevision
-  id: WallmountTelevisionGensys
+  parent: BaseAdSignNT
+  id: AdSignGensys
+  name: Gensys Ad
+  description: An ad sign claiming gensys is here to help us
   suffix: Gensys, NT
   components:
-  - type: Sprite
-    layers:
-      - map: ["computerLayerBody"]
-        state: television_wall
-      - map: ["computerLayerScreen"]
-        state: Gensys
-  - type: PointLight
-    enabled: true
-    energy: 2
-    radius: 2.5
-    offset: 0.0, -.75
-    color: "#f7ba00"
+  - type: BarSign
+    current: GenSysSign
+
+- type: barSign
+  id: GenSysSign
+  name: barsign-prototype-name-gensys-screen
+  icon:
+    sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
+    state: Gensys
+  description: barsign-prototype-description-gensys-screen
+  signType: AdSignNT
 
 - type: entity
-  parent: WallmountTelevision
-  id: WallmountTelevisionLime
+  parent: BaseAdSignNT
+  id: AdSignLimb
+  name: Limb Augments Ad
+  description: An ad advertising Limb Augment's medical service.
   suffix: Limb, NT
   components:
-  - type: Sprite
-    layers:
-      - map: ["computerLayerBody"]
-        state: television_wall
-      - map: ["computerLayerScreen"]
-        state: Limehelp
-  - type: PointLight
-    enabled: true
-    energy: 2
-    radius: 2.5
-    offset: 0.0, -.75
-    color: "#3decff"
+  - type: BarSign
+    current: LimbSign
+
+- type: barSign
+  id: LimbSign
+  name: barsign-prototype-name-limb-screen
+  icon:
+    sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
+    state: Limehelp
+  description: barsign-prototype-description-limb-screen
+  signType: AdSignNT
 
 - type: entity
-  parent: WallmountTelevision
-  id: WallmountTelevisionLMC
-  suffix: MinersLMC, NT
-  components:
-  - type: Sprite
-    layers:
-      - map: ["computerLayerBody"]
-        state: television_wall
-      - map: ["computerLayerScreen"]
-        state: MinersLMC
-  - type: PointLight
-    enabled: true
-    energy: 2
-    radius: 2.5
-    offset: 0.0, -.75
-    color: "#f7ba00"
-
-- type: entity
-  parent: WallmountTelevision
-  id: WallmountTelevisionNTWorlds
+  parent: BaseAdSignNT
+  id: AdSignNTWorlds
+  name: NT Worlds Ad
+  description: An ad showing an idealistic version of worlds under NT control
   suffix: NTWorlds, NT
   components:
-  - type: Sprite
-    layers:
-      - map: ["computerLayerBody"]
-        state: television_wall
-      - map: ["computerLayerScreen"]
-        state: NTworlds
-  - type: PointLight
-    enabled: true
-    energy: 2
-    radius: 2.5
-    offset: 0.0, -.75
-    color: "#3decff"
-  
-  
+  - type: BarSign
+    current: NTWorldsSign
+
+- type: barSign
+  id: NTWorldsSign
+  name: barsign-prototype-name-ntworlds-screen
+  icon:
+    sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
+    state: NTworlds
+  description: barsign-prototype-description-ntworlds-screen
+  signType: AdSignNT
+
+- type: entity
+  parent: BaseAdSignNT
+  id: AdSignTelosMonkey
+  name: Telos Industries Ad
+  description: An ad showing the usage of monkeys in Telos Industries attempts at innovation. Poor little guys.
+  suffix: Telosmonkey, NT
+  components:
+  - type: BarSign
+    current: TelosMonkeySign
+
+- type: barSign
+  id: TelosMonkeySign
+  name: barsign-prototype-name-telosmonkey-screen
+  icon:
+    sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
+    state: Telosmonkey
+  description: barsign-prototype-description-telosmonkey-screen
+  signType: AdSignNT
+
+- type: entity
+  parent: BaseAdSignNT
+  id: AdSignTelosText
+  name: Telos Industries Ad
+  description: An ad showing the usage of monkeys in Telos Industries attempts at innovation. Poor little guys.
+  suffix: Telostext, NT
+  components:
+  - type: BarSign
+    current: TelosTextSign
+
+- type: barSign
+  id: TelosTextSign
+  name: barsign-prototype-name-telostext-screen
+  icon:
+    sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
+    state: Telostext
+  description: barsign-prototype-description-telostext-screen
+  signType: AdSignNT
+
 - type: entity
   parent: MarkerBase
   name: random television spawner
@@ -141,35 +199,43 @@
       layers:
         - state: red
         - sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
-          state: television_wall
+          state: empty
     - type: RandomSpawner
       prototypes:
-        - WallmountTelevisionCWS
-        - WallmountTelevisionSec
-        - WallmountTelevisionGensys
-        - WallmountTelevisionLime
-        - WallmountTelevisionLMC
-        - WallmountTelevisionNTWorlds
+        - AdSignCWS
       offset: 0.0
 
 #region ## NeoSol ##
 - type: entity
-  parent: WallmountTelevision
-  id: WallmountTelevisionCSC
-  suffix: CSC, NS
+  id: BaseAdSignNS
+  parent: BaseAdSign
+  name: Ad Sign
+  suffix: NS
   components:
-  - type: Sprite
-    layers:
-      - map: ["computerLayerBody"]
-        state: television_wall
-      - map: ["computerLayerScreen"]
-        state: CSCScreen
-  - type: PointLight
-    enabled: true
-    energy: 2
-    radius: 2.5
-    offset: 0.0, -.75
-    color: "#ffc401"
+  - type: AccessReader
+    access: [["ServiceNS"]]
+  - type: BarSign
+    emped: EmpedSign
+    signType: [AdSignNS, AdSignGeneric, AdSignGSL]
+
+- type: entity
+  parent: BaseAdSignNS
+  id: AdSignCSS
+  name: Caprica & Solaris Systems Ad
+  description: An ad showing Caprica Engineers on their way to power the station.
+  suffix: CSS, NS
+  components:
+  - type: BarSign
+    current: CSSSign
+
+- type: barSign
+  id: CSSSign
+  name: barsign-prototype-name-css-screen
+  icon:
+    sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
+    state: CSCScreen
+  description: barsign-prototype-description-css-screen
+  signType: AdSignNS
 
 - type: entity
   parent: WallmountTelevision
@@ -206,59 +272,3 @@
     radius: 2.5
     offset: 0.0, -.75
     color: "#f34040"
-
-- type: entity
-  parent: WallmountTelevision
-  id: WallmountTelevisionTelosmonkey
-  suffix: Telosmonkey, NS
-  components:
-  - type: Sprite
-    layers:
-      - map: ["computerLayerBody"]
-        state: television_wall
-      - map: ["computerLayerScreen"]
-        state: Telosmonkey
-  - type: PointLight
-    enabled: true
-    energy: 2
-    radius: 2.5
-    offset: 0.0, -.75
-    color: "#ed75f8"
-
-- type: entity
-  parent: WallmountTelevision
-  id: WallmountTelevisionTelostext
-  suffix: Telostext, NS
-  components:
-  - type: Sprite
-    layers:
-      - map: ["computerLayerBody"]
-        state: television_wall
-      - map: ["computerLayerScreen"]
-        state: Telostext
-  - type: PointLight
-    enabled: true
-    energy: 2
-    radius: 2.5
-    offset: 0.0, -.75
-    color: "#ed75f8"
-
-- type: entity
-  parent: MarkerBase
-  name: random television spawner
-  id: WallmountTelevisionNSRandomSpawner
-  suffix: NS
-  components:
-    - type: Sprite
-      layers:
-        - state: red
-        - sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
-          state: television_wall
-    - type: RandomSpawner
-      prototypes:
-        - WallmountTelevisionCSC
-        - WallmountTelevisionNSWorlds
-        - WallmountTelevisionSecBigBrother
-        - WallmountTelevisionTelosmonkey
-        - WallmountTelevisionTelostext
-      offset: 0.0
