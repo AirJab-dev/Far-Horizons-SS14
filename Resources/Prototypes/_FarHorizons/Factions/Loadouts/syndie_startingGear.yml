@@ -353,7 +353,7 @@
 - type: startingGear
   id: SyndieClownGear
   equipment:
-    mask: ClothingMaskClown
+    mask: ClothingMaskClownNS
     pocket1: BikeHorn
     pocket2: ClownRecorder
     id: NeoSolClownPDA

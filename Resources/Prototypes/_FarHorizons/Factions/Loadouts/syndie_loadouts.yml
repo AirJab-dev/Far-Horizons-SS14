@@ -457,16 +457,19 @@
 #region Mask 
 
 # Medical
+
 - type: loadout
   id: SterileMaskSyndi
   equipment:
     mask: ClothingMaskSterile
 
-#Janitor
+#Service
+
 - type: loadout
   id: JanitorMaskNS
   equipment:
     mask: ClothingMaskJanitorNS
+
 
 #region Jumpsuit
 
@@ -654,6 +657,7 @@
   id: AncientJumpskirtSyndi
   equipment:
     jumpsuit: ClothingUniformJumpskirtAncientSyndi
+
 # Engineering
 
 - type: loadout
@@ -1012,6 +1016,13 @@
   id: BotanistOverallsJumpskirtNS
   equipment:
     jumpsuit: ClothingUniformJumpskirtOverallsNS
+
+#Clown
+
+- type: loadout
+  id: ClownSuitNS
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitClownNS
 
 #region Hands
 
@@ -1487,7 +1498,7 @@
   equipment:
     outerClothing: ClothingOuterCoatRedSword
 
-#region Boots
+#region Boots/Shoes
 
 - type: loadout
   id: BootsWinterSyndicate
@@ -1523,6 +1534,11 @@
   id: MedicalWinterBootsSyndi
   equipment:
     shoes: ClothingShoesBootsWinterMed
+
+- type: loadout
+  id: ClownShoesNS
+  equipment:
+    shoes: ClothingShoesClownNS
 
 # region PDA
 

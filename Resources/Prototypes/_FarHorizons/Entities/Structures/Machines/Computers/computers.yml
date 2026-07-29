@@ -343,12 +343,14 @@
     energy: 1.6
     color: "#FC0097"
 
+#region NeoSol
+
 - type: entity
   parent: ComputerId
   id: ComputerIdNS
-  name: ID Card Computer 
-  description: Terminal for programming NeoSol employee ID cards to access parts of the station.
+  name: ID Card Computer
   suffix: NS
+  description: Terminal for programming NeoSol employee ID cards to access parts of the station.
   components:
   - type: IdCardConsole
     accessGroups:
@@ -369,3 +371,36 @@
     - Engineering
   - type: Computer
     board: IDComputerCircuitboardNS
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Machines/Computers/NeoSol/command.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: id
+    - map: ["computerLayerKeys"]
+      state: id_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: generic_panel_open
+  - type: GenericVisualizer
+    visuals:
+      enum.ComputerVisuals.Powered:
+        computerLayerScreen:
+          True: { visible: true, shader: unshaded }
+          False: { visible: false }
+        computerLayerKeys:
+          True: { visible: true, shader: unshaded }
+          False: { visible: true, shader: shaded }
+      enum.WiresVisuals.MaintenancePanelState:
+        enum.WiresVisualLayers.MaintenancePanel:
+          True: { visible: false }
+          False: { visible: true }
+      # Starlight Start
+      enum.EdgeConnectionVisuals.ConnectionMask:
+        computerLayerBody:
+          None: { state: computer, sprite: Structures/Machines/computers.rsi }
+          West: { state: computer_r, sprite: _Starlight/Structures/Machines/computers.rsi }
+          East: { state: computer_l, sprite: _Starlight/Structures/Machines/computers.rsi }
+          East, West: { state: computer_l_r, sprite: _Starlight/Structures/Machines/computers.rsi }
