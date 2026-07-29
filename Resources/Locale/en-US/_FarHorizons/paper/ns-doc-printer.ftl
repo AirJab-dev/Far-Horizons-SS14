@@ -1,16 +1,11 @@
-# Note for anybody modifying this file the code seams to look for the Unicode character U+2800
+# Note for anybody modifying this file the code seams to look for the Unicode character U+2800 at the start of everyline that has a Non alphabetic character at the start Not putting the Unicode character there will cause errors
 # Reports
 
 doc-text-printer-neosol-report-morgue =
-     ⠀[nslogo]               
-                     
-                     
-     
-                    
-                    
-                    
-
-    ⠀[color=#4b3456][italic][bold]OFFICIAL CONCORDE FRONTIERS AUTHORITY DOCUMENT[/bold][/italic][/color]
+     ⠀                          [nscfalogo]               
+    ⠀[color=#4b3456][italic][bold] 
+                  CONCORDE FRONTIERS AUTHORITY 
+                      OFFICIAL DOCUMENT[/bold][/italic][/color]
      ────────────────────────────────────────
    ⠀⠀                               [bold]MORGUE DNR REPORT[/bold]
      ────────────────────────────────────────
@@ -31,11 +26,9 @@ doc-text-printer-neosol-report-morgue =
 
 
 doc-text-printer-neosol-report-station =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                            [bold]SITUATION REPORT[/bold]
     ────────────────────────────────────────
@@ -53,17 +46,16 @@ doc-text-printer-neosol-report-station =
     Crew casualties: [form]
 
     Current situation: [form]
-
+  
+   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-report-on-elimination-of-violations =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo]
+   ⠀⠀                          [cdlogo]
+   ⠀[center][color=#660808][italic][bold]OFFICIAL NEOSOL COMPLIANCE DEPARTMENT DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀            [bold]ISSUE RESOLUTION REPORT[/bold]
     ────────────────────────────────────────
@@ -77,16 +69,15 @@ doc-text-printer-neosol-report-on-elimination-of-violations =
 
     Measures taken to resolve issue(s): [form]
 
+   ⠀[italic]Glory to NeoSol, Might above all !![/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-report-department =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [cdlogo]
+   ⠀[center][color=#660808][italic][bold]OFFICIAL NEOSOL COMPLIANCE DEPARTMENT DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                           [bold]DEPARTMENTAL REVIEW[/bold]
     ────────────────────────────────────────
@@ -106,16 +97,15 @@ doc-text-printer-neosol-report-department =
 
     General condition of the department: [form]
 
+   ⠀[italic]Glory to NeoSol, Might above all !![/italic]
     ─────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-report-employee-performance =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [cdlogo]
+   ⠀[center][color=#660808][italic][bold]OFFICIAL NEOSOL COMPLIANCE DEPARTMENT DOCUMENT[/bold][/italic][/color][/center]
     ─────────────────────────────────────────
    ⠀⠀                 [bold]WORK REPORT[/bold]
     ─────────────────────────────────────────
@@ -126,16 +116,15 @@ doc-text-printer-neosol-report-employee-performance =
 
     I hereby request that the result be accepted by the Head of the [form] Department.
 
+   ⠀[italic]Glory to NeoSol, Might above all !![/italic]
     ─────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-report-on-the-chapters-meeting =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ─────────────────────────────────────────
    ⠀⠀                     [bold]VOTE RECORD[/bold]
     ─────────────────────────────────────────
@@ -172,16 +161,15 @@ doc-text-printer-neosol-report-on-the-chapters-meeting =
     • [signature]
     Resolution of the meeting: [form]
 
+   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-internal-affairs-agents-report =
-   ⠀[logo]            [cclogo]
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [cdlogo]
+   ⠀[center][color=#660808][italic][bold]OFFICIAL NEOSOL COMPLIANCE DEPARTMENT DOCUMENT[/bold][/italic][/color][/center]
     ─────────────────────────────────────────
    ⠀⠀               [bold]AUDIT REPORT[/bold]
     ─────────────────────────────────────────
@@ -192,16 +180,14 @@ doc-text-printer-neosol-internal-affairs-agents-report =
 
     I also wish to report the following: [form]
 
+   ⠀[italic]Glory to NeoSol, Might above all !![/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-condition-report =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [melogo]
+   ⠀[center][color=#8f3d1f][italic][bold]OFFICIAL MOON-ELECTRA DYNAMICS DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                           [bold]MAINTENANCE REPORT[/bold]
     ─────────────────────────────────────────
@@ -216,18 +202,16 @@ doc-text-printer-neosol-condition-report =
 
     Repairs performed: [form]
 
+   ⠀[italic]This document is provided by Moon-Electra Dynamics, Caprica and Solaris Systems use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-object-investigation-report =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [mrilogo]
+   ⠀[center][color=#821b27][italic][bold]OFFICIAL MOBIUS RESEARCH INSTITUTE DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀          [bold]unkNOWN OBJECT INVESTIGATION REPORT[/bold]
+   ⠀⠀          [bold]UNKNOWN OBJECT INVESTIGATION REPORT[/bold]
     ────────────────────────────────────────
     Date and Time: [form]
     Document Compiler: [signature]
@@ -242,16 +226,14 @@ doc-text-printer-neosol-object-investigation-report =
 
     Identified properties: [form]
 
+   ⠀[italic]This document is provided by Mobius Research Institute and Solaris Systems and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-experiment-report =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [mrilogo]
+   ⠀[center][color=#821b27][italic][bold]OFFICIAL MOBIUS RESEARCH INSTITUTE DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                              [bold]EXPERIMENT REPORT[/bold]
     ────────────────────────────────────────
@@ -271,16 +253,14 @@ doc-text-printer-neosol-experiment-report =
 
     Actual result: [form]
 
+   ⠀[italic]This document is provided by Mobius Research Institute and Solaris Systems and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-disposal-report =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [acslogo]
+   ⠀[center][color=#8a1313][italic][bold]OFFICIAL AEGIS CORPORATE SECURITIES DOCUMENT[/bold][/italic][/color][/center]
     ─────────────────────────────────────────
    ⠀⠀                                [bold]DISPOSAL REPORT[/bold]
     ─────────────────────────────────────────
@@ -296,16 +276,15 @@ doc-text-printer-neosol-disposal-report =
     • [form] - Given to [form] Department
     • [form] - Given to [form] Department
     • [form] - Given to [form] Department
+
+   ⠀[italic]This document is provided by Aegis Corporate Securities, Scarborough and WaffleStar use it wisely[/italic]
     ─────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-arrest-report =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [acslogo]
+   ⠀[center][color=#8a1313][italic][bold]OFFICIAL AEGIS CORPORATE SECURITIES DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                            [bold]SECURITY ARREST REPORT[/bold]
     ────────────────────────────────────────
@@ -328,6 +307,7 @@ doc-text-printer-neosol-arrest-report =
 
     Additional remarks: [form]
 
+   ⠀[italic]This document is provided by Aegis Corporate Securities, Scarborough and WaffleStar use it wisely[/italic]
     ─────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -335,11 +315,9 @@ doc-text-printer-neosol-arrest-report =
 # Statements
 
 doc-text-printer-neosol-statement-appointment-interim-chapter =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo]
+   ⠀⠀                          [cdlogo]
+   ⠀[color=#660808][italic][bold]OFFICIAL NEOSOL COMPLIANCE DEPARTMENT DOCUMENT[/bold][/italic][/color]
     ────────────────────────────────────────
    ⠀⠀          [bold]INTERIM COMMAND APPOINTMENT[/bold]
     ────────────────────────────────────────
@@ -350,16 +328,15 @@ doc-text-printer-neosol-statement-appointment-interim-chapter =
 
     Upon arrival of the [form] from Central Command, I shall surrender the privileges and equipment afforded to me in the course of these duties, including access rights.
 
+   ⠀[italic]Glory to NeoSol, Might above all !![/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-employment-statement =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                           [bold]EMPLOYMENT CONTRACT[/bold]
     ────────────────────────────────────────
@@ -377,16 +354,16 @@ doc-text-printer-neosol-employment-statement =
    ⠀[check] I will surrender any current department work gear and equipment upon transfer.
 
    ⠀[check] I agree to follow all applicable Standard Operating Procedures, and accept that my contract may be terminated if I fail to uphold them.
+
+   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-resignation-statement =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                          [bold]NOTICE OF RESIGNATION[/bold]
     ────────────────────────────────────────
@@ -399,16 +376,15 @@ doc-text-printer-neosol-resignation-statement =
 
    ⠀[check] I will surrender my departmental work gear and equipment.
 
+   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-access-request-statement =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                       [bold]ACCESS REQUEST[/bold]
     ────────────────────────────────────────
@@ -425,16 +401,15 @@ doc-text-printer-neosol-access-request-statement =
 
     Reason for gaining elevated access: [form]
 
+   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-equipment-request-statement =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                    [bold]EQUIPMENT REQUEST[/bold]
     ────────────────────────────────────────
@@ -448,6 +423,7 @@ doc-text-printer-neosol-equipment-request-statement =
 
     Reason: [form]
 
+   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -457,11 +433,9 @@ doc-text-printer-neosol-equipment-request-statement =
 # InquiriesAndAppeals
    
 doc-text-printer-neosol-invocation =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                         [bold]NOTICE OF SUMMONS[/bold]
     ────────────────────────────────────────
@@ -472,49 +446,49 @@ doc-text-printer-neosol-invocation =
 
     Reason: [form]
 
-   ⠀[italic]This is an official notice. Penalties may apply for failure to appear.[/italic]
+   ⠀[italic]This is an official notice. Punishments may apply for failure to appear.[/italic]
 
+   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-evacuation-shuttle-request =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                    [bold]EVACUATION SHUTTLE REQUEST[/bold]
     ────────────────────────────────────────
     Date and Time: [form]
     Document Compiler: [signature]
 
-    To Central Command,
+    To High Command,
 
     I, [signature], write to request that you dispatch an evacuation shuttle to the station, without delay, and authorize evacuation of the station via said shuttle.
 
+   ⠀[check] I admit I have lost control of the situation and I wish to flee to save myself and the crew
+
     Reason for evacuation request: [form]
 
+   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-shuttle-registration-request =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                  [bold]SHUTTLE REGISTRATION FORM[/bold]
     ────────────────────────────────────────
     Date and Time: [form]
     Document Compiler: [signature]
 
-    I hereby request that the following shuttle be registered in the NanoTrasen system for identification.
+    I hereby request that the following shuttle be registered in the NeoSol system for identification.
 
     Shuttle size: [form]
 
@@ -524,38 +498,36 @@ doc-text-printer-neosol-shuttle-registration-request =
 
     Requested name: [form]
 
+  ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-request-call-centcomm-members =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀              [bold]REQUEST TO CALL CENTCOMM MEMBERS[/bold]
+   ⠀⠀              [bold]REQUEST TO CALL HIGH COMMAND MEMBERS[/bold]
     ────────────────────────────────────────
     Date and Time: [form]
     Document Compiler: [signature]
 
-    I, [signature], request to be considered for a call with CentComm administrative officers.
+    I, [signature], request to be considered for a call with High Command administrative officers.
 
     Reason for the call: [form]
 
+  ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-request-establish-threat-level =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀             [bold]REQUEST TO ESTABLISH THREAT LEVEL[/bold]
     ────────────────────────────────────────
@@ -566,17 +538,16 @@ doc-text-printer-neosol-request-establish-threat-level =
 
     Reason for request: [form]
 
+  ⠀ [italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-request-change-salary =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                         [bold]SALARY CHANGE REQUEST[/bold]
     ────────────────────────────────────────
@@ -591,17 +562,16 @@ doc-text-printer-neosol-request-change-salary =
 
     Reason for salary change: [form]
 
+  ⠀ [italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-request-for-non-listed-employment =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀             [bold]NON-LISTED EMPLOYMENT CONTRACT[/bold]
     ────────────────────────────────────────
@@ -620,17 +590,16 @@ doc-text-printer-neosol-request-for-non-listed-employment =
 
     Reason for employment: [form]
 
+  ⠀ [italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-request-for-promotion =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                         [bold]REQUEST FOR PROMOTION[/bold]
     ────────────────────────────────────────
@@ -647,17 +616,16 @@ doc-text-printer-neosol-request-for-promotion =
 
     Reason for promotion: [form]
 
+  ⠀ [italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-request-documents =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo]
+   ⠀⠀                          [cdlogo]
+   ⠀[color=#660808][italic][bold]OFFICIAL NEOSOL COMPLIANCE DEPARTMENT DOCUMENT[/bold][/italic][/color]
     ──────────────────────────────────────────
    ⠀⠀                  [bold]REQUEST FOR RELEASE OF DOCUMENTS[/bold]
     ──────────────────────────────────────────
@@ -672,17 +640,15 @@ doc-text-printer-neosol-request-documents =
    ⠀ • [form]
    ⠀ • [form]
 
+   ⠀[italic]Glory to NeoSol, Might above all !![/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-request-euthanasia =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [iplogo]
+   ⠀[color=#211075][italic][bold]OFFICIAL INTERDYNE PHARMACEUTICALS DOCUMENT[/bold][/italic][/color]
     ────────────────────────────────────────
    ⠀⠀                        [bold]PETITION FOR EUTHANASIA[/bold]
     ────────────────────────────────────────
@@ -704,17 +670,15 @@ doc-text-printer-neosol-request-euthanasia =
 
     At the end of the procedure, I ask that my body be [form], if possible.
 
+   ⠀[italic]This document is provided by Interdyne Pharmaceuticals and CyberSun use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-request-construction-work =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [melogo]
+   ⠀[center][color=#8f3d1f][italic][bold]OFFICIAL MOON-ELECTRA DYNAMICS DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                     [bold]CONSTRUCTION REQUEST[/bold]
     ────────────────────────────────────────
@@ -727,17 +691,15 @@ doc-text-printer-neosol-request-construction-work =
 
     List of construction work: [form]
 
+   ⠀[italic]This document is provided by Moon-Electra Dynamics, Caprica and Solaris Systems use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-request-modernization =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [mrilogo]
+   ⠀[center][color=#821b27][italic][bold]OFFICIAL MOBIUS RESEARCH INSTITUTE DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                         [bold]MODERNIZATION REQUEST[/bold]
     ────────────────────────────────────────
@@ -751,17 +713,17 @@ doc-text-printer-neosol-request-modernization =
     List of upgrades:
     • [form]
     • [form]
+
+   ⠀[italic]This document is provided by Mobius Research Institute and Solaris Systems and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-request-ert =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀           [bold]EMERGENCY RESPONSE TEAM REQUEST[/bold]
     ────────────────────────────────────────
@@ -780,18 +742,15 @@ doc-text-printer-neosol-request-ert =
     Fatalities (approximate number): [form]
     Other casualties (approximate number): [form]
 
-   ⠀ [italic]Abuse of this form may lead to immediate dismissal of the person(s) involved in this request.[/italic]
+   ⠀ [italic]Abuse of this form may lead to immediate dismissal of the person(s) involved in this request. This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-product-order =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nsgsllogo]
+   ⠀[center][color=#a46106][italic][bold]OFFICIAL GEMINI STELLA LOGISTICS DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                                 [bold]PRODUCT ORDER[/bold]
     ────────────────────────────────────────
@@ -806,6 +765,7 @@ doc-text-printer-neosol-product-order =
 
     Reason for order: [form]
 
+  ⠀ [italic]This document is provided by Gemini Stella logistics use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -815,11 +775,9 @@ doc-text-printer-neosol-product-order =
 # Complaints
 
 doc-text-printer-neosol-complaint-violation-labor-rules =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo]
+   ⠀⠀                          [cdlogo]
+   ⠀[color=#660808][italic][bold]OFFICIAL NEOSOL COMPLIANCE DEPARTMENT DOCUMENT[/bold][/italic][/color]
     ────────────────────────────────────────
     ⠀⠀[bold]DEPARTMENTAL COMPLAINT[/bold]
     ────────────────────────────────────────
@@ -838,17 +796,17 @@ doc-text-printer-neosol-complaint-violation-labor-rules =
 
     I request an internal review of the department(s) in question.
 
+   ⠀[italic]Glory to NeoSol, Might above all !![/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-offense-complaint =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+     ⠀                          [nscfalogo]               
+    ⠀[color=#4b3456][italic][bold] 
+                  CONCORDE FRONTIERS AUTHORITY 
+                      OFFICIAL DOCUMENT[/bold][/italic][/color]
     ────────────────────────────────────────
    ⠀⠀                             [bold]CRIMINAL COMPLAINT[/bold]
     ────────────────────────────────────────
@@ -868,6 +826,7 @@ doc-text-printer-neosol-offense-complaint =
    ⠀• [form]
    ⠀• [form]
 
+    ⠀[italic]Protecting civil rights and upholding order[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -877,11 +836,9 @@ doc-text-printer-neosol-offense-complaint =
 # Permissions
 
 doc-text-printer-neosol-permission-equipment =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                           [bold]EQUIPMENT PERMIT[/bold]
     ────────────────────────────────────────
@@ -900,17 +857,15 @@ doc-text-printer-neosol-permission-equipment =
 
     Terms of use: [form]
 
+  ⠀ [italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-search-permission =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [acslogo]
+   ⠀[center][color=#8a1313][italic][bold]OFFICIAL AEGIS CORPORATE SECURITIES DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                             [bold]SEARCH WARRANT[/bold]
     ────────────────────────────────────────
@@ -936,17 +891,15 @@ doc-text-printer-neosol-search-permission =
 
     Disposition of property: All property seized pursuant to this search warrant shall be remanded into the custody of the Warden's office, pending further orders by Command.
 
+   ⠀[italic]This document is provided by Aegis Corporate Securities, Scarborough and WaffleStar use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-permission-to-carry-weapons =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [acslogo]
+   ⠀[center][color=#8a1313][italic][bold]OFFICIAL AEGIS CORPORATE SECURITIES DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                             [bold]WEAPON PERMIT[/bold]
     ────────────────────────────────────────
@@ -965,17 +918,15 @@ doc-text-printer-neosol-permission-to-carry-weapons =
 
     Reason for authorization: [form]
 
+   ⠀[italic]This document is provided by Aegis Corporate Securities, Scarborough and WaffleStar use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-permission-dispose-body =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+  ⠀⠀                          [iplogo]
+   ⠀[color=#211075][italic][bold]OFFICIAL INTERDYNE PHARMACEUTICALS DOCUMENT[/bold][/italic][/color]
     ────────────────────────────────────────
    ⠀⠀                 [bold]BODY DISPOSAL AUTHORIZATION[/bold]
     ────────────────────────────────────────
@@ -990,17 +941,15 @@ doc-text-printer-neosol-permission-dispose-body =
 
     Method of disposal: [form]
 
+   ⠀[italic]This document is provided by Interdyne Pharmaceuticals and CyberSun use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-construction-permit =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [melogo]
+   ⠀[center][color=#8f3d1f][italic][bold]OFFICIAL MOON-ELECTRA DYNAMICS DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                           [bold]CONSTRUCTION PERMIT[/bold]
     ────────────────────────────────────────
@@ -1013,6 +962,7 @@ doc-text-printer-neosol-construction-permit =
 
     Agreed scope of redevelopment: [form]
 
+   ⠀[italic]This document is provided by Moon-Electra Dynamics, Caprica and Solaris Systems use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -1020,11 +970,8 @@ doc-text-printer-neosol-construction-permit =
 
 
 doc-text-printer-neosol-surgery-consent-permit =
-    [logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+  ⠀⠀                          [iplogo]
+   ⠀[color=#211075][italic][bold]OFFICIAL INTERDYNE PHARMACEUTICALS DOCUMENT[/bold][/italic][/color]
     ────────────────────────────────────────
    ⠀⠀                           [bold]SURGERY CONSENT FORM[/bold]
     ────────────────────────────────────────
@@ -1049,6 +996,7 @@ doc-text-printer-neosol-surgery-consent-permit =
 
    ⠀ [italic]This form is not legal unless it has been signed by the patient and stamped by the station's Chief Medical Officer or one of the Chief Medical Officer's superiors. It is not required for life-saving surgeries. For punitive and non-elective surgeries, such as those ordered by Security, please file a Medical Intervention Order.[/italic]
 
+   ⠀[italic]This document is provided by Interdyne Pharmaceuticals and CyberSun use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -1058,11 +1006,9 @@ doc-text-printer-neosol-surgery-consent-permit =
 # OrdersAndInstructions
 
 doc-text-printer-neosol-dismissal-order =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                               [bold]DISMISSAL ORDER[/bold]
     ────────────────────────────────────────
@@ -1077,17 +1023,16 @@ doc-text-printer-neosol-dismissal-order =
 
     Reason for dismissal: [form]
 
+   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-access-revocation-order =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                       [bold]ACCESS REVOCATION ORDER[/bold]
     ────────────────────────────────────────
@@ -1104,19 +1049,18 @@ doc-text-printer-neosol-access-revocation-order =
 
     Further remarks: [form]
 
+   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-incentive-order =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                       [bold]RECOGNITION OF MERIT[/bold]
+   ⠀⠀                       [bold]RECOGNITION OF  HONOUR[/bold]
     ────────────────────────────────────────
     Date and Time: [form]
 
@@ -1134,18 +1078,15 @@ doc-text-printer-neosol-incentive-order =
 
    ⠀[signature]
 
-
+   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-prisoner-parole-order =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [acslogo]
+   ⠀[center][color=#8a1313][italic][bold]OFFICIAL AEGIS CORPORATE SECURITIES DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                         [bold]ORDER OF MANDATORY PAROLE[/bold]
     ────────────────────────────────────────
@@ -1164,19 +1105,17 @@ doc-text-printer-neosol-prisoner-parole-order =
 
     Additional terms of parole: [form]
 
+   ⠀[italic]This document is provided by Aegis Corporate Securities, Scarborough and WaffleStar use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-order-recognizing-reasonableness-creature =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [mrilogo]
+   ⠀[center][color=#821b27][italic][bold]OFFICIAL MOBIUS RESEARCH INSTITUTE DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀[bold]DECLARATION OF SENTIENCE[/bold]
+   ⠀⠀                         [bold]DECLARATION OF SENTIENCE[/bold]
     ────────────────────────────────────────
     Date and Time: [form]
     Document Compiler: [signature]
@@ -1191,17 +1130,15 @@ doc-text-printer-neosol-order-recognizing-reasonableness-creature =
 
     The creature is henceforth to be accepted as an Assistant.
 
+   ⠀[italic]This document is provided by Mobius Research Institute and Solaris Systems and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-medical-intervention-order =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [iplogo]
+   ⠀[color=#211075][italic][bold]OFFICIAL INTERDYNE PHARMACEUTICALS DOCUMENT[/bold][/italic][/color]
     ────────────────────────────────────────
    ⠀⠀                [bold]MEDICAL INTERVENTION ORDER[/bold]
     ────────────────────────────────────────
@@ -1220,17 +1157,17 @@ doc-text-printer-neosol-medical-intervention-order =
 
     Qualified Medical Officer: [signature]
 
+   ⠀[italic]This document is provided by Interdyne Pharmaceuticals and CyberSun use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 
 doc-text-printer-neosol-execution-dnr-order =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+     ⠀                          [nscfalogo]               
+    ⠀[color=#4b3456][italic][bold] 
+                  CONCORDE FRONTIERS AUTHORITY 
+                      OFFICIAL DOCUMENT[/bold][/italic][/color]
     ────────────────────────────────────────
    ⠀⠀             [bold]EXECUTION AND DO-NOT-REVIVE ORDER[/bold]
     ────────────────────────────────────────
@@ -1254,39 +1191,38 @@ doc-text-printer-neosol-execution-dnr-order =
    ⠀ [italic]The prisoner is to remain securely restrained until the execution.[/italic]
    ⠀ [italic]The execution method may be chosen by the prisoner, to the[/italic]
    ⠀ [italic]extent permissible under law, and must be as humane as possible.[/italic]
+
+    ⠀[italic]Protecting civil rights and upholding order[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 # Communications
 
 doc-text-printer-neosol-centcomm-communication =
-   ⠀[logo]            [cclogo] 
-
-                             [head=3]NT-CC Consortium Services[/head]
-
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nslogo] 
+   ⠀⠀                          [hclogo]
+   ⠀[center][color=#8f0b0b][italic][bold]OFFICIAL NEOSOL HIGH COMMAND DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                    [bold]CENTCOMM COMMUNICATION[/bold]
+   ⠀⠀                    [bold]HIGH COMMAND COMMUNICATION[/bold]
     ────────────────────────────────────────
     Date and Time: [form]
     Document Compiler: [signature]
 
-    Greetings CentComm,
+    Greetings High Command,
 
    ⠀[form]
 
     Sincerely,
        - [signature]
+
+   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
 
 doc-text-printer-neosol-salvagelead-report =
-    ⠀[logo]            [cclogo] 
-
-                              [head=3]NT-CC Consortium Services[/head]
-
-                   [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+   ⠀⠀                          [nsgsllogo]
+   ⠀[center][color=#a46106][italic][bold]OFFICIAL GEMINI STELLA LOGISTICS DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
     ⠀⠀                   [bold]SALVAGE LEAD REPORT[/bold]
     ────────────────────────────────────────
@@ -1311,5 +1247,6 @@ doc-text-printer-neosol-salvagelead-report =
 
     Further notes: [form]
 
+  ⠀ [italic]This document is provided by Gemini Stella logistics use it wisely[/italic]
      ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]

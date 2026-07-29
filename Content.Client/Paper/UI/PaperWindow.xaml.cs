@@ -62,6 +62,14 @@ namespace Content.Client.Paper.UI
             //Far Horizons-Start
             typeof(CFALogoTag),
             typeof(NSLogoTag),
+            typeof(HCLogoTag),
+            typeof(MELogoTag),
+            typeof(NSGSLLogoTag),
+            typeof(CDLogoTag),
+            typeof(IPLogoTag),
+            typeof(MRILogoTag),
+            typeof(ACSLogoTag),
+            typeof(NSCFALogoTag),
             //Far Horizons-End
             typeof(CheckTagHandler)
         };

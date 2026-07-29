@@ -208,7 +208,7 @@
 - type: entity
   parent: PrintedNSDocument
   id: PrintedNSDocumentRequestCallCentCommMembers
-  name: Request to Call CentComm Members
+  name: Request to Call High Command Members
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -253,7 +253,7 @@
 - type: entity
   parent: PrintedNSDocument
   id: PrintedNSDocumentRequestNSDocuments
-  name: Request for Release of NSDocuments
+  name: Request for Release of Documents
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -402,7 +402,7 @@
 - type: entity
   parent: PrintedNSDocument
   id: PrintedNSDocumentIncentiveOrder
-  name: Recognition of Merit
+  name: Recognition of Honour
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -449,7 +449,7 @@
 - type: entity
   parent: PrintedNSDocument
   id: PrintedNSDocumentCentCommCommunication
-  name: Centcomm Communication
+  name: High Command Communication
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
