@@ -34,6 +34,28 @@
   signType: AdSignGeneric
           
 #region ## GSL ##
+- type: entity
+  id: BaseAdSignGSL
+  parent: BaseAdSign
+  name: Ad Sign
+  suffix: GSL
+  components:
+  - type: AccessReader
+    access: [["GSL"]]
+  - type: BarSign
+    emped: EmpedSign
+    signType: [AdSignGeneric, AdSignGSL]
+
+- type: entity
+  parent: BaseAdSignGSL
+  id: AdSignMiners
+  name: Miner LMC Ad
+  description: An ad trying to recruit more miners for GSL.
+  suffix: CWS, GSL
+  components:
+  - type: BarSign
+    current: MinersSign
+
 - type: barSign
   id: MinersSign
   name: barsign-prototype-name-miner-screen
@@ -189,22 +211,6 @@
   description: barsign-prototype-description-telostext-screen
   signType: AdSignNT
 
-- type: entity
-  parent: MarkerBase
-  name: random television spawner
-  id: WallmountTelevisionRandomSpawner
-  suffix: NT
-  components:
-    - type: Sprite
-      layers:
-        - state: red
-        - sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
-          state: empty
-    - type: RandomSpawner
-      prototypes:
-        - AdSignCWS
-      offset: 0.0
-
 #region ## NeoSol ##
 - type: entity
   id: BaseAdSignNS
@@ -238,37 +244,96 @@
   signType: AdSignNS
 
 - type: entity
-  parent: WallmountTelevision
-  id: WallmountTelevisionNSWorlds
-  suffix: NSWorlds, NS
+  parent: BaseAdSignNS
+  id: AdSignNSWorlds
+  name: NS Worlds Ad
+  description: An ad showing the classic NeoSol industrialized city.
+  suffix: NsWorlds, NS
   components:
-  - type: Sprite
-    layers:
-      - map: ["computerLayerBody"]
-        state: television_wall
-      - map: ["computerLayerScreen"]
-        state: NSworlds
-  - type: PointLight
-    enabled: true
-    energy: 2
-    radius: 2.5
-    offset: 0.0, -.75
-    color: "#f34040"
+  - type: BarSign
+    current: NSWorldsSign
+
+- type: barSign
+  id: NSWorldsSign
+  name: barsign-prototype-name-nsworlds-screen
+  icon:
+    sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
+    state: NSworlds
+  description: barsign-prototype-description-nsworlds-screen
+  signType: AdSignNS
 
 - type: entity
-  parent: WallmountTelevision
-  id: WallmountTelevisionSecBigBrother
+  parent: BaseAdSignNS
+  id: AdSignSecBigBrother
+  name: Aegis Corporate Securities Ad
+  description: An ad that gives off big brother vibe.
   suffix: SecBigBrother, NS
   components:
-  - type: Sprite
-    layers:
-      - map: ["computerLayerBody"]
-        state: television_wall
-      - map: ["computerLayerScreen"]
-        state: SecBigBrother
-  - type: PointLight
-    enabled: true
-    energy: 2
-    radius: 2.5
-    offset: 0.0, -.75
-    color: "#f34040"
+  - type: BarSign
+    current: SecBigBrotherSign
+
+- type: barSign
+  id: SecBigBrotherSign
+  name: barsign-prototype-name-aegis-screen
+  icon:
+    sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
+    state: SecBigBrother
+  description: barsign-prototype-description-aegis-screen
+  signType: AdSignNS
+
+- type: entity
+  parent: BaseAdSignNS
+  id: AdSignCybersun
+  name: Cybersun Ad
+  description: An ad advertising Cybersun implants.
+  suffix: Cybersun, NS
+  components:
+  - type: BarSign
+    current: CybersunSign
+
+- type: barSign
+  id: CybersunSign
+  name: barsign-prototype-name-cybersun-screen
+  icon:
+    sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
+    state: Cybersun
+  description: barsign-prototype-description-cybersun-screen
+  signType: AdSignNS
+
+- type: entity
+  parent: BaseAdSignNS
+  id: AdSignCybersunBorg
+  name: Cybersun Ad
+  description: An ad advertising the new Cybersun cyborg models.
+  suffix: CybersunBorg, NS
+  components:
+  - type: BarSign
+    current: CybersunBorgSign
+
+- type: barSign
+  id: CybersunBorgSign
+  name: barsign-prototype-name-cybersunborg-screen
+  icon:
+    sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
+    state: CybersunBorg
+  description: barsign-prototype-description-cybersunborg-screen
+  signType: AdSignNS
+
+- type: entity
+  parent: BaseAdSignNS
+  id: AdSignInterdyne
+  name: Interdyne Pharmaceuticals Ad
+  description: An ad advertising Interdyne and its new pharmaceutical advancements.
+  suffix: Interdyne, NS
+  components:
+  - type: BarSign
+    current: InterdyneSign
+
+- type: barSign
+  id: InterdyneSign
+  name: barsign-prototype-name-interdyne-screen
+  icon:
+    sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
+    state: Interdyne
+  description: barsign-prototype-description-interdyne-screen
+  signType: AdSignNS

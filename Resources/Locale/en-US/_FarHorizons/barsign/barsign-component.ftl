@@ -38,6 +38,25 @@ barsign-prototype-name-telostext-screen = Telos Industries Ad
 barsign-prototype-description-telostext-screen = An ad showing off Telos Industries's progress into the genetics field.
 
 ##NeoSol
-##Caprica & Solaris Systems
+## Caprica & Solaris Systems
 barsign-prototype-name-css-screen = Caprica & Solaris Systems Ad
 barsign-prototype-description-css-screen = An ad showing Caprica Engineers on their way to power the station.
+
+## NS Worlds
+barsign-prototype-name-nsworlds-screen = NS Worlds Ad
+barsign-prototype-description-nsworlds-screen = An ad showing the classic NeoSol industrialized city.
+
+## Aegis Corporate Securities
+barsign-prototype-name-aegis-screen = Aegis Corporate Securities Ad
+barsign-prototype-description-aegis-screen = An ad that gives off big brother vibe.
+
+## Cybersun
+barsign-prototype-name-cybersun-screen = Cybersun Ad
+barsign-prototype-description-cybersun-screen = An ad advertising Cybersun implants.
+
+barsign-prototype-name-cybersunborg-screen = Cybersun Ad
+barsign-prototype-description-cybersunborg-screen = An ad advertising the new Cybersun cyborg models.
+
+## Interdyne Pharmaceuticals
+barsign-prototype-name-interdyne-screen = Interdyne Pharmaceuticals Ad
+barsign-prototype-description-interdyne-screen = An ad advertising Interdyne and its new pharmaceutical advancements.
