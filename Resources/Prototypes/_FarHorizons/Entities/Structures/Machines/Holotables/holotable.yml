@@ -260,7 +260,7 @@
   - type: PointLight
     radius: 3
     energy: 2
-    color: "#e85f7f"
+    color: "#ffbdcc"
   - type: Screen
   - type: ScreenVisuals
   - type: ApcPowerReceiver
