@@ -9,6 +9,7 @@
     state: empty
   - type: BarSign
     emped: EmpedSign
+    broken: BrokenSign
     titleName: adsign-ui-menu
   - type: Destructible
     thresholds:
@@ -17,10 +18,18 @@
         damage: 50
       behaviors:
       - !type:DoActsBehavior
-        acts: [ "Destruction" ]
+        acts: [ "Breakage" ]
       - !type:PlaySoundBehavior
         sound:
           collection: MetalGlassBreak
+  - type: LitOnPowered
+  - type: Repairable
+    doAfterDelay: 5
+  - type: PointLight
+    enabled: true
+    energy: 2
+    radius: 2.5
+    offset: 0.0, -.75
 
 #region Generics
 - type: barSign
@@ -32,7 +41,19 @@
   description: barsign-prototype-description-emped-screen
   hidden: true
   signType: AdSignGeneric
-          
+  color: "#002DB3"
+        
+- type: barSign
+  id: BrokenSign
+  name: barsign-prototype-name-broken-screen
+  icon:
+    sprite: _FarHorizons/Structures/Wallmounts/flatscreentv.rsi
+    state: television_wallbroken
+  description: barsign-prototype-description-broken-screen
+  hidden: true
+  signType: AdSignGeneric
+  color: "#002DB3"
+
 #region ## GSL ##
 - type: entity
   id: BaseAdSignGSL
@@ -41,7 +62,7 @@
   suffix: GSL
   components:
   - type: AccessReader
-    access: [["GSL"]]
+    access: [["Cargo"]]
   - type: BarSign
     emped: EmpedSign
     signType: [AdSignGeneric, AdSignGSL]
@@ -64,6 +85,7 @@
     state: MinersLMC
   description: barsign-prototype-description-miner-screen
   signType: AdSignGSL
+  color: "#f7ba00"
 
 #region ## NanoTrasen ##
 - type: entity
@@ -96,6 +118,7 @@
     state: CWSscreen
   description: barsign-prototype-description-cwc-screen
   signType: AdSignNT
+  color: "#ebf700"
 
 - type: entity
   parent: BaseAdSignNT
@@ -115,6 +138,7 @@
     state: Secpropa
   description: barsign-prototype-description-sec-screen
   signType: AdSignNT
+  color: "#adb1ff"
 
 - type: entity
   parent: BaseAdSignNT
@@ -134,6 +158,7 @@
     state: Gensys
   description: barsign-prototype-description-gensys-screen
   signType: AdSignNT
+  color: "#f7ba00"
 
 - type: entity
   parent: BaseAdSignNT
@@ -153,6 +178,7 @@
     state: Limehelp
   description: barsign-prototype-description-limb-screen
   signType: AdSignNT
+  color: "#3decff"
 
 - type: entity
   parent: BaseAdSignNT
@@ -172,6 +198,7 @@
     state: NTworlds
   description: barsign-prototype-description-ntworlds-screen
   signType: AdSignNT
+  color: "#3decff"
 
 - type: entity
   parent: BaseAdSignNT
@@ -191,6 +218,7 @@
     state: Telosmonkey
   description: barsign-prototype-description-telosmonkey-screen
   signType: AdSignNT
+  color: "#ed75f8"
 
 - type: entity
   parent: BaseAdSignNT
@@ -210,6 +238,7 @@
     state: Telostext
   description: barsign-prototype-description-telostext-screen
   signType: AdSignNT
+  color: "#ed75f8"
 
 #region ## NeoSol ##
 - type: entity
@@ -242,6 +271,7 @@
     state: CSCScreen
   description: barsign-prototype-description-css-screen
   signType: AdSignNS
+  color: "#ffc401"
 
 - type: entity
   parent: BaseAdSignNS
@@ -261,6 +291,7 @@
     state: NSworlds
   description: barsign-prototype-description-nsworlds-screen
   signType: AdSignNS
+  color: "#f34040"
 
 - type: entity
   parent: BaseAdSignNS
@@ -280,6 +311,7 @@
     state: SecBigBrother
   description: barsign-prototype-description-aegis-screen
   signType: AdSignNS
+  color: "#f34040"
 
 - type: entity
   parent: BaseAdSignNS
@@ -299,6 +331,7 @@
     state: Cybersun
   description: barsign-prototype-description-cybersun-screen
   signType: AdSignNS
+  color: "#f34040"
 
 - type: entity
   parent: BaseAdSignNS
@@ -318,6 +351,7 @@
     state: CybersunBorg
   description: barsign-prototype-description-cybersunborg-screen
   signType: AdSignNS
+  color: "#f34040"
 
 - type: entity
   parent: BaseAdSignNS
@@ -337,3 +371,4 @@
     state: Interdyne
   description: barsign-prototype-description-interdyne-screen
   signType: AdSignNS
+  color: "#3decff"

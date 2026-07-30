@@ -24,6 +24,10 @@ public sealed partial class BarSignPrototype : IPrototype
     // FarHorizons Start
     [DataField]
     public SignType SignType { get; private set; } = SignType.BarSign;
+
+    [ViewVariables(VVAccess.ReadWrite)]
+    [DataField("color")]
+    public Color? Color { get; private set; }
     // FarHorizons End
 }
 

@@ -4,6 +4,9 @@ adsign-ui-menu = Ad Sign Configuration
 barsign-prototype-name-emped-screen = BSOD Ad Sign
 barsign-prototype-description-emped-screen = Something made this Ad Sign crash, now it displays a blue screen of death.
 
+barsign-prototype-name-broken-screen = Broken Ad Sign
+barsign-prototype-description-broken-screen = Guess someone really wanted to skip these ads.
+
 ##GSL
 ##Miners LMC
 barsign-prototype-name-miner-screen = Miner LMC Ad

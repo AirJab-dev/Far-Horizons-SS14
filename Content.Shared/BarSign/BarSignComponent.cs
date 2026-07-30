@@ -24,6 +24,13 @@ public sealed partial class BarSignComponent : Component
     public ProtoId<BarSignPrototype>? Emped = "EmpBarSign";
 
     // FarHorizons Start
+
+    [DataField, AutoNetworkedField]
+    public bool isBroken = false;
+
+    [DataField, AutoNetworkedField]
+    public ProtoId<BarSignPrototype>? Broken = "EmpBarSign";
+
     [DataField, AutoNetworkedField]
     public SignType SignType = SignType.BarSign;
 
