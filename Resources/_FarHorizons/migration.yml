@@ -292,6 +292,7 @@ SpawnPointBrighteye: null
 
 # 2026-07-29 - Redid how ad signs work - Athena
 WallmountTelevision: BaseAdSignNT
+WallmountTelevisionRandomSpawner : BaseAdSignNT
 WallmountTelevisionNSRandomSpawner: BaseAdSignNS
 WallmountTelevisionCWS: AdSignCWS
 WallmountTelevisionSec: AdSignSec
