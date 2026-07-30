@@ -102,8 +102,8 @@
 
 - type: entity
   parent: BaseAdSignNT
-  id: barsign-prototype-name-cwc-screen
-  name: Clockwork Solutions Ad
+  id: AdSignCWS
+  name: barsign-prototype-name-cwc-screen
   description: barsign-prototype-description-cwc-screen
   suffix: CWS, NT
   components:
