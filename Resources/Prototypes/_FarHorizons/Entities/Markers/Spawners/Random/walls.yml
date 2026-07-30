@@ -103,13 +103,13 @@
 - type: entity
   name: Wall Spawner
   id: SpawnerWallSolid70
-  suffix: 70%
+  suffix: NT, 70%
   parent: MarkerBase
   components:
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Walls/solid.rsi
+    - sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid.rsi
       state: full
   - type: RandomSpawner
     prototypes:
@@ -120,13 +120,13 @@
 - type: entity
   name: Wall Spawner
   id: SpawnerWallSolid50
-  suffix: 50%
+  suffix: NT, 50%
   parent: MarkerBase
   components:
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Walls/solid.rsi
+    - sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid.rsi
       state: full
   - type: RandomSpawner
     prototypes:
@@ -137,13 +137,13 @@
 - type: entity
   name: Wall Spawner
   id: SpawnerWallSolid30
-  suffix: 30%
+  suffix: NT, 30%
   parent: MarkerBase
   components:
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Walls/solid.rsi
+    - sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid.rsi
       state: full
   - type: RandomSpawner
     prototypes:
@@ -154,13 +154,13 @@
 - type: entity
   name: Reinforced Wall Spawner
   id: SpawnerWallReinforced70
-  suffix: 70%
+  suffix: NT, 70%
   parent: MarkerBase
   components:
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Walls/solid.rsi
+    - sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid.rsi
       state: rgeneric
   - type: RandomSpawner
     prototypes:
@@ -171,13 +171,13 @@
 - type: entity
   name: Reinforced Wall Spawner
   id: SpawnerWallReinforced50
-  suffix: 50%
+  suffix: NT, 50%
   parent: MarkerBase
   components:
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Walls/solid.rsi
+    - sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid.rsi
       state: rgeneric
   - type: RandomSpawner
     prototypes:
@@ -188,13 +188,13 @@
 - type: entity
   name: Reinforced Wall Spawner
   id: SpawnerWallReinforced30
-  suffix: 30%
+  suffix: NT, 30%
   parent: MarkerBase
   components:
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Walls/solid.rsi
+    - sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid.rsi
       state: rgeneric
   - type: RandomSpawner
     prototypes:

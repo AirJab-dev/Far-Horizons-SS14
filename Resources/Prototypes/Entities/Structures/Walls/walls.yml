@@ -609,9 +609,9 @@
   - type: Ricochetable
     chance: 0.75
   - type: Sprite
-    sprite: Structures/Walls/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid.rsi #FH
   - type: Icon
-    sprite: Structures/Walls/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid.rsi #FH
     state: rgeneric
   - type: Construction
     graph: Girder
@@ -682,9 +682,9 @@
   suffix: Rusted, NT #Far Horizons - The Great Capitalization Crusade
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid_rust.rsi #FH
   - type: Icon
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid_rust.rsi #FH
     state: rgeneric
   - type: Construction
     graph: Girder
@@ -1014,13 +1014,13 @@
   suffix: NT #FH
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid.rsi #FH
   - type: WallReplacementMarker
   - type: Construction
     graph: Girder
     node: wall
   - type: Icon
-    sprite: Structures/Walls/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid.rsi #FH
   - type: RCDDeconstructable
     cost: 6
     delay: 8
@@ -1098,9 +1098,9 @@
   suffix: Rusted, NT #Far Horizons - The Great Capitalization Crusade
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid_rust.rsi #FH
   - type: Icon
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid_rust.rsi #FH
     state: full
   - type: Construction
     graph: Girder
