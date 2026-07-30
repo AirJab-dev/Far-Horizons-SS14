@@ -23,7 +23,7 @@ barsign-prototype-description-sec-screen = An ad sign attempting to repair secur
 
 ## Gensys
 barsign-prototype-name-gensys-screen = Gensys Ad
-barsign-prototype-description-gensys-screen = An ad sign claiming gensys is here to help us
+barsign-prototype-description-gensys-screen = An ad sign claiming Gensys is here to help us.
 
 ## Limb Augments
 barsign-prototype-name-limb-screen = Limb Augments Ad

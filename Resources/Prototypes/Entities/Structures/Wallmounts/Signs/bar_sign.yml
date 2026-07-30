@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseBarSign
   parent: [ BaseWallmountGlass, BaseWallmountMachine ]
-  name: bar sign
+  name: Bar Sign #FH
   abstract: true
   components:
   - type: AmbientSound #SL
