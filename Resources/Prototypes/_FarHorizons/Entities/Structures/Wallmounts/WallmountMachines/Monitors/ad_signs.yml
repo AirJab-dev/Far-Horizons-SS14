@@ -1,7 +1,7 @@
 - type: entity
   id: BaseAdSign
   parent: BaseBarSign
-  name: Advertisement Sign
+  name: ad sign
   abstract: true
   components:
   - type: Sprite
@@ -58,7 +58,7 @@
 - type: entity
   id: BaseAdSignGSL
   parent: BaseAdSign
-  name: Advertisement Sign
+  name: Ad Sign
   suffix: GSL
   components:
   - type: AccessReader
@@ -70,8 +70,8 @@
 - type: entity
   parent: BaseAdSignGSL
   id: AdSignMiners
-  name: barsign-prototype-name-miner-screen
-  description: barsign-prototype-description-miner-screen
+  name: Miner LMC Ad
+  description: An ad trying to recruit more miners for GSL.
   suffix: CWS, GSL
   components:
   - type: BarSign
@@ -91,7 +91,7 @@
 - type: entity
   id: BaseAdSignNT
   parent: BaseAdSign
-  name: Advertisement Sign
+  name: Ad Sign
   suffix: NT
   components:
   - type: AccessReader
@@ -103,8 +103,8 @@
 - type: entity
   parent: BaseAdSignNT
   id: AdSignCWS
-  name: barsign-prototype-name-cwc-screen
-  description: barsign-prototype-description-cwc-screen
+  name: Clockwork Solutions Ad
+  description: Just a simple sign displaying an ad for Clockwork Solutions trying to look tough.
   suffix: CWS, NT
   components:
   - type: BarSign
@@ -123,8 +123,8 @@
 - type: entity
   parent: BaseAdSignNT
   id: AdSignSec
-  name: barsign-prototype-name-sec-screen
-  description: barsign-prototype-description-sec-screen
+  name: NT Corporate Security Ad
+  description: An ad sign attempting to repair security's reputation.
   suffix: Sec, NT
   components:
   - type: BarSign
@@ -143,8 +143,8 @@
 - type: entity
   parent: BaseAdSignNT
   id: AdSignGensys
-  name: barsign-prototype-name-gensys-screen
-  description: barsign-prototype-description-gensys-screen
+  name: Gensys Ad
+  description: An ad sign claiming Gensys is here to help us
   suffix: Gensys, NT
   components:
   - type: BarSign
@@ -163,8 +163,8 @@
 - type: entity
   parent: BaseAdSignNT
   id: AdSignLimb
-  name: barsign-prototype-name-limb-screen
-  description: barsign-prototype-description-limb-screen
+  name: Limb Augments Ad
+  description: An ad advertising Limb Augment's medical service.
   suffix: Limb, NT
   components:
   - type: BarSign
@@ -183,8 +183,8 @@
 - type: entity
   parent: BaseAdSignNT
   id: AdSignNTWorlds
-  name: barsign-prototype-name-ntworlds-screen
-  description: barsign-prototype-description-ntworlds-screen
+  name: NT Worlds Ad
+  description: An ad showing an idealistic version of worlds under NT control
   suffix: NTWorlds, NT
   components:
   - type: BarSign
@@ -203,8 +203,8 @@
 - type: entity
   parent: BaseAdSignNT
   id: AdSignTelosMonkey
-  name: barsign-prototype-name-telosmonkey-screen
-  description: barsign-prototype-description-telosmonkey-screen
+  name: Telos Industries Ad
+  description: An ad showing the usage of monkeys in Telos Industries attempts at innovation. Poor little guys.
   suffix: Telosmonkey, NT
   components:
   - type: BarSign
@@ -223,8 +223,8 @@
 - type: entity
   parent: BaseAdSignNT
   id: AdSignTelosText
-  name: barsign-prototype-name-telostext-screen
-  description: barsign-prototype-description-telostext-screen
+  name: Telos Industries Ad
+  description: An ad showing the usage of monkeys in Telos Industries attempts at innovation. Poor little guys.
   suffix: Telostext, NT
   components:
   - type: BarSign
@@ -256,8 +256,8 @@
 - type: entity
   parent: BaseAdSignNS
   id: AdSignCSS
-  name: barsign-prototype-name-css-screen
-  description: barsign-prototype-description-css-screen
+  name: Caprica & Solaris Systems Ad
+  description: An ad showing Caprica Engineers on their way to power the station.
   suffix: CSS, NS
   components:
   - type: BarSign
@@ -276,8 +276,8 @@
 - type: entity
   parent: BaseAdSignNS
   id: AdSignNSWorlds
-  name: barsign-prototype-name-nsworlds-screen
-  description: barsign-prototype-description-nsworlds-screen
+  name: NS Worlds Ad
+  description: An ad showing the classic NeoSol industrialized city.
   suffix: NsWorlds, NS
   components:
   - type: BarSign
@@ -296,8 +296,8 @@
 - type: entity
   parent: BaseAdSignNS
   id: AdSignSecBigBrother
-  name: barsign-prototype-name-aegis-screen
-  description: barsign-prototype-description-aegis-screen
+  name: Aegis Corporate Securities Ad
+  description: An ad that gives off big brother vibe.
   suffix: SecBigBrother, NS
   components:
   - type: BarSign
@@ -316,8 +316,8 @@
 - type: entity
   parent: BaseAdSignNS
   id: AdSignCybersun
-  name: barsign-prototype-name-cybersun-screen
-  description: barsign-prototype-description-cybersun-screen
+  name: Cybersun Ad
+  description: An ad advertising Cybersun implants.
   suffix: Cybersun, NS
   components:
   - type: BarSign
@@ -336,8 +336,8 @@
 - type: entity
   parent: BaseAdSignNS
   id: AdSignCybersunBorg
-  name: barsign-prototype-name-cybersunborg-screen
-  description: barsign-prototype-description-cybersunborg-screen
+  name: Cybersun Ad
+  description: An ad advertising the new Cybersun cyborg models.
   suffix: CybersunBorg, NS
   components:
   - type: BarSign
@@ -356,8 +356,8 @@
 - type: entity
   parent: BaseAdSignNS
   id: AdSignInterdyne
-  name: barsign-prototype-name-interdyne-screen
-  description: barsign-prototype-description-interdyne-screen
+  name: Interdyne Pharmaceuticals Ad
+  description: An ad advertising Interdyne and its new pharmaceutical advancements.
   suffix: Interdyne, NS
   components:
   - type: BarSign
