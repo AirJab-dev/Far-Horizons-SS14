@@ -161,9 +161,8 @@ doc-text-printer-neosol-report-on-the-chapters-meeting =
     • [signature]
     Resolution of the meeting: [form]
 
-   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+                          Place for Stamps and/or Signatures
 
 
 doc-text-printer-neosol-internal-affairs-agents-report =
@@ -806,7 +805,7 @@ doc-text-printer-neosol-offense-complaint =
      ⠀                          [nscfalogo]               
     ⠀[color=#4b3456][italic][bold] 
                   CONCORDE FRONTIERS AUTHORITY 
-                      OFFICIAL DOCUMENT[/bold][/italic][/color]
+                             OFFICIAL DOCUMENT[/bold][/italic][/color]
     ────────────────────────────────────────
    ⠀⠀                             [bold]CRIMINAL COMPLAINT[/bold]
     ────────────────────────────────────────
@@ -1167,7 +1166,7 @@ doc-text-printer-neosol-execution-dnr-order =
      ⠀                          [nscfalogo]               
     ⠀[color=#4b3456][italic][bold] 
                   CONCORDE FRONTIERS AUTHORITY 
-                      OFFICIAL DOCUMENT[/bold][/italic][/color]
+                               OFFICIAL DOCUMENT[/bold][/italic][/color]
     ────────────────────────────────────────
    ⠀⠀             [bold]EXECUTION AND DO-NOT-REVIVE ORDER[/bold]
     ────────────────────────────────────────

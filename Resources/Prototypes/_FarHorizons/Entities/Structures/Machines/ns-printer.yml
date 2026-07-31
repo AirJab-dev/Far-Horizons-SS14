@@ -21,7 +21,7 @@
   - type: Transform
     noRot: false
   - type: Machine
-    board: PrinterDocMachineCircuitboard
+    board: PrinterNSDocMachineCircuitboard
   - type: Lathe
     producingSound: /Audio/Machines/scanning.ogg
     idleState: icon
