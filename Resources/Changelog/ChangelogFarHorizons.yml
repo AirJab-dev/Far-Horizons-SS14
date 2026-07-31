@@ -16827,5 +16827,49 @@ Entries:
   id: 149800
   time: '2026-07-28T22:43:05.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1498
+- author: AthenaAI
+  changes:
+  - message: Redoes the entire Ad Sign prototype to no longer be a TV and instead
+      be somewhat like the bar signs.
+    type: Tweak
+  id: 150300
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: Ad signs can be broken and repaired.
+    type: Tweak
+  id: 150301
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: There is 3 different Ad Sign prototypes NS, NT, GSL they respectively
+      their appropriate ads.
+    type: Tweak
+  id: 150302
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: You can choose what ad signs to display. This access is given to Service.
+    type: Tweak
+  id: 150303
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: Adds more signs for NeoSol.
+    type: Add
+  id: 150304
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: Moves Telos Ad signs to the NanoTrasen side. Oops.
+    type: Fix
+  id: 150305
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
 Order: -1
 
