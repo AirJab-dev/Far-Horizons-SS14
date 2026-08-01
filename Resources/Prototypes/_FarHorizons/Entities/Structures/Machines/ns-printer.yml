@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseLathe
-  id: PrinterDoc
-  name: Document Printer #Far Horizons
-  description: Bureaucratic perfection. Stores a database of all Nanotrasen documents, and lets you print them as long as you have paper.
-  suffix: NT #Far Horizons
+  id: NSPrinterDoc
+  name: Document Printer
+  description: Bureaucratic perfection. Stores a database of all NeoSol documents, and lets you print them as long as you have paper.
+  suffix: NS
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/printer.rsi
@@ -21,13 +21,13 @@
   - type: Transform
     noRot: false
   - type: Machine
-    board: PrinterDocMachineCircuitboard
+    board: PrinterNSDocMachineCircuitboard
   - type: Lathe
     producingSound: /Audio/Machines/scanning.ogg
     idleState: icon
     runningState: building
     staticPacks:
-    - StarlightDocs
+    - FarHorizonsNeoSolDocs
 #  - type: EmagLatheRecipes
 #    emagStaticPacks:
 #    - StarlightDocsEmag
