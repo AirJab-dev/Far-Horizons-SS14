@@ -201,7 +201,7 @@ doc-text-printer-neosol-condition-report =
 
     Repairs performed: [form]
 
-   ⠀[italic]Moon-Electra Dynamics as well as Caprica and Solaris Systems, use it wisely[/italic]
+   ⠀[italic]This document is provided by Moon-Electra Dynamics as well as Caprica and Solaris Systems, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -690,7 +690,7 @@ doc-text-printer-neosol-request-construction-work =
 
     List of construction work: [form]
 
-   ⠀[italic]Moon-Electra Dynamics as well as Caprica and Solaris Systems, use it wisely[/italic]
+   ⠀[italic]This document is provided by Moon-Electra Dynamics as well as Caprica and Solaris Systems, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -961,7 +961,7 @@ doc-text-printer-neosol-construction-permit =
 
     Agreed scope of redevelopment: [form]
 
-   ⠀[italic]Moon-Electra Dynamics as well as Caprica and Solaris Systems, use it wisely[/italic]
+   ⠀[italic]This document is provided by Moon-Electra Dynamics as well as Caprica and Solaris Systems, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
