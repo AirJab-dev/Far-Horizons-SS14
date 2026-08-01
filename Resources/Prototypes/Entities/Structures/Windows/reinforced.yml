@@ -6,9 +6,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/reinforced_window.rsi #FH
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_window.rsi #FH
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/reinforced_window.rsi #FH
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_window.rsi #FH
   - type: Repairable
     fuelCost: 10
     doAfterDelay: 2

@@ -27,9 +27,9 @@
       - Window
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/window.rsi
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/window.rsi #FH
   - type: Icon
-    sprite: Structures/Windows/window.rsi
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/window.rsi #FH
     state: full
   - type: Physics
     bodyType: Static
