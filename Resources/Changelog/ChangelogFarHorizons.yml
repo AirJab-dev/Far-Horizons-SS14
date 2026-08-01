@@ -16892,5 +16892,20 @@ Entries:
   id: 148502
   time: '2026-08-01T10:24:51.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1485
+- author: AthenaAI
+  changes:
+  - message: Fixes an issue with riplet arm where the server tried to delete something
+      that was already deleted.
+    type: Fix
+  id: 150600
+  time: '2026-08-01T10:39:00.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1506
+- author: AthenaAI
+  changes:
+  - message: Fixe- Oh god please no more clown car reload bug.
+    type: Fix
+  id: 150601
+  time: '2026-08-01T10:39:00.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1506
 Order: -1
 
