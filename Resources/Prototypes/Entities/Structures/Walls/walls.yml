@@ -1570,6 +1570,7 @@
         layer:
         - GlassLayer
   - type: Airtight
+  - type: LineOfSightExclude # Far Horizons
 
 - type: entity
   id: WallForce

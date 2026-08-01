@@ -16711,5 +16711,165 @@ Entries:
   id: 149100
   time: '2026-07-27T03:33:12.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1491
+- author: princess_gurchi
+  changes:
+  - message: Fixed a bug causing you to stay hungry no matter how much you eat
+    type: Fix
+  id: 149400
+  time: '2026-07-27T20:21:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1494
+- author: princess_gurchi
+  changes:
+  - message: NT job priorities won't disappear after editing job priorities in NS
+      round and vice versa
+    type: Fix
+  id: 149401
+  time: '2026-07-27T20:21:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1494
+- author: princess_gurchi
+  changes:
+  - message: Borgs and AI can now select different names for NT and NS sides
+    type: Tweak
+  id: 149402
+  time: '2026-07-27T20:21:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1494
+- author: KarusKardin
+  changes:
+  - message: Added Cybernetics Thief Kit
+    type: Add
+  id: 149500
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Added Blackmarket Encryption Key
+    type: Add
+  id: 149501
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Splicer Thief Kit
+    type: Remove
+  id: 149502
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Added Access Breaker to Breacher Thief Kit
+    type: Tweak
+  id: 149503
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Added Emag to Smuggler Thief Kit
+    type: Tweak
+  id: 149504
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Added Radio Jammer to Communicator Thief Kit
+    type: Tweak
+  id: 149505
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Added Mute Toxin to Sleeper Thief Kit
+    type: Tweak
+  id: 149506
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Invisible Crate is no longer airtight, you can now safely store live
+      animals in it (if the surrounding area is ventilated)
+    type: Tweak
+  id: 149507
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Replaced Master Encryption Key in Communicator Thief Kit with a Blackmarket
+      Encryption Key
+    type: Tweak
+  id: 149508
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: princess_gurchi
+  changes:
+  - message: Lights in Elder arena can be broken by damage like normal lights
+    type: Tweak
+  id: 149900
+  time: '2026-07-28T20:32:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1499
+- author: princess_gurchi
+  changes:
+  - message: Boss attacks that target all enemies now will only target alive enemies
+    type: Tweak
+  id: 149901
+  time: '2026-07-28T20:32:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1499
+- author: princess_gurchi
+  changes:
+  - message: NPCs should no longer get their LOS broken by things that don't break
+      LOS for players (bodies, lockers, ore crates, etc.)
+    type: Fix
+  id: 149902
+  time: '2026-07-28T20:32:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1499
+- author: Fasuh
+  changes:
+  - message: Added an option for shuttle turrets to shoot through windows.
+    type: Add
+  id: 149800
+  time: '2026-07-28T22:43:05.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1498
+- author: AthenaAI
+  changes:
+  - message: Redoes the entire Ad Sign prototype to no longer be a TV and instead
+      be somewhat like the bar signs.
+    type: Tweak
+  id: 150300
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: Ad signs can be broken and repaired.
+    type: Tweak
+  id: 150301
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: There is 3 different Ad Sign prototypes NS, NT, GSL they respectively
+      their appropriate ads.
+    type: Tweak
+  id: 150302
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: You can choose what ad signs to display. This access is given to Service.
+    type: Tweak
+  id: 150303
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: Adds more signs for NeoSol.
+    type: Add
+  id: 150304
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: Moves Telos Ad signs to the NanoTrasen side. Oops.
+    type: Fix
+  id: 150305
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
 Order: -1
 

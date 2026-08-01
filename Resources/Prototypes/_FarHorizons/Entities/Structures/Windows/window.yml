@@ -129,6 +129,7 @@
   - type: StaticPrice
     price: 100
   - type: BlockWeather
+  - type: LineOfSightExclude
 
   #region NeoSol
 
