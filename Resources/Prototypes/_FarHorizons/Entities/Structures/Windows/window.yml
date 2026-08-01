@@ -141,9 +141,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/window.rsi
+    sprite: _FarHorizons/Structures/Windows/NeoSol/window.rsi
   - type: Icon
-    sprite: Structures/Windows/window.rsi
+    sprite: _FarHorizons/Structures/Windows/NeoSol/window.rsi
     state: full
 
 - type: entity
@@ -154,9 +154,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/reinforced_window.rsi
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_window.rsi
   - type: Icon
-    sprite: Structures/Windows/reinforced_window.rsi
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_window.rsi
 
 - type: entity
   parent: BaseWindow 
