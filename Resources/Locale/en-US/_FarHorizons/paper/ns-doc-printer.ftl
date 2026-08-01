@@ -4,8 +4,8 @@
 doc-text-printer-neosol-report-morgue =
      ⠀                          [nscfalogo]               
     ⠀[color=#4b3456][italic][bold] 
-                  CONCORDE FRONTIERS AUTHORITY 
-                      OFFICIAL DOCUMENT[/bold][/italic][/color]
+                  CONCORD FRONTIER AUTHORITY 
+                          OFFICIAL DOCUMENT[/bold][/italic][/color]
      ────────────────────────────────────────
    ⠀⠀                               [bold]MORGUE DNR REPORT[/bold]
      ────────────────────────────────────────
@@ -47,7 +47,7 @@ doc-text-printer-neosol-report-station =
 
     Current situation: [form]
   
-   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
+   ⠀[italic]This document is provided by Cybersun and collaborating companies, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -201,7 +201,7 @@ doc-text-printer-neosol-condition-report =
 
     Repairs performed: [form]
 
-   ⠀[italic]This document is provided by Moon-Electra Dynamics, Caprica and Solaris Systems use it wisely[/italic]
+   ⠀[italic]Moon-Electra Dynamics as well as Caprica and Solaris Systems, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -225,7 +225,7 @@ doc-text-printer-neosol-object-investigation-report =
 
     Identified properties: [form]
 
-   ⠀[italic]This document is provided by Mobius Research Institute and Solaris Systems and collaborating companies use it wisely[/italic]
+   ⠀[italic]This document is provided by Mobius Research Institute, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -252,7 +252,7 @@ doc-text-printer-neosol-experiment-report =
 
     Actual result: [form]
 
-   ⠀[italic]This document is provided by Mobius Research Institute and Solaris Systems and collaborating companies use it wisely[/italic]
+   ⠀[italic]This document is provided by Mobius Research Institute, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -276,7 +276,7 @@ doc-text-printer-neosol-disposal-report =
     • [form] - Given to [form] Department
     • [form] - Given to [form] Department
 
-   ⠀[italic]This document is provided by Aegis Corporate Securities, Scarborough and WaffleStar use it wisely[/italic]
+   ⠀[italic]This document is provided by Aegis Corporate Securities, use it wisely[/italic]
     ─────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -306,7 +306,7 @@ doc-text-printer-neosol-arrest-report =
 
     Additional remarks: [form]
 
-   ⠀[italic]This document is provided by Aegis Corporate Securities, Scarborough and WaffleStar use it wisely[/italic]
+   ⠀[italic]This document is provided by Aegis Corporate Securities, use it wisely[/italic]
     ─────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -354,7 +354,7 @@ doc-text-printer-neosol-employment-statement =
 
    ⠀[check] I agree to follow all applicable Standard Operating Procedures, and accept that my contract may be terminated if I fail to uphold them.
 
-   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
+   ⠀[italic]This document is provided by Cybersun and collaborating companies, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -375,7 +375,7 @@ doc-text-printer-neosol-resignation-statement =
 
    ⠀[check] I will surrender my departmental work gear and equipment.
 
-   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
+   ⠀[italic]This document is provided by Cybersun and collaborating companies, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -400,7 +400,7 @@ doc-text-printer-neosol-access-request-statement =
 
     Reason for gaining elevated access: [form]
 
-   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
+   ⠀[italic]This document is provided by Cybersun and collaborating companies, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -422,7 +422,7 @@ doc-text-printer-neosol-equipment-request-statement =
 
     Reason: [form]
 
-   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
+   ⠀[italic]This document is provided by Cybersun and collaborating companies, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -447,7 +447,7 @@ doc-text-printer-neosol-invocation =
 
    ⠀[italic]This is an official notice. Punishments may apply for failure to appear.[/italic]
 
-   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
+   ⠀[italic]This document is provided by Cybersun and collaborating companies, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -471,7 +471,7 @@ doc-text-printer-neosol-evacuation-shuttle-request =
 
     Reason for evacuation request: [form]
 
-   ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
+   ⠀[italic]This document is provided by Cybersun and collaborating companies, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -497,7 +497,7 @@ doc-text-printer-neosol-shuttle-registration-request =
 
     Requested name: [form]
 
-  ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
+  ⠀[italic]This document is provided by Cybersun and collaborating companies, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -517,7 +517,7 @@ doc-text-printer-neosol-request-call-centcomm-members =
 
     Reason for the call: [form]
 
-  ⠀[italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
+  ⠀[italic]This document is provided by Cybersun and collaborating companies, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -537,7 +537,7 @@ doc-text-printer-neosol-request-establish-threat-level =
 
     Reason for request: [form]
 
-  ⠀ [italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
+  ⠀ [italic]This document is provided by Cybersun and collaborating companies, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -561,7 +561,7 @@ doc-text-printer-neosol-request-change-salary =
 
     Reason for salary change: [form]
 
-  ⠀ [italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
+  ⠀ [italic]This document is provided by Cybersun and collaborating companies, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -589,7 +589,7 @@ doc-text-printer-neosol-request-for-non-listed-employment =
 
     Reason for employment: [form]
 
-  ⠀ [italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
+  ⠀ [italic]This document is provided by Cybersun and collaborating companies, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -615,7 +615,7 @@ doc-text-printer-neosol-request-for-promotion =
 
     Reason for promotion: [form]
 
-  ⠀ [italic]This document is provided by Cybersun and collaborating companies use it wisely[/italic]
+  ⠀ [italic]This document is provided by Cybersun and collaborating companies, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -669,7 +669,7 @@ doc-text-printer-neosol-request-euthanasia =
 
     At the end of the procedure, I ask that my body be [form], if possible.
 
-   ⠀[italic]This document is provided by Interdyne Pharmaceuticals and CyberSun use it wisely[/italic]
+   ⠀[italic]This document is provided by Interdyne Pharmaceuticals and CyberSun, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -690,7 +690,7 @@ doc-text-printer-neosol-request-construction-work =
 
     List of construction work: [form]
 
-   ⠀[italic]This document is provided by Moon-Electra Dynamics, Caprica and Solaris Systems use it wisely[/italic]
+   ⠀[italic]Moon-Electra Dynamics as well as Caprica and Solaris Systems, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -713,7 +713,7 @@ doc-text-printer-neosol-request-modernization =
     • [form]
     • [form]
 
-   ⠀[italic]This document is provided by Mobius Research Institute and Solaris Systems and collaborating companies use it wisely[/italic]
+   ⠀[italic]This document is provided by Mobius Research Institute, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -749,7 +749,7 @@ doc-text-printer-neosol-request-ert =
 
 doc-text-printer-neosol-product-order =
    ⠀⠀                          [nsgsllogo]
-   ⠀[center][color=#a46106][italic][bold]OFFICIAL GEMINI STELLA LOGISTICS DOCUMENT[/bold][/italic][/color][/center]
+   ⠀[center][color=#a46106][italic][bold]OFFICIAL GEMINI STELLAR LOGISTICS DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
    ⠀⠀                                 [bold]PRODUCT ORDER[/bold]
     ────────────────────────────────────────
@@ -764,7 +764,7 @@ doc-text-printer-neosol-product-order =
 
     Reason for order: [form]
 
-  ⠀ [italic]This document is provided by Gemini Stella logistics use it wisely[/italic]
+  ⠀ [italic]This document is provided by Gemini Stellar logistics use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -804,7 +804,7 @@ doc-text-printer-neosol-complaint-violation-labor-rules =
 doc-text-printer-neosol-offense-complaint =
      ⠀                          [nscfalogo]               
     ⠀[color=#4b3456][italic][bold] 
-                  CONCORDE FRONTIERS AUTHORITY 
+                  CONCORD FRONTIER AUTHORITY 
                              OFFICIAL DOCUMENT[/bold][/italic][/color]
     ────────────────────────────────────────
    ⠀⠀                             [bold]CRIMINAL COMPLAINT[/bold]
@@ -890,7 +890,7 @@ doc-text-printer-neosol-search-permission =
 
     Disposition of property: All property seized pursuant to this search warrant shall be remanded into the custody of the Warden's office, pending further orders by Command.
 
-   ⠀[italic]This document is provided by Aegis Corporate Securities, Scarborough and WaffleStar use it wisely[/italic]
+   ⠀[italic]This document is provided by Aegis Corporate Securities, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -917,7 +917,7 @@ doc-text-printer-neosol-permission-to-carry-weapons =
 
     Reason for authorization: [form]
 
-   ⠀[italic]This document is provided by Aegis Corporate Securities, Scarborough and WaffleStar use it wisely[/italic]
+   ⠀[italic]This document is provided by Aegis Corporate Securities, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -961,7 +961,7 @@ doc-text-printer-neosol-construction-permit =
 
     Agreed scope of redevelopment: [form]
 
-   ⠀[italic]This document is provided by Moon-Electra Dynamics, Caprica and Solaris Systems use it wisely[/italic]
+   ⠀[italic]Moon-Electra Dynamics as well as Caprica and Solaris Systems, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -1104,7 +1104,7 @@ doc-text-printer-neosol-prisoner-parole-order =
 
     Additional terms of parole: [form]
 
-   ⠀[italic]This document is provided by Aegis Corporate Securities, Scarborough and WaffleStar use it wisely[/italic]
+   ⠀[italic]This document is provided by Aegis Corporate Securities, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -1129,7 +1129,7 @@ doc-text-printer-neosol-order-recognizing-reasonableness-creature =
 
     The creature is henceforth to be accepted as an Assistant.
 
-   ⠀[italic]This document is provided by Mobius Research Institute and Solaris Systems and collaborating companies use it wisely[/italic]
+   ⠀[italic]This document is provided by Mobius Research Institute, use it wisely[/italic]
     ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
 
@@ -1165,7 +1165,7 @@ doc-text-printer-neosol-medical-intervention-order =
 doc-text-printer-neosol-execution-dnr-order =
      ⠀                          [nscfalogo]               
     ⠀[color=#4b3456][italic][bold] 
-                  CONCORDE FRONTIERS AUTHORITY 
+                  CONCORD FRONTIER AUTHORITY 
                                OFFICIAL DOCUMENT[/bold][/italic][/color]
     ────────────────────────────────────────
    ⠀⠀             [bold]EXECUTION AND DO-NOT-REVIVE ORDER[/bold]
@@ -1221,7 +1221,7 @@ doc-text-printer-neosol-centcomm-communication =
 
 doc-text-printer-neosol-salvagelead-report =
    ⠀⠀                          [nsgsllogo]
-   ⠀[center][color=#a46106][italic][bold]OFFICIAL GEMINI STELLA LOGISTICS DOCUMENT[/bold][/italic][/color][/center]
+   ⠀[center][color=#a46106][italic][bold]OFFICIAL GEMINI STELLAR LOGISTICS DOCUMENT[/bold][/italic][/color][/center]
     ────────────────────────────────────────
     ⠀⠀                   [bold]SALVAGE LEAD REPORT[/bold]
     ────────────────────────────────────────
@@ -1246,6 +1246,6 @@ doc-text-printer-neosol-salvagelead-report =
 
     Further notes: [form]
 
-  ⠀ [italic]This document is provided by Gemini Stella logistics use it wisely[/italic]
+  ⠀ [italic]This document is provided by Gemini Stellar logistics, use it wisely[/italic]
      ────────────────────────────────────────
    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
