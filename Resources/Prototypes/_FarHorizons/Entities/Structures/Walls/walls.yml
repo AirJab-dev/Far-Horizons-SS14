@@ -66,9 +66,9 @@
   suffix: NS
   components:
   - type: Sprite
-    sprite: _FarHorizons/Structures/Walls/solid_syndie.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/solid.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Walls/solid_syndie.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/solid.rsi
 
 - type: entity
   parent: WallReinforced
@@ -77,9 +77,9 @@
   suffix: NS
   components:
   - type: Sprite
-    sprite: _FarHorizons/Structures/Walls/solid_syndie.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/solid.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Walls/solid_syndie.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/solid.rsi
     state: rgeneric
   - type: GenericVisualizer
     visuals:
@@ -122,9 +122,9 @@
   suffix: Rusted, NS
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/solid_rust.rsi
   - type: Icon
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/solid_rust.rsi
     state: full
   - type: Construction
     graph: Girder
@@ -161,9 +161,9 @@
   suffix: Rusted, NS
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/solid_rust.rsi
   - type: Icon
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/solid_rust.rsi
     state: rgeneric
   - type: Construction
     graph: Girder
