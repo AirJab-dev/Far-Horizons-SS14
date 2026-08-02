@@ -16914,5 +16914,12 @@ Entries:
   id: 150900
   time: '2026-08-02T10:19:16.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1509
+- author: crecc, mightym1me, milterria, mogaiskii
+  changes:
+  - message: Added thoughts police event grid
+    type: Add
+  id: 151100
+  time: '2026-08-02T15:43:33.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1511
 Order: -1
 
