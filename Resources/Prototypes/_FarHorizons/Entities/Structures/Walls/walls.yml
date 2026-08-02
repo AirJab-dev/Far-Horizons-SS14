@@ -61,7 +61,7 @@
 
 - type: entity
   parent: WallSolid
-  id: WallSolidSyndicate
+  id: WallSolidNS
   name: Solid Wall
   suffix: NS
   components:
@@ -95,7 +95,7 @@
 
 
 - type: entity
-  parent: WallSolidSyndicate
+  parent: WallSolidNS
   id: WallFakeNS
   name: Solid Wall
   suffix: Fake, NS
@@ -117,7 +117,7 @@
           collection: MetalSlam
 
 - type: entity
-  parent: WallSolidSyndicate
+  parent: WallSolidNS
   id: WallSolidRustNS
   suffix: Rusted, NS
   components:

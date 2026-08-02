@@ -1,6 +1,6 @@
 - type: entity
   name: Syndicate Wall Spawner
-  id: SpawnerWallSolidSyndicate70
+  id: SpawnerWallSolidNS70
   suffix: 70%
   parent: MarkerBase
   components:
@@ -11,13 +11,13 @@
       state: full
   - type: RandomSpawner
     prototypes:
-    - WallSolidSyndicate
+    - WallSolidNS
     chance: 0.7
     offset: 0.0
 
 - type: entity
   name: Syndicate Wall Spawner
-  id: SpawnerWallSolidSyndicate50
+  id: SpawnerWallSolidNS50
   suffix: 50%
   parent: MarkerBase
   components:
@@ -28,13 +28,13 @@
       state: full
   - type: RandomSpawner
     prototypes:
-    - WallSolidSyndicate
+    - WallSolidNS
     chance: 0.5
     offset: 0.0
 
 - type: entity
   name: Syndicate Wall Spawner
-  id: SpawnerWallSolidSyndicate30
+  id: SpawnerWallSolidNS30
   suffix: 30%
   parent: MarkerBase
   components:
@@ -45,7 +45,7 @@
       state: full
   - type: RandomSpawner
     prototypes:
-    - WallSolidSyndicate
+    - WallSolidNS
     chance: 0.3
     offset: 0.0
 
