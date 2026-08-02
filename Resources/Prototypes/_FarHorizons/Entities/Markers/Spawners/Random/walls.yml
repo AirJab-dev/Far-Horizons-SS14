@@ -51,7 +51,7 @@
 
 - type: entity
   name: Syndicate Reinforced Wall Spawner
-  id: SpawnerWallReinforcedSyndicate70
+  id: SpawnerWallReinforcedNS70
   suffix: 70%
   parent: MarkerBase
   components:
@@ -62,13 +62,13 @@
       state: rgeneric
   - type: RandomSpawner
     prototypes:
-    - WallReinforcedSyndicate
+    - WallReinforcedNS
     chance: 0.7
     offset: 0.0
 
 - type: entity
   name: Syndicate Reinforced Wall Spawner
-  id: SpawnerWallReinforcedSyndicate50
+  id: SpawnerWallReinforcedNS50
   suffix: 50%
   parent: MarkerBase
   components:
@@ -79,13 +79,13 @@
       state: rgeneric
   - type: RandomSpawner
     prototypes:
-    - WallReinforcedSyndicate
+    - WallReinforcedNS
     chance: 0.5
     offset: 0.0
 
 - type: entity
   name: Syndicate Reinforced Wall Spawner
-  id: SpawnerWallReinforcedSyndicate30
+  id: SpawnerWallReinforcedNS30
   suffix: 30%
   parent: MarkerBase
   components:
@@ -96,7 +96,7 @@
       state: rgeneric
   - type: RandomSpawner
     prototypes:
-    - WallReinforcedSyndicate
+    - WallReinforcedNS
     chance: 0.3
     offset: 0.0
 
