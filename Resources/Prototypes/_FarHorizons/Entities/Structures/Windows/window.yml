@@ -134,7 +134,7 @@
   #region NeoSol
 
 - type: entity
-  id: WindowSyndie
+  id: WindowNS
   parent: Window
   name: Window
   suffix: NS
@@ -147,7 +147,7 @@
     state: full
 
 - type: entity
-  id: ReinforcedWindowSyndie
+  id: ReinforcedWindowNS
   parent: ReinforcedWindow
   name: Reinforced Window 
   suffix: NS

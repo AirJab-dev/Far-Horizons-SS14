@@ -6,7 +6,7 @@
   styles:
     nanotrasen: Window
     standard: WindowStandard
-    neosol: WindowSyndie
+    neosol: WindowNS
 
 - type: paintableGroup
   id: ReinforcedWindow
@@ -16,4 +16,4 @@
   styles:
     nanotrasen: ReinforcedWindow
     standard: ReinforcedWindowStandard
-    neosol: ReinforcedWindowSyndie
+    neosol: ReinforcedWindowNS
