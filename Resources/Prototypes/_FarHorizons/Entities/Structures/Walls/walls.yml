@@ -1,9 +1,9 @@
-# Walls
+#region WallSolid
 
 - type: entity
   parent: WallSolid
   id: WallSolidGeneric
-  suffix: ""
+  suffix: Generic
   name: Solid Wall
   components:
   - type: Sprite
@@ -12,27 +12,29 @@
     sprite: _FarHorizons/Structures/Walls/Generic/solid.rsi
 
 - type: entity
-  parent: WallReinforced
-  id: WallReinforcedGeneric
-  name: Reinforced Wall
-  suffix: ""
+  parent: WallSolid
+  id: WallSolidNS
+  name: Solid Wall
+  suffix: NS
   components:
   - type: Sprite
-    sprite: _FarHorizons/Structures/Walls/Generic/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/solid.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Walls/Generic/solid.rsi
-    state: rgeneric
-  - type: GenericVisualizer
-    visuals:
-      enum.ReinforcedWallVisuals.DeconstructionStage:
-        ReinforcedWallVisualLayers.Deconstruction:
-          -1: { visible: false }
-          0: { state: reinf_construct-0, visible: true}
-          1: { state: reinf_construct-1, visible: true}
-          2: { state: reinf_construct-2, visible: true}
-          3: { state: reinf_construct-3, visible: true}
-          4: { state: reinf_construct-4, visible: true}
-          5: { state: reinf_construct-5, visible: true}
+    sprite: _FarHorizons/Structures/Walls/NeoSol/solid.rsi
+
+- type: entity
+  parent: WallSolidNS
+  id: WallSolidRustNS
+  suffix: Rusted, NS
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Walls/NeoSol/solid_rust.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Walls/NeoSol/solid_rust.rsi
+    state: full
+  - type: Construction
+    graph: Girder
+    node: wallrust
 
 - type: entity
   parent: WallSolid
@@ -56,19 +58,51 @@
         sound:
           collection: MetalSlam
 
-#region NeoSol
-
-
 - type: entity
-  parent: WallSolid
-  id: WallSolidNS
+  parent: WallSolidNS
+  id: WallFakeNS
   name: Solid Wall
-  suffix: NS
+  suffix: Fake, NS
+  description: This wall feels.. hollow. Some signage reads "Break in event of Emergency!"
+  components:
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: FlimsyMetallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100 # ~12 hits with a standard toolbox, which I feel is fair
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+
+#region WallReinforced
+- type: entity
+  parent: WallReinforced
+  id: WallReinforcedGeneric
+  name: Reinforced Wall
+  suffix: Generic
   components:
   - type: Sprite
-    sprite: _FarHorizons/Structures/Walls/NeoSol/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/Generic/solid.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Walls/NeoSol/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/Generic/solid.rsi
+    state: rgeneric
+  - type: GenericVisualizer
+    visuals:
+      enum.ReinforcedWallVisuals.DeconstructionStage:
+        ReinforcedWallVisualLayers.Deconstruction:
+          -1: { visible: false }
+          0: { state: reinf_construct-0, visible: true}
+          1: { state: reinf_construct-1, visible: true}
+          2: { state: reinf_construct-2, visible: true}
+          3: { state: reinf_construct-3, visible: true}
+          4: { state: reinf_construct-4, visible: true}
+          5: { state: reinf_construct-5, visible: true}
 
 - type: entity
   parent: WallReinforced
@@ -92,68 +126,6 @@
           3: { state: reinf_construct-3, visible: true}
           4: { state: reinf_construct-4, visible: true}
           5: { state: reinf_construct-5, visible: true}
-
-
-- type: entity
-  parent: WallSolidNS
-  id: WallFakeNS
-  name: Solid Wall
-  suffix: Fake, NS
-  description: This wall feels.. hollow. Some signage reads "Break in event of Emergency!"
-  components:
-  - type: Damageable
-    damageContainer: StructuralInorganic
-    damageModifierSet: FlimsyMetallic
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 100 # ~12 hits with a standard toolbox, which I feel is fair
-      behaviors:
-      - !type:DoActsBehavior
-        acts: ["Destruction"]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalSlam
-
-- type: entity
-  parent: WallSolidNS
-  id: WallSolidRustNS
-  suffix: Rusted, NS
-  components:
-  - type: Sprite
-    sprite: _FarHorizons/Structures/Walls/NeoSol/solid_rust.rsi
-  - type: Icon
-    sprite: _FarHorizons/Structures/Walls/NeoSol/solid_rust.rsi
-    state: full
-  - type: Construction
-    graph: Girder
-    node: wallrust
-  - type: IconSmooth
-    key: walls
-    base: solid
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 300
-      behaviors:
-      - !type:DoActsBehavior
-        acts: ["Destruction"]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalSlam
-    - trigger:
-        !type:DamageTrigger
-        damage: 150
-      behaviors:
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalSlam
-      - !type:ChangeConstructionNodeBehavior
-        node: girder
-      - !type:DoActsBehavior
-        acts: ["Destruction"]
 
 - type: entity
   parent: WallReinforcedNS
