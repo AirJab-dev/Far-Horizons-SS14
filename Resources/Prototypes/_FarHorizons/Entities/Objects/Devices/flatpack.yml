@@ -37,7 +37,7 @@
     - state: emitter
   
 - type: entity
-  parent: BaseStructureFlatpack
+  parent: BaseFlatpack
   id: NSDocPrinterFlatpack
   name: NeoSol Document Printer Flatpack
   description: A flatpack used for constructing a NeoSol Document Printer.
