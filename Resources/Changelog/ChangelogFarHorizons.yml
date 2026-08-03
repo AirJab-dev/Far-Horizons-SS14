@@ -16953,5 +16953,27 @@ Entries:
   id: 151403
   time: '2026-08-03T06:14:56.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1514
+- author: KarusKardin
+  changes:
+  - message: Removed Emag from Smuggler Thief Kit
+    type: Tweak
+  id: 151300
+  time: '2026-08-03T06:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1513
+- author: KarusKardin
+  changes:
+  - message: Moved Agent Eye Implant from Cybernetics Thief Kit to Chameleon Thief
+      Kit
+    type: Tweak
+  id: 151301
+  time: '2026-08-03T06:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1513
+- author: KarusKardin
+  changes:
+  - message: Cybernetics Thief Kit no longer comes in a briefcase
+    type: Tweak
+  id: 151302
+  time: '2026-08-03T06:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1513
 Order: -1
 
