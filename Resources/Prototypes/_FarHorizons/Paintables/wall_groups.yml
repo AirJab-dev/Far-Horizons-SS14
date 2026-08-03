@@ -5,7 +5,7 @@
   defaultStyle: standard
   styles:
     nanotrasen: WallSolid
-    standard: WallSolidStandard
+    generic: WallSolidGeneric
     neosol: WallSolidNS
 
 - type: paintableGroup
@@ -15,5 +15,5 @@
   defaultStyle: standard
   styles:
     nanotrasen: WallReinforced
-    standard: WallReinforcedStandard
+    generic: WallReinforcedGeneric
     neosol: WallReinforcedNS

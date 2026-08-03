@@ -46,19 +46,19 @@ spray-painter-style-fhairlockglass-quartermaster = Quartermaster
 
 # Walls
 spray-painter-style-wallsolid-nanotrasen = NanoTrasen
-spray-painter-style-wallsolid-standard = Standard
+spray-painter-style-wallsolid-generic = Generic
 spray-painter-style-wallsolid-neosol = NeoSol
 
 spray-painter-style-wallreinforced-nanotrasen = NanoTrasen
-spray-painter-style-wallreinforced-standard = Standard
+spray-painter-style-wallreinforced-generic = Generic
 spray-painter-style-wallreinforced-neosol = NeoSol
 
 spray-painter-style-window-nanotrasen = NanoTrasen
-spray-painter-style-window-standard = Standard
+spray-painter-style-window-generic = Generic
 spray-painter-style-window-neosol = NeoSol
 
 spray-painter-style-reinforcedwindow-nanotrasen = NanoTrasen
-spray-painter-style-reinforcedwindow-standard = Standard
+spray-painter-style-reinforcedwindow-generic = Generic
 spray-painter-style-reinforcedwindow-neosol = NeoSol
 
 # Lockers

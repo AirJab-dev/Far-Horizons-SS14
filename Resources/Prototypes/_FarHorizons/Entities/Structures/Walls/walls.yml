@@ -2,25 +2,25 @@
 
 - type: entity
   parent: WallSolid
-  id: WallSolidStandard
+  id: WallSolidGeneric
   suffix: ""
   name: Solid Wall
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid.rsi #TODO: neutral sprite
+    sprite: _FarHorizons/Structures/Walls/Generic/solid.rsi
   - type: Icon
-    sprite: Structures/Walls/solid.rsi #TODO: neutral sprites
+    sprite: _FarHorizons/Structures/Walls/Generic/solid.rsi
 
 - type: entity
   parent: WallReinforced
-  id: WallReinforcedStandard
+  id: WallReinforcedGeneric
   name: Reinforced Wall
   suffix: ""
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid.rsi #TODO: neutral sprites
+    sprite: _FarHorizons/Structures/Walls/Generic/solid.rsi
   - type: Icon
-    sprite: Structures/Walls/solid.rsi #TODO: neutral sprites
+    sprite: _FarHorizons/Structures/Walls/Generic/solid.rsi
     state: rgeneric
   - type: GenericVisualizer
     visuals:
