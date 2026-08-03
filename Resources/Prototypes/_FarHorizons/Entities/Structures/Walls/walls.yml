@@ -23,6 +23,20 @@
     sprite: _FarHorizons/Structures/Walls/NeoSol/solid.rsi
 
 - type: entity
+  parent: WallSolidGeneric
+  id: WallSolidRustGeneric
+  suffix: Rusted, Generic
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Walls/Generic/solid_rust.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Walls/Generic/solid_rust.rsi
+    state: full
+  - type: Construction
+    graph: Girder
+    node: wallrust
+
+- type: entity
   parent: WallSolidNS
   id: WallSolidRustNS
   suffix: Rusted, NS
@@ -128,6 +142,20 @@
           5: { state: reinf_construct-5, visible: true}
 
 - type: entity
+  parent: WallReinforcedGeneric
+  id: WallReinforcedRustGeneric
+  suffix: Rusted, Generic
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Walls/Generic/solid_rust.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Walls/Generic/solid_rust.rsi
+    state: rgeneric
+  - type: Construction
+    graph: Girder
+    node: reinforcedWallRust
+
+- type: entity
   parent: WallReinforcedNS
   id: WallReinforcedRustNS
   suffix: Rusted, NS
@@ -140,28 +168,3 @@
   - type: Construction
     graph: Girder
     node: reinforcedWallRust
-  - type: IconSmooth
-    key: walls
-    base: reinf_over
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 500
-      behaviors:
-      - !type:DoActsBehavior
-        acts: ["Destruction"]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalSlam
-    - trigger:
-        !type:DamageTrigger
-        damage: 350
-      behaviors:
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalSlam
-      - !type:ChangeConstructionNodeBehavior
-        node: girder
-      - !type:DoActsBehavior
-        acts: ["Destruction"]
