@@ -1,13 +1,8 @@
-thief-backpack-category-splicer-name = Splicer Kit
-thief-backpack-category-splicer-description =
-    Trinkets from a disavowed past, or stolen from a careless agent?
-    Includes: An Emag, Access Breaker, a Radio Jammer and Interdyne cigs.
-
 thief-backpack-category-cybernetic-name = Cybernetics Kit
 thief-backpack-category-cybernetic-description =
     The flesh is weak, some stolen military grade NeoSol chrome will help.
-    Includes: Forensics Hand Implant, Agent Eye Implant, Bunker Breaker Arm, 
-    and Thermal Eye Cybernetics prepacked as C.I.Ks inside a briefcase.
+    Includes: Forensics Hand Implant, Bunker Breaker Arm, 
+    and Thermal Eye Cybernetics prepacked as C.I.Ks.
 
 fh-thief-backpack-category-tools-description =
     What's that sound? A lil' C4 knockin' at their door.
@@ -24,7 +19,7 @@ fh-thief-backpack-category-communicator-description =
 fh-thief-backpack-category-smuggler-description =
     All thieves need somewhere to stash their goods in the dark.
     Don't forget to link your fulton.
-    Includes: Fulton beacon, 10 fultons, 3 smoke grenades, Emag, 
+    Includes: Fulton beacon, 10 fultons, 3 smoke grenades, 
     and an invisible crate with ventilation to hide valuable loot.
 
 fh-thief-backpack-category-chemistry-description =
@@ -36,7 +31,7 @@ fh-thief-backpack-category-chameleon-description =
     You are everyone and no one; you are a master of disguise.
     Includes: A full set of chameleon clothing with Agent ID,
     a chameleon projector, DNA scrambler implanter, 
-    and a fake mindshield implant.
+    Agent Eye Implant C.I.K, and a fake mindshield implant.
     Disguise as anyone and anything.
 
 fh-thief-backpack-category-sleeper-description =

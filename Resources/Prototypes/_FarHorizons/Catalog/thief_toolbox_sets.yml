@@ -19,4 +19,6 @@
     sprite: _FarHorizons/Objects/Tools/limb_CIK.rsi
     state: icon
   content:
-  - BriefcaseBrownThiefFilledCyberneticsKit
+  - CyberneticImplanterRightArmCyberBunkerBreaker
+  - CyberneticImplanterCyberEyeThermal
+  - CyberneticImplanterLeftHandImplantForensics
