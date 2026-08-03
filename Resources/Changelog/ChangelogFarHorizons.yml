@@ -16921,5 +16921,37 @@ Entries:
   id: 151100
   time: '2026-08-02T15:43:33.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1511
+- author: AirJab
+  changes:
+  - message: NS-HC has added air gaps in their document printers to make them more
+      lightweight
+    type: Fix
+  id: 151400
+  time: '2026-08-03T06:14:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1514
+- author: AirJab
+  changes:
+  - message: NS-HC has signed a new contract with GSL in order to get the correct
+      document printer flatpacks into NSR lockers
+    type: Fix
+  id: 151401
+  time: '2026-08-03T06:14:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1514
+- author: AirJab
+  changes:
+  - message: NS-HC has patched a software bug that caused their document printers
+      to print the CFA logo incorrectly
+    type: Fix
+  id: 151402
+  time: '2026-08-03T06:14:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1514
+- author: AirJab
+  changes:
+  - message: NS-HC has upgraded their refinement process when making lenses for document
+      printers allowing for more sharper logo printing
+    type: Tweak
+  id: 151403
+  time: '2026-08-03T06:14:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1514
 Order: -1
 
