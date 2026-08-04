@@ -2,7 +2,7 @@
   id: WallSolid
   time: 2
   cost: 1
-  defaultStyle: standard
+  defaultStyle: generic
   styles:
     nanotrasen: WallSolid
     generic: WallSolidGeneric
@@ -12,7 +12,7 @@
   id: WallReinforced
   time: 2
   cost: 1
-  defaultStyle: standard
+  defaultStyle: generic
   styles:
     nanotrasen: WallReinforced
     generic: WallReinforcedGeneric

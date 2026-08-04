@@ -2,18 +2,18 @@
   id: Window
   time: 2
   cost: 1
-  defaultStyle: standard
+  defaultStyle: generic
   styles:
     nanotrasen: Window
-    standard: WindowGeneric
+    generic: WindowGeneric
     neosol: WindowNS
 
 - type: paintableGroup
   id: ReinforcedWindow
   time: 2
   cost: 1
-  defaultStyle: standard
+  defaultStyle: generic
   styles:
     nanotrasen: ReinforcedWindow
-    standard: ReinforcedWindowGeneric
+    generic: ReinforcedWindowGeneric
     neosol: ReinforcedWindowNS
