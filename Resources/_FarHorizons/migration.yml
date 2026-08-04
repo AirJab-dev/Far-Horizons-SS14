@@ -319,3 +319,5 @@ WindowSyndie: WindowNS
 ReinforcedWindowSyndie: ReinforcedWindowNS
 WallSolidStandard: WallSolidGeneric
 WallReinforcedStandard: WallReinforcedGeneric
+WindowStandard: WindowGeneric
+ReinforcedWindowStandard: ReinforcedWindowGeneric

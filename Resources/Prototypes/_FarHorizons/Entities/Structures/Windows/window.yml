@@ -1,31 +1,56 @@
-# Regular
+#region Window
 
 - type: entity
-  id: WindowStandard
+  id: WindowGeneric
   parent: Window
   name: Window
-  suffix: ""
+  suffix: Generic
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/window.rsi
+    sprite: _FarHorizons/Structures/Windows/Generic/window.rsi
   - type: Icon
-    sprite: Structures/Windows/window.rsi
+    sprite: _FarHorizons/Structures/Windows/Generic/window.rsi
     state: full
 
-# Reinforced
-
 - type: entity
-  id: ReinforcedWindowStandard
-  parent: ReinforcedWindow
-  name: Reinforced Window
-  suffix: ""
+  id: WindowNS
+  parent: Window
+  name: Window
+  suffix: NS
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/reinforced_window.rsi
+    sprite: _FarHorizons/Structures/Windows/NeoSol/window.rsi
   - type: Icon
-    sprite: Structures/Windows/reinforced_window.rsi
+    sprite: _FarHorizons/Structures/Windows/NeoSol/window.rsi
+    state: full
+
+#region Reinforced Window
+
+- type: entity
+  id: ReinforcedWindowGeneric
+  parent: ReinforcedWindow
+  name: Reinforced Window
+  suffix: Generic
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/Generic/reinforced_window.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/Generic/reinforced_window.rsi
+
+- type: entity
+  id: ReinforcedWindowNS
+  parent: ReinforcedWindow
+  name: Reinforced Window 
+  suffix: NS
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_window.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_window.rsi
 
 # Wooden
 
@@ -130,33 +155,6 @@
     price: 100
   - type: BlockWeather
   - type: LineOfSightExclude
-
-  #region NeoSol
-
-- type: entity
-  id: WindowNS
-  parent: Window
-  name: Window
-  suffix: NS
-  components:
-  - type: Sprite
-    drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/NeoSol/window.rsi
-  - type: Icon
-    sprite: _FarHorizons/Structures/Windows/NeoSol/window.rsi
-    state: full
-
-- type: entity
-  id: ReinforcedWindowNS
-  parent: ReinforcedWindow
-  name: Reinforced Window 
-  suffix: NS
-  components:
-  - type: Sprite
-    drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_window.rsi
-  - type: Icon
-    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_window.rsi
 
 - type: entity
   parent: BaseWindow 

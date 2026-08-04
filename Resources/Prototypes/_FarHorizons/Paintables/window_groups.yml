@@ -5,7 +5,7 @@
   defaultStyle: standard
   styles:
     nanotrasen: Window
-    standard: WindowStandard
+    standard: WindowGeneric
     neosol: WindowNS
 
 - type: paintableGroup
@@ -15,5 +15,5 @@
   defaultStyle: standard
   styles:
     nanotrasen: ReinforcedWindow
-    standard: ReinforcedWindowStandard
+    standard: ReinforcedWindowGeneric
     neosol: ReinforcedWindowNS
