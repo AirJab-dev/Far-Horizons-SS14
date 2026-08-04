@@ -1,7 +1,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: RecruitmentComputer
-  name: recruitment computer
+  name: Recruitment Computer #FH
+  suffix: NT #FH
   description: A computer for managing crew hiring.
   components:
   - type: RecruitmentComputer
@@ -479,6 +480,7 @@
   parent: ComputerComms
   id: ComputerCommsEngineering
   name: Engineering Communications Computer #Far Horizons
+  suffix: NT #FH.
   description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
   components:
     - type: Sprite
@@ -518,6 +520,7 @@
   parent: ComputerComms
   id: ComputerCommsMedical
   name: Medical Communications Computer #Far Horizons
+  suffix: NT #FH
   description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
   components:
     - type: Sprite
