@@ -16989,5 +16989,26 @@ Entries:
   id: 151801
   time: '2026-08-05T10:14:45.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1518
+- author: Ivn7011
+  changes:
+  - message: Neosol Crisis Button
+    type: Add
+  id: 151700
+  time: '2026-08-05T17:00:57.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1517
+- author: Ivn7011
+  changes:
+  - message: replaced NT Crisis Button with NS Crisis button in the NS sectech
+    type: Tweak
+  id: 151701
+  time: '2026-08-05T17:00:57.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1517
+- author: Ivn7011
+  changes:
+  - message: Capitalization on NT Crisis Button
+    type: Fix
+  id: 151702
+  time: '2026-08-05T17:00:57.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1517
 Order: -1
 
