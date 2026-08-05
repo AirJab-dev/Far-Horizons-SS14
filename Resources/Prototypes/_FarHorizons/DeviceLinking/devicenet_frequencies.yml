@@ -20,13 +20,26 @@
 
 #region NeoSol
 
+# cyborgs broadcast to consoles on this frequency
 - type: deviceFrequency
-  id: CyborgControlNS
+  id: RoboticsConsoleNS
   name: device-frequency-prototype-name-cyborg-control
   frequency: 1295
 
-  # Console sends commands to secborgs on this frequency
+# Console sends commands to cyborgs on this frequency
+- type: deviceFrequency
+  id: CyborgControlNS
+  name: device-frequency-prototype-name-cyborg-control
+  frequency: 1296
+
+# Secborgs broadcast to consoles on this frequency
+- type: deviceFrequency
+  id: SecurityRoboticsConsoleNS
+  name: device-frequency-prototype-name-cyborg-control
+  frequency: 1297
+
+# Console sends commands to secborgs on this frequency
 - type: deviceFrequency
   id: SecborgControlNS
   name: device-frequency-prototype-name-cyborg-control
-  frequency: 1296
+  frequency: 1298
