@@ -1,7 +1,7 @@
 - type: entity
-  name: Crisis Button #FH
+  name: Crisis Button
   parent: BaseItem
-  id: CrisisButton
+  id: CrisisButton_NS
   description: Used to broadcast an distress call to security comms.
   components:
   - type: Sprite
@@ -16,7 +16,7 @@
         collection: TriggerActivate
   - type: TriggerOnUse
   - type: RattleOnTrigger
-    radioChannel: Security
+    radioChannel: SyndiSec
     targetUser: true
     messages:
       Alive: rattle-on-trigger-distress-message
