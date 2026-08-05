@@ -16975,5 +16975,19 @@ Entries:
   id: 151302
   time: '2026-08-03T06:35:16.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1513
+- author: rain_enjoyer
+  changes:
+  - message: Fake mindshield description mentioning NT.
+    type: Remove
+  id: 151800
+  time: '2026-08-05T10:14:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1518
+- author: rain_enjoyer
+  changes:
+  - message: Mindshield description implying it's a mind control implant.
+    type: Fix
+  id: 151801
+  time: '2026-08-05T10:14:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1518
 Order: -1
 
