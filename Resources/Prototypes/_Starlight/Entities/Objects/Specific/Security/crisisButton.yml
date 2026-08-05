@@ -1,7 +1,7 @@
 - type: entity
   name: Crisis Button
   parent: BaseItem
-  id: CrisisButton
+  id: CrisisButton #FH
   description: Used to broadcast an distress call to security comms.
   components:
   - type: Sprite
