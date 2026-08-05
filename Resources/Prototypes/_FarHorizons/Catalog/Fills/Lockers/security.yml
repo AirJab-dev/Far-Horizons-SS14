@@ -1137,6 +1137,7 @@
   - type: StorageFill
     contents:
       - id: FlashlightSeclite
+      - id: CrisisButton_NS #temporary until NS SecTech
       - id: WeaponDisabler
       - id: ClothingUniformJumpsuitSecGreySyndi
         prob: 0.6
@@ -1161,6 +1162,8 @@
   - type: StorageFill
     contents:
       - id: FlashlightSeclite
+        amount: 2
+      - id: CrisisButton_NS #temporary until NS SecTech
         amount: 2
       - id: WeaponDisabler
         amount: 2
@@ -1199,6 +1202,8 @@
     contents:
       - id: FlashlightSeclite
         amount: 2
+      - id: CrisisButton_NS #temporary until NS SecTech
+        amount: 2
       - id: WeaponDisabler
         amount: 2
       - id: ClothingUniformJumpsuitSecGreySyndi
@@ -1235,6 +1240,8 @@
   - type: StorageFill
     contents:
       - id: FlashlightSeclite
+        amount: 3
+      - id: CrisisButton_NS #temporary until NS SecTech
         amount: 3
       - id: WeaponDisabler
         amount: 3
@@ -1273,6 +1280,8 @@
   - type: StorageFill
     contents:
       - id: FlashlightSeclite
+        amount: 2
+      - id: CrisisButton_NS #temporary until NS SecTech
         amount: 2
       - id: WeaponDisabler
         amount: 2
