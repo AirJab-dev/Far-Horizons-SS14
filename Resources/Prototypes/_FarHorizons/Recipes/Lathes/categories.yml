@@ -1,3 +1,11 @@
 - type: latheCategory
   id: LatheVehicleParts
   name: lathe-category-vehicle-parts
+
+- type: latheCategory
+  id: NanoTrasonDocument
+  name: lathe-category-doc-nanotrasen
+
+- type: latheCategory
+  id: NeoSolDocument
+  name: lathe-category-doc-neosol

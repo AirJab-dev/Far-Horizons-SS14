@@ -4,9 +4,18 @@
   parent: Paper
   id: PrintedNSDocument
   abstract: true
-  description: Bureaucratic unit. A document printed on a printer.
+  description: Bureaucratic unit for NeoSol. A document printed on a printer.
   components:
-    - type: Paper
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi #while I personally dislike just adding this to the wizden rsi, creating an entire copy of this in our folders just for this is worse
+    layers:
+    - state: paper_ns
+    - state: paper_words_ns
+      map: ["enum.PaperVisualLayers.Writing"]
+      visible: false
+    - state: paper_stamp-generic
+      map: ["enum.PaperVisualLayers.Stamp"]
+      visible: false
     
 # Reports
 
