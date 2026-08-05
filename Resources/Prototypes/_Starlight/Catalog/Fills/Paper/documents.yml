@@ -7,7 +7,7 @@
   description: Bureaucratic unit for NanoTrasen. A document printed on a printer. #FH start
   components:
   - type: Sprite
-    sprite: Objects/Misc/bureaucracy.rsi
+    sprite: _FarHorizons/Objects/Misc/bureaucracy.rsi #FH
     layers:
     - state: paper_nt
     - state: paper_words_nt
@@ -15,6 +15,7 @@
       visible: false
     - state: paper_stamp-generic
       map: ["enum.PaperVisualLayers.Stamp"]
+      sprite: Objects/Misc/bureaucracy.rsi #FH
       visible: false #FH end
     
 # Reports

@@ -79,12 +79,6 @@
       "name": "paper"
     },
     {
-      "name": "paper_nt"
-    },
-    {
-      "name": "paper_ns"
-    },
-    {
       "name": "paper_bin0"
     },
     {
@@ -134,12 +128,6 @@
     },
     {
       "name": "paper_words"
-    },
-    {
-      "name": "paper_words_nt"
-    },
-    {
-      "name": "paper_words_ns"
     },
     {
       "name": "paper_words-blood"
