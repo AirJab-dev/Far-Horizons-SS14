@@ -1,3 +1,4 @@
+using Content.Shared._FarHorizons.Factions; //FH
 using Content.Shared.Access.Systems;
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Roles;
@@ -57,6 +58,8 @@ public sealed partial class IdCardConsoleComponent : Component
     [AutoNetworkedField]
     public ProtoId<AccessGroupPrototype>? CurrentAccessGroup;
     // Starlight-edit: End
+    [DataField, AutoNetworkedField] //FH
+    public List<string> Factions = []; //FH
     public List<ProtoId<AccessLevelPrototype>> AccessLevels = new()
     {
         "Armory",

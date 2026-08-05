@@ -1,5 +1,6 @@
 using System.Linq;
 using Content.Client._Starlight.Access.UI; // Starlight-edit
+using Content.Shared._FarHorizons.Factions; //FH
 using Content.Shared.Access;
 using Content.Shared.Access.Systems;
 using Content.Shared.CCVar;
@@ -75,19 +76,22 @@ namespace Content.Client.Access.UI
             };
             JobTitleSaveButton.OnPressed += _ => SubmitData();
 
-            var jobs = _prototypeManager.EnumeratePrototypes<JobPrototype>().ToList();
-            jobs.Sort((x, y) => string.Compare(x.LocalizedName, y.LocalizedName, StringComparison.CurrentCulture));
+            //FH start
+            var rawjobs = _prototypeManager.EnumeratePrototypes<FactionJobAssignmentPrototype>().ToList();
+            var jobs = rawjobs.Where(jobfaction => ComputerFactions != null && jobfaction.Override is { Name: not null } && ComputerFactions.Contains(jobfaction.Faction.Id)).ToList();
+            jobs.Sort((x, y) => string.Compare(x.Override!.Name, y.Override!.Name, StringComparison.CurrentCulture)); //Override Cannot be null at this point
 
             foreach (var job in jobs)
             {
-                if (!job.OverrideConsoleVisibility.GetValueOrDefault(job.SetPreference))
+                if (!_prototypeManager.Index(job.Job).OverrideConsoleVisibility.GetValueOrDefault(_prototypeManager.Index(job.Job).SetPreference))
                 {
                     continue;
                 }
 
                 _jobPrototypeIds.Add(job.ID);
-                JobPresetOptionButton.AddItem(Loc.GetString(job.Name), _jobPrototypeIds.Count - 1);
+                JobPresetOptionButton.AddItem(Loc.GetString(job.Override!.Name!), _jobPrototypeIds.Count - 1);
             }
+            //FH end
 
             SelectAllButton.OnPressed += _ =>
             {
@@ -120,6 +124,8 @@ namespace Content.Client.Access.UI
             }
         }
 
+        public List<string>? ComputerFactions { get; set; }
+
         public void Initialize(IdCardConsoleBoundUserInterface owner)
         {
             _owner = owner;
@@ -138,20 +144,23 @@ namespace Content.Client.Access.UI
 
         private void SelectJobPreset(OptionButton.ItemSelectedEventArgs args)
         {
-            if (!_prototypeManager.TryIndex(_jobPrototypeIds[args.Id], out JobPrototype? job))
+            if (!_prototypeManager.TryIndex(_jobPrototypeIds[args.Id], out FactionJobAssignmentPrototype? job))
             {
                 return;
             }
 
-            JobTitleLineEdit.Text = Loc.GetString(job.Name);
+            if (job.Override == null || job.Override.Name == null || job.Override.Access == null || job.Override.AccessGroups == null)
+                return;
+
+            JobTitleLineEdit.Text = Loc.GetString(job.Override.Name);
             args.Button.SelectId(args.Id);
 
             SetAllAccess(false);
 
             // Collect all access levels for this job (direct + all groups)
             // Starlight-edit: Start
-            var allJobAccess = new HashSet<ProtoId<AccessLevelPrototype>>(job.Access);
-            foreach (var group in job.AccessGroups)
+            var allJobAccess = new HashSet<ProtoId<AccessLevelPrototype>>(job.Override.Access);
+            foreach (var group in job.Override.AccessGroups)
             {
                 if (_prototypeManager.Resolve(group, out AccessGroupPrototype? groupPrototype))
                     allJobAccess.UnionWith(groupPrototype.Tags);
