@@ -17010,5 +17010,26 @@ Entries:
   id: 151702
   time: '2026-08-05T17:00:57.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1517
+- author: KarusKardin
+  changes:
+  - message: Document Lathe Recipie Faction Categories
+    type: Add
+  id: 152100
+  time: '2026-08-06T00:25:39.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1521
+- author: KarusKardin
+  changes:
+  - message: added the NS documents to the Document Printer Cybernetics
+    type: Tweak
+  id: 152101
+  time: '2026-08-06T00:25:39.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1521
+- author: KarusKardin
+  changes:
+  - message: Minor Sprite Tweaks for paper from Document Printers
+    type: Tweak
+  id: 152102
+  time: '2026-08-06T00:25:39.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1521
 Order: -1
 
