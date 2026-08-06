@@ -48,6 +48,8 @@ namespace Content.Client.Access.UI
 
         private bool _pendingAccessOverride = false;
 
+        public List<string> ComputerFactions = [];
+
         public IdCardConsoleWindow()
         // Starlight-edit: End
         {
@@ -77,8 +79,18 @@ namespace Content.Client.Access.UI
             JobTitleSaveButton.OnPressed += _ => SubmitData();
 
             //FH start
+            
+        }
+
+        public void Initialize(IdCardConsoleBoundUserInterface owner)
+        {
+            _owner = owner;
+
+            OnGroupSelected += group => _owner.OnGroupSelected(group);
+            // Starlight-edit: End
             var rawjobs = _prototypeManager.EnumeratePrototypes<FactionJobAssignmentPrototype>().ToList();
-            var jobs = rawjobs.Where(jobfaction => ComputerFactions != null && jobfaction.Override is { Name: not null } && ComputerFactions.Contains(jobfaction.Faction.Id)).ToList();
+            var jobs = rawjobs.Where(jobfaction => jobfaction.Override is { Name: not null } && ComputerFactions.Contains(jobfaction.Faction.Id)).ToList();
+            
             jobs.Sort((x, y) => string.Compare(x.Override!.Name, y.Override!.Name, StringComparison.CurrentCulture)); //Override Cannot be null at this point
 
             foreach (var job in jobs)
@@ -112,7 +124,6 @@ namespace Content.Client.Access.UI
             AccessGroupControlContainer.AddChild(_accessGroups);
             AccessLevelControlContainer.AddChild(_accessButtons);
             foreach (var (id, button) in _accessButtons.ButtonsList)
-            {
                 button.OnPressed += _ =>
                 {
                     if (button.Pressed)
@@ -121,17 +132,6 @@ namespace Content.Client.Access.UI
                         _pendingPressedAccessLevels.Remove(id);
                     SubmitData();
                 };
-            }
-        }
-
-        public List<string>? ComputerFactions { get; set; }
-
-        public void Initialize(IdCardConsoleBoundUserInterface owner)
-        {
-            _owner = owner;
-
-            OnGroupSelected += group => _owner.OnGroupSelected(group);
-            // Starlight-edit: End
         }
 
         private void SetAllAccess(bool enabled)

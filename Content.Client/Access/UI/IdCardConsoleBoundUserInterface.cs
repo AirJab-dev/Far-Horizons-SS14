@@ -36,10 +36,12 @@ namespace Content.Client.Access.UI
             base.Open();
             // Starlight-edit: Start
             _window = this.CreateWindow<IdCardConsoleWindow>();
-            _window.Initialize(this);
+            
             _window.Title = EntMan.GetComponent<MetaDataComponent>(Owner).EntityName;
             // Starlight-edit: End
+            var test = EntMan.GetComponent<IdCardConsoleComponent>(Owner).Factions;
             _window.ComputerFactions = EntMan.GetComponent<IdCardConsoleComponent>(Owner).Factions; // FH
+            _window.Initialize(this);
             _window.CrewManifestButton.OnPressed += _ => SendMessage(new CrewManifestOpenUiMessage());
             _window.PrivilegedIdButton.OnPressed += _ => SendMessage(new ItemSlotButtonPressedEvent(PrivilegedIdCardSlotId));
             _window.TargetIdButton.OnPressed += _ => SendMessage(new ItemSlotButtonPressedEvent(TargetIdCardSlotId));
