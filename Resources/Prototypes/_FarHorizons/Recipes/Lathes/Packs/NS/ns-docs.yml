@@ -55,12 +55,3 @@
   - PrintedNSDocumentProductOrderRecipe
   # Communications
   - PrintedNSDocumentCentCommCommunicationRecipe
-
-#- type: latheRecipePack
-#  id: StarlightDocsEmag
-#  recipes:
-#  - PrintedNSDocumentErrorLoadingFormHeaderRecipe
-#  - PrintedNSDocumentNoticeOfLiquidationRecipe
-#  - PrintedNSDocumentBusinessDealRecipe
-#  - PrintedNSDocumentNoteBeginningMilitaryActionsRecipe
-#  - PrintedNSDocumentReportAccomplishmentGoalsRecipe

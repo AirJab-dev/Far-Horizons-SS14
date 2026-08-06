@@ -5,6 +5,7 @@
   result: PrintedNSDocumentReportMorgue
   categories:
   - Reports
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -15,6 +16,7 @@
   result: PrintedNSDocumentReportStation
   categories:
   - Reports
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -25,6 +27,7 @@
   result: PrintedNSDocumentReportOnEliminationOfViolations
   categories:
   - Reports
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -35,6 +38,7 @@
   result: PrintedNSDocumentReportDepartment
   categories:
   - Reports
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -45,6 +49,7 @@
   result: PrintedNSDocumentReportEmployeePerformance
   categories:
   - Reports
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -55,6 +60,7 @@
   result: PrintedNSDocumentReportOnTheChaptersMeeting
   categories:
   - Reports
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -65,6 +71,7 @@
   result: PrintedNSDocumentInternalAffairsAgentsReport
   categories:
   - Reports
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -75,6 +82,7 @@
   result: PrintedNSDocumentConditionReport
   categories:
   - Reports
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -85,6 +93,7 @@
   result: PrintedNSDocumentObjectInvestigationReport
   categories:
   - Reports
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -95,6 +104,7 @@
   result: PrintedNSDocumentExperimentReport
   categories:
   - Reports
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -105,6 +115,7 @@
   result: PrintedNSDocumentDisposalReport
   categories:
   - Reports
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -115,6 +126,7 @@
   result: PrintedNSDocumentArrestReport
   categories:
   - Reports
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -124,7 +136,8 @@
   id: PrintedNSDocumentSalvageLeadReportRecipe
   result: PrintedNSDocumentSalvageLeadReport
   categories:
-    - Reports
+  - Reports
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -137,6 +150,7 @@
   result: PrintedNSDocumentStatementAppointmentInterimChapter
   categories:
   - Statements
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -147,6 +161,7 @@
   result: PrintedNSDocumentEmploymentStatement
   categories:
   - Statements
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -157,6 +172,7 @@
   result: PrintedNSDocumentResignationStatement
   categories:
   - Statements
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -167,6 +183,7 @@
   result: PrintedNSDocumentAccessRequestStatement
   categories:
   - Statements
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -177,6 +194,7 @@
   result: PrintedNSDocumentEquipmentRequestStatement
   categories:
   - Statements
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -189,6 +207,7 @@
   result: PrintedNSDocumentInvocation
   categories:
   - InquiriesAndAppeals
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -199,6 +218,7 @@
   result: PrintedNSDocumentEvacuationShuttleRequest
   categories:
   - InquiriesAndAppeals
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -209,6 +229,7 @@
   result: PrintedNSDocumentShuttleRegistrationRequest
   categories:
   - InquiriesAndAppeals
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -219,6 +240,7 @@
   result: PrintedNSDocumentRequestCallCentCommMembers
   categories:
   - InquiriesAndAppeals
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -229,6 +251,7 @@
   result: PrintedNSDocumentRequestRequestEstablishThreatLevel
   categories:
   - InquiriesAndAppeals
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -239,6 +262,7 @@
   result: PrintedNSDocumentRequestChangeSalary
   categories:
   - InquiriesAndAppeals
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -249,6 +273,7 @@
   result: PrintedNSDocumentRequestForNonlistedEmployment
   categories:
   - InquiriesAndAppeals
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -259,6 +284,7 @@
   result: PrintedNSDocumentRequestForPromotion
   categories:
   - InquiriesAndAppeals
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -269,6 +295,7 @@
   result: PrintedNSDocumentRequestNSDocuments
   categories:
   - InquiriesAndAppeals
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -279,6 +306,7 @@
   result: PrintedNSDocumentRequestEuthanasia
   categories:
   - InquiriesAndAppeals
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -289,6 +317,7 @@
   result: PrintedNSDocumentRequestConstructionWork
   categories:
   - InquiriesAndAppeals
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -299,6 +328,7 @@
   result: PrintedNSDocumentRequestModernization
   categories:
   - InquiriesAndAppeals
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -309,6 +339,7 @@
   result: PrintedNSDocumentRequestERT
   categories:
   - InquiriesAndAppeals
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -319,6 +350,7 @@
   result: PrintedNSDocumentProductOrder
   categories:
   - InquiriesAndAppeals
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -331,6 +363,7 @@
   result: PrintedNSDocumentComplaintViolationLaborRules
   categories:
   - Complaints
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -341,6 +374,7 @@
   result: PrintedNSDocumentComplaintOffense
   categories:
   - Complaints
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -353,6 +387,7 @@
   result: PrintedNSDocumentPermissionEquipment
   categories:
   - Permissions
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -363,6 +398,7 @@
   result: PrintedNSDocumentSearchPermission
   categories:
   - Permissions
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -373,6 +409,7 @@
   result: PrintedNSDocumentPermissionToCarryWeapons
   categories:
   - Permissions
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -383,6 +420,7 @@
   result: PrintedNSDocumentPermissionDisposeBody
   categories:
   - Permissions
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -393,6 +431,7 @@
   result: PrintedNSDocumentConstructionPermit
   categories:
   - Permissions
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -403,6 +442,7 @@
   result: PrintedNSDocumentSurgeryConsentPermit
   categories:
   - Permissions
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -415,6 +455,7 @@
   result: PrintedNSDocumentDismissalOrder
   categories:
   - OrdersAndInstructions
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -425,6 +466,7 @@
   result: PrintedNSDocumentAccessRevocationOrder
   categories:
   - OrdersAndInstructions
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -435,6 +477,7 @@
   result: PrintedNSDocumentIncentiveOrder
   categories:
   - OrdersAndInstructions
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -445,6 +488,7 @@
   result: PrintedNSDocumentPrisonerParoleOrder
   categories:
   - OrdersAndInstructions
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -455,6 +499,7 @@
   result: PrintedNSDocumentOrderRecognizingReasonablenessCreature
   categories:
   - OrdersAndInstructions
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -465,6 +510,7 @@
   result: PrintedNSDocumentExecutionDNROrder
   categories:
   - OrdersAndInstructions
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -475,6 +521,7 @@
   result: PrintedNSDocumentMedicalInterventionOrder
   categories:
   - OrdersAndInstructions
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -487,6 +534,7 @@
   result: PrintedNSDocumentCentCommCommunication
   categories:
   - Communications
+  - NeoSolDocument
   completetime: 2
   applyMaterialDiscount: false
   materials:
