@@ -17038,5 +17038,36 @@ Entries:
   id: 152300
   time: '2026-08-07T09:52:55.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1523
+- author: princess_gurchi
+  changes:
+  - message: Added procedurally generated star system in the background of every round
+      map
+    type: Add
+  id: 152500
+  time: '2026-08-07T14:25:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1525
+- author: princess_gurchi
+  changes:
+  - message: There are currently no interactions with star system beyond looking at
+      it.
+    type: Add
+  id: 152501
+  time: '2026-08-07T14:25:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1525
+- author: princess_gurchi
+  changes:
+  - message: In case of star system causing performance issues, it's possible to disable
+      rendering it in graphics tab in settings
+    type: Add
+  id: 152502
+  time: '2026-08-07T14:25:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1525
+- author: princess_gurchi
+  changes:
+  - message: Increased maximum zoom-out for map tab of shuttle console
+    type: Tweak
+  id: 152503
+  time: '2026-08-07T14:25:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1525
 Order: -1
 
