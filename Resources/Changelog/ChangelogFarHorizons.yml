@@ -16445,5 +16445,598 @@ Entries:
   id: 144316
   time: '2026-07-24T12:56:54.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1443
+- author: Minar
+  changes:
+  - message: FHUnity air, FHUnity evac dock, FHUnity evac.
+    type: Fix
+  id: 147100
+  time: '2026-07-24T17:39:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1471
+- author: Minar
+  changes:
+  - message: give cmd non-nt backpacks
+    type: Fix
+  id: 147101
+  time: '2026-07-24T17:39:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1471
+- author: Minar
+  changes:
+  - message: shc now has warp point
+    type: Fix
+  id: 147102
+  time: '2026-07-24T17:39:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1471
+- author: Minar
+  changes:
+  - message: door migration system disabled
+    type: Fix
+  id: 147103
+  time: '2026-07-24T17:39:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1471
+- author: Minar
+  changes:
+  - message: Fix cmd and hop locker having enemies ids
+    type: Fix
+  id: 147300
+  time: '2026-07-24T18:59:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1473
+- author: KarusKardin
+  changes:
+  - message: Fixed a Yaml issue which cause several unintended windows to become paintable,
+      which causes client's screens to go black when an unintended instance of the
+      component was painted.
+    type: Fix
+  id: 147500
+  time: '2026-07-25T01:41:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1475
+- author: KarusKardin
+  changes:
+  - message: Added audio to Holographic Field Generators
+    type: Add
+  id: 147700
+  time: '2026-07-25T13:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1477
+- author: KarusKardin
+  changes:
+  - message: Minor Improvments to GenericFieldGeneratorSystem
+    type: Tweak
+  id: 147701
+  time: '2026-07-25T13:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1477
+- author: KarusKardin
+  changes:
+  - message: Removed EMAG functionality from Holographic Generators
+    type: Remove
+  id: 147702
+  time: '2026-07-25T13:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1477
+- author: KarusKardin
+  changes:
+  - message: Removed Homographic Fields (EMAG Effect)
+    type: Remove
+  id: 147703
+  time: '2026-07-25T13:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1477
+- author: princess_gurchi
+  changes:
+  - message: Channel prefixes won't show up as empty "()" if there's no prefix
+    type: Fix
+  id: 148100
+  time: '2026-07-25T14:33:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1481
+- author: princess_gurchi
+  changes:
+  - message: Nanotrasen found out about their stolen company card. Now everyone's
+      salary will come from their respective employer (NT, NS, GSL, CFA)
+    type: Fix
+  id: 148101
+  time: '2026-07-25T14:33:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1481
+- author: princess_gurchi
+  changes:
+  - message: Crew monitor will show proper department name depending on faction
+    type: Fix
+  id: 148102
+  time: '2026-07-25T14:33:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1481
+- author: princess_gurchi
+  changes:
+  - message: Elder boss has learned some good manners and is now less likely to decapitate
+      its opponents
+    type: Tweak
+  id: 148103
+  time: '2026-07-25T14:33:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1481
+- author: AthenaAI
+  changes:
+  - message: Fixes PassiveModules being counted toward cap.
+    type: Fix
+  id: 147800
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Fixes Pharmacist Coat not working properly.
+    type: Fix
+  id: 147801
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Fixes AI not being properly assigned to the NeoSol side. Replace PlayerStationAi
+      with PlayerStationAiNS and PlayerStationAiEmpty with PlayerStationAiEmptyNS.
+      To fix the issue in mapping.
+    type: Fix
+  id: 147802
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Fixed double borg brain spawn for NeoSol station.
+    type: Fix
+  id: 147803
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Fixed issue with Borgs being dead and alive when crit.
+    type: Fix
+  id: 147804
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: AthenaAI
+  changes:
+  - message: Door Electronics now have both lists of NS and NT.
+    type: Tweak
+  id: 147805
+  time: '2026-07-25T16:28:37.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1478
+- author: CorruptOmega
+  changes:
+  - message: Marshall has lethal and nonlethal sidearm selections
+    type: Fix
+  id: 147900
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: Enforcers have shoe selection again
+    type: Fix
+  id: 147901
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Dominator for nonlethal takedowns. Now including correct access!
+    type: Fix
+  id: 147902
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Security Cyborg (L.E.A.D.) has NS modules with NS access stuff
+    type: Fix
+  id: 147903
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Security Radio's now use their correct channel
+    type: Fix
+  id: 147904
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Security Basic Vest has correct name/description now
+    type: Fix
+  id: 147905
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Sec Belt correct storage now
+    type: Fix
+  id: 147906
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Sec can choose both belt and webbing like their NT counterparts
+    type: Fix
+  id: 147907
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: Removed some loadout options that some NS leadership had from NT counterparts.
+    type: Fix
+  id: 147908
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Station Beacons for the non-generic places not already covered
+    type: Add
+  id: 147909
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: CorruptOmega
+  changes:
+  - message: NS Security Comms color has been brightened.
+    type: Tweak
+  id: 147910
+  time: '2026-07-25T23:19:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1479
+- author: Milterria, MightyM1me, mogaiskii, Jhrushbe
+  changes:
+  - message: Core map upkeep&fixes.
+    type: Fix
+  id: 148700
+  time: '2026-07-26T16:33:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1487
+- author: Milterria, MightyM1me, mogaiskii, Jhrushbe
+  changes:
+  - message: Fixed service windoors, renamed most important cameras on FHUnity.
+    type: Fix
+  id: 148701
+  time: '2026-07-26T16:33:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1487
+- author: Milterria, MightyM1me, mogaiskii, Jhrushbe
+  changes:
+  - message: Fixed SHC and Unity bugs
+    type: Fix
+  id: 148702
+  time: '2026-07-26T16:33:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1487
+- author: Milterria, MightyM1me, mogaiskii, Jhrushbe
+  changes:
+  - message: Worked on NeoSol High Command a bit.
+    type: Tweak
+  id: 148703
+  time: '2026-07-26T16:33:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1487
+- author: mogaiskii
+  changes:
+  - message: ns accesses.
+    type: Fix
+  id: 148900
+  time: '2026-07-26T17:06:50.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1489
+- author: jhrushbe
+  changes:
+  - message: Increased the sell value of a full SMES so that engineering has a way
+      to profitably sell power.
+    type: Tweak
+  id: 149100
+  time: '2026-07-27T03:33:12.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1491
+- author: princess_gurchi
+  changes:
+  - message: Fixed a bug causing you to stay hungry no matter how much you eat
+    type: Fix
+  id: 149400
+  time: '2026-07-27T20:21:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1494
+- author: princess_gurchi
+  changes:
+  - message: NT job priorities won't disappear after editing job priorities in NS
+      round and vice versa
+    type: Fix
+  id: 149401
+  time: '2026-07-27T20:21:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1494
+- author: princess_gurchi
+  changes:
+  - message: Borgs and AI can now select different names for NT and NS sides
+    type: Tweak
+  id: 149402
+  time: '2026-07-27T20:21:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1494
+- author: KarusKardin
+  changes:
+  - message: Added Cybernetics Thief Kit
+    type: Add
+  id: 149500
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Added Blackmarket Encryption Key
+    type: Add
+  id: 149501
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Splicer Thief Kit
+    type: Remove
+  id: 149502
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Added Access Breaker to Breacher Thief Kit
+    type: Tweak
+  id: 149503
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Added Emag to Smuggler Thief Kit
+    type: Tweak
+  id: 149504
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Added Radio Jammer to Communicator Thief Kit
+    type: Tweak
+  id: 149505
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Added Mute Toxin to Sleeper Thief Kit
+    type: Tweak
+  id: 149506
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Invisible Crate is no longer airtight, you can now safely store live
+      animals in it (if the surrounding area is ventilated)
+    type: Tweak
+  id: 149507
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: KarusKardin
+  changes:
+  - message: Replaced Master Encryption Key in Communicator Thief Kit with a Blackmarket
+      Encryption Key
+    type: Tweak
+  id: 149508
+  time: '2026-07-28T10:31:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1495
+- author: princess_gurchi
+  changes:
+  - message: Lights in Elder arena can be broken by damage like normal lights
+    type: Tweak
+  id: 149900
+  time: '2026-07-28T20:32:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1499
+- author: princess_gurchi
+  changes:
+  - message: Boss attacks that target all enemies now will only target alive enemies
+    type: Tweak
+  id: 149901
+  time: '2026-07-28T20:32:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1499
+- author: princess_gurchi
+  changes:
+  - message: NPCs should no longer get their LOS broken by things that don't break
+      LOS for players (bodies, lockers, ore crates, etc.)
+    type: Fix
+  id: 149902
+  time: '2026-07-28T20:32:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1499
+- author: Fasuh
+  changes:
+  - message: Added an option for shuttle turrets to shoot through windows.
+    type: Add
+  id: 149800
+  time: '2026-07-28T22:43:05.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1498
+- author: AthenaAI
+  changes:
+  - message: Redoes the entire Ad Sign prototype to no longer be a TV and instead
+      be somewhat like the bar signs.
+    type: Tweak
+  id: 150300
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: Ad signs can be broken and repaired.
+    type: Tweak
+  id: 150301
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: There is 3 different Ad Sign prototypes NS, NT, GSL they respectively
+      their appropriate ads.
+    type: Tweak
+  id: 150302
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: You can choose what ad signs to display. This access is given to Service.
+    type: Tweak
+  id: 150303
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: Adds more signs for NeoSol.
+    type: Add
+  id: 150304
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AthenaAI
+  changes:
+  - message: Moves Telos Ad signs to the NanoTrasen side. Oops.
+    type: Fix
+  id: 150305
+  time: '2026-07-31T07:47:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1503
+- author: AirJab
+  changes:
+  - message: NeoSol document printer
+    type: Add
+  id: 148500
+  time: '2026-08-01T10:24:51.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1485
+- author: AirJab
+  changes:
+  - message: added NeoSol Versions document for all the NT ones
+    type: Add
+  id: 148501
+  time: '2026-08-01T10:24:51.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1485
+- author: AirJab
+  changes:
+  - message: Added prefixes to Both printers
+    type: Tweak
+  id: 148502
+  time: '2026-08-01T10:24:51.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1485
+- author: AthenaAI
+  changes:
+  - message: Fixes an issue with riplet arm where the server tried to delete something
+      that was already deleted.
+    type: Fix
+  id: 150600
+  time: '2026-08-01T10:39:00.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1506
+- author: AthenaAI
+  changes:
+  - message: Fixe- Oh god please no more clown car reload bug.
+    type: Fix
+  id: 150601
+  time: '2026-08-01T10:39:00.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1506
+- author: mogaiskii
+  changes:
+  - message: add ns doc printer and ns clear pda to ns ptech
+    type: Add
+  id: 150900
+  time: '2026-08-02T10:19:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1509
+- author: crecc, mightym1me, milterria, mogaiskii
+  changes:
+  - message: Added thoughts police event grid
+    type: Add
+  id: 151100
+  time: '2026-08-02T15:43:33.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1511
+- author: AirJab
+  changes:
+  - message: NS-HC has added air gaps in their document printers to make them more
+      lightweight
+    type: Fix
+  id: 151400
+  time: '2026-08-03T06:14:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1514
+- author: AirJab
+  changes:
+  - message: NS-HC has signed a new contract with GSL in order to get the correct
+      document printer flatpacks into NSR lockers
+    type: Fix
+  id: 151401
+  time: '2026-08-03T06:14:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1514
+- author: AirJab
+  changes:
+  - message: NS-HC has patched a software bug that caused their document printers
+      to print the CFA logo incorrectly
+    type: Fix
+  id: 151402
+  time: '2026-08-03T06:14:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1514
+- author: AirJab
+  changes:
+  - message: NS-HC has upgraded their refinement process when making lenses for document
+      printers allowing for more sharper logo printing
+    type: Tweak
+  id: 151403
+  time: '2026-08-03T06:14:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1514
+- author: KarusKardin
+  changes:
+  - message: Removed Emag from Smuggler Thief Kit
+    type: Tweak
+  id: 151300
+  time: '2026-08-03T06:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1513
+- author: KarusKardin
+  changes:
+  - message: Moved Agent Eye Implant from Cybernetics Thief Kit to Chameleon Thief
+      Kit
+    type: Tweak
+  id: 151301
+  time: '2026-08-03T06:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1513
+- author: KarusKardin
+  changes:
+  - message: Cybernetics Thief Kit no longer comes in a briefcase
+    type: Tweak
+  id: 151302
+  time: '2026-08-03T06:35:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1513
+- author: rain_enjoyer
+  changes:
+  - message: Fake mindshield description mentioning NT.
+    type: Remove
+  id: 151800
+  time: '2026-08-05T10:14:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1518
+- author: rain_enjoyer
+  changes:
+  - message: Mindshield description implying it's a mind control implant.
+    type: Fix
+  id: 151801
+  time: '2026-08-05T10:14:45.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1518
+- author: Ivn7011
+  changes:
+  - message: Neosol Crisis Button
+    type: Add
+  id: 151700
+  time: '2026-08-05T17:00:57.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1517
+- author: Ivn7011
+  changes:
+  - message: replaced NT Crisis Button with NS Crisis button in the NS sectech
+    type: Tweak
+  id: 151701
+  time: '2026-08-05T17:00:57.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1517
+- author: Ivn7011
+  changes:
+  - message: Capitalization on NT Crisis Button
+    type: Fix
+  id: 151702
+  time: '2026-08-05T17:00:57.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1517
+- author: KarusKardin
+  changes:
+  - message: Document Lathe Recipie Faction Categories
+    type: Add
+  id: 152100
+  time: '2026-08-06T00:25:39.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1521
+- author: KarusKardin
+  changes:
+  - message: added the NS documents to the Document Printer Cybernetics
+    type: Tweak
+  id: 152101
+  time: '2026-08-06T00:25:39.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1521
+- author: KarusKardin
+  changes:
+  - message: Minor Sprite Tweaks for paper from Document Printers
+    type: Tweak
+  id: 152102
+  time: '2026-08-06T00:25:39.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1521
+- author: RubiconLocked
+  changes:
+  - message: The Liaison now has access to NeoSol externals.
+    type: Fix
+  id: 152300
+  time: '2026-08-07T09:52:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1523
 Order: -1
 

@@ -66,6 +66,7 @@
   parent: [BaseBorgModuleSecurity,BaseProviderBorgModule,BaseSecurityContraband]
   id: BorgModuleBaton
   name: Baton Cyborg Module
+  suffix: NT
   description: Now even cyborgs can enjoy harm batong.
   components:
   - type: Sprite
@@ -92,6 +93,7 @@
   parent: [BaseBorgModuleSecurity,BaseProviderBorgModule,BaseSecurityContraband]
   id: BorgModuleDominator
   name: Dominator Cyborg Module
+  suffix: NT
   description: Module with a dominator specifically designed for cyborgs.
   components:
   - type: Sprite
@@ -109,6 +111,7 @@
   parent: [BaseBorgModuleSecurity,BaseProviderBorgModule,BaseSecurityContraband]
   id: BorgModuleLaserCarbine
   name: Laser Carbine Cyborg Module
+  suffix: NT
   description: Module with a Laser Carbine specifically designed for cyborgs.
   components:
   - type: Sprite
@@ -119,6 +122,69 @@
     hands:
     - item: BorgWeaponWeaponLaserCarbine
     - item: RadioHandheldSecurity
+  - type: BorgModuleIcon
+    icon: { sprite: _FarHorizons/Interface/Actions/actions_borg.rsi, state: laser-carbine-module } # TODO icon
+
+- type: entity
+  parent: [BaseBorgModuleSecurity,BaseProviderBorgModule,BaseSecurityContraband]
+  id: BorgModuleBatonNS
+  name: Baton Cyborg Module
+  suffix: NS
+  description: Now even cyborgs can enjoy harm batong.
+  components:
+  - type: Sprite
+    layers:
+    - state: security
+    - state: icon-security
+  - type: ItemBorgModule
+    hands:
+    - item: Stunbaton
+    - item: BorgFlash
+    - item: Handcuffs
+      hand:
+        emptyLabel: borg-slot-handcuffs-empty
+        emptyRepresentative: Handcuffs
+        whitelist:
+          tags:
+          - Handcuffs
+    - item: RadioHandheldSecurityNS
+    - item: BorgContraDuffelNS
+  - type: BorgModuleIcon
+    icon: { sprite: _FarHorizons/Interface/Actions/actions_borg.rsi, state: stunbaton-module } # TODO icon
+
+- type: entity
+  parent: [BaseBorgModuleSecurity,BaseProviderBorgModule,BaseSecurityContraband]
+  id: BorgModuleDominatorNS
+  name: Dominator Cyborg Module
+  suffix: NS
+  description: Module with a dominator specifically designed for cyborgs.
+  components:
+  - type: Sprite
+    layers:
+    - state: security
+    - state: icon-security
+  - type: ItemBorgModule
+    hands:
+    - item: BorgWeaponDominatorNS
+    - item: RadioHandheldSecurityNS
+  - type: BorgModuleIcon
+    icon: { sprite: _FarHorizons/Interface/Actions/actions_borg.rsi, state: dominator-module } # TODO icon
+
+- type: entity
+  parent: [BaseBorgModuleSecurity,BaseProviderBorgModule,BaseSecurityContraband]
+  id: BorgModuleLaserCarbineNS
+  name: Laser Carbine Cyborg Module
+  suffix: NS
+  description: Module with a Laser Carbine specifically designed for cyborgs.
+  components:
+  - type: Sprite
+    layers:
+    - state: security
+    - state: icon-security
+  - type: ItemBorgModule
+    hands:
+    - item: BorgWeaponWeaponLaserCarbine #This is generic weapon
+    - item: RadioHandheldSecurityNS #To be fixed
   - type: BorgModuleIcon
     icon: { sprite: _FarHorizons/Interface/Actions/actions_borg.rsi, state: laser-carbine-module } # TODO icon
 
@@ -499,14 +565,8 @@
   components:
   - type: PassiveBorgModule
     passiveType: Armor
-  - type: ComponentBorgModule
-    components:
-    - type: Damageable
-      damageContainer: Silicon
-      damageModifierSet: BorgArmorBase
-    uninstallComponents: 
-    - type: Damageable
-      damageContainer: Silicon
+  - type: ArmorBorgModule
+    damageModifierSet: BorgArmorBase
 
 - type: entity
   id: BorgModuleArmorSecBorg
@@ -516,17 +576,13 @@
   components:
   - type: PassiveBorgModule
     passiveType: Armor
+  - type: ArmorBorgModule
+    damageModifierSet: BorgSecBorgArmor
   - type: ComponentBorgModule
     components:
-    - type: Damageable
-      damageContainer: Silicon
-      damageModifierSet: BorgSecBorgArmor
     - type: BodySpeedModifier
       walkModifier: 0.95
       sprintModifier: 0.95
-    uninstallComponents: 
-    - type: Damageable
-      damageContainer: Silicon
 
 - type: entity
   id: BorgModuleArmorReflective
@@ -536,11 +592,10 @@
   components:
   - type: PassiveBorgModule
     passiveType: Armor
+  - type: ArmorBorgModule
+    damageModifierSet: BorgArmorReflective
   - type: ComponentBorgModule
     components:
-    - type: Damageable
-      damageContainer: Silicon
-      damageModifierSet: BorgArmorReflective
     - type: Reflect
       reflectProb: 1
       reflects:
@@ -548,9 +603,6 @@
     - type: BodySpeedModifier
       walkModifier: 0.85
       sprintModifier: 0.85
-    uninstallComponents: 
-    - type: Damageable
-      damageContainer: Silicon
 
 - type: entity
   id: BorgModuleArmorSyndicate
@@ -560,17 +612,13 @@
   components:
   - type: PassiveBorgModule
     passiveType: Armor
+  - type: ArmorBorgModule
+    damageModifierSet: BorgArmorSyndicate
   - type: ComponentBorgModule
     components:
-    - type: Damageable
-      damageContainer: Silicon
-      damageModifierSet: BorgArmorSyndicate
     - type: BodySpeedModifier
       walkModifier: 0.8
       sprintModifier: 0.8
-    uninstallComponents: 
-    - type: Damageable
-      damageContainer: Silicon
 
 #region Speed Modules
 

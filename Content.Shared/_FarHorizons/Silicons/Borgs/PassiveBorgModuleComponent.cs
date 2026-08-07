@@ -1,5 +1,7 @@
 using Robust.Shared.GameStates;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
+using Content.Shared.Damage.Prototypes;
 
 namespace Content.Shared.Silicons.Borgs.Components;
 
@@ -11,6 +13,14 @@ namespace Content.Shared.Silicons.Borgs.Components;
 public sealed partial class PassiveBorgModuleComponent : Component
 {
     [DataField] public PassiveBorgModuleType PassiveType = PassiveBorgModuleType.None;
+}
+
+[RegisterComponent, NetworkedComponent]
+[Access(typeof(SharedBorgSystem))] 
+public sealed partial class ArmorBorgModuleComponent : Component
+{
+    [DataField("damageModifierSet")]
+    public ProtoId<DamageModifierSetPrototype>? DamageModifierSetId;
 }
 
 [Serializable, NetSerializable]

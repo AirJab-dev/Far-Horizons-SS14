@@ -42,7 +42,7 @@ namespace Content.Server.NPC.Systems;
 /// <summary>
 /// Handles utility queries for NPCs.
 /// </summary>
-public sealed class NPCUtilitySystem : EntitySystem
+public sealed partial class NPCUtilitySystem : EntitySystem // Far Horizons made partial
 {
     [Dependency] private readonly IPrototypeManager _proto = default!;
     [Dependency] private readonly ContainerSystem _container = default!;
@@ -361,7 +361,7 @@ public sealed class NPCUtilitySystem : EntitySystem
                         return 1f;
                 }
 
-                var result = _interaction.InRangeUnobstructed(owner, targetUid, radius + bufferRange, CollisionGroup.Opaque) ? 1f : 0f;
+                var result = _interaction.InRangeUnobstructed(owner, targetUid, radius + bufferRange, CollisionGroup.HighImpassable, LineOfSightIgnoreCheck) ? 1f : 0f; // Far Horizons, see comment on LineOfSightIgnoreCheck
                 return result;
             }
             case TargetIsAliveCon:

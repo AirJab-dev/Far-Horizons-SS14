@@ -209,7 +209,9 @@ public abstract partial class SharedBorgSystem
         if (!Resolve(chassis, ref chassis.Comp) || !Resolve(module, ref module.Comp))
             return false;
 
-        if (chassis.Comp.ModuleContainer.ContainedEntities.Count >= chassis.Comp.MaxModules && !HasComp<PassiveBorgModuleComponent>(module))
+        var passiveModuleCount = chassis.Comp.ModuleContainer.ContainedEntities.Count(HasComp<PassiveBorgModuleComponent>); //Far Horizons
+
+        if (chassis.Comp.ModuleContainer.ContainedEntities.Count >= chassis.Comp.MaxModules + passiveModuleCount && !HasComp<PassiveBorgModuleComponent>(module)) //Far Horizons
         {
             _popup.PopupClient(Loc.GetString("borg-module-too-many"), chassis.Owner, user);
             return false;

@@ -293,8 +293,8 @@
 
   defaultModules:
   - BorgModuleTool
-  - BorgModuleBaton
-  - BorgModuleDominator
+  - BorgModuleBatonNS
+  - BorgModuleDominatorNS
 
   additionalModules:
   - BorgModuleSecAccessNS

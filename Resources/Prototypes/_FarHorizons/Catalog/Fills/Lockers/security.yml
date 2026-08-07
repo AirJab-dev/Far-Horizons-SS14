@@ -1327,6 +1327,7 @@
     - id: ClothingEyesGlassesSecuritySyndi
     - id: ClothingHandsGlovesSecurityRed
     - id: ClothingShoesBootsJackSyndiFilled
+    - id: ClothingHandsGlovesCombat
     - id: ClothingOuterCoatWardenSyndi
     - id: ClothingOuterWinterWardenSyndi
     - id: RubberStampConstable
@@ -1419,7 +1420,7 @@
         amount: 2
       - id: ClothingOuterHardsuitBrigmedicSyndi
       - id: BoxSterileMask
-      - id: ClothingHeadHatBeretBrigmedic
+      #- id: ClothingHeadHatBeretBrigmedic
       #- id: ClothingOuterCoatAMG
       - id: ClothingUniformJumpsuitBrigmedicSyndi
       - id: ClothingUniformJumpskirtBrigmedicSyndi
@@ -1453,13 +1454,13 @@
       - id: WeaponDisabler
       - id: TrackingImplanter
         amount: 2
-      - id: ClothingOuterHardsuitCorpsman
-      - id: BoxSterileMask
-      - id: ClothingHeadHatBeretCorpsman
-      - id: ClothingOuterCoatCorpsmanFH
-      - id: ClothingUniformJumpsuitCorpsman
-      - id: ClothingUniformJumpskirtCorpsman
-      - id: ClothingBeltCorpsmanFilled
+      - id: ClothingOuterHardsuitCorpsman #Needs respriting
+      - id: BoxSterileMask 
+      - id: ClothingHeadHatBeretCorpsman #Needs respriting
+      - id: ClothingOuterCoatCorpsmanFH #Needs respriting
+      - id: ClothingUniformJumpsuitCorpsman #Needs respriting
+      - id: ClothingUniformJumpskirtCorpsman #Needs respriting
+      - id: ClothingBeltCorpsmanFilled #Needs respriting
       - id: DefibrillatorCorpsman
       - id: SecurityHypoKitFilled
       - id: ClothingHandsGlovesBlackNitrile
