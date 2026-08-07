@@ -17031,5 +17031,12 @@ Entries:
   id: 152102
   time: '2026-08-06T00:25:39.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1521
+- author: RubiconLocked
+  changes:
+  - message: The Liaison now has access to NeoSol externals.
+    type: Fix
+  id: 152300
+  time: '2026-08-07T09:52:55.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1523
 Order: -1
 
