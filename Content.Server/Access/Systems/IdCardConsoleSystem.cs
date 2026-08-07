@@ -22,6 +22,7 @@ using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Content.Shared.Chat; // Starlight
+using Content.Shared._FarHorizons.Factions; //FH
 using Content.Server._FarHorizons.Factions; // Far Horizons (since when are we marking imports?)
 
 namespace Content.Server.Access.Systems;
@@ -41,6 +42,7 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly ChatSystem _chat = default!;
     [Dependency] private readonly IServerFactionManager _factions = default!; // Far Horizons
+    [Dependency] private readonly ISharedFactionManager _sharedfactions = default!; // Far Horizons
 
     public override void Initialize()
     {
@@ -186,12 +188,13 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
             var targetAccessComponent = Comp<AccessComponent>(targetId);
 
             var jobProto = targetIdComponent.JobPrototype ?? new ProtoId<JobPrototype>(string.Empty);
+            var factionProto = targetIdComponent.Faction ?? new ProtoId<FactionPrototype>(string.Empty);
             if (TryComp<StationRecordKeyStorageComponent>(targetId, out var keyStorage)
                 && keyStorage.Key is { } key
                 && _record.TryGetRecord<GeneralStationRecord>(key, out var record))
-            {
                 jobProto = record.JobPrototype;
-            }
+
+            var jobfactionproto = _sharedfactions.GetJobAssignment((factionProto, jobProto));
 
             newState = new IdCardConsoleBoundUserInterfaceState(
                 component.PrivilegedIdSlot.HasItem,
@@ -201,7 +204,9 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
                 targetIdComponent.LocalizedJobTitle,
                 targetAccessComponent.Tags.ToList(),
                 possibleAccess,
-                jobProto,
+                jobfactionproto != null
+                    ? jobfactionproto.ID
+                    : string.Empty, //if this is null, just pretend it doesnt exist
                 privilegedIdName,
                 Name(targetId),
                 // Starlight-edit: Start

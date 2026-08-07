@@ -108,7 +108,7 @@ public sealed partial class IdCardConsoleComponent : Component
         public readonly string? TargetIdJobTitle;
         public readonly List<ProtoId<AccessLevelPrototype>>? TargetIdAccessList;
         public readonly List<ProtoId<AccessLevelPrototype>>? AllowedModifyAccessList;
-        public readonly ProtoId<JobPrototype> TargetIdJobPrototype;
+        public readonly ProtoId<FactionJobAssignmentPrototype> TargetIdJobPrototype;
         // Starlight-edit: Start
         public readonly ProtoId<AccessGroupPrototype> CurrentAccessGroup;
         public readonly List<ProtoId<AccessGroupPrototype>>? AvailableAccessGroups;
@@ -121,7 +121,7 @@ public sealed partial class IdCardConsoleComponent : Component
             string? targetIdJobTitle,
             List<ProtoId<AccessLevelPrototype>>? targetIdAccessList,
             List<ProtoId<AccessLevelPrototype>>? allowedModifyAccessList,
-            ProtoId<JobPrototype> targetIdJobPrototype,
+            ProtoId<FactionJobAssignmentPrototype> targetIdJobPrototype,
             string privilegedIdName,
             string targetIdName,
             // Starlight-edit: Start

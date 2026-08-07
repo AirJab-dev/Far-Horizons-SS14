@@ -38,7 +38,7 @@ namespace Content.Client.Access.UI
         private string? _lastJobProto;
 
         // The job that will be picked if the ID doesn't have a job on the station.
-        private static ProtoId<JobPrototype> _defaultJob = "Assistant";
+        private static ProtoId<FactionJobAssignmentPrototype> _defaultJob = "NTAssistant"; //This will ONLY work with NT consoles, need to find a better way to handle this
         // Starlight-edit: Start
         public Action<ProtoId<AccessGroupPrototype>>? OnGroupSelected;
 
@@ -89,19 +89,26 @@ namespace Content.Client.Access.UI
             OnGroupSelected += group => _owner.OnGroupSelected(group);
             // Starlight-edit: End
             var rawjobs = _prototypeManager.EnumeratePrototypes<FactionJobAssignmentPrototype>().ToList();
-            var jobs = rawjobs.Where(jobfaction => jobfaction.Override is { Name: not null } && ComputerFactions.Contains(jobfaction.Faction.Id)).ToList();
-            
-            jobs.Sort((x, y) => string.Compare(x.Override!.Name, y.Override!.Name, StringComparison.CurrentCulture)); //Override Cannot be null at this point
+            var jobs = rawjobs.Where(jobfaction => ComputerFactions.Contains(jobfaction.Faction.Id)).ToList();
+
+            jobs.Sort((x, y) => string.Compare(
+                x.Override == null || x.Override.Name == null
+                    ? _prototypeManager.Index(x.Job).LocalizedName
+                    : Loc.GetString(x.Override.Name),
+                y.Override == null || y.Override.Name == null
+                    ? _prototypeManager.Index(x.Job).LocalizedName
+                    : Loc.GetString(y.Override.Name),
+                StringComparison.CurrentCulture));
 
             foreach (var job in jobs)
             {
                 if (!_prototypeManager.Index(job.Job).OverrideConsoleVisibility.GetValueOrDefault(_prototypeManager.Index(job.Job).SetPreference))
-                {
                     continue;
-                }
 
                 _jobPrototypeIds.Add(job.ID);
-                JobPresetOptionButton.AddItem(Loc.GetString(job.Override!.Name!), _jobPrototypeIds.Count - 1);
+                JobPresetOptionButton.AddItem(job.Override == null || job.Override.Name == null
+                    ? _prototypeManager.Index(job.Job).LocalizedName
+                    : Loc.GetString(job.Override.Name), _jobPrototypeIds.Count - 1);
             }
             //FH end
 
@@ -145,22 +152,23 @@ namespace Content.Client.Access.UI
         private void SelectJobPreset(OptionButton.ItemSelectedEventArgs args)
         {
             if (!_prototypeManager.TryIndex(_jobPrototypeIds[args.Id], out FactionJobAssignmentPrototype? job))
-            {
-                return;
-            }
-
-            if (job.Override == null || job.Override.Name == null || job.Override.Access == null || job.Override.AccessGroups == null)
                 return;
 
-            JobTitleLineEdit.Text = Loc.GetString(job.Override.Name);
+            JobTitleLineEdit.Text = job.Override == null || job.Override.Name == null
+                    ? _prototypeManager.Index(job.Job).LocalizedName
+                    : Loc.GetString(job.Override.Name);
             args.Button.SelectId(args.Id);
 
             SetAllAccess(false);
 
             // Collect all access levels for this job (direct + all groups)
             // Starlight-edit: Start
-            var allJobAccess = new HashSet<ProtoId<AccessLevelPrototype>>(job.Override.Access);
-            foreach (var group in job.Override.AccessGroups)
+            var allJobAccess = new HashSet<ProtoId<AccessLevelPrototype>>(job.Override == null || job.Override.Access == null
+                    ? _prototypeManager.Index(job.Job).Access
+                    : job.Override.Access);
+            foreach (var group in job.Override == null || job.Override.AccessGroups == null
+                    ? _prototypeManager.Index(job.Job).AccessGroups
+                    : job.Override.AccessGroups)
             {
                 if (_prototypeManager.Resolve(group, out AccessGroupPrototype? groupPrototype))
                     allJobAccess.UnionWith(groupPrototype.Tags);
@@ -357,9 +365,7 @@ namespace Content.Client.Access.UI
             // or the IdCardComponent's JobPrototype field.
             // For example, a new ID from a box would have no job index.
             if (jobIndex < 0)
-            {
-                jobIndex = _jobPrototypeIds.IndexOf(_defaultJob);
-            }
+                jobIndex = _jobPrototypeIds.IndexOf(_defaultJob); //TODO, make confirguable in YAML so this works for NS console
 
             JobPresetOptionButton.SelectId(jobIndex);
 
