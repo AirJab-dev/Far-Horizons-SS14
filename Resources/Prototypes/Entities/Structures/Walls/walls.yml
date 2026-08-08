@@ -537,6 +537,17 @@
   components:
     - type: Destructible
       thresholds:
+#FH Edit - Start
+        - trigger:
+            !type:DamageTrigger
+            damage: 1100
+          behaviors:
+          - !type:PlaySoundBehavior
+            sound:
+              collection: MetalSlam
+          - !type:DoActsBehavior
+            acts: ["Destruction"]
+#FH Edit - End
         - trigger:
             !type:DamageTrigger
             damage: 1000
@@ -623,7 +634,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 600
+        damage: 500 #FH - Prevents shuttle ramming from spawning girders, mostly.
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]

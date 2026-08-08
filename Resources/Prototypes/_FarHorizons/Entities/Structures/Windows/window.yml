@@ -311,7 +311,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1200
+        damage: 1100
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -396,3 +396,46 @@
   - type: Construction
     graph: Window
     node: ArmoredShuttleWindowDirectional
+
+#region Syndicate
+- type: entity
+  id: ShuttleWindowArmoredSyndicate
+  name: Armored Shuttle Window
+  parent: ShuttleWindowArmored
+  suffix: Syndicate
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/shuttle_window.rsi
+    color: "#1D1D1D"
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/shuttle_window.rsi
+    color: "#1D1D1D"
+  - type: IconSmooth
+    key: walls
+    base: swindow 
+  - type: Appearance
+
+- type: entity
+  parent: ShuttleWindowArmoredDiagonal
+  id: ShuttleWindowArmoredDiagonalSyndicate
+  suffix: Diagonal, Syndicate
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Appearance
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi
+    state: state0
+    color: "#1D1D1D"
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls
+    base: state
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi
+    state: state0
+    color: "#1D1D1D"

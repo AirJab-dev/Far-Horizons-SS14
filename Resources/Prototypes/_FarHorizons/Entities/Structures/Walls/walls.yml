@@ -387,7 +387,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1200
+        damage: 1100
       behaviors:
         - !type:DoActsBehavior
           acts: [ "Destruction" ]
@@ -487,3 +487,42 @@
   - type: Construction
     graph: Girder
     node: ArmoredShuttleWall
+
+#region Syndicate
+- type: entity
+  parent: WallShuttleArmored
+  id: WallShuttleArmoredSyndicate
+  name: Armored Shuttle Wall
+  suffix: Syndicate
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/shuttle.rsi
+    color: "#1D1D1D"
+  - type: Icon
+    sprite: Structures/Walls/shuttle.rsi
+    state: full
+    color: "#1D1D1D"
+  - type: IconSmooth
+    key: walls
+    base: state
+  - type: Appearance
+
+- type: entity
+  parent: WallShuttleArmoredDiagonal
+  id: WallShuttleArmoredSyndicateDiagonal
+  name: Armored Shuttle Wall
+  suffix: Syndicate
+  components:
+  - type: Sprite
+    drawdepth: Walls
+    sprite: _FarHorizons/Structures/Walls/shuttle_diagonal.rsi
+    state: state0
+    color: "#1D1D1D"
+  - type: Icon
+    sprite: _FarHorizons/Structures/Walls/shuttle_diagonal.rsi
+    state: state0
+    color: "#1D1D1D"
+  - type: IconSmooth
+    key: walls
+    base: state
+  - type: Appearance

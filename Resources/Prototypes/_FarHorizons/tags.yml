@@ -235,6 +235,12 @@
   id: ProtogenCybernetics
 
 - type: Tag
+  id: PowerCellMedium
+
+- type: Tag
+  id: PowerCellHigh
+
+- type: Tag
   id: RamChip
 
 - type: Tag
@@ -338,6 +344,12 @@
 
 - type: Tag
   id: TrueProtogen
+
+- type: Tag
+  id: WallmountSubstationElectronicsShip
+
+- type: Tag
+  id: WallmountSubstationElectronicsShuttle
 
 - type: Tag
   id: VehicleLightArmor
