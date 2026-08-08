@@ -38,7 +38,7 @@ namespace Content.Client.Access.UI
         private string? _lastJobProto;
 
         // The job that will be picked if the ID doesn't have a job on the station.
-        private static ProtoId<FactionJobAssignmentPrototype> _defaultJob = "NTAssistant"; //This will ONLY work with NT consoles, need to find a better way to handle this
+        private static ProtoId<JobPrototype> _defaultJob = "Assistant";
         // Starlight-edit: Start
         public Action<ProtoId<AccessGroupPrototype>>? OnGroupSelected;
 
@@ -365,8 +365,14 @@ namespace Content.Client.Access.UI
             // or the IdCardComponent's JobPrototype field.
             // For example, a new ID from a box would have no job index.
             if (jobIndex < 0)
-                jobIndex = _jobPrototypeIds.IndexOf(_defaultJob); //TODO, make confirguable in YAML so this works for NS console
-
+            {
+                var factionassistant = _jobPrototypeIds.FirstOrDefault(p => 
+                    _prototypeManager.Index<FactionJobAssignmentPrototype>(p).Job == _defaultJob); //Find a valid match to _defaultJob
+                jobIndex = _jobPrototypeIds.IndexOf(factionassistant ?? ""); //Find it in this console's list
+            }
+            if (jobIndex < 0) //if we cant find an Assistant to default to, just default to the first item in the list as a fallback. (might happen if a console has neither NS or NT)
+                jobIndex = 0;
+            
             JobPresetOptionButton.SelectId(jobIndex);
 
             _lastFullName = state.TargetIdFullName;

@@ -226,7 +226,7 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
         string newFullName,
         string newJobTitle,
         List<ProtoId<AccessLevelPrototype>> newAccessList,
-        ProtoId<JobPrototype> newJobProto,
+        ProtoId<FactionJobAssignmentPrototype> newJobProto,
         EntityUid player,
         IdCardConsoleComponent? component = null)
     {
@@ -239,20 +239,24 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
         _idCard.TryChangeFullName(targetId, newFullName, player: player);
         _idCard.TryChangeJobTitle(targetId, newJobTitle, player: player);
 
-        if (_prototype.TryIndex<JobPrototype>(newJobProto, out var job)
-            && _prototype.Resolve(_factions.OverrideJobIcon((_factions.DecideFactionForJob(job), job)), out var jobIcon)) // Far Horizons faction icon override
+        if (_prototype.TryIndex(newJobProto, out var jobfactionproto)
+            &&_prototype.TryIndex(jobfactionproto.Job, out var job)
+            && _prototype.Resolve(_factions.OverrideJobIcon((jobfactionproto.Faction, job)), out var jobIcon))
         {
             _idCard.TryChangeJobIcon(targetId, jobIcon, player: player);
             _idCard.TryChangeJobDepartment(targetId, job);
+            _idCard.TryChangeFaction(targetId, jobfactionproto.Faction);
         }
 
-        UpdateStationRecord(uid, targetId, newFullName, newJobTitle, job);
+        UpdateStationRecord(uid, targetId, newFullName, newJobTitle, jobfactionproto);
+
         if ((!TryComp<StationRecordKeyStorageComponent>(targetId, out var keyStorage)
             || keyStorage.Key is not { } key
             || !_record.TryGetRecord<GeneralStationRecord>(key, out _))
-            && newJobProto != string.Empty)
+            && newJobProto != string.Empty
+            && jobfactionproto != null)
         {
-            Comp<IdCardComponent>(targetId).JobPrototype = newJobProto;
+            Comp<IdCardComponent>(targetId).JobPrototype = jobfactionproto.Job;
         }
 
         // Starlight-edit: Start
@@ -326,7 +330,7 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
         return _accessReader.IsAllowed(id.Value, uid, reader);
     }
 
-    private void UpdateStationRecord(EntityUid uid, EntityUid targetId, string newFullName, ProtoId<AccessLevelPrototype> newJobTitle, JobPrototype? newJobProto)
+    private void UpdateStationRecord(EntityUid uid, EntityUid targetId, string newFullName, ProtoId<AccessLevelPrototype> newJobTitle, FactionJobAssignmentPrototype? newJobProto)
     {
         if (!TryComp<StationRecordKeyStorageComponent>(targetId, out var keyStorage)
             || keyStorage.Key is not { } key
@@ -338,10 +342,10 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
         record.Name = newFullName;
         record.JobTitle = newJobTitle;
 
-        if (newJobProto != null)
+        if (newJobProto != null && _prototype.TryIndex(newJobProto.Job, out var job))
         {
-            record.JobPrototype = newJobProto.ID;
-            record.JobIcon = _factions.OverrideJobIcon((_factions.DecideFactionForJob(newJobProto), newJobProto));
+            record.JobPrototype = job.ID;
+            record.JobIcon = _factions.OverrideJobIcon((newJobProto.Faction, newJobProto.Job));
         }
 
         _record.Synchronize(key);
