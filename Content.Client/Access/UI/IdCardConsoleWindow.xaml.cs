@@ -96,7 +96,7 @@ namespace Content.Client.Access.UI
                     ? _prototypeManager.Index(x.Job).LocalizedName
                     : Loc.GetString(x.Override.Name),
                 y.Override == null || y.Override.Name == null
-                    ? _prototypeManager.Index(x.Job).LocalizedName
+                    ? _prototypeManager.Index(y.Job).LocalizedName
                     : Loc.GetString(y.Override.Name),
                 StringComparison.CurrentCulture));
 
