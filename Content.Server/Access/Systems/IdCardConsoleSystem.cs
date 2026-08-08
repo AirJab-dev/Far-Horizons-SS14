@@ -188,13 +188,13 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
             var targetAccessComponent = Comp<AccessComponent>(targetId);
 
             var jobProto = targetIdComponent.JobPrototype ?? new ProtoId<JobPrototype>(string.Empty);
-            var factionProto = targetIdComponent.Faction ?? new ProtoId<FactionPrototype>(string.Empty);
+            var factionProto = targetIdComponent.Faction ?? new ProtoId<FactionPrototype>(string.Empty); //FH
             if (TryComp<StationRecordKeyStorageComponent>(targetId, out var keyStorage)
                 && keyStorage.Key is { } key
                 && _record.TryGetRecord<GeneralStationRecord>(key, out var record))
                 jobProto = record.JobPrototype;
 
-            var jobfactionproto = _sharedfactions.GetJobAssignment((factionProto, jobProto));
+            var jobfactionproto = _sharedfactions.GetJobAssignment((factionProto, jobProto)); //FH
 
             newState = new IdCardConsoleBoundUserInterfaceState(
                 component.PrivilegedIdSlot.HasItem,
@@ -204,9 +204,11 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
                 targetIdComponent.LocalizedJobTitle,
                 targetAccessComponent.Tags.ToList(),
                 possibleAccess,
+                //FH start
                 jobfactionproto != null
                     ? jobfactionproto.ID
-                    : string.Empty, //if this is null, just pretend it doesnt exist
+                    : string.Empty, //if this is null, just ignore it
+                //FH end
                 privilegedIdName,
                 Name(targetId),
                 // Starlight-edit: Start
@@ -226,7 +228,7 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
         string newFullName,
         string newJobTitle,
         List<ProtoId<AccessLevelPrototype>> newAccessList,
-        ProtoId<FactionJobAssignmentPrototype> newJobProto,
+        ProtoId<FactionJobAssignmentPrototype> newJobProto, //FH
         EntityUid player,
         IdCardConsoleComponent? component = null)
     {
@@ -239,6 +241,7 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
         _idCard.TryChangeFullName(targetId, newFullName, player: player);
         _idCard.TryChangeJobTitle(targetId, newJobTitle, player: player);
 
+        //FH start
         if (_prototype.TryIndex(newJobProto, out var jobfactionproto)
             &&_prototype.TryIndex(jobfactionproto.Job, out var job)
             && _prototype.Resolve(_factions.OverrideJobIcon((jobfactionproto.Faction, job)), out var jobIcon))
@@ -247,16 +250,17 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
             _idCard.TryChangeJobDepartment(targetId, job);
             _idCard.TryChangeFaction(targetId, jobfactionproto.Faction);
         }
+        //FH end
 
-        UpdateStationRecord(uid, targetId, newFullName, newJobTitle, jobfactionproto);
+        UpdateStationRecord(uid, targetId, newFullName, newJobTitle, jobfactionproto); //FH
 
         if ((!TryComp<StationRecordKeyStorageComponent>(targetId, out var keyStorage)
             || keyStorage.Key is not { } key
             || !_record.TryGetRecord<GeneralStationRecord>(key, out _))
-            && newJobProto != string.Empty
-            && jobfactionproto != null)
+            && newJobProto != string.Empty //FH
+            && jobfactionproto != null) //FH
         {
-            Comp<IdCardComponent>(targetId).JobPrototype = jobfactionproto.Job;
+            Comp<IdCardComponent>(targetId).JobPrototype = jobfactionproto.Job; //FH
         }
 
         // Starlight-edit: Start
@@ -330,7 +334,7 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
         return _accessReader.IsAllowed(id.Value, uid, reader);
     }
 
-    private void UpdateStationRecord(EntityUid uid, EntityUid targetId, string newFullName, ProtoId<AccessLevelPrototype> newJobTitle, FactionJobAssignmentPrototype? newJobProto)
+    private void UpdateStationRecord(EntityUid uid, EntityUid targetId, string newFullName, ProtoId<AccessLevelPrototype> newJobTitle, FactionJobAssignmentPrototype? newJobProto) //FH
     {
         if (!TryComp<StationRecordKeyStorageComponent>(targetId, out var keyStorage)
             || keyStorage.Key is not { } key
@@ -342,11 +346,13 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
         record.Name = newFullName;
         record.JobTitle = newJobTitle;
 
+        //FH start
         if (newJobProto != null && _prototype.TryIndex(newJobProto.Job, out var job))
         {
             record.JobPrototype = job.ID;
             record.JobIcon = _factions.OverrideJobIcon((newJobProto.Faction, newJobProto.Job));
         }
+        //FH end
 
         _record.Synchronize(key);
     }

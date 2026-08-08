@@ -29,7 +29,7 @@ public sealed partial class IdCardConsoleComponent : Component
         public readonly List<ProtoId<AccessLevelPrototype>> AccessList;
         public readonly ProtoId<FactionJobAssignmentPrototype> JobPrototype;
 
-        public WriteToTargetIdMessage(string fullName, string jobTitle, List<ProtoId<AccessLevelPrototype>> accessList, ProtoId<FactionJobAssignmentPrototype> jobPrototype)
+        public WriteToTargetIdMessage(string fullName, string jobTitle, List<ProtoId<AccessLevelPrototype>> accessList, ProtoId<FactionJobAssignmentPrototype> jobPrototype) //FH
         {
             FullName = fullName;
             JobTitle = jobTitle;
@@ -108,7 +108,7 @@ public sealed partial class IdCardConsoleComponent : Component
         public readonly string? TargetIdJobTitle;
         public readonly List<ProtoId<AccessLevelPrototype>>? TargetIdAccessList;
         public readonly List<ProtoId<AccessLevelPrototype>>? AllowedModifyAccessList;
-        public readonly ProtoId<FactionJobAssignmentPrototype> TargetIdJobPrototype;
+        public readonly ProtoId<FactionJobAssignmentPrototype> TargetIdJobPrototype; //FH
         // Starlight-edit: Start
         public readonly ProtoId<AccessGroupPrototype> CurrentAccessGroup;
         public readonly List<ProtoId<AccessGroupPrototype>>? AvailableAccessGroups;
@@ -121,7 +121,7 @@ public sealed partial class IdCardConsoleComponent : Component
             string? targetIdJobTitle,
             List<ProtoId<AccessLevelPrototype>>? targetIdAccessList,
             List<ProtoId<AccessLevelPrototype>>? allowedModifyAccessList,
-            ProtoId<FactionJobAssignmentPrototype> targetIdJobPrototype,
+            ProtoId<FactionJobAssignmentPrototype> targetIdJobPrototype, //FH
             string privilegedIdName,
             string targetIdName,
             // Starlight-edit: Start

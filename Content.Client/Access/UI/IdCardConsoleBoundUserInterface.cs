@@ -1,18 +1,15 @@
 using Content.Shared.Access;
 using Content.Shared.Access.Components;
-using Content.Shared.Access.Systems;
+// FH start
 using Content.Shared.CCVar;
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.CrewManifest;
-using Content.Shared.Roles;
 using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
 using static Content.Shared.Access.Components.IdCardConsoleComponent;
-// Starlight-edit: Start
 using Robust.Client.UserInterface;
-using Content.Shared._Starlight.Access;
 using Content.Shared._FarHorizons.Factions;
-// Starlight-edit: End
+// FH end
 
 namespace Content.Client.Access.UI
 {
@@ -35,14 +32,14 @@ namespace Content.Client.Access.UI
         protected override void Open()
         {
             base.Open();
-            // Starlight-edit: Start
+            // FH start
             _window = this.CreateWindow<IdCardConsoleWindow>();
             
             _window.Title = EntMan.GetComponent<MetaDataComponent>(Owner).EntityName;
-            // Starlight-edit: End
             var test = EntMan.GetComponent<IdCardConsoleComponent>(Owner).Factions;
             _window.ComputerFactions = EntMan.GetComponent<IdCardConsoleComponent>(Owner).Factions; // FH
             _window.Initialize(this);
+            // FH end
             _window.CrewManifestButton.OnPressed += _ => SendMessage(new CrewManifestOpenUiMessage());
             _window.PrivilegedIdButton.OnPressed += _ => SendMessage(new ItemSlotButtonPressedEvent(PrivilegedIdCardSlotId));
             _window.TargetIdButton.OnPressed += _ => SendMessage(new ItemSlotButtonPressedEvent(TargetIdCardSlotId));
@@ -67,7 +64,7 @@ namespace Content.Client.Access.UI
             _window?.UpdateState(castState);
         }
 
-        public void SubmitData(string newFullName, string newJobTitle, List<ProtoId<AccessLevelPrototype>> newAccessList, ProtoId<FactionJobAssignmentPrototype> newJobPrototype)
+        public void SubmitData(string newFullName, string newJobTitle, List<ProtoId<AccessLevelPrototype>> newAccessList, ProtoId<FactionJobAssignmentPrototype> newJobPrototype) //FH
         {
             if (newFullName.Length > _maxNameLength)
                 newFullName = newFullName[.._maxNameLength];

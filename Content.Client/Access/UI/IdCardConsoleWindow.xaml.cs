@@ -48,7 +48,7 @@ namespace Content.Client.Access.UI
 
         private bool _pendingAccessOverride = false;
 
-        public List<string> ComputerFactions = [];
+        public List<string> ComputerFactions = []; //FH
 
         public IdCardConsoleWindow()
         // Starlight-edit: End
@@ -77,11 +77,12 @@ namespace Content.Client.Access.UI
                 JobTitleSaveButton.Disabled = JobTitleLineEdit.Text == _lastJobTitle;
             };
             JobTitleSaveButton.OnPressed += _ => SubmitData();
-
             //FH start
             
+            //FH end
         }
 
+        //FH start
         public void Initialize(IdCardConsoleBoundUserInterface owner)
         {
             _owner = owner;
@@ -99,7 +100,6 @@ namespace Content.Client.Access.UI
                     ? _prototypeManager.Index(y.Job).LocalizedName
                     : Loc.GetString(y.Override.Name),
                 StringComparison.CurrentCulture));
-
             foreach (var job in jobs)
             {
                 if (!_prototypeManager.Index(job.Job).OverrideConsoleVisibility.GetValueOrDefault(_prototypeManager.Index(job.Job).SetPreference))
@@ -125,7 +125,7 @@ namespace Content.Client.Access.UI
             };
 
             JobPresetOptionButton.OnItemSelected += SelectJobPreset;
-            // Starlight-edit: Start
+            //FH start
             _accessGroups = new AccessGroupControl();
             _accessButtons = new AccessLevelControl();
             AccessGroupControlContainer.AddChild(_accessGroups);
@@ -141,6 +141,7 @@ namespace Content.Client.Access.UI
                 };
         }
 
+        //FH end
         private void SetAllAccess(bool enabled)
         {
             _pendingPressedAccessLevels.Clear(); // Starlight-edit
@@ -151,6 +152,7 @@ namespace Content.Client.Access.UI
 
         private void SelectJobPreset(OptionButton.ItemSelectedEventArgs args)
         {
+            //FH start
             if (!_prototypeManager.TryIndex(_jobPrototypeIds[args.Id], out FactionJobAssignmentPrototype? job))
                 return;
 
@@ -173,6 +175,7 @@ namespace Content.Client.Access.UI
                 if (_prototypeManager.Resolve(group, out AccessGroupPrototype? groupPrototype))
                     allJobAccess.UnionWith(groupPrototype.Tags);
             }
+            //FH end
 
             // Get all tags from all groups in AccessGroups
             var allConsoleGroupTags = new HashSet<ProtoId<AccessLevelPrototype>>();
@@ -366,12 +369,14 @@ namespace Content.Client.Access.UI
             // For example, a new ID from a box would have no job index.
             if (jobIndex < 0)
             {
+                //FH start
                 var factionassistant = _jobPrototypeIds.FirstOrDefault(p => 
                     _prototypeManager.Index<FactionJobAssignmentPrototype>(p).Job == _defaultJob); //Find a valid match to _defaultJob
                 jobIndex = _jobPrototypeIds.IndexOf(factionassistant ?? ""); //Find it in this console's list
             }
             if (jobIndex < 0) //if we cant find an Assistant to default to, just default to the first item in the list as a fallback. (might happen if a console has neither NS or NT)
                 jobIndex = 0;
+            //FH end
             
             JobPresetOptionButton.SelectId(jobIndex);
 
