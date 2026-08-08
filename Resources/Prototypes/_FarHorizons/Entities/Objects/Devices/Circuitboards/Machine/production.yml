@@ -200,7 +200,7 @@
     - type: Sprite
       state: security
     - type: MachineBoard
-      prototype: SecurityTechFabAmmo
+      prototype: SecurityTechFabAmmoNS
       stackRequirements:
         Manipulator: 2
       tagRequirements:
