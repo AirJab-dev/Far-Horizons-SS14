@@ -583,7 +583,7 @@
         - id: WeaponDisabler
         - id: LuxuryPen
         - id: BoxFolderClipboardFilled
-        - id: PrinterDocFlatpack
+        - id: NSDocPrinterFlatpack
         - id: FaxMachineFlatpack
         - id: PlushieEmmie
         - id: ClothingOuterHardsuitNtrepSyndi

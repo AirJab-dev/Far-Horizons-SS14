@@ -10,6 +10,7 @@
   - ChameleonProjector
   - FakeMindShieldImplanter
   - DnaScramblerImplanter #FH
+  - CyberneticImplanterEyeImplantSyndie #FH
 
 - type: thiefBackpackSet
   id: ToolsSet
@@ -106,4 +107,3 @@
   - SmokeGrenade
   - SmokeGrenade
   - SmokeGrenade
-  - Emag #FH

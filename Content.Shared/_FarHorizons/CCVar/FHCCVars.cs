@@ -59,4 +59,7 @@ public sealed partial class FHCCVars
     /// </summary>
     public static readonly CVarDef<float> AudioOcclusionSmoothingRate =
         CVarDef.Create("audio.occlusion_smoothing_rate", 12f, CVar.SERVER | CVar.REPLICATED);
+    
+    public static readonly CVarDef<bool> RenderStarSystem =
+        CVarDef.Create("render.star_system", true, CVar.CLIENTONLY | CVar.ARCHIVE);
 }

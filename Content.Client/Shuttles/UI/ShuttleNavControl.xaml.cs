@@ -24,6 +24,7 @@ public partial class ShuttleNavControl : BaseShuttleControl // Far Horizons - ma
 {
     [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly IGameTiming _timing = default!; // Far Horizons
+    [Dependency] private readonly IEntityManager _entMan = default!; // Far Horizons
     private readonly SharedShuttleSystem _shuttles;
     private readonly SharedTransformSystem _transform;
 
@@ -159,6 +160,7 @@ public partial class ShuttleNavControl : BaseShuttleControl // Far Horizons - ma
         Matrix3x2.Invert(shuttleToWorld, out var worldToShuttle);
         var shuttleToView = Matrix3x2.CreateScale(new Vector2(MinimapScale, -MinimapScale)) * Matrix3x2.CreateTranslation(MidPointVector);
 
+        DrawStarSystem(handle, worldToShuttle, shuttleToView, xform.MapUid); // Far Horizons
         DrawRescuePings(handle, worldToShuttle, shuttleToView); // Far Horizons
 
         // Draw our grid in detail
