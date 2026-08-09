@@ -17,3 +17,24 @@
     nanotrasen: ReinforcedWindow
     generic: ReinforcedWindowGeneric
     neosol: ReinforcedWindowNS
+
+- type: paintableGroup
+  id: PlasmaWindow
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: PlasmaWindow
+    generic: PlasmaWindowGeneric
+    neosol: PlasmaWindowNS
+
+- type: paintableGroup
+  id: ReinforcedPlasmaWindow
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: ReinforcedPlasmaWindow
+    generic: ReinforcedPlasmaWindowGeneric
+    neosol: ReinforcedPlasmaWindowNS
+

@@ -1,0 +1,23 @@
+- type: entity
+  parent: ReinforcedPlasmaWindow
+  id: ReinforcedPlasmaWindowGeneric
+  name: Reinforced Plasma Window
+  suffix: "Generic"
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/Generic/reinforced_plasma_window.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/Generic/reinforced_plasma_window.rsi
+
+- type: entity
+  parent: ReinforcedPlasmaWindow
+  id: ReinforcedPlasmaWindowNS
+  name: Reinforced Plasma Window
+  suffix: "NS"
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_plasma_window.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_plasma_window.rsi

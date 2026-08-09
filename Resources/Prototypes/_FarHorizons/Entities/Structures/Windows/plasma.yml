@@ -1,0 +1,23 @@
+- type: entity
+  parent: PlasmaWindow
+  id: PlasmaWindowGeneric
+  name: Plasma Window 
+  suffix: "Generic"
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/Generic/plasma_window.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/Generic/plasma_window.rsi
+
+- type: entity
+  parent: PlasmaWindow
+  id: PlasmaWindowNS
+  name: Plasma Window
+  suffix: "NS"
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/NeoSol/plasma_window.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NeoSol/plasma_window.rsi

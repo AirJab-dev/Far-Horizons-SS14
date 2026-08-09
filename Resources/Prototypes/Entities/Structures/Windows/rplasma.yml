@@ -1,13 +1,14 @@
 - type: entity
   id: ReinforcedPlasmaWindow
   name: Reinforced Plasma Window #FH CRUSADE
+  suffix: NT #FH
   parent: [BaseDeltaPressureReinforcedPlasma, WindowRCDResistant]
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/reinforced_plasma_window.rsi #FH
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_plasma_window.rsi #FH
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/reinforced_plasma_window.rsi #FH
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_plasma_window.rsi #FH
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: RGlass
@@ -55,6 +56,9 @@
       sprite: Structures/Windows/cracks.rsi
   - type: StaticPrice
     price: 132
+  - type: Paintable #FH start
+    group: ReinforcedPlasmaWindow 
+  - type: GenericPaintable #FH end
 
 - type: entity
   id: PlasmaReinforcedWindowDirectional
@@ -163,3 +167,5 @@
   - type: Construction
     graph: WindowDiagonal
     node: reinforcedPlasmaWindowDiagonal
+  - type: Paintable #FH
+    group: null #FH
