@@ -17069,5 +17069,12 @@ Entries:
   id: 152503
   time: '2026-08-07T14:25:52.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1525
+- author: Opitech
+  changes:
+  - message: Fixed several minor issues with the unity evac shuttle.
+    type: Fix
+  id: 152800
+  time: '2026-08-09T11:40:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1528
 Order: -1
 
