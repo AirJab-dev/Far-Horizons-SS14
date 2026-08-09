@@ -17091,5 +17091,12 @@ Entries:
   id: 153101
   time: '2026-08-09T14:31:51.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1531
+- author: jhrushbe
+  changes:
+  - message: Increased the ignition temperature of tritium to 500C.
+    type: Tweak
+  id: 153300
+  time: '2026-08-09T15:03:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1533
 Order: -1
 
