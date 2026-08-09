@@ -4,7 +4,7 @@ meta:
   engineVersion: 272.0.1
   forkId: ""
   forkVersion: ""
-  time: 08/08/2026 20:07:15
+  time: 08/09/2026 07:07:52
   entityCount: 33832
 maps:
 - 1
@@ -162213,6 +162213,8 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -31.5,70.5
       parent: 2
+- proto: PlasmaWindoorSecureSecurityLocked
+  entities:
   - uid: 24899
     components:
     - type: Transform
@@ -178796,7 +178798,7 @@ entities:
       pos: 51.5,1.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -2704.939
+      secondsUntilStateChange: -2754.8003
       state: Opening
 - proto: SpaceCash10
   entities:
