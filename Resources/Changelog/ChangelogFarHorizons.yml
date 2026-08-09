@@ -17076,5 +17076,20 @@ Entries:
   id: 152800
   time: '2026-08-09T11:40:13.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1528
+- author: Milterria, MightyM1me, Erophosea, mogaiskii, Opitech, KarusKardin
+  changes:
+  - message: 'Unity update: arrivals size, salv folders, cameras and routers, some
+      external docks are non-evac-pod ones now.'
+    type: Tweak
+  id: 153100
+  time: '2026-08-09T14:31:51.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1531
+- author: Milterria, MightyM1me, Erophosea, mogaiskii, Opitech, KarusKardin
+  changes:
+  - message: 'SHC update: atmo init round start, borg chargers, nt room'
+    type: Tweak
+  id: 153101
+  time: '2026-08-09T14:31:51.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1531
 Order: -1
 
