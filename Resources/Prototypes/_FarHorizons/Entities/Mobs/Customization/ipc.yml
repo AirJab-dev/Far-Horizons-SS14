@@ -373,8 +373,7 @@
 - type: marking
   id: MarkingStandardHead
   bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [IPC]
+  groupWhitelist: [IPC]
   sprites:
     - sprite: _FarHorizons/Mobs/Customization/ipc/standard/standard_main.rsi
       state: head_m

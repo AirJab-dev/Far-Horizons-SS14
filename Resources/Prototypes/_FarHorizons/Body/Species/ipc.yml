@@ -11,8 +11,8 @@
       default: [ ScreenBsod ]
     enum.HumanoidVisualLayers.Head:
       limit: 1
-      required: false
-      default: [ MarkingBishopHead ]
+      required: true
+      default: [ MarkingStandardHead ]
     enum.HumanoidVisualLayers.Chest:
       limit: 1
       required: false
@@ -140,9 +140,16 @@
       - Inorganic
 
 - type: entity
-  parent: [ DamageableLimbVisualsIPC, OrganBaseHeadSexed, OrganBaseHeadVitalNonEdible, OrganIPCExternal ]
+  parent: [ DamageableLimbVisualsIPC, OrganBaseHeadVitalNonEdible, OrganIPCExternal ]
   id: OrganIPCHead
   components:
+  - type: Sprite
+    sprite: _FarHorizons/Mobs/Species/IPC/blank.rsi
+    state: blank
+  - type: VisualOrgan
+    data:
+      sprite: _FarHorizons/Mobs/Species/IPC/blank.rsi
+      state: blank
   - type: VisualOrganMarkings
     markingData:
       layers:
