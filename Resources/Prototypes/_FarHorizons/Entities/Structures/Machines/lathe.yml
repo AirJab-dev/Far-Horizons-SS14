@@ -157,7 +157,7 @@
   id: SecurityTechFabAmmo
   parent: BaseLatheLube
   name: Security Ammo Techfab
-  description: Prints NanoTransen-Approved Ammo for use by Security Crew.
+  description: Prints NanoTrasen-Approved Ammo for use by Security Crew.
   suffix: NT
   components:
   - type: Sprite
