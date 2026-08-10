@@ -1,0 +1,56 @@
+# ---- Ballistics ----
+# naming: BLT (Ballistic) + Rounds per minute + caliber + Name
+# example: BLT-240 "Custodian"
+
+
+- type: entity
+  id: ShuttleGunSweeper
+  parent: [ShuttleGunBase, ConstructibleMachine]
+  name: BLT-480 "Sweeper"
+  description: A quick firing anti personell cannon chambed in 7.62. An external ammo supply is required to fire.
+  categories: [ DoNotMap ]
+  components:
+  - type: Sprite #sprite needs changed before this ever gets used. think of a mounted LMG.
+    sprite: Objects/Weapons/Guns/Shuttles/launcher.rsi
+    layers:
+    - state: exp-2100g
+    - state: mag-7
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      gun_magazine: !type:ContainerSlot
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 350
+      behaviors:
+        - !type:ChangeConstructionNodeBehavior
+          node: machineFrame
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+  - type: Gun
+    projectileSpeed: 80
+    fireRate: 6
+    soundGunshot: #sound will also need changed
+      path: /Audio/Weapons/Guns/Gunshots/ship_duster.ogg
+      params:
+        variation: 0.05
+        pitch: 0.8
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+  - type: Machine
+    board: ShuttleGunSweeperCircuitboard
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeLightRifle
+    capacity: 30 # most of its mag capacity should be stored in the distributor
+  - type: MagazineVisuals
+    magState: mag
+    steps: 8
+    zeroVisible: false
+  - type: BallisticAmmoReceiver

@@ -1,0 +1,16 @@
+- type: entity
+  id: ShuttleGunSweeperCircuitboard
+  parent: BaseMachineCircuitboard
+  name: BLT-480 "Sweeper" machine board
+  description: A machine printed circuit board for a BLT-480 "Sweeper".
+  suffix: DO NOT MAP, Machine Board
+  categories: [ DoNotMap ]
+  components:
+  - type: Sprite
+    state: security
+  - type: MachineBoard
+    prototype: ShuttleGunSweeper
+    stackRequirements:
+      Manipulator: 8
+      Steel: 5
+      CableHV: 2

@@ -85,3 +85,22 @@
     capacity: 60
   - type: BallisticAmmoDistributor
     transferAmount: 10
+
+- type: entity
+  parent: AmmoDistributorBase
+  id: AmmoDistributorFortress
+  name: AD-600 "Fortress"
+  description: A large metal drum that feeds ammunition into connected weapons, only accepts 7.62 rounds.
+  components:
+  - type: Sprite
+    scale: "1, 1"
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeLightRifle
+    capacity: 600
+  - type: BallisticAmmoDistributor
+    transferAmount: 10
+  - type: DeviceLinkSource
+    range: 10
