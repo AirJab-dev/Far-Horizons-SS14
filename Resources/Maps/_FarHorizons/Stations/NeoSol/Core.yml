@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.1
   forkId: ""
   forkVersion: ""
-  time: 08/08/2026 20:39:39
-  entityCount: 23580
+  time: 08/10/2026 21:06:55
+  entityCount: 23576
 maps:
 - 1
 grids:
@@ -60903,7 +60903,7 @@ entities:
   - uid: 23530
     components:
     - type: Transform
-      pos: 7.2785025,30.494629
+      pos: 7.507142,30.576376
       parent: 2
   - uid: 23531
     components:
@@ -60913,17 +60913,7 @@ entities:
   - uid: 23532
     components:
     - type: Transform
-      pos: 7.591003,30.48074
-      parent: 2
-  - uid: 23533
-    components:
-    - type: Transform
-      pos: 7.729892,30.473797
-      parent: 2
-  - uid: 23534
-    components:
-    - type: Transform
-      pos: 7.9382253,30.459908
+      pos: 7.913392,30.545126
       parent: 2
 - proto: ClothingOuterSuitChicken
   entities:
@@ -61030,11 +61020,6 @@ entities:
       parent: 2
 - proto: ClothingShoesBootsMagSec
   entities:
-  - uid: 23535
-    components:
-    - type: Transform
-      pos: 7.910447,30.216852
-      parent: 2
   - uid: 23536
     components:
     - type: Transform
@@ -61075,15 +61060,10 @@ entities:
     - type: Transform
       pos: 7.2993364,30.23074
       parent: 2
-  - uid: 23544
-    components:
-    - type: Transform
-      pos: 7.2715583,30.23074
-      parent: 2
   - uid: 23545
     components:
     - type: Transform
-      pos: 7.5146136,30.216852
+      pos: 7.569642,30.326376
       parent: 2
 - proto: ClothingShoesBootsPerformer
   entities:
@@ -70872,7 +70852,7 @@ entities:
       pos: 61.5,24.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -8612.114
+      secondsUntilStateChange: -8686.4795
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -71547,7 +71527,7 @@ entities:
       pos: -2.5,26.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -16909.621
+      secondsUntilStateChange: -16983.986
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -71839,7 +71819,7 @@ entities:
       pos: -4.5,-9.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -16712.764
+      secondsUntilStateChange: -16787.129
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -72105,7 +72085,7 @@ entities:
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: Door
-      secondsUntilStateChange: -8427.848
+      secondsUntilStateChange: -8502.213
       state: Opening
     - type: DeviceLinkSource
       linkedPorts:
@@ -73200,7 +73180,7 @@ entities:
       pos: 10.5,38.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -33654.55
+      secondsUntilStateChange: -33728.914
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -75780,7 +75760,7 @@ entities:
       pos: -26.5,-14.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -84473.16
+      secondsUntilStateChange: -84547.52
       state: Closing
     - type: Firelock
       emergencyCloseCooldown: 7916.7587519
@@ -76450,7 +76430,7 @@ entities:
       pos: -2.5,26.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -16910.988
+      secondsUntilStateChange: -16985.354
       state: Closing
   - uid: 11076
     components:
@@ -77372,7 +77352,7 @@ entities:
       pos: 11.5,36.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -90731.38
+      secondsUntilStateChange: -90805.75
       state: Closing
   - uid: 11226
     components:
@@ -154693,7 +154673,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -48808.805
+      secondsUntilStateChange: -48883.168
       state: Opening
     - type: Airlock
       autoClose: False
