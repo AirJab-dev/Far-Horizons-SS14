@@ -17098,5 +17098,12 @@ Entries:
   id: 153300
   time: '2026-08-09T15:03:25.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1533
+- author: AthenaAI
+  changes:
+  - message: Fixes an issue where borgs still had access with no battery.
+    type: Fix
+  id: 153500
+  time: '2026-08-10T21:09:22.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1535
 Order: -1
 
