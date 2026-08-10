@@ -17112,5 +17112,59 @@ Entries:
   id: 153000
   time: '2026-08-10T21:15:42.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1530
+- author: AthenaAI, redmushie
+  changes:
+  - message: Crew monitors now tell you if zero sensors match their built-in filter.
+      (redmushie)
+    type: Add
+  id: 153600
+  time: '2026-08-10T21:19:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1536
+- author: AthenaAI, redmushie
+  changes:
+  - message: Crew monitors now always show your own location, even if the server is
+      offline. (redmushie)
+    type: Tweak
+  id: 153601
+  time: '2026-08-10T21:19:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1536
+- author: AthenaAI, redmushie
+  changes:
+  - message: Crew monitors now detect the server even when there are zero suit sensors
+      transmitting. (redmushie)
+    type: Fix
+  id: 153602
+  time: '2026-08-10T21:19:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1536
+- author: AthenaAI, redmushie
+  changes:
+  - message: Crew monitors no longer instantly forget what is being displayed the
+      instant the server goes offline and instead time-out after a while. (redmushie)
+    type: Tweak
+  id: 153603
+  time: '2026-08-10T21:19:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1536
+- author: AthenaAI, redmushie
+  changes:
+  - message: Crew monitors no longer briefly show old data when you open them. (redmushie)
+    type: Fix
+  id: 153604
+  time: '2026-08-10T21:19:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1536
+- author: AthenaAI, redmushie
+  changes:
+  - message: Fixes the brigbuddy, corpbuddy and commandbuddy being unable to track
+      their designated targets.
+    type: Fix
+  id: 153605
+  time: '2026-08-10T21:19:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1536
+- author: AthenaAI, redmushie
+  changes:
+  - message: Updated all the loadouts for the syndiesn with their crew monitor counterpart.
+    type: Tweak
+  id: 153606
+  time: '2026-08-10T21:19:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1536
 Order: -1
 
