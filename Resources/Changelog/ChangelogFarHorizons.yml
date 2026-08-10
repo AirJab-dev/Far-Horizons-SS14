@@ -17105,5 +17105,12 @@ Entries:
   id: 153500
   time: '2026-08-10T21:09:22.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1535
+- author: AthenaAI
+  changes:
+  - message: Adds new custom occlusion system aka Audio Muffle.
+    type: Add
+  id: 153000
+  time: '2026-08-10T21:15:42.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1530
 Order: -1
 
