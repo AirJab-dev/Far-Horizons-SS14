@@ -181,7 +181,7 @@
   id: ShuttleGunNest
   parent: [ ShuttleGunBase, ConstructibleMachine]
   name: LSE-4300c "Nest"
-  description: Advanced heavy laser unit. Utilizes power cages for heavily damaging lasers but drains power quickly..
+  description: Advanced heavy laser unit. Utilizes power cages for heavily damaging lasers but drains power quickly.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
