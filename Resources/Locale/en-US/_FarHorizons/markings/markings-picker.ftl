@@ -1,5 +1,5 @@
 markings-layer-Tail-IPC = Wings
-markings-layer-HeadSide-IPC = Screen
+markings-organ-Eyes-IPC = Screen
 markings-layer-HeadTop-IPC = Antenna
 
 markings-layer-Tail-ProtoMoth = Wings
