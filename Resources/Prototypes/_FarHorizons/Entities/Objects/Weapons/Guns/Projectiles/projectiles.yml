@@ -460,7 +460,7 @@
 # Other
 
 - type: entity
-  name: Shuttle tesla lightning
+  name: Shuttle Tesla Lightning
   id: ShuttleTeslaBullet
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
