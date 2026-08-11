@@ -118,7 +118,7 @@
               doAfter: 2
 
     - node: plasmaWindow
-      entity: PlasmaWindow
+      entity: PlasmaWindowGeneric
       edges:
         - to: start
           completed:
@@ -137,7 +137,7 @@
               doAfter: 3
 
     - node: reinforcedPlasmaWindow
-      entity: ReinforcedPlasmaWindow
+      entity: ReinforcedPlasmaWindowGeneric
       edges:
         - to: start
           completed:
