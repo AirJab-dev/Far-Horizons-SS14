@@ -49,3 +49,21 @@
       Steel: 8
       CableHV: 4
       Glass: 5
+
+- type: entity
+  id: ShuttleGunNestCircuitboard
+  parent: BaseMachineCircuitboard
+  name: LSE-4300c "Nest" machine board
+  description: A machine printed circuit board for a LSE-200c "Sting machine gun".
+  suffix: DO NOT MAP, Machine Board
+  categories: [ DoNotMap ]
+  components:
+  - type: Sprite
+    state: security
+  - type: MachineBoard
+    prototype: ShuttleGunHornet
+    stackRequirements:
+      Manipulator: 10
+      Steel: 15
+      CableHV: 5
+      Glass: 30

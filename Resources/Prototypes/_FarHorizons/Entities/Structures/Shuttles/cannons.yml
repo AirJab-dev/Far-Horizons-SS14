@@ -121,7 +121,7 @@
   id: ShuttleGunStingMachineGun
   parent: [ ShuttleGunBase, ConstructibleMachine]
   name: LSE-200c "Sting machine gun"
-  description: Basic stationary laser unit. Effective against live targets and electronics. Uses regular power cells to fire, and has an extremely high rate of fire.
+  description: A fast firing laser machine gun, requires power cages to fire.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -176,3 +176,62 @@
   - type: BatteryAmmoProvider
     proto: RedShuttleLightLaser
     fireCost: 20
+
+- type: entity
+  id: ShuttleGunNest
+  parent: [ ShuttleGunBase, ConstructibleMachine]
+  name: LSE-4300c "Nest"
+  description: Advanced Heavy laser unit. Highly damaging but costly to fire, uses power cages.
+  categories: [ DoNotMap ]
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Shuttles/laser.rsi
+    layers:
+    - state: lse-1200c
+    - state: mag-unshaded-9
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      cell_slot: !type:ContainerSlot
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+        - !type:ChangeConstructionNodeBehavior
+          node: machineFrame
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+  - type: Gun
+    fireRate: 0.5
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/ship_perforator.ogg
+      params:
+        variation: 0.05
+  - type: MagazineVisuals
+    magState: mag
+    steps: 10
+    zeroVisible: true
+  - type: Machine
+    board: ShuttleGunNestCircuitboard
+  - type: PowerCellSlot
+    cellSlotId: cell_slot
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: Magazine
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        whitelist:
+          tags:
+            - PowerCage
+  - type: GunneryManagedTargeting
+    targetingCollisionMask:
+      - Opaque
+  - type: BatteryAmmoProvider
+    proto: RedShuttleHeavyLaser
+    fireCost: 300

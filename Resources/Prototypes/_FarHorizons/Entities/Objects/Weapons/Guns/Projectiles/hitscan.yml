@@ -161,6 +161,18 @@
         Heat: 12
         Structural: 40
 
+- type: entity
+  parent: BasicHitscan
+  id: RedShuttleHeavyLaser
+  name: red amplified laser ray
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: HitscanBasicDamage
+    damage:
+      types:
+        Heat: 80
+        Structural: 750
+
 #region Bullets
 
 
