@@ -54,7 +54,7 @@
   id: ShuttleGunNestCircuitboard
   parent: BaseMachineCircuitboard
   name: LSE-4300c "Nest" machine board
-  description: A machine printed circuit board for a LSE-200c "Sting machine gun".
+  description: A machine printed circuit board for a LSE-4300c "Nest".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:
@@ -67,3 +67,21 @@
       Steel: 15
       CableHV: 5
       Glass: 30
+
+- type: entity
+  id: ShuttleGunCoilCircuitboard
+  parent: BaseMachineCircuitboard
+  name: TES-2100c "Coil" machine board
+  description: A machine printed circuit board for a TES-2100c "Coil".
+  suffix: DO NOT MAP, Machine Board
+  categories: [ DoNotMap ]
+  components:
+  - type: Sprite
+    state: security
+  - type: MachineBoard
+    prototype: ShuttleGunCoil
+    stackRequirements:
+      Manipulator: 4
+      Gold: 5
+      CableHV: 15
+      Glass: 15

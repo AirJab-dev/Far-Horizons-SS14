@@ -235,3 +235,67 @@
   - type: BatteryAmmoProvider
     proto: RedShuttleHeavyLaser
     fireCost: 300
+
+# ---- Other weapon branch ----
+# naming: 3 letter acronym + conventional power + suffix (usually what it's powered by/its ammo) + Name
+# example: 
+
+- type: entity
+  id: ShuttleGunCoil
+  parent: [ ShuttleGunBase, ConstructibleMachine]
+  name: TES-2100c "Coil"
+  description: Stationary tesla ball launcher. Highly damaging to electronics and personell but slow bullet travel time, uses power cages.
+  categories: [ DoNotMap ]
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Shuttles/laser.rsi
+    layers:
+    - state: lse-1200c
+    - state: mag-unshaded-9
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      cell_slot: !type:ContainerSlot
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+        - !type:ChangeConstructionNodeBehavior
+          node: machineFrame
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+  - type: Gun
+    fireRate: 1
+    projectileSpeed: 10
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/ship_perforator.ogg
+      params:
+        variation: 0.05
+  - type: MagazineVisuals
+    magState: mag
+    steps: 10
+    zeroVisible: true
+  - type: Machine
+    board: ShuttleGunCoilCircuitboard
+  - type: PowerCellSlot
+    cellSlotId: cell_slot
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: Magazine
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        whitelist:
+          tags:
+            - PowerCage
+  - type: GunneryManagedTargeting
+    targetingCollisionMask:
+      - Opaque
+  - type: BatteryAmmoProvider
+    proto: ShuttleTeslaBullet
+    fireCost: 300
