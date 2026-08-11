@@ -97,7 +97,7 @@
   - type: Sprite
     state: security
   - type: MachineBoard
-    prototype: ShuttleGunCoil
+    prototype: ShuttleGunMono
     stackRequirements:
       Manipulator: 5
       Steel: 30
