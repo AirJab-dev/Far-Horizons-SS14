@@ -1,6 +1,6 @@
 - type: entity
   parent: [ BaseCartridge, BaseMajorContraband ]
-  id: ShuttleRailgunRod
+  id: ShuttleHeavyRailgunRod
   name: Heavy railgun rod
   description: A heavy weight railgun rod that requires a mounted weapon to be fired.
   components:

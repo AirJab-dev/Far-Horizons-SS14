@@ -478,8 +478,8 @@
   - type: Projectile
     damage:
       types:
-      Heat: 40
-      Structural: 300
+        Heat: 40
+        Structural: 300
     deleteOnCollide: false
     soundHit:
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
