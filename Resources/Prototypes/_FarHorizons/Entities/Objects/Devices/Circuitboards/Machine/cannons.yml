@@ -43,7 +43,7 @@
   - type: Sprite
     state: security
   - type: MachineBoard
-    prototype: ShuttleGunHornet
+    prototype: ShuttleGunStingMachineGun
     stackRequirements:
       Manipulator: 4
       Steel: 8
