@@ -85,3 +85,21 @@
       Gold: 5
       CableHV: 15
       Glass: 15
+
+- type: entity
+  id: ShuttleGunMonoCircuitboard
+  parent: BaseMachineCircuitboard
+  name: RAIL-5000 "Mono" machine board
+  description: A machine printed circuit board for a RAIL-5000 "Mono".
+  suffix: DO NOT MAP, Machine Board
+  categories: [ DoNotMap ]
+  components:
+  - type: Sprite
+    state: security
+  - type: MachineBoard
+    prototype: ShuttleGunCoil
+    stackRequirements:
+      Manipulator: 5
+      Steel: 30
+      Plasteel: 10
+      CableHV: 30

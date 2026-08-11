@@ -299,3 +299,54 @@
   - type: BatteryAmmoProvider
     proto: ShuttleTeslaBullet
     fireCost: 300
+
+- type: entity
+  id: ShuttleGunMono
+  parent: [ShuttleGunBase, ConstructibleMachine]
+  name: RAIL-5000 "Mono"
+  description: A Single shot rail gun for all of your ship destroying needs, requires rods to fire.
+  categories: [ DoNotMap ]
+  components:
+  - type: Sprite #sprite needs changed before this ever gets used. think of a mounted LMG.
+    sprite: Objects/Weapons/Guns/Shuttles/launcher.rsi
+    layers:
+    - state: exp-2100g
+    - state: mag-7
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      gun_magazine: !type:ContainerSlot
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 350
+      behaviors:
+        - !type:ChangeConstructionNodeBehavior
+          node: machineFrame
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+  - type: Gun
+    projectileSpeed: 80
+    fireRate: 0.1
+    soundGunshot: #sound will also need changed
+      path: /Audio/Weapons/Guns/Gunshots/ship_duster.ogg
+      params:
+        variation: 0.05
+        pitch: 0.8
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+  - type: Machine
+    board: ShuttleGunMonoCircuitboard
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - ShuttleRailgunRod
+    capacity: 1
+  - type: MagazineVisuals
+    magState: mag
+    steps: 8
+    zeroVisible: false
+  - type: BallisticAmmoReceiver

@@ -615,6 +615,31 @@
     count: 12
     spread: 50
 
+#region Railgun
+
+- type: entity
+  id: HeavyRodBulletTrace
+  parent: BulletTrace
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: HitscanBasicDamage
+    armorPenetration: 0.75
+    damage:
+      types:
+        Piercing: 150
+        Structural: 1500
+  - type: HitscanStaminaDamage
+    staminaDamage: 100
+  - type: HitscanPierce
+    chance: 0.9
+    pierceLevel: HardenedMetal
+    deviation: 0.005
+  - type: HitscanRicochet
+    chance: 1
+  - type: HitscanReflect
+    reflectiveType: NonEnergy
+    maxReflections: 2 # This is the recursion depth for reflect, ricochet, and pierce
+
 #region Rubber Rounds
 
 #base
