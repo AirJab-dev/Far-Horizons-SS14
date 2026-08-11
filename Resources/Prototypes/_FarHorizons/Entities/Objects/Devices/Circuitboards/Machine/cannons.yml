@@ -1,7 +1,7 @@
 - type: entity
   id: ShuttleGunSweeperCircuitboard
   parent: BaseMachineCircuitboard
-  name: BLT-480 "Sweeper" machine board
+  name: BLT-480 "Sweeper" Machine Board
   description: A machine printed circuit board for a BLT-480 "Sweeper".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
@@ -18,7 +18,7 @@
 - type: entity
   id: ShuttleGunHornetCircuitboard
   parent: BaseMachineCircuitboard
-  name: EXP-800c "Hornet" machine board
+  name: EXP-800c "Hornet" Machine Board
   description: A machine printed circuit board for an EXP-800c "Hornet".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
@@ -35,7 +35,7 @@
 - type: entity
   id: ShuttleGunStingMachineGunCircuitboard
   parent: BaseMachineCircuitboard
-  name: LSE-200c "Sting machine gun" machine board
+  name: LSE-200c "Sting Machine Gun" Machine Board
   description: A machine printed circuit board for a LSE-200c "Sting machine gun".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
@@ -53,7 +53,7 @@
 - type: entity
   id: ShuttleGunNestCircuitboard
   parent: BaseMachineCircuitboard
-  name: LSE-4300c "Nest" machine board
+  name: LSE-4300c "Nest" Machine Board
   description: A machine printed circuit board for a LSE-4300c "Nest".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
@@ -71,7 +71,7 @@
 - type: entity
   id: ShuttleGunCoilCircuitboard
   parent: BaseMachineCircuitboard
-  name: TES-2100c "Coil" machine board
+  name: TES-2100c "Coil" Machine Board
   description: A machine printed circuit board for a TES-2100c "Coil".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
@@ -89,7 +89,7 @@
 - type: entity
   id: ShuttleGunMonoCircuitboard
   parent: BaseMachineCircuitboard
-  name: RAIL-5000 "Mono" machine board
+  name: RAIL-5000 "Mono" Machine Board
   description: A machine printed circuit board for a RAIL-5000 "Mono".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]

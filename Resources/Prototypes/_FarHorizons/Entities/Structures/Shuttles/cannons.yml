@@ -120,7 +120,7 @@
 - type: entity
   id: ShuttleGunStingMachineGun
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: LSE-200c "Sting machine gun"
+  name: LSE-200c "Sting Machine Gun"
   description: A fast firing laser machine gun, requires power cages to fire.
   categories: [ DoNotMap ]
   components:
