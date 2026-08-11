@@ -1,4 +1,3 @@
-markings-layer-Tail-IPC = Wings
 markings-organ-Eyes-IPC = Screen
 markings-layer-HeadTop-IPC = Antenna
 
@@ -33,3 +32,5 @@ markings-layer-HeadTop-Protogen = Ears
 markings-layer-Head-Protogen = Visor
 markings-layer-HeadSide-Protogen = Face LEDs
 markings-layer-Special-Protogen = LEDs
+
+markings-layer-Wings = Wings

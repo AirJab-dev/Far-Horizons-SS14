@@ -16,7 +16,7 @@
     enum.HumanoidVisualLayers.Chest:
       limit: 1
       required: false
-    enum.HumanoidVisualLayers.Tail:
+    enum.HumanoidVisualLayers.Wings:
       limit: 1
       required: false
     enum.HumanoidVisualLayers.LArm:

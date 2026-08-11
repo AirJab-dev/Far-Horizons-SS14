@@ -51,6 +51,9 @@
     enum.HumanoidVisualLayers.RFoot:
       limit: 1
       required: false
+    enum.HumanoidVisualLayers.Wings: #FH
+      limit: 1
+      required: false
 
 - type: entity
   parent: BaseSpeciesAppearance
