@@ -1,0 +1,23 @@
+uniform highp float width;
+uniform highp float alpha;
+
+uniform highp float lineSpeed;
+uniform highp float lineFreq;
+uniform highp float colorFactor;
+
+void fragment() {
+    highp vec2 size = TEXTURE_PIXEL_SIZE * width;
+    highp vec3 final_color = zTexture(UV).rgb;
+
+	if (zTexture(UV).a < alpha) {
+		discard;
+    }
+
+    highp float scanline = sin((UV.y * lineFreq) - (TIME * lineSpeed));
+    
+	if (scanline < 0.0) {
+		final_color *= colorFactor;
+	}
+    
+	COLOR = vec4(final_color, alpha);
+}

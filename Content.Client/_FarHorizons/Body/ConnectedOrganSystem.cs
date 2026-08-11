@@ -121,7 +121,6 @@ public sealed partial class ConnectedOrganSystem : SharedConnectedOrganSystem
             return;
 
         InitLayers(target);
-        var unshadedShader = _prototype.Index(SpriteSystem.UnshadedId);
         
         foreach (var markings in organ.Comp.Markings.Values)
         {
@@ -157,9 +156,18 @@ public sealed partial class ConnectedOrganSystem : SharedConnectedOrganSystem
                     else
                         _sprite.LayerSetColor(target, layerId, Color.White);
 
-                    if (marking.IsGlowing && _sprite.TryGetLayer(target, layerId, out var markingLayer, true))
+                    if (_sprite.TryGetLayer(target, layerId, out var markingLayer, true))
                     {
-                        markingLayer.Shader = unshadedShader.Instance();
+                        if(marking.IsGlowing)
+                        {
+                            var unshadedShader = _prototype.Index(SpriteSystem.UnshadedId);
+                            markingLayer.Shader = unshadedShader.Instance();
+                        }
+                        else if(_sprite.TryGetLayer(target, proto.BodyPart, out var protoLayer, true) && protoLayer.ShaderPrototype != null)
+                        {
+                            var shader = _prototype.Index(protoLayer.ShaderPrototype);
+                            markingLayer.Shader = shader.Instance();
+                        }
                     }
                 }
             }

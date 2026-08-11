@@ -170,3 +170,24 @@
     boulderDensity: 0.05
     boulderMaxRadius: 1.5
     boulderSpeedMultiplier: 1.25
+
+- type: shader
+  id: HologramFH
+  kind: source
+  path: "/Textures/_FarHorizons/Shaders/hologram.swsl"
+  params:
+    alpha: 0.9
+    width: 0.75
+    lineSpeed: 5
+    lineFreq: 40000
+    colorFactor: 0.5
+
+- type: shader
+  id: HologramUnshadedFH
+  kind: source
+  path: "/Textures/_FarHorizons/Shaders/hologram_unshaded.swsl"
+  params:
+    alpha: 0.9
+    lineSpeed: 5
+    lineFreq: 40000
+    colorFactor: 0.5
