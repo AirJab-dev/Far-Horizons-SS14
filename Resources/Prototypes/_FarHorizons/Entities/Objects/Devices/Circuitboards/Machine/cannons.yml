@@ -14,3 +14,20 @@
       Manipulator: 8
       Steel: 5
       CableHV: 2
+
+- type: entity
+  id: ShuttleGunHornetCircuitboard
+  parent: BaseMachineCircuitboard
+  name: EXP-800c "Hornet" machine board
+  description: A machine printed circuit board for an EXP-800c "Hornet".
+  suffix: DO NOT MAP, Machine Board
+  categories: [ DoNotMap ]
+  components:
+  - type: Sprite
+    state: security
+  - type: MachineBoard
+    prototype: ShuttleGunHornet
+    stackRequirements:
+      Manipulator: 4
+      Steel: 12
+      CableHV: 4

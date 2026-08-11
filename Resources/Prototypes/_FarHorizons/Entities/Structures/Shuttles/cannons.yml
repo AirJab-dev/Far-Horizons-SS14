@@ -44,11 +44,69 @@
   - type: Machine
     board: ShuttleGunSweeperCircuitboard
   - type: BallisticAmmoProvider
-    mayTransfer: true
     whitelist:
       tags:
         - CartridgeLightRifle
     capacity: 30 # most of its mag capacity should be stored in the distributor
+  - type: MagazineVisuals
+    magState: mag
+    steps: 8
+    zeroVisible: false
+  - type: BallisticAmmoReceiver
+
+# ---- Launchers ----
+# naming: EXP (Explosion) + conventional power + suffix (g for Grenade, c for RPG Cartridge) + Name
+# example: EXP-100c "Poppy"
+
+- type: entity
+  id: ShuttleGunHornet
+  parent: [ShuttleGunBase, ConstructibleMachine]
+  name: EXP-800c "Hornet"
+  description: A small stationary rocket launcher that holds 4 cartridges.
+  categories: [ DoNotMap ]
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Shuttles/launcher.rsi
+    layers:
+    - state: exp-320g
+    - state: mag-7
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      ballistic-ammo: !type:Container
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+        - !type:ChangeConstructionNodeBehavior
+          node: machineFrame
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+  - type: Gun
+    projectileSpeed: 80
+    fireRate: 1
+    angleDecay: 45
+    minAngle: 0
+    maxAngle: 15
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/ship_friendship.ogg
+      params:
+        pitch: 0.8
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - RocketAmmo120mm
+    capacity: 4
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+  - type: Machine
+    board: ShuttleGunHornetCircuitboard
   - type: MagazineVisuals
     magState: mag
     steps: 8
