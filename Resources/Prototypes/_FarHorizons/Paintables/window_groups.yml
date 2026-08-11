@@ -38,3 +38,12 @@
     generic: ReinforcedPlasmaWindowGeneric
     neosol: ReinforcedPlasmaWindowNS
 
+- type: paintableGroup
+  id: UraniumWindow
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: UraniumWindow
+    generic: UraniumWindowGeneric
+    neosol: UraniumWindowNS

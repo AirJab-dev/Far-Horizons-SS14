@@ -1,14 +1,14 @@
 - type: entity
   id: UraniumWindow
   name: Uranium Window #Far Horizons - The Great Capitalization Crusade
-  suffix: "" #FH
+  suffix: "NT" #FH
   parent: [BaseDeltaPressurePlasma, WindowRCDResistant]
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/uranium_window.rsi
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/uranium_window.rsi #FH
   - type: Icon
-    sprite: Structures/Windows/uranium_window.rsi
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/uranium_window.rsi #FH
     state: full
   - type: Damageable
     damageContainer: StructuralInorganic
@@ -51,6 +51,9 @@
     price: 200
   - type: RadiationBlocker
     resistance: 3
+  - type: Paintable #FH start
+    group: UraniumWindow 
+  - type: GenericPaintable #FH end
 
 - type: entity
   id: UraniumWindowDirectional
@@ -153,3 +156,5 @@
   - type: Construction
     graph: WindowDiagonal
     node: uraniumWindowDiagonal
+  - type: Paintable #FH start
+    group: null #FH end

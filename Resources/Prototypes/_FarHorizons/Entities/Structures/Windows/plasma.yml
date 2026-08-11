@@ -1,7 +1,6 @@
 - type: entity
   parent: PlasmaWindow
   id: PlasmaWindowGeneric
-  name: Plasma Window 
   suffix: "Generic"
   components:
   - type: Sprite
@@ -13,7 +12,6 @@
 - type: entity
   parent: PlasmaWindow
   id: PlasmaWindowNS
-  name: Plasma Window
   suffix: "NS"
   components:
   - type: Sprite

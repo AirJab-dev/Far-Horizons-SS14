@@ -1,7 +1,6 @@
 - type: entity
   parent: ReinforcedPlasmaWindow
   id: ReinforcedPlasmaWindowGeneric
-  name: Reinforced Plasma Window
   suffix: "Generic"
   components:
   - type: Sprite
@@ -13,7 +12,6 @@
 - type: entity
   parent: ReinforcedPlasmaWindow
   id: ReinforcedPlasmaWindowNS
-  name: Reinforced Plasma Window
   suffix: "NS"
   components:
   - type: Sprite
