@@ -31,3 +31,21 @@
       Manipulator: 4
       Steel: 12
       CableHV: 4
+
+- type: entity
+  id: ShuttleGunStingMachineGunCircuitboard
+  parent: BaseMachineCircuitboard
+  name: LSE-200c "Sting machine gun" machine board
+  description: A machine printed circuit board for a LSE-200c "Sting machine gun".
+  suffix: DO NOT MAP, Machine Board
+  categories: [ DoNotMap ]
+  components:
+  - type: Sprite
+    state: security
+  - type: MachineBoard
+    prototype: ShuttleGunHornet
+    stackRequirements:
+      Manipulator: 4
+      Steel: 8
+      CableHV: 4
+      Glass: 5
