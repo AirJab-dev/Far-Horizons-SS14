@@ -90,7 +90,7 @@
   parent: AmmoDistributorBase
   id: AmmoDistributorFortress
   name: AD-600 "Fortress"
-  description: A large metal drum that feeds ammunition into connected weapons, only accepts 7.62 rounds.
+  description: A large metal drum that feeds ammunition into connected weapons. Only accepts 7.62 rounds.
   components:
   - type: Sprite
     scale: "1, 1"

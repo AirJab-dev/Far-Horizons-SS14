@@ -7,7 +7,7 @@
   id: ShuttleGunSweeper
   parent: [ShuttleGunBase, ConstructibleMachine]
   name: BLT-480 "Sweeper"
-  description: A quick firing anti personell cannon chambed in 7.62. An external ammo supply is required to fire.
+  description: A quick firing anti personnel cannon chambed in 7.62. An external ammo supply is required to fire.
   categories: [ DoNotMap ]
   components:
   - type: Sprite #sprite needs changed before this ever gets used. think of a mounted LMG.
@@ -121,7 +121,7 @@
   id: ShuttleGunStingMachineGun
   parent: [ ShuttleGunBase, ConstructibleMachine]
   name: LSE-200c "Sting Machine Gun"
-  description: A fast firing laser machine gun, requires power cages to fire.
+  description: A fast firing laser machine gun. Requires power cages to fire.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -181,7 +181,7 @@
   id: ShuttleGunNest
   parent: [ ShuttleGunBase, ConstructibleMachine]
   name: LSE-4300c "Nest"
-  description: Advanced Heavy laser unit. Highly damaging but costly to fire, uses power cages.
+  description: Advanced heavy laser unit. Utilizes power cages for heavily damaging lasers but drains power quickly..
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -244,7 +244,7 @@
   id: ShuttleGunCoil
   parent: [ ShuttleGunBase, ConstructibleMachine]
   name: TES-2100c "Coil"
-  description: Stationary tesla ball launcher. Highly damaging to electronics and personell but slow bullet travel time, uses power cages.
+  description: Stationary tesla ball launcher. Highly damaging to electronics and personnel but slow bullet travel time, uses power cages.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -304,7 +304,7 @@
   id: ShuttleGunMono
   parent: [ShuttleGunBase, ConstructibleMachine]
   name: RAIL-5000 "Mono"
-  description: A Single shot rail gun for all of your ship destroying needs, requires rods to fire.
+  description: A Single shot rail gun for all of your ship destroying needs. Requires railgun rods to fire.
   categories: [ DoNotMap ]
   components:
   - type: Sprite #sprite needs changed before this ever gets used. think of a mounted LMG.
