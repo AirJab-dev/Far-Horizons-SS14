@@ -35,3 +35,4 @@ markings-layer-HeadSide-Protogen = Face LEDs
 markings-layer-Special-Protogen = LEDs
 
 markings-layer-Wings = Wings
+markings-layer-TailCover = Tail Cover

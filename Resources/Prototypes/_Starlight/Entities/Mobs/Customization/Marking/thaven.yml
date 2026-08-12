@@ -1307,8 +1307,7 @@
 - type: marking
   id: BodyhairThaven
   bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/chest.rsi
     state: hair
@@ -1316,8 +1315,7 @@
 - type: marking
   id: Gills
   bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/chest.rsi
     state: gills
@@ -1325,8 +1323,7 @@
 - type: marking
   id: ThavenAbs
   bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   followSkinColor: true
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/chest.rsi
@@ -1335,8 +1332,7 @@
 - type: marking
   id: ThavenBiteMark
   bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/chest.rsi
     state: bitemark
@@ -1344,8 +1340,7 @@
 - type: marking
   id: ThavenBodyStripes
   bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/chest.rsi
     state: stripes
@@ -1353,8 +1348,7 @@
 - type: marking
   id: ThavenChestScales
   bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/chest.rsi
     state: scales
@@ -1362,8 +1356,7 @@
 - type: marking
   id: ThavenChestTattoo1
   bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1376,8 +1369,7 @@
 - type: marking
   id: ThavenSpinechill
   bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1390,8 +1382,7 @@
 - type: marking
   id: ThavenSpines
   bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/chest.rsi
     state: spines
@@ -1399,8 +1390,7 @@
 - type: marking
   id: ThavenTattooWave
   bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/chest.rsi
     state: tattoowave
@@ -1408,8 +1398,7 @@
 - type: marking
   id: ThavenTattooVines
   bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/chest.rsi
     state: tattoovines
@@ -1417,8 +1406,7 @@
 - type: marking
   id: ThavenTiger
   bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/chest.rsi
     state: tiger1
@@ -1431,8 +1419,7 @@
 - type: marking
   id: ThavenHeadCap
   bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/head.rsi
     state: cap1
@@ -1442,8 +1429,7 @@
 - type: marking
   id: ThavenHeadScales
   bodyPart: Head
-  markingCategory: HeadTop
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/head.rsi
     state: scales
@@ -1451,8 +1437,7 @@
 - type: marking
   id: ThavenHeadStripes
   bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/head.rsi
     state: stripes
@@ -1460,8 +1445,7 @@
 - type: marking
   id: ThavenShadow
   bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   forcedColoring: true
   coloring:
     default:
@@ -1479,8 +1463,7 @@
 - type: marking
   id: SharkminnowEyeliner
   bodyPart: Eyes
-  markingCategory: HeadTop
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/eyes.rsi
     state: sharkminnoweyeliner
@@ -1488,8 +1471,7 @@
 - type: marking
   id: ThavenEyesSharkminnow
   bodyPart: Eyes
-  markingCategory: Head
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1502,8 +1484,7 @@
 - type: marking
   id: ThavenEyesSharkminnowGlowing
   bodyPart: Eyes
-  markingCategory: Head
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1516,8 +1497,7 @@
 - type: marking
   id: ThavenLEyeGlow
   bodyPart: Eyes
-  markingCategory: Head
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1530,8 +1510,7 @@
 - type: marking
   id: ThavenREyeGlow
   bodyPart: Eyes
-  markingCategory: Head
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1546,8 +1525,7 @@
 - type: marking
   id: ThavenRArmScales
   bodyPart: RArm
-  markingCategory: Arms
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/rarm.rsi
     state: scales
@@ -1555,8 +1533,7 @@
 - type: marking
   id: ThavenRArmTattoo1
   bodyPart: RArm
-  markingCategory: Arms
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1569,8 +1546,7 @@
 - type: marking
   id: ThavenTigerRArm
   bodyPart: RArm
-  markingCategory: Arms
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/rarm.rsi
     state: tiger
@@ -1580,8 +1556,7 @@
 - type: marking
   id: ThavenLArmScales
   bodyPart: LArm
-  markingCategory: Arms
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/larm.rsi
     state: scales
@@ -1589,8 +1564,7 @@
 - type: marking
   id: ThavenLArmTattoo1
   bodyPart: LArm
-  markingCategory: Arms
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1603,8 +1577,7 @@
 - type: marking
   id: ThavenTigerLArm
   bodyPart: LArm
-  markingCategory: Arms
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/larm.rsi
     state: tiger
@@ -1614,8 +1587,7 @@
 - type: marking
   id: ThavenRLegScales
   bodyPart: RLeg
-  markingCategory: Legs
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/rleg.rsi
     state: scales
@@ -1625,8 +1597,7 @@
 - type: marking
   id: ThavenLLegScales
   bodyPart: LLeg
-  markingCategory: Legs
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/lleg.rsi
     state: scales
@@ -1636,8 +1607,7 @@
 - type: marking
   id: UnderwearBriefsT
   bodyPart: UndergarmentBottom
-  markingCategory: UndergarmentBottom
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1650,8 +1620,7 @@
 - type: marking
   id: UnderwearDefaultT
   bodyPart: UndergarmentBottom
-  markingCategory: UndergarmentBottom
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1664,8 +1633,7 @@
 - type: marking
   id: UnderwearLowridersT
   bodyPart: UndergarmentBottom
-  markingCategory: UndergarmentBottom
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1678,8 +1646,7 @@
 - type: marking
   id: UnderwearSatinT
   bodyPart: UndergarmentBottom
-  markingCategory: UndergarmentBottom
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1692,8 +1659,7 @@
 - type: marking
   id: UnderwearTangaT
   bodyPart: UndergarmentBottom
-  markingCategory: UndergarmentBottom
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1708,8 +1674,7 @@
 - type: marking
   id: UndergarmentTopBinderT
   bodyPart: UndergarmentTop
-  markingCategory: UndergarmentTop
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type: null
@@ -1721,8 +1686,7 @@
 - type: marking
   id: UndershirtBraClassicT
   bodyPart: UndergarmentTop
-  markingCategory: UndergarmentTop
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1735,8 +1699,7 @@
 - type: marking
   id: UndershirtBraSportsT
   bodyPart: UndergarmentTop
-  markingCategory: UndergarmentTop
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1749,8 +1712,7 @@
 - type: marking
   id: UndershirtBraStraplessT
   bodyPart: UndergarmentTop
-  markingCategory: UndergarmentTop
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1763,8 +1725,7 @@
 - type: marking
   id: UndershirtDefaultT
   bodyPart: UndergarmentTop
-  markingCategory: UndergarmentTop
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1777,8 +1738,7 @@
 - type: marking
   id: UndershirtGrossSleevelessT
   bodyPart: UndergarmentTop
-  markingCategory: UndergarmentTop
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1791,8 +1751,7 @@
 - type: marking
   id: UndershirtNanotrasenT
   bodyPart: UndergarmentTop
-  markingCategory: UndergarmentTop
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1805,8 +1764,7 @@
 - type: marking
   id: UndershirtRolledT
   bodyPart: UndergarmentTop
-  markingCategory: UndergarmentTop
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1821,10 +1779,8 @@
 - type: marking
   id: ThavenEars1
   bodyPart: HeadSide
-  markingCategory: HeadSide
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   forcedColoring: true
-  followSkinColor: true
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/headside.rsi
     state: ears1
@@ -1832,10 +1788,8 @@
 - type: marking
   id: ThavenEars2
   bodyPart: HeadSide
-  markingCategory: HeadSide
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   forcedColoring: true
-  followSkinColor: true
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/headside.rsi
     state: ears2
@@ -1843,10 +1797,8 @@
 - type: marking
   id: ThavenEars3
   bodyPart: HeadSide
-  markingCategory: HeadSide
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   forcedColoring: true
-  followSkinColor: true
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/headside.rsi
     state: ears3
@@ -1855,9 +1807,8 @@
   id: ThavenEars4
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   forcedColoring: true
-  followSkinColor: true
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/headside.rsi
     state: ears4
@@ -1865,8 +1816,7 @@
 - type: marking
   id: ThavenEarsBigFins
   bodyPart: HeadSide
-  markingCategory: HeadSide
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/headside.rsi
     state: bigfins
@@ -1876,10 +1826,8 @@
 - type: marking
   id: ThavenEarsTwinFins
   bodyPart: HeadSide
-  markingCategory: HeadSide
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   forcedColoring: true
-  followSkinColor: true
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/headside.rsi
     state: twinfin
@@ -1887,10 +1835,8 @@
 - type: marking
   id: ThavenFishEars
   bodyPart: HeadSide
-  markingCategory: HeadSide
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   forcedColoring: true
-  followSkinColor: true
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/headside.rsi
     state: fishears
@@ -1898,8 +1844,7 @@
 - type: marking
   id: ThavenNoEars
   bodyPart: HeadSide
-  markingCategory: HeadSide
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/headside.rsi
     state: noears
@@ -1909,8 +1854,7 @@
 - type: marking
   id: ThavenHibiscus
   bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1925,8 +1869,7 @@
 - type: marking
   id: ThavenPiercings
   bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1939,8 +1882,7 @@
 - type: marking
   id: ThavenPiercings2
   bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -1955,8 +1897,7 @@
 - type: marking
   id: ThavenBasicTail
   bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/taillayers.rsi
     state: basic_front
@@ -1966,8 +1907,7 @@
 - type: marking
   id: ThavenBigTail
   bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/taillayers.rsi
     state: big1_behind
@@ -1981,8 +1921,7 @@
 - type: marking
   id: ThavenTadpoleTail
   bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/taillayers.rsi
     state: tadpole1_behind
@@ -1996,9 +1935,7 @@
 - type: marking
   id: ThavenTailEel
   bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [ Thaven ]
-  followSkinColor: true
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/taillayers.rsi
     state: eel1_behind
@@ -2011,9 +1948,8 @@
 
 - type: marking
   id: ThavenTailEelOverlay
-  bodyPart: Tail
-  markingCategory: Overlay
-  speciesRestriction: [ Thaven ]
+  bodyPart: TailCover
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   coloring:
     default:
       type:
@@ -2032,9 +1968,7 @@
 - type: marking
   id: ThavenTailNurse
   bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [ Thaven ]
-  followSkinColor: true
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/taillayers.rsi
     state: nurse1_behind
@@ -2049,8 +1983,7 @@
   id: ThavenTailStub
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [ Thaven ]
-  followSkinColor: true
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/taillayers.rsi
     state: stub1_behind
@@ -2064,8 +1997,7 @@
 - type: marking
   id: ThavenTailThresher
   bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [ Thaven ]
+  groupWhitelist: [ Thaven , ProtoThaven ] #FH
   followSkinColor: true
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/tail.rsi
