@@ -20,7 +20,7 @@
     containers:
       machine_board: !type:Container
       machine_parts: !type:Container
-      gun_magazine: !type:ContainerSlot
+      ballistic-ammo: !type:Container
   - type: Destructible
     thresholds:
     - trigger:
@@ -317,7 +317,7 @@
     containers:
       machine_board: !type:Container
       machine_parts: !type:Container
-      gun_magazine: !type:ContainerSlot
+      ballistic-ammo: !type:Container
   - type: Destructible
     thresholds:
     - trigger:
