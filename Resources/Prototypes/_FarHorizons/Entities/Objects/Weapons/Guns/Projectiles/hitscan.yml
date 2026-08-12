@@ -635,7 +635,7 @@
     pierceLevel: HardenedMetal
     deviation: 0.005
   - type: HitscanRicochet
-    chance: 1
+    chance: 0.9
   - type: HitscanReflect
     reflectiveType: NonEnergy
     maxReflections: 2 # This is the recursion depth for reflect, ricochet, and pierce
