@@ -2,24 +2,35 @@ light_mode unshaded;
 
 uniform highp float width;
 uniform highp float alpha;
-
 uniform highp float lineSpeed;
 uniform highp float lineFreq;
 uniform highp float colorFactor;
+uniform highp float pixelShift;
+
+uniform highp float glitchSpeed;
+uniform highp float glitchFreq;
+uniform highp float glitchThreshold;
 
 void fragment() {
     highp vec2 size = TEXTURE_PIXEL_SIZE * width;
-    highp vec3 final_color = zTexture(UV).rgb;
-
-	if (zTexture(UV).a < alpha) {
-		discard;
-    }
-
     highp float scanline = sin((UV.y * lineFreq) - (TIME * lineSpeed));
-    
-	if (scanline < 0.0) {
-		final_color *= colorFactor;
+	highp float glitch = sin((UV.y * glitchFreq) - (TIME * glitchSpeed));
+
+    highp vec2 sampleUV = UV;
+
+	if(glitch > glitchThreshold){
+		sampleUV.x += TEXTURE_PIXEL_SIZE.x * pixelShift;
 	}
-    
-	COLOR = vec4(final_color, alpha);
+	else
+	{
+		if(glitch < -glitchThreshold){
+			sampleUV.x += TEXTURE_PIXEL_SIZE.x * -pixelShift;
+		}
+	}
+
+    highp vec3 final_color = zTexture(sampleUV).rgb;
+    if (scanline < 0.0) {
+        final_color *= colorFactor;
+    }
+    COLOR = vec4(final_color, zTexture(sampleUV).a * alpha);
 }
