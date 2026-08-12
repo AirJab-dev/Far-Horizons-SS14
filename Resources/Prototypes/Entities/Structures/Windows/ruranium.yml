@@ -54,7 +54,7 @@
   - type: RadiationBlocker
     resistance: 5
   - type: Paintable #FH start
-    group: UraniumWindow 
+    group: ReinforcedUraniumWindow 
   - type: GenericPaintable #FH end
 
 - type: entity
