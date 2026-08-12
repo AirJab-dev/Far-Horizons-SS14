@@ -160,7 +160,7 @@
               doAfter: 3
 
     - node: uraniumWindow
-      entity: UraniumWindow
+      entity: UraniumWindowGeneric
       edges:
         - to: start
           completed:
@@ -179,7 +179,7 @@
               doAfter: 3
 
     - node: reinforcedUraniumWindow
-      entity: ReinforcedUraniumWindow
+      entity: ReinforcedUraniumWindowGeneric
       edges:
         - to: start
           completed:

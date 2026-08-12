@@ -1,5 +1,6 @@
 ﻿# Categories (tabs)
 spray-painter-tab-category-walls = Walls
+spray-painter-tab-category-windows = Windows
 
 # Groups (subtabs)
 spray-painter-tab-group-fhairlockstandard = Standard
@@ -8,6 +9,10 @@ spray-painter-tab-group-wallsolid= Solid
 spray-painter-tab-group-wallreinforced= Reinforced
 spray-painter-tab-group-window= Window
 spray-painter-tab-group-reinforcedwindow= Reinforced Window
+spray-painter-tab-group-plasmawindow= Plasma Window
+spray-painter-tab-group-reinforcedplasmawindow= Reinforced Plasma Window
+spray-painter-tab-group-uraniumwindow= Uranium Window
+spray-painter-tab-group-reinforceduraniumwindow= Reinforced Uranium Window
 
 # Airlocks
 spray-painter-style-fhairlockstandard-atmospherics = Atmospheric
@@ -60,6 +65,22 @@ spray-painter-style-window-neosol = NeoSol
 spray-painter-style-reinforcedwindow-nanotrasen = NanoTrasen
 spray-painter-style-reinforcedwindow-generic = Generic
 spray-painter-style-reinforcedwindow-neosol = NeoSol
+
+spray-painter-style-plasmawindow-nanotrasen = NanoTrasen
+spray-painter-style-plasmawindow-generic = Generic
+spray-painter-style-plasmawindow-neosol = NeoSol
+
+spray-painter-style-reinforcedplasmawindow-nanotrasen = NanoTrasen
+spray-painter-style-reinforcedplasmawindow-generic = Generic
+spray-painter-style-reinforcedplasmawindow-neosol = NeoSol
+
+spray-painter-style-uraniumwindow-nanotrasen = NanoTrasen
+spray-painter-style-uraniumwindow-generic = Generic
+spray-painter-style-uraniumwindow-neosol = NeoSol
+
+spray-painter-style-reinforceduraniumwindow-nanotrasen = NanoTrasen
+spray-painter-style-reinforceduraniumwindow-generic = Generic
+spray-painter-style-reinforceduraniumwindow-neosol = NeoSol
 
 # Lockers
 spray-painter-style-locker-magistrate = Corporate Liaison

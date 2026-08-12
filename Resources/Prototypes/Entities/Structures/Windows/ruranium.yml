@@ -1,13 +1,14 @@
 - type: entity
   id: ReinforcedUraniumWindow
   name: Reinforced Uranium Window #FH CRUSADE
+  suffix: NT #FH
   parent: [BaseDeltaPressureReinforcedPlasma, WindowRCDResistant]
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/reinforced_uranium_window.rsi #FH
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_uranium_window.rsi #FH
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/reinforced_uranium_window.rsi #FH
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_uranium_window.rsi #FH
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: RGlass
@@ -52,6 +53,9 @@
     price: 215
   - type: RadiationBlocker
     resistance: 5
+  - type: Paintable #FH start
+    group: UraniumWindow 
+  - type: GenericPaintable #FH end
 
 - type: entity
   id: UraniumReinforcedWindowDirectional
@@ -159,3 +163,5 @@
   - type: Construction
     graph: WindowDiagonal
     node: reinforcedUraniumWindowDiagonal
+  - type: Paintable #FH start
+    group: null #FH end

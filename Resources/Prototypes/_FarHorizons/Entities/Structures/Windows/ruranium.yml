@@ -1,0 +1,21 @@
+- type: entity
+  parent: ReinforcedUraniumWindow
+  id: ReinforcedUraniumWindowGeneric
+  suffix: "Generic"
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/Generic/reinforced_uranium_window.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/Generic/reinforced_uranium_window.rsi
+
+- type: entity
+  parent: ReinforcedUraniumWindow
+  id: ReinforcedUraniumWindowNS
+  suffix: "NS"
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_uranium_window.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_uranium_window.rsi

@@ -47,3 +47,13 @@
     nanotrasen: UraniumWindow
     generic: UraniumWindowGeneric
     neosol: UraniumWindowNS
+
+- type: paintableGroup
+  id: ReinforcedUraniumWindow
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: ReinforcedUraniumWindow
+    generic: ReinforcedUraniumWindowGeneric
+    neosol: ReinforcedUraniumWindowNS
