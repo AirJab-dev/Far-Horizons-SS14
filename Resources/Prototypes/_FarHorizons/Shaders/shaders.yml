@@ -184,6 +184,8 @@
     glitchSpeed: 1
     glitchFreq: 1000
     glitchThreshold: 0.99
+    burstSpeed: 0.419
+    burstThreshold: 0.75
     pixelShift: 1
 
 - type: shader
