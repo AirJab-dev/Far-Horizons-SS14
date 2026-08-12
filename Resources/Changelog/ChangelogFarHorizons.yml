@@ -17166,5 +17166,55 @@ Entries:
   id: 153606
   time: '2026-08-10T21:19:56.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1536
+- author: rain_enjoyer
+  changes:
+  - message: 6 new ship weapon prototypes. Sprites and sounds are still placeholders
+      for now so these are admeme only at best.
+    type: Add
+  id: 154000
+  time: '2026-08-12T20:48:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1540
+- author: rain_enjoyer
+  changes:
+  - message: LSE-4300c "nest", a heavy ship laser weapon
+    type: Add
+  id: 154001
+  time: '2026-08-12T20:48:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1540
+- author: rain_enjoyer
+  changes:
+  - message: BLT-480 "sweeper", a ship mounted machine gun
+    type: Add
+  id: 154002
+  time: '2026-08-12T20:48:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1540
+- author: rain_enjoyer
+  changes:
+  - message: LSE-200c "sting", a ship mounted laser machine gun
+    type: Add
+  id: 154003
+  time: '2026-08-12T20:48:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1540
+- author: rain_enjoyer
+  changes:
+  - message: EXP-800c "hornet", a ship mounted rocket launcher
+    type: Add
+  id: 154004
+  time: '2026-08-12T20:48:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1540
+- author: rain_enjoyer
+  changes:
+  - message: TES-2100c "coil", a ship mounted tesla cannon
+    type: Add
+  id: 154005
+  time: '2026-08-12T20:48:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1540
+- author: rain_enjoyer
+  changes:
+  - message: Rail-5000 "mono", a ship mounted heavy railgun
+    type: Add
+  id: 154006
+  time: '2026-08-12T20:48:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1540
 Order: -1
 
