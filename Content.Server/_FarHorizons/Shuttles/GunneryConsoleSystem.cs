@@ -27,8 +27,6 @@ public sealed class GunneryConsoleSystem : EntitySystem
     [Dependency] private readonly TransformSystem _transformSystem = default!;
     [Dependency] private readonly UserInterfaceSystem _uiSystem = null!;
 
-    private const CollisionGroup BulletCollisionMask = CollisionGroup.Impassable | CollisionGroup.BulletImpassable;
-
     public override void Initialize()
     {
         base.Initialize();
@@ -73,6 +71,9 @@ public sealed class GunneryConsoleSystem : EntitySystem
             return;
 
         if (!EntityManager.HasComponent<GunComponent>(args.Sink))
+            return;
+
+        if (!EntityManager.HasComponent<GunneryManagedTargetingComponent>(args.Sink))
             return;
 
         if (comp.ConnectedTurrets.Contains(args.Sink))
@@ -180,6 +181,9 @@ public sealed class GunneryConsoleSystem : EntitySystem
             if (!EntityManager.TryGetComponent<GunComponent>(turret, out var gun) || xform == null)
                 continue;
 
+            if (!EntityManager.TryGetComponent<GunneryManagedTargetingComponent>(turret, out var targeting))
+                continue;
+
             if (!_gunSystem.CanShoot(gun))
                 continue;
 
@@ -191,13 +195,13 @@ public sealed class GunneryConsoleSystem : EntitySystem
             // The bullet is only 0.1 wide, but 0.2 gives buffer for jank collisions and ship movement
             var posOffset = (targetDir with { X = -targetDir.X }) * 0.2f;
 
-            var ray1 = new CollisionRay(globalPos + posOffset, targetDir, (int)BulletCollisionMask);
+            var ray1 = new CollisionRay(globalPos + posOffset, targetDir, (int)targeting.TargetingCollisionMask);
             var ray1CastResults = _physics.IntersectRay(xform.MapID, ray1, comp.CheckDistance, turret, false);
 
             if (ray1CastResults.Select(r => r.HitEntity).Any(u => Transform(u).ParentUid == xform.ParentUid))
                 continue;
 
-            var ray2 = new CollisionRay(globalPos - posOffset, targetDir, (int)BulletCollisionMask);
+            var ray2 = new CollisionRay(globalPos - posOffset, targetDir, (int)targeting.TargetingCollisionMask);
             var ray2CastResults = _physics.IntersectRay(xform.MapID, ray2, comp.CheckDistance, turret, false);
 
             if (ray2CastResults.Select(r => r.HitEntity).Any(u => Transform(u).ParentUid == xform.ParentUid))
