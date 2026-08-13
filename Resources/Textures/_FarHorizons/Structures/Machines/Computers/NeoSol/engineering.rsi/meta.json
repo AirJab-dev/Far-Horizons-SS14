@@ -38,13 +38,6 @@
             ]
          },
         {
-            "name": "area_atmos",
-            "directions": 4,
-            "delays": [
-                [ 0.1, 0.1]
-            ]
-        },
-        {
             "name": "dron_control_monitor",
             "directions": 4,
             "delays": [
