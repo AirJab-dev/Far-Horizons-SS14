@@ -391,13 +391,15 @@
   - type: ActivatableUI
     key: enum.CharacterRecordConsoleKey.Key
   # Cosmatic Drift Record System-end
+
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerCriminalRecords
   # Cosmatic Drift Record System-start: Renamed from "criminal records computer" to "security records computer" to better reflect its purpose.
-  name: security records computer
+  name: Security Records Computer #FH
   description: This can be used to access security records.
   # Cosmatic Drift Record System-end
+  suffix: NT #FH
   components:
     # We need to have both a CriminalRecordsConsole and CharacterRecordConsole
     # component to be able to set wanted status.
@@ -439,11 +441,12 @@
   - type: ActivatableUI
     key: enum.CharacterRecordConsoleKey.Key
   # Cosmatic Drift Record System-end
+
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerStationRecords
   # Cosmatic Drift Record System-start: Renamed from "station records computer" to "employment records computer" to better reflect its purpose.
-  name: employment records computer
+  name: Employment Records Computer #FH
   description: This can be used to check employment records.
   # Cosmatic Drift Record System-end
   components:
@@ -526,6 +529,7 @@
   parent: BaseComputerAiAccess
   id: ComputerResearchAndDevelopment
   name: R&D Computer #Far Horizons - The Great Capitalization Crusade
+  suffix: NT #FH
   description: A computer used to interface with R&D tools.
   components:
   - type: Sprite
@@ -1167,6 +1171,7 @@
   id: ComputerCargoOrdersSecurity
   parent: ComputerCargoOrders
   name: Security Request Computer #Far Horizons - The Great Capitalization Crusade
+  suffix: NT #FH
   description: Used by the security department to order supplies.
   components:
   - type: Sprite
@@ -1463,6 +1468,7 @@
   parent: BaseComputer
   id: ComputerSurveillanceCameraMonitor
   name: Camera Monitor #Far Horizons - The Great Capitalization Crusade
+  suffix: NT #FH
   description: A surveillance camera monitor. You're watching them. Maybe.
   components:
   - type: Sprite
@@ -1502,6 +1508,7 @@
   parent: BaseComputer
   id: ComputerSurveillanceWirelessCameraMonitor
   name: Wireless Camera Monitor #Far Horizons - The Great Capitalization Crusade
+  suffix: NT #FH
   description: A wireless surveillance camera monitor. You're watching them. Maybe.
   components:
   - type: Sprite
