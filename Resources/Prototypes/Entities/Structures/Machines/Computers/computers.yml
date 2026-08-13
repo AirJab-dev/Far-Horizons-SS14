@@ -684,6 +684,10 @@
         - IdCard
         tags: #Far Horizons
         - BorgModuleAccess
+    factions: #FH start
+    - FactionNT
+    - FactionCFA
+    - FactionCargonia #FH end
   - type: ActivatableUI
     key: enum.IdCardConsoleUiKey.Key
   - type: UserInterface

@@ -361,6 +361,11 @@
       whitelist:
         components:
         - IdCard
+    factions: #FH start
+    - FactionNT
+    - FactionCFA
+    - FactionCargonia
+    - FactionSyndicate #FH end
   - type: ActivatableUI
     key: enum.IdCardConsoleUiKey.Key
   - type: UserInterface

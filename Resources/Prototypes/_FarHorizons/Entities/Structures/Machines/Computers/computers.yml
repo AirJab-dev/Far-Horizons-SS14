@@ -377,6 +377,10 @@
     - Medical
     - Service
     - Engineering
+    factions:
+    - FactionSyndicate
+    - FactionCFA
+    - FactionCargonia
   - type: Computer
     board: IDComputerCircuitboardNS
   - type: Sprite
