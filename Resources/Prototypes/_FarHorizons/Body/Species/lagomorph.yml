@@ -146,6 +146,16 @@
   id: OrganLagomorphHead
   components:
   - type: VisualOrganMarkings
+    markingData:
+      layers:
+      - Head
+      - Hair
+      - Snout
+      - SnoutCover
+      - HeadSide
+      - HeadTop
+      - FaceCover 
+      - FaceCoverCover 
     hideableLayers:
     - enum.HumanoidVisualLayers.Snout
     - enum.HumanoidVisualLayers.HeadTop
