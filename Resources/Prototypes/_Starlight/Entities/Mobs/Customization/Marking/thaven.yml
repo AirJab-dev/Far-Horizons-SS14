@@ -1806,7 +1806,6 @@
 - type: marking
   id: ThavenEars4
   bodyPart: HeadSide
-  markingCategory: HeadSide
   groupWhitelist: [ Thaven , ProtoThaven ] #FH
   forcedColoring: true
   sprites:
@@ -1982,7 +1981,6 @@
 - type: marking
   id: ThavenTailStub
   bodyPart: Tail
-  markingCategory: Tail
   groupWhitelist: [ Thaven , ProtoThaven ] #FH
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/taillayers.rsi
