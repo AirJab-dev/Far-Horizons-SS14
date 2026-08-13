@@ -12,8 +12,8 @@
         - id: Screwdriver
         - id: Wirecutter
         - id: Welder
-        - id: ClothingHeadHatWelding #farhorizions, actually filled toolbelt
-        - id: Multitool #farhorizions, actually filled toolbelt
+        - id: ClothingHeadHatWelding #Far Horizions, actually filled toolbelt
+        - id: NetworkConfigurator
 
 - type: entity
   id: ClothingBeltUtilityEngineering
@@ -30,7 +30,7 @@
         - id: Wirecutter
         - id: Welder
         - id: Multitool
-        - id: GasAnalyzer #farhorizions, actually filled toolbelt
+        - id: GasAnalyzer #Far Horizions, actually filled toolbelt
 
 - type: entity
   id: ClothingBeltChiefEngineerFilled
