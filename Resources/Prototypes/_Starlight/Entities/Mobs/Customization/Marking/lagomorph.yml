@@ -32,7 +32,7 @@
 - type: marking
   id: LagomorphEarsDeer
   bodyPart: HeadTop
-  speciesRestriction: [Lagomorph]
+  groupWhitelist: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorph.rsi
       state: deer
@@ -40,7 +40,7 @@
 - type: marking
   id: LagomorphEarsDeerAntlers
   bodyPart: HeadTop
-  speciesRestriction: [Lagomorph]
+  groupWhitelist: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorph.rsi
       state: deer
@@ -50,7 +50,7 @@
 - type: marking
   id: LagomorphEarsDeerAntlersSmall
   bodyPart: HeadTop
-  speciesRestriction: [Lagomorph]
+  groupWhitelist: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorph.rsi
       state: deer
@@ -60,7 +60,7 @@
 - type: marking
   id: LagomorphEarsDeerAntlersJolly
   bodyPart: HeadTop
-  speciesRestriction: [Lagomorph]
+  groupWhitelist: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorph.rsi
       state: deer
@@ -70,7 +70,7 @@
 - type: marking
   id: LagomorphEarsDeerAntlersW
   bodyPart: HeadTop
-  speciesRestriction: [Lagomorph]
+  groupWhitelist: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorph.rsi
       state: deer

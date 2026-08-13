@@ -1,8 +1,7 @@
 - type: marking
   id: MothAntennaeBushyAlt
   bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Moth]
+  groupWhitelist: [Moth]
   sprites:
     - sprite: _Starlight/Mobs/Customization/Moth/moth_antennae.rsi
       state: bushyalt
@@ -10,8 +9,7 @@
 - type: marking
   id: MothAntennaeEnlarged
   bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Moth]
+  groupWhitelist: [Moth]
   sprites:
     - sprite: _Starlight/Mobs/Customization/Moth/moth_antennae.rsi
       state: enlarged
@@ -19,8 +17,7 @@
 - type: marking
   id: MothDSwirlWings
   bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Moth]
+  groupWhitelist: [Moth]
   sprites:
     - sprite: _Starlight/Mobs/Customization/Moth/moth_wings.rsi
       state: dswirl_wings

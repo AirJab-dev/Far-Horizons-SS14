@@ -2,7 +2,7 @@
 - type: marking
   id: GauzeLefteyePatch
   bodyPart: HeadSide
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven] #FH
   coloring:
     default:
       type:
@@ -15,7 +15,7 @@
 - type: marking
   id: GauzeLefteyePad
   bodyPart: HeadSide
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven] #FH
   coloring:
     default:
       type:
@@ -28,7 +28,7 @@
 - type: marking
   id: GauzeRighteyePatch
   bodyPart: HeadSide
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven] #FH
   coloring:
     default:
       type:
@@ -41,7 +41,7 @@
 - type: marking
   id: GauzeRighteyePad
   bodyPart: HeadSide
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven] #FH
   coloring:
     default:
       type:
@@ -54,7 +54,7 @@
 - type: marking
   id: GauzeBlindfold
   bodyPart: HeadSide
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven] #FH
   coloring:
     default:
       type:
@@ -67,8 +67,8 @@
 - type: marking
   id: GauzeShoulder
   bodyPart: Chest
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven,
-         ProtoArachnid, ProtoHumie, ProtoKin, ProtoSlimePerson, ProtoThaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven,
+         ProtoArachnid, ProtoHumie, ProtoKin, ProtoThaven] #FH
   coloring:
     default:
       type:
@@ -81,8 +81,8 @@
 - type: marking
   id: GauzeStomach
   bodyPart: Chest
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven,
-         ProtoArachnid, ProtoHumie, ProtoKin, ProtoSlimePerson, ProtoThaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven,
+         ProtoArachnid, ProtoHumie, ProtoKin, ProtoThaven] #FH
   coloring:
     default:
       type:
@@ -95,8 +95,8 @@
 - type: marking
   id: GauzeUpperArmRight
   bodyPart: RArm
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven,
-         ProtoArachnid, ProtoHumie, ProtoKin, ProtoSlimePerson, ProtoThaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven,
+         ProtoArachnid, ProtoHumie, ProtoKin, ProtoThaven] #FH
   coloring:
     default:
       type:
@@ -109,8 +109,8 @@
 - type: marking
   id: GauzeLowerArmRight
   bodyPart: RHand
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven,
-         ProtoArachnid, ProtoHumie, ProtoKin, ProtoSlimePerson, ProtoThaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven,
+         ProtoArachnid, ProtoHumie, ProtoKin, ProtoThaven] #FH
   coloring:
     default:
       type:
@@ -123,8 +123,8 @@
 - type: marking
   id: GauzeLeftArm
   bodyPart: LArm
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven,
-         ProtoArachnid, ProtoHumie, ProtoKin, ProtoSlimePerson, ProtoThaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven,
+         ProtoArachnid, ProtoHumie, ProtoKin, ProtoThaven] #FH
   coloring:
     default:
       type:
@@ -137,8 +137,8 @@
 - type: marking
   id: GauzeLowerLegLeft
   bodyPart: LFoot
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven,
-         ProtoArachnid, ProtoHumie, ProtoKin, ProtoSlimePerson, ProtoThaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven,
+         ProtoArachnid, ProtoHumie, ProtoKin, ProtoThaven] #FH
   coloring:
     default:
       type:
@@ -151,8 +151,8 @@
 - type: marking
   id: GauzeUpperLegLeft
   bodyPart: LLeg
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven,
-         ProtoArachnid, ProtoHumie, ProtoKin, ProtoSlimePerson, ProtoThaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven,
+         ProtoArachnid, ProtoHumie, ProtoKin, ProtoThaven] #FH
   coloring:
     default:
       type:
@@ -165,8 +165,8 @@
 - type: marking
   id: GauzeUpperLegRight
   bodyPart: RLeg
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven,
-         ProtoArachnid, ProtoHumie, ProtoKin, ProtoSlimePerson, ProtoThaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven,
+         ProtoArachnid, ProtoHumie, ProtoKin, ProtoThaven] #FH
   coloring:
     default:
       type:
@@ -179,8 +179,8 @@
 - type: marking
   id: GauzeLowerLegRight
   bodyPart: RFoot
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven,
-         ProtoArachnid, ProtoHumie, ProtoKin, ProtoSlimePerson, ProtoThaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven,
+         ProtoArachnid, ProtoHumie, ProtoKin, ProtoThaven] #FH
   coloring:
     default:
       type:
@@ -193,8 +193,8 @@
 - type: marking
   id: GauzeBoxerWrapRight
   bodyPart: RHand
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven,
-         ProtoArachnid, ProtoHumie, ProtoKin, ProtoSlimePerson, ProtoThaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven,
+         ProtoArachnid, ProtoHumie, ProtoKin, ProtoThaven] #FH
   coloring:
     default:
       type:
@@ -207,8 +207,8 @@
 - type: marking
   id: GauzeBoxerWrapLeft
   bodyPart: LHand
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven,
-         ProtoArachnid, ProtoHumie, ProtoKin, ProtoSlimePerson, ProtoThaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven,
+         ProtoArachnid, ProtoHumie, ProtoKin, ProtoThaven] #FH
   coloring:
     default:
       type:
@@ -221,8 +221,8 @@
 - type: marking
   id: GauzeHead
   bodyPart: Head
-  groupWhitelist: [Arachnid, Human, Shadekin, SlimePerson, Thaven,
-         ProtoArachnid, ProtoHumie, ProtoKin, ProtoSlimePerson, ProtoThaven] #FH
+  groupWhitelist: [Arachnid, Human, Shadekin, Thaven,
+         ProtoArachnid, ProtoHumie, ProtoKin, ProtoThaven] #FH
   coloring:
     default:
       type:

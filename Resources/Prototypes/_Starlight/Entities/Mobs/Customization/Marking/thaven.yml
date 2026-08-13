@@ -1324,7 +1324,6 @@
   id: ThavenAbs
   bodyPart: Chest
   groupWhitelist: [ Thaven , ProtoThaven ] #FH
-  followSkinColor: true
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/chest.rsi
     state: muscular
@@ -1996,7 +1995,6 @@
   id: ThavenTailThresher
   bodyPart: Tail
   groupWhitelist: [ Thaven , ProtoThaven ] #FH
-  followSkinColor: true
   sprites:
   - sprite: _Starlight/Mobs/Customization/thaven/tail.rsi
     state: thresher1

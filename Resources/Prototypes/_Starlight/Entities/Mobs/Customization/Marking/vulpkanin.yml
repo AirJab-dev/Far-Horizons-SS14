@@ -911,9 +911,8 @@
 - type: marking
   id: ExtraFluffyTail
   bodyPart: Tail
-  markingCategory: Tail
   staticId: WolfTail
-  speciesRestriction: [Vulpkanin]
+  groupWhitelist: [Vulpkanin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
       state: fluffy_tail_ex
