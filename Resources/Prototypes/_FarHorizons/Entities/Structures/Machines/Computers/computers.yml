@@ -618,7 +618,7 @@
 
 - type: entity
   id: ComputerCargoOrdersEngineeringNS
-  parent: ComputerCargoOrders
+  parent: ComputerCargoOrdersEngineering
   name: Engineering Request Computer
   suffix: NS
   description: Used by the engineering department to order supplies.
@@ -1358,7 +1358,7 @@
   parent: ComputerCriminalRecords
   id: ComputerCriminalRecordsNS
   suffix: NS
-  componments:
+  components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Machines/Computers/NeoSol/security.rsi
     layers:

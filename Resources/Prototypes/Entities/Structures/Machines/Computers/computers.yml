@@ -1107,7 +1107,7 @@
   id: ComputerCargoOrdersMedical
   parent: ComputerCargoOrders
   name: Medical Request Computer #Far Horizons - The Great Capitalization Crusade
-  suffix: NS #FH
+  suffix: NT #FH
   description: Used by the medical department to order supplies.
   components:
   - type: Sprite
