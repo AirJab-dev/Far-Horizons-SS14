@@ -80,6 +80,7 @@
 - type: marking
   id: LagomorphEarsDeerAntlersDriedbush
   bodyPart: HeadTop
+  groupWhitelist: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorph.rsi
       state: deer
@@ -89,6 +90,7 @@
 - type: marking
   id: LagomorphEarsAirplane
   bodyPart: HeadTop
+  groupWhitelist: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorph.rsi
       state: airplane
