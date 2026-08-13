@@ -17304,5 +17304,127 @@ Entries:
   id: 152709
   time: '2026-08-13T23:18:12.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1527
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: Fixed IPC heads not rendering correctly (BigfootBravo)
+    type: Fix
+  id: 154400
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: Allow ghosts to use the character editor. (Mack)
+    type: Add
+  id: 154401
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: Thaven markings. (gabbl0)
+    type: Add
+  id: 154402
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: changed Lagomorphs to look more bunny-like. (ZerraTheBunny)
+    type: Tweak
+  id: 154403
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: Added 70 new hairstyles. (Conflee, Morty)
+    type: Add
+  id: 154404
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: 'Two new hairstyles: Rei, Short Fluffy. (ToasterTrooper)'
+    type: Add
+  id: 154405
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: Added a new moth wing (Double swirl). (neomoth)
+    type: Add
+  id: 154406
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: Added a new hairstyle (Cool spikes). (neomoth)
+    type: Add
+  id: 154407
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: Added a new vulpkanin tail (Extra fluffy). (neomoth)
+    type: Add
+  id: 154408
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: Moved FaceCover and FaceCoverCover down the hierachy of layers so they
+      don't block glasses become the protogen nerds you want to be.
+    type: Tweak
+  id: 154409
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: Moved the screens of ipcs down the layers so they render before items.
+    type: Tweak
+  id: 154410
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: Made wings their own marking layer so you can wings and a tail currently
+      only lizzors have this option.
+    type: Tweak
+  id: 154411
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: Added the ability for markings to inherit a shader from their layer prototype.
+    type: Add
+  id: 154412
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: Added true hologram hair with a custom shader.
+    type: Add
+  id: 154413
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: AthenaAI, Conflee, Morty, ZerraTheBunny, BigfootBravo, Mack, gabbl0, ToasterTrooper,
+    neomoth
+  changes:
+  - message: Disabled Facial Hair for Lagomorphs due to their new resprite.
+    type: Tweak
+  id: 154414
+  time: '2026-08-13T23:47:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
 Order: -1
 
