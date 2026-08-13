@@ -651,7 +651,7 @@
 - type: loadoutGroup
   id: CivilianWeaponsFactionless
   name: loadout-group-civilian-weapons
-  min: 0
+  minLimit: 0
   loadouts:
   - Mk58Civ
   - InstigatorCiv
