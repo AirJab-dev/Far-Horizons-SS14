@@ -304,6 +304,9 @@
   id: ShotgunBoxAmmo
 
 - type: Tag
+  id: ShuttleRailgunRod
+
+- type: Tag
   id: SiliconEmotesFH
 
 - type: Tag

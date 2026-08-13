@@ -18,6 +18,9 @@ public abstract partial class SharedBorgSystem
 
     private void OnAdditionalAccess(Entity<BorgChassisComponent> ent, ref GetAdditionalAccessEvent args)
     {
+        if(!TryComp<AccessComponent>(ent.Owner, out var access) || !access.Enabled)
+            return;
+
         foreach(var module in ent.Comp.ModuleContainer.ContainedEntities)
         {
             if(!HasComp<PassiveBorgModuleComponent>(module) || !HasComp<AccessComponent>(module))
