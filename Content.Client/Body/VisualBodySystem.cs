@@ -241,9 +241,10 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
                     if(marking.IsGlowing)
                     {
                         var shader = _prototype.Index(SpriteSystem.UnshadedId);
-                        var holoshader = "HologramUnshadedFH";
-                        if(_sprite.TryGetLayer(target, proto.BodyPart, out var protoLayer, true) && protoLayer.ShaderPrototype == "HologramFH")
-                            shader = _prototype.Index<ShaderPrototype>(holoshader);
+                        
+                        if(_sprite.TryGetLayer(target, proto.BodyPart, out var protoLayer, true) && protoLayer.ShaderPrototype != null
+                            && _prototype.TryIndex<ShaderPrototype>($"{protoLayer.ShaderPrototype}_unshaded", out var unshadedShader))
+                            shader = unshadedShader;
 
                         markingLayer.Shader = shader.Instance();
                     }

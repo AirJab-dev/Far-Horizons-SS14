@@ -3,6 +3,7 @@ using Content.Shared._FarHorizons.Body;
 using Content.Shared.Body;
 using Content.Shared.Humanoid.Markings;
 using Robust.Client.GameObjects;
+using Robust.Client.Graphics;
 using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
@@ -160,8 +161,13 @@ public sealed partial class ConnectedOrganSystem : SharedConnectedOrganSystem
                     {
                         if(marking.IsGlowing)
                         {
-                            var unshadedShader = _prototype.Index(SpriteSystem.UnshadedId);
-                            markingLayer.Shader = unshadedShader.Instance();
+                            var shader = _prototype.Index(SpriteSystem.UnshadedId);
+                            
+                            if(_sprite.TryGetLayer(target, proto.BodyPart, out var protoLayer, true) && protoLayer.ShaderPrototype != null
+                                && _prototype.TryIndex<ShaderPrototype>($"{protoLayer.ShaderPrototype}_unshaded", out var unshadedShader))
+                                shader = unshadedShader;
+
+                            markingLayer.Shader = shader.Instance();
                         }
                         else if(_sprite.TryGetLayer(target, proto.BodyPart, out var protoLayer, true) && protoLayer.ShaderPrototype != null)
                         {

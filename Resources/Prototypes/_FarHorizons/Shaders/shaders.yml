@@ -189,7 +189,7 @@
     pixelShift: 1
 
 - type: shader
-  id: HologramUnshadedFH
+  id: HologramFH_unshaded
   kind: source
   path: "/Textures/_FarHorizons/Shaders/hologram_unshaded.swsl"
   params:
@@ -204,3 +204,10 @@
     burstSpeed: 0.419
     burstThreshold: 0.75
     pixelShift: 1
+
+- type: shader
+  id: DisplacedDraw_unshaded
+  kind: source
+  path: "/Textures/_FarHorizons/Shaders/displacement_unshaded.swsl"
+  params:
+    displacementSize: 127
