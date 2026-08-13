@@ -57,7 +57,6 @@
   - type: SunShadowCast
   - type: Ricochetable
     chance: 0.4
-  - type: StructureOcclusion #Far Horizons
 
 - type: entity
   abstract: true
@@ -330,8 +329,6 @@
   - type: IconSmooth
     key: walls
     base: diamond
-  - type: StructureOcclusion #Far Horizons
-    occlusionAmount: 2.0
 
 - type: entity
   parent: BaseWall
@@ -385,8 +382,6 @@
   - type: IconSmooth
     key: walls
     base: gold
-  - type: StructureOcclusion #Far Horizons
-    occlusionAmount: 2.0
 
 - type: entity
   parent: BaseWall
@@ -533,8 +528,6 @@
       damageModifierSet: StructuralMetallicStrong
     - type: RadiationBlocker
       resistance: 5
-    - type: StructureOcclusion #Far Horizons
-      occlusionAmount: 2.5
 
 - type: entity
   parent: WallPlastitaniumIndestructible
@@ -682,8 +675,6 @@
   - type: Paintable #FH start
     group: WallReinforced
   - type: GenericPaintable #FH end
-  - type: StructureOcclusion #Far Horizons
-    occlusionAmount: 1.33
 
 - type: entity
   parent: WallReinforced
@@ -1242,8 +1233,6 @@
   - type: Construction
     graph: Girder
     node: reinforcedWallChitin
-  - type: StructureOcclusion #Far Horizons
-    occlusionAmount: 1.33
 
 - type: entity
   parent: WallPlastitanium
@@ -1324,8 +1313,6 @@
     base: uranium
   - type: RadiationBlocker
     resistance: 6
-  - type: StructureOcclusion #Far Horizons
-    occlusionAmount: 2.0
 
 - type: entity
   parent: BaseWall
@@ -1419,8 +1406,6 @@
   - type: Construction
     graph: WebStructures
     node: wall
-  - type: StructureOcclusion #Far Horizons
-    occlusionAmount: 0.5
 
 
 # Lavalend Walls
@@ -1825,5 +1810,3 @@
   - type: Occluder
   - type: BlockWeather
   - type: SunShadowCast
-  - type: StructureOcclusion #Far Horizons
-    occlusionAmount: 0.25

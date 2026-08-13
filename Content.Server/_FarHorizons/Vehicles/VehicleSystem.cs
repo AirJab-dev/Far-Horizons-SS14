@@ -89,7 +89,8 @@ public sealed partial class VehicleSystems : SharedVehicleSystem
             DamageTypePrototype? _blunt = _prototypes.Index<DamageTypePrototype>(s_bluntname);
             DamageSpecifier? _damage = new(_blunt, Math.Clamp(10 * (1 + (0.5 * speed / crashingSpeed)), 10, 20));
             _damageable.TryChangeDamage(args.OtherEntity, _damage, origin: ent.Comp.Rider.Value);
-            
+            _color.RaiseEffect(Color.Red, new List<EntityUid>() { args.OtherEntity, }, Filter.Pvs(args.OtherEntity, entityManager: EntityManager));
+
             _movementStatus.TryAddMovementSpeedModDuration(ent.Owner, "StatusEffectSlowdownNoMobState", TimeSpan.FromSeconds(2), 0.25f);
             _adminLogger.Add(LogType.Damaged, LogImpact.High, $"{ToPrettyString(ent.Comp.Rider.Value)} ran over {ToPrettyString(args.OtherEntity)} dealing {_damage}");
         }

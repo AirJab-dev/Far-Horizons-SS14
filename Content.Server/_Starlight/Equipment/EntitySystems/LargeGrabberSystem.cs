@@ -124,11 +124,10 @@ public sealed class LargeGrabberSystem : EntitySystem
         if (!component.DropOnContainerChange)
             return;
 
-        if (TerminatingOrDeleted(uid)) return; //Far Horizons
         while (component.ItemContainer.Count > 0)
         {
             var targetCoords = new EntityCoordinates(args.Container.Owner, component.DepositOffset);
-            if (TerminatingOrDeleted(args.Container.Owner) || !_interaction.InRangeUnobstructed(args.Container.Owner, targetCoords)) //Far Horizons
+            if (!_interaction.InRangeUnobstructed(args.Container.Owner, targetCoords))
                 return;
 
             if (component.ItemContainer.ContainedEntities.TryFirstOrNull(out var item) && item.HasValue)

@@ -158,16 +158,3 @@
     prototype: NSUniformPrinter
     stackRequirements:
       Manipulator: 3
-
-- type: entity
-  id: PrinterNSDocMachineCircuitboard
-  parent: BaseMachineCircuitboard
-  name: NeoSol document printer machine board
-  description: A machine printed circuit board for an NeoSol document printer
-  components:
-    - type: MachineBoard
-      prototype: NSPrinterDoc
-      stackRequirements:
-        Steel: 3
-        Manipulator: 1
-        Glass: 1
