@@ -17231,5 +17231,78 @@ Entries:
   id: 154201
   time: '2026-08-13T21:33:30.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1542
+- author: Killer Tamashi
+  changes:
+  - message: Added Security-Themed Ammo Fabricator (Spare board spawns in the HoS
+      lockers)
+    type: Add
+  id: 152700
+  time: '2026-08-13T23:18:12.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1527
+- author: Killer Tamashi
+  changes:
+  - message: Shuffled Core's Armory around because it was, to put it lightly, horrible.
+    type: Tweak
+  id: 152701
+  time: '2026-08-13T23:18:12.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1527
+- author: Killer Tamashi
+  changes:
+  - message: Swapped out public Sec Techfabs with Sec Ammo Techfabs on all maps (except
+      Omega & Unity)
+    type: Tweak
+  id: 152702
+  time: '2026-08-13T23:18:12.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1527
+- author: Killer Tamashi
+  changes:
+  - message: Fixed Core spawning with NT weapons/vendors.
+    type: Fix
+  id: 152703
+  time: '2026-08-13T23:18:12.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1527
+- author: Killer Tamashi
+  changes:
+  - message: Fixed Fland having room of instant death.
+    type: Fix
+  id: 152704
+  time: '2026-08-13T23:18:12.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1527
+- author: Killer Tamashi
+  changes:
+  - message: Fixed NS Sec getting NT Sec weapons in loadout.
+    type: Fix
+  id: 152705
+  time: '2026-08-13T23:18:12.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1527
+- author: Killer Tamashi
+  changes:
+  - message: Fixed Ammo Fabricator not having all ammo variants (forgot to update
+      list when I added new stuff)
+    type: Fix
+  id: 152706
+  time: '2026-08-13T23:18:12.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1527
+- author: Killer Tamashi
+  changes:
+  - message: Fixed Hushpup not spawning with an Ammo Selector.
+    type: Fix
+  id: 152707
+  time: '2026-08-13T23:18:12.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1527
+- author: Killer Tamashi
+  changes:
+  - message: Fixed Manor's Code Green armory not letting in Security Staff.
+    type: Fix
+  id: 152708
+  time: '2026-08-13T23:18:12.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1527
+- author: Killer Tamashi
+  changes:
+  - message: Fixed Core Armory not having Sentry Turret.
+    type: Fix
+  id: 152709
+  time: '2026-08-13T23:18:12.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1527
 Order: -1
 
