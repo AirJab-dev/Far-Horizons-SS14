@@ -1,7 +1,6 @@
 - type: marking
   id: LagomorphHairAfro
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -9,7 +8,6 @@
 - type: marking
   id: LagomorphHairAfro2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -17,7 +15,6 @@
 - type: marking
   id: LagomorphHairBaby
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -25,7 +22,6 @@
 - type: marking
   id: LagomorphHairBigafro
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -33,7 +29,6 @@
 - type: marking
   id: LagomorphHairAntenna
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -41,7 +36,6 @@
 - type: marking
   id: LagomorphHairBalding
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -49,7 +43,6 @@
 - type: marking
   id: LagomorphHairBedhead
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -57,7 +50,6 @@
 - type: marking
   id: LagomorphHairBedheadv2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -65,7 +57,6 @@
 - type: marking
   id: LagomorphHairBedheadv3
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -73,7 +64,6 @@
 - type: marking
   id: LagomorphHairCube
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -81,7 +71,6 @@
 - type: marking
   id: LagomorphHairPulato
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -89,7 +78,6 @@
 - type: marking
   id: LagomorphHairLongBedhead
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -97,7 +85,6 @@
 - type: marking
   id: LagomorphHairLongBedhead2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -105,7 +92,6 @@
 - type: marking
   id: LagomorphHairFloorlengthBedhead
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -113,7 +99,6 @@
 - type: marking
   id: LagomorphHairBeehive
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -121,7 +106,6 @@
 - type: marking
   id: LagomorphHairBeehivev2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -129,7 +113,6 @@
 - type: marking
   id: LagomorphHairBob
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -137,7 +120,6 @@
 - type: marking
   id: LagomorphHairBob2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -145,7 +127,6 @@
 - type: marking
   id: LagomorphHairBobcut
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -153,7 +134,6 @@
 - type: marking
   id: LagomorphHairBob4
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -161,7 +141,6 @@
 - type: marking
   id: LagomorphHairBob5
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -169,7 +148,6 @@
 - type: marking
   id: LagomorphHairBobcurl
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -177,7 +155,6 @@
 - type: marking
   id: LagomorphHairBoddicker
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -185,7 +162,6 @@
 - type: marking
   id: LagomorphHairBowlcut
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -193,7 +169,6 @@
 - type: marking
   id: LagomorphHairBowlcut2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -201,7 +176,6 @@
 - type: marking
   id: LagomorphHairBraid
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -209,7 +183,6 @@
 - type: marking
   id: LagomorphHairBraided
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -217,7 +190,6 @@
 - type: marking
   id: LagomorphHairBraidfront
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -225,7 +197,6 @@
 - type: marking
   id: LagomorphHairBraid2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -233,7 +204,6 @@
 - type: marking
   id: LagomorphHairHbraid
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -241,7 +211,6 @@
 - type: marking
   id: LagomorphHairShortbraid
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -249,7 +218,6 @@
 - type: marking
   id: LagomorphHairBraidtail
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -257,7 +225,6 @@
 - type: marking
   id: LagomorphHairBun
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -265,7 +232,6 @@
 - type: marking
   id: LagomorphHairBunhead2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -273,7 +239,6 @@
 - type: marking
   id: LagomorphHairBun3
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -281,7 +246,6 @@
 - type: marking
   id: LagomorphHairLargebun
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -289,7 +253,6 @@
 - type: marking
   id: LagomorphHairManbun
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -297,7 +260,6 @@
 - type: marking
   id: LagomorphHairTightbun
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -305,7 +267,6 @@
 - type: marking
   id: LagomorphHairBusiness
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -313,7 +274,6 @@
 - type: marking
   id: LagomorphHairBusiness2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -321,7 +281,6 @@
 - type: marking
   id: LagomorphHairBusiness3
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -329,7 +288,6 @@
 - type: marking
   id: LagomorphHairBusiness4
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -337,7 +295,6 @@
 - type: marking
   id: LagomorphHairBuzzcut
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -345,7 +302,6 @@
 - type: marking
   id: LagomorphHairCia
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -353,7 +309,6 @@
 - type: marking
   id: LagomorphHairClassicAfro
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -361,7 +316,6 @@
 - type: marking
   id: LagomorphHairClassicBigAfro
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -369,7 +323,6 @@
 - type: marking
   id: LagomorphHairClassicBusiness
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -377,7 +330,6 @@
 - type: marking
   id: LagomorphHairClassicCia
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -385,7 +337,6 @@
 - type: marking
   id: LagomorphHairClassicCornrows2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -393,7 +344,6 @@
 - type: marking
   id: LagomorphHairClassicFloorlengthBedhead
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -401,7 +351,6 @@
 - type: marking
   id: LagomorphHairClassicModern
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -409,7 +358,6 @@
 - type: marking
   id: LagomorphHairClassicMulder
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -417,7 +365,6 @@
 - type: marking
   id: LagomorphHairClassicWisp
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -425,7 +372,6 @@
 - type: marking
   id: LagomorphHairCoffeehouse
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -433,7 +379,6 @@
 - type: marking
   id: LagomorphHairCombover
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -441,7 +386,6 @@
 - type: marking
   id: LagomorphHairCornrows
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -449,7 +393,6 @@
 - type: marking
   id: LagomorphHairCornrows2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -457,7 +400,6 @@
 - type: marking
   id: LagomorphHairCornrowbun
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -465,7 +407,6 @@
 - type: marking
   id: LagomorphHairCornrowbraid
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -473,7 +414,6 @@
 - type: marking
   id: LagomorphHairCornrowtail
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -481,7 +421,6 @@
 - type: marking
   id: LagomorphHairCrewcut
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -489,7 +428,6 @@
 - type: marking
   id: LagomorphHairCrewcut2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -497,7 +435,6 @@
 - type: marking
   id: LagomorphHairCurls
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -505,7 +442,6 @@
 - type: marking
   id: LagomorphHairC
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -513,7 +449,6 @@
 - type: marking
   id: LagomorphHairDandypompadour
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -521,7 +456,6 @@
 - type: marking
   id: LagomorphHairDevilock
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -529,7 +463,6 @@
 - type: marking
   id: LagomorphHairDoublebun
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -537,7 +470,6 @@
 - type: marking
   id: LagomorphHairDoublebunLong
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
   - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -545,7 +477,6 @@
 - type: marking
   id: LagomorphHairDreads
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -553,7 +484,6 @@
 - type: marking
   id: LagomorphHairDrillruru
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -561,7 +491,6 @@
 - type: marking
   id: LagomorphHairDrillhairextended
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -569,7 +498,6 @@
 - type: marking
   id: LagomorphHairEmo
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -577,7 +505,6 @@
 - type: marking
   id: LagomorphHairEmofringe
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -585,7 +512,6 @@
 - type: marking
   id: LagomorphHairNofade
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -593,7 +519,6 @@
 - type: marking
   id: LagomorphHairHighfade
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -601,7 +526,6 @@
 - type: marking
   id: LagomorphHairMedfade
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -609,7 +533,6 @@
 - type: marking
   id: LagomorphHairLowfade
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -617,7 +540,6 @@
 - type: marking
   id: LagomorphHairBaldfade
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -625,7 +547,6 @@
 - type: marking
   id: LagomorphHairFeather
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -633,7 +554,6 @@
 - type: marking
   id: LagomorphHairFather
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -641,7 +561,6 @@
 - type: marking
   id: LagomorphHairSargeant
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -649,7 +568,6 @@
 - type: marking
   id: LagomorphHairFlair
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -657,7 +575,6 @@
 - type: marking
   id: LagomorphHairBigflattop
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -665,7 +582,6 @@
 - type: marking
   id: LagomorphHairFlow
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -673,7 +589,6 @@
 - type: marking
   id: LagomorphHairGelled
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -681,7 +596,6 @@
 - type: marking
   id: LagomorphHairGentle
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -689,7 +603,6 @@
 - type: marking
   id: LagomorphHairHalfbang
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -697,7 +610,6 @@
 - type: marking
   id: LagomorphHairHalfbang2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -705,7 +617,6 @@
 - type: marking
   id: LagomorphHairHalfshaved
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -713,7 +624,6 @@
 - type: marking
   id: LagomorphHairHedgehog
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -721,7 +631,6 @@
 - type: marking
   id: LagomorphHairHimecut
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -729,7 +638,6 @@
 - type: marking
   id: LagomorphHairHimecut2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -737,7 +645,6 @@
 - type: marking
   id: LagomorphHairShorthime
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -745,7 +652,6 @@
 - type: marking
   id: LagomorphHairHimeup
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -753,7 +659,6 @@
 - type: marking
   id: LagomorphHairHitop
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -761,7 +666,6 @@
 - type: marking
   id: LagomorphHairJade
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -769,7 +673,6 @@
 - type: marking
   id: LagomorphHairJensen
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -777,7 +680,6 @@
 - type: marking
   id: LagomorphHairJoestar
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -785,7 +687,6 @@
 - type: marking
   id: LagomorphHairKeanu
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -793,7 +694,6 @@
 - type: marking
   id: LagomorphHairKusanagi
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -801,7 +701,6 @@
 - type: marking
   id: LagomorphHairLong
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -809,7 +708,6 @@
 - type: marking
   id: LagomorphHairLong2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -817,7 +715,6 @@
 - type: marking
   id: LagomorphHairLong3
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -825,7 +722,6 @@
 - type: marking
   id: LagomorphHairLongWithBundles
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -833,7 +729,6 @@
 - type: marking
   id: LagomorphHairLongovereye
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -841,7 +736,6 @@
 - type: marking
   id: LagomorphHairLbangs
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -849,7 +743,6 @@
 - type: marking
   id: LagomorphHairLongemo
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -857,7 +750,6 @@
 - type: marking
   id: LagomorphHairLongfringe
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -865,7 +757,6 @@
 - type: marking
   id: LagomorphHairLongsidepart
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -873,7 +764,6 @@
 - type: marking
   id: LagomorphHairMegaeyebrows
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -881,7 +771,6 @@
 - type: marking
   id: LagomorphHairMessy
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -889,7 +778,6 @@
 - type: marking
   id: LagomorphHairModern
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -897,7 +785,6 @@
 - type: marking
   id: LagomorphHairMohawk
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -905,7 +792,6 @@
 - type: marking
   id: LagomorphHairNitori
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -913,7 +799,6 @@
 - type: marking
   id: LagomorphHairReversemohawk
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -921,7 +806,6 @@
 - type: marking
   id: LagomorphHairUnshavenMohawk
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -929,7 +813,6 @@
 - type: marking
   id: LagomorphHairMulder
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -937,7 +820,6 @@
 - type: marking
   id: LagomorphHairOdango
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -945,7 +827,6 @@
 - type: marking
   id: LagomorphHairOmbre
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -953,7 +834,6 @@
 - type: marking
   id: LagomorphHairOneshoulder
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -961,7 +841,6 @@
 - type: marking
   id: LagomorphHairShortovereye
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -969,7 +848,6 @@
 - type: marking
   id: LagomorphHairOxton
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -977,7 +855,6 @@
 - type: marking
   id: LagomorphHairParted
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -985,7 +862,6 @@
 - type: marking
   id: LagomorphHairPart
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -993,7 +869,6 @@
 - type: marking
   id: LagomorphHairKagami
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1001,7 +876,6 @@
 - type: marking
   id: LagomorphHairPigtails
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1009,7 +883,6 @@
 - type: marking
   id: LagomorphHairPigtails2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1017,7 +890,6 @@
 - type: marking
   id: LagomorphHairPixie
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1025,7 +897,6 @@
 - type: marking
   id: LagomorphHairPompadour
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1033,7 +904,6 @@
 - type: marking
   id: LagomorphHairBigpompadour
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1041,7 +911,6 @@
 - type: marking
   id: LagomorphHairPonytail
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1049,7 +918,6 @@
 - type: marking
   id: LagomorphHairPonytail2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1057,7 +925,6 @@
 - type: marking
   id: LagomorphHairPonytail3
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1065,7 +932,6 @@
 - type: marking
   id: LagomorphHairPonytail4
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1073,7 +939,6 @@
 - type: marking
   id: LagomorphHairPonytail5
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1081,7 +946,6 @@
 - type: marking
   id: LagomorphHairPonytail6
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1089,7 +953,6 @@
 - type: marking
   id: LagomorphHairPonytail7
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1097,7 +960,6 @@
 - type: marking
   id: LagomorphHairHighponytail
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1105,7 +967,6 @@
 - type: marking
   id: LagomorphHairStail
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1113,7 +974,6 @@
 - type: marking
   id: LagomorphHairLongstraightponytail
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1121,7 +981,6 @@
 - type: marking
   id: LagomorphHairCountry
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1129,7 +988,6 @@
 - type: marking
   id: LagomorphHairFringetail
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1137,7 +995,6 @@
 - type: marking
   id: LagomorphHairSidetail
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1145,7 +1002,6 @@
 - type: marking
   id: LagomorphHairSidetail2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1153,7 +1009,6 @@
 - type: marking
   id: LagomorphHairSidetail3
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1161,7 +1016,6 @@
 - type: marking
   id: LagomorphHairSidetail4
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1169,7 +1023,6 @@
 - type: marking
   id: LagomorphHairSpikyponytail
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1177,7 +1030,6 @@
 - type: marking
   id: LagomorphHairPoofy
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1185,7 +1037,6 @@
 - type: marking
   id: LagomorphHairQuiff
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1193,7 +1044,6 @@
 - type: marking
   id: LagomorphHairRonin
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1201,7 +1051,6 @@
 - type: marking
   id: LagomorphHairShaved
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1209,7 +1058,6 @@
 - type: marking
   id: LagomorphHairShavedpart
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1217,7 +1065,6 @@
 - type: marking
   id: LagomorphHairShortbangs
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1225,7 +1072,6 @@
 - type: marking
   id: LagomorphHairA
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1233,7 +1079,6 @@
 - type: marking
   id: LagomorphHairShorthair2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1241,7 +1086,6 @@
 - type: marking
   id: LagomorphHairShorthair3
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1249,7 +1093,6 @@
 - type: marking
   id: LagomorphHairShorthairg
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1257,7 +1100,6 @@
 - type: marking
   id: LagomorphHair80s
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1265,7 +1107,6 @@
 - type: marking
   id: LagomorphHairRosa
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1273,7 +1114,6 @@
 - type: marking
   id: LagomorphHairB
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1281,7 +1121,6 @@
 - type: marking
   id: LagomorphHairSidecut
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1289,7 +1128,6 @@
 - type: marking
   id: LagomorphHairSkinhead
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1297,7 +1135,6 @@
 - type: marking
   id: LagomorphHairProtagonist
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1305,7 +1142,6 @@
 - type: marking
   id: LagomorphHairSpikey
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1313,7 +1149,6 @@
 - type: marking
   id: LagomorphHairSpiky
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1321,7 +1156,6 @@
 - type: marking
   id: LagomorphHairSpiky2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1329,7 +1163,6 @@
 - type: marking
   id: LagomorphHairSpookyLong
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1337,7 +1170,6 @@
 - type: marking
   id: LagomorphHairSwept
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1345,7 +1177,6 @@
 - type: marking
   id: LagomorphHairSwept2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1353,7 +1184,6 @@
 - type: marking
   id: LagomorphHairBAlt
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1361,7 +1191,6 @@
 - type: marking
   id: LagomorphHairThinning
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1369,7 +1198,6 @@
 - type: marking
   id: LagomorphHairThinningfront
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1377,7 +1205,6 @@
 - type: marking
   id: LagomorphHairThinningrear
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1385,7 +1212,6 @@
 - type: marking
   id: LagomorphHairTopknot
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1393,7 +1219,6 @@
 - type: marking
   id: LagomorphHairTressshoulder
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1401,7 +1226,6 @@
 - type: marking
   id: LagomorphHairTrimmed
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1409,7 +1233,6 @@
 - type: marking
   id: LagomorphHairTrimflat
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1417,7 +1240,6 @@
 - type: marking
   id: LagomorphHairTwintail
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1425,7 +1247,6 @@
 - type: marking
   id: LagomorphHairTwoStrands
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1433,7 +1254,6 @@
 - type: marking
   id: LagomorphHairUndercut
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1441,7 +1261,6 @@
 - type: marking
   id: LagomorphHairUndercutleft
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1449,7 +1268,6 @@
 - type: marking
   id: LagomorphHairUndercutright
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1457,7 +1275,6 @@
 - type: marking
   id: LagomorphHairUnkept
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1465,7 +1282,6 @@
 - type: marking
   id: LagomorphHairUpdo
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1473,7 +1289,6 @@
 - type: marking
   id: LagomorphHairVlong
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1481,7 +1296,6 @@
 - type: marking
   id: LagomorphHairLongest
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1489,7 +1303,6 @@
 - type: marking
   id: LagomorphHairLongest2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1497,7 +1310,6 @@
 - type: marking
   id: LagomorphHairVeryshortovereyealternate
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1505,7 +1317,6 @@
 - type: marking
   id: LagomorphHairVlongfringe
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1513,7 +1324,6 @@
 - type: marking
   id: LagomorphHairVolaju
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1521,7 +1331,6 @@
 - type: marking
   id: LagomorphHairWisp
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1529,7 +1338,6 @@
 - type: marking
   id: LagomorphHairUneven
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1537,7 +1345,6 @@
 - type: marking
   id: LagomorphHairTailed
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1545,7 +1352,6 @@
 - type: marking
   id: LagomorphHairClassicLong2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: Mobs/Customization/human_hair.rsi
@@ -1553,7 +1359,6 @@
 - type: marking
   id: LagomorphHairClassicLong3
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1561,7 +1366,6 @@
 - type: marking
   id: LagomorphHairShaped
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1569,7 +1373,6 @@
 - type: marking
   id: LagomorphHairLongBow
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1577,7 +1380,6 @@
 - type: marking
   id: LagomorphHairLongWithBangs
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
   - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1585,7 +1387,6 @@
 - type: marking
   id: LagomorphHairOverEyePigtail
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
   - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1594,7 +1395,6 @@
 - type: marking
   id: LagomorphHairLowpigtails
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1603,7 +1403,6 @@
 - type: marking
   id: LagomorphHairGatheredLow
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1612,7 +1411,6 @@
 - type: marking
   id: LagomorphHairLongBangs
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1621,7 +1419,6 @@
 - type: marking
   id: LagomorphHairHimecutWithTails
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1630,7 +1427,6 @@
 - type: marking
   id: LagomorphHairShortFluffy
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1639,7 +1435,6 @@
 - type: marking
   id: LagomorphHairReiHair
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1648,7 +1443,6 @@
 - type: marking
   id: LagomorphHairAfricanPigtails
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1657,7 +1451,6 @@
 - type: marking
   id: LagomorphHairAfropuffdouble
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1666,7 +1459,6 @@
 - type: marking
   id: LagomorphHairAfropuffleft
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1675,7 +1467,6 @@
 - type: marking
   id: LagomorphHairAfropuffright
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1684,7 +1475,6 @@
 - type: marking
   id: LagomorphHairAmazon
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1693,7 +1483,6 @@
 - type: marking
   id: LagomorphHairAstolfo
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1702,7 +1491,6 @@
 - type: marking
   id: LagomorphHairBaum
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1711,7 +1499,6 @@
 - type: marking
   id: LagomorphHairBeachwave
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1720,7 +1507,6 @@
 - type: marking
   id: LagomorphHairBluntbangs
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1729,7 +1515,6 @@
 - type: marking
   id: LagomorphHairBluntbangsAlt
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1738,7 +1523,6 @@
 - type: marking
   id: LagomorphHairBobcutAlt
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1747,7 +1531,6 @@
 - type: marking
   id: LagomorphHairBunhead4
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1756,7 +1539,6 @@
 - type: marking
   id: LagomorphHairCombed
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1765,7 +1547,6 @@
 - type: marking
   id: LagomorphHairCombedbob
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1774,7 +1555,6 @@
 - type: marking
   id: LagomorphHairCotton
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1783,7 +1563,6 @@
 - type: marking
   id: LagomorphHairCurly
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1792,7 +1571,6 @@
 - type: marking
   id: LagomorphHairDave
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1801,7 +1579,6 @@
 - type: marking
   id: LagomorphHairDiagonalBangs
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1810,7 +1587,6 @@
 - type: marking
   id: LagomorphHairEmoshort
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1819,7 +1595,6 @@
 - type: marking
   id: LagomorphHairFingerwave
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1828,7 +1603,6 @@
 - type: marking
   id: LagomorphHairFluffyShort
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1837,7 +1611,6 @@
 - type: marking
   id: LagomorphHairFortuneteller
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1846,7 +1619,6 @@
 - type: marking
   id: LagomorphHairFortunetellerAlt
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1855,7 +1627,6 @@
 - type: marking
   id: LagomorphHairFroofylong
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1864,7 +1635,6 @@
 - type: marking
   id: LagomorphHairGeisha
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1873,7 +1643,6 @@
 - type: marking
   id: LagomorphHairGentle21
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1882,7 +1651,6 @@
 - type: marking
   id: LagomorphHairGlammetal
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1891,7 +1659,6 @@
 - type: marking
   id: LagomorphHairGloomyLong
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1900,7 +1667,6 @@
 - type: marking
   id: LagomorphHairGloomyMedium
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1909,7 +1675,6 @@
 - type: marking
   id: LagomorphHairGrande
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1918,7 +1683,6 @@
 - type: marking
   id: LagomorphHairHalfshave
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1927,7 +1691,6 @@
 - type: marking
   id: LagomorphHairHalfshaveglamorous
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1936,7 +1699,6 @@
 - type: marking
   id: LagomorphHairHalfshaveLong
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1945,7 +1707,6 @@
 - type: marking
   id: LagomorphHairHalfshaveMessy
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1954,7 +1715,6 @@
 - type: marking
   id: LagomorphHairHalfshaveMessyLong
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1963,7 +1723,6 @@
 - type: marking
   id: LagomorphHairHalfshaveSnout
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1972,7 +1731,6 @@
 - type: marking
   id: LagomorphHairHightight
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1981,7 +1739,6 @@
 - type: marking
   id: LagomorphHairHyenamane
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -1990,7 +1747,6 @@
 - type: marking
   id: LagomorphHairJessica
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -1999,7 +1755,6 @@
 - type: marking
   id: LagomorphHairLong4
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -2008,7 +1763,6 @@
 - type: marking
   id: LagomorphHairLongdtails
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2017,7 +1771,6 @@
 - type: marking
   id: LagomorphHairLongerAlt
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2026,7 +1779,6 @@
 - type: marking
   id: LagomorphHairLongovereyeAlt
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2035,7 +1787,6 @@
 - type: marking
   id: LagomorphHairLongsidepartstraight
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -2044,7 +1795,6 @@
 - type: marking
   id: LagomorphHairLooseSlicked
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -2053,7 +1803,6 @@
 - type: marking
   id: LagomorphHairMediumbraid
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -2062,7 +1811,6 @@
 - type: marking
   id: LagomorphHairNewyou
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2071,7 +1819,6 @@
 - type: marking
   id: LagomorphHairPonytailAlt
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2080,7 +1827,6 @@
 - type: marking
   id: LagomorphHairPonytailF
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -2089,7 +1835,6 @@
 - type: marking
   id: LagomorphHairPoofy2
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2098,7 +1843,6 @@
 - type: marking
   id: LagomorphHairQuadcurls
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2107,7 +1851,6 @@
 - type: marking
   id: LagomorphHairSabitsuki
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2116,7 +1859,6 @@
 - type: marking
   id: LagomorphHairScully
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2125,7 +1867,6 @@
 - type: marking
   id: LagomorphHairShorthair4
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2134,7 +1875,6 @@
 - type: marking
   id: LagomorphHairShy
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2143,7 +1883,6 @@
 - type: marking
   id: LagomorphHairSimplePonytail
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2152,7 +1891,6 @@
 - type: marking
   id: LagomorphHairSleaze
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2161,7 +1899,6 @@
 - type: marking
   id: LagomorphHairSlightlyMessy
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2170,7 +1907,6 @@
 - type: marking
   id: LagomorphHairSlimedroplet
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2179,7 +1915,6 @@
 - type: marking
   id: LagomorphHairSlimedropletAlt
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2188,7 +1923,6 @@
 - type: marking
   id: LagomorphHairSlimespikes
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -2197,7 +1931,6 @@
 - type: marking
   id: LagomorphHairSlimetendrils
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2206,7 +1939,6 @@
 - type: marking
   id: LagomorphHairSlimetendrilsAlt
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2215,7 +1947,6 @@
 - type: marking
   id: LagomorphHairSpicy
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2224,7 +1955,6 @@
 - type: marking
   id: LagomorphHairTwintailFloor
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -2233,7 +1963,6 @@
 - type: marking
   id: LagomorphHairVeryshortovereye
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2242,7 +1971,6 @@
 - type: marking
   id: LagomorphHairVictory
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2251,7 +1979,6 @@
 - type: marking
   id: LagomorphHairViper
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2260,7 +1987,6 @@
 - type: marking
   id: LagomorphHairWife
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorphhair.rsi
@@ -2269,7 +1995,6 @@
 - type: marking
   id: LagomorphHairZiegler
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi
@@ -2278,7 +2003,6 @@
 - type: marking
   id: LagomorphHairCoolSpikes
   bodyPart: Hair
-  markingCategory: Hair
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/human_hair.rsi

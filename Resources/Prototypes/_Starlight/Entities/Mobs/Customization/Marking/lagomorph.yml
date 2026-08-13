@@ -32,7 +32,6 @@
 - type: marking
   id: LagomorphEarsDeer
   bodyPart: HeadTop
-  markingCategory: HeadTop
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorph.rsi
@@ -41,7 +40,6 @@
 - type: marking
   id: LagomorphEarsDeerAntlers
   bodyPart: HeadTop
-  markingCategory: HeadTop
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorph.rsi
@@ -52,7 +50,6 @@
 - type: marking
   id: LagomorphEarsDeerAntlersSmall
   bodyPart: HeadTop
-  markingCategory: HeadTop
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorph.rsi
@@ -63,7 +60,6 @@
 - type: marking
   id: LagomorphEarsDeerAntlersJolly
   bodyPart: HeadTop
-  markingCategory: HeadTop
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorph.rsi
@@ -74,7 +70,6 @@
 - type: marking
   id: LagomorphEarsDeerAntlersW
   bodyPart: HeadTop
-  markingCategory: HeadTop
   speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorph.rsi
@@ -85,8 +80,6 @@
 - type: marking
   id: LagomorphEarsDeerAntlersDriedbush
   bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorph.rsi
       state: deer
@@ -96,8 +89,6 @@
 - type: marking
   id: LagomorphEarsAirplane
   bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Lagomorph]
   sprites:
     - sprite: _Starlight/Mobs/Customization/lagomorph.rsi
       state: airplane
