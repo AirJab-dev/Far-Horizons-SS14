@@ -319,6 +319,8 @@
     - SecurityDisablers
     - StarlightSecurityAmmoEmagStatic
     - SecurityWeaponsStatic
+    - FarHorizonsCivilianMagazinesStatic
+    - FarHorizonsCivilianWeaponsStatic
     dynamicPacks:
     - SalvageSecurityBoards
     - SalvageSecurityWeapons
