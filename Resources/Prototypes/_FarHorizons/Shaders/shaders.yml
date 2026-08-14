@@ -170,3 +170,44 @@
     boulderDensity: 0.05
     boulderMaxRadius: 1.5
     boulderSpeedMultiplier: 1.25
+
+- type: shader
+  id: HologramFH
+  kind: source
+  path: "/Textures/_FarHorizons/Shaders/hologram.swsl"
+  params:
+    alpha: 0.9
+    width: 0.75
+    colorFactor: 0.5
+    lineSpeed: 5
+    lineFreq: 40000
+    glitchSpeed: 1
+    glitchFreq: 1000
+    glitchThreshold: 0.99
+    burstSpeed: 0.419
+    burstThreshold: 0.75
+    pixelShift: 1
+
+- type: shader
+  id: HologramFH_unshaded
+  kind: source
+  path: "/Textures/_FarHorizons/Shaders/hologram_unshaded.swsl"
+  params:
+    alpha: 0.9
+    width: 0.75
+    colorFactor: 0.5
+    lineSpeed: 5
+    lineFreq: 40000
+    glitchSpeed: 1
+    glitchFreq: 1000
+    glitchThreshold: 0.99
+    burstSpeed: 0.419
+    burstThreshold: 0.75
+    pixelShift: 1
+
+- type: shader
+  id: DisplacedDraw_unshaded
+  kind: source
+  path: "/Textures/_FarHorizons/Shaders/displacement_unshaded.swsl"
+  params:
+    displacementSize: 127

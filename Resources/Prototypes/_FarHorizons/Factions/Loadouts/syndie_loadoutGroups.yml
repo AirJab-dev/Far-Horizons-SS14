@@ -1284,3 +1284,20 @@
   - BotanistJumpskirtNS
   - BotanistOverallsJumpsuitNS
   - BotanistOverallsJumpskirtNS
+
+  #Clown
+
+- type: loadoutGroup
+  id: ClownJumpsuitNS
+  name: loadout-group-clown-jumpsuit
+  loadouts:
+  - ClownSuitNS
+  - JesterSuit
+  - JesterAltSuit
+
+- type: loadoutGroup
+  id: ClownShoesNS
+  name: loadout-group-clown-shoes
+  loadouts:
+  - ClownShoesNS
+  - JesterShoes

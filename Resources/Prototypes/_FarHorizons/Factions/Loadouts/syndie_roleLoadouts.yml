@@ -500,6 +500,21 @@
   - Pens 
   - CivilianWeaponsNS
 
+- type: roleLoadout
+  id: SyndieClown
+  canCustomizeName: true
+  groups:
+  - ClownHead
+  - ClownJumpsuitNS
+  - ClownBackpack
+  - ClownOuterClothing
+  - ClownShoesNS
+  - Glasses
+  - SurvivalService #FH
+  - Trinkets
+  - Scarves
+  - ClownPens
+  - ClownJobTrinkets
 
 #region SHC
 
