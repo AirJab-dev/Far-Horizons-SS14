@@ -330,6 +330,71 @@
     walkModifier: 0.90
     sprintModifier: 0.90
 
+
+#region Marshal's Lever Action
+- type: entity
+  name: Marshal's Lever Action Gun
+  parent: [ WeaponRifleIFV-50 ]
+  id: WeaponRifleMarshalsLeverAction
+  description: Feeds from .38 Special Magazines.
+  suffix: NS
+  components:
+  - type: Gun
+  selectedMode: SemiAuto
+  availableModes:
+  - SemiAuto
+  - type: Sprite
+    sprite: _FarHorizons/Objects/Weapons/Guns/Rifles/NS_IFV-50/ifv-50_x64x32.rsi
+    layers:
+    - state: base
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-0
+      map: [ "enum.GunVisualLayers.Mag" ]
+  - type: Clothing
+    sprite: _FarHorizons/Objects/Weapons/Guns/Rifles/NS_IFV-50/ifv-50_x32.rsi
+  - type: Item
+    sprite: _FarHorizons/Objects/Weapons/Guns/Rifles/NS_IFV-50/ifv-50_x64x64.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: GunWieldBonus #1-2 Deviation (Long Barrel/Long Stock)
+    minAngle: -19 # 1
+    maxAngle: -31 # 2
+  - type: MeleeWeapon
+    wideAnimationRotation: -90
+    attackRate: 0.8 # Big, not fast.
+    damage:
+      types:
+        Slash: 30 # Better than Bladed Lector which is 22/s -> This is 24/s
+    soundHit: /Audio/Weapons/bladeslice.ogg
+    angle: 0
+    animation: WeaponArcThrust
+  - type: Scope
+    canUseInsideContainer: true
+    canUseNightVision: true
+    zoomLevels:
+      - name: 1x
+        zoom: 1
+        offset: 7
+        doAfter: 0
+        allowMovement: true
+      - name: 1.5x
+        zoom: 1.5
+        offset: 7
+        doAfter: 0
+        allowMovement: true
+  - type: AltFireMelee
+    attackType: Heavy
+  - type: UseDelay # Long Barrel / Long Stock / Gunsword
+    delay: 2
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.90
+    sprintModifier: 0.90
+  
+
+
+
 #region =Syndicate=
 
 
