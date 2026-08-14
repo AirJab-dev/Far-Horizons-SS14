@@ -148,6 +148,9 @@
   id: MagazinePistol38
 
 - type: Tag
+  id: MagazinePistolCivilian
+
+- type: Tag
   id: MagazinePistolDouble
 
 - type: Tag
@@ -311,7 +314,7 @@
 
 - type: Tag
   id: SpeedLoaderRevolver38
-
+  
 - type: Tag
   id: STVKeys
 
