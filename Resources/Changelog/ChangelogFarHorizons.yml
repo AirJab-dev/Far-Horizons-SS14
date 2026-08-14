@@ -17426,5 +17426,51 @@ Entries:
   id: 154414
   time: '2026-08-13T23:47:13.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1544
+- author: CorruptOmega, ItsAbby, KarusKardin
+  changes:
+  - message: Added NeoSol Clown Uniform. Tricky Clown definitely not about to harm
+      anyone, just dance.
+    type: Add
+  id: 150200
+  time: '2026-08-14T00:13:42.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1502
+- author: CorruptOmega, ItsAbby, KarusKardin
+  changes:
+  - message: Fixed up a few NeoSol Holotables to function. NeoSol now has a functioning
+      Alert tables.
+    type: Tweak
+  id: 150201
+  time: '2026-08-14T00:13:42.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1502
+- author: CorruptOmega, ItsAbby, KarusKardin
+  changes:
+  - message: Added some/a bunch of NeoSol Computers with their own unique sprites.
+    type: Add
+  id: 150202
+  time: '2026-08-14T00:13:42.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1502
+- author: CorruptOmega, ItsAbby, KarusKardin
+  changes:
+  - message: Converted IdCardConsoleComponent and its connected systems to use FactionJobAssignmentPrototype
+      where possible (Karus)
+    type: Tweak
+  id: 150203
+  time: '2026-08-14T00:13:42.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1502
+- author: CorruptOmega, ItsAbby, KarusKardin
+  changes:
+  - message: ID computers can now change the faction of an ID when selecting a preset
+      (Karus)
+    type: Tweak
+  id: 150204
+  time: '2026-08-14T00:13:42.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1502
+- author: CorruptOmega, ItsAbby, KarusKardin
+  changes:
+  - message: Fixed NS ID computers having NT job presets (Karus)
+    type: Fix
+  id: 150205
+  time: '2026-08-14T00:13:42.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1502
 Order: -1
 
