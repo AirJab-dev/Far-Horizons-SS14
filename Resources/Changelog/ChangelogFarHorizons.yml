@@ -17517,5 +17517,12 @@ Entries:
   id: 154605
   time: '2026-08-14T05:45:15.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1546
+- author: RubiconLocked
+  changes:
+  - message: Salvage Lead Report is now correctly categorized.
+    type: Fix
+  id: 155200
+  time: '2026-08-14T17:37:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1552
 Order: -1
 
