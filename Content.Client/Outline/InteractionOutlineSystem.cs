@@ -2,10 +2,10 @@ using System.Collections.Generic;
 using Content.Client.ContextMenu.UI;
 using Content.Client.Gameplay;
 using Content.Client.Graphics;
-using Content.Client.Interactable.Components;
 using Content.Client.Viewport;
 using Content.Shared.CCVar;
 using Content.Shared.Interaction;
+using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Client.Input;
 using Robust.Client.Player;
@@ -13,6 +13,7 @@ using Robust.Client.State;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.CustomControls;
 using Robust.Shared.Configuration;
+using Robust.Shared.Prototypes;
 
 namespace Content.Client.Outline;
 

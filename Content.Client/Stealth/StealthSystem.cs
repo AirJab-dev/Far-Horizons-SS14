@@ -1,4 +1,3 @@
-using Content.Client.Interactable.Components;
 using Content.Client.Graphics;
 using Content.Shared.Stealth;
 using Content.Shared.Stealth.Components;
