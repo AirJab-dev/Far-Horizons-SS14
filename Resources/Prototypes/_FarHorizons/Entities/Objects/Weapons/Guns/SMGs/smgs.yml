@@ -327,6 +327,75 @@
     tags:
     - P291
 
+
+  #region Contable's SMG
+- type: entity
+  name: NS Warden's SMG
+  parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
+  id: WeaponSubMachineGunConstableSMGWeapon
+  description: A small bullpup SMG, designed for close quarters combat and subduing prison riots. Feeds from 9mm Magazines.
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Objects/Weapons/Guns/SMGs/NS_P91/ns_p91_x32x64.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _FarHorizons/Objects/Weapons/Guns/SMGs/NS_P91/ns_p91_x32.rsi
+  - type: Item
+    sprite: _FarHorizons/Objects/Weapons/Guns/SMGs/NS_P91/ns_p91_x32.rsi
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus # 1 - 10 Deviation / Addition of Grip
+    minAngle: 0
+    maxAngle: -15
+  - type: Gun # 1 - 25 Deviation (Meant to be one-handed) / Addition of Stock & Barrel Ports
+    fireRate: 10
+    minAngle: 1
+    maxAngle: 25
+    angleIncrease: 8
+    angleDecay: 5
+    selectedMode: FullAuto
+    # shotsPerBurst: 3
+    # burstCooldown: 0.2
+    # burstFireRate: 8
+    availableModes:
+    - SemiAuto
+    - FullAuto
+    soundGunshot:
+      path: /Audio/_Starlight/Weapons/Guns/Gunshots/uzi.ogg
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: Sharp
+  - type: MeleeWeapon
+    wideAnimationRotation: -90
+    attackRate: 1.5
+    damage:
+      types:
+        Blunt: 7 #Far horizons
+  - type: StaminaDamageOnHit
+    damage: 20
+    soundHit:
+      collection: MetalThud
+    angle: 0
+    animation: WeaponArcThrust
+  - type: UseDelay # Bayonet
+    delay: 1
+  - type: SpeedModifiedOnWield
+    walkModifier: 1 #Light enough to act like a pistol. A machine pistol, if you will.
+    sprintModifier: 1
+  - type: AltFireMelee
+    attackType: Heavy
+  # - type: Tag
+  #   tags:
+  #   - P291
+
+
 #region = Syndicate =
 
 
