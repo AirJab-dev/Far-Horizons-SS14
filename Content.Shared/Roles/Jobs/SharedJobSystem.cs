@@ -15,9 +15,9 @@ namespace Content.Shared.Roles.Jobs;
 /// Far Horizons: Make partial to add code to a separate file
 public abstract partial class SharedJobSystem : EntitySystem
 {
-    [Dependency] private readonly SharedPlayerSystem _playerSystem = default!;
-    [Dependency] private readonly IPrototypeManager _prototypes = default!;
-    [Dependency] private readonly SharedRoleSystem _roles = default!;
+    [Dependency] private SharedPlayerSystem _playerSystem = default!;
+    [Dependency] private IPrototypeManager _prototypes = default!;
+    [Dependency] private SharedRoleSystem _roles = default!;
 
     private readonly Dictionary<string, string> _inverseTrackerLookup = new();
 

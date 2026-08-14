@@ -40,6 +40,6 @@
 
   <Import Project="..\RobustToolbox\MSBuild\Robust.Properties.targets" />
   <Import Project="..\RobustToolbox\MSBuild\Robust.CompNetworkGenerator.targets" />
-
+  <Import Project="..\RobustToolbox\MSBuild\Robust.EntitySystemSubscriptionsGenerator.targets" />
   <Import Project="..\RobustToolbox\Imports\Server.props" />
 </Project>

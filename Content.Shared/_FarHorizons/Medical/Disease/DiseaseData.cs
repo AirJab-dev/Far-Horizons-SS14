@@ -4,8 +4,8 @@ using Robust.Shared.Serialization;
 
 namespace Content.Shared._FarHorizons.Medical.Disease.Systems;
 
-[Serializable, NetSerializable]
-public sealed class DiseaseData
+[DataDefinition]
+public sealed partial class DiseaseData
 {
     /// <summary>
     /// The prototype for this disease.

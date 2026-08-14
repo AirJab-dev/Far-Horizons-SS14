@@ -12,10 +12,10 @@ namespace Content.Server._FarHorizons.Medical.Disease.Commands;
 /// Infects your attached entity with a disease at an optional stage.
 /// </summary>
 [AdminCommand(AdminFlags.Fun)]
-public sealed class InfectCommand : LocalizedEntityCommands
+public sealed partial class InfectCommand : LocalizedEntityCommands
 {
-    [Dependency] private readonly SharedDiseaseSystem _disease = default!;
-    [Dependency] private readonly IPrototypeManager _proto = default!;
+    [Dependency] private SharedDiseaseSystem _disease = default!;
+    [Dependency] private IPrototypeManager _proto = default!;
 
     public override string Command => "infect";
 

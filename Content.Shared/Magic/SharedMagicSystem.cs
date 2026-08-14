@@ -26,6 +26,7 @@ using Content.Shared.Magic.Events;
 using Content.Shared.Maps;
 using Content.Shared.Mind;
 using Content.Shared.Ninja.Systems;
+using Content.Shared.Objectives.Systems;
 using Content.Shared.Physics;
 using Content.Shared.Popups;
 using Content.Shared.Speech.Muting;
@@ -54,7 +55,7 @@ namespace Content.Shared.Magic;
 /// <summary>
 /// Handles learning and using spells (actions)
 /// </summary>
-public abstract class SharedMagicSystem : EntitySystem
+public abstract partial class SharedMagicSystem : EntitySystem
 {
     [Dependency] private ISerializationManager _seriMan = default!;
     [Dependency] private SharedMapSystem _mapSystem = default!;
@@ -77,8 +78,15 @@ public abstract class SharedMagicSystem : EntitySystem
     [Dependency] private SharedStunSystem _stun = default!;
     [Dependency] private TurfSystem _turf = default!;
     [Dependency] private SharedChargesSystem _charges = default!;
-    [Dependency] private ExamineSystemShared _examine= default!;
+    [Dependency] private ExamineSystemShared _examine = default!;
     [Dependency] private AliveHumanoidTargetSystem _target = default!;
+
+    #region Starlight
+    [Dependency] private DamageableSystem _damageable = default!;
+    [Dependency] private SharedStationSystem _station = default!;
+
+    private static readonly EntProtoId TowerOfBabel = "TowerOfBabel";
+    #endregion
 
     private static readonly ProtoId<TagPrototype> InvalidForGlobalSpawnSpellTag = "InvalidForGlobalSpawnSpell";
 

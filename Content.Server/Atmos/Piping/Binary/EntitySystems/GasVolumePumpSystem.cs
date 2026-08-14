@@ -14,17 +14,18 @@ using Content.Shared.DeviceNetwork.Events;
 using JetBrains.Annotations;
 using Robust.Server.GameObjects;
 using Content.Shared.DeviceNetwork.Components;
+using Content.Shared.Atmos.Components;
 
 namespace Content.Server.Atmos.Piping.Binary.EntitySystems
 {
     [UsedImplicitly]
-    public sealed class GasVolumePumpSystem : SharedGasVolumePumpSystem
+    public sealed partial class GasVolumePumpSystem : SharedGasVolumePumpSystem
     {
-        [Dependency] private readonly AtmosphereSystem _atmosphereSystem = default!;
-        [Dependency] private readonly UserInterfaceSystem _userInterfaceSystem = default!;
-        [Dependency] private readonly SharedAmbientSoundSystem _ambientSoundSystem = default!;
-        [Dependency] private readonly NodeContainerSystem _nodeContainer = default!;
-        [Dependency] private readonly DeviceNetworkSystem _deviceNetwork = default!;
+        [Dependency] private AtmosphereSystem _atmosphereSystem = default!;
+        [Dependency] private UserInterfaceSystem _userInterfaceSystem = default!;
+        [Dependency] private SharedAmbientSoundSystem _ambientSoundSystem = default!;
+        [Dependency] private NodeContainerSystem _nodeContainer = default!;
+        [Dependency] private DeviceNetworkSystem _deviceNetwork = default!;
 
         public override void Initialize()
         {

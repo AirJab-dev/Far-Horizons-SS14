@@ -44,6 +44,7 @@ public abstract partial class SharedMindSystem : EntitySystem
     [Dependency] private SharedObjectivesSystem _objectives = default!;
     [Dependency] private SharedPhysicsSystem _physics = default!;
     [Dependency] private SharedPlayerSystem _player = default!;
+    [Dependency] private SharedLanguageSystem _language = default!;
 
     [ViewVariables]
     protected readonly Dictionary<NetUserId, EntityUid> UserMinds = new();

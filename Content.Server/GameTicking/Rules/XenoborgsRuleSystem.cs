@@ -7,12 +7,13 @@ using Content.Shared.Destructible;
 using Content.Shared.GameTicking.Components;
 using Content.Shared.Mind;
 using Content.Shared.Mobs.Systems;
+using Content.Shared.Objectives.Systems;
 using Content.Shared.Xenoborgs.Components;
 using Robust.Shared.Timing;
 
 namespace Content.Server.GameTicking.Rules;
 
-public sealed class XenoborgsRuleSystem : GameRuleSystem<XenoborgsRuleComponent>
+public sealed partial class XenoborgsRuleSystem : GameRuleSystem<XenoborgsRuleComponent>
 {
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private AntagSelectionSystem _antag = default!;

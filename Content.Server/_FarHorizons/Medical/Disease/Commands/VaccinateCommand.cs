@@ -13,10 +13,10 @@ namespace Content.Server._FarHorizons.Medical.Disease.Commands;
 /// Grants cure from a disease to your attached entity.
 /// </summary>
 [AdminCommand(AdminFlags.Fun)]
-public sealed class VaccinateCommand : LocalizedEntityCommands
+public sealed partial class VaccinateCommand : LocalizedEntityCommands
 {
-    [Dependency] private readonly IPrototypeManager _proto = default!;
-    [Dependency] private readonly SharedDiseaseCureSystem _cure = default!;
+    [Dependency] private IPrototypeManager _proto = default!;
+    [Dependency] private SharedDiseaseCureSystem _cure = default!;
     public override string Command => "vaccinate";
 
     public override void Execute(IConsoleShell shell, string argStr, string[] args)

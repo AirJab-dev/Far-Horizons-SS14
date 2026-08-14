@@ -49,8 +49,6 @@ namespace Content.Shared.Examine
 
         protected const float ExamineBlurrinessMult = 2.5f;
 
-        private EntityQuery<GhostComponent> _ghostQuery;
-
         /// <summary>
         ///     Creates a new examine tooltip with arbitrary info.
         /// </summary>

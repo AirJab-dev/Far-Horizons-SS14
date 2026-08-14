@@ -12,8 +12,8 @@ namespace Content.Shared.EntityEffects.Effects.Disease;
 /// <inheritdoc cref="EntityEffectSystem{T,TEffect}"/>
 public sealed partial class TransitionDiseaseEntityEffectSystem : EntityEffectSystem<DiseaseCarrierComponent, TransitionDisease>
 {
-    [Dependency] private readonly IPrototypeManager _prototype = default!;
-    [Dependency] private readonly SharedDiseaseSystem _disease = default!;
+    [Dependency] private IPrototypeManager _prototype = default!;
+    [Dependency] private SharedDiseaseSystem _disease = default!;
 
     protected override void Effect(Entity<DiseaseCarrierComponent> entity, ref EntityEffectEvent<TransitionDisease> args)
     {

@@ -386,7 +386,7 @@ namespace Content.IntegrationTests.Tests.Interaction.Click
             await pair.CleanReturnAsync();
         }
 
-        public sealed class TestInteractionSystem : EntitySystem
+        public sealed partial class TestInteractionSystem : EntitySystem
         {
             public EntityEventHandler<InteractUsingEvent>? InteractUsingEvent;
             public EntityEventHandler<InteractHandEvent>? InteractHandEvent;

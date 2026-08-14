@@ -6,10 +6,10 @@ using Robust.Shared.Console;
 namespace Content.Server.Administration.Commands
 {
     [AdminCommand(AdminFlags.NameColor)]
-    internal sealed class SetAdminOOC : LocalizedCommands
+    internal sealed partial class SetAdminOOC : LocalizedCommands
     {
-        [Dependency] private readonly IServerDbManager _dbManager = default!;
-        [Dependency] private readonly IServerPreferencesManager _preferenceManager = default!;
+        [Dependency] private IServerDbManager _dbManager = default!;
+        [Dependency] private IServerPreferencesManager _preferenceManager = default!;
 
         public override string Command => "setadminooc";
 
@@ -34,11 +34,11 @@ namespace Content.Server.Administration.Commands
                 return;
             }
 
-            var luminance = (0.2126f * color.Value.R) + (0.7152f * color.Value.G) + (0.0722f * color.Value.B);
+            var luminance = (0.2126f * color.R) + (0.7152f * color.G) + (0.0722f * color.B);
 
             if (luminance is < 0.2f or > 0.8f)
             {
-                shell.WriteError("The color is too close to black or white — pick a more contrasting shade.");
+                shell.WriteError("The color is too close to black or white ï¿½ pick a more contrasting shade.");
                 return;
             }
 

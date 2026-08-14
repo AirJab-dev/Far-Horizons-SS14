@@ -6,6 +6,7 @@ using Content.Server.Shuttles.Systems;
 using Content.Shared.GameTicking.Components;
 using Content.Shared.Mind;
 using Content.Shared.Mobs.Systems;
+using Content.Shared.Objectives.Systems;
 using Content.Shared.Roles.Components;
 using Content.Shared.Survivor.Components;
 using Content.Shared.Tag;
@@ -14,7 +15,7 @@ using Robust.Shared.Prototypes;
 
 namespace Content.Server.GameTicking.Rules;
 
-public sealed class SurvivorRuleSystem : GameRuleSystem<SurvivorRuleComponent>
+public sealed partial class SurvivorRuleSystem : GameRuleSystem<SurvivorRuleComponent>
 {
     [Dependency] private AntagSelectionSystem _antag = default!;
     [Dependency] private EmergencyShuttleSystem _eShuttle = default!;

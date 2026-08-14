@@ -24,7 +24,7 @@ using System.Runtime.CompilerServices;
 namespace Content.Server.Atmos.EntitySystems
 {
     [UsedImplicitly]
-    public sealed class GasTileOverlaySystem : SharedGasTileOverlaySystem
+    public sealed partial class GasTileOverlaySystem : SharedGasTileOverlaySystem
     {
         [Robust.Shared.IoC.Dependency] private IGameTiming _gameTiming = default!;
         [Robust.Shared.IoC.Dependency] private IPlayerManager _playerManager = default!;

@@ -25,7 +25,7 @@ namespace Content.Server._FarHorizons.Vehicles;
 
 public sealed partial class VehicleSystems : SharedVehicleSystem
 {    
-    [Dependency] private readonly MovementModStatusSystem _movementStatus = default!;
+    [Dependency] private MovementModStatusSystem _movementStatus = default!;
     public override void Initialize()
     {
         base.Initialize();

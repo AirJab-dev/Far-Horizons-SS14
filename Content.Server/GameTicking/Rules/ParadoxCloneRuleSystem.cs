@@ -11,18 +11,23 @@ using Content.Shared.GameTicking.Components;
 using Content.Shared.Gibbing.Components;
 using Content.Shared.Medical.SuitSensor;
 using Content.Shared.Mind;
+using Content.Shared.Objectives.Systems;
 using NetCord;
+using Robust.Server.GameObjects;
 using Robust.Shared.Random;
 
 namespace Content.Server.GameTicking.Rules;
 
-public sealed class ParadoxCloneRuleSystem : GameRuleSystem<ParadoxCloneRuleComponent>
+public sealed partial class ParadoxCloneRuleSystem : GameRuleSystem<ParadoxCloneRuleComponent>
 {
     [Dependency] private IRobustRandom _random = default!;
     [Dependency] private CloningSystem _cloning = default!;
     [Dependency] private SharedMindSystem _mind = default!;
     [Dependency] private SuitSensorSystem _sensor = default!;
     [Dependency] private AliveHumanoidTargetSystem _target = default!;
+    [Dependency] private TransformSystem _transform = default!; // Far Horizons
+    [Dependency] private IChatManager _chatManager = default!; // Far Horizons
+    [Dependency] private SharedCollectiveMindSystem _collectiveMindUpdate = default!; // Far Horizons
 
     public override void Initialize()
     {

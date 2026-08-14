@@ -23,7 +23,7 @@ namespace Content.IntegrationTests.Tests
     [TestFixture]
     [TestOf(typeof(VendingMachineRestockComponent))]
     [TestOf(typeof(VendingMachineSystem))]
-    public sealed class VendingMachineRestockTest : EntitySystem
+    public sealed partial class VendingMachineRestockTest : EntitySystem
     {
         private static readonly ProtoId<DamageTypePrototype> TestDamageType = "Blunt";
 

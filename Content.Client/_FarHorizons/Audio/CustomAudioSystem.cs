@@ -14,13 +14,13 @@ using Robust.Shared.Timing;
 
 namespace Content.Client._FarHorizons.Audio.CustomAudio;
 
-public sealed class CustomAudioSystem : EntitySystem
+public sealed partial class CustomAudioSystem : EntitySystem
 {
-    [Dependency] private readonly AudioSystem _audio = default!;
-    [Dependency] private readonly IConfigurationManager _cfgManager = default!;
-    [Dependency] private readonly SharedPhysicsSystem _physics = default!;
-    [Dependency] private readonly EntityLookupSystem _lookup = default!;
-    [Dependency] private readonly IGameTiming _timing = default!;
+    [Dependency] private AudioSystem _audio = default!;
+    [Dependency] private IConfigurationManager _cfgManager = default!;
+    [Dependency] private SharedPhysicsSystem _physics = default!;
+    [Dependency] private EntityLookupSystem _lookup = default!;
+    [Dependency] private IGameTiming _timing = default!;
 
     private const float OcclusionReferenceThickness = 1f;
     private readonly Dictionary<EntityUid, float> _smoothedOcclusion = new();

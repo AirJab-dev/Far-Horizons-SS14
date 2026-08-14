@@ -12,7 +12,7 @@ namespace Content.Server.Objectives.Systems;
 /// Handles assinging a target to an objective entity with <see cref="TargetObjectiveComponent"/> using different components.
 /// These can be combined with condition components for objective completions in order to create a variety of objectives.
 /// </summary>
-public sealed class PickObjectiveTargetSystem : EntitySystem
+public sealed partial class PickObjectiveTargetSystem : EntitySystem
 {
     [Dependency] private TargetObjectiveSystem _target = default!;
     [Dependency] private SharedMindSystem _mind = default!;
@@ -23,16 +23,17 @@ public sealed class PickObjectiveTargetSystem : EntitySystem
 
         SubscribeLocalEvent<PickSpecificPersonComponent, ObjectiveAssignedEvent>(OnSpecificPersonAssigned);
         SubscribeLocalEvent<PickRandomPersonComponent, ObjectiveAssignedEvent>(OnRandomPersonAssigned);
-        SubscribeLocalEvent<PickRandomPersonComponent, MapInitEvent>(OnMapInit); // SL add
+        //SubscribeLocalEvent<PickRandomPersonComponent, MapInitEvent>(OnMapInit); // SL add
     }
 
+    // FH removed, not compatible with current objectives
     // SL start
-    private void OnMapInit(Entity<PickRandomPersonComponent> ent, ref MapInitEvent args)
-    {
-        // inject new filter blacklisting NoObjectiveTargetComponent
-        var filter = new BodyMindFilter { Whitelist = { Components = ["NoObjectiveTarget"] }, Inverted = true };
-        ent.Comp.Filters.Add(filter);
-    }
+    // private void OnMapInit(Entity<PickRandomPersonComponent> ent, ref MapInitEvent args)
+    // {
+    //     // inject new filter blacklisting NoObjectiveTargetComponent
+    //     var filter = new BodyMindFilter { Whitelist = { Components = ["NoObjectiveTarget"] }, Inverted = true };
+    //     ent.Comp.Filters.Add(filter);
+    // }
     // SL end
 
     private void OnSpecificPersonAssigned(Entity<PickSpecificPersonComponent> ent, ref ObjectiveAssignedEvent args)

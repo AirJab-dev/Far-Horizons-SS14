@@ -14,6 +14,12 @@ public sealed partial class AtmosphereSystem
      code that would escape sandbox. As such these methods are overridden here with a safe
      implementation.
      */
+    
+    public override ReactionResult React(GasMixture mixture, IGasMixtureHolder? holder)
+    {
+        // Reactions don't work on client so don't even try.
+        throw new NotImplementedException();
+    }
 
     public override bool IsMixtureFuel(GasMixture mixture, float epsilon = Atmospherics.Epsilon)
     {

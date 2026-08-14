@@ -22,10 +22,11 @@ namespace Content.Client.Shuttles.UI;
 [GenerateTypedNameReferences, Virtual]
 public partial class ShuttleNavControl : BaseShuttleControl // Far Horizons - made sealed type [Virtual] to allow inheritance
 {
-    [Dependency] private readonly IGameTiming _timing = default!; // Far Horizons
-    [Dependency] private readonly IEntityManager _entMan = default!; // Far Horizons
+    [Dependency] private IGameTiming _timing = default!; // Far Horizons
+    [Dependency] private IEntityManager _entMan = default!; // Far Horizons
     private readonly SharedShuttleSystem _shuttles;
     private readonly SharedTransformSystem _transform;
+    private readonly SharedMapSystem _maps;
 
     /// <summary>
     /// Used to transform all of the radar objects. Typically is a shuttle console parented to a grid.

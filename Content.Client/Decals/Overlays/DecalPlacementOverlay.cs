@@ -9,10 +9,10 @@ using Robust.Shared.Map;
 namespace Content.Client.Decals.Overlays;
 
 [Virtual]
-public class DecalPlacementOverlay : Overlay
+public partial class DecalPlacementOverlay : Overlay
 {
-    [Dependency] private readonly IEyeManager _eyeManager = default!;
-    [Dependency] private readonly IInputManager _inputManager = default!;
+    [Dependency] private IEyeManager _eyeManager = default!;
+    [Dependency] private IInputManager _inputManager = default!;
     private readonly DecalPlacementSystem _placement;
     private readonly SharedMapSystem _maps;
     private readonly SharedTransformSystem _transform;
