@@ -66,4 +66,15 @@ public sealed partial class CargoAccountPrototype : IPrototype
     [DataField]
     public List<TamperSealAccessPattern> TamperSealAccesses = new();
     #endregion
+
+    #region 
+    /// <summary>
+    /// The name of the recipient to use on tamper seal examination.
+    /// </summary>
+    [DataField] public LocId FactionSealName = "tamper-seal-faction-name-gsl";
+    /// <summary>
+    /// The color to use for faction tamper seals.
+    /// </summary>
+    [DataField] public Color FactionSealColor = new(180, 139, 87);
+    #endregion
 }

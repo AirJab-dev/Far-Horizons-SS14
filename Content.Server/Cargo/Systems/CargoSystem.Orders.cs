@@ -690,6 +690,8 @@ namespace Content.Server.Cargo.Systems
             seal.RecipientName = recipient.TamperSealName;
             seal.RecipientExamineColor = recipient.Color;
             seal.Color = recipient.TamperSealColor;
+            seal.FactionName = recipient.FactionSealName; //FarHorizons
+            seal.FactionColor = recipient.FactionSealColor; //FarHorizons
             seal.Accesses = new List<TamperSealAccessPattern>(recipient.TamperSealAccesses);
             seal.DestroyToolQualities = new HashSet<ProtoId<ToolQualityPrototype>>(tamperSealable.DestroyToolQualities);
 

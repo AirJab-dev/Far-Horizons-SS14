@@ -19,16 +19,16 @@ tamper-seal-verb-destroy = Destroy seal
 tamper-seal-verb-destroy-hands-description = Rip off the tamper seal with your hands. A sharp tool will make this go faster.
 tamper-seal-verb-destroy-tool-description = Use your tool to break the seal.
 
-# Examine
-tamper-seal-examine-sealed-public = There is a [color=yellow]tamper seal[/color] present.
-tamper-seal-examine-sealed-restricted = There is a [color={$recipientColor}]{$recipient}[/color] tamper seal present.
-tamper-seal-examine-destroyed-slicing = There is some [color={$recipientColor}]{$recipient}[/color] tamper seal residue visible.
-tamper-seal-examine-destroyed-cutting = There is some [color={$recipientColor}]{$recipient}[/color] tamper seal residue visible.
-tamper-seal-examine-destroyed-prying = There is some [color={$recipientColor}]{$recipient}[/color] plastic residue and scratch marks near the top of the canister.
+# Examine - Moved to Far Horizons tamper-seal
+old-tamper-seal-examine-sealed-public = There is a [color=yellow]tamper seal[/color] present.
+old-tamper-seal-examine-sealed-restricted = There is a [color={$recipientColor}]{$recipient}[/color] tamper seal present.
+old-tamper-seal-examine-destroyed-slicing = There is some [color={$recipientColor}]{$recipient}[/color] tamper seal residue visible.
+old-tamper-seal-examine-destroyed-cutting = There is some [color={$recipientColor}]{$recipient}[/color] tamper seal residue visible.
+old-tamper-seal-examine-destroyed-prying = There is some [color={$recipientColor}]{$recipient}[/color] plastic residue and scratch marks near the top of the canister.
 
-# Performance failure announcement
-tamper-seal-performance-failure-sender = Interstellar Trade Guild
-tamper-seal-performance-failure-message = Repeated destruction of tamper-sealed orders detected. We encourage you to investigate the courier responsible for handling your orders.
+# Performance failure announcement - Moved to Far Horizons tamper-seal
+old-tamper-seal-performance-failure-sender = Interstellar Trade Guild
+old-tamper-seal-performance-failure-message = Repeated destruction of tamper-sealed orders detected. We encourage you to investigate the department responsible for handling your orders.
 
 # Short account names
 tamper-seal-account-name-unknown = Unknown

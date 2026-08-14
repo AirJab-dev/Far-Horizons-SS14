@@ -116,6 +116,18 @@ public sealed partial class TamperSealComponent : Component
         new SoundPathSpecifier("/Audio/Items/Handcuffs/rope_breakout.ogg");
 
     #endregion
+
+    #region Far Horizons
+    /// <summary>
+    /// The name of the recipient of the sealed container.
+    /// </summary>
+    [DataField, AutoNetworkedField] public LocId FactionName = "tamper-seal-account-name-unknown";
+
+    /// <summary>
+    /// The color of the tamper seal sprite.
+    /// </summary>
+    [DataField, AutoNetworkedField] public Color FactionColor = Color.White; // Better than transparent as default.
+    #endregion
 }
 
 [Serializable, NetSerializable, DataRecord]
@@ -144,3 +156,27 @@ public enum TamperSealLayers : byte
     Opened,
     Destroyed,
 }
+
+#region Far Horizons
+/// <summary>
+/// These are basically flags that are networked so the visualizer knows how to render it.
+/// </summary>
+[Serializable, NetSerializable]
+public enum FactionTamperSealVisuals : byte
+{
+    Opened,
+    Destroyed
+}
+
+/// <summary>
+/// Visual layers that are rendered client-side. The visualizer enables/disables these based on the visual flags.
+/// </summary>
+[Serializable, NetSerializable]
+public enum FactionTamperSealLayers : byte
+{
+    Base,
+    Sealed,
+    Opened,
+    Destroyed,
+}
+#endregion Far Horizons

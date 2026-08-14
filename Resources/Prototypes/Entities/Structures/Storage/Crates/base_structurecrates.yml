@@ -28,6 +28,12 @@
       visible: false
       map: [ "enum.TamperSealLayers.Sealed" ]
       # Starlight END
+      # Far Horizons Start
+    - state: crate_faction_ribbon_sealed
+      sprite: _FarHorizons/Structures/Storage/tamper_seal32.rsi
+      visible: false
+      map: [ "enum.FactionTamperSealLayers.Sealed" ]
+      # Far Horizons End
     - state: paper
       sprite: Structures/Storage/Crates/labels.rsi
       map: ["enum.PaperLabelVisuals.Layer"]
@@ -152,6 +158,12 @@
       visible: false
       map: [ "enum.TamperSealLayers.Sealed" ]
       # Starlight END
+      # Far Horizons Start
+    - state: crate_faction_ribbon_sealed
+      sprite: _FarHorizons/Structures/Storage/tamper_seal32.rsi
+      visible: false
+      map: [ "enum.FactionTamperSealLayers.Sealed" ]
+      # Far Horizons End
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallic

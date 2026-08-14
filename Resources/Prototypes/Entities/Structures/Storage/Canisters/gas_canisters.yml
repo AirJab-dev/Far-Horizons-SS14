@@ -49,13 +49,24 @@
         enum.TamperSealVisuals.Opened:
           enum.TamperSealLayers.Sealed:
             False: {
-              sprite: _Starlight/Structures/Storage/tamper_seal64.rsi,
+              sprite: _FarHorizons/Structures/Storage/tamper_seal64.rsi, #FH
               visible: true,
               state: canister_cap_sealed,
               color: "#ffffff"
             }
             True: { visible: false }
         # Starlight END
+        # FarHorizons Start
+        enum.FactionTamperSealVisuals.Opened:
+          enum.FactionTamperSealLayers.Sealed:
+            False: {
+              sprite: _FarHorizons/Structures/Storage/tamper_seal64.rsi, #FH
+              visible: true,
+              state: canister_ribbon_sealed,
+              color: "#ffffff"
+            }
+            True: { visible: false }
+        # FarHorizons Start End
         enum.PaperLabelVisuals.LabelType:
           enum.PaperLabelVisuals.Layer:
             Paper: { state: paper }

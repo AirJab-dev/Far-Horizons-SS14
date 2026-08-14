@@ -63,6 +63,8 @@ public sealed partial class TamperSealSystem : SharedTamperSealSystem
     {
         Appearance.SetData(uid, TamperSealVisuals.Opened, false);
         Appearance.SetData(uid, TamperSealVisuals.Destroyed, false);
+        Appearance.SetData(uid, FactionTamperSealVisuals.Opened, seal.Opened); //Far Horizons
+        Appearance.SetData(uid, FactionTamperSealVisuals.Destroyed, seal.Destroyed); //Far Horizons
     }
 
     /// <summary>
@@ -72,6 +74,8 @@ public sealed partial class TamperSealSystem : SharedTamperSealSystem
     {
         Appearance.RemoveData(uid, TamperSealVisuals.Opened);
         Appearance.RemoveData(uid, TamperSealVisuals.Destroyed);
+        Appearance.RemoveData(uid, FactionTamperSealVisuals.Opened); //Far Horizons
+        Appearance.RemoveData(uid, FactionTamperSealVisuals.Destroyed); //Far Horizons
     }
 
 }

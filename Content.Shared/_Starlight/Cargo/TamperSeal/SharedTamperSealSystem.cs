@@ -153,6 +153,8 @@ public abstract partial class SharedTamperSealSystem : EntitySystem
         // High-priority text so it shows at the top, since the tamper seal is the first thing you need to deal with
         // when interacting with an entity that has one.
         args.PushMarkup(Loc.GetString("tamper-seal-examine-sealed-restricted",
+            ("faction", Loc.GetString(seal.FactionName)), // FH
+            ("factionColor", seal.FactionColor), //FH
             ("recipient", GetLocRecipientName(seal)),
             ("recipientColor", seal.RecipientExamineColor)), 100);
     }
@@ -349,6 +351,7 @@ public abstract partial class SharedTamperSealSystem : EntitySystem
         Dirty(uid, seal);
 
         Appearance.SetData(uid, TamperSealVisuals.Opened, seal.Opened);
+        Appearance.SetData(uid, FactionTamperSealVisuals.Opened, seal.Opened); //Far Horizons
 
         _adminLogger.Add(LogType.Action, LogImpact.Medium,
             $"{ToPrettyString(user):player} unsealed the {GetLocRecipientName(seal)} tamper seal on {ToPrettyString(uid)}.");
@@ -378,6 +381,9 @@ public abstract partial class SharedTamperSealSystem : EntitySystem
         {
             Appearance.SetData(uid, TamperSealVisuals.Opened, seal.Opened);
             Appearance.SetData(uid, TamperSealVisuals.Destroyed, seal.Destroyed);
+
+            Appearance.SetData(uid, FactionTamperSealVisuals.Opened, seal.Opened); //Far Horizons
+            Appearance.SetData(uid, FactionTamperSealVisuals.Destroyed, seal.Destroyed); //Far Horizons
         }
 
         // Log the destruction.

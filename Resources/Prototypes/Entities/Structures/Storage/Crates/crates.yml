@@ -62,6 +62,12 @@
         sprite: Structures/Storage/Crates/labels.rsi
         map: ["enum.PaperLabelVisuals.Layer"]
     # Starlight END
+      # Far Horizons Start
+      - state: freezer_faction_ribbon_sealed
+        sprite: _FarHorizons/Structures/Storage/tamper_seal32.rsi
+        visible: false
+        map: [ "enum.FactionTamperSealLayers.Sealed" ]
+      #Far Horizons
 
   - type: AntiRottingContainer
   - type: ExplosionResistance
@@ -382,6 +388,12 @@
       visible: false
       map: [ "enum.TamperSealLayers.Sealed" ]
       # Starlight END
+      # Far Horizons Start
+    - state: livestock_faction_ribbon_sealed # Tamper seal
+      sprite: _FarHorizons/Structures/Storage/tamper_seal32.rsi
+      visible: false
+      map: [ "enum.FactionTamperSealLayers.Sealed" ]
+      # Far Horizons End
     - state: paper
       sprite: Structures/Storage/Crates/labels.rsi
       offset: "-0.25,0.625"
@@ -705,6 +717,12 @@
       visible: false
       map: [ "enum.TamperSealLayers.Sealed" ]
       # Starlight END
+      # Far Horizons Start
+    - state: pirate_faction_ribbon_sealed
+      sprite: _FarHorizons/Structures/Storage/tamper_seal32.rsi
+      visible: false
+      map: [ "enum.FactionTamperSealLayers.Sealed" ]
+      # Far Horizons End
     - state: paper
       sprite: Structures/Storage/Crates/labels.rsi
       offset: "0.0,-0.09375"
@@ -740,6 +758,12 @@
       visible: false
       map: [ "enum.TamperSealLayers.Sealed" ]
       # Starlight END
+      # Far Horizons Start
+    - state: toybox_faction_ribbon_sealed
+      sprite: _FarHorizons/Structures/Storage/tamper_seal32.rsi
+      visible: false
+      map: [ "enum.FactionTamperSealLayers.Sealed" ]
+      # Far Horizons End
     - state: paper
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: Icon

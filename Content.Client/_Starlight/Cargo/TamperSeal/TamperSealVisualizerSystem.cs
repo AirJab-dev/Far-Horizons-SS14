@@ -8,7 +8,6 @@ namespace Content.Client._Starlight.Cargo.TamperSeal;
 /// </summary>
 public sealed partial class TamperSealVisualizerSystem : VisualizerSystem<TamperSealComponent>
 {
-    [Dependency] private AppearanceSystem _appearance = default!;
     [Dependency] private SpriteSystem _sprite = default!;
 
     protected override void OnAppearanceChange(EntityUid uid, TamperSealComponent component,
@@ -26,6 +25,14 @@ public sealed partial class TamperSealVisualizerSystem : VisualizerSystem<Tamper
         ShowLayerConditional(ent, TamperSealLayers.Sealed, color, !opened);
         ShowLayerConditional(ent, TamperSealLayers.Opened, color, opened);
         ShowLayerConditional(ent, TamperSealLayers.Destroyed, color, opened && destroyed);
+
+        // Far Horizons Start
+        var factionColor = component.FactionColor;
+        ShowLayerConditional(ent, FactionTamperSealLayers.Base, factionColor, true);
+        ShowLayerConditional(ent, FactionTamperSealLayers.Sealed, factionColor, !opened);
+        ShowLayerConditional(ent, FactionTamperSealLayers.Opened, factionColor, opened);
+        ShowLayerConditional(ent, FactionTamperSealLayers.Destroyed, factionColor, opened && destroyed);
+        // Far Horizons End
     }
 
     /// <summary>
