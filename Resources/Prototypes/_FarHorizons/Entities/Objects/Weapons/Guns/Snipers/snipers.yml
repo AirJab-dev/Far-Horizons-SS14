@@ -179,7 +179,7 @@
   name: Civilian Lever-Action
   parent: [BaseWeaponSniper]
   id: WeaponSniperLeverCivilian
-  description: A civilian lever-action sniper. Accepts .30 and .44 Magnum cartridges.
+  description: A civilian lever-action rifle. Accepts .30 and .44 Magnum cartridges.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Snipers/forged_rifle.rsi

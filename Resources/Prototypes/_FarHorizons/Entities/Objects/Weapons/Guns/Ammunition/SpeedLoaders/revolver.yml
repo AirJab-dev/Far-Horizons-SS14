@@ -223,6 +223,7 @@
 - type: entity
   id: SpeedLoaderRevolver38CivilianEmpty
   name: ".38 Special Civilian Speed Loader (Revolver Any)"
+  suffix: Empty
   parent: BaseSpeedLoaderRevolver38Civilian
   description: 6-round revolver speedloader. Intended to hold general-purpose kinetic ammunition.
   components:

@@ -492,7 +492,7 @@
 - type: entity
   id: MagazinePistolCivilianEmpty
   name: 9mm Civilian Magazine (Pistol Any)
-  suffix: empty
+  suffix: Empty
   parent: MagazinePistolCivilianSP
   description: 7-round single stack pistol magazine. Intended to hold general-purpose kinetic ammunition.
   components:

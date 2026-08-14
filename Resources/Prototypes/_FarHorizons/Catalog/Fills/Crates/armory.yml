@@ -1,7 +1,7 @@
 - type: entity
   parent: [ CrateWeaponSecure, BaseSecurityContraband ]
   id: CrateArmorySMGLight
-  name: Light SMG crate
+  name: Light SMG Crate
   description: Contains two P2-91s with four mags. Requires Armory access to open.
   components:
   - type: EntityTableContainerFill
@@ -16,7 +16,7 @@
 - type: entity
   parent: [ CrateWeaponSecure, BaseSecurityContraband ]
   id: CrateArmoryCivilianMk58
-  name: Civilian Mk 58 crate
+  name: Civilian Mk 58 Crate
   description: Contains two Civilian Mk 58s with four mags. Requires Armory access to open.
   components:
   - type: EntityTableContainerFill
@@ -31,7 +31,7 @@
 - type: entity
   parent: [ CrateWeaponSecure, BaseSecurityContraband ]
   id: CrateArmoryCivilianMk59
-  name: Civilian Mk 59 crate
+  name: Civilian Mk 59 Crate
   description: Contains two Civilian Mk 59s with four mags. Requires Armory access to open.
   components:
   - type: EntityTableContainerFill
@@ -46,7 +46,7 @@
 - type: entity
   parent: [ CrateWeaponSecure, BaseSecurityContraband ]
   id: CrateArmoryCivilianMk78
-  name: Civilian Mk 78 crate
+  name: Civilian Mk 78 Crate
   description: Contains two Civilian Mk 78s with four mags. Requires Armory access to open.
   components:
   - type: EntityTableContainerFill
@@ -61,7 +61,7 @@
 - type: entity
   parent: [ CrateWeaponSecure, BaseSecurityContraband ]
   id: CrateArmoryCivilianInstigator
-  name: Civilian Instigator crate
+  name: Civilian Instigator Crate
   description: Contains two Civilian Instigators with four speed loaders. Requires Armory access to open.
   components:
   - type: EntityTableContainerFill
@@ -76,7 +76,7 @@
 - type: entity
   parent: [ CrateWeaponSecure, BaseSecurityContraband ]
   id: CrateArmoryCivilianLever
-  name: Civilian Lever-Action crate
+  name: Civilian Lever-Action Crate
   description: Contains two Civilian Lever-Actions with four speed loaders. Requires Armory access to open.
   components:
   - type: EntityTableContainerFill
