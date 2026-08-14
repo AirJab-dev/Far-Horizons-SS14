@@ -17524,5 +17524,12 @@ Entries:
   id: 155200
   time: '2026-08-14T17:37:08.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1552
+- author: mogaiskii
+  changes:
+  - message: Removed roundstart plasmafire on unity.
+    type: Remove
+  id: 155300
+  time: '2026-08-14T17:48:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1553
 Order: -1
 
