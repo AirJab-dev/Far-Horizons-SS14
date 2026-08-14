@@ -46,7 +46,7 @@ public sealed partial class InfectCommand : LocalizedEntityCommands
         if(disease == null || stageData == null)
             return;
 
-        if (!_disease.Infect(targetUid, disease, stageData))
+        if (!_disease.Infect(targetUid, disease.Value, stageData))
         {
             shell.WriteError(Loc.GetString("cmd-infect-fail"));
             return;

@@ -31,11 +31,11 @@ public sealed partial class TransitionDiseaseEntityEffectSystem : EntityEffectSy
         if(disease == null || stage == null)
             return;
 
-        if(! _disease.CanBeInfected(entity.Owner, disease))
+        if(! _disease.CanBeInfected(entity.Owner, disease.Value))
             return;
 
         entity.Comp.ActiveDiseases.Remove(transitionFrom);
-        _disease.Infect(entity.Owner, disease, stage);
+        _disease.Infect(entity.Owner, disease.Value, stage);
     }
 }
 

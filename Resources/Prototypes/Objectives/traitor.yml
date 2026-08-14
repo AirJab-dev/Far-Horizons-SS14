@@ -118,8 +118,9 @@
         - CommandStaff
         - HighValueTarget #FH
     # Can't have multiple objectives to kill the same person.
-    - !type:TargetObjectiveMindFilter
-      blacklist:
+    - !type:ObjectiveTargetCondition
+      inverted: true
+      whitelist:
         components:
         - KillPersonCondition
   - type: KillPersonCondition

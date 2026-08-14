@@ -46,8 +46,6 @@ public sealed partial class VaccinateCommand : LocalizedEntityCommands
             comp = EntityManager.AddComponent<DiseaseCarrierComponent>(targetUid);
 
         var disease = comp.ActiveDiseases.Keys.First(x => x.Id == diseaseId);
-        if (disease == null)
-            return;
         
         _cure.ApplyCureDisease((targetUid, comp), disease);
 

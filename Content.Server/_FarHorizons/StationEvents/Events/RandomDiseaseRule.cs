@@ -44,7 +44,7 @@ public sealed partial class RandomDiseaseRule : StationEventSystem<RandomDisease
             if (StationSystem.GetOwningStation(ent, xform) != station)
                 continue;
 
-            if (!_disease.CanBeInfected(ent, disease))
+            if (!_disease.CanBeInfected(ent, disease.Value))
                 continue;
 
             if (!mind.HasMind)
@@ -70,11 +70,11 @@ public sealed partial class RandomDiseaseRule : StationEventSystem<RandomDisease
             // Optional: skip entities already immune if desired.
             if (comp.SkipImmune)
             {
-                if (TryComp<DiseaseCarrierComponent>(ent, out var carrier) && carrier.Immunity.TryGetValue(disease, out var immunity) && immunity >= 1f)
+                if (TryComp<DiseaseCarrierComponent>(ent, out var carrier) && carrier.Immunity.TryGetValue(disease.Value, out var immunity) && immunity >= 1f)
                     continue;
             }
 
-            if (_disease.Infect(ent, disease, stage))
+            if (_disease.Infect(ent, disease.Value, stage))
                 infected++;
         }
     }

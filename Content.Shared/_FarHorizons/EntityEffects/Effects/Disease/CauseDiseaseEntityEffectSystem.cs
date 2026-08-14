@@ -26,30 +26,30 @@ public sealed partial class CauseDiseaseEntityEffectSystem : EntityEffectSystem<
             
         if (args.Effect.ForceInfect)
         {
-            _disease.Infect(entity.Owner, disease, stage);
+            _disease.Infect(entity.Owner, disease.Value, stage);
             return;
         }
 
-       if(!_disease.CanBeInfected(entity.Owner, disease))
+       if(!_disease.CanBeInfected(entity.Owner, disease.Value))
         return;
 
-        switch (disease.SpreadPath)
+        switch (disease.Value.SpreadPath)
         {
             case DiseaseSpreadPath.Contact:
                 {
-                    var probability = _disease.AdjustContactChanceForProtection(entity.Owner, proto.ContactInfect, disease);
-                    _disease.TryInfectWithChance(entity.Owner, disease, stage, probability);
+                    var probability = _disease.AdjustContactChanceForProtection(entity.Owner, proto.ContactInfect, disease.Value);
+                    _disease.TryInfectWithChance(entity.Owner, disease.Value, stage, probability);
                     break;
                 }
             case DiseaseSpreadPath.Airborne:
                 {
-                    var probability = _disease.AdjustAirborneChanceForProtection(entity.Owner, proto.AirborneInfect, disease);
-                    _disease.TryInfectWithChance(entity.Owner, disease, stage, probability);
+                    var probability = _disease.AdjustAirborneChanceForProtection(entity.Owner, proto.AirborneInfect, disease.Value);
+                    _disease.TryInfectWithChance(entity.Owner, disease.Value, stage, probability);
                     break;
                 }
             default:
                 {
-                    _disease.Infect(entity.Owner, disease, stage);
+                    _disease.Infect(entity.Owner, disease.Value, stage);
                     break;
                 }
         }
