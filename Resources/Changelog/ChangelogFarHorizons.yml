@@ -17472,5 +17472,50 @@ Entries:
   id: 150205
   time: '2026-08-14T00:13:42.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1502
+- author: Mizuki
+  changes:
+  - message: Adds civilian version of Mk 58, Mk 59, Mk 78, and Instigator, along with
+      a civilian lever-action
+    type: Add
+  id: 154600
+  time: '2026-08-14T05:45:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1546
+- author: Mizuki
+  changes:
+  - message: Adds civilian magazines and speed loaders
+    type: Add
+  id: 154601
+  time: '2026-08-14T05:45:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1546
+- author: Mizuki
+  changes:
+  - message: Adds cargo crate purchases for civilian versions of Mk 58, Mk 59, Mk
+      78, Inspector, and Lever-Action
+    type: Add
+  id: 154602
+  time: '2026-08-14T05:45:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1546
+- author: Mizuki
+  changes:
+  - message: Adds 480 round ammo crates for 9mm SP, .44 Magnum SP, and .38 Special
+      SP
+    type: Add
+  id: 154603
+  time: '2026-08-14T05:45:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1546
+- author: Mizuki
+  changes:
+  - message: Removes mentions of .35 ammo in Mk 78 and Viper description
+    type: Tweak
+  id: 154604
+  time: '2026-08-14T05:45:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1546
+- author: Mizuki
+  changes:
+  - message: Added loadout options for civilian firearms that are unlocked over time.
+    type: Add
+  id: 154605
+  time: '2026-08-14T05:45:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1546
 Order: -1
 
