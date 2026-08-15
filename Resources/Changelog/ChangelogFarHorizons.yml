@@ -17626,5 +17626,12 @@ Entries:
   id: 155109
   time: '2026-08-15T15:52:06.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: Mizuki
+  changes:
+  - message: Decreased firerate of civilian longarm and instigator
+    type: Tweak
+  id: 156200
+  time: '2026-08-15T17:52:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1562
 Order: -1
 
