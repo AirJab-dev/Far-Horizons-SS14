@@ -17531,5 +17531,12 @@ Entries:
   id: 155300
   time: '2026-08-14T17:48:16.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1553
+- author: Mizuki
+  changes:
+  - message: NT Med now has their civilian weapon loadouts
+    type: Tweak
+  id: 155700
+  time: '2026-08-15T10:36:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1557
 Order: -1
 
