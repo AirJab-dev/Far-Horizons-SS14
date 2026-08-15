@@ -11,7 +11,7 @@ namespace Content.Server._Starlight.Cargo.TamperSeal;
 public sealed partial class TamperSealSystem : SharedTamperSealSystem
 {
     [Dependency] private DestructibleSystem _destructible = default!;
-    [Dependency] private readonly DamageableSystem _damage = default!; //Far Horizons
+    [Dependency] private DamageableSystem _damage = default!; //Far Horizons
 
     public override void Initialize()
     {
