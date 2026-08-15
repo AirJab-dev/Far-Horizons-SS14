@@ -8,11 +8,11 @@ spray-painter-tab-group-fhairlockglass = Glass
 spray-painter-tab-group-wallsolid= Solid
 spray-painter-tab-group-wallreinforced= Reinforced
 spray-painter-tab-group-window= Window
-spray-painter-tab-group-reinforcedwindow= Reinforced Window
-spray-painter-tab-group-plasmawindow= Plasma Window
-spray-painter-tab-group-reinforcedplasmawindow= Reinforced Plasma Window
-spray-painter-tab-group-uraniumwindow= Uranium Window
-spray-painter-tab-group-reinforceduraniumwindow= Reinforced Uranium Window
+spray-painter-tab-group-reinforcedwindow= Reinforced
+spray-painter-tab-group-plasmawindow= Plasma
+spray-painter-tab-group-reinforcedplasmawindow= Reinforced Plasma
+spray-painter-tab-group-uraniumwindow= Uranium
+spray-painter-tab-group-reinforceduraniumwindow= Reinforced Uranium
 
 # Airlocks
 spray-painter-style-fhairlockstandard-atmospherics = Atmospheric
