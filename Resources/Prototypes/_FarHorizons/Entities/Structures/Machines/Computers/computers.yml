@@ -1213,10 +1213,10 @@
           False: { visible: true }
       enum.EdgeConnectionVisuals.ConnectionMask:
         computerLayerBody:
-          None: { state: computer-sci, sprite: _FarHorizons/Structures/Machines/Computers/NeoSol/engineering.rsi }
-          West: { state: computer_r-sci, sprite: _FarHorizons/Structures/Machines/Computers/NeoSol/engineering.rsi }
-          East: { state: computer_l-sci, sprite: _FarHorizons/Structures/Machines/Computers/NeoSol/engineering.rsi }
-          East, West: { state: computer_l_r-sci, sprite: _FarHorizons/Structures/Machines/Computers/NeoSol/engineering.rsi }
+          None: { state: computer-sci, sprite: _FarHorizons/Structures/Machines/Computers/NeoSol/science.rsi }
+          West: { state: computer_r-sci, sprite: _FarHorizons/Structures/Machines/Computers/NeoSol/science.rsi }
+          East: { state: computer_l-sci, sprite: _FarHorizons/Structures/Machines/Computers/NeoSol/science.rsi }
+          East, West: { state: computer_l_r-sci, sprite: _FarHorizons/Structures/Machines/Computers/NeoSol/science.rsi }
   - type: CargoOrderConsole
     account: ScienceNS
     announcementChannel: SyndiSci
