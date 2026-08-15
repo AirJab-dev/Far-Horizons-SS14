@@ -8,11 +8,7 @@
   supervisors: job-supervisors-qm
   access:
   - Cargo
-  - Mail
   - Maintenance
-  extendedAccess:
-  - Salvage
-  - Mining
   special:
   - !type:GiveItemOnHolidaySpecial
     holiday: BoxingDay
@@ -21,12 +17,14 @@
 - type: startingGear
   id: MailTechGear
   equipment:
+    id: MailPDA
     ears: ClothingHeadsetCargo
     belt: ClothingBeltCargo #Far Horizons
     pocket1: MailCompanion # Starlight
   storage:
-    back: # literally just comment to update folder
-    - Multitool #maybe not a good idea? idk makes unpacking it quick 
+    back:
+    - MailTrolleyFlatpack
+    - Multitool #maybe not a good idea? idk makes unpacking it quick
     - MailBag # Far Horizons - Unfortunately this most likely just drops to the ground on spawn and I don't feel like fixing that currently. -Corrupt
 
 - type: chameleonOutfit

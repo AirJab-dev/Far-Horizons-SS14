@@ -400,7 +400,7 @@
   parent: BasePDA
   id: MailPDA
   name: Mail PDA #Far Horizons - The Great Capitalization Crusade
-  description: Watch out for papercuts.
+  description: watch out for papercuts.
   components:
   - type: Sprite
     sprite: _FarHorizons/Objects/Devices/pda.rsi #FH
@@ -417,28 +417,6 @@
   - type: Icon
     sprite: _FarHorizons/Objects/Devices/pda.rsi #FH
     state: pda-mailtech
-
-- type: entity
-  parent: BasePDA
-  id: SeniorMailPDA
-  name: senior mail PDA
-  description: Nothing stops the mail.
-  components:
-  - type: Sprite
-    sprite: _Starlight/Objects/Devices/pda.rsi
-  - type: Pda
-    id: MailTechIDCard
-  - type: Appearance
-    appearanceDataInit:
-      enum.PdaVisuals.PdaType:
-        !type:String
-        pda-seniormailtech
-  - type: PdaBorderColor
-    borderColor: "#e39751"
-    accentVColor: "#6ec8fa"
-  - type: Icon
-    sprite: _Starlight/Objects/Devices/pda.rsi
-    state: pda-seniormailtech
 
 # Pun Pun
 - type: entity

@@ -43,7 +43,6 @@
   - type: AccessReader
     access: [["Paramedic"]]
 
-# Mining
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsMining
@@ -52,7 +51,6 @@
     - type: AccessReader
       access: [["Mining"]]
 
-#Salvage-Mining
 - type: entity # Combination door for salvage and mining access
   parent: DoorElectronics
   id: DoorElectronicsSalvageMining
@@ -60,12 +58,3 @@
   components:
     - type: AccessReader
       access: [["Salvage"], ["Mining"]]
-
-#Mail Technician
-- type: entity
-  parent: DoorElectronics
-  id: DoorElectronicsMail
-  suffix: Mail, Locked
-  components:
-    - type: AccessReader
-      access: [["Mail"]]

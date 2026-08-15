@@ -50,15 +50,6 @@ loadout-group-iia-shoes = Lawyer Shoes
 loadout-group-civilian-shoes = Shoes
 
 # Cargo
-loadout-group-cargo-technician-appraisal-tool = Cargo Technician Appraisal Tool
-loadout-group-mail-technician-head = Mail Technician Head
-loadout-group-mail-technician-jumpsuit = Mail Technician Jumpsuit
-loadout-group-mail-technician-backpack = Mail Technician Backpack
-loadout-group-mail-technician-outerclothing = Mail Technician Outer Clothing
-loadout-group-mail-technician-shoes = Mail Technician Shoes
-loadout-group-mail-technician-id = Mail Technician ID
-loadout-group-mail-technician-bag = Mail Technician Bag
-loadout-group-mail-technician-trolley = Mail Technician Trolley
 loadout-group-salvage-specialist-jumpsuit = Salvage Specialist Jumpsuit
 loadout-group-salvage-lead-jumpsuit = Salvage Lead Jumpsuit
 loadout-group-mining-specialist-jumpsuit = Mining Specialist Jumpsuit

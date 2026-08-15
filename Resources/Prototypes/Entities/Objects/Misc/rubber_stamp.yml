@@ -24,7 +24,6 @@
   - type: Tag #FH
     tags: #FH
     - SurvivalKitItems #FH
-    - Stamp # Starlight end
 
 - type: entity
   name: alternate rubber stamp

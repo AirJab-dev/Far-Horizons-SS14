@@ -27,7 +27,6 @@
     retrosalvage: AirlockRetroSalvage
     retromining: AirlockRetroMining
     retrosalvagemining: AirlockRetroSalvageMining
-    mail: AirlockMail
     # Starlight End
 
 - type: paintableGroup

@@ -114,14 +114,11 @@
 - type: roleLoadout
   id: JobMailTech
   groups:
-  - MailTechnicianHead
-  - MailTechnicianJumpsuit
-  - MailTechnicianBackpack
-  - MailTechnicianOuterClothing
-  - MailTechnicianShoes
-  - MailTechnicianPDA
-  - MailTechnicianBag
-  - MailTechnicianTrolley
+  - CargoTechnicianHead
+  - CargoTechnicianJumpsuit
+  - CargoTechnicianBackpack
+  - CargoTechnicianOuterClothing
+  - CargoTechnicianShoes
   - Glasses
   - SurvivalCargo #FH
   - Trinkets

@@ -8,7 +8,6 @@
     botanist: LockerBotanist
     brigmedic: LockerBrigmedic
     captain: LockerCaptain
-    cargo: LockerCargo # Starlight
     ce: LockerChiefEngineer
     chemical: LockerChemistry
     clown: LockerClown
@@ -20,7 +19,6 @@
     hop: LockerHeadOfPersonnel
     hos: LockerHeadOfSecurity
     magistrate: LockerMagistrate #Far Horizons
-    mail: LockerMail # Starlight
     mime: LockerMime
     medicine: LockerMedicine
     paramedic: LockerParamedic

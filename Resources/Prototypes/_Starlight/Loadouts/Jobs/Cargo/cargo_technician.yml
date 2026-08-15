@@ -1,13 +1,3 @@
-# Star Time
-- type: loadoutEffectGroup
-  id: StarOfCargo
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobCargoTechnician
-      time: 360000 # 100 hrs
-
 - type: loadout
   id: CargoTechnicianJumpsuitAlt
   equipment:
@@ -97,19 +87,3 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: SeniorCargo
-
-# Appraisal tool
-- type: loadout
-  id: AppraisalTool
-  storage:
-    belt:
-    - AppraisalTool
-
-- type: loadout
-  id: GoldenAppraisalTool
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: StarOfCargo
-  storage:
-    belt:
-    - GoldenAppraisalTool

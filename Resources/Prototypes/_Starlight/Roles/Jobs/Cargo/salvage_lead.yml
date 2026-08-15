@@ -21,7 +21,6 @@
   - ExternalNS  # Far Horizons
   extendedAccess:
   - Mining
-  - Mail
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]

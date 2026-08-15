@@ -6,7 +6,6 @@ id-card-access-level-iaa = Internal Affairs
 # Cargo
 id-card-access-level-salvagelead = Salvage Lead
 id-card-access-level-mining = Mining
-id-card-access-level-mail = Mail
 
 # Engineering
 
