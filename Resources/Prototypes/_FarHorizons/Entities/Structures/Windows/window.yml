@@ -182,3 +182,87 @@
     - On
     - Off
     - Toggle
+
+#region Reinf. Shuttle Window
+- type: entity
+  parent: [BaseDeltaPressurePlasmaQuarter, WindowRCDResistant]
+  id: ShuttleWindowReinforced
+  name: Reinforced Shuttle Window
+  suffix: NT
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+  - type: Repairable
+    fuelCost: 15
+    doAfterDelay: 3
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: RGlass
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 750
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+          PartRodMetal:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IconSmooth
+    key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align.
+    base: swindow
+  - type: Appearance
+  - type: DamageVisuals
+    thresholds: [5, 10, 20]
+    damageDivisor: 20
+    trackAllDamage: true
+    damageOverlay:
+      sprite: Structures/Windows/cracks.rsi
+  - type: StaticPrice
+    price: 250
+  - type: Construction
+    graph: Window
+    node: ReinforcedShuttleWindow
+
+- type: entity
+  id: ShuttleWindowReinforcedGeneric
+  parent: ShuttleWindowReinforced
+  suffix: Generic
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+    state: full
+
+- type: entity
+  id: ShuttleWindowReinforcedNS
+  parent: ShuttleWindowReinforced
+  suffix: NS
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/NeoSol/shuttlewindow.rsi 
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NeoSol/shuttlewindow.rsi 
+    state: full
+

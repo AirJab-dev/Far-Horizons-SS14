@@ -57,3 +57,13 @@
     nanotrasen: ReinforcedUraniumWindow
     generic: ReinforcedUraniumWindowGeneric
     neosol: ReinforcedUraniumWindowNS
+
+- type: paintableGroup
+  id: ShuttleWindowReinforced
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: ShuttleWindowReinforced
+    generic: ShuttleWindowReinforcedGeneric
+    neosol: ShuttleWindowReinforcedNS
