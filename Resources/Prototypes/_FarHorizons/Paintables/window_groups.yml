@@ -67,3 +67,13 @@
     nanotrasen: ShuttleWindowReinforced
     generic: ShuttleWindowReinforcedGeneric
     neosol: ShuttleWindowReinforcedNS
+
+- type: paintableGroup
+  id: ShuttleWindowArmored
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: ShuttleWindowArmored
+    generic: ShuttleWindowArmoredGeneric
+    neosol: ShuttleWindowArmoredNS

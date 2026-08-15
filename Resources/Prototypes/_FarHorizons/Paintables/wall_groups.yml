@@ -17,3 +17,33 @@
     nanotrasen: WallReinforced
     generic: WallReinforcedGeneric
     neosol: WallReinforcedNS
+
+- type: paintableGroup
+  id: WallShuttle
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: WallShuttle
+    generic: WallShuttleGeneric
+    neosol: WallShuttleNS
+
+- type: paintableGroup
+  id: WallShuttleReinforced
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: WallShuttleReinforced
+    generic: WallShuttleReinforcedGeneric
+    neosol: WallShuttleReinforcedNS
+
+- type: paintableGroup
+  id: WallShuttleArmored
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: WallShuttleArmored
+    generic: WallShuttleArmoredGeneric
+    neosol: WallShuttleArmoredNS

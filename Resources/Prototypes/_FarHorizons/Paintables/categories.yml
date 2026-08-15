@@ -3,6 +3,9 @@
   groups:
   - WallSolid
   - WallReinforced
+  - WallShuttle
+  - WallShuttleReinforced
+  - WallShuttleArmored
 
 - type: paintableGroupCategory
   id: Windows
@@ -14,3 +17,4 @@
   - UraniumWindow
   - ReinforcedUraniumWindow
   - ShuttleWindowReinforced
+  - ShuttleWindowArmored

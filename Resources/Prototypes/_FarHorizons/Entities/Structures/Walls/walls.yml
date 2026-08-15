@@ -167,7 +167,30 @@
     state: rgeneric
   - type: Construction
     graph: Girder
-    node: reinforcedWallRust#region WallShuttleReinforced
+    node: reinforcedWallRust
+
+#region WallShuttle
+- type: entity
+  parent: WallShuttle
+  id: WallShuttleGeneric
+  suffix: Generic
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/shuttle.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/shuttle.rsi
+
+- type: entity
+  parent: WallShuttle
+  id: WallShuttleNS
+  suffix: NS
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Walls/NeoSol/shuttle.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Walls/NeoSol/shuttle.rsi
+
+#region WallShuttleReinforced
 - type: entity
   parent: BaseWall
   id: WallShuttleReinforced
@@ -204,9 +227,9 @@
   - type: RadiationBlocker
     resistance: 7
   - type: Sprite
-    sprite: Structures/Walls/shuttle.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/reinf_shuttle.rsi
   - type: Icon
-    sprite: Structures/Walls/shuttle.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/reinf_shuttle.rsi
     state: full
   - type: IconSmooth
     key: walls
@@ -246,9 +269,9 @@
   suffix: Generic
   components:
   - type: Sprite
-    sprite: _FarHorizons/Structures/Walls/Generic/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/reinf_shuttle.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Walls/Generic/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/reinf_shuttle.rsi
 
 - type: entity
   parent: WallShuttleReinforced
@@ -256,9 +279,9 @@
   suffix: NS
   components:
   - type: Sprite
-    sprite: _FarHorizons/Structures/Walls/NeoSol/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/reinf_shuttle.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Walls/NeoSol/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/reinf_shuttle.rsi
 
 #region WallShuttleReinforcedDiagonal
 - type: entity
@@ -391,9 +414,9 @@
   - type: RadiationBlocker
     resistance: 10
   - type: Sprite
-    sprite: Structures/Walls/shuttle.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/reinf_shuttle.rsi
   - type: Icon
-    sprite: Structures/Walls/shuttle.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/reinf_shuttle.rsi
     state: full
   - type: IconSmooth
     key: walls
@@ -435,19 +458,19 @@
   suffix: Generic
   components:
   - type: Sprite
-    sprite: _FarHorizons/Structures/Walls/Generic/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/reinf_shuttle.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Walls/Generic/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/reinf_shuttle.rsi
 
 - type: entity
-  parent: WallShuttleRWallShuttleArmoredeinforced
+  parent: WallShuttleArmored
   id: WallShuttleArmoredNS
   suffix: NS
   components:
   - type: Sprite
-    sprite: _FarHorizons/Structures/Walls/NeoSol/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/reinf_shuttle.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Walls/NeoSol/solid.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/reinf_shuttle.rsi
 
 #region WallShuttleArmoredDiagonal
 - type: entity
