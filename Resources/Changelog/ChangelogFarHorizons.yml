@@ -17640,5 +17640,12 @@ Entries:
   id: 156300
   time: '2026-08-15T18:23:12.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1563
+- author: Chubbygummibear
+  changes:
+  - message: Directional and rotating lights are once again working as expected.
+    type: Fix
+  id: 156600
+  time: '2026-08-15T23:55:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1566
 Order: -1
 
