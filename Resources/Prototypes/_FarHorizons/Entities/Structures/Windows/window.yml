@@ -266,3 +266,234 @@
     sprite: _FarHorizons/Structures/Windows/NeoSol/shuttlewindow.rsi 
     state: full
 
+#region Reinf. Shuttle Diag
+
+- type: entity
+  parent: ShuttleWindowReinforced
+  id: ShuttleWindowReinforcedDiagonal
+  suffix: Diagonal, NT
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls
+    base: state
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "-0.5,-0.5"
+            - "0.5,0.5"
+            - "0.5,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - East
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: Structures/Windows/cracks_diagonal.rsi
+  - type: Construction
+    graph: Window
+    node: ReinforcedShuttleWindowDirectional
+
+- type: entity
+  id: ShuttleWindowReinforcedDiagonalGeneric
+  parent: ShuttleWindowReinforcedDiagonal
+  suffix: Diagonal, Generic
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    state: full
+
+- type: entity
+  id: ShuttleWindowReinforcedDiagonalNS
+  parent: ShuttleWindowReinforcedDiagonal
+  suffix: Diagonal, NS
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    state: full
+
+#region A.Shuttle Window
+- type: entity
+  id: ShuttleWindowArmored
+  name: Armored Shuttle Window
+  suffix: NT
+  parent: [BaseDeltaPressureReinforcedPlasmaQuarter, WindowRCDResistant]
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+  - type: Repairable
+    fuelCost: 15
+    doAfterDelay: 3
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: RGlass
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+          PartRodMetal:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IconSmooth
+    key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align.
+    base: swindow 
+  - type: Appearance
+  - type: DamageVisuals
+    thresholds: [5, 10, 20]
+    damageDivisor: 20
+    trackAllDamage: true
+    damageOverlay:
+      sprite: Structures/Windows/cracks.rsi
+  - type: StaticPrice
+    price: 350
+  - type: Construction
+    graph: Window
+    node: ArmoredShuttleWindow
+
+- type: entity
+  id: ShuttleWindowArmoredGeneric
+  parent: ShuttleWindowArmored
+  suffix: Generic
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+    state: full
+
+- type: entity
+  id: ShuttleWindowArmoredNS
+  parent: ShuttleWindowArmored
+  suffix: NS
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/NeoSol/shuttlewindow.rsi 
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NeoSol/shuttlewindow.rsi 
+    state: full
+
+#region A. Shuttle Win Diag
+- type: entity
+  parent: ShuttleWindowArmored
+  id: ShuttleWindowArmoredDiagonal
+  suffix: Diagonal, NT
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls
+    base: state
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "-0.5,-0.5"
+            - "0.5,0.5"
+            - "0.5,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - East
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: Structures/Windows/cracks_diagonal.rsi
+  - type: Construction
+    graph: Window
+    node: ArmoredShuttleWindowDirectional
+
+- type: entity
+  id: ShuttleWindowArmoredDiagonalGeneric
+  parent: ShuttleWindowArmoredDiagonal
+  suffix: Diagonal, Generic
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    state: full
+
+- type: entity
+  id: ShuttleWindowArmoredDiagonalNS
+  parent: ShuttleWindowArmoredDiagonal
+  suffix: Diagonal, NS
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    state: full

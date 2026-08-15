@@ -341,7 +341,7 @@
               doAfter: 1
 
     - node: ArmoredShuttleWindow
-      entity: ShuttleWindowArmored
+      entity: ShuttleWindowArmoredGeneric
       edges:
         - to: start
           completed:
