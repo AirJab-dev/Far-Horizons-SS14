@@ -44,8 +44,7 @@
         - FullTileMask
         layer:
         - WallLayer
-        density: 4000
-  - type: LineOfSightExclude # Far Horizons
+        density: 5000 #FH
 
 - type: entity
   id: PlastitaniumWindowSquareBase
@@ -91,13 +90,13 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1000
+        damage: 2000 #FH
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 500
+        damage: 1500 #FH
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -160,7 +159,7 @@
         - FullTileMask
         layer:
         - GlassLayer
-        density: 4000
+        density: 5000 #FH
   - type: Airtight
     noAirWhenFullyAirBlocked: false
     airBlockedDirection:
@@ -186,13 +185,13 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1000
+        damage: 2000 #FH
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 500
+        damage: 1500 #FH
       behaviors:
       - !type:PlaySoundBehavior
         sound:
