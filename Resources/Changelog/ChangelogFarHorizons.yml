@@ -17538,5 +17538,12 @@ Entries:
   id: 155700
   time: '2026-08-15T10:36:56.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1557
+- author: jhrushbe, Cormorant
+  changes:
+  - message: Resprite of the AME.
+    type: Tweak
+  id: 155800
+  time: '2026-08-15T10:41:07.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1558
 Order: -1
 
