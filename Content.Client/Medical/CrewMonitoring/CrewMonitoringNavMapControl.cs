@@ -51,7 +51,7 @@ public sealed partial class CrewMonitoringNavMapControl : NavMapControl
         _trackedEntityPanel.AddChild(_trackedEntityLabel);
         this.AddChild(_trackedEntityPanel);
         _transformSystem = EntManager.System<SharedTransformSystem>();//FarHorizons
-        _recenterButton = TryGetRecenterButton();
+        _recenterButton = TryGetRecenterButton(); // Starlight
         MapClickedAction += coords => MapClicked?.Invoke(coords); // Starlight
     }
 
@@ -59,6 +59,7 @@ public sealed partial class CrewMonitoringNavMapControl : NavMapControl
     {
         base.FrameUpdate(args);
 
+        // Starlight Start
         if (!AllowManualRecentering)
         {
             Recentering = false;
@@ -84,6 +85,7 @@ public sealed partial class CrewMonitoringNavMapControl : NavMapControl
 
             return;
         }
+        // Starlight End
 
         foreach ((var netEntity, var blip) in TrackedEntities)
         {
@@ -107,6 +109,7 @@ public sealed partial class CrewMonitoringNavMapControl : NavMapControl
         _trackedEntityPanel.Visible = false;
     }
 
+    // Starlight Start
     private Button? TryGetRecenterButton()
     {
         if (TryGetFirstChild(this) is not BoxContainer topContainer)
@@ -136,4 +139,5 @@ public sealed partial class CrewMonitoringNavMapControl : NavMapControl
 
         return null;
     }
+    // Starlight End
 }
