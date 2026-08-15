@@ -17545,5 +17545,86 @@ Entries:
   id: 155800
   time: '2026-08-15T10:41:07.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1558
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Updated Robust Toolbox to 288.1 (includes a lot of ports/fixes from wizden)
+    type: Add
+  id: 155100
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Backported wizden 42881 - new gas tile overlays
+    type: Add
+  id: 155101
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Backported wizden 42973 - heat distortion shader
+    type: Add
+  id: 155102
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Backported wizden 43281 - grand maxcap rewrite
+    type: Add
+  id: 155103
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Backported wizden 43165 - flammability API
+    type: Add
+  id: 155104
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Backported wizden 43554 - generic target system
+    type: Add
+  id: 155105
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Backported wizden 35575 - reduce stealth shimmer
+    type: Add
+  id: 155106
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Sound occlusion should no longer fill logs with errors to the point of
+      memory issues
+    type: Fix
+  id: 155107
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Shooting guns should cause fewer client side errors
+    type: Fix
+  id: 155108
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: tritium burn temperature decreased from 500C to 300C
+    type: Tweak
+  id: 155109
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
 Order: -1
 
