@@ -17517,5 +17517,33 @@ Entries:
   id: 154605
   time: '2026-08-14T05:45:15.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1546
+- author: RubiconLocked
+  changes:
+  - message: Salvage Lead Report is now correctly categorized.
+    type: Fix
+  id: 155200
+  time: '2026-08-14T17:37:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1552
+- author: mogaiskii
+  changes:
+  - message: Removed roundstart plasmafire on unity.
+    type: Remove
+  id: 155300
+  time: '2026-08-14T17:48:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1553
+- author: Mizuki
+  changes:
+  - message: NT Med now has their civilian weapon loadouts
+    type: Tweak
+  id: 155700
+  time: '2026-08-15T10:36:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1557
+- author: jhrushbe, Cormorant
+  changes:
+  - message: Resprite of the AME.
+    type: Tweak
+  id: 155800
+  time: '2026-08-15T10:41:07.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1558
 Order: -1
 
