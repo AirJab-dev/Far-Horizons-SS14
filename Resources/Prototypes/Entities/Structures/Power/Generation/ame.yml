@@ -97,7 +97,7 @@
   - type: PowerMonitoringDevice
     group: Generator
     loadNode: input
-    sprite: Structures/Power/Generation/ame.rsi
+    sprite: _FarHorizons/Structures/Power/Generation/ame.rsi  # Far Horizons
     state: static
   - type: PowerSupplier
     supplyRate: 0
