@@ -94,6 +94,26 @@
         sound:
           collection: MetalSlam
 
+- type: entity
+  parent: WallSolidDiagonal
+  id: WallSolidDiagonalGeneric
+  suffix: Diagonal, Generic
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid_diagonal.rsi #PLACEHOLD
+  - type: Icon
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid_diagonal.rsi #PLACEHOLD
+
+- type: entity
+  parent: WallSolidDiagonal
+  id: WallSolidDiagonalNS
+  suffix: Diagonal, NS
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Walls/NeoSol/solid_diagonal.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Walls/NeoSol/solid_diagonal.rsi
+
 #region WallReinforced
 - type: entity
   parent: WallReinforced

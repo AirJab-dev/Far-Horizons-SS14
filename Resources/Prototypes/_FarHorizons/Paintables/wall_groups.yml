@@ -9,6 +9,16 @@
     neosol: WallSolidNS
 
 - type: paintableGroup
+  id: WallSolidDiagonal
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: WallSolidDiagonal
+    generic: WallSolidDiagonalGeneric
+    neosol: WallSolidDiagonalNS
+
+- type: paintableGroup
   id: WallReinforced
   time: 2
   cost: 1

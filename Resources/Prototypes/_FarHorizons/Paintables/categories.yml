@@ -2,6 +2,7 @@
   id: Walls
   groups:
   - WallSolid
+  - WallSolidDiagonal
   - WallReinforced
   - WallShuttle
   - WallShuttleReinforced

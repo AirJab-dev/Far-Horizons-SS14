@@ -1070,14 +1070,14 @@
   parent: WallDiagonalBase
   id: WallSolidDiagonal
   name: Solid Wall #Far Horizons - The Great Capitalization Crusade
-  suffix: NT #FH
+  suffix: Diagonal, NT #FH
   components:
   - type: Sprite
     drawdepth: Walls
-    sprite: Structures/Walls/solid_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid_diagonal.rsi #FH
     state: state0
   - type: Icon
-    sprite: Structures/Walls/solid_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/solid_diagonal.rsi #FH
     state: state0
   - type: Ricochetable
     chance: 0.4
