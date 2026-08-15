@@ -188,7 +188,7 @@
   - type: Item
     size: Normal # Small, but can't fit in your pocket.
   - type: Gun
-    fireRate: 1.5
+    fireRate: 1.0
     minAngle: 10
     maxAngle: 20
     selectedMode: SemiAuto
