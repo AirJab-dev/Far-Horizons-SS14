@@ -37,16 +37,6 @@
   petSuccessString: petting-success-generic-cyborg
   petFailureString: petting-failure-generic-cyborg
 
-  # Starlight BEGIN
-  addComponents:
-    - type: Access
-      groups:
-        - CyborgAllAccess
-      tags:
-        - Borg
-        - BorgResearch
-  # Starlight END
-
 # Engineering borg
 - type: borgType
   id: engineering
@@ -196,16 +186,6 @@
   petSuccessString: petting-success-janitor-cyborg
   petFailureString: petting-failure-janitor-cyborg
 
-  # Starlight BEGIN
-  addComponents:
-    - type: Access
-      groups:
-        - CyborgAllAccess
-      tags:
-        - Borg
-        - BorgService
-  # Starlight END
-
 
 # Medical borg
 - type: borgType
@@ -310,13 +290,3 @@
   # Pet
   petSuccessString: petting-success-service-cyborg
   petFailureString: petting-failure-service-cyborg
-
-  # Starlight BEGIN
-  addComponents:
-    - type: Access
-      groups:
-        - CyborgAllAccess
-      tags:
-        - Borg
-        - BorgService
-  # Starlight END

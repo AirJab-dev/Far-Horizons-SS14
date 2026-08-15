@@ -114,7 +114,6 @@
 - type: roleLoadout
   id: JobMailTech
   groups:
-  - GroupTankHarness
   - MailTechnicianHead
   - MailTechnicianJumpsuit
   - MailTechnicianBackpack
