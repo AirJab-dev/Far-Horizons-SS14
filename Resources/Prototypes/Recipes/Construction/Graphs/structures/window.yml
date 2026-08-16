@@ -99,7 +99,7 @@
               doAfter: 3
 
     - node: window
-      entity: WindowStandard #FH
+      entity: WindowGeneric #FH
       edges:
         - to: start
           completed:
@@ -114,7 +114,7 @@
               doAfter: 2
 
     - node: reinforcedWindow
-      entity: ReinforcedWindowStandard #FH
+      entity: ReinforcedWindowGeneric #FH
       edges:
         - to: start
           completed:

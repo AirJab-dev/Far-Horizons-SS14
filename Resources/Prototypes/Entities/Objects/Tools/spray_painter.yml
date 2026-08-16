@@ -98,4 +98,5 @@
   - type: StaticPrice
     price: 30
   - type: Tag #FH
-    tags: ConstructionMaterial #FH
+    tags: 
+    - ConstructionMaterial #FH
