@@ -17545,5 +17545,186 @@ Entries:
   id: 155800
   time: '2026-08-15T10:41:07.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1558
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Updated Robust Toolbox to 288.1 (includes a lot of ports/fixes from wizden)
+    type: Add
+  id: 155100
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Backported wizden 42881 - new gas tile overlays
+    type: Add
+  id: 155101
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Backported wizden 42973 - heat distortion shader
+    type: Add
+  id: 155102
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Backported wizden 43281 - grand maxcap rewrite
+    type: Add
+  id: 155103
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Backported wizden 43165 - flammability API
+    type: Add
+  id: 155104
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Backported wizden 43554 - generic target system
+    type: Add
+  id: 155105
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Backported wizden 35575 - reduce stealth shimmer
+    type: Add
+  id: 155106
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Sound occlusion should no longer fill logs with errors to the point of
+      memory issues
+    type: Fix
+  id: 155107
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: Shooting guns should cause fewer client side errors
+    type: Fix
+  id: 155108
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: princess_gurchi, insoPL, TemporalOroboros, Princess-Cheeseballs, slarticodefast,
+    ArtisticRoomba, metalgearsloth, Tayrtahn, Simyon264, MidZik
+  changes:
+  - message: tritium burn temperature decreased from 500C to 300C
+    type: Tweak
+  id: 155109
+  time: '2026-08-15T15:52:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1551
+- author: Mizuki
+  changes:
+  - message: Decreased firerate of civilian longarm and instigator
+    type: Tweak
+  id: 156200
+  time: '2026-08-15T17:52:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1562
+- author: jhrushbe
+  changes:
+  - message: Fixed a bug that prevented SMES and substations from being flatpacked.
+    type: Fix
+  id: 156300
+  time: '2026-08-15T18:23:12.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1563
+- author: Chubbygummibear
+  changes:
+  - message: Directional and rotating lights are once again working as expected.
+    type: Fix
+  id: 156600
+  time: '2026-08-15T23:55:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1566
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Added the Mail Companion for Mail Technicians to scan deliveries and
+      track recipients through suit sensors. (NEVEC)
+    type: Add
+  id: 155600
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Added a dedicated crew-monitor style HUD and custom Mail Companion sprites.
+      (NEVEC)
+    type: Add
+  id: 155601
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Mail Companion tracking now expires after 1 minute and enters a 30 second
+      recalibration cooldown. (NEVEC)
+    type: Tweak
+  id: 155602
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Opening the tracked delivery now immediately resets the Mail Companion
+      so it can be used again. (NEVEC)
+    type: Fix
+  id: 155603
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Tamper-sealed cargo orders! Only the department that ordered something
+      can open it without incurring a penalty. (redmushie)
+    type: Add
+  id: 155604
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Opening a tamper-sealed order rewards Cargo with 10% of the order price.
+      (redmushie)
+    type: Add
+  id: 155605
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Destroying a tamper-sealed order penalizes Cargo for 10% of the order
+      price, and refunds the ordering department 50% at Cargo's expense. (redmushie)
+    type: Add
+  id: 155606
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: The Interstellar Trade Guild will warn the station if a lot of tamper
+      seals are destroyed. (redmushie)
+    type: Add
+  id: 155607
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Ripleys with hydraulic clamps can actually pick up tamper-sealed crates.
+      ((redmushie)
+    type: Fix
+  id: 155608
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Factional support to the tamper sealed crates.
+    type: Add
+  id: 155609
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
 Order: -1
 

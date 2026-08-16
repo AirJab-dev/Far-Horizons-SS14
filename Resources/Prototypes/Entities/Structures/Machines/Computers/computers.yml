@@ -1142,6 +1142,7 @@
   parent: ComputerCargoOrders
   name: Science Request Computer #Far Horizons - The Great Capitalization Crusade
   description: Used by the science department to order supplies.
+  suffix: NT #FH
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Machines/Computers/scirequest.rsi #Far Horizons
@@ -1210,6 +1211,7 @@
   parent: ComputerCargoOrders
   name: Service Request Computer #Far Horizons - The Great Capitalization Crusade
   description: Used by the service department to order supplies.
+  suffix: NT #FH
   components:
   - type: Sprite
     layers:

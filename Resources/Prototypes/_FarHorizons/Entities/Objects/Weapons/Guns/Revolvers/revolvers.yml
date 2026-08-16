@@ -407,4 +407,4 @@
         - CartridgeRevolver38
         - SpeedLoaderRevolver38
   - type: Gun
-    fireRate: 1.25
+    fireRate: 1.15
