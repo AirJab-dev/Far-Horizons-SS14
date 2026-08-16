@@ -145,3 +145,21 @@
   components:
   - type: Implanter
     implant: LanguageDatabaseImplant
+
+#GSL
+- type: entity
+  id: MindShieldImplanterGSL
+  parent: MindShieldImplanter
+  suffix: GSL
+  components:
+  - type: Implanter
+    implant: MindShieldImplantGSL
+
+#NeoSol
+- type: entity
+  id: MindShieldImplanterNS
+  parent: MindShieldImplanter
+  suffix: NS
+  components:
+  - type: Implanter
+    implant: MindShieldImplantNS

@@ -96,3 +96,25 @@
       interfaces:
         enum.StoreUiKey.Key:
           type: StoreBoundUserInterface
+
+- type: entity
+  parent: MindShieldImplant
+  id: MindShieldImplantNS
+  name: mindshield implant
+  sufix: NS
+  description: This implant will ensure protection against mind control devices. # FH
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: MindShieldImplant
+    mindShieldStatusIcon: MindShieldIconNS
+
+- type: entity
+  parent: MindShieldImplant
+  id: MindShieldImplantGSL
+  name: mindshield implant
+  sufix: GSL
+  description: This implant will ensure protection against mind control devices. # FH
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: MindShieldImplant
+    mindShieldStatusIcon: MindShieldIconGSL
