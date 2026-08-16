@@ -313,7 +313,7 @@
 
 - type: entity
   id: MindShieldImplanter
-  name: mindshield implanter
+  name: MindShield Implanter (NT) #FH
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter

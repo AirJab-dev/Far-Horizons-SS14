@@ -150,7 +150,7 @@
 - type: entity
   id: MindShieldImplanterGSL
   parent: MindShieldImplanter
-  suffix: GSL
+  name: MindShield Implanter (GSL)
   components:
   - type: Implanter
     implant: MindShieldImplantGSL
@@ -159,7 +159,7 @@
 - type: entity
   id: MindShieldImplanterNS
   parent: MindShieldImplanter
-  suffix: NS
+  name: MindShield Implanter (NS)
   components:
   - type: Implanter
     implant: MindShieldImplantNS
