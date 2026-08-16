@@ -1,6 +1,6 @@
 # Performance failure announcement
-tamper-seal-performance-failure-sender = Interstellar Trade Guild
-tamper-seal-performance-failure-message = Repeated destruction of tamper-sealed orders detected. We encourage you to investigate the department responsible for handling your orders.
+tamper-seal-performance-failure-sender = Gemini Stellar Logistics
+tamper-seal-performance-failure-message = Repeated destruction of tamper-sealed orders detected. We encourage our employees to handle orders with more care.
 
 # Examine
 tamper-seal-examine-sealed-public = There is a [color=yellow]tamper seal[/color] present.
