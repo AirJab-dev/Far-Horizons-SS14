@@ -100,6 +100,8 @@
     price: 100
   - type: BlockWeather
   - type: LineOfSightExclude # Far Horizons
+  - type: StructureOcclusion #Far Horizons
+    occlusionAmount: 0.8
 
 - type: entity #FH Start
   id: Window
@@ -241,6 +243,8 @@
   - type: StaticPrice
     price: 15
   - type: LineOfSightExclude # Far Horizons
+  - type: StructureOcclusion #Far Horizons
+    occlusionAmount: 0.25
 
 - type: entity
   id: WindowDirectionalRCDResistant
