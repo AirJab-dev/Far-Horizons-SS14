@@ -17647,5 +17647,84 @@ Entries:
   id: 156600
   time: '2026-08-15T23:55:28.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1566
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Added the Mail Companion for Mail Technicians to scan deliveries and
+      track recipients through suit sensors. (NEVEC)
+    type: Add
+  id: 155600
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Added a dedicated crew-monitor style HUD and custom Mail Companion sprites.
+      (NEVEC)
+    type: Add
+  id: 155601
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Mail Companion tracking now expires after 1 minute and enters a 30 second
+      recalibration cooldown. (NEVEC)
+    type: Tweak
+  id: 155602
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Opening the tracked delivery now immediately resets the Mail Companion
+      so it can be used again. (NEVEC)
+    type: Fix
+  id: 155603
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Tamper-sealed cargo orders! Only the department that ordered something
+      can open it without incurring a penalty. (redmushie)
+    type: Add
+  id: 155604
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Opening a tamper-sealed order rewards Cargo with 10% of the order price.
+      (redmushie)
+    type: Add
+  id: 155605
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Destroying a tamper-sealed order penalizes Cargo for 10% of the order
+      price, and refunds the ordering department 50% at Cargo's expense. (redmushie)
+    type: Add
+  id: 155606
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: The Interstellar Trade Guild will warn the station if a lot of tamper
+      seals are destroyed. (redmushie)
+    type: Add
+  id: 155607
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Ripleys with hydraulic clamps can actually pick up tamper-sealed crates.
+      ((redmushie)
+    type: Fix
+  id: 155608
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
+- author: AthenaAI, NEVEC, redmushie
+  changes:
+  - message: Factional support to the tamper sealed crates.
+    type: Add
+  id: 155609
+  time: '2026-08-16T00:00:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1556
 Order: -1
 
