@@ -13,7 +13,9 @@
   id: Windows
   groups:
   - Window
+  - WindowDiagonal
   - ReinforcedWindow
+  - ReinforcedWindowDiagonal
   - PlasmaWindow
   - ReinforcedPlasmaWindow
   - UraniumWindow

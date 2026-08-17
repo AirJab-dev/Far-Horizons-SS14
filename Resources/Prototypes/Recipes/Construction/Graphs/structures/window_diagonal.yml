@@ -47,7 +47,7 @@
               doAfter: 3
 
     - node: windowDiagonal
-      entity: WindowDiagonal
+      entity: WindowDiagonalGeneric
       edges:
         - to: start
           completed:
@@ -62,7 +62,7 @@
               doAfter: 2
 
     - node: reinforcedWindowDiagonal
-      entity: ReinforcedWindowDiagonal
+      entity: ReinforcedWindowDiagonalGeneric
       edges:
         - to: start
           completed:

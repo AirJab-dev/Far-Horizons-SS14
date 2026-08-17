@@ -3,39 +3,51 @@
 - type: entity
   id: WindowGeneric
   parent: Window
-  name: Window
   suffix: Generic
   components:
   - type: Sprite
-    drawdepth: WallTops
     sprite: _FarHorizons/Structures/Windows/Generic/window.rsi
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/Generic/window.rsi
-    state: full
 
 - type: entity
   id: WindowNS
   parent: Window
-  name: Window
   suffix: NS
   components:
   - type: Sprite
-    drawdepth: WallTops
     sprite: _FarHorizons/Structures/Windows/NeoSol/window.rsi
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NeoSol/window.rsi
-    state: full
+
+- type: entity
+  id: WindowDiagonalGeneric
+  parent: WindowDiagonal
+  suffix: Diagonal, Generic
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/window_diagonal.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/window_diagonal.rsi
+
+- type: entity
+  id: WindowDiagonalNS
+  parent: WindowDiagonal
+  suffix: Diagonal, NS
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Windows/NeoSol/window_diagonal.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NeoSol/window_diagonal.rsi
 
 #region Reinforced Window
 
 - type: entity
   id: ReinforcedWindowGeneric
   parent: ReinforcedWindow
-  name: Reinforced Window
   suffix: Generic
   components:
   - type: Sprite
-    drawdepth: WallTops
     sprite: _FarHorizons/Structures/Windows/Generic/reinforced_window.rsi
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/Generic/reinforced_window.rsi
@@ -43,14 +55,32 @@
 - type: entity
   id: ReinforcedWindowNS
   parent: ReinforcedWindow
-  name: Reinforced Window 
   suffix: NS
   components:
   - type: Sprite
-    drawdepth: WallTops
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_window.rsi
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_window.rsi
+
+- type: entity
+  id: ReinforcedWindowDiagonalGeneric
+  parent: ReinforcedWindowDiagonal
+  suffix: Generic
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_window_diagonal.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_window_diagonal.rsi
+
+- type: entity
+  id: ReinforcedWindowDiagonalNS
+  parent: ReinforcedWindowDiagonal
+  suffix: NS
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_window_diagonal.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_window_diagonal.rsi
 
 # Wooden
 

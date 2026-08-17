@@ -127,7 +127,7 @@
     - Window
   - type: IconSmooth
     mode: Diagonal
-    key: windows
+    key: walls #FH
     base: state
   - type: Icon
     sprite: Structures/Windows/uranium_window_diagonal.rsi

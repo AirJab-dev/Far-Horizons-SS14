@@ -9,6 +9,16 @@
     neosol: WindowNS
 
 - type: paintableGroup
+  id: WindowDiagonal
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: WindowDiagonal
+    generic: WindowDiagonalGeneric
+    neosol: WindowDiagonalNS
+
+- type: paintableGroup
   id: ReinforcedWindow
   time: 2
   cost: 1
@@ -17,6 +27,16 @@
     nanotrasen: ReinforcedWindow
     generic: ReinforcedWindowGeneric
     neosol: ReinforcedWindowNS
+
+- type: paintableGroup
+  id: ReinforcedWindowDiagonal
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: ReinforcedWindowDiagonal
+    generic: ReinforcedWindowDiagonalGeneric
+    neosol: ReinforcedWindowDiagonalNS
 
 - type: paintableGroup
   id: PlasmaWindow
