@@ -6,8 +6,11 @@
   - WallReinforced
   - WallReinforcedDiagonal
   - WallShuttle
+  - WallShuttleDiagonal
   - WallShuttleReinforced
+  - WallShuttleReinforcedDiagonal
   - WallShuttleArmored
+  - WallShuttleArmoredDiagonal
 
 - type: paintableGroupCategory
   id: Windows

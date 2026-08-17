@@ -230,6 +230,26 @@
   - type: Icon
     sprite: _FarHorizons/Structures/Walls/NeoSol/shuttle.rsi
 
+- type: entity
+  parent: WallShuttleDiagonal
+  id: WallShuttleDiagonalGeneric
+  suffix: Diagonal, Generic
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/shuttle_diagonal.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/shuttle_diagonal.rsi
+
+- type: entity
+  parent: WallShuttleDiagonal
+  id: WallShuttleDiagonalNS
+  suffix: Diagonal, NS
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Walls/NeoSol/shuttle_diagonal.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Walls/NeoSol/shuttle_diagonal.rsi
+
 #region WallShuttleReinforced
 - type: entity
   parent: BaseWall
@@ -331,10 +351,10 @@
   components:
   - type: Sprite
     drawdepth: Walls
-    sprite: _FarHorizons/Structures/Walls/shuttle_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/shuttle_diagonal.rsi
     state: state0
   - type: Icon
-    sprite: _FarHorizons/Structures/Walls/shuttle_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/shuttle_diagonal.rsi
     state: state0
   - type: IconSmooth
     key: walls
@@ -402,9 +422,9 @@
   suffix: Diagonal, Generic
   components:
   - type: Sprite
-    sprite: _FarHorizons/Structures/Walls/shuttle_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/shuttle_diagonal.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Walls/shuttle_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/shuttle_diagonal.rsi
 
 - type: entity
   parent: WallShuttleReinforcedDiagonal
@@ -412,9 +432,9 @@
   suffix: Diagonal, NS
   components:
   - type: Sprite
-    sprite: _FarHorizons/Structures/Walls/shuttle_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/shuttle_diagonal.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Walls/shuttle_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/shuttle_diagonal.rsi
 
 #region WallShuttleArmored
 - type: entity
@@ -519,10 +539,10 @@
   components:
   - type: Sprite
     drawdepth: Walls
-    sprite: _FarHorizons/Structures/Walls/shuttle_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/shuttle_diagonal.rsi
     state: state0
   - type: Icon
-    sprite: _FarHorizons/Structures/Walls/shuttle_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/shuttle_diagonal.rsi
     state: state0
   - type: IconSmooth
     key: walls
@@ -592,9 +612,9 @@
   suffix: Diagonal, Generic
   components:
   - type: Sprite
-    sprite: _FarHorizons/Structures/Walls/shuttle_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/shuttle_diagonal.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Walls/shuttle_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/shuttle_diagonal.rsi
 
 - type: entity
   parent: WallShuttleArmoredDiagonal
@@ -602,6 +622,6 @@
   suffix: Diagonal, NS
   components:
   - type: Sprite
-    sprite: _FarHorizons/Structures/Walls/shuttle_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/shuttle_diagonal.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Walls/shuttle_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NeoSol/shuttle_diagonal.rsi
