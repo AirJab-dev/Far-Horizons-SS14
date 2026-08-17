@@ -27,5 +27,9 @@
   - UraniumWindowDiagonal
   - ReinforcedUraniumWindow
   - reinforcedUraniumWindowDiagonal
+  - ShuttleWindow
+  - ShuttleWindowDiagonal
   - ShuttleWindowReinforced
+  - ShuttleWindowReinforcedDiagonal
   - ShuttleWindowArmored
+  - ShuttleWindowArmoredDiagonal

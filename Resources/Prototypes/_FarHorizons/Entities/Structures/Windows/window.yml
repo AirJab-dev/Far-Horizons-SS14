@@ -214,6 +214,47 @@
     - Off
     - Toggle
 
+#region ShuttleWindow
+- type: entity
+  id: ShuttleWindowGeneric
+  parent: ShuttleWindow
+  suffix: Generic
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttle_window.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttle_window.rsi
+
+- type: entity
+  id: ShuttleWindowNS
+  parent: ShuttleWindow
+  suffix: NS
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Windows/NeoSol/shuttle_window.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NeoSol/shuttle_window.rsi
+
+- type: entity
+  id: ShuttleWindowDiagonalGeneric
+  parent: ShuttleWindowDiagonal
+  suffix: Diagonal, Generic
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttle_window_diagonal.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttle_window_diagonal.rsi
+
+- type: entity
+  id: ShuttleWindowDiagonalNS
+  parent: ShuttleWindowDiagonal
+  suffix: Diagonal, NS
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Windows/NeoSol/shuttle_window_diagonal.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Windows/NeoSol/shuttle_window_diagonal.rsi
+
 #region Reinf. Shuttle Window
 - type: entity
   parent: [BaseDeltaPressurePlasmaQuarter, WindowRCDResistant]
@@ -223,9 +264,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
   - type: Repairable
     fuelCost: 15
     doAfterDelay: 3
@@ -258,7 +299,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align.
+    key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align. - the stars weep in my presence 
     base: swindow
   - type: Appearance
   - type: DamageVisuals
@@ -280,9 +321,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
     state: full
 
 - type: entity
@@ -292,12 +333,10 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/NeoSol/shuttlewindow.rsi 
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window.rsi 
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/NeoSol/shuttlewindow.rsi 
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window.rsi 
     state: full
-
-#region Reinf. Shuttle Diag
 
 - type: entity
   parent: ShuttleWindowReinforced
@@ -310,7 +349,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
     state: state0
   - type: Tag
     tags:
@@ -321,7 +360,7 @@
     key: walls
     base: state
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
     state: state0
   - type: Fixtures
     fixtures:
@@ -355,9 +394,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
     state: full
 
 - type: entity
@@ -367,9 +406,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window_diagonal.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window_diagonal.rsi
     state: full
 
 #region A.Shuttle Window
@@ -381,9 +420,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
   - type: Repairable
     fuelCost: 15
     doAfterDelay: 3
@@ -416,7 +455,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align.
+    key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align. - the stars weep in my presence 
     base: swindow 
   - type: Appearance
   - type: DamageVisuals
@@ -438,9 +477,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/NanoTrasen/shuttlewindow.rsi 
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
     state: full
 
 - type: entity
@@ -450,12 +489,11 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/NeoSol/shuttlewindow.rsi 
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window.rsi 
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/NeoSol/shuttlewindow.rsi 
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window.rsi 
     state: full
 
-#region A. Shuttle Win Diag
 - type: entity
   parent: ShuttleWindowArmored
   id: ShuttleWindowArmoredDiagonal
@@ -467,7 +505,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
     state: state0
   - type: Tag
     tags:
@@ -478,7 +516,7 @@
     key: walls
     base: state
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
     state: state0
   - type: Fixtures
     fixtures:
@@ -512,9 +550,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
     state: full
 
 - type: entity
@@ -524,7 +562,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window_diagonal.rsi
   - type: Icon
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi #PLACEHOLD
+    sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window_diagonal.rsi
     state: full
