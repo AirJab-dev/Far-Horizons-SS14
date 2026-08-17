@@ -18,7 +18,7 @@
               doAfter: 3
 
 #FH - Start
-        - to: ReinforcedShuttleWindowDirectional
+        - to: ShuttleWindowReinforcedDiagonal
           steps:
             - material: Steel
               amount: 1
@@ -213,7 +213,7 @@
               doAfter: 3
 
 #FH - Start
-    - node: ReinforcedShuttleWindowDirectional
+    - node: ShuttleWindowReinforcedDiagonal
       entity: ShuttleWindowReinforcedDiagonalGeneric
       edges:
         - to: start

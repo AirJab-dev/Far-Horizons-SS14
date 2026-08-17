@@ -381,7 +381,7 @@
       sprite: Structures/Windows/cracks_diagonal.rsi
   - type: Construction
     graph: Window
-    node: ReinforcedShuttleWindowDirectional
+    node: ShuttleWindowReinforcedDiagonal
 
 - type: entity
   id: ShuttleWindowReinforcedDiagonalGeneric
