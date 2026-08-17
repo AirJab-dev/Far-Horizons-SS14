@@ -19,6 +19,7 @@
   - PlasmaWindow
   - PlasmaWindowDiagonal
   - ReinforcedPlasmaWindow
+  - ReinforcedPlasmaWindowDiagonal
   - UraniumWindow
   - ReinforcedUraniumWindow
   - ShuttleWindowReinforced

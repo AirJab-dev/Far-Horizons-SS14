@@ -69,6 +69,16 @@
     neosol: ReinforcedPlasmaWindowNS
 
 - type: paintableGroup
+  id: ReinforcedPlasmaWindowDiagonal
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: ReinforcedPlasmaWindowDiagonal
+    generic: ReinforcedPlasmaWindowDiagonalGeneric
+    neosol: ReinforcedPlasmaWindowDiagonalNS
+
+- type: paintableGroup
   id: UraniumWindow
   time: 2
   cost: 1

@@ -121,7 +121,7 @@
 - type: entity
   parent: ReinforcedPlasmaWindow
   id: ReinforcedPlasmaWindowDiagonal
-  suffix: diagonal
+  suffix: Diagonal, NT
   placement:
     mode: SnapgridCenter
     snap:
@@ -129,7 +129,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/reinforced_plasma_diagonal.rsi
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_plasma_diagonal.rsi #FH
     state: state0
   - type: Tag
     tags:
@@ -140,7 +140,7 @@
     key: walls #FH
     base: state
   - type: Icon
-    sprite: Structures/Windows/reinforced_plasma_diagonal.rsi
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_plasma_diagonal.rsi #FH
     state: state0
   - type: Fixtures
     fixtures:
@@ -167,5 +167,6 @@
   - type: Construction
     graph: WindowDiagonal
     node: reinforcedPlasmaWindowDiagonal
-  - type: Paintable #FH
-    group: null #FH
+  - type: Paintable #FH start
+    group: ReinforcedPlasmaWindowDiagonal 
+  - type: GenericPaintable #FH end

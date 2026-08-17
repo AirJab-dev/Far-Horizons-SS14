@@ -127,7 +127,7 @@
               doAfter: 3
 
     - node: reinforcedPlasmaWindowDiagonal
-      entity: ReinforcedPlasmaWindowDiagonal
+      entity: ReinforcedPlasmaWindowDiagonalGeneric #FH
       edges:
         - to: start
           completed:
