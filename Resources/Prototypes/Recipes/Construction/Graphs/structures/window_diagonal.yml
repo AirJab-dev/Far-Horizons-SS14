@@ -108,7 +108,7 @@
               doAfter: 2
 
     - node: plasmaWindowDiagonal
-      entity: PlasmaWindowDiagonal
+      entity: PlasmaWindowDiagonalGeneric
       edges:
         - to: start
           completed:

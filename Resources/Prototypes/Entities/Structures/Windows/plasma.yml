@@ -116,7 +116,7 @@
 - type: entity
   parent: PlasmaWindow
   id: PlasmaWindowDiagonal
-  suffix: diagonal
+  suffix: Diagonal, NT #FH
   placement:
     mode: SnapgridCenter
     snap:
@@ -124,7 +124,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/plasma_diagonal.rsi
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/plasma_diagonal.rsi #FH
     state: state0
   - type: Tag
     tags:
@@ -135,7 +135,7 @@
     key: walls #FH
     base: state
   - type: Icon
-    sprite: Structures/Windows/plasma_diagonal.rsi
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/plasma_diagonal.rsi #FH
     state: state0
   - type: Fixtures
     fixtures:
@@ -161,5 +161,6 @@
   - type: Construction
     graph: WindowDiagonal
     node: plasmaWindowDiagonal
-  - type: Paintable #FH
-    group: null #FH
+  - type: Paintable #FH start
+    group: PlasmaWindowDiagonal 
+  - type: GenericPaintable #FH end

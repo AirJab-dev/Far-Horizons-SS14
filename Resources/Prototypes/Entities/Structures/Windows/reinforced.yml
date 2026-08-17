@@ -172,4 +172,5 @@
     graph: WindowDiagonal
     node: reinforcedWindowDiagonal
   - type: Paintable #FH start
-    group: null #FH end
+    group: ReinforcedWindowDiagonal 
+  - type: GenericPaintable #FH end

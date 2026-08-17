@@ -82,7 +82,7 @@
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_window_diagonal.rsi
 
-# Wooden
+#region Wooden
 
 - type: entity
   id: WindowWoodenFrame
@@ -186,6 +186,7 @@
   - type: BlockWeather
   - type: LineOfSightExclude
 
+#region TintedWindow
 - type: entity
   parent: BaseWindow 
   id: TintedWindowNeoSol

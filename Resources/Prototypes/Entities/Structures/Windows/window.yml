@@ -321,3 +321,6 @@
   - type: Construction
     graph: WindowDiagonal
     node: windowDiagonal
+  - type: Paintable #FH start
+    group: WindowDiagonal 
+  - type: GenericPaintable #FH end
