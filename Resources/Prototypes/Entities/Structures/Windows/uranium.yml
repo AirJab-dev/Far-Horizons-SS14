@@ -111,7 +111,7 @@
 - type: entity
   parent: UraniumWindow
   id: UraniumWindowDiagonal
-  suffix: Diagonal #Far Horizons - The Great Capitalization Crusade
+  suffix: Diagonal, NT #Far Horizons - The Great Capitalization Crusade
   placement:
     mode: SnapgridCenter
     snap:
@@ -119,7 +119,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/uranium_window_diagonal.rsi
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/uranium_window_diagonal.rsi #FH
     state: state0
   - type: Tag
     tags:
@@ -130,7 +130,7 @@
     key: walls #FH
     base: state
   - type: Icon
-    sprite: Structures/Windows/uranium_window_diagonal.rsi
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/uranium_window_diagonal.rsi #FH
     state: state0
   - type: Fixtures
     fixtures:
@@ -157,4 +157,5 @@
     graph: WindowDiagonal
     node: uraniumWindowDiagonal
   - type: Paintable #FH start
-    group: null #FH end
+    group: UraniumWindowDiagonal 
+  - type: GenericPaintable #FH end

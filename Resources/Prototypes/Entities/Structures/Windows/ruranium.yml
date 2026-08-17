@@ -118,7 +118,7 @@
 - type: entity
   parent: ReinforcedUraniumWindow
   id: ReinforcedUraniumWindowDiagonal
-  suffix: diagonal
+  suffix: Diagonal, NT
   placement:
     mode: SnapgridCenter
     snap:
@@ -126,7 +126,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/reinforced_uranium_diagonal.rsi
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_uranium_diagonal.rsi #FH
     state: state0
   - type: Tag
     tags:
@@ -137,7 +137,7 @@
     key: walls #FH
     base: state
   - type: Icon
-    sprite: Structures/Windows/reinforced_uranium_diagonal.rsi
+    sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_uranium_diagonal.rsi #FH
     state: state0
   - type: Fixtures
     fixtures:
@@ -164,4 +164,5 @@
     graph: WindowDiagonal
     node: reinforcedUraniumWindowDiagonal
   - type: Paintable #FH start
-    group: null #FH end
+    group: ReinforcedUraniumWindowDiagonal 
+  - type: GenericPaintable #FH end

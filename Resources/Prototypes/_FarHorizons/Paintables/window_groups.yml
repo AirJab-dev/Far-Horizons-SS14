@@ -89,6 +89,16 @@
     neosol: UraniumWindowNS
 
 - type: paintableGroup
+  id: UraniumWindowDiagonal
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: UraniumWindowDiagonal
+    generic: UraniumWindowDiagonalGeneric
+    neosol: UraniumWindowDiagonalNS
+
+- type: paintableGroup
   id: ReinforcedUraniumWindow
   time: 2
   cost: 1
@@ -97,6 +107,16 @@
     nanotrasen: ReinforcedUraniumWindow
     generic: ReinforcedUraniumWindowGeneric
     neosol: ReinforcedUraniumWindowNS
+
+- type: paintableGroup
+  id: reinforcedUraniumWindowDiagonal
+  time: 2
+  cost: 1
+  defaultStyle: generic
+  styles:
+    nanotrasen: reinforcedUraniumWindowDiagonal
+    generic: reinforcedUraniumWindowDiagonalGeneric
+    neosol: reinforcedUraniumWindowDiagonalNS
 
 - type: paintableGroup
   id: ShuttleWindowReinforced
