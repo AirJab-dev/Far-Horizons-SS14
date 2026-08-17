@@ -469,7 +469,7 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: StaticPrice
-    price: 450
+    price: 550
   - type: RadiationBlocker
     resistance: 10
   - type: Sprite
