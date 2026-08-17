@@ -219,7 +219,7 @@
         - to: start
           completed:
             - !type:GivePrototype
-              prototype: ReinforcedPlasmaGlass
+              prototype: SheetRPGlass1
               amount: 2
             - !type:GivePrototype
               prototype: SheetPlasteel1
@@ -265,7 +265,7 @@
         - to: start
           completed:
             - !type:GivePrototype
-              prototype: ReinforcedUraniumGlass
+              prototype: SheetRUGlass1
               amount: 2
             - !type:GivePrototype
               prototype: SheetPlasteel1
