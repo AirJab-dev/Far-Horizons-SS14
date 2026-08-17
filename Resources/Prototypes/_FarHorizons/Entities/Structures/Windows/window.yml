@@ -380,7 +380,7 @@
     damageOverlay:
       sprite: Structures/Windows/cracks_diagonal.rsi
   - type: Construction
-    graph: Window
+    graph: WindowDiagonal
     node: ShuttleWindowReinforcedDiagonal
 
 - type: entity
@@ -528,8 +528,8 @@
     damageOverlay:
       sprite: Structures/Windows/cracks_diagonal.rsi
   - type: Construction
-    graph: Window
-    node: ArmoredShuttleWindowDirectional
+    graph: WindowDiagonal
+    node: ArmoredShuttleWindowDiagonal
 
 - type: entity
   id: ShuttleWindowArmoredDiagonalGeneric
