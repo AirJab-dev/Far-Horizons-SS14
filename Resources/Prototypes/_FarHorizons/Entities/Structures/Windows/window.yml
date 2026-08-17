@@ -320,23 +320,19 @@
   suffix: Generic
   components:
   - type: Sprite
-    drawdepth: WallTops
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
-    state: full
-
+    
 - type: entity
   id: ShuttleWindowReinforcedNS
   parent: ShuttleWindowReinforced
   suffix: NS
   components:
   - type: Sprite
-    drawdepth: WallTops
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window.rsi 
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window.rsi 
-    state: full
 
 - type: entity
   parent: ShuttleWindowReinforced
@@ -393,11 +389,9 @@
   suffix: Diagonal, Generic
   components:
   - type: Sprite
-    drawdepth: WallTops
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
-    state: full
 
 - type: entity
   id: ShuttleWindowReinforcedDiagonalNS
@@ -405,11 +399,9 @@
   suffix: Diagonal, NS
   components:
   - type: Sprite
-    drawdepth: WallTops
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window_diagonal.rsi
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window_diagonal.rsi
-    state: full
 
 #region A.Shuttle Window
 - type: entity
@@ -476,11 +468,9 @@
   suffix: Generic
   components:
   - type: Sprite
-    drawdepth: WallTops
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
-    state: full
 
 - type: entity
   id: ShuttleWindowArmoredNS
@@ -488,11 +478,9 @@
   suffix: NS
   components:
   - type: Sprite
-    drawdepth: WallTops
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window.rsi 
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window.rsi 
-    state: full
 
 - type: entity
   parent: ShuttleWindowArmored
@@ -549,11 +537,9 @@
   suffix: Diagonal, Generic
   components:
   - type: Sprite
-    drawdepth: WallTops
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
-    state: full
 
 - type: entity
   id: ShuttleWindowArmoredDiagonalNS
@@ -561,8 +547,6 @@
   suffix: Diagonal, NS
   components:
   - type: Sprite
-    drawdepth: WallTops
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window_diagonal.rsi
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window_diagonal.rsi
-    state: full
