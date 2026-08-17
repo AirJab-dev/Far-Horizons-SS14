@@ -744,13 +744,14 @@
   parent: WallDiagonalBase
   id: WallReinforcedDiagonal
   name: Reinforced Wall #Far Horizons - The Great Capitalization Crusade
+  suffix: Diagonal, NT
   components:
   - type: Sprite
     drawdepth: Walls
-    sprite: Structures/Walls/reinforced_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/reinforced_diagonal.rsi #FH
     state: state0
   - type: Icon
-    sprite: Structures/Walls/reinforced_diagonal.rsi
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/reinforced_diagonal.rsi #FH
     state: state0
   - type: Damageable
     damageContainer: StructuralInorganic
@@ -779,6 +780,9 @@
         acts: ["Destruction"]
   - type: RadiationBlocker
     resistance: 5
+  - type: Paintable #FH start
+    group: WallReinforcedDiagonal 
+  - type: GenericPaintable #FH end
 
 # Riveting
 - type: entity
@@ -1117,6 +1121,9 @@
           collection: MetalSlam
       - !type:DoActsBehavior
         acts: ["Destruction"]
+  - type: Paintable #FH start
+    group: WallSolidDiagonal 
+  - type: GenericPaintable #FH end
 
 - type: entity
   parent: WallSolid

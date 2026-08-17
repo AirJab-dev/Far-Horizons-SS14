@@ -189,6 +189,26 @@
     graph: Girder
     node: reinforcedWallRust
 
+- type: entity
+  parent: WallReinforcedDiagonal
+  id: WallReinforcedDiagonalGeneric
+  suffix: Diagonal, Generic
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/reinforced_diagonal.rsi #PLACEHOLD
+  - type: Icon
+    sprite: _FarHorizons/Structures/Walls/NanoTrasen/reinforced_diagonal.rsi #PLACEHOLD
+
+- type: entity
+  parent: WallReinforcedDiagonal
+  id: WallReinforcedDiagonalNS
+  suffix: Diagonal, NS
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Structures/Walls/NeoSol/reinforced_diagonal.rsi
+  - type: Icon
+    sprite: _FarHorizons/Structures/Walls/NeoSol/reinforced_diagonal.rsi
+
 #region WallShuttle
 - type: entity
   parent: WallShuttle
@@ -303,7 +323,6 @@
   - type: Icon
     sprite: _FarHorizons/Structures/Walls/NeoSol/reinf_shuttle.rsi
 
-#region WallShuttleReinforcedDiagonal
 - type: entity
   parent: WallDiagonalBase
   id: WallShuttleReinforcedDiagonal
@@ -492,7 +511,6 @@
   - type: Icon
     sprite: _FarHorizons/Structures/Walls/NeoSol/reinf_shuttle.rsi
 
-#region WallShuttleArmoredDiagonal
 - type: entity
   parent: WallDiagonalBase
   id: WallShuttleArmoredDiagonal

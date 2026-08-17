@@ -4,6 +4,7 @@
   - WallSolid
   - WallSolidDiagonal
   - WallReinforced
+  - WallReinforcedDiagonal
   - WallShuttle
   - WallShuttleReinforced
   - WallShuttleArmored
