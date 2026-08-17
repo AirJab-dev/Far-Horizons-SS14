@@ -163,3 +163,12 @@
   components:
   - type: Implanter
     implant: MindShieldImplantNS
+
+#Fake
+- type: entity
+  id: FakeMindShieldImplanterNS
+  name: fake mindshield implanter (NS)
+  parent: BaseImplantOnlyImplanterSyndi
+  components:
+  - type: Implanter
+    implant: FakeMindShieldImplantNS

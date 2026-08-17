@@ -126,18 +126,4 @@
         children:
         - id: MagazineBoxRevolver38SP
           amount: 5
-
-- type: entity
-  parent: CrateSecgear
-  id: CrateSecurityTrackingMindshieldImplantsNS
-  name: Implanter Crate (NS)
-  description: Contains 4 NeoSol MindShield implants and 4 tracking implant. Requires Security access to open.
-  components:
-  - type: EntityTableContainerFill
-    containers:
-      entity_storage: !type:AllSelector
-        children:
-        - id: MindShieldImplanterNS
-          amount: 4
-        - id: TrackingImplanter
-          amount: 4
+          
