@@ -65,7 +65,7 @@
 - type: entity
   id: ReinforcedWindowDiagonalGeneric
   parent: ReinforcedWindowDiagonal
-  suffix: Generic
+  suffix: Diagonal, Generic
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_window_diagonal.rsi
@@ -75,7 +75,7 @@
 - type: entity
   id: ReinforcedWindowDiagonalNS
   parent: ReinforcedWindowDiagonal
-  suffix: NS
+  suffix: Diagonal, NS
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_window_diagonal.rsi
