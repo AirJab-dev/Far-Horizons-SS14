@@ -121,7 +121,7 @@
 - type: entity
   parent: ReinforcedPlasmaWindow
   id: ReinforcedPlasmaWindowDiagonal
-  suffix: Diagonal, NT
+  suffix: Diagonal, NT # Far Horizons
   placement:
     mode: SnapgridCenter
     snap:

@@ -796,7 +796,7 @@
               doAfter: 4
 
     - node: diagonalshuttleWall
-      entity: WallShuttleArmoredDiagonalGeneric
+      entity: WallShuttleArmoredDiagonalGeneric # Far Horizons
       edges:
         - to: reinforcedGirder
           completed:

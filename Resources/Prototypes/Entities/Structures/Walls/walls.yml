@@ -744,7 +744,7 @@
   parent: WallDiagonalBase
   id: WallReinforcedDiagonal
   name: Reinforced Wall #Far Horizons - The Great Capitalization Crusade
-  suffix: Diagonal, NT
+  suffix: Diagonal, NT # Far Horizons
   components:
   - type: Sprite
     drawdepth: Walls
@@ -966,7 +966,7 @@
   parent: BaseWall
   id: WallShuttle
   name: Shuttle Wall #Far Horizons - The Great Capitalization Crusade
-  suffix: NT
+  suffix: NT # Far Horizons
   components:
   - type: Damageable
     damageContainer: StructuralInorganic
