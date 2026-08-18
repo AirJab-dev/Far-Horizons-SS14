@@ -12,8 +12,8 @@ namespace Content.Shared._FarHorizons.Factions;
 
 public abstract partial class SharedFactionManager : ISharedFactionManager
 {
-    [Dependency] protected readonly IPrototypeManager _prototypeManager = default!;
-    [Dependency] protected readonly ILocalizationManager _locMan = default!;
+    [Dependency] protected IPrototypeManager _prototypeManager = default!;
+    [Dependency] protected ILocalizationManager _locMan = default!;
 
     public static readonly string FallbackFaction = "FactionNT";
 
@@ -228,10 +228,10 @@ public abstract partial class SharedFactionManager : ISharedFactionManager
     private (ProtoId<FactionPrototype> faction, ProtoId<JobPrototype> job) GetDefaultIdsWithJob() =>
         (GetDefaultFaction(), SharedGameTicker.FallbackOverflowJob);
     private static bool TryGetFactionColor(FactionPrototype faction, out Color color) => Color.TryParse(faction.Color, out color);
-    private FactionJobAssignmentPrototype? GetJobAssignment((ProtoId<FactionPrototype> faction, ProtoId<JobPrototype> job) factionJob) =>
+    public FactionJobAssignmentPrototype? GetJobAssignment((ProtoId<FactionPrototype> faction, ProtoId<JobPrototype> job) factionJob) =>
         ListFactionJobs().FirstOrDefault(p => p.Faction == factionJob.faction && p.Job == factionJob.job);
-    
-    private bool TryGetJobAssignment((ProtoId<FactionPrototype> faction, ProtoId<JobPrototype> job) factionJob, out FactionJobAssignmentPrototype? assignment){
+
+    public bool TryGetJobAssignment((ProtoId<FactionPrototype> faction, ProtoId<JobPrototype> job) factionJob, out FactionJobAssignmentPrototype? assignment){
         assignment = GetJobAssignment(factionJob);
         return assignment != null;
     }
