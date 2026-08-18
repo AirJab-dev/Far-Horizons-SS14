@@ -179,7 +179,7 @@
 - type: entity
   name: The Watcher
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseSecurityContraband]
-  id: WeaponSniperMarshalsLeverAction
+  id: WeaponSniperWatcher
   description: A weapon designed to remind that The Law's eye is ever-watchful. Has a built-in shock-compensating stock, making the user barely feel the recoil of the gun. Chambers .44 magnum rounds.
   components:
   - type: KnockbackByUserTag
