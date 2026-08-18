@@ -376,7 +376,7 @@
         coefficients:
           Blunt: 0.75 # Far Horizons
           Slash: 0.75 # Far Horizons
-          Piercing: 0.6
+          Piercing: 0.65 # Far Horizons
           Heat: 0.9
       staminaModifier: 0.85
     - type: LimbArmor # Far Horizons

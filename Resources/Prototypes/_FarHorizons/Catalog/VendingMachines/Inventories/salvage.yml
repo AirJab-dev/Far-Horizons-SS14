@@ -215,7 +215,7 @@
   id: VendorSalvageClothingOuterArmorSalvageHeavy
   productEntity: ClothingOuterArmorSalvageHeavy
   cost:
-    SalvageTicket: 300
+    SalvageTicket: 400
   categories:
   - SalvageArmor
   conditions:
