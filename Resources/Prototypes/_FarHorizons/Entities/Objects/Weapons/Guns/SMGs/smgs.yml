@@ -358,9 +358,6 @@
     angleIncrease: 8
     angleDecay: 5
     selectedMode: FullAuto
-    # shotsPerBurst: 3
-    # burstCooldown: 0.2
-    # burstFireRate: 8
     availableModes:
     - SemiAuto
     - FullAuto
@@ -384,16 +381,13 @@
         Blunt: 7 #Far horizons
   - type: StaminaDamageOnHit
     damage: 20
-  - type: UseDelay # Bayonet
+  - type: UseDelay
     delay: 1
   - type: SpeedModifiedOnWield
-    walkModifier: 1 #Light enough to act like a pistol. A machine pistol, if you will.
+    walkModifier: 1
     sprintModifier: 1
   - type: AltFireMelee
     attackType: Heavy
-  # - type: Tag
-  #   tags:
-  #   - P291
 
 
 #region = Syndicate =
