@@ -45,6 +45,7 @@
         layer:
         - WallLayer
         density: 5000 #FH
+  - type: LineOfSightExclude # Far Horizons
 
 - type: entity
   id: PlastitaniumWindowSquareBase
