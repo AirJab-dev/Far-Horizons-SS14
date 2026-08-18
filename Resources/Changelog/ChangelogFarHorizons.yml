@@ -17754,5 +17754,40 @@ Entries:
   id: 157401
   time: '2026-08-18T19:12:33.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1574
+- author: Mizuki
+  changes:
+  - message: Added NS and GSL mindshields
+    type: Add
+  id: 157100
+  time: '2026-08-18T20:37:39.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1571
+- author: Mizuki
+  changes:
+  - message: Added NS and GSL mindshield crates
+    type: Add
+  id: 157101
+  time: '2026-08-18T20:37:39.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1571
+- author: Mizuki
+  changes:
+  - message: Added NS implanter crate
+    type: Add
+  id: 157102
+  time: '2026-08-18T20:37:39.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1571
+- author: Mizuki
+  changes:
+  - message: Added NS fake mindshield
+    type: Add
+  id: 157103
+  time: '2026-08-18T20:37:39.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1571
+- author: Mizuki
+  changes:
+  - message: Injector crates now use their respective faction's access only
+    type: Tweak
+  id: 157104
+  time: '2026-08-18T20:37:39.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1571
 Order: -1
 
