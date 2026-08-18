@@ -328,11 +328,11 @@
     - P291
 
 
-  #region Contable's SMG
+  #region Contable's
 - type: entity
-  name: NS Warden's SMG
+  name: Compliance
   parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
-  id: WeaponSubMachineGunConstableSMGWeapon
+  id: WeaponSubMachineGunCompliance
   description: A small bullpup SMG, designed for close quarters combat and subduing prison riots. Feeds from 9mm Magazines.
   components:
   - type: Sprite
@@ -348,10 +348,10 @@
     sprite: _FarHorizons/Objects/Weapons/Guns/SMGs/NS_P91/ns_p91_x32.rsi
   - type: Wieldable
     unwieldOnUse: false
-  - type: GunWieldBonus # 1 - 10 Deviation / Addition of Grip
+  - type: GunWieldBonus # 1 - 15 Deviation / Addition of Grip
     minAngle: 0
-    maxAngle: -15
-  - type: Gun # 1 - 25 Deviation (Meant to be one-handed) / Addition of Stock & Barrel Ports
+    maxAngle: -10
+  - type: Gun # 1 - 25 Deviation (When one-handed)
     fireRate: 10
     minAngle: 1
     maxAngle: 25

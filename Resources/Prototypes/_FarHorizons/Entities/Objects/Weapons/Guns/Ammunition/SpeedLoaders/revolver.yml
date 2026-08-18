@@ -200,7 +200,7 @@
 - type: entity
   id: SpeedLoaderMagnumLeverEmpty
   name: ".44 Magnum Speed loader" #FH
-  parent: [BaseSpeedLoaderShotgun, BaseMinorContraband]
+  parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -215,7 +215,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,0
+    - 0,0,0,1
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/improvised_lever_action_speed_loader.rsi
     layers:
@@ -230,7 +230,7 @@
 - type: entity
   id: SpeedLoaderMagnumLeverSP
   name: ".44 Magnum Speed Loader (.44 Magnum SP)" #FH
-  parent: [BaseSpeedLoaderShotgun, BaseMinorContraband]
+  parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumSP
@@ -245,7 +245,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,0
+    - 0,0,0,1
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/improvised_lever_action_speed_loader.rsi
     layers:
@@ -260,7 +260,7 @@
 - type: entity
   id: SpeedLoaderMagnumLeverHP
   name: ".44 Magnum Speed Loader (.44 Magnum HP)" #FH
-  parent: [BaseSpeedLoaderShotgun, BaseMinorContraband]
+  parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumHP
@@ -275,7 +275,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,0
+    - 0,0,0,1
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/improvised_lever_action_speed_loader.rsi
     layers:
@@ -291,7 +291,7 @@
 - type: entity
   id: SpeedLoaderMagnumLeverFMJ
   name: ".44 Magnum Speed Loader (.44 Magnum FMJ)" #FH
-  parent: [BaseSpeedLoaderShotgun, BaseMinorContraband]
+  parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumFMJ
@@ -306,7 +306,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,0
+    - 0,0,0,1
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/improvised_lever_action_speed_loader.rsi
     layers:
@@ -321,7 +321,7 @@
 - type: entity
   id: SpeedLoaderMagnumLeverAP
   name: ".44 Magnum Speed Loader (.44 Magnum AP)" #FH
-  parent: [BaseSpeedLoaderShotgun, BaseMinorContraband]
+  parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumAP
@@ -336,7 +336,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,0
+    - 0,0,0,1
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/improvised_lever_action_speed_loader.rsi
     layers:
@@ -351,7 +351,7 @@
 - type: entity
   id: SpeedLoaderMagnumLeverPractice
   name: ".44 Magnum Speed Loader (.44 Magnum Practice)" #FH
-  parent: [BaseSpeedLoaderShotgun, BaseMinorContraband]
+  parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumPractice
@@ -366,7 +366,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,0
+    - 0,0,0,1
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/improvised_lever_action_speed_loader.rsi
     layers:
@@ -381,7 +381,7 @@
 - type: entity
   id: SpeedLoaderMagnumLeverIncendiary
   name: ".44 Magnum Speed Loader (.44 Magnum Incendiary)" #FH
-  parent: [BaseSpeedLoaderShotgun, BaseMinorContraband]
+  parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumIncendiary
@@ -396,7 +396,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,0
+    - 0,0,0,1
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/improvised_lever_action_speed_loader.rsi
     layers:
@@ -411,7 +411,7 @@
 - type: entity
   id: SpeedLoaderMagnumLeverUranium
   name: ".44 Magnum Speed Loader (.44 Magnum Uranium)" #FH
-  parent: [BaseSpeedLoaderShotgun, BaseMinorContraband]
+  parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumUranium
@@ -426,7 +426,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,0
+    - 0,0,0,1
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/improvised_lever_action_speed_loader.rsi
     layers:
@@ -441,7 +441,7 @@
 - type: entity
   id: SpeedLoaderMagnumLeverRubber
   name: ".44 Magnum Speed Loader (.44 Magnum Rubber)" #FH
-  parent: [BaseSpeedLoaderShotgun, BaseMinorContraband]
+  parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumRubber
@@ -456,7 +456,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,0
+    - 0,0,0,1
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/improvised_lever_action_speed_loader.rsi
     layers:

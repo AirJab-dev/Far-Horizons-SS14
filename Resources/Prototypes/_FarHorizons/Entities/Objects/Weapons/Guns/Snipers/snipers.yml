@@ -177,7 +177,7 @@
 
 #region Marshal's Lever Action
 - type: entity
-  name: Marshal's Lever Action Gun
+  name: The Watcher
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponSniperMarshalsLeverAction
   description: A weapon designed to remind that The Law's eye is ever-watchful. Has a built-in shock-compensating stock, making the user barely feel the recoil of the gun. Chambers .44 magnum rounds.
@@ -202,7 +202,7 @@
       path: /Audio/_FarHorizons/Items/Weapons/Mark1/mark1_cycle_Bolt.ogg
       params:
         variation: 0.05
-  - type: Gun
+  - type: Gun #Deviation when wielding is 0-10
     minAngle: 10
     maxAngle: 40
     soundGunshot:
@@ -237,8 +237,8 @@
         doAfter: 0
         allowMovement: true
   - type: GunWieldBonus
-    minAngle: -5
-    maxAngle: -10
+    minAngle: -10
+    maxAngle: -30
   - type: GunRequiresWield
   - type: StaticPrice
     price: 500
