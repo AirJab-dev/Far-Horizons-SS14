@@ -1,7 +1,7 @@
 - type: entity
   id: ShuttleWindow
   name: Shuttle Window # Far Horizons - The Great Capitalization Crusade
-  suffix: NT
+  suffix: NT # Far Horizons
   parent: [BaseDeltaPressureReinforcedGlass, WindowRCDResistant]
   components:
   - type: Sprite
