@@ -17740,5 +17740,19 @@ Entries:
   id: 157200
   time: '2026-08-16T15:26:07.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1572
+- author: rain_enjoyer
+  changes:
+  - message: Inspector's coats not having flat resists.
+    type: Fix
+  id: 157400
+  time: '2026-08-18T19:12:33.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1574
+- author: rain_enjoyer
+  changes:
+  - message: Inspector's locker having the wrong coat in it
+    type: Fix
+  id: 157401
+  time: '2026-08-18T19:12:33.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1574
 Order: -1
 
