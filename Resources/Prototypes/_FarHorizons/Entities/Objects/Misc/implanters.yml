@@ -167,7 +167,7 @@
 #Fake
 - type: entity
   id: FakeMindShieldImplanterNS
-  name: fake mindshield implanter (NS)
+  name: Fake Mindshield Implanter (NS)
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
