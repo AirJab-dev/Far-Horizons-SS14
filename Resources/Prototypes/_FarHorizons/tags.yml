@@ -179,6 +179,9 @@
 
 - type: Tag
   id: Pin
+
+- type: Tag
+  id: PKSUpgrade
  
 - type: Tag
   id: PocketFireExtinguish
