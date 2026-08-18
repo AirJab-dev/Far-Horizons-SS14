@@ -84,7 +84,7 @@
 #FH - End
 
     - node: windowDiagonal
-      entity: WindowDiagonalGeneric
+      entity: WindowDiagonalGeneric # Far Horizons
       edges:
         - to: start
           completed:
@@ -99,7 +99,7 @@
               doAfter: 2
 
     - node: reinforcedWindowDiagonal
-      entity: ReinforcedWindowDiagonalGeneric
+      entity: ReinforcedWindowDiagonalGeneric # Far Horizons
       edges:
         - to: start
           completed:
@@ -145,7 +145,7 @@
               doAfter: 2
 
     - node: plasmaWindowDiagonal
-      entity: PlasmaWindowDiagonalGeneric
+      entity: PlasmaWindowDiagonalGeneric # Far Horizons
       edges:
         - to: start
           completed:
@@ -187,7 +187,7 @@
               doAfter: 3
 
     - node: uraniumWindowDiagonal
-      entity: UraniumWindowDiagonalGeneric
+      entity: UraniumWindowDiagonalGeneric # Far Horizons
       edges:
         - to: start
           completed:
@@ -206,7 +206,7 @@
               doAfter: 3
 
     - node: reinforcedUraniumWindowDiagonal
-      entity: ReinforcedUraniumWindowDiagonalGeneric
+      entity: ReinforcedUraniumWindowDiagonalGeneric # Far Horizons
       edges:
         - to: start
           completed:
