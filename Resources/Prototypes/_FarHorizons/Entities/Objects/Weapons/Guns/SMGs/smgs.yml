@@ -375,15 +375,15 @@
   - type: MeleeWeapon
     wideAnimationRotation: -90
     attackRate: 1.5
+    soundHit:
+      collection: MetalThud
+    angle: 0
+    animation: WeaponArcThrust
     damage:
       types:
         Blunt: 7 #Far horizons
   - type: StaminaDamageOnHit
     damage: 20
-    soundHit:
-      collection: MetalThud
-    angle: 0
-    animation: WeaponArcThrust
   - type: UseDelay # Bayonet
     delay: 1
   - type: SpeedModifiedOnWield
