@@ -17789,5 +17789,12 @@ Entries:
   id: 157104
   time: '2026-08-18T20:37:39.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1571
+- author: rain_enjoyer
+  changes:
+  - message: CC now jokes about being omnipotent instead of declaring it outright
+    type: Tweak
+  id: 157800
+  time: '2026-08-18T20:44:51.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1578
 Order: -1
 
