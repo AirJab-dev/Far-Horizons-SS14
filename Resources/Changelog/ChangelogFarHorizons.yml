@@ -18059,5 +18059,36 @@ Entries:
   id: 157508
   time: '2026-08-18T21:57:43.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1575
+- author: MightyM1me
+  changes:
+  - message: Constable and Marshal weapon prototypes. Sprites and sounds are placeholders
+      for now. For admeme use at best
+    type: Add
+  id: 157700
+  time: '2026-08-18T22:12:09.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1577
+- author: MightyM1me
+  changes:
+  - message: Compliance prototype- a high fire rate SMG, exclusively for the constable's
+      use
+    type: Add
+  id: 157701
+  time: '2026-08-18T22:12:09.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1577
+- author: MightyM1me
+  changes:
+  - message: The Watcher prototype- a 10-round capacity lever-action rifle for the
+      marshal
+    type: Add
+  id: 157702
+  time: '2026-08-18T22:12:09.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1577
+- author: MightyM1me
+  changes:
+  - message: Prototypes for 10-round .44 security speedloaders
+    type: Add
+  id: 157703
+  time: '2026-08-18T22:12:09.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1577
 Order: -1
 
