@@ -17796,5 +17796,196 @@ Entries:
   id: 157800
   time: '2026-08-18T20:44:51.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1578
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: WallSolid Resprite
+    type: Add
+  id: 150400
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: WallSolidDiagonal Resprite
+    type: Add
+  id: 150401
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: WallReinforced Resprite
+    type: Add
+  id: 150402
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: WallReinforcedDiagonal Resprite
+    type: Add
+  id: 150403
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: Window Resprite
+    type: Add
+  id: 150404
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: WindowDiagonal Resprite
+    type: Add
+  id: 150405
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: ReinforcedWindow Resprite
+    type: Add
+  id: 150406
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: ReinforcedWindowDiagonal Resprite
+    type: Add
+  id: 150407
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: PlasmaWindow Resprite
+    type: Add
+  id: 150408
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: PlasmaWindowDiagonal Resprite
+    type: Add
+  id: 150409
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: ReinforcedPlasmaWindow Resprite
+    type: Add
+  id: 150410
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: ReinforcedPlasmaWindowDiagonal Resprite
+    type: Add
+  id: 150411
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: UraniumWindow Resprite
+    type: Add
+  id: 150412
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: UraniumWindowDiagonal Resprite
+    type: Add
+  id: 150413
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: ReinforcedUraniumWindow Resprite
+    type: Add
+  id: 150414
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: ReinforcedUraniumWindowDiagonal Resprite
+    type: Add
+  id: 150415
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: walls have filed for divorce with the windows and no longer share a catagorey
+      in the painter
+    type: Tweak
+  id: 150416
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: Made most walls paintable with 3 faction specific styles
+    type: Tweak
+  id: 150417
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: Made SolidSecretDoor paintable with 3 styles (Placeholder Sprites)
+    type: Tweak
+  id: 150418
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: PainterAmmo can now fit in ConstructionMaterial whitelisted storages
+    type: Tweak
+  id: 150419
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: Set DrawDepth of Secret Doors to "Walls" instead of "Doors"
+    type: Tweak
+  id: 150420
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: Temporary Resprite of SolidSecretDoor
+    type: Tweak
+  id: 150421
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: 'Diagonal Windows have been adjusted to use key: wall so they properly
+      tile with other windows'
+    type: Fix
+  id: 150422
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: Reinforced Shuttle Walls/Glass/Diagonal (Killer Tamashi)
+    type: Add
+  id: 150423
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: Armored Shuttle Walls/Glass/Diagonal (Killer Tamashi)
+    type: Add
+  id: 150424
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: Shuttle wall deletion HP reduced (Killer Tamashi)
+    type: Tweak
+  id: 150425
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
+- author: KarusKardin and ItsAbby
+  changes:
+  - message: Plastitnium walls made heavier (Killer Tamashi)
+    type: Tweak
+  id: 150426
+  time: '2026-08-18T21:43:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1504
 Order: -1
 
