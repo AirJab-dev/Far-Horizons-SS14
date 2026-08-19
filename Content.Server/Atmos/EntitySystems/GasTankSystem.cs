@@ -25,6 +25,7 @@ public sealed partial class GasTankSystem : SharedGasTankSystem
     private const float MinimumSoundValvePressure = 10.0f;
 
     private const float ReleaseArea = 0.0001f; // About 1cm^2
+    private const float SafeReleaseArea = 0.1f; // Far Horizons - split maxcap and non-maxcap release logic 
 
     // A vector bias for throwing our gas tanks in radians. Averages about -43 degrees since the sprite is at a 45-degree angle.
     private static readonly Vector2 ThrowVector = new (-1.0f, -0.5f);
@@ -94,11 +95,20 @@ public sealed partial class GasTankSystem : SharedGasTankSystem
             ? entity.Comp.Air.Pressure
             : entity.Comp.Air.Pressure - environment.Pressure;
 
-        // Cap deltaP by the maximum output pressure of the tank.
-        if (deltaP < entity.Comp.SafetyPressure)
-            deltaP = Math.Min(entity.Comp.ReleasePressure, deltaP);
+        // Far Horizons start
+        // Removed cap. Despite it looking like an intentional mechanic, it keeps being reported as bug
 
-        var removed = _atmosphereSystem.FlowGas(entity.Comp.Air, deltaP, dt, ReleaseArea);
+        // Cap deltaP by the maximum output pressure of the tank.
+        // if (deltaP < entity.Comp.SafetyPressure)
+        //     deltaP = Math.Min(entity.Comp.ReleasePressure, deltaP);
+
+        // Note, this might be a bad change, I have no idea how atmos works
+        // However, it seems like release area is the most influential factor for how fast gas leaves the tank
+        // If I fuck around with base one - maxcaps become nukes that phase through walls, so I'm keeping maxcap logic the same while changing normal gas release
+        var removed = deltaP > entity.Comp.SafetyPressure
+            ? _atmosphereSystem.FlowGas(entity.Comp.Air, deltaP, dt, ReleaseArea)
+            : _atmosphereSystem.FlowGas(entity.Comp.Air, deltaP, dt, SafeReleaseArea);
+        // Far Horizons end
 
         if (removed == null)
             return;
