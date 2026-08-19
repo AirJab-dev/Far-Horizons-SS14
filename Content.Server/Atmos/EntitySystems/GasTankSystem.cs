@@ -25,7 +25,7 @@ public sealed partial class GasTankSystem : SharedGasTankSystem
     private const float MinimumSoundValvePressure = 10.0f;
 
     private const float ReleaseArea = 0.0001f; // About 1cm^2
-    private const float SafeReleaseArea = 0.1f; // Far Horizons - split maxcap and non-maxcap release logic 
+    private const float SafeReleaseArea = 0.01f; // Far Horizons - split maxcap and non-maxcap release logic 
 
     // A vector bias for throwing our gas tanks in radians. Averages about -43 degrees since the sprite is at a 45-degree angle.
     private static readonly Vector2 ThrowVector = new (-1.0f, -0.5f);
