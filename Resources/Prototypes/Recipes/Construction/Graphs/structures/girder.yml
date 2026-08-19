@@ -374,11 +374,7 @@
 
 #FH - Start
     - node: ReinforcedShuttleWall
-<<<<<<< HEAD
-      entity: WallShuttleReinforced
-=======
       entity: WallShuttleReinforcedGeneric
->>>>>>> Far-Horizons
       edges:
         - to: reinforcedGirder
           completed:
@@ -451,11 +447,7 @@
               doAfter: 4
 
     - node: DiagonalReinforcedShuttleWall
-<<<<<<< HEAD
-      entity: WallShuttleReinforcedDiagonal
-=======
       entity: WallShuttleReinforcedDiagonalGeneric
->>>>>>> Far-Horizons
       edges:
         - to: reinforcedGirder
           completed:
@@ -504,11 +496,7 @@
               doAfter: 1
 
     - node: ArmoredShuttleWall
-<<<<<<< HEAD
-      entity: WallShuttleArmored
-=======
       entity: WallShuttleArmoredGeneric
->>>>>>> Far-Horizons
       edges:
         - to: reinforcedGirder
           completed:
@@ -589,11 +577,7 @@
               doAfter: 4
 
     - node: DiagonalArmoredShuttleWall
-<<<<<<< HEAD
-      entity: WallShuttleArmoredDiagonal
-=======
       entity: WallShuttleArmoredDiagonalGeneric
->>>>>>> Far-Horizons
       edges:
         - to: reinforcedGirder
           completed:

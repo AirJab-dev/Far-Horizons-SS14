@@ -186,36 +186,7 @@
   - type: BlockWeather
   - type: LineOfSightExclude
 
-<<<<<<< HEAD
-  #region NeoSol
-- type: entity
-  id: WindowSyndie
-  parent: Window
-  name: Window
-  suffix: NS
-  components:
-  - type: Sprite
-    drawdepth: WallTops
-    sprite: Structures/Windows/window.rsi
-  - type: Icon
-    sprite: Structures/Windows/window.rsi
-    state: full
-
-- type: entity
-  id: ReinforcedWindowSyndie
-  parent: ReinforcedWindow
-  name: Reinforced Window 
-  suffix: NS
-  components:
-  - type: Sprite
-    drawdepth: WallTops
-    sprite: Structures/Windows/reinforced_window.rsi
-  - type: Icon
-    sprite: Structures/Windows/reinforced_window.rsi
-
-=======
 #region TintedWindow
->>>>>>> Far-Horizons
 - type: entity
   parent: BaseWindow 
   id: TintedWindowNeoSol
@@ -243,19 +214,6 @@
     - Off
     - Toggle
 
-<<<<<<< HEAD
-#region Reinf. Shuttle Window
-- type: entity
-  id: ShuttleWindowReinforced
-  name: Reinforced Shuttle Window
-  parent: [BaseDeltaPressurePlasmaQuarter, WindowRCDResistant]
-  components:
-  - type: Sprite
-    drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/shuttle_window.rsi
-  - type: Icon
-    sprite: _FarHorizons/Structures/Windows/shuttle_window.rsi
-=======
 #region ShuttleWindow
 - type: entity
   id: ShuttleWindowGeneric
@@ -309,7 +267,6 @@
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
->>>>>>> Far-Horizons
   - type: Repairable
     fuelCost: 15
     doAfterDelay: 3
@@ -342,11 +299,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-<<<<<<< HEAD
-    key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align.
-=======
     key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align. - the stars weep in my presence 
->>>>>>> Far-Horizons
     base: swindow
   - type: Appearance
   - type: DamageVisuals
@@ -362,11 +315,6 @@
     node: ReinforcedShuttleWindow
 
 - type: entity
-<<<<<<< HEAD
-  parent: ShuttleWindowReinforced
-  id: ShuttleWindowReinforcedDiagonal
-  suffix: Diagonal
-=======
   id: ShuttleWindowReinforcedGeneric
   parent: ShuttleWindowReinforced
   suffix: Generic
@@ -390,7 +338,6 @@
   parent: ShuttleWindowReinforced
   id: ShuttleWindowReinforcedDiagonal
   suffix: Diagonal, NT
->>>>>>> Far-Horizons
   placement:
     mode: SnapgridCenter
     snap:
@@ -398,11 +345,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-<<<<<<< HEAD
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi
-=======
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
->>>>>>> Far-Horizons
     state: state0
   - type: Tag
     tags:
@@ -410,17 +353,10 @@
     - Window
   - type: IconSmooth
     mode: Diagonal
-<<<<<<< HEAD
-    key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align.
-    base: state
-  - type: Icon
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi
-=======
     key: walls
     base: state
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
->>>>>>> Far-Horizons
     state: state0
   - type: Fixtures
     fixtures:
@@ -444,10 +380,6 @@
     damageOverlay:
       sprite: Structures/Windows/cracks_diagonal.rsi
   - type: Construction
-<<<<<<< HEAD
-    graph: Window
-    node: ReinforcedShuttleWindowDirectional
-=======
     graph: WindowDiagonal
     node: ShuttleWindowReinforcedDiagonal
 
@@ -470,29 +402,19 @@
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window_diagonal.rsi
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window_diagonal.rsi
->>>>>>> Far-Horizons
 
 #region A.Shuttle Window
 - type: entity
   id: ShuttleWindowArmored
   name: Armored Shuttle Window
-<<<<<<< HEAD
-=======
   suffix: NT
->>>>>>> Far-Horizons
   parent: [BaseDeltaPressureReinforcedPlasmaQuarter, WindowRCDResistant]
   components:
   - type: Sprite
     drawdepth: WallTops
-<<<<<<< HEAD
-    sprite: _FarHorizons/Structures/Windows/shuttle_window.rsi
-  - type: Icon
-    sprite: _FarHorizons/Structures/Windows/shuttle_window.rsi
-=======
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window.rsi 
->>>>>>> Far-Horizons
   - type: Repairable
     fuelCost: 15
     doAfterDelay: 3
@@ -525,11 +447,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-<<<<<<< HEAD
-    key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align.
-=======
     key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align. - the stars weep in my presence 
->>>>>>> Far-Horizons
     base: swindow 
   - type: Appearance
   - type: DamageVisuals
@@ -545,11 +463,6 @@
     node: ArmoredShuttleWindow
 
 - type: entity
-<<<<<<< HEAD
-  parent: ShuttleWindowArmored
-  id: ShuttleWindowArmoredDiagonal
-  suffix: Diagonal
-=======
   id: ShuttleWindowArmoredGeneric
   parent: ShuttleWindowArmored
   suffix: Generic
@@ -573,7 +486,6 @@
   parent: ShuttleWindowArmored
   id: ShuttleWindowArmoredDiagonal
   suffix: Diagonal, NT
->>>>>>> Far-Horizons
   placement:
     mode: SnapgridCenter
     snap:
@@ -581,11 +493,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-<<<<<<< HEAD
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi
-=======
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
->>>>>>> Far-Horizons
     state: state0
   - type: Tag
     tags:
@@ -593,17 +501,10 @@
     - Window
   - type: IconSmooth
     mode: Diagonal
-<<<<<<< HEAD
-    key: walls # Far Horizons... This will surely get fixed, eventually, during a lunar eclipse, when all the stars align.
-    base: state
-  - type: Icon
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi
-=======
     key: walls
     base: state
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NanoTrasen/reinforced_shuttle_window_diagonal.rsi
->>>>>>> Far-Horizons
     state: state0
   - type: Fixtures
     fixtures:
@@ -627,53 +528,6 @@
     damageOverlay:
       sprite: Structures/Windows/cracks_diagonal.rsi
   - type: Construction
-<<<<<<< HEAD
-    graph: Window
-    node: ArmoredShuttleWindowDirectional
-
-#region Syndicate
-- type: entity
-  id: ShuttleWindowArmoredSyndicate
-  name: Armored Shuttle Window
-  parent: ShuttleWindowArmored
-  suffix: Syndicate
-  components:
-  - type: Sprite
-    drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/shuttle_window.rsi
-    color: "#1D1D1D"
-  - type: Icon
-    sprite: _FarHorizons/Structures/Windows/shuttle_window.rsi
-    color: "#1D1D1D"
-  - type: IconSmooth
-    key: walls
-    base: swindow 
-  - type: Appearance
-
-- type: entity
-  parent: ShuttleWindowArmoredDiagonal
-  id: ShuttleWindowArmoredDiagonalSyndicate
-  suffix: Diagonal, Syndicate
-  placement:
-    mode: SnapgridCenter
-    snap:
-    - Window
-  components:
-  - type: Appearance
-  - type: Sprite
-    drawdepth: WallTops
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi
-    state: state0
-    color: "#1D1D1D"
-  - type: IconSmooth
-    mode: Diagonal
-    key: walls
-    base: state
-  - type: Icon
-    sprite: _FarHorizons/Structures/Windows/shuttle_window_diagonal.rsi
-    state: state0
-    color: "#1D1D1D"
-=======
     graph: WindowDiagonal
     node: ArmoredShuttleWindowDiagonal
 
@@ -696,4 +550,3 @@
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window_diagonal.rsi
   - type: Icon
     sprite: _FarHorizons/Structures/Windows/NeoSol/reinforced_shuttle_window_diagonal.rsi
->>>>>>> Far-Horizons
