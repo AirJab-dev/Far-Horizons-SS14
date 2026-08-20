@@ -15,6 +15,7 @@
       visible: true
   - type: Appearance
   - type: ApcPowerReceiver
+    powerLoad: 1000
   - type: InteractionOutline
   - type: Rotatable
   - type: Fixtures
@@ -63,6 +64,8 @@
   - type: Appearance
   - type: InteractionOutline
   - type: Rotatable
+  - type: ApcPowerReceiver
+    powerLoad: 10000
   - type: Fixtures
     fixtures:
       fix1:
@@ -106,6 +109,8 @@
     - state: large_ftl
       visible: true
   - type: Appearance
+  - type: ApcPowerReceiver
+    powerLoad: 50000
   - type: InteractionOutline
   - type: Rotatable
   - type: Fixtures
@@ -151,6 +156,8 @@
     - state: huge_ftl
       visible: true
   - type: Appearance
+  - type: ApcPowerReceiver
+    powerLoad: 100000
   - type: InteractionOutline
   - type: Rotatable
   - type: Fixtures
