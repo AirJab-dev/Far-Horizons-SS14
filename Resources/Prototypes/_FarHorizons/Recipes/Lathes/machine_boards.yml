@@ -53,6 +53,10 @@
   id: SubstationShuttleMachineCircuitboard
   result: SubstationShuttleMachineCircuitboard
 
+- type: latheRecipe
+  parent: PortableGeneratorPacmanMachineCircuitboard
+  id: GeneratorAcmanMachineCircuitboard
+  result: GeneratorAcmanMachineCircuitboard
 ## NeoSol Station
 
 - type: latheRecipe

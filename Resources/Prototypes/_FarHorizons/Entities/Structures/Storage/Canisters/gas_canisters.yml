@@ -13,7 +13,7 @@
         visible: false
         map: [ "enum.PaperLabelVisuals.Layer" ]
   - type: GasCanister
-    gasMixture:
+    air:
       volume: 3000
       moles:
         Oxygen: 1163.12 # oxygen 21%

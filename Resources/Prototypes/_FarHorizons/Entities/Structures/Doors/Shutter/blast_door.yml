@@ -15,6 +15,7 @@
     - state: welded
       map: ["enum.WeldableLayers.BaseWelded"]
   - type: Door
+    performCollisionCheck: false #Allows for forceful door closing.
     closeTimeOne: 0.4
     closeTimeTwo: 0.4
     openTimeOne: 0.4
@@ -24,7 +25,7 @@
     canPry: false
     crushDamage:
       types:
-        Blunt: 50 #OW
+        Blunt: 50 #It tries harder to close. Will make sure people learn real fast not to stand in the way.
     openSound:
       path: /Audio/Machines/blastdoor.ogg
     closeSound:

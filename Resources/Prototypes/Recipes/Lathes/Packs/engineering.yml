@@ -99,6 +99,7 @@
   - WeaponTurretPointDefenseMachineCircuitboard #Starlight
   - ElectrolyzerMachineCircuitboard # Funky atmos - /tg/ gases
 #FH - Start
+  - GeneratorAcmanMachineCircuitboard
   - SMESShipMachineCircuitboard
   - SMESShuttleMachineCircuitboard
   - HolographicFieldGeneratorCircuitboard

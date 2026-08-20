@@ -17,6 +17,26 @@
           amount: 2
           defaultPrototype: Beaker
 
+- type: entity
+  id: GeneratorAcmanMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: A.C.M.A.N.-type generator machine board
+  components:
+    - type: Sprite
+      state: engineering
+    - type: MachineBoard
+      prototype: GeneratorAcman
+      stackRequirements:
+        Manipulator: 4
+        CableHV: 20
+    - type: PhysicalComposition
+      materialComposition:
+        Glass: 200
+      chemicalComposition:
+        Silicon: 20
+    - type: StaticPrice
+      price: 40
+
 #region NeoSol
 - type: entity
   id: AutofabMachineCircuitboard
