@@ -9,3 +9,7 @@
 - type: latheCategory
   id: NeoSolDocument
   name: lathe-category-doc-neosol
+
+- type: latheCategory
+  id: CivilianWeaponry
+  name: lathe-category-civilian-weaponry

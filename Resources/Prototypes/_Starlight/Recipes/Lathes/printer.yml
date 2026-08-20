@@ -136,7 +136,8 @@
   id: PrintedDocumentSalvageLeadReportRecipe
   result: PrintedDocumentSalvageLeadReport
   categories:
-    - Reports
+  - Reports
+  - NanoTrasonDocument #FH
   completetime: 2
   applyMaterialDiscount: false
   materials:
