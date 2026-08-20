@@ -4,8 +4,8 @@ meta:
   engineVersion: 288.1.0
   forkId: ""
   forkVersion: ""
-  time: 08/19/2026 23:22:21
-  entityCount: 458
+  time: 08/20/2026 20:51:27
+  entityCount: 471
 maps: []
 grids:
 - 2
@@ -318,6 +318,7 @@ entities:
       chunkHistory: {}
     - type: NavMap
     - type: ExplosionAirtightGrid
+    - type: GridSplitNode
 - proto: AirAlarm
   entities:
   - uid: 457
@@ -923,11 +924,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -2.5,-5.5
-  - uid: 143
-    components:
-    - type: Transform
-      parent: 2
-      pos: -2.5,-4.5
   - uid: 144
     components:
     - type: Transform
@@ -1193,8 +1189,33 @@ entities:
     - type: Transform
       parent: 2
       pos: -3.5,10.5
+  - uid: 460
+    components:
+    - type: Transform
+      parent: 2
+      pos: -1.5,-5.5
+  - uid: 465
+    components:
+    - type: Transform
+      parent: 2
+      pos: 0.5,8.5
+  - uid: 466
+    components:
+    - type: Transform
+      parent: 2
+      pos: 0.5,7.5
+  - uid: 470
+    components:
+    - type: Transform
+      parent: 2
+      pos: 3.5,5.5
 - proto: CableMV
   entities:
+  - uid: 143
+    components:
+    - type: Transform
+      parent: 2
+      pos: -1.5,-5.5
   - uid: 290
     components:
     - type: Transform
@@ -1300,6 +1321,36 @@ entities:
     - type: Transform
       parent: 2
       pos: -1.5,-0.5
+  - uid: 461
+    components:
+    - type: Transform
+      parent: 2
+      pos: -1.5,-4.5
+  - uid: 462
+    components:
+    - type: Transform
+      parent: 2
+      pos: -1.5,-3.5
+  - uid: 463
+    components:
+    - type: Transform
+      parent: 2
+      pos: -1.5,-2.5
+  - uid: 467
+    components:
+    - type: Transform
+      parent: 2
+      pos: 0.5,7.5
+  - uid: 468
+    components:
+    - type: Transform
+      parent: 2
+      pos: 0.5,8.5
+  - uid: 471
+    components:
+    - type: Transform
+      parent: 2
+      pos: 3.5,5.5
 - proto: ChairFolding
   entities:
   - uid: 414
@@ -2721,6 +2772,24 @@ entities:
     - type: Transform
       parent: 2
       pos: -0.5,4.5
+  - uid: 459
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: -1.5,-5.5
+  - uid: 464
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 0.5,7.5
+  - uid: 469
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 3.5,5.5
 - proto: SuitStorageSalv
   entities:
   - uid: 424

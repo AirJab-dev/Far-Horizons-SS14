@@ -4,8 +4,8 @@ meta:
   engineVersion: 288.1.0
   forkId: ""
   forkVersion: ""
-  time: 08/19/2026 23:51:16
-  entityCount: 197
+  time: 08/20/2026 20:47:29
+  entityCount: 208
 maps: []
 grids:
 - 2
@@ -216,6 +216,7 @@ entities:
     - type: ExplosionAirtightGrid
     - type: ChunkContainer
       chunkEntities: []
+    - type: GridSplitNode
 - proto: AirCanister
   entities:
   - uid: 51
@@ -531,6 +532,31 @@ entities:
     - type: Transform
       parent: 2
       pos: 2.5,-8.5
+  - uid: 191
+    components:
+    - type: Transform
+      parent: 2
+      pos: 3.5,-7.5
+  - uid: 192
+    components:
+    - type: Transform
+      parent: 2
+      pos: 3.5,-6.5
+  - uid: 193
+    components:
+    - type: Transform
+      parent: 2
+      pos: 3.5,-5.5
+  - uid: 194
+    components:
+    - type: Transform
+      parent: 2
+      pos: 3.5,-4.5
+  - uid: 195
+    components:
+    - type: Transform
+      parent: 2
+      pos: 3.5,-3.5
   - uid: 196
     components:
     - type: Transform
@@ -561,6 +587,26 @@ entities:
     - type: Transform
       parent: 2
       pos: 6.5,-6.5
+  - uid: 203
+    components:
+    - type: Transform
+      parent: 2
+      pos: 2.5,-3.5
+  - uid: 204
+    components:
+    - type: Transform
+      parent: 2
+      pos: 1.5,-3.5
+  - uid: 205
+    components:
+    - type: Transform
+      parent: 2
+      pos: 1.5,-4.5
+  - uid: 206
+    components:
+    - type: Transform
+      parent: 2
+      pos: 1.5,-5.5
 - proto: CableMV
   entities:
   - uid: 127
@@ -653,6 +699,11 @@ entities:
     - type: Transform
       parent: 2
       pos: 3.5,-4.5
+  - uid: 207
+    components:
+    - type: Transform
+      parent: 2
+      pos: 1.5,-5.5
 - proto: Catwalk
   entities:
   - uid: 79
@@ -935,14 +986,11 @@ entities:
       color: '#990000FF'
 - proto: GeneratorAcman
   entities:
-  - uid: 189
+  - uid: 121
     components:
     - type: Transform
       parent: 2
-      pos: 7.5,-3.5
-      anchored: True
-    - type: Physics
-      bodyType: Static
+      pos: 7.5,-4.5
 - proto: GravityGeneratorMini
   entities:
   - uid: 46
@@ -995,11 +1043,11 @@ entities:
       pos: 7.5,-8.5
 - proto: JerrycanGasolineSmallFilled
   entities:
-  - uid: 121
+  - uid: 48
     components:
     - type: Transform
       parent: 2
-      pos: 7.498977,-3.2289505
+      pos: 7.505451,-4.186187
 - proto: LockerMiningSpecialistFilledHardsuit
   entities:
   - uid: 103
@@ -1195,14 +1243,19 @@ entities:
     - type: Transform
       parent: 2
       pos: 0.5,-7.5
-- proto: SubstationWallShuttle
+- proto: SubstationWallShip
   entities:
-  - uid: 190
+  - uid: 130
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 7.5,-5.5
+  - uid: 190
+    components:
+    - type: Transform
+      parent: 2
+      pos: 1.5,-5.5
 - proto: Thruster
   entities:
   - uid: 41
@@ -1433,9 +1486,9 @@ entities:
       pos: 0.5,-10.5
 - proto: WeldingFuelTankFull
   entities:
-  - uid: 48
+  - uid: 189
     components:
     - type: Transform
       parent: 2
-      pos: 7.5,-4.5
+      pos: 7.5,-3.5
 ...
