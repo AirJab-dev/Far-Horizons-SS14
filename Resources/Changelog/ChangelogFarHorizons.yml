@@ -18112,5 +18112,43 @@ Entries:
   id: 158701
   time: '2026-08-20T15:27:21.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1587
+- author: princess_gurchi
+  changes:
+  - message: Air will no longer ignite from trace amount of fuel in it (sub 0.01 mole)
+    type: Fix
+  id: 158400
+  time: '2026-08-20T15:41:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1584
+- author: princess_gurchi
+  changes:
+  - message: Reverted trit burn temperature change as it was making everything else
+      weird
+    type: Fix
+  id: 158401
+  time: '2026-08-20T15:41:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1584
+- author: princess_gurchi
+  changes:
+  - message: Gas tanks can be emptied quickly again
+    type: Tweak
+  id: 158402
+  time: '2026-08-20T15:41:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1584
+- author: princess_gurchi
+  changes:
+  - message: Stealthed entities once again won't be revealed by hovering a mouse over
+      them
+    type: Fix
+  id: 158403
+  time: '2026-08-20T15:41:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1584
+- author: princess_gurchi
+  changes:
+  - message: Adjusted safety pressure on gas canisters so they don't start leaking
+      if you use them with volumetric pump
+    type: Tweak
+  id: 158404
+  time: '2026-08-20T15:41:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1584
 Order: -1
 
