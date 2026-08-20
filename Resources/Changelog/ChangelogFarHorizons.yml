@@ -18097,5 +18097,20 @@ Entries:
   id: 158500
   time: '2026-08-20T15:23:53.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1585
+- author: Fasuh
+  changes:
+  - message: Changed proto moths not burning as nicely as regular moths.
+    type: Tweak
+  id: 158700
+  time: '2026-08-20T15:27:21.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1587
+- author: Fasuh
+  changes:
+  - message: Changed proto diona being a bit too flammable compared to their organic
+      cousins.
+    type: Tweak
+  id: 158701
+  time: '2026-08-20T15:27:21.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1587
 Order: -1
 
