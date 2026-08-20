@@ -1278,7 +1278,7 @@
   - type: Flammable
     damage:
       types:
-        Heat: 2.5
+        Heat: 4.5
   - type: Temperature
     currentTemperature: 310.15
     specificHeat: 46
