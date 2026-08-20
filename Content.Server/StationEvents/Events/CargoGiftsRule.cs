@@ -77,9 +77,7 @@ public sealed class CargoGiftsRule : StationEventSystem<CargoGiftsRuleComponent>
 
             if (!_cargoSystem.AddAndApproveOrder(
                     station!.Value,
-                    product.Product,
-                    product.Name,
-                    product.Cost,
+                    product,
                     qty,
                     Loc.GetString(sender),
                     Loc.GetString(component.Description),
