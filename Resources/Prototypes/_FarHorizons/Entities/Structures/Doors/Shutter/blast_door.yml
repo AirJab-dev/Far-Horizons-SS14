@@ -54,7 +54,7 @@
     containers:
     - board
   - type: StaticPrice
-    price: 600
+    price: 800
   - type: InteractionPopup
     interactSuccessString: comp-window-knock
     messagePerceivedByOthers: comp-window-knock
