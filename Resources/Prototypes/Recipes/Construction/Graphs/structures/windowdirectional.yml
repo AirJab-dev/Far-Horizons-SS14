@@ -29,7 +29,7 @@
             - material: MetalRod
               amount: 2
               doAfter: 1
-            - material: SheetRPGlass1
+            - material: SheetRPGlass
               amount: 2
               doAfter: 4
 
@@ -44,7 +44,7 @@
             - material: MetalRod
               amount: 4
               doAfter: 1
-            - material: SheetRUGlass1
+            - material: SheetRUGlass
               amount: 2
               doAfter: 4
             - material: Steel
