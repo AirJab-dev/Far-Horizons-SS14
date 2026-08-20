@@ -18150,5 +18150,140 @@ Entries:
   id: 158404
   time: '2026-08-20T15:41:20.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1584
+- author: Killer Tamashi
+  changes:
+  - message: Added Jerrycans (fuel containers)
+    type: Add
+  id: 158600
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Added Large Air Canister
+    type: Add
+  id: 158601
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Added Shuttle/Ship SMES & Substations
+    type: Add
+  id: 158602
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Added Secure Blast Doors & Floor-Locking Shutters
+    type: Add
+  id: 158603
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Added New Cargo Shuttle with Atmos storage tank & Sealed Cockpit. Replaces
+      existing Cargo Shuttle. 100% Battery powered.
+    type: Add
+  id: 158604
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Added "A.C.K.M.A.N" 50kw welding fuel generator. Belches out Carbon Dioxide
+      and can stay running on 100u of welding fuel at a solid... 15 minutes.
+    type: Add
+  id: 158605
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Added Placeholder FTL Machines (No sprites nor do they work)
+    type: Add
+  id: 158606
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Added Cameras to Security Ship, mostly so the pilot can actually see
+      more than 1 foot in front of them.
+    type: Add
+  id: 158607
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Changed Security Shuttle / Ship to have Blast Doors protecting the thrusters,
+      preventing lame "fling yourself at the ship and dismantle the thrusters" meta.
+      Ya got ship guns, USE EM.
+    type: Tweak
+  id: 158608
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Changed Omega Sec Dock to be exactly 1 tile higher.
+    type: Tweak
+  id: 158609
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Changed All maps & ATS to have Cargo Shuttle HV connection to the dock.
+    type: Tweak
+  id: 158610
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Changed Mining & Salvage Ship to use 50kw welding fuel generator "A.C.K.M.A.N"
+      & added welding fuel tanks to them.
+    type: Tweak
+  id: 158611
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Changed Loneop Ship to have a big ol' ram at the front. Should make going
+      loud more fun.
+    type: Tweak
+  id: 158612
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Changed Blast Doors to forcefully close on the moron standing in the
+      doorway trying to block it. It does 25 damage with normal, 50 with Secure.
+    type: Tweak
+  id: 158613
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Changed Shutters to forcefully close on the moron standing in the doorway
+      trying to block it. 5 Blunt normal, 5 Blunt & Slashing Secure.
+    type: Tweak
+  id: 158614
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Changed ATS's walls to Generic, as per request.
+    type: Tweak
+  id: 158615
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Changed ATS's plastitnium walls to normal, destructible ones.
+    type: Tweak
+  id: 158616
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: Killer Tamashi
+  changes:
+  - message: Fixed Unity using wrong Ammo Fab & Security Vendor
+    type: Fix
+  id: 158617
+  time: '2026-08-20T21:33:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
 Order: -1
 
