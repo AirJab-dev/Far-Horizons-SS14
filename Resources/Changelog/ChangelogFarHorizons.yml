@@ -18090,5 +18090,12 @@ Entries:
   id: 157703
   time: '2026-08-18T22:12:09.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1577
+- author: Mizuki
+  changes:
+  - message: Cyberlimbs have been removed from loadout menu
+    type: Remove
+  id: 158500
+  time: '2026-08-20T15:23:53.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1585
 Order: -1
 
