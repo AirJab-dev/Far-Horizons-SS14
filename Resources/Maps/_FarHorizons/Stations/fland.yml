@@ -4,8 +4,8 @@ meta:
   engineVersion: 288.1.0
   forkId: ""
   forkVersion: ""
-  time: 08/20/2026 02:33:24
-  entityCount: 41970
+  time: 08/21/2026 21:36:06
+  entityCount: 41971
 maps:
 - 1
 grids:
@@ -128517,7 +128517,7 @@ entities:
       pos: -15.5,-6.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -11183.364
+      secondsUntilStateChange: -11354.227
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -128670,7 +128670,7 @@ entities:
       pos: 57.5,12.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -61426.496
+      secondsUntilStateChange: -61597.36
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -129705,6 +129705,8 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: -1.5,71.5
+    - type: AccessReader
+      accessListsOriginal: []
 - proto: FHAirlockMiningGlassLocked
   entities:
   - uid: 19333
@@ -129977,7 +129979,7 @@ entities:
       pos: 28.5,4.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -55975.6
+      secondsUntilStateChange: -56146.465
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -133932,7 +133934,7 @@ entities:
       pos: 21.5,33.5
     - type: Door
       state: Closing
-      secondsUntilStateChange: -38737.098
+      secondsUntilStateChange: -38907.96
   - uid: 19867
     components:
     - type: Transform
@@ -228428,6 +228430,13 @@ entities:
     - type: Transform
       parent: 2
       pos: 5.5,49.5
+- proto: SpawnPointPsychologist
+  entities:
+  - uid: 41971
+    components:
+    - type: Transform
+      parent: 2
+      pos: -0.5,72.5
 - proto: SpawnPointQuartermaster
   entities:
   - uid: 32606
@@ -268193,7 +268202,7 @@ entities:
         DoorStatus: True
     - type: Door
       state: Opening
-      secondsUntilStateChange: -14925.967
+      secondsUntilStateChange: -15096.829
     - type: Airlock
       autoClose: False
   - uid: 39550
