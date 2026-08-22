@@ -18321,5 +18321,12 @@ Entries:
   id: 159500
   time: '2026-08-22T10:14:27.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1595
+- author: KarusKardin
+  changes:
+  - message: Fixed SolidSecretDoor not having the Paintable Component
+    type: Fix
+  id: 159600
+  time: '2026-08-22T14:23:39.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1596
 Order: -1
 
