@@ -18285,5 +18285,13 @@ Entries:
   id: 158617
   time: '2026-08-20T21:33:52.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1586
+- author: idkAnAlliasYetTbh
+  changes:
+  - message: Started hiring psychologists on Fland again. Schedule an appointment
+      today!
+    type: Add
+  id: 159300
+  time: '2026-08-22T10:03:23.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1593
 Order: -1
 
