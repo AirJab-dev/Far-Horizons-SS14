@@ -18328,5 +18328,36 @@ Entries:
   id: 159600
   time: '2026-08-22T14:23:39.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1596
+- author: princess_gurchi
+  changes:
+  - message: Fixed research tree UI drawing elements on top of each other as well
+      as using wrong coordinates
+    type: Fix
+  id: 160000
+  time: '2026-08-22T15:39:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1600
+- author: princess_gurchi
+  changes:
+  - message: Budget cyber eyes should not be showing an error texture on a resomi
+      and proto-resimi (this is not an endorsement to pick them)
+    type: Fix
+  id: 160001
+  time: '2026-08-22T15:39:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1600
+- author: princess_gurchi
+  changes:
+  - message: Medium and high capacity power cell once again fit into power cell charger
+    type: Fix
+  id: 160002
+  time: '2026-08-22T15:39:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1600
+- author: princess_gurchi
+  changes:
+  - message: NS and GSL mindshields, as well as NS fake mindshield can be extracted
+      with implant extractor
+    type: Fix
+  id: 160003
+  time: '2026-08-22T15:39:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1600
 Order: -1
 
