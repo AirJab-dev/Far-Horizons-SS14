@@ -62,6 +62,8 @@ public sealed partial class RepairableSystem : EntitySystem
         else
             RepairAllDamage((ent, damageable), args.User);
 
+        totalDamage = _damageableSystem.GetTotalDamage((ent.Owner, damageable));
+
         //Far Horizons start
         // Check if remaining damage is still repairable by this component
         var stillRepairable = CanRepairMore(ent, damageable, target);
