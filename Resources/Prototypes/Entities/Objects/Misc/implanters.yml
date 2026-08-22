@@ -50,6 +50,9 @@
     - RadioImplantTrinary #FH
     - RadioImplantNexus #FH
     - VoiceMaskImplant
+    - MindShieldImplantNS # FH
+    - MindShieldImplantGSL # FH
+    - FakeMindShieldImplantNS # FH
     deimplantFailureDamage:
       types:
         Cellular: 20 #FH
