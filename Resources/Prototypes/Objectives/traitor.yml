@@ -325,7 +325,7 @@
   - type: ObjectiveLimit
     limit: 3 # ian only has 2 slices, 3 obj for drama
   - type: StealCondition
-    verifyMapExistence: false
+    verifyMapExistence: false #FH
     stealGroup: FoodMeatCorgi
     owner: objective-condition-steal-Ian
 
