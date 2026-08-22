@@ -18314,5 +18314,12 @@ Entries:
   id: 159402
   time: '2026-08-22T10:09:58.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1594
+- author: rain_enjoyer
+  changes:
+  - message: NT sec belts spawning with NS radios
+    type: Fix
+  id: 159500
+  time: '2026-08-22T10:14:27.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1595
 Order: -1
 
