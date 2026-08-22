@@ -826,3 +826,6 @@ CrateVendingMachineRestockGetmoreChocolateCorpFilled: VendingMachineRestockGetmo
 CrateVendingMachineRestockChangFilled: VendingMachineRestockChang
 CrateVendingMachineRestockDiscountDansFilled: VendingMachineRestockDiscountDans
 CrateVendingMachineRestockDonutFilled: VendingMachineRestockDonut
+# Far Horizons vending machine crates
+CrateVendingMachineRestockSustenanceFilled: VendingMachineRestockSustenance
+# End Far Horizons vending machine crates
