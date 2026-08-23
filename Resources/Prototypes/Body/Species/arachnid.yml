@@ -151,6 +151,10 @@
       Unsexed: UnisexArachnid
   - type: TypingIndicator
     proto: spider
+  - type: CreamPied
+    sprite:
+      sprite: Effects/creampie.rsi
+      state: creampie_arachnid
   - type: VisionOrganRequiredForVision # Far Horizons
   - type: LimbDamageable # Far Horizons
     proto: LimbTargetArachnid

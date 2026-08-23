@@ -17,6 +17,7 @@
     - UplinkJob
     - UplinkCybernetics
     - UplinkPointless
+    - UplinkObjective
     - UplinkVehicles #FH
     currencyWhitelist:
     - Telecrystal
