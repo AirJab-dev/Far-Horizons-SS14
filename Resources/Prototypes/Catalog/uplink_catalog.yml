@@ -2326,17 +2326,18 @@
 
 #Objective items
 
-- type: listing
-  id: uplinkHijackBeacon
-  name: uplink-hijack-beacon-name
-  description: uplink-hijack-beacon-desc
-  productEntity: HijackBeacon
-  categories:
-    - UplinkObjective
-  conditions:
-  - !type:ListingLimitedStockCondition
-    stock: 1
-  - !type:BuyerObjectiveWhitelistCondition
-    whitelist:
-      components:
-      - HijackTradeStationCondition
+# FH, listing disabled
+#- type: listing
+#  id: uplinkHijackBeacon
+#  name: uplink-hijack-beacon-name
+#  description: uplink-hijack-beacon-desc
+#  productEntity: HijackBeacon
+#  categories:
+#    - UplinkObjective
+#  conditions:
+#  - !type:ListingLimitedStockCondition
+#    stock: 1
+#  - !type:BuyerObjectiveWhitelistCondition
+#    whitelist:
+#      components:
+#      - HijackTradeStationCondition

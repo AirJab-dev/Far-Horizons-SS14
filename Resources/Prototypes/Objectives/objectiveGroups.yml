@@ -6,7 +6,7 @@
     TraitorObjectiveGroupKill: 1
     TraitorObjectiveGroupState: 1 #As in, something about your character. Alive, dead, arrested, gained an ability...
     TraitorObjectiveGroupSocial: 0.25 #Involves helping/harming others without killing them or stealing their stuff, lowered because the chance of rolling this was enormous when its just one objective in the category
-    TraitorObjectiveGroupOther: 1
+    TraitorObjectiveGroupOther: 0 # FH - set 1->0 weight because only other objective currently disabled
     TraitorObjectiveGroupStory: 1  # Starlight
 
 - type: weightedRandom
@@ -54,7 +54,7 @@
 - type: weightedRandom
   id: TraitorObjectiveGroupOther
   weights:
-    HijackTradeStationObjective: 1
+    #HijackTradeStationObjective: 1 # FH disabled; doesn't make sense with factions
 
 
 #Thief groups
