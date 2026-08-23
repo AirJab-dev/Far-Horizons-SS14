@@ -1474,6 +1474,9 @@
   - type: Tag
     tags:
     - DoorBumpOpener
+    - HighRiskItem
+  - type: StealTarget
+    stealGroup: CaptainIDCard
 
 - type: entity
   parent: [IDCardNeoSolStandard, BaseCommandContraband]
