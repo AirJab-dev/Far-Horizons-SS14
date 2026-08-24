@@ -7,12 +7,12 @@
   name: uplink-consortium-pistol-viper-name-fh
   description: uplink-consortium-pistol-viper-desc-fh
   icon: { sprite: /Textures/Objects/Weapons/Guns/Pistols/viper.rsi, state: icon }
-  productEntity: BriefcaseWeaponViperFilled
+  productEntity: ConsortiumBriefcaseWeaponViperFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   categories:
   - ConsortiumUplinkWeaponry
 
@@ -22,12 +22,12 @@
   name: uplink-consortium-pistol-cobra-name-fh 
   description: uplink-consortium-pistol-cobra-desc-fh 
   icon: { sprite: /Textures/Objects/Weapons/Guns/Pistols/cobra.rsi, state: icon }
-  productEntity: BriefcaseWeaponCobraFilled
+  productEntity: ConsortiumBriefcaseWeaponCobraFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkWeaponry
 
@@ -38,7 +38,7 @@
   description: uplink-consortium-rifle-mosin-desc
   productEntity: WeaponSniperMosin
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkWeaponry
 
@@ -49,10 +49,10 @@
   icon: { sprite: /Textures/Objects/Weapons/Melee/e_sword.rsi, state: icon }
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   productEntity: EnergySword
   cost:
-    Telecrystal: 8
+    Refinedbluespacecrystal: 8
   categories:
   - ConsortiumUplinkWeaponry
 
@@ -64,9 +64,9 @@
   productEntity: EnergyDaggerBox
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkWeaponry
 
@@ -76,10 +76,10 @@
   description: uplink-consortium-energycrossbow-desc
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   productEntity: WeaponEnergyCrossbow
   cost:
-    Telecrystal: 5
+    Refinedbluespacecrystal: 5
   categories:
   - ConsortiumUplinkWeaponry
   conditions:
@@ -94,22 +94,35 @@
   productEntity: ThrowingKnivesKit
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   cost:
-    Telecrystal: 6
+    Refinedbluespacecrystal: 6
   categories:
     - ConsortiumUplinkWeaponry
+
+- type: listing
+  id: ConsortiumUplinkHomerunBat
+  name: uplink-consortium-homerun-bat-name
+  description: uplink-consortium-homerun-bat-desc
+  productEntity: HomerunBat
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Refinedbluespacecrystal: 4
+  cost:
+    Refinedbluespacecrystal: 7
+  categories:
+  - ConsortiumUplinkWeaponry
 
 - type: listing
   id: ConsortiumUplinkGlovesNorthStar
   name: uplink-consortium-gloves-north-star-name
   description: uplink-consortium-gloves-north-star-desc
-  productEntity: ClothingHandsGlovesNorthStar
+  productEntity: ClothingHandsPoweredGloves
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   cost:
-    Telecrystal: 8
+    Refinedbluespacecrystal: 8
   categories:
   - ConsortiumUplinkWeaponry
 
@@ -117,13 +130,13 @@
   id: ConsortiumUplinkGlovesKnuckleDusters
   name: uplink-consortium-gloves-knuckleduster-name
   description: uplink-consortium-gloves-knuckleduster-desc
-  icon: { sprite: Clothing/Hands/Gloves/KnuckleDusters/syndicateknuckleduster.rsi, state: syndicateknuckleduster }
-  productEntity: ClothingHandsKnuckleDustersSyndicate
+  icon: { sprite: _FarHorizons/Clothing/Hands/Gloves/consortium_knuckle_duster.rsi, state: consortium-knuckle-duster }
+  productEntity: ClothingHandsKnuckleDustersConsortium
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkWeaponry
 
@@ -135,9 +148,9 @@
   productEntity: EnergyShield
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   cost:
-    Telecrystal: 8
+    Refinedbluespacecrystal: 8
   categories:
   - ConsortiumUplinkWeaponry
 #  conditions: #Starlight edit, i want chaos, also its balanced around its base price, it breaks under kinetic fire pretty easily and it costs a third of traitor tc
@@ -154,9 +167,9 @@
   productEntity: ClothingHandsGlovesBoxingRiggedBlue # TODO Replace this with the random spawner when it's not bugged
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 8
+    Refinedbluespacecrystal: 8
   cost:
-    Telecrystal: 10
+    Refinedbluespacecrystal: 10
   categories:
   - ConsortiumUplinkWeaponry
 
@@ -168,9 +181,9 @@
   productEntity: BriefcaseSyndieSniperBundleFilled
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 6
+    Refinedbluespacecrystal: 6
   cost:
-    Telecrystal: 10
+    Refinedbluespacecrystal: 10
   categories:
   - ConsortiumUplinkWeaponry
 
@@ -182,9 +195,9 @@
   productEntity: FireAxeFlaming
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Refinedbluespacecrystal: 10
   cost:
-    Telecrystal: 15
+    Refinedbluespacecrystal: 15
   categories:
   - ConsortiumUplinkWeaponry
 
@@ -193,12 +206,12 @@
   name: uplink-consortium-hushpup-name
   description: uplink-consortium-hushpup-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Shotguns/hushpup.rsi, state: icon }
-  productEntity: BriefcaseWeaponHushpupFilled
+  productEntity: ConsortiumBriefcaseWeaponHushpupFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 8
+    Refinedbluespacecrystal: 8
   cost:
-    Telecrystal: 10
+    Refinedbluespacecrystal: 10
   categories:
   - ConsortiumUplinkWeaponry
 
@@ -210,9 +223,9 @@
 #   productEntity: BriefcaseWeaponC20Filled
 #   discountCategory: veryRareDiscounts
 #   discountDownTo:
-#     Telecrystal: 10
+#     Refinedbluespacecrystal: 10
 #   cost:
-#     Telecrystal: 14
+#     Refinedbluespacecrystal: 14
 #   categories:
 #   - ConsortiumUplinkWeaponry
 #   conditions:
@@ -223,15 +236,15 @@
 
 - type: listing
   id: ConsortiumUplinkC20RBundle
-  name: uplink-consortium-smg-c20r-name-fh #FH
-  description: uplink-consortium-smg-c20r-desc-fh #FH
+  name: uplink-consortium-smg-c20r-name-fh
+  description: uplink-consortium-smg-c20r-desc-fh 
   icon: { sprite: /Textures/Objects/Weapons/Guns/SMGs/c20r.rsi, state: icon }
-  productEntity: BriefcaseWeaponC20RFilled #FH
+  productEntity: ConsortiumBriefcaseWeaponC20RFilled 
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Refinedbluespacecrystal: 10
   cost:
-    Telecrystal: 17
+    Refinedbluespacecrystal: 17
   categories:
   - ConsortiumUplinkWeaponry
   conditions:
@@ -248,9 +261,9 @@
 #   productEntity: BriefcaseWeaponBulldogFilled
 #   discountCategory: veryRareDiscounts
 #   discountDownTo:
-#     Telecrystal: 10
+#     Refinedbluespacecrystal: 10
 #   cost:
-#     Telecrystal: 14
+#     Refinedbluespacecrystal: 14
 #   categories:
 #   - ConsortiumUplinkWeaponry
 #   conditions:
@@ -262,14 +275,14 @@
 - type: listing
   id: ConsortiumUplinkBulldogBundle
   name: uplink-consortium-bulldog-bundle-name
-  description: uplink-consortium-bulldog-bundle-desc-fh #FH
+  description: uplink-consortium-bulldog-bundle-desc-fh 
   icon: { sprite: /Textures/Objects/Weapons/Guns/Shotguns/bulldog.rsi, state: icon }
-  productEntity: BriefcaseWeaponBulldogFilled #FH
+  productEntity: ConsortiumBriefcaseWeaponBulldogFilled
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 12
+    Refinedbluespacecrystal: 12
   cost:
-    Telecrystal: 20
+    Refinedbluespacecrystal: 20
   categories:
   - ConsortiumUplinkWeaponry
   conditions:
@@ -280,15 +293,15 @@
 
 - type: listing
   id: ConsortiumUplinkEstocBundle
-  name: uplink-consortium-rifle-estoc-name-fh #FH
-  description: uplink-consortium-rifle-estoc-desc-fh #FH
+  name: uplink-consortium-rifle-estoc-name-fh 
+  description: uplink-consortium-rifle-estoc-desc-fh 
   icon: { sprite: /Textures/Objects/Weapons/Guns/Rifles/estoc.rsi, state: icon }
-  productEntity: BriefcaseWeaponEstocFilled #FH this is a SL gun by the way..
+  productEntity: ConsortiumBriefcaseWeaponEstocFilled
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 11
+    Refinedbluespacecrystal: 11
   cost:
-    Telecrystal: 18
+    Refinedbluespacecrystal: 18
   categories:
   - ConsortiumUplinkWeaponry
   conditions:
@@ -304,7 +317,7 @@
 #   icon: { sprite: /Textures/Objects/Weapons/Guns/Launchers/china_lake.rsi, state: icon }
 #   productEntity: BriefcaseWeaponChinaLakeFilled
 #   cost:
-#     Telecrystal: 20
+#     Refinedbluespacecrystal: 20
 #   categories:
 #   - ConsortiumUplinkWeaponry
 #   conditions:
@@ -318,12 +331,12 @@
   name: uplink-consortium-grenade-launcher-bundle-name
   description: uplink-consortium-grenade-launcher-bundle-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Launchers/china_lake.rsi, state: icon }
-  productEntity: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
+  productEntity: CrateConsortiumChinaLakeUplink
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 24
+    Refinedbluespacecrystal: 24
   cost:
-    Telecrystal: 30
+    Refinedbluespacecrystal: 30
   categories:
   - ConsortiumUplinkWeaponry
   conditions:
@@ -333,16 +346,62 @@
       - NukeOpsUplink
 
 - type: listing
-  id: ConsortiumUplinkL6SawBundle
-  name: uplink-consortium-lmg-l6-name-fh #FH
-  description: uplink-consortium-lmg-l6-desc-fh #FH
-  icon: { sprite: /Textures/Objects/Weapons/Guns/LMGs/l6_x64.rsi, state: icon }
-  productEntity: CrateSyndicateL6Uplink #FH
+  id: ConsortiumUplinkWeaponShotgunMinotaur
+  name: uplink-consortium-minotaur-name-fh
+  description: uplink-consortium-minotaur-desc-fh
+  productEntity: ConsortiumBriefcaseWeaponMinotaurFilled
+  icon:
+    {
+      sprite: /Textures/_Starlight/Objects/Weapons/Guns/Shotguns/minotaur.rsi,
+      state: icon,
+    }
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Refinedbluespacecrystal: 15
+  cost:
+    Refinedbluespacecrystal: 20
+  categories:
+    - ConsortiumUplinkWeaponry
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - NukeOpsUplink
+
+- type: listing
+  id: ConsortiumUplinkWeaponRiflePitpull
+  name: uplink-consortium-pitbull-name-fh
+  description: uplink-consortium-pitbull-desc-fh
+  icon:
+    { 
+     sprite: /Textures/_Starlight/Objects/Weapons/Guns/Rifles/pitbull.rsi,
+     state: icon 
+    }
+  productEntity: ConsortiumBriefcaseWeaponPitbullFilled
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 20
+    Refinedbluespacecrystal: 15
   cost:
-    Telecrystal: 25
+    Refinedbluespacecrystal: 20
+  categories:
+   - ConsortiumUplinkWeaponry
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - NukeOpsUplink
+
+- type: listing
+  id: ConsortiumUplinkL6SawBundle
+  name: uplink-consortium-lmg-l6-name-fh
+  description: uplink-consortium-lmg-l6-desc-fh
+  icon: { sprite: /Textures/Objects/Weapons/Guns/LMGs/l6_x64.rsi, state: icon }
+  productEntity: CrateConsortiumL6Uplink
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Refinedbluespacecrystal: 20
+  cost:
+    Refinedbluespacecrystal: 25
   categories:
   - ConsortiumUplinkWeaponry
 
@@ -355,9 +414,9 @@
   productEntity: ExGrenade
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkExplosives
   # Far Horizons - traitors can have grenades
@@ -373,7 +432,7 @@
   description: uplink-consortium-smoke-grenade-desc
   productEntity: SmokeGrenade
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkExplosives
 
@@ -384,9 +443,9 @@
   productEntity: SyndieMiniBomb
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   cost:
-    Telecrystal: 6
+    Refinedbluespacecrystal: 6
   categories:
     - ConsortiumUplinkExplosives
 
@@ -397,9 +456,9 @@
   productEntity: SingularityGrenade
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
     - ConsortiumUplinkDisruption
 
@@ -410,9 +469,9 @@
   productEntity: MobGrenadePenguin
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
     - ConsortiumUplinkExplosives
   conditions:
@@ -428,9 +487,9 @@
   productEntity: C4
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkExplosives
 
@@ -441,9 +500,9 @@
   productEntity: ClothingBeltOperativeWebbingGrenadeFilled
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 6
+    Refinedbluespacecrystal: 6
   cost:
-    Telecrystal: 12
+    Refinedbluespacecrystal: 12
   categories:
   - ConsortiumUplinkExplosives
   conditions:
@@ -459,9 +518,9 @@
   productEntity: ClothingBackpackDuffelSyndicateC4tBundle
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 8
+    Refinedbluespacecrystal: 8
   cost:
-    Telecrystal: 12 #you're buying bulk so its a 25% discount, so no additional random discount over it
+    Refinedbluespacecrystal: 12 #you're buying bulk so its a 25% discount, so no additional random discount over it
   categories:
   - ConsortiumUplinkExplosives
 
@@ -472,9 +531,9 @@
   productEntity: EmpGrenade
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkExplosives
 
@@ -486,9 +545,9 @@
   productEntity: PenExplodingBox
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkExplosives
 
@@ -498,7 +557,7 @@
   description: uplink-consortium-exploding-syndicate-bomb-desc
   productEntity: SyndicateBomb
   cost:
-    Telecrystal: 11
+    Refinedbluespacecrystal: 11
   categories:
     - ConsortiumUplinkExplosives
   restockTime: 1800
@@ -514,7 +573,7 @@
   description: uplink-consortium-exploding-syndicate-bomb-desc
   productEntity: SyndicateBomb
   cost:
-    Telecrystal: 11
+    Refinedbluespacecrystal: 11
   categories:
     - ConsortiumUplinkExplosives
   conditions:
@@ -530,9 +589,9 @@
   productEntity: GrenadeShrapnel
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkExplosives
 
@@ -543,9 +602,9 @@
   productEntity: GrenadeIncendiary
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkExplosives
 
@@ -558,7 +617,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: red-icon }
   productEntity: MagazinePistolHP
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkAmmo
 
@@ -569,7 +628,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: sp }
   productEntity: MagazinePistolSP
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkAmmo
 
@@ -580,7 +639,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: fmj }
   productEntity: MagazinePistolFMJ
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkAmmo
 
@@ -592,7 +651,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: red-icon }
   productEntity: MagazinePistolSubMachineGunFMJ
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkAmmo
 
@@ -604,7 +663,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: pellets }
   productEntity: MagazineShotgun
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkAmmo
 
@@ -615,7 +674,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: slug }
   productEntity: MagazineShotgunSlug
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkAmmo
 
@@ -627,7 +686,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi, state: red-icon }
   productEntity: MagazinePistolCaselessRifle
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkAmmo
 
@@ -638,7 +697,7 @@
   description: uplink-consortium-mosin-ammo-desc
   productEntity: MagazineBoxLightRifleFMJ
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkAmmo
 
@@ -649,7 +708,7 @@
   description: uplink-consortium-estoc-ammo-desc
   productEntity: MagazineRifle556SP #FH
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkAmmo
 
@@ -660,7 +719,7 @@
   description: uplink-consortium-sniper-ammo-desc
   productEntity: MagazineBoxAntiMateriel
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkAmmo
 
@@ -669,9 +728,9 @@
 
   name: uplink-consortium-ammo-bundle-name-fh
   description: uplink-consortium-ammo-bundle-desc-fh
-  productEntity: AmmoSelectionAmmoBagS
+  productEntity: AmmoSelectionAmmoBagC
   cost:
-    Telecrystal: 15
+    Refinedbluespacecrystal: 15
   categories:
   - ConsortiumUplinkAmmo
   conditions:
@@ -694,9 +753,9 @@
   productEntity: HypopenBox
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   cost:
-    Telecrystal: 6
+    Refinedbluespacecrystal: 6
   categories:
   - ConsortiumUplinkChemicals
 
@@ -708,9 +767,9 @@
   productEntity: HypoDartBox
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkChemicals
 
@@ -722,9 +781,9 @@
   productEntity: ChemicalSynthesisKit
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkChemicals
 
@@ -735,7 +794,7 @@
   icon: { sprite: /Textures/Structures/Wallmounts/signs.rsi, state: bio }
   productEntity: ClothingBackpackDuffelZombieBundle
   cost:
-    Telecrystal: 40
+    Refinedbluespacecrystal: 40
   categories:
   - ConsortiumUplinkChemicals
   conditions:
@@ -755,9 +814,9 @@
   productEntity: ChemistryBottleNocturine
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkChemicals
 
@@ -768,9 +827,9 @@
   productEntity: MedkitCombatFilled
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   categories:
   - ConsortiumUplinkChemicals
 
@@ -781,9 +840,9 @@
   productEntity: CombatMedipen
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   categories:
   - ConsortiumUplinkChemicals
 
@@ -794,9 +853,9 @@
   productEntity: Stimpack
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkChemicals
 
@@ -807,9 +866,9 @@
   productEntity: StimkitFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   cost:
-    Telecrystal: 5
+    Refinedbluespacecrystal: 5
   categories:
   - ConsortiumUplinkChemicals
 
@@ -819,7 +878,7 @@
   description: uplink-consortium-cigarettes-desc
   productEntity: CigPackSyndicate
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkChemicals
 
@@ -830,9 +889,9 @@
   productEntity: ClothingBackpackDuffelSyndicateMedicalBundleFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 16
+    Refinedbluespacecrystal: 16
   cost:
-    Telecrystal: 24
+    Refinedbluespacecrystal: 24
   categories:
   - ConsortiumUplinkChemicals
   conditions:
@@ -852,7 +911,7 @@
   description: uplink-consortium-syndicate-id-card-desc
   productEntity: SyndicateIDCard
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkDeception
 
@@ -863,9 +922,9 @@
   productEntity: AgentIDCard
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   categories:
   - ConsortiumUplinkDeception
 
@@ -876,9 +935,9 @@
   productEntity: StealthBox
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 5
+    Refinedbluespacecrystal: 5
   categories:
   - ConsortiumUplinkDeception
 
@@ -889,9 +948,9 @@
   productEntity: ChameleonProjector
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   categories:
   - ConsortiumUplinkDeception
 
@@ -903,9 +962,9 @@
   productEntity: BoxEncryptionKeySyndie # Two for the price of one
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkDeception
 
@@ -916,7 +975,7 @@
   icon: { sprite: /Textures/Objects/Devices/encryption_keys.rsi, state: ai_label }
   productEntity: EncryptionKeyBinarySyndicate
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkDeception
 
@@ -926,7 +985,7 @@
   description: uplink-consortium-cyberpen-desc
   productEntity: CyberPen
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkDeception
 
@@ -936,7 +995,7 @@
   description: uplink-consortium-decoy-disk-desc
   productEntity: NukeDiskFake
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkDeception
 
@@ -947,9 +1006,9 @@
   productEntity: BriefcaseSyndieLobbyingBundleFilled
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
     - ConsortiumUplinkDeception
 
@@ -959,7 +1018,7 @@
 #   description: Works like a normal health analyzer, other than giving everyone it scans ultragigacancer.
 #   productEntity: HandheldHealthAnalyzerGigacancer
 #   cost:
-#     Telecrystal: 5
+#     Refinedbluespacecrystal: 5
 #   categories:
 #   - ConsortiumUplinkDeception
 
@@ -970,9 +1029,9 @@
   productEntity: SyndicateBombFake
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkDeception
   restockTime: 1800
@@ -989,9 +1048,9 @@
   productEntity: SyndicateBombFake
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkDeception
   conditions:
@@ -1006,12 +1065,12 @@
   id: ConsortiumUplinkAccessBreaker
   name: uplink-consortium-access-breaker-name
   description: uplink-consortium-access-breaker-desc
-  productEntity: AccessBreaker
+  productEntity: NTAccessBreaker
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkDisruption
 
@@ -1022,9 +1081,9 @@
   productEntity: Emag
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   cost:
-    Telecrystal: 5
+    Refinedbluespacecrystal: 5
   categories:
   - ConsortiumUplinkDisruption
 
@@ -1035,9 +1094,9 @@
   productEntity: RadioJammer
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   categories:
   - ConsortiumUplinkDisruption
 
@@ -1048,9 +1107,9 @@
   productEntity: BorgModuleSyndicateWeapon
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   cost:
-    Telecrystal: 5
+    Refinedbluespacecrystal: 5
   categories:
   - ConsortiumUplinkDisruption
 
@@ -1061,9 +1120,9 @@
   productEntity: ToolboxElectricalTurretFilled
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkDisruption
   conditions:
@@ -1080,9 +1139,9 @@
   icon: { sprite: /Textures/Objects/Specific/Robotics/borgmodule.rsi, state: syndicateborgbomb }
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
     - ConsortiumUplinkDisruption
 
@@ -1092,7 +1151,7 @@
   description: uplink-consortium-soap-desc
   productEntity: SoapSyndie
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkDisruption
 
@@ -1103,7 +1162,7 @@
   productEntity: SlipocalypseClusterSoap
   discountCategory: rareDiscounts
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkDisruption
 
@@ -1114,9 +1173,9 @@
   productEntity: ToolboxSyndicateFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkDisruption
 
@@ -1127,9 +1186,9 @@
   productEntity: SyndicateJawsOfLife
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkDisruption
 
@@ -1140,9 +1199,9 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledMedical
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkDisruption
 
@@ -1153,9 +1212,9 @@
   productEntity: PowerSink
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   cost:
-    Telecrystal: 8
+    Refinedbluespacecrystal: 8
   categories:
   - ConsortiumUplinkExplosives
 
@@ -1167,9 +1226,9 @@
 #   productEntity: AntimovCircuitBoard
 #   discountCategory: usualDiscounts
 #   discountDownTo:
-#     Telecrystal: 10
+#     Refinedbluespacecrystal: 10
 #   cost:
-#     Telecrystal: 14
+#     Refinedbluespacecrystal: 14
 #   categories:
 #   - ConsortiumUplinkDisruption
 #   conditions:
@@ -1185,7 +1244,7 @@
   description: uplink-consortium-surplus-bundle-desc
   productEntity: CrateSyndicateSurplusBundle
   cost:
-    Telecrystal: 20
+    Refinedbluespacecrystal: 20
   categories:
   - ConsortiumUplinkDisruption
   conditions:
@@ -1204,7 +1263,7 @@
   description: uplink-consortium-starter-kit-desc
   productEntity: ClothingBackpackDuffelSyndicateFilledStarterKit
   cost:
-    Telecrystal: 40
+    Refinedbluespacecrystal: 40
   categories:
   - ConsortiumUplinkDisruption
   conditions:
@@ -1225,9 +1284,9 @@
 #   productEntity: SingularityBeacon
 #   discountCategory: usualDiscounts
 #   discountDownTo:
-#     Telecrystal: 4
+#     Refinedbluespacecrystal: 4
 #   cost:
-#     Telecrystal: 12
+#     Refinedbluespacecrystal: 12
 #   categories:
 #     - ConsortiumUplinkDisruption
 # Starlight edit end
@@ -1236,12 +1295,12 @@
   id: ConsortiumUplinkCameraBug
   name: uplink-consortium-cameraBug-name
   description: uplink-consortium-cameraBug-desc
-  productEntity: CameraBug
+  productEntity: NTCameraBug
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkDisruption
 
@@ -1255,9 +1314,9 @@
   productEntity: BoxHoloparasite
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 8
+    Refinedbluespacecrystal: 8
   cost:
-    Telecrystal: 12
+    Refinedbluespacecrystal: 12
   categories:
   - ConsortiumUplinkAllies
   conditions:
@@ -1274,9 +1333,9 @@
   icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-urist }
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 7
+    Refinedbluespacecrystal: 7
   cost:
-    Telecrystal: 11
+    Refinedbluespacecrystal: 11
   categories:
   - ConsortiumUplinkAllies
   conditions:
@@ -1292,7 +1351,7 @@
   productEntity: ReinforcementRadioSyndicateNukeops
   icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-nukeop }
   cost:
-    Telecrystal: 30
+    Refinedbluespacecrystal: 30
   categories:
   - ConsortiumUplinkAllies
   conditions:
@@ -1308,7 +1367,7 @@
   productEntity: ReinforcementRadioSyndicateCyborgAssault
   icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-borg-assault }
   cost:
-    Telecrystal: 40 # Starlight
+    Refinedbluespacecrystal: 40 # Starlight
   categories:
     - ConsortiumUplinkAllies
   conditions:
@@ -1325,9 +1384,9 @@
   icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-ancestor }
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   cost:
-    Telecrystal: 6
+    Refinedbluespacecrystal: 6
   categories:
   - ConsortiumUplinkAllies
   conditions:
@@ -1344,9 +1403,9 @@
   icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-ancestor }
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   cost:
-    Telecrystal: 6
+    Refinedbluespacecrystal: 6
   categories:
   - ConsortiumUplinkAllies
   conditions:
@@ -1361,7 +1420,7 @@
   description: uplink-consortium-carp-dehydrated-desc
   productEntity: DehydratedSpaceCarp
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkAllies
   conditions:
@@ -1378,9 +1437,9 @@
   productEntity: ReinforcementRadioSyndicateSyndiCat
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   cost:
-    Telecrystal: 6
+    Refinedbluespacecrystal: 6
   categories:
     - ConsortiumUplinkAllies
 
@@ -1391,7 +1450,7 @@
   icon: { sprite: /Textures/Objects/Fun/pai.rsi, state: syndicate-icon-pai-off }
   productEntity: SyndicatePersonalAI
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
     - ConsortiumUplinkAllies
   conditions:
@@ -1405,7 +1464,7 @@
   icon: { sprite: /Textures/Objects/Specific/Mech/mecha.rsi, state: darkgygax }
   productEntity: CrateCybersunDarkGygaxBundle
   cost:
-    Telecrystal: 100
+    Refinedbluespacecrystal: 100
   categories:
   - ConsortiumUplinkAllies
   conditions:
@@ -1421,7 +1480,7 @@
   icon: { sprite: /Textures/Objects/Specific/Mech/mecha.rsi, state: mauler }
   productEntity: CrateCybersunMaulerBundle
   cost:
-    Telecrystal: 150
+    Refinedbluespacecrystal: 150
   categories:
   - ConsortiumUplinkAllies
   conditions:
@@ -1437,12 +1496,12 @@
   name: uplink-consortium-storage-implanter-name
   description: uplink-consortium-storage-implanter-desc
   icon: { sprite: /Textures/Clothing/Back/Backpacks/backpack.rsi, state: icon }
-  productEntity: StorageImplanter
+  productEntity: NTStorageImplanter
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   cost:
-    Telecrystal: 8
+    Refinedbluespacecrystal: 8
   categories:
     - ConsortiumUplinkImplants
   conditions:
@@ -1456,12 +1515,12 @@
   name: uplink-consortium-freedom-implanter-name
   description: uplink-consortium-freedom-implanter-desc
   icon: { sprite: /Textures/Actions/Implants/implants.rsi, state: freedom }
-  productEntity: FreedomImplanter
+  productEntity: NTFreedomImplanter
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
     - ConsortiumUplinkImplants
 
@@ -1470,12 +1529,12 @@
   name: uplink-consortium-scram-implanter-name
   description: uplink-consortium-scram-implanter-desc
   icon: { sprite: /Textures/Structures/Specific/anomaly.rsi, state: anom4 }
-  productEntity: ScramImplanter
+  productEntity: NTScramImplanter
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2 # it's a gamble that may kill you easily so 1 TC per use.
+    Refinedbluespacecrystal: 2 # it's a gamble that may kill you easily so 1 TC per use.
   categories:
     - ConsortiumUplinkImplants
 
@@ -1484,12 +1543,12 @@
   name: uplink-consortium-dna-scrambler-implanter-name
   description: uplink-consortium-dna-scrambler-implanter-desc
   icon: { sprite: /Textures/Mobs/Species/Human/parts.rsi, state: full }
-  productEntity: DnaScramblerImplanter
+  productEntity: NTDnaScramblerImplanter
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   categories:
     - ConsortiumUplinkImplants
 
@@ -1498,12 +1557,12 @@
   name: uplink-consortium-emp-implanter-name
   description: uplink-consortium-emp-implanter-desc
   icon: { sprite: /Textures/Effects/emp.rsi, state: emp_disable }
-  productEntity: EmpImplanter
+  productEntity: NTEmpImplanter
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
     - ConsortiumUplinkImplants
 
@@ -1512,12 +1571,12 @@
   name: uplink-consortium-radio-implanter-name
   description: uplink-consortium-radio-implanter-desc
   icon: { sprite: /Textures/Objects/Devices/encryption_keys.rsi, state: synd_label }
-  productEntity: RadioImplanter
+  productEntity: NTRadioImplanter
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkImplants
 
@@ -1526,9 +1585,9 @@
   name: uplink-consortium-micro-bomb-implanter-name
   description: uplink-consortium-micro-bomb-implanter-desc
   icon: { sprite: /Textures/Actions/Implants/implants.rsi, state: explosive }
-  productEntity: MicroBombImplanter
+  productEntity: NTMicroBombImplanter
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkImplants
   conditions:
@@ -1546,9 +1605,9 @@
   name: uplink-consortium-macro-bomb-implanter-name
   description: uplink-consortium-macro-bomb-implanter-desc
   icon: { sprite: /Textures/Actions/Implants/implants.rsi, state: explosive }
-  productEntity: MacroBombImplanter
+  productEntity: NTMacroBombImplanter
   cost:
-    Telecrystal: 13
+    Refinedbluespacecrystal: 13
   categories:
     - ConsortiumUplinkImplants
   conditions:
@@ -1566,9 +1625,9 @@
   name: uplink-consortium-death-acidifier-implant-name
   description: uplink-consortium-death-acidifier-implant-desc
   icon: { sprite: /Textures/Objects/Magic/magicactions.rsi, state: gib }
-  productEntity: DeathAcidifierImplanter
+  productEntity: NTDeathAcidifierImplanter
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
     - ConsortiumUplinkImplants
   conditions:
@@ -1584,7 +1643,7 @@
   icon: { sprite: /Textures/Objects/Devices/communication.rsi, state: old-radio }
   productEntity: UplinkImplanter
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkImplants
   conditions:
@@ -1599,7 +1658,7 @@
   description: uplink-consortium-deathrattle-implant-desc
   productEntity: BoxDeathRattleImplants
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkImplants
   conditions:
@@ -1619,9 +1678,9 @@
   icon: { sprite: Interface/Actions/actions_fakemindshield.rsi, state: icon-on }
   productEntity: FakeMindShieldImplanter
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkImplants
 
@@ -1630,12 +1689,12 @@
   name: uplink-consortium-voice-mask-implanter-name
   description: uplink-consortium-voice-mask-implanter-desc
   icon: { sprite: Interface/Actions/voice-mask.rsi, state: icon }
-  productEntity: VoiceMaskImplanter
+  productEntity: NTVoiceMaskImplanter
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkImplants
 
@@ -1647,7 +1706,7 @@
   description: uplink-consortium-black-jetpack-desc
   productEntity: JetpackBlackFilled
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkWearables
 
@@ -1657,7 +1716,7 @@
   description: uplink-consortium-chest-rig-desc
   productEntity: ClothingBeltOperativeWebbing
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkWearables
 
@@ -1669,9 +1728,9 @@
   icon: { sprite: /Textures/Clothing/Uniforms/Jumpsuit/rainbow.rsi, state: icon }
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
     - ConsortiumUplinkWearables
 
@@ -1682,9 +1741,9 @@
   productEntity: ClothingShoesChameleonNoSlips
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkWearables
 
@@ -1695,9 +1754,9 @@
   productEntity: ClothingOuterVestWeb
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 3 #SL / Rebalanced pricing: Armor Vest 2, Web Vest 3, Elite Web vest 4
+    Refinedbluespacecrystal: 3 #SL / Rebalanced pricing: Armor Vest 2, Web Vest 3, Elite Web vest 4
   cost:
-    Telecrystal: 4 #SL / Rebalanced pricing: Armor Vest 3, Web Vest 4, Elite Web vest 5
+    Refinedbluespacecrystal: 4 #SL / Rebalanced pricing: Armor Vest 3, Web Vest 4, Elite Web vest 5
   categories:
   - ConsortiumUplinkWearables
 
@@ -1708,9 +1767,9 @@
   productEntity: ClothingOuterVestWebElite
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 4 #SL / Rebalanced pricing: Armor Vest 2, Web Vest 3, Elite Web vest 4
+    Refinedbluespacecrystal: 4 #SL / Rebalanced pricing: Armor Vest 2, Web Vest 3, Elite Web vest 4
   cost:
-    Telecrystal: 5 #SL / Rebalanced pricing: Armor Vest 3, Web Vest 4, Elite Web vest 5
+    Refinedbluespacecrystal: 5 #SL / Rebalanced pricing: Armor Vest 3, Web Vest 4, Elite Web vest 5
   categories:
   - ConsortiumUplinkWearables
 
@@ -1721,9 +1780,9 @@
   productEntity: ClothingShoesBootsMagSyndie
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkWearables
 
@@ -1734,7 +1793,7 @@
   icon: { sprite: /Textures/Clothing/OuterClothing/Suits/eva_syndicate.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateEVABundle
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkWearables
 
@@ -1746,9 +1805,9 @@
   productEntity: ClothingOuterHardsuitCarp
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   categories:
   - ConsortiumUplinkWearables
 
@@ -1760,9 +1819,9 @@
   productEntity: ClothingBackpackDuffelSyndicateHardsuitBundle
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   cost:
-    Telecrystal: 7
+    Refinedbluespacecrystal: 7
   categories:
   - ConsortiumUplinkWearables
 
@@ -1773,7 +1832,7 @@
   icon: { sprite: /Textures/Clothing/OuterClothing/Armor/syndie-raid.rsi, state: icon }
   productEntity: ClothingBackpackSyndicateRaidBundle
   cost:
-    Telecrystal: 10
+    Refinedbluespacecrystal: 10
   categories:
   - ConsortiumUplinkWearables
   conditions:
@@ -1789,7 +1848,7 @@
   icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/syndieelite.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
   cost:
-    Telecrystal: 10 #Starlight edit
+    Refinedbluespacecrystal: 10 #Starlight edit
   categories:
   - ConsortiumUplinkWearables
 #  conditions: #Starlight edit, why cant traitors grab this?... they get elite web vest as is
@@ -1805,7 +1864,7 @@
   icon: { sprite: /Textures/Structures/Storage/Crates/syndicate.rsi, state: icon }
   productEntity: CrateCybersunJuggernautBundle
   cost:
-    Telecrystal: 12
+    Refinedbluespacecrystal: 12
   categories:
   - ConsortiumUplinkWearables
   conditions:
@@ -1821,7 +1880,7 @@
   description: uplink-consortium-clothing-eyes-hud-syndicate-desc
   productEntity: ClothingEyesHudSyndicate
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
     - ConsortiumUplinkWearables
   conditions:
@@ -1836,7 +1895,7 @@
   description: uplink-consortium-backpack-syndicate-desc
   productEntity: ClothingBackpackSyndicate
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
     - ConsortiumUplinkWearables
 
@@ -1848,7 +1907,7 @@
   description: uplink-consortium-barber-scissors-desc
   productEntity: BarberScissors
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkPointless
 
@@ -1858,7 +1917,7 @@
   description: uplink-consortium-snack-box-desc
   productEntity: HappyHonkNukieSnacks
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkPointless
 
@@ -1868,7 +1927,7 @@
   description: uplink-consortium-clothing-conducting-gloves-desc
   productEntity: ClothingHandsGlovesConducting
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkPointless
 
@@ -1878,7 +1937,7 @@
   description: uplink-consortium-revolver-cap-gun-desc
   productEntity: RevolverCapGun
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkPointless
 
@@ -1899,7 +1958,7 @@
   description: uplink-consortium-cat-ears-desc
   productEntity: ClothingHeadHatCatEars
   cost:
-    Telecrystal: 26
+    Refinedbluespacecrystal: 26
   categories:
   - ConsortiumUplinkPointless
   conditions:
@@ -1925,7 +1984,7 @@
   description: uplink-consortium-outlaw-glasses-desc
   productEntity: ClothingEyesGlassesOutlawGlasses
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkPointless
 
@@ -1935,7 +1994,7 @@
   description: uplink-consortium-costume-pyjama-desc
   productEntity: ClothingBackpackDuffelSyndicatePyjamaBundle
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkPointless
 
@@ -1945,7 +2004,7 @@
   description: uplink-consortium-costume-clown-desc
   productEntity: ClothingBackpackDuffelSyndicateCostumeClown
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkPointless
 
@@ -1955,7 +2014,7 @@
   description: uplink-consortium-carp-suit-bundle-desc
   productEntity: ClothingBackpackDuffelSyndicateCarpSuit
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkPointless
 
@@ -1987,7 +2046,7 @@
   description: uplink-consortium-balloon-desc
   productEntity: BalloonSyn
   cost:
-    Telecrystal: 20
+    Refinedbluespacecrystal: 20
   categories:
   - ConsortiumUplinkPointless
   conditions:
@@ -2036,7 +2095,7 @@
   icon: { sprite: /Textures/Objects/Tools/Decoys/operative_decoy.rsi, state: folded }
   productEntity: ClothingBackpackDuffelSyndicateDecoyKitFilled
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkPointless
 
@@ -2049,9 +2108,9 @@
   productEntity: GatfruitSeeds
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   cost:
-    Telecrystal: 6
+    Refinedbluespacecrystal: 6
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2066,9 +2125,9 @@
   productEntity: HolyHandGrenade
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 14
+    Refinedbluespacecrystal: 14
   cost:
-    Telecrystal: 20
+    Refinedbluespacecrystal: 20
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2083,9 +2142,9 @@
   productEntity: RevolverCapGunFake
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2101,9 +2160,9 @@
   productEntity: ClusterBananaPeel
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   cost:
-    Telecrystal: 5
+    Refinedbluespacecrystal: 5
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2119,9 +2178,9 @@
   productEntity: BoxHoloclown
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 6
+    Refinedbluespacecrystal: 6
   cost:
-    Telecrystal: 12
+    Refinedbluespacecrystal: 12
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2135,10 +2194,10 @@
   description: uplink-consortium-hot-potato-desc
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   productEntity: HotPotato
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2156,9 +2215,9 @@
   productEntity: WeaponPistolCHIMPUpgradeKit
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2173,9 +2232,9 @@
   productEntity: WetFloorSignMineExplosive
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 5 # was 4, with my buff made it 5 to be closer to minibomb -panzer
+    Refinedbluespacecrystal: 5 # was 4, with my buff made it 5 to be closer to minibomb -panzer
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2194,10 +2253,10 @@
   icon: { sprite:  Objects/Misc/monkeycube.rsi, state: box}
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   productEntity: SyndicateSpongeBox
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2215,9 +2274,9 @@
   productEntity: CaneSheathFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2233,9 +2292,9 @@
   productEntity: CombatBakeryKit
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2251,7 +2310,7 @@
   icon: { sprite:  Objects/Tools/Lighters/syndielighter.rsi, state: icon}
   productEntity: UplinkLighterBox
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkPointless
 
@@ -2261,7 +2320,7 @@
   description: uplink-consortium-smuggler-satchel-desc
   productEntity: ClothingBackpackSatchelSmugglerUnanchored
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkDeception
 
@@ -2273,9 +2332,9 @@
   productEntity: ClothingBackpackDuffelAcolyteBundle
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2290,9 +2349,9 @@
   productEntity: WeaponSubMachineGunBriefcase
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Refinedbluespacecrystal: 10
   cost:
-    Telecrystal: 14
+    Refinedbluespacecrystal: 14
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2308,9 +2367,9 @@
   name: uplink-consortium-M81A1-fissure-crate-teleporter-name
   description: uplink-consortium-M81A1-fissure-crate-teleporter-desc
   icon: { sprite: /Textures/_FarHorizons/Objects/Weapons/Guns/Launchers/m81a1_fissure.rsi, state: base }
-  productEntity: CrateSyndicateM81A1Uplink
+  productEntity: CrateConsortiumM81A1Uplink
   cost:
-    Telecrystal: 30
+    Refinedbluespacecrystal: 30
   categories:
   - ConsortiumUplinkWeaponry
   conditions:
@@ -2328,7 +2387,7 @@
   icon: { sprite: /Textures/_FarHorizons/Objects/Weapons/Guns/Ammunition/Explosives/120mm_explosives.rsi, state: 120mm_HE}
   productEntity: RocketAmmo120mmHE
   cost: 
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
     - ConsortiumUplinkAmmo
   conditions:
@@ -2344,7 +2403,7 @@
   icon: { sprite: /Textures/_FarHorizons/Objects/Weapons/Guns/Ammunition/Explosives/120mm_explosives.rsi, state: 120mm_AP}
   productEntity: RocketAmmo120mmAP
   cost:
-    Telecrystal: 5
+    Refinedbluespacecrystal: 5
   categories:
     - ConsortiumUplinkAmmo
   conditions:
@@ -2360,7 +2419,7 @@
   icon: { sprite: /Textures/_FarHorizons/Objects/Weapons/Guns/Ammunition/Explosives/120mm_explosives.rsi, state: 120mm_incendiary}
   productEntity: RocketAmmo120mmIncendiary
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
     - ConsortiumUplinkAmmo
   conditions:
@@ -2376,7 +2435,7 @@
   icon: { sprite: /Textures/_FarHorizons/Objects/Weapons/Guns/Ammunition/Explosives/120mm_explosives.rsi, state: 120mm_shrapnel}
   productEntity: RocketAmmo120mmShrapnel
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
     - ConsortiumUplinkAmmo
   conditions:
@@ -2392,7 +2451,7 @@
   icon: { sprite: /Textures/_FarHorizons/Objects/Vehicles/syndicate_segway.rsi, state: icon}
   productEntity: VehicleSegwayNSTFilled
   cost:
-    Telecrystal: 2 # What's more loud than a bloodred? A red segway. Plus, not that useful in the grand theme of things, asides from the universal key you get.. Funny though.
+    Refinedbluespacecrystal: 2 # What's more loud than a bloodred? A red segway. Plus, not that useful in the grand theme of things, asides from the universal key you get.. Funny though.
   categories:
     - ConsortiumUplinkVehicles
   conditions:
@@ -2406,7 +2465,7 @@
   icon: { sprite: /Textures/_FarHorizons/Objects/Vehicles/Armored/syndicate_segway_armored_light.rsi, state: icon}
   productEntity: VehicleSegwayArmoredLightNST
   cost:
-    Telecrystal: 4 # May I introduce you to it's slightly less useless cousin?
+    Refinedbluespacecrystal: 4 # May I introduce you to it's slightly less useless cousin?
   categories:
     - ConsortiumUplinkVehicles
   conditions:
@@ -2414,13 +2473,13 @@
     stock: 2 # It's not THAT strong.
 
 - type: listing 
-  id: ConsortiumUplinkWeaponRifleLecterS
-  name: uplink-consortium-lecter-type-w-name
-  description: uplink-consortium-lecter-type-w-description
-  icon: { sprite: /Textures/_FarHorizons/Objects/Weapons/Guns/Rifles/s_lecter.rsi, state: icon}
-  productEntity: BriefcaseWeaponLecterSFilled
+  id: ConsortiumUplinkWeaponRifleLecterT
+  name: uplink-consortium-lecter-type-t-name
+  description: uplink-consortium-lecter-type-t-description
+  icon: { sprite: /Textures/_FarHorizons/Objects/Weapons/Guns/Rifles/nt_lecter.rsi, state: icon}
+  productEntity: ConsortiumBriefcaseWeaponLecterTFilled
   cost:
-    Telecrystal: 20
+    Refinedbluespacecrystal: 18
   categories:
     - ConsortiumUplinkWeaponry
 
@@ -2428,13 +2487,13 @@
   id: ConsortiumUplinkUziBundle
   name: uplink-consortium-uzi-bundle-name
   description: uplink-consortium-uzi-bundle-desc
-  icon: { sprite: /Textures/_Starlight/Objects/Weapons/Guns/SMGs/uzi.rsi, state: icon }
-  productEntity: BriefcaseWeaponUziFilled
+  icon: { sprite: /Textures/_FarHorizons/Objects/Weapons/Guns/SMGs/h6_uzi.rsi, state: icon }
+  productEntity: ConsortiumBriefcaseWeaponUziFilled
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 15
+    Refinedbluespacecrystal: 15
   cost:
-    Telecrystal: 20
+    Refinedbluespacecrystal: 20
   categories:
   - ConsortiumUplinkWeaponry
 
@@ -2443,12 +2502,12 @@
   name: uplink-consortium-deagle-name
   description: uplink-consortium-deagle-desc
   icon: { sprite: /Textures/_Starlight/Objects/Weapons/Guns/Pistols/deagle.rsi, state: icon }
-  productEntity: BriefcaseWeaponJungleHawkFilled
+  productEntity: ConsortiumBriefcaseWeaponJungleHawkFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Refinedbluespacecrystal: 5
   cost:
-    Telecrystal: 8
+    Refinedbluespacecrystal: 8
   categories:
     - ConsortiumUplinkWeaponry
 
@@ -2457,12 +2516,12 @@
   name: uplink-consortium-stechkin-name
   description: uplink-consortium-stechkin-desc
   icon: { sprite: /Textures/_Starlight/Objects/Weapons/Guns/Pistols/stechkin.rsi, state: icon }
-  productEntity: BriefcaseWeaponStechkinFilled
+  productEntity: ConsortiumBriefcaseWeaponStechkinFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   cost:
-    Telecrystal: 6
+    Refinedbluespacecrystal: 6
   categories:
     - ConsortiumUplinkWeaponry
 # Restored wizden content
@@ -2474,9 +2533,9 @@
   productEntity: ClothingHandsGlovesBoxingRigged
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   cost:
-    Telecrystal: 6
+    Refinedbluespacecrystal: 6
   categories:
     - ConsortiumUplinkJob
   conditions:
@@ -2491,9 +2550,9 @@
   productEntity: BibleNecronomicon
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2513,9 +2572,9 @@
   productEntity: TrashBananaPeelExplosiveUnarmed
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
   - ConsortiumUplinkJob
   conditions:
@@ -2529,7 +2588,7 @@
   description: uplink-consortium-super-surplus-bundle-desc
   productEntity: CrateSyndicateSuperSurplusBundle
   cost:
-    Telecrystal: 40
+    Refinedbluespacecrystal: 40
   categories:
   - ConsortiumUplinkDisruption
   conditions:
@@ -2549,9 +2608,9 @@
   productEntity: WhiteholeGrenade
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   cost:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   categories:
     - ConsortiumUplinkDisruption
 
@@ -2561,7 +2620,7 @@
   description: uplink-consortium-holster-desc
   productEntity: ClothingBeltSyndieHolster
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkWearables
 
@@ -2571,7 +2630,7 @@
   description: uplink-consortium-flash-grenade-desc
   productEntity: GrenadeFlashBang
   cost:
-    Telecrystal: 1
+    Refinedbluespacecrystal: 1
   categories:
   - ConsortiumUplinkExplosives
 
@@ -2582,9 +2641,9 @@
   productEntity: ClusterGrenade
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Refinedbluespacecrystal: 5
   cost:
-    Telecrystal: 8
+    Refinedbluespacecrystal: 8
   categories:
   - ConsortiumUplinkExplosives
 
@@ -2595,48 +2654,48 @@
   productEntity: ElectricalDisruptionKit
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   cost:
-    Telecrystal: 6
+    Refinedbluespacecrystal: 6
   categories:
     - ConsortiumUplinkExplosives
 
 - type: listing
-  id: ConsortiumUplinkRevolverPythonBundle
-  name: uplink-consortium-revolver-python-name-fh-ap
-  description: uplink-consortium-revolver-python-desc-fh-ap
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Revolvers/python.rsi, state: icon }
-  productEntity: BriefcaseWeaponPythonAPFilled
+  id: ConsortiumUplinkPistolCoronaAPBundle
+  name: uplink-consortium-pistol-corona-name-fh-ap
+  description: uplink-consortium-pistol-corona-desc-fh-ap
+  icon: { sprite: _FarHorizons/Objects/Weapons/Guns/Pistols/Energy_Magnum.rsi, state: icon }
+  productEntity: ConsortiumBriefcaseWeaponCoronaAPFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   cost:
-    Telecrystal: 10 #understandably, an AP firing revolver with ammo to back it up should be decently expensive.
+    Refinedbluespacecrystal: 10
   categories:
   - ConsortiumUplinkWeaponry
 
 - type: listing
-  id: ConsortiumUplinkRevolverPython # I got backlash for making it 10 tc depsite it coming in a better bundle. Not the end of the world to have 2 options.
-  name: uplink-consortium-revolver-python-name-fh
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Revolvers/python.rsi, state: icon }
-  description: uplink-consortium-revolver-python-desc-fh
-  productEntity: BriefcaseWeaponPythonFilled
+  id: ConsortiumUplinkPistolCorona # I got backlash for making it 10 tc depsite it coming in a better bundle. Not the end of the world to have 2 options.
+  name: uplink-consortium-pistol-corona-name-fh
+  icon: { sprite: _FarHorizons/Objects/Weapons/Guns/Pistols/Energy_Magnum.rsi, state: icon }
+  description: uplink-consortium-pistol-corona-desc-fh
+  productEntity: ConsortiumBriefcaseWeaponCoronaFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Refinedbluespacecrystal: 2
   cost:
-    Telecrystal: 4
+    Refinedbluespacecrystal: 4
   categories:
   - ConsortiumUplinkWeaponry
 
 - type: listing
   id: ConsortiumUplinkSpeedLoaderMagnumAP
-  name: uplink-consortium-speedloader-magnum-name
-  description: uplink-consortium-speedloader-magnu-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
-  productEntity: SpeedLoaderMagnumAP
+  name: uplink-consortium-ua-magazine-name
+  description: uplink-consortium-ua-magazine-desc
+  icon: { sprite: _FarHorizons/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/Energy_Magnum_Mag.rsi, state: icon }
+  productEntity: MagazineBatteryUAAP
   cost:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   categories:
   - ConsortiumUplinkAmmo
 
@@ -2650,9 +2709,9 @@
   productEntity: CyberneticImplanterLeftHandImplantHypoClaws 
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Refinedbluespacecrystal: 5
   cost:
-    Telecrystal: 8
+    Refinedbluespacecrystal: 8
   categories:
   - UplinkCybernetics
 
@@ -2664,9 +2723,9 @@
   productEntity: CyberneticImplanterRightHandImplantHypoClaws 
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Refinedbluespacecrystal: 5
   cost:
-    Telecrystal: 8
+    Refinedbluespacecrystal: 8
   categories:
   - UplinkCybernetics
 
@@ -2678,9 +2737,9 @@
   productEntity: CyberneticImplanterLeftArmCyberBunkerBreaker 
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   cost:
-    Telecrystal: 5
+    Refinedbluespacecrystal: 5
   categories:
   - UplinkCybernetics
 
@@ -2692,9 +2751,9 @@
   productEntity: CyberneticImplanterRightArmCyberBunkerBreaker 
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Refinedbluespacecrystal: 3
   cost:
-    Telecrystal: 5
+    Refinedbluespacecrystal: 5
   categories:
   - UplinkCybernetics
 
@@ -2710,9 +2769,9 @@
   productEntity: BriefcaseWeaponIFA30LeftFilled
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 14
+    Refinedbluespacecrystal: 14
   cost:
-    Telecrystal: 20
+    Refinedbluespacecrystal: 20
   categories:
     - UplinkCybernetics
 
@@ -2728,8 +2787,8 @@
   productEntity: BriefcaseWeaponIFA30RightFilled
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 14
+    Refinedbluespacecrystal: 14
   cost:
-    Telecrystal: 20
+    Refinedbluespacecrystal: 20
   categories:
     - UplinkCybernetics

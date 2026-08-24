@@ -3,7 +3,7 @@
   abstract: true
   components:
   - type: Store
-    name: store-preset-name-consortium-uplink
+    name: Uplink
     categories:
     - ConsortiumUplinkWeaponry
     - ConsortiumUplinkAmmo
@@ -19,7 +19,7 @@
     - ConsortiumUplinkPointless
     - ConsortiumUplinkVehicles
     currencyWhitelist:
-    - Telecrystal
+    - Refinedbluespacecrystal
     balance:
-      Telecrystal: 0
+      Refinedbluespacecrystal: 0
     expectedFaction:

@@ -1,3 +1,53 @@
+# Refined Bluespace Crystals
+
+- type: entity
+  name: refined bluespace crystals
+  parent: [BaseItem, BaseSyndicateContraband]
+  id: RefinedBluespaceCrystal
+  suffix: 20 RB
+  description: It seems to be pulsing with suspiciously enticing energies.
+  components:
+  - type: Sprite
+    sprite: _FarHorizons\Objects\Specific\Consortium\refinedbluespacecrystal.rsi
+    state: refinedbluespacecrystal
+  - type: Item
+    sprite: _FarHorizons\Objects\Specific\Consortium\refinedbluespacecrystal.rsi
+    size: Tiny
+  - type: Stack
+    count: 20
+    stackType: Telecrystal
+  - type: StaticPrice
+    price: 0
+  - type: StackPrice
+    price: 200
+  - type: Currency
+    price:
+      Refinedbluespacecrystal: 1
+
+- type: entity
+  parent: RefinedBluespaceCrystal
+  id: RefinedBluespaceCrystal1
+  suffix: 1 RB
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: RefinedBluespaceCrystal
+  id: RefinedBluespaceCrystal5
+  suffix: 5 RB
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: RefinedBluespaceCrystal
+  id: RefinedBluespaceCrystal10
+  suffix: 10 RB
+  components:
+  - type: Stack
+    count: 10
+
 # Uplinks
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband]
@@ -21,50 +71,50 @@
     key: enum.StoreUiKey.Key
   - type: Store
     balance:
-      Telecrystal: 0
+      Refinedbluespacecrystal: 0
       
 - type: entity
   parent: [BaseConsortiumUplinkRadio, StorePresetConsortiumUplink]
   id: BaseConsortiumUplinkRadioPreset
 - type: entity
   parent: BaseConsortiumUplinkRadioPreset
-  id: BaseConsortiumUplinkRadio20TC
-  suffix: 20 TC
+  id: BaseConsortiumUplinkRadio20RB
+  suffix: 20 RB
   components:
   - type: Store
     balance:
-      Telecrystal: 20
+      Refinedbluespacecrystal: 20
 
 - type: entity
   parent: BaseConsortiumUplinkRadioPreset
-  id: BaseConsortiumUplinkRadio25TC
-  suffix: 25 TC
+  id: BaseConsortiumUplinkRadio25RB
+  suffix: 25 RB
   components:
   - type: Store
     balance:
-      Telecrystal: 25
+      Refinedbluespacecrystal: 25
 
 #this uplink MUST be used for nukeops, as it has the tag for filtering the listing.
 - type: entity
   parent: BaseConsortiumUplinkRadioPreset
-  id: BaseConsortiumUplinkRadio40TC
-  suffix: 40 TC, NukeOps
+  id: BaseConsortiumUplinkRadio40RB
+  suffix: 40 RB, NukeOps
   components:
   - type: Store
     balance:
-      Telecrystal: 40
+      Refinedbluespacecrystal: 40
   - type: Tag
     tags:
     - NukeOpsUplink
 
 - type: entity
   parent: BaseConsortiumUplinkRadioPreset
-  id: BaseConsortiumUplinkRadio60TC
-  suffix: 60 TC, LoneOps
+  id: BaseConsortiumUplinkRadio60RB
+  suffix: 60 RB, LoneOps
   components:
   - type: Store
     balance:
-      Telecrystal: 60
+      Refinedbluespacecrystal: 60
   - type: Tag
     tags:
     - NukeOpsUplink
@@ -76,5 +126,5 @@
   components:
   - type: Store
     balance:
-      Telecrystal: 99999
+      Refinedbluespacecrystal: 99999
     expectedFaction: #nulls out the expected faction

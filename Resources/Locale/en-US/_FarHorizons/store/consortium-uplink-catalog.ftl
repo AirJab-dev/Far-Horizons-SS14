@@ -3,8 +3,8 @@
 uplink-consortium-pistol-viper-name = Viper
 uplink-consortium-pistol-viper-desc = A small, easily concealable, but somewhat underpowered gun. Retrofitted with a fully automatic receiver. Uses pistol magazines (.35 auto).
 
-uplink-consortium-revolver-python-name = Python
-uplink-consortium-revolver-python-desc = A brutally simple, effective, and loud Syndicate revolver. Comes loaded with armor-piercing rounds. Uses .45 magnum.
+uplink-consortium-pistol-corona-name = UA - Corona 
+uplink-consortium-pistol-corona-desc = A intellectually complex, effective, and loud Consortium Pistol. Named afer the outer part of a star. Uses UA capsule.
 
 uplink-consortium-pistol-cobra-name = Cobra
 uplink-consortium-pistol-cobra-desc = A rugged, robust operator handgun with inbuilt silencer. Uses pistol magazines (.25 caseless).
@@ -27,11 +27,11 @@ uplink-consortium-edagger-desc = A small energy blade conveniently disguised in 
 uplink-consortium-fire-axe-flaming-name = Fire Axe
 uplink-consortium-fire-axe-flaming-desc = A classic-style weapon infused with advanced atmos technology to allow it to set targets on fire. Now with rugged rubberized handle!
 
-uplink-consortium-gloves-north-star-name = Gloves of the North Star
-uplink-consortium-gloves-north-star-desc = A pair of gloves that reduce your punching cooldown drastically, allowing you to beat people to death in a flurry of punches.
+uplink-consortium-gloves-north-star-name = Powered Gloves
+uplink-consortium-gloves-north-star-desc = A pair of gloves that increase your punching power drastically, allowing you to beat people to death in several punches.
 
-uplink-consortium-gloves-knuckleduster-name = Syndicate Knuckle Dusters
-uplink-consortium-gloves-knuckleduster-desc = A pair of plastitanium knuckle dusters that let you punch hard enough to break the captains jaw into pieces.
+uplink-consortium-gloves-knuckleduster-name = Consortium Knuckle Dusters
+uplink-consortium-gloves-knuckleduster-desc = A pair of plastitanium knuckle dusters that let you punch hard enough to break the Commandants jaw into pieces.
 
 uplink-consortium-hushpup-name = Hushpup
 uplink-consortium-hushpup-desc = A powerful silenced shotgun with a low magazine capacity. Uses .50 shotgun ammo.
@@ -42,7 +42,7 @@ uplink-consortium-c20r-desc = Old faithful: The classic C-20r Submachine Gun.
 uplink-consortium-bulldog-name = Bulldog
 uplink-consortium-bulldog-desc = Lean and mean: Contains the popular Bulldog Shotgun.
 
-uplink-consortium-grenade-launcher-name = China-Lake
+uplink-consortium-grenade-launcher-name = China-Lake Crate
 uplink-consortium-grenade-launcher-desc = An old China-Lake grenade launcher bundled with 5 rounds of anti-personnel ammo.
 
 # Explosives
@@ -125,8 +125,8 @@ uplink-consortium-estoc-ammo-desc = A rifle magazine with 25 cartridges. Compati
 uplink-consortium-pistol-magazine-caseless-name = Pistol Magazine (.25 caseless)
 uplink-consortium-pistol-magazine-caseless-desc = Pistol magazine with 10 cartridges. Compatible with the Cobra.
 
-uplink-consortium-speedloader-magnum-name = Speedloader (.45 magnum AP)
-uplink-consortium-speedloader-magnu-desc = Revolver speedloader with 6 armor-piercing cartridges, capable of ignoring armor entirely. Compatible with the Python.
+uplink-consortium-ua-magazine-name = AP Magazine (UA)
+uplink-consortium-ua-magazine-desc = Specialised pistol magazine with 6 armor-piercing cartridges, capable of ignoring armor entirely. Compatible with the UA - Corona.
 
 uplink-consortium-mosin-ammo-name = Ammunition box (.30 rifle)
 uplink-consortium-mosin-ammo-desc = A box of 60 cartridges for the surplus rifle.
@@ -234,7 +234,7 @@ uplink-consortium-emp-implanter-desc = Detonates a small EMP pulse on activation
 uplink-consortium-macro-bomb-implanter-name = Macro Bomb Implanter
 uplink-consortium-macro-bomb-implanter-desc = Inject this and on death you'll create a large explosion. Huge team casualty cost, use at own risk. Replaces internal micro bomb.
 
-uplink-consortium-implanter-name = Uplink Implanter
+uplink-consortium-uplink-implanter-name = Uplink Implanter
 uplink-consortium-uplink-implanter-desc = Stealthily order equipment without the need for a PDA. Swallow telecrystals to top up the uplink.
 
 uplink-consortium-deathrattle-implant-name = Box Of Deathrattle Implants
@@ -266,7 +266,10 @@ uplink-consortium-chemistry-kit-name = Chemical Synthesis Kit
 uplink-consortium-chemistry-kit-desc = A starter kit for the aspiring chemist, includes two vials of vestine for all your criminal needs!
 
 uplink-consortium-knives-kit-name = Throwing Knives Kit
-uplink-consortium-knives-kit-desc = A set of 8 syndicate branded throwing knives, perfect for embedding into the body of your victims. Capable of ignoring armor entirely when thrown.
+uplink-consortium-knives-kit-desc = A set of 8 throwing knives, perfect for embedding into the body of your victims. Capable of ignoring armor entirely when thrown.
+
+uplink-consortium-homerun-bat-name = Homerun Bat
+uplink-consortium-homerun-bat-desc = Send your enemies flying. Hey batta batta batta SWING batta!
 
 uplink-consortium-meds-bundle-name = Interdyne Medical Bundle
 uplink-consortium-meds-bundle-desc = An assortment of autoinjectors and premium medical equipment to cover for every possible situation. Contains an elite compact defibrillator that can be used as a weapon.
@@ -286,7 +289,7 @@ uplink-consortium-bulldog-bundle-desc = Lean and mean: Contains the popular Bull
 uplink-consortium-estoc-bundle-name = Estoc DMR bundle
 uplink-consortium-estoc-bundle-desc = A designated marksman rifle, fitted with a mid-range optic for longer-range combat. Bundled with two rifle magazines (.20 rifle).
 
-uplink-consortium-grenade-launcher-bundle-name = China-Lake Bundle
+uplink-consortium-grenade-launcher-bundle-name = China-Lake Crate
 uplink-consortium-grenade-launcher-bundle-desc = An old China-Lake grenade launcher bundled with 11 rounds of varying destructive capability.
 
 uplink-consortium-l6-saw-bundle-name = L6 Saw Bundle
@@ -538,79 +541,84 @@ uplink-consortium-energycrossbow-name = Mini Energy Crossbow
 uplink-consortium-energycrossbow-desc = The go-to sidearm of any operative who prefers their victims not to be moving. Fires regenerating toxic arrows that floors victims in an instant.
 
 # FH gear
-uplink-M81A1-fissure-crate-teleporter-name = M81A1 "Fissure" Bundle
-uplink-M81A1-fissure-crate-teleporter-desc = For when you need extra BOOM in your operations, comes included with a M81 rocket loader chest rig that is equipped with seven 120mm rockets. "This is guranteed to blow up in your face... gorlex approved!" - Random Lone Operative 
+uplink-consortium-M81A1-fissure-crate-teleporter-name = M81A1 "Fissure" Bundle
+uplink-consortium-M81A1-fissure-crate-teleporter-desc = For when you need extra BOOM in your operations, comes included with a M81 rocket loader chest rig that is equipped with seven 120mm rockets. "This is guranteed to blow up in your face... consortium approved!" - Random Lone Operative 
 
-uplink-rocket-ammo-120mm-HE-name = 120mm High-Explosive Rocket
-uplink-rocket-ammo-120mm-HE-desc = A robust rocket ammo that is designed to give as much "OOMF" as possible, results are that of a large explosion. Maintain Caution & Spacing.
+uplink-consortium-rocket-ammo-120mm-HE-name = 120mm High-Explosive Rocket
+uplink-consortium-rocket-ammo-120mm-HE-desc = A robust rocket ammo that is designed to give as much "OOMF" as possible, results are that of a large explosion. Maintain Caution & Spacing.
 
-uplink-rocket-ammo-120mm-AP-name = 120mm Armor-Piercing Rocket
-uplink-rocket-ammo-120mm-AP-desc = A robust yet lean rocket ammo that is designed to skew your enemies even with the toughest of armor. Maintain large amounts of cauton & spacing.
+uplink-consortium-rocket-ammo-120mm-AP-name = 120mm Armor-Piercing Rocket
+uplink-consortium-rocket-ammo-120mm-AP-desc = A robust yet lean rocket ammo that is designed to skew your enemies even with the toughest of armor. Maintain large amounts of cauton & spacing.
 
-uplink-rocket-ammo-120mm-incendiary-name = 120mm Incendiary Rocket
-uplink-rocket-ammo-120mm-incendiary-desc = A robust rocket ammo that is designed to ensure your enemies are set ablaze and stay ablaze still they stop wiggling, results are of a large fiery explosion. Maintain Caution & Spacing.
+uplink-consortium-rocket-ammo-120mm-incendiary-name = 120mm Incendiary Rocket
+uplink-consortium-rocket-ammo-120mm-incendiary-desc = A robust rocket ammo that is designed to ensure your enemies are set ablaze and stay ablaze still they stop wiggling, results are of a large fiery explosion. Maintain Caution & Spacing.
 
-uplink-rocket-ammo-120mm-shrapnel-name = 120mm Shrapnel Rocket
-uplink-rocket-ammo-120mm-shrapnel-desc = A toned-down variant of the 120mm armor-piercing rocket, can't pierce any size of armor.
+uplink-consortium-rocket-ammo-120mm-shrapnel-name = 120mm Shrapnel Rocket
+uplink-consortium-rocket-ammo-120mm-shrapnel-desc = A toned-down variant of the 120mm armor-piercing rocket, can't pierce any size of armor.
 
-uplink-syndicate-secway-name = Segway
-uplink-syndicate-secway-description = Outspeed security on this BLISTERINGLY fast one horsepower segway!
+uplink-consortium-syndicate-secway-name = Segway
+uplink-consortium-syndicate-secway-description = Outspeed security on this BLISTERINGLY fast one horsepower segway!
 
-uplink-syndicate-secway-armored-light-name = Lightly Armored Segway
-uplink-syndicate-secway-armored-light-description = Outspeed security on this BLISTERINGLY fast one horsepower segway! Now with the same protection as Type I vest.
+uplink-consortium-syndicate-secway-armored-light-name = Lightly Armored Segway
+uplink-consortium-syndicate-secway-armored-light-description = Outspeed security on this BLISTERINGLY fast one horsepower segway! Now with the same protection as Type I vest.
 
-uplink-lecter-type-w-name = Lecter Type-W Case
-uplink-lecter-type-w-description = A simple wooden lecter with a short barrel and stock to enable ease of handling, pre-loaded with SP. Also comes with an underbarrel chainsaw and an Ammo Selector.
+uplink-consortium-lecter-type-t-name = Lecter Type-T Case
+uplink-consortium-lecter-type-t-description = A simple lecter with a short barrel and a angled foregrip to enable better handling, pre-loaded with SP. Also comes with an Ammo Selector.
 
-uplink-deagle-name = Jungle Hawk Case
-uplink-deagle-desc = A robust .44 magnum handgun pre-loaded with SP. Comes with an Ammo Selector.
+uplink-consortium-deagle-name = Jungle Hawk Case
+uplink-consortium-deagle-desc = A robust .44 magnum handgun pre-loaded with SP. Comes with an Ammo Selector.
 
-uplink-stechkin-name = Stechkin Pistol Case
-uplink-stechkin-desc = A small, easily concealable .38 Special Handgun. Comes pre-loaded with FMJ and an Ammo Selector.
+uplink-consortium-stechkin-name = Stechkin Pistol Case
+uplink-consortium-stechkin-desc = A small, easily concealable .38 Special Handgun. Comes pre-loaded with FMJ and an Ammo Selector.
 
-uplink-revolver-python-name-fh = Python Case
-uplink-revolver-python-desc-fh = Comes pre-loaded with AP .44 Magnum rounds and an Ammo Selector. Additional AP rounds not included.
+uplink-consortium-pistol-corona-name-fh = Corona Case
+uplink-consortium-pistol-corona-desc-fh = A intellectually complex, effective, and loud Consortium Pistol. Comes with 3 extra magazines. Uses UA capsules.
 
-uplink-revolver-python-name-fh-ap = AP Python Case
-uplink-revolver-python-desc-fh-ap = A brutally simple, effective and loud Syndicate revolver. Comes pre-loaded with Armor-Piercing rounds, two AP speedloaders and an ammo box.
+uplink-consortium-pistol-corona-name-fh-ap = AP Corona Case
+uplink-consortium-pistol-corona-desc-fh-ap = A intellectually complex, effective, and loud Consortium Pistol. Comes with 3 extra AP magazines. Uses UA capsules.
 
-uplink-pistol-viper-name-fh = Viper Case
-uplink-pistol-viper-desc-fh = A small, easily concealable but somewhat underpowered gun pre-loaded with SP. Retrofitted with a fully automatic receiver, uses pistol magazines (9mm). Comes with an Ammo Selector.
+uplink-consortium-pistol-viper-name-fh = Viper Case
+uplink-consortium-pistol-viper-desc-fh = A small, easily concealable but somewhat underpowered gun pre-loaded with SP. Retrofitted with a fully automatic receiver, uses pistol magazines (9mm). Comes with an Ammo Selector.
 
-uplink-pistol-cobra-name-fh = Cobra Case
-uplink-pistol-cobra-desc-fh = A rugged, robust operator handgun with inbuilt silencer. Uses pistol magazines (.25 caseless). Comes with three spare magazines and an ammo box.
+uplink-consortium-pistol-cobra-name-fh = Cobra Case
+uplink-consortium-pistol-cobra-desc-fh  = A rugged, robust operator handgun with inbuilt silencer. Uses pistol magazines (.25 caseless). Comes with three spare magazines and an ammo box.
 
-uplink-lmg-l6-name-fh = L6 SAW Crate
-uplink-lmg-l6-desc-fh = The iconic L6 light machine gun loaded with 7.62 SP, for operators not intending on completing their task through subterfuge. Comes with five light machine gun magazines and an 7.62 ammo canister.
+uplink-consortium-lmg-l6-name-fh = L6 SAW Crate
+uplink-consortium-lmg-l6-desc-fh = The iconic L6 light machine gun loaded with 7.62 SP, for operators not intending on completing their task through subterfuge. Comes with five light machine gun magazines and an 7.62 ammo canister.
 
-uplink-smg-c20r-name-fh = C-20r Case
-uplink-smg-c20r-desc-fh = Old Faithful: The classic C-20r submachine gun loaded with 9mm SP, comes with an Ammo Selector.
+uplink-consortium-smg-c20r-name-fh = C-20r Case
+uplink-consortium-smg-c20r-desc-fh = Old Faithful: The classic C-20r submachine gun loaded with 9mm SP, comes with an Ammo Selector.
 
-uplink-rifle-estoc-name-fh = Estoc DMR Case
-uplink-rifle-estoc-desc-fh = A designated marksman rifle, fitted with decent optics allowing for longer ranged combat. Comes loaded with 5.56 SP and an Ammo Selector.
+uplink-consortium-rifle-estoc-name-fh = Estoc DMR Case
+uplink-consortium-rifle-estoc-desc-fh = A designated marksman rifle, fitted with decent optics allowing for longer ranged combat. Comes loaded with 5.56 SP and an Ammo Selector.
 
-uplink-uzi-bundle-name = Type U3 Uzi Case
-uplink-uzi-bundle-desc = Contains the Type U3 Uzi loaded with 9mm SP and an Ammo Selector.
+uplink-consortium-uzi-bundle-name = Type H6 Uzi Case
+uplink-consortium-uzi-bundle-desc = Contains the Type H6 Uzi loaded with 9mm SP and an Ammo Selector.
 
-uplink-ammo-bundle-name-fh = Ammo Bundle Selector
-uplink-ammo-bundle-desc-fh = Reloading! Contains 4-5 magazines and one canister each of your choice for all nuclear operative weapons, except for the China-Lake and M81A1
+uplink-consortium-ammo-bundle-name-fh = Ammo Bundle Selector
+uplink-consortium-ammo-bundle-desc-fh = Reloading! Contains 4-5 magazines and one canister each of your choice for all nuclear operative weapons, except for the China-Lake and M81A1
 
-uplink-nightvision-eyes-desc-fh = Allows you to see in the dark but makes you more vulnerable to flashes. 
-uplink-thermalvision-eyes-desc-fh = Allows you to see in the dark and detect creatures through walls but makes you more vulnerable to flashes. 
-uplink-mantis-blade-arms-desc-fh = Originally used as a simple construction tool, now turned into hidden blades that can extend from your arm while still keeping its destructive prying skill. Truly a sight to behold. 
-uplink-advanced-claws-desc-fh = A cybernetic implant for hands. Allows an agent to extend sharp plasteel claws at will, and hide them away just as quickly. 
-uplink-forensics-implant-desc-fh = A cybernetic implant for hands. Removes an agent's fingerprints so as to not leave evidence of a crime. Does not work through gloves. 
-uplink-syndie-implant-desc-fh = A cybernetic eye implant. Enables an agent to see information about the station crew, humanoids and syndicate without any glasses. 
+uplink-consortium-nightvision-eyes-desc-fh = Allows you to see in the dark but makes you more vulnerable to flashes. 
+uplink-consortium-thermalvision-eyes-desc-fh = Allows you to see in the dark and detect creatures through walls but makes you more vulnerable to flashes. 
+uplink-consortium-mantis-blade-arms-desc-fh = Originally used as a simple construction tool, now turned into hidden blades that can extend from your arm while still keeping its destructive prying skill. Truly a sight to behold. 
+uplink-consortium-advanced-claws-desc-fh = A cybernetic implant for hands. Allows an agent to extend sharp plasteel claws at will, and hide them away just as quickly. 
+uplink-consortium-forensics-implant-desc-fh = A cybernetic implant for hands. Removes an agent's fingerprints so as to not leave evidence of a crime. Does not work through gloves. 
+uplink-consortium-syndie-implant-desc-fh = A cybernetic eye implant. Enables an agent to see information about the station crew, humanoids and syndicate without any glasses. 
 
-uplink-bulldog-bundle-desc-fh = Lean and mean: Contains the popular Bulldog Shotgun and an Ammo Selector.
-uplink-minotaur-desc-fh = Lean and mean: Contains smooth, powerful, highly illegal Shotgun and an Ammo Selector.
+uplink-consortium-bulldog-bundle-desc-fh = Lean and mean: Contains the popular Bulldog Shotgun and an Ammo Selector.
 
-uplink-hypo-claws-left-name = Left Hand HypoClaws Implant 
-uplink-hypo-claws-right-name = Right Hand HypoClaws Implant 
-uplink-hypo-claws-desc = Sharp, retractable plasteel claws, with hypo injector technology to inject chems into victims. Can be retracted and hidden on demand.
-uplink-bunker-breaker-arm-left-name = Left Bunker Breaker Arm
-uplink-bunker-breaker-arm-right-name = Right Bunker Breaker Arm
-uplink-bunker-breaker-desc = Augmented arm with all the tools needed to go where you dont belong, including a jaws of death.
-uplink-ifa30-left-arm-name = Left IFA-30 Case
-uplink-ifa30-right-arm-name = Right IFA-30 Case
-uplink-ifa30-arms-desc = A modern IFA-30 SMG for mobile operations integrated into a Cybernetic Arm, comes with an Ammo Selector.
+uplink-consortium-minotaur-name-fh = Minotaur Case
+uplink-consortium-minotaur-desc-fh = Lean and mean: Contains smooth, powerful, highly illegal Shotgun and an Ammo Selector.
+
+uplink-consortium-pitbull-name-fh = Pitbull Case
+uplink-consortium-pitbull-desc-fh = Lean and mean: Contains smooth, powerful, highly illegal Shotgun and an Ammo Selector.
+
+uplink-consortium-hypo-claws-left-name = Left Hand HypoClaws Implant 
+uplink-consortium-hypo-claws-right-name = Right Hand HypoClaws Implant 
+uplink-consortium-hypo-claws-desc = Sharp, retractable plasteel claws, with hypo injector technology to inject chems into victims. Can be retracted and hidden on demand.
+uplink-consortium-bunker-breaker-arm-left-name = Left Bunker Breaker Arm
+uplink-consortium-bunker-breaker-arm-right-name = Right Bunker Breaker Arm
+uplink-consortium-bunker-breaker-desc = Augmented arm with all the tools needed to go where you dont belong, including a jaws of death.
+uplink-consortium-ifa30-left-arm-name = Left IFA-30 Case
+uplink-consortium-ifa30-right-arm-name = Right IFA-30 Case
+uplink-consortium-ifa30-arms-desc = A modern IFA-30 SMG for mobile operations integrated into a Cybernetic Arm, comes with an Ammo Selector.
