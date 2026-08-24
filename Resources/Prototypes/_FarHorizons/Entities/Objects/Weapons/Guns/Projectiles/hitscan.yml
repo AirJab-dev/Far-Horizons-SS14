@@ -93,8 +93,8 @@
   - type: HitscanBasicDamage # this doesn't actually do anything, it only exists to allow you to inspect the gun to see damage values
     damage:
       types:
-        Heat: 15 
-        Structural: 18
+        Heat: 20
+        Structural: 20
   - type: ProjectileSpread
     proto: BoltPlasma
     count: 5
