@@ -18373,5 +18373,12 @@ Entries:
   id: 160301
   time: '2026-08-23T01:11:53.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1603
+- author: It's a bird, it's a plane, no wait it's definitely a bird, Minar
+  changes:
+  - message: 'Update (increase) roles'' time requirements :literally1984:'
+    type: Tweak
+  id: 160600
+  time: '2026-08-24T18:56:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1606
 Order: -1
 
