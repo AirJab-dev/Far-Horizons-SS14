@@ -280,7 +280,7 @@
 - type: entity
   parent: [ClothingHandsBase, BaseSyndicateContraband]
   id: ClothingHandsKnuckleDustersConsortium
-  name: consortium knuckle dusters
+  name: Consortium Knuckle Dusters
   description: "Plastitanium knuckle dusters branded with the blood-blue C. A real man beats someone to death with these."
   components:
   - type: Sprite
@@ -310,7 +310,7 @@
 - type: entity
   parent: [ClothingHandsButcherable, BaseSyndicateContraband]
   id: ClothingHandsPoweredGloves
-  name: powered gloves
+  name: Powered Gloves
   description: These gloves allow you to punch incredibly Hard.
   components:
   - type: Sprite

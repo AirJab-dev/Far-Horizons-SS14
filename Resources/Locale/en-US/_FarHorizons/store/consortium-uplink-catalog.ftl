@@ -540,7 +540,7 @@ uplink-consortium-briefcase-gun-desc = An indistinct briefcase with a highly com
 uplink-consortium-energycrossbow-name = Mini Energy Crossbow
 uplink-consortium-energycrossbow-desc = The go-to sidearm of any operative who prefers their victims not to be moving. Fires regenerating toxic arrows that floors victims in an instant.
 
-# FH gear
+
 uplink-consortium-M81A1-fissure-crate-teleporter-name = M81A1 "Fissure" Bundle
 uplink-consortium-M81A1-fissure-crate-teleporter-desc = For when you need extra BOOM in your operations, comes included with a M81 rocket loader chest rig that is equipped with seven 120mm rockets. "This is guranteed to blow up in your face... consortium approved!" - Random Lone Operative 
 

@@ -86,7 +86,7 @@
 
 - type: entity
   id: BaseCapsuleUA
-  name: capsule (UA)
+  name: Capsule (UA)
   parent: [BaseItem, BaseCartridge ]
   abstract: true
   components:
@@ -106,7 +106,7 @@
   
 - type: entity
   id: CapsuleUA
-  name: capsule (UA)
+  name: Capsule (UA)
   parent: BaseCapsuleUA
   components:
   - type: CartridgeAmmo
@@ -116,7 +116,7 @@
 
 - type: entity
   id: BaseCapsuleUAAP
-  name: AP capsule (UA)
+  name: AP Capsule (UA)
   parent: [BaseItem, BaseCartridge ]
   abstract: true
   components:
@@ -136,7 +136,7 @@
   
 - type: entity
   id: CapsuleUAAP
-  name: AP capsule (UA)
+  name: AP Capsule (UA)
   parent: BaseCapsuleUAAP
   components:
   - type: CartridgeAmmo

@@ -364,7 +364,7 @@
 - type: entity
   id: ConsortiumBriefcaseWeaponHushpupFilled
   parent: ConsortiumBriefcaseWeaponSmall
-  name: secure hushpup case
+  name: Secure Hushpup Case
   components:
   - type: EntityTableContainerFill
     containers:

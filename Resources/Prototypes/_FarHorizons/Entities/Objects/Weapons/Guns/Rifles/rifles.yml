@@ -181,7 +181,7 @@
 
 - type: entity
   name: Lecter Type-T
-  parent: [BaseSyndicateContraband, WeaponRifleLecter]
+  parent: WeaponRifleLecter
   id: WeaponRifleLecterC
   description: "A modifed Lecter platform utilized by NanoTrasen with a simple angled grip and holographic sights for easy target acquisition, as well as electronic status lights. Feeds from 5.56 Magazines."
   suffix: C
@@ -269,7 +269,7 @@
 
 - type: entity
   name: Lecter Type-S
-  parent: [WeaponRifleLecter, BaseSyndicateContraband]
+  parent: WeaponRifleLecter
   id: WeaponRifleLecterNS
   description: "A modifed Lecter platform utilized by NeoSol with a longer barrel for greater accuracy and an attached gunsword to make crewmembers think twice about challenging an officer with this weapon. Feeds from 5.56 Magazines."
   suffix: NS

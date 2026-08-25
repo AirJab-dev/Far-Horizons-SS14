@@ -39,7 +39,7 @@ uplink-pistol-viper-name-fh = Viper Case
 uplink-pistol-viper-desc-fh = A small, easily concealable but somewhat underpowered gun pre-loaded with SP. Retrofitted with a fully automatic receiver, uses pistol magazines (9mm). Comes with an Ammo Selector.
 
 uplink-pistol-cobra-name-fh = Cobra Case
-uplink-pistol-cobra-desc-fh  = A rugged, robust operator handgun with inbuilt silencer. Uses pistol magazines (.25 caseless). Comes with three spare magazines and an ammo box.
+uplink-pistol-cobra-desc-fh = A rugged, robust operator handgun with inbuilt silencer. Uses pistol magazines (.25 caseless). Comes with three spare magazines and an ammo box.
 
 uplink-lmg-l6-name-fh = L6 SAW Crate
 uplink-lmg-l6-desc-fh = The iconic L6 light machine gun loaded with 7.62 SP, for operators not intending on completing their task through subterfuge. Comes with five light machine gun magazines and an 7.62 ammo canister.
@@ -75,3 +75,6 @@ uplink-bunker-breaker-desc = Augmented arm with all the tools needed to go where
 uplink-ifa30-left-arm-name = Left IFA-30 Case
 uplink-ifa30-right-arm-name = Right IFA-30 Case
 uplink-ifa30-arms-desc = A modern IFA-30 SMG for mobile operations integrated into a Cybernetic Arm, comes with an Ammo Selector.
+
+uplink-knives-kit-name-fh = Throwing Knives Kit
+uplink-knives-kit-desc-fh = A set of 8 throwing knives, perfect for embedding into the body of your victims. Capable of ignoring armor entirely when thrown.

@@ -1,7 +1,7 @@
 # Refined Bluespace Crystals
 
 - type: entity
-  name: refined bluespace crystals
+  name: Refined Bluespace Crystals
   parent: [BaseItem, BaseSyndicateContraband]
   id: RefinedBluespaceCrystal
   suffix: 20 RB
@@ -52,7 +52,7 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband]
   id: BaseConsortiumUplinkRadio
-  name: consortium uplink
+  name: Consortium Uplink
   description: Suspiciously looking old radio...
   suffix: Empty
   components:

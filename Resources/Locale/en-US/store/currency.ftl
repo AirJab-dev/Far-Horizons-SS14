@@ -13,6 +13,3 @@ store-currency-display-silicon-memory = Memory
 store-currency-display-wizcoin = Wiz€oin™
 store-currency-display-evolutionpoints = Evolution Points
 store-currency-display-dna = DNA
-#Far Horizons-Start
-store-currency-display-refined-bluespace-crystal = RB
-#Far Horizons-End
