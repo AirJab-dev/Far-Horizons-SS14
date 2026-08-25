@@ -18401,5 +18401,12 @@ Entries:
   id: 161000
   time: '2026-08-25T19:24:20.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1610
+- author: Mizuki
+  changes:
+  - message: Adds msay and mghost command descriptions
+    type: Add
+  id: 161300
+  time: '2026-08-25T20:42:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1613
 Order: -1
 
