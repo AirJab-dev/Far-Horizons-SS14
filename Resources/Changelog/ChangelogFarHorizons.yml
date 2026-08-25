@@ -18408,5 +18408,13 @@ Entries:
   id: 161300
   time: '2026-08-25T20:42:06.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1613
+- author: Penguinwizzard
+  changes:
+  - message: Using a speedloader now updates your revolver's ammunition display, and
+      displays the fired state of cartridges properly.
+    type: Fix
+  id: 161200
+  time: '2026-08-25T20:57:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1612
 Order: -1
 
