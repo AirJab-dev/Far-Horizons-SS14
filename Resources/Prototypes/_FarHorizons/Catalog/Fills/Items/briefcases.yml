@@ -357,7 +357,7 @@
     containers:
       storagebase: !type:AllSelector
         children:
-        - id: WeaponRifleLecterNT
+        - id: WeaponRifleLecterC
         - id: TreasureCoinIron
         - id: AmmoSelection556C
 
