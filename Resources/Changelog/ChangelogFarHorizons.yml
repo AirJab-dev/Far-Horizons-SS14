@@ -18416,5 +18416,12 @@ Entries:
   id: 161200
   time: '2026-08-25T20:57:56.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1612
+- author: Penguinwizzard
+  changes:
+  - message: Shooting a gun with a flashlight on it no longer breaks the flashlight.
+    type: Fix
+  id: 161400
+  time: '2026-08-25T21:06:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1614
 Order: -1
 
