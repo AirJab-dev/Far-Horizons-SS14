@@ -564,6 +564,7 @@
       - HoloflarePistol
   - type: StaticPrice
     price: 50
+  - type: PacifismAllowedGun
 
 - type: entity
   id: WeaponHoloflarePistolSec
