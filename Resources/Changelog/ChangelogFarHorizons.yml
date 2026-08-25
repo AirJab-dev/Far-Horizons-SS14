@@ -18380,5 +18380,12 @@ Entries:
   id: 160600
   time: '2026-08-24T18:56:34.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1606
+- author: Mizuki
+  changes:
+  - message: Pacified individuals can now use HoloFlare Pistols
+    type: Fix
+  id: 161000
+  time: '2026-08-25T19:24:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1610
 Order: -1
 
