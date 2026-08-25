@@ -77,7 +77,7 @@
     damage:
       types:
         Heat: 20 # 100 total damage with 20 getting eaten by flats. 
-        Structural: 20 # 100 total
+        Structural: 15 # 75 total
   - type: HitscanBasicRaycast
     collisionMask: BulletImpassable
 
@@ -94,7 +94,7 @@
     damage:
       types:
         Heat: 20
-        Structural: 20
+        Structural: 15
   - type: ProjectileSpread
     proto: BoltPlasma
     count: 5
@@ -112,14 +112,14 @@
     damage:
       types:
         Heat: 45
-        Structural: 150
+        Structural: 75
   - type: HitscanBasicRaycast
     collisionMask: BulletImpassable
 
 #region Lasers
 - type: entity
   id: RedLaserBeamShotgun
-  name: Laser Beam Spead
+  name: Laser Beam Spread
   parent: BasicHitscan
   categories: [ HideSpawnMenu ]
   components:
