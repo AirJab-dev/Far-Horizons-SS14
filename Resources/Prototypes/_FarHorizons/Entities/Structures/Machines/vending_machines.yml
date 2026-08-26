@@ -494,8 +494,9 @@
 - type: entity
   parent: VendingMachineWallmount
   id: VendingMachineWallMedicalCivilianNS
-  name: InterMed band-aid
+  name: InterMed Band-Aid
   description: It's a wall-mounted medical equipment dispenser. Natural chemicals only!
+  suffix: NS
   components:
   - type: VendingMachine
     pack: NanoMedCivilianWallInventory
@@ -528,6 +529,7 @@
   parent: VendingMachineWallMedicalCivilianNS
   id: VendingMachineWallMedicalNS
   name: InterMed
+  suffix: NS
   components:
   - type: VendingMachine
     pack: NanoMedInventory
