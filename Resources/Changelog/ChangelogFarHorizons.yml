@@ -18431,5 +18431,12 @@ Entries:
   id: 160900
   time: '2026-08-26T18:33:42.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1609
+- author: Quill
+  changes:
+  - message: Added new Tail, Ear and Chest Markings for Shadekins.
+    type: Add
+  id: 162000
+  time: '2026-08-26T18:55:32.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1620
 Order: -1
 
