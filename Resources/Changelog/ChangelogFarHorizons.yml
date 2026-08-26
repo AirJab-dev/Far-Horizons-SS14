@@ -18438,5 +18438,19 @@ Entries:
   id: 162000
   time: '2026-08-26T18:55:32.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1620
+- author: Mizuki
+  changes:
+  - message: Added InterMed and InterMed Band-Aid
+    type: Add
+  id: 162100
+  time: '2026-08-26T21:41:46.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1621
+- author: Mizuki
+  changes:
+  - message: Intermed Plus no longer uses NT access
+    type: Fix
+  id: 162101
+  time: '2026-08-26T21:41:46.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1621
 Order: -1
 
