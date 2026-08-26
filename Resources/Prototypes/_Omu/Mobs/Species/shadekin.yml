@@ -1,7 +1,7 @@
 - type: marking
   id: EarsShadekinAllEarsGauzedAll
   bodyPart: HeadTop
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/ears.rsi
       state: shadekin
@@ -13,7 +13,7 @@
 - type: marking
   id: EarsShadekinAllEarsGauzedLeft
   bodyPart: HeadTop
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/ears.rsi
       state: shadekin
@@ -25,7 +25,7 @@
 - type: marking
   id: EarsShadekinAllEarsGauzedRight
   bodyPart: HeadTop
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/ears.rsi
       state: shadekin
@@ -38,7 +38,7 @@
 - type: marking
   id: EarsShadekinAllSaggyGauzedAll
   bodyPart: HeadTop
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/ears.rsi
       state: saggy_default
@@ -50,7 +50,7 @@
 - type: marking
   id: EarsShadekinAllSaggyGauzedLeft
   bodyPart: HeadTop
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/ears.rsi
       state: saggy_default
@@ -62,7 +62,7 @@
 - type: marking
   id: EarsShadekinAllSaggyGauzedRight
   bodyPart: HeadTop
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/ears.rsi
       state: saggy_default
@@ -75,7 +75,7 @@
 - type: marking
   id: TailShadekinMediumFurry
   bodyPart: Tail
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/tails32x32.rsi
       state: shadekin_medium
@@ -85,7 +85,7 @@
 - type: marking
   id: TailShadekinShortTwoColored
   bodyPart: Tail
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/tails32x32.rsi
       state: shadekin_shorter
@@ -96,7 +96,7 @@
 - type: marking
   id: TailShadekinTwoColored
   bodyPart: Tail
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/tails64x32.rsi
       state: shadekin
@@ -106,7 +106,7 @@
 - type: marking
   id: TailShadekinFurry
   bodyPart: Tail
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/tails64x32.rsi
       state: shadekin
@@ -116,7 +116,7 @@
 - type: marking
   id: TailShadekinStriped
   bodyPart: Tail
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/tails64x32.rsi
       state: shadekin
@@ -127,7 +127,7 @@
 - type: marking
   id: TailShadekinBigTwoColored
   bodyPart: Tail
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/tails64x32.rsi
       state: shadekin_big
@@ -137,7 +137,7 @@
 - type: marking
   id: TailShadekinBigFurry
   bodyPart: Tail
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/tails64x32.rsi
       state: shadekin_big
@@ -147,7 +147,7 @@
 - type: marking
   id: TailShadekinBigStriped
   bodyPart: Tail
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/tails64x32.rsi
       state: shadekin_big
@@ -158,7 +158,7 @@
 - type: marking
   id: TailShadekinBigFluffTwoColored
   bodyPart: Tail
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/tails64x32.rsi
       state: shadekin_big_fluff
@@ -168,7 +168,7 @@
 - type: marking
   id: TailShadekinBigFluffFurry
   bodyPart: Tail
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/tails64x32.rsi
       state: shadekin_big_fluff
@@ -178,7 +178,7 @@
 - type: marking
   id: TailShadekinBigFluffStriped
   bodyPart: Tail
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/tails64x32.rsi
       state: shadekin_big_fluff
@@ -188,8 +188,7 @@
 - type: marking
   id: TailShadekinMediumTwoColoredWhitened
   bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/tails32x32.rsi
       state: shadekin_medium
@@ -199,8 +198,7 @@
 - type: marking
   id: TailShadekinShorterBrushWhitened
   bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Starlight/Mobs/Customization/shadekin/tails32x32.rsi
       state: shadekin_shorter
@@ -211,7 +209,7 @@
 - type: marking
   id: BodyShadekinFullBelly
   bodyPart: Chest
-  speciesRestriction: [Shadekin, ProtoKin]
+  groupWhitelist: [Shadekin, ProtoKin]
   sprites:
     - sprite: _Omu/Mobs/Customization/Shadekin/shadekin_overlay.rsi
       state: body_fullbelly
