@@ -79,7 +79,7 @@
   name: Viper #Far Horizons - The Great Capitalization Crusade
   parent: [BaseWeaponPistol, BaseSyndicateContraband]
   id: WeaponPistolViper
-  description: A common handgun made by Wafflestar that's been illegally modified. The Viper sports a selector switch between semi-auto and ‘rock and roll’. The standard sidearm for any soldier. Feeds from .35 pistol magazines. #Far Horizons - Changed to make faction neutral and WaffleStar is War profiteering
+  description: A common handgun made by Wafflestar that's been illegally modified. The Viper sports a selector switch between semi-auto and ‘rock and roll’. The standard sidearm for any soldier. Feeds from 9mm pistol magazines. #Far Horizons - Changed to make faction neutral and WaffleStar is War profiteering
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi

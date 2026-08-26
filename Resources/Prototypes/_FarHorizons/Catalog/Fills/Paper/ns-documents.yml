@@ -4,9 +4,19 @@
   parent: Paper
   id: PrintedNSDocument
   abstract: true
-  description: Bureaucratic unit. A document printed on a printer.
+  description: Bureaucratic unit for NeoSol. A document printed on a printer.
   components:
-    - type: Paper
+  - type: Sprite
+    sprite: _FarHorizons/Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: paper_ns
+    - state: paper_words_ns
+      map: ["enum.PaperVisualLayers.Writing"]
+      visible: false
+    - state: paper_stamp-generic
+      sprite: Objects/Misc/bureaucracy.rsi
+      map: ["enum.PaperVisualLayers.Stamp"]
+      visible: false
     
 # Reports
 
