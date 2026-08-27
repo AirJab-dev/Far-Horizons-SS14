@@ -135,6 +135,7 @@ namespace Content.IntegrationTests.Tests
             "FHCore",
             "FHUnity",
             "SHC",
+            "FHPrometheus",
         };
         private static readonly ResPath[] AllMapFiles = GameDataScrounger.FilesInDirectoryInVfs("/Maps/_FarHorizons", "*.yml");
         private static readonly ResPath[] ShuttleMapFiles = GameDataScrounger.FilesInDirectoryInVfs("/Maps/_FarHorizons/Shuttles", "*.yml");
