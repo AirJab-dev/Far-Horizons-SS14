@@ -18359,5 +18359,105 @@ Entries:
   id: 160003
   time: '2026-08-22T15:39:54.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1600
+- author: Mizuki
+  changes:
+  - message: Commandant's ID now counts for stealing Captain's ID
+    type: Fix
+  id: 160300
+  time: '2026-08-23T01:11:53.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1603
+- author: Mizuki
+  changes:
+  - message: Foreman's Magboots now counts for stealing CE's Magboots
+    type: Fix
+  id: 160301
+  time: '2026-08-23T01:11:53.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1603
+- author: It's a bird, it's a plane, no wait it's definitely a bird, Minar
+  changes:
+  - message: 'Update (increase) roles'' time requirements :literally1984:'
+    type: Tweak
+  id: 160600
+  time: '2026-08-24T18:56:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1606
+- author: rain_enjoyer
+  changes:
+  - message: Energy shotguns now actually have spread
+    type: Fix
+  id: 160500
+  time: '2026-08-25T19:22:01.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1605
+- author: rain_enjoyer
+  changes:
+  - message: The warden's shotgun now has 2 lethal modes, a single slug or a spread
+    type: Tweak
+  id: 160501
+  time: '2026-08-25T19:22:01.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1605
+- author: Mizuki
+  hanges:
+  - message: Pacified individuals can now use HoloFlare Pistols
+    type: Fix
+  id: 161000
+  time: '2026-08-25T19:24:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1610
+- author: Mizuki
+  changes:
+  - message: Adds msay and mghost command descriptions
+    type: Add
+  id: 161300
+  time: '2026-08-25T20:42:06.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1613
+- author: Penguinwizzard
+  changes:
+  - message: Using a speedloader now updates your revolver's ammunition display, and
+      displays the fired state of cartridges properly.
+    type: Fix
+  id: 161200
+  time: '2026-08-25T20:57:56.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1612
+- author: Penguinwizzard
+  changes:
+  - message: Shooting a gun with a flashlight on it no longer breaks the flashlight.
+    type: Fix
+  id: 161400
+  time: '2026-08-25T21:06:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1614
+- author: Vonte
+  changes:
+  - message: Gave Paddy back their starting equipment, now with taser instead of disabler
+      because they are yucky.
+    type: Add
+  id: 160900
+  time: '2026-08-26T18:33:42.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1609
+- author: Quill
+  changes:
+  - message: Added new Tail, Ear and Chest Markings for Shadekins.
+    type: Add
+  id: 162000
+  time: '2026-08-26T18:55:32.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1620
+- author: Mizuki
+  changes:
+  - message: Added InterMed and InterMed Band-Aid
+    type: Add
+  id: 162100
+  time: '2026-08-26T21:41:46.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1621
+- author: Mizuki
+  changes:
+  - message: Intermed Plus no longer uses NT access
+    type: Fix
+  id: 162101
+  time: '2026-08-26T21:41:46.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1621
+- author: jhrushbe, Cormorant
+  changes:
+  - message: Resprite of the AME (again).
+    type: Tweak
+  id: 162500
+  time: '2026-08-27T07:29:46.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1625
 Order: -1
 
