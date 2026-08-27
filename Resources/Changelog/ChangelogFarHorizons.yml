@@ -18474,5 +18474,22 @@ Entries:
   id: 162801
   time: '2026-08-27T18:39:25.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1628
+- author: Milterria, Catisnice, Erophosea, qriqii, AngelCastle, Opitech, MightyM1me,
+    mogaiskii
+  changes:
+  - message: Added NSHC2 by Milterria.
+    type: Add
+  id: 163100
+  time: '2026-08-27T22:21:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1631
+- author: Milterria, Catisnice, Erophosea, qriqii, AngelCastle, Opitech, MightyM1me,
+    mogaiskii
+  changes:
+  - message: 'Core, Unity: map upkeep, updated consoles, walls, intercoms, med vendors,
+      fabs.'
+    type: Tweak
+  id: 163101
+  time: '2026-08-27T22:21:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1631
 Order: -1
 
