@@ -74722,19 +74722,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 39.5,1.5
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          ents:
-          - invalid
-          - invalid
-          - invalid
-          showEnts: False
-          occludes: True
-        paper_label: !type:ContainerSlot
-          ent: null
-          showEnts: False
-          occludes: True
   - uid: 6631
     components:
     - type: Transform
@@ -74883,48 +74870,11 @@ entities:
     - type: Transform
       parent: 2
       pos: 47.5,-26.5
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          ents:
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          showEnts: False
-          occludes: True
-        paper_label: !type:ContainerSlot
-          ent: null
-          showEnts: False
-          occludes: True
   - uid: 3565
     components:
     - type: Transform
       parent: 2
       pos: 46.5,-26.5
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          ents:
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          showEnts: False
-          occludes: True
-        paper_label: !type:ContainerSlot
-          ent: null
-          showEnts: False
-          occludes: True
 - proto: CrayonSpawner90
   entities:
   - uid: 11987
@@ -82298,101 +82248,35 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 50.5,-6.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4802:
-        - - ItemDetected
-          - Trigger
   - uid: 5126
     components:
     - type: Transform
       parent: 2
       pos: 50.5,-9.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        5124:
-        - - ItemDetected
-          - On
-        4318:
-        - - ItemDetected
-          - Forward
-        4316:
-        - - ItemDetected
-          - Forward
-        4496:
-        - - ItemDetected
-          - Forward
-        4346:
-        - - ItemDetected
-          - Forward
-        4347:
-        - - ItemDetected
-          - Forward
-        4348:
-        - - ItemDetected
-          - Forward
-        4253:
-        - - ItemDetected
-          - Forward
-        4255:
-        - - ItemDetected
-          - Forward
-        4228:
-        - - ItemDetected
-          - Forward
   - uid: 19227
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -12.5,-104.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4717:
-        - - ItemDetected
-          - On
-        4716:
-        - - ItemDetected
-          - On
   - uid: 19229
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -12.5,-101.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4716:
-        - - ItemDetected
-          - Off
   - uid: 19230
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -12.5,-102.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4718:
-        - - ItemDetected
-          - Off
-        4716:
-        - - ItemDetected
-          - On
   - uid: 19231
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -12.5,-103.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4717:
-        - - ItemDetected
-          - Off
-        4718:
-        - - ItemDetected
-          - On
 - proto: DisposalSignalRouter
   entities:
   - uid: 4716
@@ -85636,13 +85520,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 115.5,-26.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21122:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21122
     components:
     - type: Transform
@@ -85652,67 +85529,30 @@ entities:
     - type: Door
       state: Opening
       secondsUntilStateChange: -209138.97
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21121:
-        - - DoorStatus
-          - DoorBolt
-      lastSignals:
-        DoorStatus: True
   - uid: 21123
     components:
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
       pos: 102.5,-44.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21124:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21124
     components:
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 95.5,-45.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21123:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21125
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 80.5,-49.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21126:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21126
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 83.5,-49.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21125:
-        - - DoorStatus
-          - DoorBolt
 - proto: FHAirlockNSExternalGlassEngineeringLocked
   entities:
   - uid: 21130
@@ -85721,115 +85561,52 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 21.5,-109.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21135:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21135
     components:
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 19.5,-109.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21130:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21136
     components:
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
       pos: 18.5,-104.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21137:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21137
     components:
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
       pos: 18.5,-106.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21136:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21138
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 16.5,-82.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        24681:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21140
     components:
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
       pos: 113.5,-18.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21141:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21141
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 111.5,-16.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21140:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21173
     components:
     - type: Transform
       parent: 2
       pos: -53.5,-44.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21174:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21174
     components:
     - type: Transform
       parent: 2
       pos: -53.5,-46.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21173:
-        - - DoorStatus
-          - DoorBolt
   - uid: 22684
     components:
     - type: Transform
@@ -85841,13 +85618,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 13.5,-82.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21138:
-        - - DoorStatus
-          - DoorBolt
 - proto: FHAirlockNSExternalGlassLocked
   entities:
   - uid: 21191
@@ -85855,50 +85625,22 @@ entities:
     - type: Transform
       parent: 2
       pos: -51.5,1.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21197:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21197
     components:
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -52.5,3.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21191:
-        - - DoorStatus
-          - DoorBolt
   - uid: 22086
     components:
     - type: Transform
       parent: 2
       pos: 13.5,-50.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        22622:
-        - - DoorStatus
-          - DoorBolt
   - uid: 22622
     components:
     - type: Transform
       parent: 2
       pos: 13.5,-52.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        22086:
-        - - DoorStatus
-          - DoorBolt
 - proto: FHAirlockNSExternalGlassShuttleEmergencyLocked
   entities:
   - uid: 22677
@@ -86061,26 +85803,12 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -34.5,-86.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21143:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21143
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -30.5,-86.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21142:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21144
     components:
     - type: Transform
@@ -86092,25 +85820,11 @@ entities:
     - type: Transform
       parent: 2
       pos: -1.5,-114.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21170:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21170
     components:
     - type: Transform
       parent: 2
       pos: -1.5,-112.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        21164:
-        - - DoorStatus
-          - DoorBolt
   - uid: 21175
     components:
     - type: Transform
@@ -87947,64 +87661,24 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -33.5,-15.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        11482:
-        - - DoorStatus
-          - DoorBolt
-        11481:
-        - - DoorStatus
-          - DoorBolt
   - uid: 11480
     components:
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -33.5,-16.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        11481:
-        - - DoorStatus
-          - DoorBolt
-        11482:
-        - - DoorStatus
-          - DoorBolt
   - uid: 11481
     components:
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -30.5,-15.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        11479:
-        - - DoorStatus
-          - DoorBolt
-        11480:
-        - - DoorStatus
-          - DoorBolt
   - uid: 11482
     components:
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -30.5,-16.5
-    - type: DeviceLinkSink
-      invokeCounter: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        11479:
-        - - DoorStatus
-          - DoorBolt
-        11480:
-        - - DoorStatus
-          - DoorBolt
 - proto: FHAirlockSyndicateoperatingAgentGlassLocked
   entities:
   - uid: 2931
@@ -93136,79 +92810,79 @@ entities:
   - uid: 19438
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19439
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19440
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19450
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19451
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19452
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19453
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19454
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19455
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19456
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19457
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19458
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19459
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
 - proto: FoodSnackHardCandyOpen
@@ -93216,79 +92890,79 @@ entities:
   - uid: 19441
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19442
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19443
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19444
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19445
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19446
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19447
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19448
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19449
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19460
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19461
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19462
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
   - uid: 19463
     components:
     - type: Transform
-      parent: 29437
+      parent: 19437
     - type: Physics
       canCollide: False
 - proto: FoodSnackSwirlLollipop
@@ -144739,29 +144413,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 49.5,-38.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        1901:
-        - - Pressed
-          - DoorBolt
-        1938:
-        - - Pressed
-          - DoorBolt
-        1936:
-        - - Pressed
-          - DoorBolt
-        2105:
-        - - Pressed
-          - Toggle
-        2106:
-        - - Pressed
-          - Toggle
-        2172:
-        - - Pressed
-          - Toggle
-        2175:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 12963
@@ -144769,14 +144420,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 71.5,-75.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        12964:
-        - - Pressed
-          - On
-        12962:
-        - - Pressed
-          - Trigger
     - type: Fixtures
       fixtures: {}
 - proto: LockableButtonCaptain
@@ -144792,35 +144435,6 @@ entities:
       - - Captain
       access:
       - - Commandant
-    - type: DeviceLinkSource
-      linkedPorts:
-        170:
-        - - Pressed
-          - Toggle
-        171:
-        - - Pressed
-          - Toggle
-        213:
-        - - Pressed
-          - Toggle
-        200:
-        - - Pressed
-          - Toggle
-        215:
-        - - Pressed
-          - Toggle
-        214:
-        - - Pressed
-          - Toggle
-        30821:
-        - - Pressed
-          - Toggle
-        11417:
-        - - Pressed
-          - Toggle
-        11426:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
 - proto: LockableButtonChiefMedicalOfficer
@@ -144831,11 +144445,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -47.5,-27.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        11199:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 11203
@@ -144844,11 +144453,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -47.5,-22.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        11196:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
 - proto: LockableButtonCommand
@@ -144859,14 +144463,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 40.5,-80.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        9637:
-        - - Pressed
-          - Toggle
-        9543:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 6937
@@ -144878,11 +144474,6 @@ entities:
     - type: AccessReader
       accessListsOriginal:
       - - Command
-    - type: DeviceLinkSource
-      linkedPorts:
-        7139:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 7221
@@ -144894,11 +144485,6 @@ entities:
     - type: AccessReader
       accessListsOriginal:
       - - Command
-    - type: DeviceLinkSource
-      linkedPorts:
-        7139:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
 - proto: LockableButtonHeadOfSecurity
@@ -144912,26 +144498,6 @@ entities:
     - type: AccessReader
       accessListsOriginal:
       - - HeadOfSecurity
-    - type: DeviceLinkSource
-      linkedPorts:
-        2890:
-        - - Pressed
-          - DoorBolt
-        2871:
-        - - Pressed
-          - DoorBolt
-        2885:
-        - - Pressed
-          - DoorBolt
-        2772:
-        - - Pressed
-          - DoorBolt
-        3064:
-        - - Pressed
-          - DoorBolt
-        2791:
-        - - Pressed
-          - DoorBolt
     - type: Fixtures
       fixtures: {}
 - proto: LockableButtonMedical
@@ -145585,25 +145151,6 @@ entities:
           Oxygen: 1.7459903
           Nitrogen: 6.568249
         immutable: False
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          ents:
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          - invalid
-          showEnts: False
-          occludes: True
-        paper_label: !type:ContainerSlot
-          ent: null
-          showEnts: False
-          occludes: True
 - proto: LockerMime
   entities:
   - uid: 1418
@@ -162561,25 +162108,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 72.5,-75.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        12964:
-        - - Timer
-          - Off
-        12945:
-        - - Timer
-          - Forward
-        12946:
-        - - Timer
-          - Forward
-        12950:
-        - - Start
-          - Close
-        - - Timer
-          - DoorBolt
-        12965:
-        - - Timer
-          - Trigger
     - type: Fixtures
       fixtures: {}
   - uid: 12965
@@ -162589,17 +162117,6 @@ entities:
       pos: 70.5,-75.5
     - type: SignalTimer
       delay: 30
-    - type: DeviceLinkSource
-      linkedPorts:
-        12946:
-        - - Timer
-          - Reverse
-        12945:
-        - - Timer
-          - Reverse
-        12950:
-        - - Timer
-          - DoorBolt
     - type: Fixtures
       fixtures: {}
 - proto: Screwdriver
@@ -163585,14 +163102,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 19.5,-3.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        293:
-        - - Pressed
-          - Toggle
-        266:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 831
@@ -163601,26 +163110,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 22.5,-23.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        764:
-        - - Pressed
-          - Toggle
-        677:
-        - - Pressed
-          - Toggle
-        769:
-        - - Pressed
-          - Toggle
-        771:
-        - - Pressed
-          - Toggle
-        751:
-        - - Pressed
-          - Toggle
-        790:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 1029
@@ -163637,17 +163126,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -10.5,-15.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        1015:
-        - - Pressed
-          - Toggle
-        1014:
-        - - Pressed
-          - Toggle
-        1154:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 1058
@@ -163672,14 +163150,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 19.5,-40.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        1645:
-        - - Pressed
-          - Toggle
-        1644:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 2204
@@ -163688,17 +163158,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 55.5,-44.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        2367:
-        - - Pressed
-          - Toggle
-        2364:
-        - - Pressed
-          - Toggle
-        2244:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 3084
@@ -163707,23 +163166,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 69.5,-43.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        1220:
-        - - Pressed
-          - Toggle
-        491:
-        - - Pressed
-          - Toggle
-        493:
-        - - Pressed
-          - Toggle
-        1221:
-        - - Pressed
-          - Toggle
-        540:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4038
@@ -163732,11 +163174,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 49.5,-3.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4036:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4123
@@ -163745,11 +163182,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 16.5,0.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4151:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4126
@@ -163758,14 +163190,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 42.5,-4.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4150:
-        - - Pressed
-          - Toggle
-        4124:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4127
@@ -163774,11 +163198,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 42.5,-52.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4152:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4130
@@ -163787,11 +163206,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 51.5,-43.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4129:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4131
@@ -163800,11 +163214,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 45.5,-52.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4153:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4132
@@ -163813,14 +163222,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 50.5,-63.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4154:
-        - - Pressed
-          - Toggle
-        4155:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4134
@@ -163829,11 +163230,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 10.5,-42.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4104:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4135
@@ -163841,11 +163237,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 30.5,-26.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        3999:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4156
@@ -163853,11 +163244,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 30.5,-22.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        3975:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4157
@@ -163866,11 +163252,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 11.5,-38.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4122:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4158
@@ -163879,11 +163260,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 35.5,-22.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4021:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4159
@@ -163892,11 +163268,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 47.5,-22.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4040:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4160
@@ -163905,11 +163276,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 10.5,-39.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4128:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 4285
@@ -163924,11 +163290,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 62.5,-14.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        5215:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 6576
@@ -163937,14 +163298,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: -7.5,-52.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        6574:
-        - - Pressed
-          - Toggle
-        6575:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 6879
@@ -163953,11 +163306,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -14.5,-86.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        7311:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 6932
@@ -163974,11 +163322,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -6.5,-86.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        7354:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 9493
@@ -163987,14 +163330,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 42.5,-87.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        9541:
-        - - Pressed
-          - Toggle
-        9540:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 11148
@@ -164003,14 +163338,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -27.5,-32.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        11151:
-        - - Pressed
-          - Toggle
-        11761:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 11194
@@ -164019,11 +163346,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -51.5,-24.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        11196:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 11195
@@ -164032,11 +163354,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -51.5,-29.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        11199:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 11653
@@ -164044,20 +163361,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -19.5,-36.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        11657:
-        - - Pressed
-          - Toggle
-        11654:
-        - - Pressed
-          - Toggle
-        30884:
-        - - Pressed
-          - Toggle
-        11655:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 15009
@@ -164065,17 +163368,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 88.5,-39.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        14971:
-        - - Pressed
-          - Toggle
-        14972:
-        - - Pressed
-          - Toggle
-        14973:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 15220
@@ -164091,23 +163383,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 117.5,0.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        22712:
-        - - Pressed
-          - Toggle
-        22676:
-        - - Pressed
-          - Toggle
-        22270:
-        - - Pressed
-          - Toggle
-        23006:
-        - - Pressed
-          - Toggle
-        22268:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 25269
@@ -164116,17 +163391,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 114.5,-3.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        25267:
-        - - Pressed
-          - Toggle
-        25266:
-        - - Pressed
-          - Toggle
-        25265:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
   - uid: 26697
@@ -164134,14 +163398,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 104.5,-6.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        26696:
-        - - Pressed
-          - Toggle
-        26695:
-        - - Pressed
-          - Toggle
     - type: Fixtures
       fixtures: {}
 - proto: SignalTimer
@@ -164153,14 +163409,6 @@ entities:
       pos: 69.5,3.5
     - type: SignalTimer
       delay: 2
-    - type: DeviceLinkSource
-      linkedPorts:
-        4751:
-        - - Timer
-          - Trigger
-        6082:
-        - - Timer
-          - Open
     - type: Fixtures
       fixtures: {}
   - uid: 4751
@@ -164170,14 +163418,6 @@ entities:
       pos: 70.5,3.5
     - type: SignalTimer
       delay: 4
-    - type: DeviceLinkSource
-      linkedPorts:
-        6082:
-        - - Timer
-          - Close
-        4723:
-        - - Start
-          - Launch
     - type: Fixtures
       fixtures: {}
   - uid: 4802
@@ -164188,11 +163428,6 @@ entities:
       pos: 70.5,1.5
     - type: SignalTimer
       delay: 30
-    - type: DeviceLinkSource
-      linkedPorts:
-        4722:
-        - - Timer
-          - Trigger
     - type: Fixtures
       fixtures: {}
   - uid: 6967
@@ -175546,260 +174781,31 @@ entities:
     - type: Transform
       parent: 2
       pos: 25.5,-3.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        3695:
-        - - Right
-          - Reverse
-        - - Left
-          - Forward
-        - - Middle
-          - Off
-        3701:
-        - - Right
-          - Reverse
-        - - Left
-          - Forward
-        - - Middle
-          - Off
   - uid: 3851
     components:
     - type: Transform
       parent: 2
       pos: 33.5,4.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        3843:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        3844:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        3845:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        3846:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        3853:
-        - - Left
-          - Open
-        - - Right
-          - Open
-        - - Middle
-          - Close
-        3856:
-        - - Left
-          - Open
-        - - Right
-          - Open
-        - - Middle
-          - Close
   - uid: 3852
     components:
     - type: Transform
       parent: 2
       pos: 27.5,4.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        3847:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        3848:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        3849:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        3850:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        3854:
-        - - Left
-          - Open
-        - - Right
-          - Open
-        - - Middle
-          - Close
-        3855:
-        - - Left
-          - Open
-        - - Right
-          - Open
-        - - Middle
-          - Close
   - uid: 4229
     components:
     - type: Transform
       parent: 2
       pos: 46.5,-4.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4253:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        4255:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        4228:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        4318:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        4316:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        4347:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        4348:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        4346:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        4496:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
   - uid: 4240
     components:
     - type: Transform
       parent: 2
       pos: 62.5,2.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        4239:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        4179:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        4180:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        4212:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        4178:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
   - uid: 6425
     components:
     - type: Transform
       parent: 2
       pos: -13.5,-63.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        6411:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        6424:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
-        6410:
-        - - Left
-          - Reverse
-        - - Right
-          - Forward
-        - - Middle
-          - Off
 - proto: UnfinishedMachineFrame
   entities:
   - uid: 24712
@@ -176382,11 +175388,6 @@ entities:
       pos: 71.5,-64.5
     - type: BodyScanner
       tableEntity: 2952
-    - type: DeviceLinkSource
-      linkedPorts:
-        2952:
-        - - VitalsMonitorSender
-          - BodyScannerReceiver
   - uid: 10019
     components:
     - type: Transform
@@ -176399,11 +175400,6 @@ entities:
       pos: -37.5,-23.5
     - type: BodyScanner
       tableEntity: 10948
-    - type: DeviceLinkSource
-      linkedPorts:
-        10948:
-        - - VitalsMonitorSender
-          - VitalsMonitorReceiverMed
   - uid: 10919
     components:
     - type: Transform
@@ -176411,11 +175407,6 @@ entities:
       pos: -43.5,-21.5
     - type: BodyScanner
       tableEntity: 10900
-    - type: DeviceLinkSource
-      linkedPorts:
-        10900:
-        - - VitalsMonitorSender
-          - VitalsMonitorReceiverMed
   - uid: 10926
     components:
     - type: Transform
@@ -176423,11 +175414,6 @@ entities:
       pos: -43.5,-23.5
     - type: BodyScanner
       tableEntity: 10937
-    - type: DeviceLinkSource
-      linkedPorts:
-        10937:
-        - - VitalsMonitorSender
-          - VitalsMonitorReceiverMed
   - uid: 10936
     components:
     - type: Transform
@@ -176435,11 +175421,6 @@ entities:
       pos: -41.5,-17.5
     - type: BodyScanner
       tableEntity: 10952
-    - type: DeviceLinkSource
-      linkedPorts:
-        10952:
-        - - VitalsMonitorSender
-          - VitalsMonitorReceiverStasis
   - uid: 10938
     components:
     - type: Transform
@@ -176447,11 +175428,6 @@ entities:
       pos: -39.5,-17.5
     - type: BodyScanner
       tableEntity: 10954
-    - type: DeviceLinkSource
-      linkedPorts:
-        10954:
-        - - VitalsMonitorSender
-          - VitalsMonitorReceiverStasis
   - uid: 10943
     components:
     - type: Transform
@@ -176459,11 +175435,6 @@ entities:
       pos: -43.5,-27.5
     - type: BodyScanner
       tableEntity: 10939
-    - type: DeviceLinkSource
-      linkedPorts:
-        10939:
-        - - VitalsMonitorSender
-          - VitalsMonitorReceiverMed
   - uid: 10944
     components:
     - type: Transform
@@ -176471,11 +175442,6 @@ entities:
       pos: -37.5,-17.5
     - type: BodyScanner
       tableEntity: 10942
-    - type: DeviceLinkSource
-      linkedPorts:
-        10942:
-        - - VitalsMonitorSender
-          - VitalsMonitorReceiverStasis
   - uid: 10951
     components:
     - type: Transform
@@ -176483,11 +175449,6 @@ entities:
       pos: -37.5,-27.5
     - type: BodyScanner
       tableEntity: 10941
-    - type: DeviceLinkSource
-      linkedPorts:
-        10941:
-        - - VitalsMonitorSender
-          - VitalsMonitorReceiverMed
   - uid: 10957
     components:
     - type: Transform
@@ -176495,11 +175456,6 @@ entities:
       pos: -37.5,-21.5
     - type: BodyScanner
       tableEntity: 10935
-    - type: DeviceLinkSource
-      linkedPorts:
-        10935:
-        - - VitalsMonitorSender
-          - VitalsMonitorReceiverMed
   - uid: 10980
     components:
     - type: Transform
