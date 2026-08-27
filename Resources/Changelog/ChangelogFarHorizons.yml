@@ -18459,5 +18459,20 @@ Entries:
   id: 162500
   time: '2026-08-27T07:29:46.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1625
+- author: MightyM1me
+  changes:
+  - message: NeoSol intercoms. Rejoice, departments will have fewer excuses for ignoring
+      You
+    type: Add
+  id: 162800
+  time: '2026-08-27T18:39:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1628
+- author: MightyM1me
+  changes:
+  - message: NT intercoms get an NT suffix in the spawn menu. Mappers rejoice
+    type: Tweak
+  id: 162801
+  time: '2026-08-27T18:39:25.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1628
 Order: -1
 
