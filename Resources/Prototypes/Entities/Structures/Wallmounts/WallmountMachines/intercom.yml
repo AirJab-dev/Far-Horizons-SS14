@@ -205,7 +205,7 @@
 - type: entity
   id: IntercomCommon
   parent: Intercom
-  suffix: Common
+  suffix: Common, NT
   components:
   - type: ContainerFill
     containers:
@@ -217,7 +217,7 @@
 - type: entity
   id: IntercomCommand
   parent: BaseIntercomSecure
-  suffix: Command
+  suffix: Command, NT
   description: An intercom. It's been reinforced with metal.
   components:
   - type: ContainerFill
@@ -231,7 +231,7 @@
 - type: entity
   id: IntercomEngineering
   parent: Intercom
-  suffix: Engineering
+  suffix: Engineering, NT
   components:
   - type: ContainerFill
     containers:
@@ -244,7 +244,7 @@
 - type: entity
   id: IntercomMedical
   parent: Intercom
-  suffix: Medical
+  suffix: Medical, NT
   components:
   - type: ContainerFill
     containers:
@@ -257,7 +257,7 @@
 - type: entity
   id: IntercomScience
   parent: Intercom
-  suffix: Science
+  suffix: Science, NT
   components:
   - type: ContainerFill
     containers:
@@ -270,7 +270,7 @@
 - type: entity
   id: IntercomSecurity
   parent: BaseIntercomSecure
-  suffix: Security
+  suffix: Security, NT
   description: An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
   components:
   - type: ContainerFill
@@ -284,7 +284,7 @@
 - type: entity
   id: IntercomService
   parent: Intercom
-  suffix: Service
+  suffix: Service, NT
   components:
   - type: ContainerFill
     containers:
@@ -310,7 +310,7 @@
 - type: entity
   id: IntercomAll
   parent: Intercom
-  suffix: All
+  suffix: All, NT
   components:
   - type: ContainerFill
     containers:
@@ -332,3 +332,109 @@
       key_slots:
       - EncryptionKeyCommon
       - EncryptionKeyFreelance
+
+#region NS intercoms
+- type: entity
+  id: IntercomCommonNS #Far Horizons
+  parent: Intercom
+  suffix: Common, NS
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeySyndiCommon
+
+- type: entity
+  id: IntercomCommandNS #Far Horizons
+  parent: BaseIntercomSecure
+  suffix: Command, NS
+  description: An intercom. It's been reinforced with metal.
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeySyndiCommon
+      - EncryptionKeySyndiCommand
+
+- type: entity
+  id: IntercomEngineeringNS #Far Horizons
+  parent: Intercom
+  suffix: Engineering, NS
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeySyndiCommon
+      - EncryptionKeySyndiEngi
+
+- type: entity
+  id: IntercomMedicalNS #Far Horizons
+  parent: Intercom
+  suffix: Medical, NS
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeySyndiCommon
+      - EncryptionKeySyndiMed
+
+- type: entity
+  id: IntercomScienceNS #Far Horizons
+  parent: Intercom
+  suffix: Science, NS
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeySyndiCommon
+      - EncryptionKeySyndiSci
+
+- type: entity
+  id: IntercomSecurityNS #Far Horizons
+  parent: BaseIntercomSecure
+  suffix: Security, NS
+  description: An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeySyndiCommon
+      - EncryptionKeySyndiSecurity
+
+- type: entity
+  id: IntercomServiceNS #Far Horizons
+  parent: Intercom
+  suffix: Service, NS
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeySyndiCommon
+      - EncryptionKeySyndiService
+
+- type: entity
+  id: IntercomAllNS #Far Horizons
+  parent: Intercom
+  suffix: All, NS
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeySyndiCommon
+      - EncryptionKeySyndiMaster
