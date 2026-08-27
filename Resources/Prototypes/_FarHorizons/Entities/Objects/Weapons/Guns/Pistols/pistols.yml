@@ -547,70 +547,64 @@
   components:
   - type: Sprite
     sprite: _FarHorizons/Objects/Weapons/Guns/Pistols/Energy_Magnum.rsi
-     layers:
+    layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
-  - type: MagazineVisuals
-    magState: mag
-    steps: 1
-    zeroVisible: true
-  - type: Clothing
-    sprite: _FarHorizons/Objects/Weapons/Guns/Pistols/mk58.rsi
   - type: Item
     size: Small
     shape:
     - 0,0,1,0
     - 0,1,0,1
- - type: Clothing
-   sprite: _FarHorizons/Objects/Weapons/Guns/Pistols/Energy_Magnum.rsi
-   quickEquip: false
-   slots:
-   - Back
-   - suitStorage
- - type: MagazineAmmoProvider
- - type: ItemSlots
-   slots:
-     gun_magazine:
-       name: Magazine
-       startingItem: MagazineBatteryUA
-       insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-       ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-       priority: 2
-       whitelist:
-         tags:
-           - MagazineBatteryUA
-       whitelistFailPopup: gun-magazine-whitelist-fail
- - type: AmmoCounter
- - type: ContainerContainer
-   containers:
-     gun_magazine: !type:ContainerSlot
- - type: Gun
-   fireRate: 2
-   selectedMode: SemiAuto
-   availableModes:
-     - SemiAuto
-   soundGunshot:
-     path: /Audio/Weapons/Guns/Gunshots/laser.ogg
-     params:
-       volume: 2.25
- - type: MagazineVisuals
-   magState: mag
-   steps: 1
-   zeroVisible: true
- - type: Appearance
- - type: RestrictByUserTag
-   doestContain:
-   - Abductor
-   messages:
-   - abductor-gun-restricted-1
- - type: StaticPrice
-   price: 1500
- - type: Tag
-   tags:
-   - Sidearm
-   
+  - type: Clothing
+    sprite: _FarHorizons/Objects/Weapons/Guns/Pistols/Energy_Magnum.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: MagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineBatteryUA
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineBatteryUA
+        whitelistFailPopup: gun-magazine-whitelist-fail
+  - type: AmmoCounter
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+  - type: Gun
+    fireRate: 2
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+      params:
+        volume: 2.25
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: RestrictByUserTag
+    doestContain:
+    - Abductor
+    messages:
+    - abductor-gun-restricted-1
+  - type: StaticPrice
+    price: 1500
+  - type: Tag
+    tags:
+    - Sidearm
+
 - type: entity
   name: UA - Corona 
   parent: WeaponPistolCorona
