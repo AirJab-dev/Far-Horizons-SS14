@@ -26,7 +26,7 @@
 #    - id: ClothingUniformJumpskirtCentcommAdminFormalWear
     - id: ClothingEyesGlassesCommandSyndi
     - id: ClothingHandsGlovesHop
-#    - id: CentcomPDA
+    - id: SHCPDA
     - id: WeaponPistolN1984
     - id: ClothingBeltSheathFilledSyndi
 #    - id: ClothingHeadHatCentcomcap
@@ -64,7 +64,7 @@
 #    - id: ClothingUniformJumpskirtCentcommSecurityFormalWear
     - id: ClothingEyesGlassesCommandSyndi
     - id: ClothingHandsGlovesCombat
-#    - id: CentcomPDA
+    - id: SHCPDA
     - id: WeaponPistolN1984
     - id: ClothingBeltSecuritySyndiFilled
     - id: ClothingHeadHatBeretSecuritySyndi
