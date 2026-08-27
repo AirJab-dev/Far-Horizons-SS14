@@ -145779,8 +145779,6 @@ entities:
       deviceLists:
       - 22523
       - 22524
-      configurators:
-      - invalid
     - type: Battery
       lastCharge: 2000
 - proto: WeaponEnergyTurretSecurityControlPanel
