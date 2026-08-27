@@ -335,7 +335,7 @@
 
 #region NS intercoms
 - type: entity
-  id: IntercomCommonNS #Far Horizons
+  id: IntercomNSCommon #Far Horizons
   parent: Intercom
   suffix: Common, NS
   components:
@@ -347,7 +347,7 @@
       - EncryptionKeySyndiCommon
 
 - type: entity
-  id: IntercomCommandNS #Far Horizons
+  id: IntercomNSCommand #Far Horizons
   parent: BaseIntercomSecure
   suffix: Command, NS
   description: An intercom. It's been reinforced with metal.
@@ -361,7 +361,7 @@
       - EncryptionKeySyndiCommand
 
 - type: entity
-  id: IntercomEngineeringNS #Far Horizons
+  id: IntercomNSEngineering #Far Horizons
   parent: Intercom
   suffix: Engineering, NS
   components:
@@ -374,7 +374,7 @@
       - EncryptionKeySyndiEngi
 
 - type: entity
-  id: IntercomMedicalNS #Far Horizons
+  id: IntercomNSMedical #Far Horizons
   parent: Intercom
   suffix: Medical, NS
   components:
@@ -387,7 +387,7 @@
       - EncryptionKeySyndiMed
 
 - type: entity
-  id: IntercomScienceNS #Far Horizons
+  id: IntercomNSScience #Far Horizons
   parent: Intercom
   suffix: Science, NS
   components:
@@ -400,7 +400,7 @@
       - EncryptionKeySyndiSci
 
 - type: entity
-  id: IntercomSecurityNS #Far Horizons
+  id: IntercomNSSecurity #Far Horizons
   parent: BaseIntercomSecure
   suffix: Security, NS
   description: An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
@@ -414,7 +414,7 @@
       - EncryptionKeySyndiSecurity
 
 - type: entity
-  id: IntercomServiceNS #Far Horizons
+  id: IntercomNSService #Far Horizons
   parent: Intercom
   suffix: Service, NS
   components:
@@ -427,7 +427,7 @@
       - EncryptionKeySyndiService
 
 - type: entity
-  id: IntercomAllNS #Far Horizons
+  id: IntercomNSAll #Far Horizons
   parent: Intercom
   suffix: All, NS
   components:
