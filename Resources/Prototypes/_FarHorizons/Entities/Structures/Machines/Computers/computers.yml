@@ -1486,7 +1486,7 @@
 - type: entity
   parent: ComputerComms
   id: HighCommandComputerComms
-  name: Nigh Command Communications Computer #Far Horizons - The Great Capitalization Crusade
+  name: High Command Communications Computer
   suffix: NS
   description: A computer used to make world wide announcements via keyboard. The superior cousin of the regular communications computer.
   components:
