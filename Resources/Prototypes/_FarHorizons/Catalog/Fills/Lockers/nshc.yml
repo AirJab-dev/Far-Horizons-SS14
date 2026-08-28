@@ -1,6 +1,6 @@
 - type: entity
   id: COAFilled
-  name: Cybersun Operations and Administration Secretary Locker
+  name: COA Secretary Locker
   suffix: Filled
   parent: LockerBaseSecure
   components:
@@ -38,7 +38,7 @@
 
 - type: entity
   id: GWSFilled
-  name: Gorlex Weapons and Security Cadet Locker
+  name: GSW Cadet Locker
   suffix: Filled
   parent: LockerBaseSecure
   components:
