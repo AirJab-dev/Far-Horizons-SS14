@@ -1,7 +1,7 @@
 - type: entity
   id: COAFilled
   name: COA Secretary Locker
-  suffix: Filled
+  suffix: NS Filled
   parent: LockerBaseSecure
   components:
   - type: Appearance
@@ -39,7 +39,7 @@
 - type: entity
   id: GWSFilled
   name: GSW Cadet Locker
-  suffix: Filled
+  suffix: NS Filled
   parent: LockerBaseSecure
   components:
   - type: Appearance
