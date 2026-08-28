@@ -126,3 +126,4 @@
         time: 5
   footstepSound:
     collection: FootstepSlime
+  makesFootprints: true # Far Horizons
