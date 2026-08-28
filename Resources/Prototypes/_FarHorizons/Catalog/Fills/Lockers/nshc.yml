@@ -23,7 +23,7 @@
     - id: ClothingEyesHudCommandSyndi
     - id: MindShieldImplanterNS
     - id: DeathRattleImplanterNSHC
-#    - id: ClothingUniformJumpskirtCentcommAdminFormalWear
+    - id: ClothingUniformJumpsuitCaptainSyndi
     - id: ClothingEyesGlassesCommandSyndi
     - id: ClothingHandsGlovesHop
     - id: SHCPDA
@@ -61,7 +61,7 @@
     - id: ClothingEyesHudCommandSyndi
     - id: MindShieldImplanterNS
     - id: DeathRattleImplanterNSHC
-#    - id: ClothingUniformJumpskirtCentcommSecurityFormalWear
+    - id: ClothingUniformJumpsuitCaptainSyndi
     - id: ClothingEyesGlassesCommandSyndi
     - id: ClothingHandsGlovesCombat
     - id: SHCPDA
