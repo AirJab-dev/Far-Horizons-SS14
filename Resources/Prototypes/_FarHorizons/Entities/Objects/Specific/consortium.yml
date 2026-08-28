@@ -8,10 +8,10 @@
   description: It seems to be pulsing with suspiciously enticing energies.
   components:
   - type: Sprite
-    sprite: _FarHorizons\Objects\Specific\Consortium\refinedbluespacecrystal.rsi
+    sprite: _FarHorizons/Objects/Specific/Consortium/refinedbluespacecrystal.rsi
     state: refinedbluespacecrystal
   - type: Item
-    sprite: _FarHorizons\Objects\Specific\Consortium\refinedbluespacecrystal.rsi
+    sprite: _FarHorizons/Objects/Specific/Consortium/refinedbluespacecrystal.rsi
     size: Tiny
   - type: Stack
     count: 20
