@@ -18540,5 +18540,14 @@ Entries:
   id: 162606
   time: '2026-08-28T02:15:59.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1626
+- author: princess_gurchi
+  changes:
+  - message: Whenever playable species, borgs or vehicles pass through blood or other
+      sticky liquid - they leave foot/tire prints behind them. Can be cleaned with
+      any mop at no water cost.
+    type: Add
+  id: 163500
+  time: '2026-08-28T13:25:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1635
 Order: -1
 
