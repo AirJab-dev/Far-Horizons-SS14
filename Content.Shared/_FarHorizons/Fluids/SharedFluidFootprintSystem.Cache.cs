@@ -12,12 +12,12 @@ public abstract partial class SharedFluidFootprintSystem
     private void OnContainerShutdown(Entity<FluidFootprintContainerComponent> ent, ref ComponentShutdown args)
     {
         ent.Comp.Footprints.Clear();
-        Cache = Cache.Where(p => p.Value.Owner != ent.Owner).ToDictionary();
+
+        foreach (var (key, value) in Cache)
+            if (value.Owner == ent.Owner)
+                Cache.Remove(key);
     }
     
-    [SubscribeLocalEvent]
-    private void OnContainerTerminating(Entity<FluidFootprintContainerComponent> ent, ref EntityTerminatingEvent args) => 
-        Cache = Cache.Where(p => p.Value.Owner != ent.Owner).ToDictionary();
     public Entity<FluidFootprintContainerComponent>? ResolveFootprintTile(Entity<MapGridComponent> grid, Vector2i coord)
     {
         var key = (grid, coord);
