@@ -282,7 +282,7 @@
   id: BaseBorgChassis
   components:
   - type: IonStormTarget
-  - type: FluidFootprintSpreader
+  - type: FluidFootprintSpreader # Far Horizons
     footprint: TireDual
     footprintSize: 0.75
     stepSpacing: 0.1

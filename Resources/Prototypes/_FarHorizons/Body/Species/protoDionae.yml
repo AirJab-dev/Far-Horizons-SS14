@@ -47,7 +47,7 @@
   - BaseMobProtoDionae
   id: MobProtoDionae
   name: Urist McPlantster
-  component:
+  components:
     - type: FluidFootprintSpreader
       footprint: Diona
       footprintSize: 2.0
