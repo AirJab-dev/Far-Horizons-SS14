@@ -18491,5 +18491,54 @@ Entries:
   id: 163101
   time: '2026-08-27T22:21:04.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1631
+- author: Mizuki
+  changes:
+  - message: Added NSHC Death Rattler Implant
+    type: Add
+  id: 162600
+  time: '2026-08-28T02:15:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1626
+- author: Mizuki
+  changes:
+  - message: Added NSHC Communications Console
+    type: Add
+  id: 162601
+  time: '2026-08-28T02:15:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1626
+- author: Mizuki
+  changes:
+  - message: Added COA and GWS Lockers
+    type: Add
+  id: 162602
+  time: '2026-08-28T02:15:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1626
+- author: Mizuki
+  changes:
+  - message: Added NSHC Headset
+    type: Add
+  id: 162603
+  time: '2026-08-28T02:15:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1626
+- author: Mizuki
+  changes:
+  - message: SHC Official's ID now has correct access and working sprite
+    type: Fix
+  id: 162604
+  time: '2026-08-28T02:15:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1626
+- author: Mizuki
+  changes:
+  - message: Added COA, GWS, and DCI Official's IDs and PDAs
+    type: Add
+  id: 162605
+  time: '2026-08-28T02:15:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1626
+- author: Mizuki
+  changes:
+  - message: Added COA, GWS, and DCI Stamps and NSHC departmental stamp box
+    type: Add
+  id: 162606
+  time: '2026-08-28T02:15:59.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1626
 Order: -1
 
