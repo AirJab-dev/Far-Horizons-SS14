@@ -2,6 +2,7 @@ using System.Numerics;
 using Content.Shared._FarHorizons.Fluids.Components;
 using Content.Shared.Buckle.Components;
 using Content.Shared.Fluids.Components;
+using Content.Shared.Stunnable;
 using Robust.Shared.Map;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Prototypes;
@@ -15,6 +16,7 @@ public abstract partial class SharedFluidFootprintSystem
     {
         if (TerminatingOrDeleted(ent) || TerminatingOrDeleted(args.OtherEntity) ||
             (TryComp<BuckleComponent>(ent, out var buckle) && buckle.BuckledTo != null) ||
+            HasComp<KnockedDownComponent>(ent) ||
             !TryComp<FluidFootprintSourceComponent>(args.OtherEntity, out var source) ||
             !TryComp<PuddleComponent>(args.OtherEntity, out var puddle) ||
             !_solution.ResolveSolution(args.OtherEntity, puddle.SolutionName, ref puddle.Solution) ||
