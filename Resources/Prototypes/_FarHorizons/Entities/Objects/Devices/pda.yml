@@ -1428,7 +1428,7 @@
   - type: Pda
     id: SHCIDCard
     penSlot:
-      startingItem: PenCentcom
+      startingItem: CyberPen
       priority: -1
       whitelist:
         tags:
@@ -1466,7 +1466,7 @@
   - type: Pda
     id: HCCOAIDCard
     penSlot:
-      startingItem: PenCentcom
+      startingItem: CyberPen
       priority: -1
       whitelist:
         tags:
@@ -1480,7 +1480,7 @@
   - type: Pda
     id: HCGWSIDCard
     penSlot:
-      startingItem: PenCentcom
+      startingItem: CyberPen
       priority: -1
       whitelist:
         tags:
@@ -1494,7 +1494,7 @@
   - type: Pda
     id: HCDCIIDCard
     penSlot:
-      startingItem: PenCentcom
+      startingItem: CyberPen
       priority: -1
       whitelist:
         tags:
