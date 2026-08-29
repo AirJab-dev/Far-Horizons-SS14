@@ -18595,5 +18595,68 @@ Entries:
   id: 163800
   time: '2026-08-29T12:38:26.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1638
+- author: Conflee, SevenShades & Ilya246
+  changes:
+  - message: Added boxing ropes, for true boxing rings finally! (Conflee)
+    type: Add
+  id: 164400
+  time: '2026-08-29T16:48:02.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1644
+- author: Conflee, SevenShades & Ilya246
+  changes:
+  - message: Added Platforms. These function like railings, but the textures imply
+      depth allowing for more convincing false-depth illusions for mappers to play
+      with, for pits or steps up or false flower beds etc. (Conflee)
+    type: Add
+  id: 164401
+  time: '2026-08-29T16:48:02.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1644
+- author: Conflee, SevenShades & Ilya246
+  changes:
+  - message: Changed railing textures to be 3/4ths perspective, using TGstation sprites.
+      This is so they match the platforms and don't stand out next to them. (Conflee)
+    type: Tweak
+  id: 164402
+  time: '2026-08-29T16:48:02.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1644
+- author: Conflee, SevenShades & Ilya246
+  changes:
+  - message: Added Yellow and Wooden railings. More decorative options for mappers
+      to use- Yellow fits better in industrial areas as hazard railing, while the
+      wood fix very well in bar and on stages in the theater. (Conflee)
+    type: Add
+  id: 164403
+  time: '2026-08-29T16:48:02.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1644
+- author: Conflee, SevenShades & Ilya246
+  changes:
+  - message: Fixed the CentComm Flag! It now renders and exists.(Conflee)
+    type: Fix
+  id: 164404
+  time: '2026-08-29T16:48:02.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1644
+- author: Conflee, SevenShades & Ilya246
+  changes:
+  - message: Added shadow decals, to help sell fake depth. Allows mappers to manually
+      place shading similar to the ambient occlusion the game has. (Conflee)
+    type: Add
+  id: 164405
+  time: '2026-08-29T16:48:02.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1644
+- author: Conflee, SevenShades & Ilya246
+  changes:
+  - message: Added logic to allow drawing diagonals on mass scanners. (SevenShades
+      & Ilya246)
+    type: Add
+  id: 164406
+  time: '2026-08-29T16:48:02.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1644
+- author: Conflee, SevenShades & Ilya246
+  changes:
+  - message: Added diagonal lattices and plating tiles. (SevenShades & Ilya246)
+    type: Add
+  id: 164407
+  time: '2026-08-29T16:48:02.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1644
 Order: -1
 
