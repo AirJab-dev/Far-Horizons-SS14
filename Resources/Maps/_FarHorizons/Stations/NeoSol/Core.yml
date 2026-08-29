@@ -3,9 +3,9 @@ meta:
   category: Map
   engineVersion: 288.1.0
   forkId: farhorizons
-  forkVersion: cc3b6150f1
-  time: 08/27/2026 20:13:17
-  entityCount: 23604
+  forkVersion: 9ae8c8a636
+  time: 08/29/2026 12:44:14
+  entityCount: 23611
 maps:
 - 1
 grids:
@@ -17732,13 +17732,22 @@ entities:
     - type: Transform
       parent: 2
       pos: 24.5,-4.5
-- proto: Autolathe
+- proto: Autofab
   entities:
   - uid: 1138
     components:
     - type: Transform
       parent: 2
       pos: -4.5,-21.5
+    - type: TechnologyDatabase
+      supportedDisciplines:
+      - Industrial
+      - Arsenal
+      - Experimental
+      - CivilianServices
+      - Biochemical
+- proto: Autolathe
+  entities:
   - uid: 1139
     components:
     - type: Transform
@@ -61004,6 +61013,13 @@ entities:
     - type: Transform
       parent: 2
       pos: 21.504559,-48.362946
+- proto: ClothingOuterHardsuitRedSword
+  entities:
+  - uid: 23608
+    components:
+    - type: Transform
+      parent: 2
+      pos: -9.49893,-33.464417
 - proto: ClothingOuterHardsuitSecuritySyndi
   entities:
   - uid: 23524
@@ -61154,6 +61170,16 @@ entities:
     - type: Transform
       parent: 2
       pos: 26.487904,-35.599136
+- proto: ClothingShoesBootsMagBSO
+  entities:
+  - uid: 23611
+    components:
+    - type: MetaData
+      name: redsword magboots
+      desc: A pair of standard magnetic boots, issued alongside the RSO Hardsuit.
+    - type: Transform
+      parent: 2
+      pos: -9.514555,-33.370667
 - proto: ClothingShoesBootsMagSec
   entities:
   - uid: 23536
@@ -71014,7 +71040,7 @@ entities:
       pos: 61.5,24.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -15272.639
+      secondsUntilStateChange: -15814.672
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -71689,7 +71715,7 @@ entities:
       pos: -2.5,26.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -23570.145
+      secondsUntilStateChange: -24112.178
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -71981,7 +72007,7 @@ entities:
       pos: -4.5,-9.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -23373.287
+      secondsUntilStateChange: -23915.32
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: DeviceLinkSource
@@ -72247,7 +72273,7 @@ entities:
       invokeCounter: 1
     - type: Door
       state: Opening
-      secondsUntilStateChange: -15088.372
+      secondsUntilStateChange: -15630.405
     - type: DeviceLinkSource
       linkedPorts:
         9283:
@@ -73342,7 +73368,7 @@ entities:
       pos: 10.5,38.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -40315.074
+      secondsUntilStateChange: -40857.11
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -75922,7 +75948,7 @@ entities:
       pos: -26.5,-14.5
     - type: Door
       state: Closing
-      secondsUntilStateChange: -91133.69
+      secondsUntilStateChange: -91675.72
     - type: Firelock
       emergencyCloseCooldown: 7916.7587519
   - uid: 10954
@@ -76592,7 +76618,7 @@ entities:
       pos: -2.5,26.5
     - type: Door
       state: Closing
-      secondsUntilStateChange: -23571.512
+      secondsUntilStateChange: -24113.545
   - uid: 11076
     components:
     - type: Transform
@@ -77514,7 +77540,7 @@ entities:
       pos: 11.5,36.5
     - type: Door
       state: Closing
-      secondsUntilStateChange: -97391.914
+      secondsUntilStateChange: -97933.945
   - uid: 11226
     components:
     - type: Transform
@@ -109251,6 +109277,14 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 48.5,3.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        182:
+        - - Pressed
+          - Toggle
+        284:
+        - - Pressed
+          - Toggle
     - type: Fixtures
       fixtures: {}
 - proto: LockerAtmosphericsFilledHardsuitSyndi
@@ -110818,6 +110852,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -0.5,5.5
+- proto: NitrogenTankFilled
+  entities:
+  - uid: 23610
+    components:
+    - type: Transform
+      parent: 2
+      pos: -9.31143,-33.495667
 - proto: NitrousOxideCanister
   entities:
   - uid: 15692
@@ -110835,6 +110876,104 @@ entities:
       pos: -23.5,12.5
     - type: Fixtures
       fixtures: {}
+- proto: NSPrinterDoc
+  entities:
+  - uid: 16374
+    components:
+    - type: Transform
+      parent: 2
+      pos: 57.5,-13.5
+    - type: TechnologyDatabase
+      supportedDisciplines:
+      - Industrial
+      - Arsenal
+      - Experimental
+      - CivilianServices
+      - Biochemical
+  - uid: 16375
+    components:
+    - type: Transform
+      parent: 2
+      pos: 50.5,15.5
+    - type: TechnologyDatabase
+      supportedDisciplines:
+      - Industrial
+      - Arsenal
+      - Experimental
+      - CivilianServices
+      - Biochemical
+  - uid: 16376
+    components:
+    - type: Transform
+      parent: 2
+      pos: -21.5,29.5
+    - type: TechnologyDatabase
+      supportedDisciplines:
+      - Industrial
+      - Arsenal
+      - Experimental
+      - CivilianServices
+      - Biochemical
+  - uid: 16377
+    components:
+    - type: Transform
+      parent: 2
+      pos: 45.5,-33.5
+    - type: TechnologyDatabase
+      supportedDisciplines:
+      - Industrial
+      - Arsenal
+      - Experimental
+      - CivilianServices
+      - Biochemical
+  - uid: 16378
+    components:
+    - type: Transform
+      parent: 2
+      pos: -43.5,-17.5
+    - type: TechnologyDatabase
+      supportedDisciplines:
+      - Industrial
+      - Arsenal
+      - Experimental
+      - CivilianServices
+      - Biochemical
+  - uid: 23605
+    components:
+    - type: Transform
+      parent: 2
+      pos: -7.5,29.5
+    - type: TechnologyDatabase
+      supportedDisciplines:
+      - Industrial
+      - Arsenal
+      - Experimental
+      - CivilianServices
+      - Biochemical
+  - uid: 23606
+    components:
+    - type: Transform
+      parent: 2
+      pos: -56.5,-28.5
+    - type: TechnologyDatabase
+      supportedDisciplines:
+      - Industrial
+      - Arsenal
+      - Experimental
+      - CivilianServices
+      - Biochemical
+  - uid: 23607
+    components:
+    - type: Transform
+      parent: 2
+      pos: -5.5,-27.5
+    - type: TechnologyDatabase
+      supportedDisciplines:
+      - Industrial
+      - Arsenal
+      - Experimental
+      - CivilianServices
+      - Biochemical
 - proto: NSUniformPrinter
   entities:
   - uid: 15403
@@ -111131,6 +111270,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -16.5,40.5
+- proto: OxygenTankFilled
+  entities:
+  - uid: 23609
+    components:
+    - type: Transform
+      parent: 2
+      pos: -9.62393,-33.401917
 - proto: PackPaperRollingFilters
   entities:
   - uid: 15737
@@ -115933,32 +116079,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 45.5,-24.5
-  - uid: 16374
-    components:
-    - type: Transform
-      parent: 2
-      pos: 57.5,-13.5
-  - uid: 16375
-    components:
-    - type: Transform
-      parent: 2
-      pos: 50.5,15.5
-  - uid: 16376
-    components:
-    - type: Transform
-      parent: 2
-      pos: -21.5,29.5
-  - uid: 16377
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 45.5,-33.5
-  - uid: 16378
-    components:
-    - type: Transform
-      parent: 2
-      pos: -43.5,-17.5
   - uid: 20827
     components:
     - type: Transform
@@ -115981,6 +116101,18 @@ entities:
       pos: 5.6095495,26.000034
 - proto: Protofab
   entities:
+  - uid: 16381
+    components:
+    - type: Transform
+      parent: 2
+      pos: -5.5,-21.5
+    - type: TechnologyDatabase
+      supportedDisciplines:
+      - Industrial
+      - Arsenal
+      - Experimental
+      - CivilianServices
+      - Biochemical
   - uid: 17762
     components:
     - type: Transform
@@ -115993,13 +116125,6 @@ entities:
       - Experimental
       - CivilianServices
       - Biochemical
-- proto: Protolathe
-  entities:
-  - uid: 16381
-    components:
-    - type: Transform
-      parent: 2
-      pos: -5.5,-21.5
 - proto: ProtolatheMachineCircuitboard
   entities:
   - uid: 16383
@@ -154854,7 +154979,7 @@ entities:
         DoorStatus: True
     - type: Door
       state: Opening
-      secondsUntilStateChange: -55469.33
+      secondsUntilStateChange: -56011.363
     - type: Airlock
       autoClose: False
   - uid: 22606
