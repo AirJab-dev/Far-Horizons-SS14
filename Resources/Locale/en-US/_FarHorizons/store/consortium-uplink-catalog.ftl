@@ -73,7 +73,7 @@ uplink-consortium-c4-desc = Use it to breach walls, airlocks or sabotage equipme
 uplink-consortium-c4-bundle-name = C-4 Bundle
 uplink-consortium-c4-bundle-desc = Because sometimes quantity is quality. Contains 8 C-4 plastic explosives.
 
-uplink-consortium-grenadier-rig-name = grenadier chest rig
+uplink-consortium-grenadier-rig-name = Grenadier Chest Rig
 uplink-consortium-grenadier-rig-desc = All you need for a loud party: 4 explosive grenades, 2 EMP grenades and 2 minibombs in a chest rig.
 
 uplink-consortium-emp-grenade-name = EMP Grenade
