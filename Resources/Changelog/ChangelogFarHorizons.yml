@@ -18658,5 +18658,13 @@ Entries:
   id: 164407
   time: '2026-08-29T16:48:02.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1644
+- author: AirJab, with support from Catisnice, Crecc, Erophosea, qriqii, AngelCastle,
+    Milterria, Opitech, MightyM1me, mogaiskii
+  changes:
+  - message: Added Prometheus map
+    type: Add
+  id: 163200
+  time: '2026-08-29T19:16:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1632
 Order: -1
 
