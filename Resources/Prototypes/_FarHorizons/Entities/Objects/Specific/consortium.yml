@@ -52,7 +52,7 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband]
   id: BaseConsortiumUplinkRadio
-  name: Consortium Uplink
+  name: "Consortium Uplink"
   description: Suspiciously looking old radio...
   suffix: Empty
   components:
