@@ -79,7 +79,7 @@ uplink-consortium-grenadier-rig-desc = All you need for a loud party: 4 explosiv
 uplink-consortium-emp-grenade-name = EMP Grenade
 uplink-consortium-emp-grenade-desc = A grenade designed to disrupt electronic systems. Useful for disrupting communications, security's energy weapons, and APCs when you're in a tight spot.
 
-uplink-consortium-exploding-pen-name = Exploding pen
+uplink-consortium-exploding-pen-name = Exploding Pen
 uplink-consortium-exploding-pen-desc = A class IV explosive device contained within a standard pen. Comes with a 4 second fuse.
 
 uplink-consortium-exploding-syndicate-bomb-name = Syndicate Bomb
