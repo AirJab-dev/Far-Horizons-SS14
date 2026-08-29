@@ -18573,5 +18573,19 @@ Entries:
   id: 163902
   time: '2026-08-29T12:27:00.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1639
+- author: Mizuki
+  changes:
+  - message: Gorlex is now spelled correctly
+    type: Fix
+  id: 163700
+  time: '2026-08-29T12:36:03.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1637
+- author: Mizuki
+  changes:
+  - message: COA & GWS now have clothing
+    type: Add
+  id: 163701
+  time: '2026-08-29T12:36:03.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1637
 Order: -1
 
