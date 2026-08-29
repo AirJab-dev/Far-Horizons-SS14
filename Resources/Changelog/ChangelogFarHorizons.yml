@@ -18681,5 +18681,106 @@ Entries:
   id: 164701
   time: '2026-08-29T19:44:15.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1647
+- author: AirJab
+  changes:
+  - message: Consortium Uplink
+    type: Add
+  id: 161100
+  time: '2026-08-29T21:56:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
+- author: AirJab
+  changes:
+  - message: Refined bluespace crystals
+    type: Add
+  id: 161101
+  time: '2026-08-29T21:56:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
+- author: AirJab
+  changes:
+  - message: Consortium gun cases and crates
+    type: Add
+  id: 161102
+  time: '2026-08-29T21:56:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
+- author: AirJab
+  changes:
+  - message: Consortium Camera bug and Accesses breaker
+    type: Add
+  id: 161103
+  time: '2026-08-29T21:56:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
+- author: AirJab
+  changes:
+  - message: Consortium UA - Corona (Consortium's Python)
+    type: Add
+  id: 161104
+  time: '2026-08-29T21:56:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
+- author: AirJab
+  changes:
+  - message: Consortium Knuckle Dusters
+    type: Add
+  id: 161105
+  time: '2026-08-29T21:56:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
+- author: AirJab
+  changes:
+  - message: Consortium Powered Gloves (Consortium's Gloves of North Star)
+    type: Add
+  id: 161106
+  time: '2026-08-29T21:56:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
+- author: AirJab
+  changes:
+  - message: Replaced the lecter W with the Lecter T in the Consortium Uplink (and
+      changed its price to 18 down from 20)
+    type: Tweak
+  id: 161107
+  time: '2026-08-29T21:56:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
+- author: AirJab
+  changes:
+  - message: Consortium ammo selectors for all kinds of ammo in the uplink
+    type: Add
+  id: 161108
+  time: '2026-08-29T21:56:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
+- author: AirJab
+  changes:
+  - message: Consortium nukie Ammo bundles to have UA - Corona magazines
+    type: Tweak
+  id: 161109
+  time: '2026-08-29T21:56:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
+- author: AirJab
+  changes:
+  - message: the type H6 Uzi a modified of the Uzi used by the Consortium
+    type: Add
+  id: 161110
+  time: '2026-08-29T21:56:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
+- author: AirJab
+  changes:
+  - message: all implanters excluding the death rattle implanter, Fake mind shield
+      and Uplink implanter
+    type: Add
+  id: 161111
+  time: '2026-08-29T21:56:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
+- author: AirJab
+  changes:
+  - message: the Syndicate Contraband tag to say items are "highly illegal insurgent
+      contraband"
+    type: Tweak
+  id: 161112
+  time: '2026-08-29T21:56:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
+- author: AirJab
+  changes:
+  - message: other minor Item descriptions changes
+    type: Add
+  id: 161113
+  time: '2026-08-29T21:56:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
 Order: -1
 
