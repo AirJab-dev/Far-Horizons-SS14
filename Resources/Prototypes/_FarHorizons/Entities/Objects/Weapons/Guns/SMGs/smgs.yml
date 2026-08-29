@@ -440,7 +440,7 @@
   name: Type H6 Uzi
   parent: [BaseWeaponSubMachineGun, BaseMajorContraband]
   id: WeaponSubMachineGunH6Uzi
-  description: A over engineered version of the classic Uzi that has single or 4 round firing modes.
+  description: An over engineered version of the classic Uzi that has single or 4 round firing modes.
   components:
   - type: Sprite
     sprite: _FarHorizons/Objects/Weapons/Guns/SMGs/h6_uzi.rsi

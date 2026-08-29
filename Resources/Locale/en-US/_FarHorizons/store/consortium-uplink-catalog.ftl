@@ -131,7 +131,7 @@ uplink-consortium-ua-magazine-desc = Specialised pistol magazine with 6 armor-pi
 uplink-consortium-mosin-ammo-name = Ammunition Box (.30 rifle)
 uplink-consortium-mosin-ammo-desc = A box of 60 cartridges for the surplus rifle.
 
-uplink-consortium-sniper-ammo-name = Ammunition box (.60 antimateriel)
+uplink-consortium-sniper-ammo-name = Ammunition Box (.60 antimateriel)
 uplink-consortium-sniper-ammo-desc = A box of 10 cartridges for the Hristov sniper rifle.
 
 # Utility
@@ -400,7 +400,7 @@ uplink-consortium-hardsuit-syndieelite-desc = An elite version of the blood-red 
 uplink-consortium-clothing-outer-hardsuit-juggernaut-name = Cybersun Juggernaut Suit
 uplink-consortium-clothing-outer-hardsuit-juggernaut-desc = Hyper resilient armor made of materials tested in the Tau chromosphere facility. The only thing that's going to be slowing you down is this suit... and tasers.
 
-uplink-consortium-energy-dome-name = Personal energy dome
+uplink-consortium-energy-dome-name = Personal Energy Dome
 uplink-consortium-energy-dome-desc = A personal shield generator that protects the wearer from lasers and bullets but prevents from using ranged weapons himself. Comes with a small power cell.
 
 # Misc
@@ -492,13 +492,13 @@ uplink-consortium-operative-skirt-desc = A skirt given to our nuclear operatives
 uplink-consortium-balloon-name = Syndie Balloon
 uplink-consortium-balloon-desc = Handed out to the bravest souls who survived the "atomic twister" ride at Syndieland.
 
-uplink-consortium-scarf-syndie-red-name = Striped syndicate red scarf
+uplink-consortium-scarf-syndie-red-name = Striped Syndicate Red Scarf
 uplink-consortium-scarf-syndie-red-desc = A stylish striped syndicate red scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
 
-uplink-consortium-scarf-syndie-green-name = Striped syndicate green scarf
+uplink-consortium-scarf-syndie-green-name = Striped Syndicate Green Scarf
 uplink-consortium-scarf-syndie-green-desc = A stylish striped syndicate green scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
 
-uplink-consortium-syndicate-pai-name = Syndicate personal ai device
+uplink-consortium-syndicate-pai-name = Syndicate Personal AI Device
 uplink-consortium-syndicate-pai-desc = A Syndicate variant of the pAI with access to the Syndicate radio channel. We do not guarantee their usefulness.
 
 uplink-consortium-bribe-name = Lobbying Bundle
@@ -513,7 +513,7 @@ uplink-consortium-barber-scissors-desc = A good tool to give your fellow agent a
 uplink-consortium-backpack-syndicate-name = Syndicate backpack
 uplink-consortium-backpack-syndicate-desc = A lightweight explosion-proof backpack for holding various traitor goods.
 
-uplink-consortium-cameraBug-name = Camera bug
+uplink-consortium-cameraBug-name = Camera Bug
 uplink-consortium-cameraBug-desc = A portable device that allows you to view the station's cameras.
 
 uplink-consortium-combat-bakery-name = Combat Bakery Kit
@@ -525,7 +525,7 @@ uplink-consortium-business-card-desc = A business card that you can give to some
 uplink-consortium-fake-mindshield-name = Fake Mindshield
 uplink-consortium-fake-mindshield-desc = A togglable implant capable of mimicking the same transmissions a real mindshield puts out when on, tricking capable Heads-up displays into thinking you have a mindshield (Nanotrasen brand implanter not provided.)
 
-uplink-consortium-contraband-lighter-name = Contraband Lighter box
+uplink-consortium-contraband-lighter-name = Contraband Lighter Box
 uplink-consortium-contraband-lighter-desc = A mystery box guaranteed to contain a syndicate branded lighter. No fuel required
 
 uplink-consortium-smuggler-satchel-name = Smuggler's Satchel
