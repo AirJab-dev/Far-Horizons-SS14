@@ -206,7 +206,7 @@
     state: stamp-cap
 
 - type: entity
-  name: Gorlax Weapons & Security Rubber Stamp
+  name: Gorlex Weapons & Security Rubber Stamp
   parent: RubberStampBase
   id: RubberStampGWS
   suffix: NS
