@@ -159178,7 +159178,7 @@ entities:
   - uid: 11451
     components:
     - type: Transform
-      parent: 21449
+      parent: 11449
     - type: Clothing
       inSlotFlag: NECK
       inSlot: neck
@@ -159196,7 +159196,7 @@ entities:
   - uid: 11453
     components:
     - type: Transform
-      parent: 21449
+      parent: 11449
     - type: Clothing
       inSlotFlag: HEAD
       inSlot: head
@@ -159207,7 +159207,7 @@ entities:
   - uid: 11452
     components:
     - type: Transform
-      parent: 21449
+      parent: 11449
     - type: Clothing
       inSlotFlag: INNERCLOTHING
       inSlot: jumpsuit
