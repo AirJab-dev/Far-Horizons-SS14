@@ -18587,5 +18587,13 @@ Entries:
   id: 163701
   time: '2026-08-29T12:36:03.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1637
+- author: Mizuki
+  changes:
+  - message: Majority of security handguns now count towards the officer handgun thieving
+      objective
+    type: Fix
+  id: 163800
+  time: '2026-08-29T12:38:26.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1638
 Order: -1
 
