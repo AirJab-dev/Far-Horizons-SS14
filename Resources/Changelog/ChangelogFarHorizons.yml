@@ -18549,5 +18549,29 @@ Entries:
   id: 163500
   time: '2026-08-28T13:25:26.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1635
+- author: princess_gurchi
+  changes:
+  - message: Footprints are now cleanable with sprays, intrinsics, clenades and jani
+      carts
+    type: Add
+  id: 163900
+  time: '2026-08-29T12:27:00.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1639
+- author: princess_gurchi
+  changes:
+  - message: General performance improvements for footprints to reduce memory used
+      and data sent over network
+    type: Tweak
+  id: 163901
+  time: '2026-08-29T12:27:00.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1639
+- author: princess_gurchi
+  changes:
+  - message: Footprints should desync their appearance between server and client less
+      often
+    type: Tweak
+  id: 163902
+  time: '2026-08-29T12:27:00.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1639
 Order: -1
 
