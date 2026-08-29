@@ -68,3 +68,16 @@
   - type: IgnoresFingerprints
   - type: FluidFootprintContainer
     cleanEffect: PuddleSparkle
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      cleanFixture:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.2
+        mask:
+        - SlipLayer
+        layer:
+        - ItemMask
+        hard: false

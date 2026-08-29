@@ -26,4 +26,21 @@ public sealed partial class Solution
 
         return footprintQuantity > noFootprintQuantity;
     }
+
+    public bool FootprintCleanEligible(IPrototypeManager protoMan)
+    {
+        if (protoMan == null)
+            return false;
+        
+        foreach (var (reagent, quantity) in Contents)
+        {
+            if (!protoMan.TryIndex<ReagentPrototype>(reagent.Prototype, out var proto))
+                continue;
+            
+            if (proto.CleansFootprints)
+                return true;
+        }
+
+        return false;
+    }
 }
