@@ -143751,7 +143751,7 @@ entities:
   - uid: 13626
     components:
     - type: Transform
-      parent: 23625
+      parent: 13625
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
@@ -143759,7 +143759,7 @@ entities:
   - uid: 13629
     components:
     - type: Transform
-      parent: 23625
+      parent: 13625
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
@@ -143767,7 +143767,7 @@ entities:
   - uid: 13630
     components:
     - type: Transform
-      parent: 23625
+      parent: 13625
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
@@ -143775,7 +143775,7 @@ entities:
   - uid: 13631
     components:
     - type: Transform
-      parent: 23625
+      parent: 13625
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
@@ -162240,7 +162240,7 @@ entities:
   - uid: 13628
     components:
     - type: Transform
-      parent: 23625
+      parent: 13625
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
@@ -162326,7 +162326,7 @@ entities:
   - uid: 13627
     components:
     - type: Transform
-      parent: 23625
+      parent: 13625
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
