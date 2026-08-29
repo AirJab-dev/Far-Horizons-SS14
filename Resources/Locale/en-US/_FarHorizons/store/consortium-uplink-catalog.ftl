@@ -128,7 +128,7 @@ uplink-consortium-pistol-magazine-caseless-desc = Pistol magazine with 10 cartri
 uplink-consortium-ua-magazine-name = AP Magazine (UA)
 uplink-consortium-ua-magazine-desc = Specialised pistol magazine with 6 armor-piercing cartridges, capable of ignoring armor entirely. Compatible with the UA - Corona.
 
-uplink-consortium-mosin-ammo-name = Ammunition box (.30 rifle)
+uplink-consortium-mosin-ammo-name = Ammunition Box (.30 rifle)
 uplink-consortium-mosin-ammo-desc = A box of 60 cartridges for the surplus rifle.
 
 uplink-consortium-sniper-ammo-name = Ammunition box (.60 antimateriel)
