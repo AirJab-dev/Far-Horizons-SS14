@@ -70,7 +70,7 @@ uplink-consortium-penguin-grenade-desc = A small, highly-aggressive penguin with
 uplink-consortium-c4-name = C-4
 uplink-consortium-c4-desc = Use it to breach walls, airlocks or sabotage equipment. It can be attached to almost all objects and has a modifiable timer with a minimum setting of 10 seconds.
 
-uplink-consortium-c4-bundle-name = C-4 bundle
+uplink-consortium-c4-bundle-name = C-4 Bundle
 uplink-consortium-c4-bundle-desc = Because sometimes quantity is quality. Contains 8 C-4 plastic explosives.
 
 uplink-consortium-grenadier-rig-name = grenadier chest rig
