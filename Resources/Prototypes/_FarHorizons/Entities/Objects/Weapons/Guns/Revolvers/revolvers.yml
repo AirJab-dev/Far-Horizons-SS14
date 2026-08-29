@@ -108,7 +108,7 @@
     ammoSlots: [ null, null, null, null, null, null ]
   - type: StealTarget
     stealGroup: OfficerHandgun
-    
+
 #region =NanoTrasen=
 
 
@@ -172,6 +172,8 @@
   - type: Construction
     graph: WeaponRevolverOathbreakerGraph
     node: attachment
+  - type: StealTarget
+    stealGroup: OfficerHandgun
 
 #Longarm variant
 - type: entity
@@ -258,6 +260,8 @@
   - type: Construction
     graph: WeaponRevolverOathbreakerExtendedGraph
     node: attachment
+  - type: StealTarget
+    stealGroup: OfficerHandgun
 
 #region Oath Breaker M500
 - type: entity
@@ -295,6 +299,8 @@
   - type: Construction
     graph: WeaponRevolverOathbreakerM500Graph
     node: attachment
+  - type: StealTarget
+    stealGroup: OfficerHandgun
 
 #Longarm variant
 - type: entity
@@ -380,6 +386,8 @@
   - type: Construction
     graph: WeaponRevolverOathbreakerM500ExtendedGraph
     node: attachment
+  - type: StealTarget
+    stealGroup: OfficerHandgun
   #type: Attachments (or smth)
   #- Premium Green Dot Sights (+2.5 tile range / -0.5s ADS)
   #- Pistol Stock (Nullifies Species Knockback / +1s ADS / +Size Increase)
