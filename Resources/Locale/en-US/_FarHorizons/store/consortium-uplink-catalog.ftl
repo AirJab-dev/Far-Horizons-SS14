@@ -185,7 +185,7 @@ uplink-consortium-mech-teleporter-assault-desc = Contains Cybersan lightly armor
 uplink-consortium-stealth-box-name = Stealth Box
 uplink-consortium-stealth-box-desc = A box outfitted with stealth technology. Sneak around unnoticed, but don't move too fast or you'll be revealed!
 
-uplink-consortium-headset-name = Syndicate Over-ear Headset
+uplink-consortium-headset-name = Syndicate Over-Ear Headset
 uplink-consortium-headset-desc = A headset that allows you to communicate with other syndicate operatives. Has 4 slots for encryption keys.
 
 uplink-consortium-encryption-key-name = Syndicate Encryption Keys
