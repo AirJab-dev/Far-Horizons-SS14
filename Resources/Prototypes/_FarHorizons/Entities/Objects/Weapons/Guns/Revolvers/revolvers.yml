@@ -26,6 +26,8 @@
       tags:
         - CartridgeRevolver38
         - SpeedLoaderRevolver38
+  - type: StealTarget
+    stealGroup: OfficerHandgun
 
 #region Instigator M500
 - type: entity
@@ -45,6 +47,8 @@
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
 
 #region Inspector M500
 - type: entity
@@ -70,6 +74,8 @@
     capacity: 6
     chambers: [ True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null ]
+  - type: StealTarget
+    stealGroup: OfficerHandgun
 
 #region Initiator
 - type: entity
@@ -100,7 +106,9 @@
     capacity: 6
     chambers: [ True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null ]
-
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+    
 #region =NanoTrasen=
 
 
