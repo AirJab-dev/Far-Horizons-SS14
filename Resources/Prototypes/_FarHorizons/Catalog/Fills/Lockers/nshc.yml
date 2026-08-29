@@ -38,7 +38,7 @@
 
 - type: entity
   id: GWSFilled
-  name: GSW Cadet Locker
+  name: GWS Cadet Locker
   suffix: NS Filled
   parent: LockerBaseSecure
   components:
