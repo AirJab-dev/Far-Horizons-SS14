@@ -19,7 +19,7 @@ public abstract partial class SharedFluidFootprintSystem
             HasComp<KnockedDownComponent>(ent) ||
             !TryComp<FluidFootprintSourceComponent>(args.OtherEntity, out var source) ||
             !TryComp<PuddleComponent>(args.OtherEntity, out var puddle) ||
-            !_solution.ResolveSolution(args.OtherEntity, puddle.SolutionName, ref puddle.Solution) ||
+            !Solution.ResolveSolution(args.OtherEntity, puddle.SolutionName, ref puddle.Solution) ||
             puddle.Solution == null)
             return;
         
@@ -36,13 +36,13 @@ public abstract partial class SharedFluidFootprintSystem
             return;
         
         var removeQt = ent.Comp.TakeSolutionUnits / solution.Contents.Count;
-        _solution.RemoveEachReagent(puddle.Solution.Value, removeQt);
+        Solution.RemoveEachReagent(puddle.Solution.Value, removeQt);
 
         var color = solution.GetColor(ProtoMan);
 
         activeSpreader.RemainingFootprints = numFootprints;
         activeSpreader.StopAt = _timing.CurTime + source.StopAfter;
-        activeSpreader.LastPosition = _transform.GetMapCoordinates(ent);
+        activeSpreader.LastPosition = TransformSys.GetMapCoordinates(ent);
         activeSpreader.Color = color;
         activeSpreader.OpacityStep = 1f / (numFootprints + 1);
     } 
@@ -68,7 +68,7 @@ public abstract partial class SharedFluidFootprintSystem
                 continue;
             }
 
-            var currentPos = _transform.GetMapCoordinates(uid, xform);
+            var currentPos = TransformSys.GetMapCoordinates(uid, xform);
             var lastPos = activeSpreader.LastPosition ?? currentPos;
 
             if (currentPos.MapId != lastPos.MapId)
@@ -132,22 +132,23 @@ public abstract partial class SharedFluidFootprintSystem
 
         mapCoords = new MapCoordinates(finalPos, mapCoords.MapId);
         
-        var gridLocalCoords = _transform.ToCoordinates(gridUid, mapCoords);
+        var gridLocalCoords = TransformSys.ToCoordinates(gridUid, mapCoords);
 
         var tileIndices = _map.TileIndicesFor((gridUid, gridComp), gridLocalCoords);
         var tile = ResolveFootprintTile((gridUid, gridComp), tileIndices);
-
-        if (tile == null)
-            return;
 
         var tileCenter = _map.GridTileToLocal(gridUid, gridComp, tileIndices);
         var relativePos = gridLocalCoords.Position - tileCenter.Position;
 
         var flipped = proto.Alternating && !ent.Comp2.Left;
-        tile!.Value.Comp.AddFootprint(relativePos, angle, footprintType, ent.Comp1.FootprintSize, ent.Comp2.Color, flipped, ent.Comp2.Opacity);
-        UpdateSprite(tile.Value);
-        Dirty(tile.Value);
 
+        if (tile != null)
+        {
+            tile!.Value.Comp.AddFootprint(relativePos, angle, footprintType, ent.Comp1.FootprintSize, ent.Comp2.Color, flipped, ent.Comp2.Opacity);
+            UpdateSprite(tile.Value);
+            Dirty(tile.Value);
+        }
+        
         var opacity = MathF.Max(0f, ent.Comp2.Opacity - ent.Comp2.OpacityStep);
         ent.Comp2.Opacity = opacity;
         if (proto.Alternating)

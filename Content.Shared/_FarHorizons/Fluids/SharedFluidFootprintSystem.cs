@@ -12,10 +12,10 @@ public abstract partial class SharedFluidFootprintSystem : EntitySystem
 {
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private INetManager _net = default!;
-    [Dependency] private SharedSolutionContainerSystem _solution = default!;
-    [Dependency] private SharedTransformSystem _transform = default!;
     [Dependency] private SharedMapSystem _map = default!;
     [Dependency] private SharedAudioSystem _audio = default!;
+    [Dependency] protected SharedSolutionContainerSystem Solution = default!;
+    [Dependency] protected SharedTransformSystem TransformSys = default!;
 
     private const string CONTAINER_ENTITY = "FluidFootprintContainer";
     
@@ -31,7 +31,7 @@ public abstract partial class SharedFluidFootprintSystem : EntitySystem
         PredictedQueueDel(target);
 
         if (container.CleanEffect != null &&
-            _transform.TryGetMapOrGridCoordinates(target, out var pos))
+            TransformSys.TryGetMapOrGridCoordinates(target, out var pos))
             PredictedSpawnAtPosition(container.CleanEffect, pos.Value);
         
         _audio.PlayPredicted(absorber.Comp.PickupSound, absorber, user);

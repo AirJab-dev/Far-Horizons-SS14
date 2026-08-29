@@ -1,4 +1,3 @@
-using System.Linq;
 using Content.Shared._FarHorizons.Fluids.Components;
 using Robust.Shared.Map.Components;
 
@@ -37,7 +36,7 @@ public abstract partial class SharedFluidFootprintSystem
         while (query.MoveNext(out var uid, out var container, out var xform))
         {
             if (xform.GridUid != grid ||
-                !_transform.TryGetGridTilePosition((uid, xform), out var pos) ||
+                !TransformSys.TryGetGridTilePosition((uid, xform), out var pos) ||
                 pos != coord)
                 continue;
             
@@ -50,7 +49,7 @@ public abstract partial class SharedFluidFootprintSystem
         {
             var tileCenter = _map.GridTileToLocal(grid, grid.Comp, coord);
             var spawned = Spawn(CONTAINER_ENTITY, tileCenter);
-            _transform.SetParent(spawned, grid.Owner);
+            TransformSys.SetParent(spawned, grid.Owner);
             var comp = EnsureComp<FluidFootprintContainerComponent>(spawned);
             tile = (spawned, comp);
         }
