@@ -3,7 +3,7 @@
   abstract: true
   components:
   - type: Store
-    name: Uplink
+    name: store-preset-name-uplink
     categories:
     - ConsortiumUplinkWeaponry
     - ConsortiumUplinkAmmo
