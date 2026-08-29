@@ -18666,5 +18666,20 @@ Entries:
   id: 163200
   time: '2026-08-29T19:16:54.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1632
+- author: Milterrria
+  changes:
+  - message: Added Sci to old SHC.
+    type: Add
+  id: 164700
+  time: '2026-08-29T19:44:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1647
+- author: Milterrria
+  changes:
+  - message: 'Core: doc printers, rso equipment makeshift solution, medical button
+      link.'
+    type: Fix
+  id: 164701
+  time: '2026-08-29T19:44:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1647
 Order: -1
 
