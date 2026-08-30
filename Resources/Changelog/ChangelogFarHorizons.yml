@@ -18782,5 +18782,26 @@ Entries:
   id: 161113
   time: '2026-08-29T21:56:14.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1611
+- author: Penguinwizzard
+  changes:
+  - message: Abductor shuttle distro no longer targets 3MPa
+    type: Fix
+  id: 165000
+  time: '2026-08-30T10:25:03.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1650
+- author: Penguinwizzard
+  changes:
+  - message: Abductor shuttle devices no longer unintentionally buried in walls
+    type: Fix
+  id: 165001
+  time: '2026-08-30T10:25:03.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1650
+- author: Penguinwizzard
+  changes:
+  - message: More abductor shuttle signal buttons are labeled.
+    type: Fix
+  id: 165002
+  time: '2026-08-30T10:25:03.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1650
 Order: -1
 
