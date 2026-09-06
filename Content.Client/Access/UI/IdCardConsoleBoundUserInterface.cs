@@ -55,7 +55,7 @@ namespace Content.Client.Access.UI
             _window?.UpdateState(castState);
         }
 
-        public void SubmitData(string newFullName, string newJobTitle, List<ProtoId<AccessLevelPrototype>> newAccessList, ProtoId<FactionJobAssignmentPrototype> newJobPrototype) //FH
+        public void SubmitData(string newFullName, string newJobTitle, List<ProtoId<AccessLevelPrototype>> newAccessList, ProtoId<FactionJobAssignmentPrototype>? newJobPrototype) //FH
         {
             SendMessage(new WriteToTargetIdMessage(
                 newFullName,

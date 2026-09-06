@@ -230,7 +230,7 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
         string newFullName,
         string newJobTitle,
         List<ProtoId<AccessLevelPrototype>> newAccessList,
-        ProtoId<FactionJobAssignmentPrototype> newJobProto, //FH
+        ProtoId<FactionJobAssignmentPrototype>? newJobProto, //FH
         EntityUid player,
         IdCardConsoleComponent? component = null)
     {
