@@ -1,28 +1,4 @@
 ﻿Entries:
-- author: redmushie
-  changes:
-  - message: Fixed power sensors not respecting their configured network setting
-    type: Fix
-  id: 9108
-  time: '2025-10-16T12:38:04.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/40934
-- author: Quasr
-  changes:
-  - message: Sky blue fancy tables and curtains are now construct-able
-    type: Add
-  - message: Sky blue carpet is now printable
-    type: Fix
-  id: 9109
-  time: '2025-10-16T13:37:25.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/40867
-- author: Worldwaker
-  changes:
-  - message: Fixed parcels being indestructible for all damage types except Slash
-      damage.
-    type: Fix
-  id: 9110
-  time: '2025-10-16T16:28:48.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/40940
 - author: FairlySadPanda
   changes:
   - message: Two new instrument options for the microphone, Wa and Wah.
@@ -4039,3 +4015,24 @@
   id: 9619
   time: '2026-04-05T15:17:21.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/43466
+- author: Princess-Cheeseballs
+  changes:
+  - message: Web vests have new more visible sprites.
+    type: Add
+  id: 9620
+  time: '2026-04-05T21:58:02.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43486
+- author: Princess-Cheeseballs
+  changes:
+  - message: Uplink implant now links to the same store as your PDA ringtone.
+    type: Add
+  id: 9621
+  time: '2026-04-05T22:16:46.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43485
+- author: AndrewFenriz
+  changes:
+  - message: Added a wide variety of new tile recipes to the Cutter Machine.
+    type: Add
+  id: 9622
+  time: '2026-04-05T22:33:00.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43431
