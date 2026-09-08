@@ -1,18 +1,4 @@
 ﻿Entries:
-- author: TrixxedHeart
-  changes:
-  - message: Added Vox Chitter and Clicking emotes
-    type: Add
-  id: 9115
-  time: '2025-10-18T00:28:44.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/40878
-- author: Kittygyat
-  changes:
-  - message: Added a new generic Artistry borg module!
-    type: Add
-  id: 9116
-  time: '2025-10-18T07:13:42.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/39679
 - author: Hitlinemoss
   changes:
   - message: Folders and clipboards now recycle into sensible material components,
@@ -4030,3 +4016,17 @@
   id: 9626
   time: '2026-04-07T20:33:23.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/43322
+- author: alexalexmax
+  changes:
+  - message: Items that can be stuck to walls are now able to be unstuck properly.
+    type: Fix
+  id: 9627
+  time: '2026-04-08T04:13:18.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43514
+- author: TriviaSolari
+  changes:
+  - message: The Station AI is now notified when their core is taking damage.
+    type: Add
+  id: 9628
+  time: '2026-04-08T05:40:02.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43513
