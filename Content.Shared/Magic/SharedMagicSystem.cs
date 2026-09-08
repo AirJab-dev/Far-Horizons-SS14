@@ -26,6 +26,7 @@ using Content.Shared.Magic.Events;
 using Content.Shared.Maps;
 using Content.Shared.Mind;
 using Content.Shared.Ninja.Systems;
+using Content.Shared.Objectives.Systems;
 using Content.Shared.Physics;
 using Content.Shared.Popups;
 using Content.Shared.Speech.Muting;
@@ -78,6 +79,7 @@ public abstract class SharedMagicSystem : EntitySystem
     [Dependency] private readonly TurfSystem _turf = default!;
     [Dependency] private readonly SharedChargesSystem _charges = default!;
     [Dependency] private readonly ExamineSystemShared _examine= default!;
+    [Dependency] private readonly TargetSystem _target = default!;
 
     #region Starlight
     [Dependency] private readonly DamageableSystem _damageable = default!;
@@ -503,7 +505,7 @@ public abstract class SharedMagicSystem : EntitySystem
 
         ev.Handled = true;
 
-        var allHumans = _mind.GetAliveHumans();
+        var allHumans = _target.GetAliveHumans();
 
         foreach (var human in allHumans)
         {
