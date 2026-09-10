@@ -35,6 +35,8 @@ using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Temperature.Components;
+using Content.Shared.Stealth;
+using Content.Shared.Stealth.Components;
 using Content.Shared.Weapons.Ranged.Systems;
 using Content.Server._FarHorizons.NPC.Queries.Considerations;
 
@@ -63,6 +65,7 @@ public sealed partial class NPCUtilitySystem : EntitySystem // Far Horizons made
     [Dependency] private readonly MobThresholdSystem _thresholdSystem = default!;
     [Dependency] private readonly TurretTargetSettingsSystem _turretTargetSettings = default!;
     [Dependency] private readonly DamageableSystem _damageable = default!;
+    [Dependency] private readonly SharedStealthSystem _stealth = default!;
     [Dependency] private readonly ItemSlotsSystem _itemSlot = default!;
 
     private EntityQuery<PuddleComponent> _puddleQuery;
@@ -311,6 +314,15 @@ public sealed partial class NPCUtilitySystem : EntitySystem // Far Horizons made
                 }
 
                 return Math.Clamp(distance / radius, 0f, 1f);
+            }
+            case TargetIsVisibleCon:
+            {
+                if (!TryComp(targetUid, out StealthComponent? stealth))
+                    return 1f; // If there is no StealthComponent, we see it.
+
+                // Checking the visibility level
+                var visibility = _stealth.GetVisibility(targetUid, stealth);
+                return visibility >= 0.5f ? 1f : 0f; // Visibility threshold 0.5
             }
             case TargetAmmoCon:
             {

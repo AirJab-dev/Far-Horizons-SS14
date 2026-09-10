@@ -30,21 +30,11 @@ public abstract class SharedStationSpawningSystem : EntitySystem
     [Dependency] private readonly ItemSlotsSystem _itemSlots = default!; // Starlight
     [Dependency] private readonly SharedContainerSystem _container = default!; // Far Horizons
 
-    private EntityQuery<HandsComponent> _handsQuery;
-    private EntityQuery<InventoryComponent> _inventoryQuery;
-    private EntityQuery<StorageComponent> _storageQuery;
-    private EntityQuery<TransformComponent> _xformQuery;
-    private EntityQuery<ItemSlotsComponent> _itemSlotsQuery; // Starlight
-
-    public override void Initialize()
-    {
-        base.Initialize();
-        _handsQuery = GetEntityQuery<HandsComponent>();
-        _inventoryQuery = GetEntityQuery<InventoryComponent>();
-        _storageQuery = GetEntityQuery<StorageComponent>();
-        _xformQuery = GetEntityQuery<TransformComponent>();
-        _itemSlotsQuery = GetEntityQuery<ItemSlotsComponent>(); // Starlight
-    }
+    [Dependency] private readonly EntityQuery<HandsComponent> _handsQuery = default!;
+    [Dependency] private readonly EntityQuery<InventoryComponent> _inventoryQuery = default!;
+    [Dependency] private readonly EntityQuery<StorageComponent> _storageQuery = default!;
+    [Dependency] private readonly EntityQuery<TransformComponent> _xformQuery = default!;
+    [Dependency] private readonly EntityQuery<ItemSlotsComponent> _itemSlotsQuery = default!; // Starlight
 
     /// <summary>
     ///     Equips the data from a `RoleLoadout` onto an entity.

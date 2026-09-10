@@ -71,6 +71,8 @@ public abstract class SharedMeleeWeaponSystem : EntitySystem
     [Dependency] private   readonly DamageExamineSystem _damageExamine = default!;
     [Dependency] private   readonly LimbDamageSystem _limbDamage = default!; // Far Horizons
 
+    [Dependency] private readonly EntityQuery<DamageableComponent> _damageQuery = default!;
+
     private const int AttackMask = (int) (CollisionGroup.MobMask | CollisionGroup.Opaque);
 
     /// <summary>
@@ -677,12 +679,10 @@ public abstract class SharedMeleeWeaponSystem : EntitySystem
         }
 
         var targets = new List<EntityUid>();
-        var damageQuery = GetEntityQuery<DamageableComponent>();
-
         foreach (var entity in entities)
         {
             if (entity == user ||
-                !damageQuery.HasComponent(entity))
+                !_damageQuery.HasComponent(entity))
                 continue;
 
             targets.Add(entity);
