@@ -180,7 +180,6 @@
       - MindRoleGhostRoleTeamAntagonist
       raffle:
         settings: short
-    - type: ForceAttack
 
 - type: entity
   name: green slime
@@ -221,7 +220,6 @@
       - MindRoleGhostRoleTeamAntagonist
       raffle:
         settings: short
-    - type: ForceAttack
 
 - type: entity
   name: yellow slime
@@ -261,4 +259,3 @@
       - MindRoleGhostRoleTeamAntagonist
       raffle:
         settings: short
-    - type: ForceAttack

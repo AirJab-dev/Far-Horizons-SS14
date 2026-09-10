@@ -10,23 +10,17 @@ using Content.Shared.Database;
 using Content.Shared.FixedPoint;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Implants.Components;
-using Content.Shared.Mind;
 using Content.Shared.Mindshield.Components;
 using Content.Shared.NPC.Systems;
-using Content.Shared.PDA.Ringer;
 using Content.Shared.Store;
 using Content.Shared.Store.Components;
 using Content.Shared.Store.Conditions;
 using Content.Shared.Store.Events;
 using Content.Shared.UserInterface;
-using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
-using Robust.Shared.Player;
-using Robust.Shared.Prototypes;
 using Prometheus; //Starlight
 using Content.Server._Starlight.Language;
-
 
 namespace Content.Server.Store.Systems;
 
@@ -41,16 +35,13 @@ public sealed partial class StoreSystem
     #endregion
 
     [Dependency] private readonly IAdminLogManager _admin = default!;
-    [Dependency] private readonly SharedHandsSystem _hands = default!;
-    [Dependency] private readonly ActionsSystem _actions = default!;
     [Dependency] private readonly ActionContainerSystem _actionContainer = default!;
+    [Dependency] private readonly ActionsSystem _actions = default!;
     [Dependency] private readonly ActionUpgradeSystem _actionUpgrade = default!;
-    [Dependency] private readonly SharedMindSystem _mind = default!;
-    [Dependency] private readonly SharedAudioSystem _audio = default!;
-    [Dependency] private readonly StackSystem _stack = default!;
-    [Dependency] private readonly UserInterfaceSystem _ui = default!;
     [Dependency] private readonly NpcFactionSystem _npcFaction = default!;
-    [Dependency] private readonly RevSupplyRiftSystem _revSupplyRift = default!; // Starlight
+    [Dependency] private readonly SharedAudioSystem _audio = default!;
+    [Dependency] private readonly SharedHandsSystem _hands = default!;
+    [Dependency] private readonly StackSystem _stack = default!;
     [Dependency] private readonly LanguageSystem _languageSystem = default!; //Starlight
 
     private void InitializeUi()
@@ -83,102 +74,6 @@ public sealed partial class StoreSystem
             return;
 
         RaiseLocalEvent(entity.Comp.Store.Value, ev);
-    }
-
-    /// <summary>
-    /// Toggles the store Ui open and closed
-    /// </summary>
-    /// <param name="user">the person doing the toggling</param>
-    /// <param name="storeEnt">the store being toggled</param>
-    /// <param name="component"></param>
-    /// <param name="remoteAccess">The entity remotely accessing the store, if any.</param>
-    /// <param name="remoteComponent">The remote access component, if any.</param>
-    public void ToggleUi(EntityUid user, EntityUid storeEnt, StoreComponent? component = null, EntityUid? remoteAccess = null, RemoteStoreComponent? remoteComponent = null)
-    {
-        if (!Resolve(storeEnt, ref component))
-            return;
-
-        if (remoteAccess != null && !Resolve(remoteAccess.Value, ref remoteComponent) && remoteComponent!.Store != storeEnt)
-            return;
-
-        if (!TryComp<ActorComponent>(user, out var actor))
-            return;
-
-        if (!_ui.TryToggleUi(remoteAccess != null ? remoteAccess.Value : storeEnt, StoreUiKey.Key, actor.PlayerSession))
-            return;
-
-        UpdateUserInterface(user, storeEnt, component);
-    }
-
-    /// <summary>
-    /// Closes the store UI for everyone, if it's open
-    /// </summary>
-    public void CloseUi(EntityUid uid, StoreComponent? component = null)
-    {
-        if (!Resolve(uid, ref component))
-            return;
-
-        _ui.CloseUi(uid, StoreUiKey.Key);
-    }
-
-    /// <summary>
-    /// STARLIGHT: Updates the user interface for a store and refreshes the listings
-    /// </summary>
-    /// <param name="user">The person who if opening the store ui. Listings are filtered based on this.</param>
-    /// <param name="store">The store entity itself</param>
-    /// <param name="component">The store component being refreshed.</param>
-    public void UpdateUserInterface(EntityUid? user, EntityUid store, StoreComponent? component = null)
-    {
-        if (!Resolve(store, ref component))
-            return;
-
-        // STARLIGHT: Check if a rift has been destroyed and update the listing accordingly
-        // This ensures the rift listing remains unavailable even when the UI is refreshed
-        _revSupplyRift.CheckRiftDestroyedAndUpdateListing(component);
-
-        //this is the person who will be passed into logic for all listing filtering.
-        if (user != null) //if we have no "buyer" for this update, then don't update the listings
-        {
-            component.LastAvailableListings = GetAvailableListings(component.AccountOwner ?? user.Value, store, component)
-                .ToHashSet();
-        }
-
-        //dictionary for all currencies, including 0 values for currencies on the whitelist
-        Dictionary<ProtoId<CurrencyPrototype>, FixedPoint2> allCurrency = new();
-        foreach (var supported in component.CurrencyWhitelist)
-        {
-            allCurrency.Add(supported, FixedPoint2.Zero);
-
-            if (component.Balance.TryGetValue(supported, out var value))
-                allCurrency[supported] = value;
-        }
-
-        // TODO: if multiple users are supposed to be able to interact with a single BUI & see different
-        // stores/listings, this needs to use session specific BUI states.
-
-        // only tell operatives to lock their uplink if it can be locked
-        var showFooter = HasComp<RingerUplinkComponent>(store);
-
-        var state = new StoreUpdateState(component.LastAvailableListings, allCurrency, showFooter, component.RefundAllowed, component.Grid); // Starlight
-        UpdateRemoteStores(store, state);
-        _ui.SetUiState(store, StoreUiKey.Key, state);
-    }
-
-    /// <summary>
-    /// Updates any remote store connections to a specific store.
-    /// </summary>
-    /// <param name="store">The store being updated.</param>
-    /// <param name="state">The state being applied.</param>
-    public void UpdateRemoteStores(EntityUid store, StoreUpdateState state)
-    {
-        var query = EntityQueryEnumerator<RemoteStoreComponent, UserInterfaceComponent>();
-        while (query.MoveNext(out var uid, out var remote, out var ui))
-        {
-            if (remote.Store != store)
-                continue;
-
-            _ui.SetUiState((uid, ui), StoreUiKey.Key, state);
-        }
     }
 
     private void OnRequestUpdate(EntityUid uid, StoreComponent component, StoreRequestUpdateInterfaceMessage args)
@@ -282,7 +177,7 @@ public sealed partial class StoreSystem
             EntityUid? actionId;
             // I guess we just allow duplicate actions?
             // Allow duplicate actions and just have a single list buy for the buy-once ones.
-            if (listing.ApplyToMob || !_mind.TryGetMind(buyer, out var mind, out _))
+            if (listing.ApplyToMob || !Mind.TryGetMind(buyer, out var mind, out _))
                 actionId = _actions.AddAction(buyer, listing.ProductAction);
             else
                 actionId = _actionContainer.AddAction(mind, listing.ProductAction);
@@ -370,60 +265,21 @@ public sealed partial class StoreSystem
 
         _admin.Add(LogType.StorePurchase,
             logImpact,
-            $"{ToPrettyString(buyer):player} purchased listing \"{ListingLocalisationHelpers.GetLocalisedNameOrEntityName(listing, _proto)}\" from {ToPrettyString(uid)}{logExtraInfo}.");
+            $"{ToPrettyString(buyer):player} purchased listing \"{ListingLocalisationHelpers.GetLocalisedNameOrEntityName(listing, Proto)}\" from {ToPrettyString(uid)}{logExtraInfo}.");
 
         listing.PurchaseAmount++; //track how many times something has been purchased
         if (msg.SoundSource != null && GetEntity(msg.SoundSource) != null)
             _audio.PlayEntity(component.BuySuccessSound, msg.Actor, GetEntity(msg.SoundSource.Value)); //cha-ching!
 
-        // STARTLIGHT START: Check if this listing has a StockLimitedListingCondition
-        if (listing.Conditions != null)
-        {
-            foreach (var condition in listing.Conditions)
-            {
-                if (condition is StockLimitedListingCondition stockCondition)
-                {
-                    // Get the buyer's name
-                    var buyerName = "Unknown";
-                    if (TryComp(buyer, out MetaDataComponent? metadata))
-                    {
-                        buyerName = metadata.EntityName;
-                    }
-
-                    // Update the stock count and last purchaser
-                    StockLimitedListingCondition.OnItemPurchased(listing.ID, buyerName, stockCondition.StockLimit);
-                    break;
-                }
-            }
-        }
-
-        // STARLIGHT END
-
         var buyFinished = new StoreBuyFinishedEvent
         {
             PurchasedItem = listing,
-            StoreUid = uid
+            StoreUid = uid,
+            Buyer = buyer
         };
         RaiseLocalEvent(ref buyFinished);
 
-        // STARLIGHT: Raise an event to notify other systems that a purchase was completed
-        var purchaseCompletedEvent = new StorePurchaseCompletedEvent(listing.ID, uid, buyer);
-        RaiseLocalEvent(ref purchaseCompletedEvent);
-
         UpdateUserInterface(buyer, uid, component);
-
-        // STARLIGHT START: If this was a stock-limited item, update all USSP uplink UIs
-        if (listing.Conditions != null)
-        {
-            foreach (var condition in listing.Conditions)
-            {
-                if (condition is StockLimitedListingCondition)
-                {
-                    UpdateAllUSSPUplinkUIs();
-                    break;
-                }
-            }
-        }
 
         #region Starlight statistics
         var accu = 0f;
@@ -437,81 +293,6 @@ public sealed partial class StoreSystem
             listing.IsCostModified.ToString()
         ]).Observe(accu);
         #endregion
-    }
-
-    /// <summary>
-    /// Updates all USSP uplink UIs to ensure they show the latest stock counts and last purchaser information.
-    /// </summary>
-    public void UpdateAllUSSPUplinkUIs()
-    {
-        // Find all store components that are USSP uplinks
-        var query = EntityManager.EntityQuery<StoreComponent>();
-        foreach (var storeComp in query)
-        {
-            // Skip if this is not a USSP uplink
-            if (!storeComp.CurrencyWhitelist.Contains("Telebond"))
-                continue;
-
-            // Refresh all listings to ensure they have the latest stock count and last purchaser information
-            RefreshAllListings(storeComp);
-
-            // Force a refresh of the available listings
-            if (storeComp.AccountOwner != null)
-            {
-                storeComp.LastAvailableListings = GetAvailableListings(storeComp.AccountOwner.Value, storeComp.Owner, storeComp)
-                    .ToHashSet();
-            }
-
-            // Update the UI to reflect the changes
-            // We'll just update it with a null user to ensure the listings are refreshed
-            // The next time someone opens the UI, they'll see the updated listings
-            UpdateUserInterface(null, storeComp.Owner, storeComp);
-
-            // Force update the UI for all currently connected sessions
-            ForceUpdateUiForAllSessions(storeComp.Owner, storeComp);
-
-            Logger.DebugS("store", $"Updated USSP uplink UI for {ToPrettyString(storeComp.Owner)}");
-        }
-    }
-
-    /// <summary>
-    /// Forces an update of the UI for all sessions currently viewing this store.
-    /// This ensures that when stock counts or last purchaser information changes,
-    /// all open UIs are immediately updated.
-    /// </summary>
-    private void ForceUpdateUiForAllSessions(EntityUid storeUid, StoreComponent storeComp)
-    {
-        // Create the UI state
-        Dictionary<ProtoId<CurrencyPrototype>, FixedPoint2> allCurrency = new();
-        foreach (var supported in storeComp.CurrencyWhitelist)
-        {
-            allCurrency.Add(supported, FixedPoint2.Zero);
-
-            if (storeComp.Balance.TryGetValue(supported, out var value))
-                allCurrency[supported] = value;
-        }
-
-        // Only tell operatives to lock their uplink if it can be locked
-        var showFooter = HasComp<RingerUplinkComponent>(storeUid);
-
-    var state = new StoreUpdateState(storeComp.LastAvailableListings, allCurrency, showFooter, storeComp.RefundAllowed, storeComp.Grid); // Starlight
-
-        // Set the UI state - this will update all connected sessions automatically
-        _ui.SetUiState(storeUid, StoreUiKey.Key, state);
-
-        // Find all players who might have this uplink open
-        var query = EntityManager.EntityQuery<ActorComponent>();
-        foreach (var actor in query)
-        {
-            // Check if this player has the uplink implanted
-            if (TryComp<SubdermalImplantComponent>(storeUid, out var implant) &&
-                implant.ImplantedEntity == actor.Owner)
-            {
-                // Force update the UI for this player
-                UpdateUserInterface(actor.Owner, storeUid, storeComp);
-            }
-        }
-        // STARLIGHT END
     }
 
     /// <summary>
@@ -531,7 +312,7 @@ public sealed partial class StoreSystem
             return;
 
         //make sure a malicious client didn't send us random shit
-        if (!_proto.TryIndex<CurrencyPrototype>(msg.Currency, out var proto))
+        if (!Proto.TryIndex<CurrencyPrototype>(msg.Currency, out var proto))
             return;
 
         //we need an actually valid entity to spawn. This check has been done earlier, but just in case.
@@ -655,5 +436,6 @@ public sealed partial class StoreSystem
 [ByRefEvent]
 public readonly record struct StoreBuyFinishedEvent(
     EntityUid StoreUid,
-    ListingDataWithCostModifiers PurchasedItem
+    ListingDataWithCostModifiers PurchasedItem,
+    EntityUid Buyer
 );
