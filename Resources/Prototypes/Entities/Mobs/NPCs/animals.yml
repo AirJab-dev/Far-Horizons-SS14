@@ -1503,7 +1503,7 @@
 - type: entity
   name: monkey
   id: MobBaseSyndicateMonkey
-  parent: MobBaseAncestor
+  parent: [ AppearanceMonkey, MobBaseAncestor ] # Far Horizons
   description: New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
   suffix: syndicate base
   components:
