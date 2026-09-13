@@ -19750,5 +19750,19 @@ Entries:
   id: 174306
   time: '2026-09-13T13:41:38.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
+- author: RubiconLocked
+  changes:
+  - message: Pharmacists now properly spawn with NeoSol PDAs.
+    type: Fix
+  id: 174700
+  time: '2026-09-13T14:56:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1747
+- author: RubiconLocked
+  changes:
+  - message: Enforcer Loadouts now properly shows NeoSol PDAs instead of NanoTrasen.
+    type: Fix
+  id: 174701
+  time: '2026-09-13T14:56:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1747
 Order: -1
 
