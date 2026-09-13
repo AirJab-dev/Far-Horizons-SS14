@@ -1199,7 +1199,13 @@
   - DeputyCoatRed
   - DeputyDusterRed
 
-
+- type: loadoutGroup
+  id: SecurityPDANS
+  name: loadout-group-security-id
+  loadouts:
+    - EnforcerPDA
+    - SeniorEnforcerPDA
+  
 #region Brigmedic
 
 - type: loadoutGroup
