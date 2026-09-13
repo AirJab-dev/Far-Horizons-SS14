@@ -43,7 +43,10 @@ public sealed class WaggingSystem : EntitySystem
         cloneComp.Action = ent.Comp.Action;
         cloneComp.Layer = ent.Comp.Layer;
         cloneComp.Organ = ent.Comp.Organ;
-        cloneComp.Suffix = ent.Comp.Suffix;
+        // Starlight wagging
+        //cloneComp.Suffix = ent.Comp.Suffix;
+        cloneComp.Suffixes = ent.Comp.Suffixes;
+        // End of Starlight wagging
         AddComp(args.CloneUid, cloneComp, true);
     }
 

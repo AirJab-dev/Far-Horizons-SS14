@@ -44,9 +44,6 @@
     enum.HumanoidVisualLayers.Tail:
       limit: 1
       required: false
-    enum.HumanoidVisualLayers.HeadTop:
-      limit: 1
-      required: false
 
 - type: entity
   parent: BaseSpeciesAppearance

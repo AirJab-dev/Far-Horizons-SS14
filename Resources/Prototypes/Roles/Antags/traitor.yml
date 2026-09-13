@@ -94,7 +94,7 @@
   parent: SyndicateOperativeClothing
   equipment:
     pocket1: WeaponPistolViper
-    pocket2: MagazinePistolHighCapacity
+    pocket2: MagazinePistolHighCapacitySP # FH - add SP because of SL's magazine naming
   inhand:
     - ToolboxSyndicateFilled
   storage:
