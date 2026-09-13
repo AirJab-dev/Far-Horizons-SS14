@@ -28,8 +28,7 @@ public sealed class RadiationSystemTest : GameTest
             var sourceComponent = entMan.AddComponent<RadiationSourceComponent>(source);
 
             radiation.SetSourceEnabled((source, sourceComponent), false);
-            sourceComponent.Intensity = 10f;
-            sourceComponent.Slope = 0f;
+            radiation.SetIntensity((source, sourceComponent), 10f);
             radiation.SetSourceEnabled((source, sourceComponent), true);
 
             Assert.That(radiation.GetRadiationAtCoordinates(coordinates), Is.Zero);

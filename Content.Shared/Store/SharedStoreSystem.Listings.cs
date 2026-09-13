@@ -37,10 +37,9 @@ public abstract partial class SharedStoreSystem
         }
 
         component.FullListingsCatalog = newState;
-        
-        // STARLIGHT: Check if a rift has been destroyed and update the listing accordingly
-        // This ensures the rift listing remains unavailable even after reopening the uplink
-        _revSupplyRift.CheckRiftDestroyedAndUpdateListing(component);
+        // Far Horizons/Starlight: reapply server-side state to rebuilt listing instances.
+        var ev = new StoreListingsRefreshedEvent(component.Owner);
+        RaiseLocalEvent(ref ev);
     }
 
     /// <summary>

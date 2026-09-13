@@ -101,14 +101,6 @@ public sealed partial class StoreSystem
 
         var buyer = msg.Actor;
 
-        // STARLIGHT: Raise an event to allow other systems to potentially cancel this purchase
-        var purchaseAttemptEvent = new StorePurchaseAttemptEvent(listing.ID, uid, buyer);
-        RaiseLocalEvent(ref purchaseAttemptEvent);
-
-        // STARLIGHT: If the event handler requested cancellation, cancel the purchase
-        if (purchaseAttemptEvent.Cancel)
-            return;
-
         //verify that we can actually buy this listing and it wasn't added
         if (!ListingHasCategory(listing, component.Categories))
             return;
@@ -137,6 +129,13 @@ public sealed partial class StoreSystem
                 return;
             }
         }
+
+        // Far Horizons/Starlight: Reserve limited stock only after every ordinary purchase check has passed.
+        var purchaseAttemptEvent = new StorePurchaseAttemptEvent(listing.ID, uid, buyer);
+        RaiseLocalEvent(ref purchaseAttemptEvent);
+        if (purchaseAttemptEvent.Cancel)
+            return;
+        // End Far Horizons/Starlight
 
         if (component.RequireStartingMap && !IsOnStartingMap(uid, component)) // FH
             DisableRefund(uid, component);
@@ -437,5 +436,6 @@ public sealed partial class StoreSystem
 public readonly record struct StoreBuyFinishedEvent(
     EntityUid StoreUid,
     ListingDataWithCostModifiers PurchasedItem,
+    // Far Horizons/Starlight: identifies the purchaser for shared listing-stock accounting.
     EntityUid Buyer
 );

@@ -598,7 +598,6 @@ public sealed class USSPUplinkSystem : EntitySystem
     public void UpdateAllUplinkListings()
     {            
         // Use the StoreSystem's method to update all USSP uplink UIs
-        _storeSystem.UpdateAllUSSPUplinkUIs();
         
         // Get all head revolutionaries
         var headRevs = EntityManager.EntityQuery<HeadRevolutionaryComponent>();
