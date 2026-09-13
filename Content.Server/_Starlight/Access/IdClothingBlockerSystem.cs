@@ -57,11 +57,11 @@ public sealed class IdClothingBlockerSystem : SharedIdClothingBlockerSystem
 
     protected override void OnUnequipAttempt(EntityUid uid, IdClothingBlockerComponent component, BeingUnequippedAttemptEvent args)
     {
-        var wearerHasAccess = HasJobAccess(args.Unequipee, component);
+        var wearerHasAccess = HasJobAccess(args.UnEquipTarget, component);
         if (wearerHasAccess)
             return;
 
-        if (args.UnEquipTarget == args.Unequipee)
+        if (args.UnEquipTarget == args.User)
         {
             args.Cancel();
         }
