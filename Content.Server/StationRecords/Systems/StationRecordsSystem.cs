@@ -44,6 +44,8 @@ public sealed class StationRecordsSystem : SharedStationRecordsSystem
     [Dependency] private readonly StationRecordKeyStorageSystem _keyStorage = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly IdCardSystem _idCard = default!;
+    [Dependency] private readonly IRobustRandom _random = default!;
+    [Dependency] private readonly IServerFactionManager _factions = default!; // Far Horizons
 
     public override void Initialize()
     {
