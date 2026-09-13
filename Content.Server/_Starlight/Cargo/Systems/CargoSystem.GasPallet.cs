@@ -4,6 +4,7 @@ using Content.Server.Cargo.Components;
 using Content.Server.NodeContainer.EntitySystems;
 using Content.Server.NodeContainer.Nodes;
 using Content.Shared.Atmos;
+using Content.Shared.Atmos.Components;
 
 namespace Content.Server.Cargo.Systems;
 

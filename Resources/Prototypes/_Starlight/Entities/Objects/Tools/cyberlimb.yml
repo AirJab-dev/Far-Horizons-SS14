@@ -754,7 +754,6 @@
   suffix: grinder/juicer
   components:
     - type: ReagentGrinder
-      needsPower: false
       storageMaxEntities: 2
     - type: ActivatableUI
       key: enum.ReagentGrinderUiKey.Key

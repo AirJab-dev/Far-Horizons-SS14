@@ -1,7 +1,7 @@
 using System.Linq;
-using Content.Server.Atmos.Components;
 using Content.Server.Shuttles.Components;
 using Content.Server.Station.Components;
+using Content.Shared.Atmos.Components;
 using Content.Shared._FarHorizons.LimbDamage;
 using Content.Shared._FarHorizons.Vampire;
 using Content.Shared._FarHorizons.Vampire.Traits;
