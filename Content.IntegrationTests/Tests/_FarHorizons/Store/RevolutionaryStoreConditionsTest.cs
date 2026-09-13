@@ -1,6 +1,12 @@
+using System.Collections.Generic;
 using System.Linq;
 using Content.IntegrationTests.Fixtures;
+using Content.IntegrationTests.Tests.Interaction;
+using Content.Server.Implants;
+using Content.Shared.Implants;
+using Content.Shared.Implants.Components;
 using Content.Server.Store.Systems;
+using Content.Shared.FixedPoint;
 using Content.Shared.Revolutionary.Components;
 using Content.Shared.Store;
 using Content.Shared.Store.Components;
@@ -81,6 +87,86 @@ public sealed class RevolutionaryStoreConditionsTest : GameTest
             Buy(entMan, firstUplink, firstHeadRev);
             Assert.That(firstListing.PurchaseAmount, Is.EqualTo(1));
         });
+    }
+
+    public sealed class USSPUplinkImplantStoreTest : InteractionTest
+    {
+        [Test]
+        public async Task CarriedRadioReceivesConversion()
+        {
+            await Server.WaitPost(() =>
+            {
+                SEntMan.AddComponent<HeadRevolutionaryComponent>(SPlayer);
+                var radio = SEntMan.SpawnEntity(
+                    "USSPUplinkRadioPresetDebug",
+                    SEntMan.GetComponent<TransformComponent>(SPlayer).Coordinates);
+                var store = SEntMan.GetComponent<StoreComponent>(radio);
+
+                SEntMan.System<USSPUplinkSystem>().AddConversionToAllHeadRevs(
+                    SEntMan.System<StoreSystem>(),
+                    new Dictionary<EntityUid, EntityUid> { [SPlayer] = radio });
+
+                Assert.That(store.Balance["Conversion"], Is.EqualTo(FixedPoint2.New(1001)));
+            });
+        }
+
+        [Test]
+        public async Task ImplantsForSameHeadRevShareDetachedStore()
+        {
+            EntityUid firstImplant = default;
+            EntityUid secondImplant = default;
+            EntityUid thirdImplant = default;
+            EntityUid convertedRevolutionary = default;
+            EntityUid store = default;
+
+            await Server.WaitPost(() =>
+            {
+                SEntMan.AddComponent<HeadRevolutionaryComponent>(SPlayer);
+                var implantSystem = SEntMan.System<SharedSubdermalImplantSystem>();
+                firstImplant = implantSystem.AddImplant(SPlayer, "USSPUplinkImplant")!.Value;
+                convertedRevolutionary = SEntMan.SpawnEntity("MobHuman", SEntMan.GetComponent<TransformComponent>(SPlayer).Coordinates);
+                SEntMan.AddComponent<RevolutionaryComponent>(convertedRevolutionary);
+                SEntMan.AddComponent<RevolutionaryConvertedByComponent>(convertedRevolutionary).ConverterUid = SPlayer;
+                secondImplant = implantSystem.AddImplant(convertedRevolutionary, "USSPUplinkImplant")!.Value;
+
+                var firstRemote = SEntMan.GetComponent<RemoteStoreComponent>(firstImplant);
+                var secondRemote = SEntMan.GetComponent<RemoteStoreComponent>(secondImplant);
+                Assert.That(firstRemote.Store, Is.Not.Null);
+                Assert.That(firstRemote.Store, Is.EqualTo(secondRemote.Store));
+                Assert.That(SEntMan.HasComponent<StoreComponent>(firstImplant), Is.False);
+                Assert.That(SEntMan.HasComponent<StoreComponent>(secondImplant), Is.False);
+
+                store = firstRemote.Store!.Value;
+                Assert.That(store, Is.Not.EqualTo(firstImplant));
+                Assert.That(SEntMan.HasComponent<StoreComponent>(store), Is.True);
+                Assert.That(SEntMan.EntityQuery<RemoteStoreComponent>().Count(remote => remote.Store == store), Is.EqualTo(2));
+
+                var open = new OpenUplinkImplantEvent { Performer = SPlayer };
+                SEntMan.EventBus.RaiseLocalEvent(firstImplant, open);
+                Assert.That(SUiSys.IsUiOpen((firstImplant, null), StoreUiKey.Key, SPlayer), Is.True);
+                SUiSys.CloseUi(firstImplant, StoreUiKey.Key);
+                SEntMan.QueueDeleteEntity(firstImplant);
+            });
+
+            await RunTicks(5);
+            await Server.WaitAssertion(() =>
+            {
+                Assert.That(SEntMan.EntityExists(store), Is.True);
+                Assert.That(SEntMan.GetComponent<RemoteStoreComponent>(secondImplant).Store, Is.EqualTo(store));
+                SEntMan.QueueDeleteEntity(secondImplant);
+            });
+
+            await RunTicks(5);
+            await Server.WaitPost(() =>
+            {
+                Assert.That(SEntMan.EntityExists(store), Is.True);
+
+                var implantSystem = SEntMan.System<SharedSubdermalImplantSystem>();
+                thirdImplant = implantSystem.AddImplant(SPlayer, "USSPUplinkImplant")!.Value;
+                Assert.That(SEntMan.GetComponent<RemoteStoreComponent>(thirdImplant).Store, Is.EqualTo(store));
+                SEntMan.QueueDeleteEntity(thirdImplant);
+            });
+        }
     }
 
     [Test]

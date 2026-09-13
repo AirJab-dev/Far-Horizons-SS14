@@ -39,6 +39,10 @@ public sealed class UplinkSystem : EntitySystem
 
     private void OnRemoteStoreImplanted(Entity<RemoteStoreComponent> entity, ref ImplantImplantedEvent args)
     {
+        // Far Horizons: USSP implants create and manage their own detached revolutionary store.
+        if (MetaData(entity).EntityPrototype?.ID == "USSPUplinkImplant")
+            return;
+
         if (_mind.GetMind(args.Implanted) is not { } mind )
             return;
 
