@@ -1,4 +1,3 @@
-using System.Linq;
 using System.Diagnostics.CodeAnalysis;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Construction.Components;
@@ -8,7 +7,6 @@ using Content.Shared.Database;
 using Content.Shared.Examine;
 using Content.Shared.Interaction;
 using Content.Shared.Materials;
-using Content.Shared.Tag;
 using Content.Shared.Popups;
 using Content.Shared.Tools.Systems;
 using Robust.Shared.Audio.Systems;
@@ -37,7 +35,10 @@ public abstract class SharedFlatpackSystem : EntitySystem
     [Dependency] protected readonly MachinePartSystem MachinePart = default!;
     [Dependency] protected readonly SharedAppearanceSystem Appearance = default!;
     [Dependency] protected readonly SharedMaterialStorageSystem MaterialStorage = default!;
-    [Dependency] private readonly IRobustRandom _random = default!; // SL - random flatpack results
+
+#region Far Horizons
+    [Dependency] private readonly IRobustRandom _random = default!;
+#endregion Far Horizons
 
     /// <inheritdoc/>
     public override void Initialize()
@@ -75,7 +76,12 @@ public abstract class SharedFlatpackSystem : EntitySystem
 
         args.Handled = true;
 
-        if (comp.Entity == null && comp.RandomEntities == null) // SL - RandomEntities
+        // Starlight
+        if (comp.RandomEntities != null)
+            comp.Entity = _random.Pick(comp.RandomEntities);
+        // End Starlight
+
+        if (comp.Entity == null)
         {
             Log.Error($"No entity prototype present for flatpack {ToPrettyString(ent)}.");
 
@@ -83,11 +89,6 @@ public abstract class SharedFlatpackSystem : EntitySystem
                 QueueDel(ent);
             return;
         }
-
-        // SL - randomized flatpacks
-        if (comp.RandomEntities != null)
-            comp.Entity = _random.Pick(comp.RandomEntities);
-        // End SL
 
         if (!PrototypeManager.Resolve(comp.Entity, out var proto) ||
             !proto.TryGetComponent<FixturesComponent>(out var fixture, EntityManager.ComponentFactory))
