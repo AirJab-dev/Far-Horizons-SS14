@@ -466,7 +466,7 @@ namespace Content.Server.Atmos.EntitySystems
                     _damageableSystem.TryChangeDamage(uid, flammable.Damage * flammable.FireStacks * ev.Multiplier, interruptsDoAfters: false);
                     _limbDamage.ChangeDamageAll(uid, flammable.Damage * flammable.FireStacks * ev.Multiplier, interruptsDoAfters: false); // Far Horizons
 
-                    AdjustFireStacks(uid, flammable.FirestackFade * (flammable.Resisting ? 15f : 1f), flammable, flammable.OnFire);
+                    AdjustFireStacks(uid, flammable.FirestackFade * (flammable.Resisting ? 10f : 1f), flammable, flammable.OnFire); // Far Horizons - revert upstream balance change making fire resistance stronger (10f->15f)
                 }
                 else
                 {
