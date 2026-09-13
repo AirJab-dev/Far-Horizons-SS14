@@ -365,7 +365,7 @@ public sealed class RevolutionaryRuleSystem : GameRuleSystem<RevolutionaryRuleCo
         // Starlight: Add a component to track which head revolutionary converted this revolutionary
         if (ev.User != null && HasComp<HeadRevolutionaryComponent>(ev.User.Value))
         {
-            var converterComp = EnsureComp<RevolutionaryConverterComponent>(ev.Target);
+            var converterComp = EnsureComp<RevolutionaryConvertedByComponent>(ev.Target);
             converterComp.ConverterUid = ev.User.Value;
         }
         // Starlight End

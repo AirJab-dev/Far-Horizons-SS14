@@ -209,7 +209,7 @@ public sealed class USSPUplinkSystem : EntitySystem
             
             // Find all revolutionaries that were converted by this head revolutionary
             // and add telebonds for each one
-            var convertedRevs = EntityManager.EntityQuery<RevolutionaryComponent, RevolutionaryConverterComponent>();
+            var convertedRevs = EntityManager.EntityQuery<RevolutionaryComponent, RevolutionaryConvertedByComponent>();
             int convertedCount = 0;
             
             foreach (var (_, converterComp) in convertedRevs)

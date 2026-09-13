@@ -11,7 +11,7 @@ namespace Content.Shared.Revolutionary.Components
     /// from their converter.
     /// </summary>
     [RegisterComponent]
-    public sealed partial class RevolutionaryConverterComponent : Component
+    public sealed partial class RevolutionaryConvertedByComponent : Component
     {
         /// <summary>
         /// The entity UID of the head revolutionary who converted this revolutionary.
