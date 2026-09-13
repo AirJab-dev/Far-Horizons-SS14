@@ -19700,5 +19700,55 @@ Entries:
   id: 174101
   time: '2026-09-13T10:13:31.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1741
+- author: rain_enjoyer
+  changes:
+  - message: rewrote all of the species guidebook entries to be standardized
+    type: Tweak
+  id: 174300
+  time: '2026-09-13T13:41:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
+- author: rain_enjoyer
+  changes:
+  - message: renamed moths to Nianae
+    type: Tweak
+  id: 174301
+  time: '2026-09-13T13:41:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
+- author: rain_enjoyer
+  changes:
+  - message: renamed reptilians to Unathi
+    type: Tweak
+  id: 174302
+  time: '2026-09-13T13:41:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
+- author: rain_enjoyer
+  changes:
+  - message: added missing species information to their guidebook entries
+    type: Add
+  id: 174303
+  time: '2026-09-13T13:41:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
+- author: rain_enjoyer
+  changes:
+  - message: 30% rad resistance to moths, as a treat
+    type: Add
+  id: 174304
+  time: '2026-09-13T13:41:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
+- author: rain_enjoyer
+  changes:
+  - message: removed information that was not true from species guidebook entries
+    type: Remove
+  id: 174305
+  time: '2026-09-13T13:41:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
+- author: rain_enjoyer
+  changes:
+  - message: laspi not having double the natural regeneration of humands despite the
+      guidebook saying otherwise
+    type: Fix
+  id: 174306
+  time: '2026-09-13T13:41:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
 Order: -1
 
