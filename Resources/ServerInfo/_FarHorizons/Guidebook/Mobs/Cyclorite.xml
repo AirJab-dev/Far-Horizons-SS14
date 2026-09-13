@@ -10,8 +10,8 @@
   ## Racial Features
   - They breathe nitrogen.
   - Their blood is [color=#ffa500]copper[/color] based, thus being metabolised from it.
-  - They are significantly more sturdy, [color=#1e90ff]falling into crit at 1290 damage and dying at 240 damage[/color].
-  - additionally, they move [color=#ffa500]15% slower[/color].
+  - They are significantly more sturdy, [color=#1e90ff]falling into crit at 120 damage and dying at 240 damage[/color].
+  - additionally, they move [color=#ffa500]10% slower[/color].
   - Due to their size, they stretch external clothing to such an extent that they can fit two items on their back.
   - They take [color=#1e90ff]15% less blunt damage[/color] and [color=#1e90ff]25% less slash damage[/color].
   - Their punches deal [color=red]13[/color] blunt and [color=red]10[/color] structural, however [color=#ffa500]they swing 50% slower[/color].
@@ -19,7 +19,7 @@
 
 
   ## Nightvision
-  Cyclorites have a innate nightvision thanks to their eyes.
+  Cyclorites have innate nightvision due to their home planet having a thick atmosphere which allowed little to no visible light onto the surface.
   This allows them to see in pure darkness farther than any normal lightsource would allow.
   They will have normal vision when wearing any equipment that provides flash immunity.
   Using HUD variants allows you to keep your innate vision, at the cost of losing flash immunity.
