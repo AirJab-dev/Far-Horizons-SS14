@@ -19662,5 +19662,29 @@ Entries:
   id: 172701
   time: '2026-09-11T15:51:13.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1727
+- author: AthenaAI
+  changes:
+  - message: Instead of waiting for the full repair event armor will be repaired after
+      the first do after but will still have low health.
+    type: Tweak
+  id: 174200
+  time: '2026-09-13T06:10:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1742
+- author: AthenaAI
+  changes:
+  - message: Changed how many times you need to repair the parts from 0 to 100 to
+      just 5 loops.
+    type: Tweak
+  id: 174201
+  time: '2026-09-13T06:10:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1742
+- author: AthenaAI
+  changes:
+  - message: Fixed a bug where PA required to be equipped to be repaired else it'd
+      be bricked for the rest of round.
+    type: Fix
+  id: 174202
+  time: '2026-09-13T06:10:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1742
 Order: -1
 
