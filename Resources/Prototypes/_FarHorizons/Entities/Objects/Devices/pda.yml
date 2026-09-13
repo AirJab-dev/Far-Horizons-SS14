@@ -1241,6 +1241,25 @@
     accentHColor: "#004cae"
   - type: Icon
     state: pda-enforcer
+    
+- type: entity
+  parent: BaseEnforcerPDA
+  id: SeniorEnforcerPDA
+  name: Senior Enforcer PDA
+  description: Red to hide the stains of assistant blood.
+  components:
+  - type: Pda
+    id: EnforcerIDCard
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-seniorenforcer
+  - type: PdaBorderColor
+    borderColor: "#111230"
+    accentHColor: "#004cae"
+  - type: Icon
+    state: pda-seniorenforcer
 
 - type: entity
   parent: BaseEnforcerPDA
