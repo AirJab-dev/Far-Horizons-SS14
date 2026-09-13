@@ -5,12 +5,12 @@
     - id: PosterContrabandFreeTonto
     - id: PosterContrabandAtmosiaDeclarationIndependence
     - id: PosterContrabandFunPolice
-    - id: PosterContrabandLustyExomorph # SL
+    - id: PosterContrabandLustyExomorph # FH - Real -> Lusty, apparently
     - id: PosterContrabandSyndicateRecruitment
     - id: PosterContrabandClown
     - id: PosterContrabandSmoke
-    - id: PosterContrabandGreyTide
-    #- id: PosterContrabandMissingGloves # SL
+    #- id: PosterContrabandGreyTide # FH - removed
+    - id: PosterContrabandMissingGloves
     - id: PosterContrabandHackingGuide
     - id: PosterContrabandRIPBadger
     - id: PosterContrabandAmbrosiaVulgaris
@@ -36,7 +36,7 @@
     - id: PosterContrabandPunchShit
     - id: PosterContrabandTheGriffin
     - id: PosterContrabandFreeDrone
-    - id: PosterContrabandBustyBackdoorExoBabes6 # SL
+    - id: PosterContrabandBustyBackdoorExoBabes6 # FH - Rouny -> BustyBackdoorExoBabes6
     - id: PosterContrabandRobustSoftdrinks
     - id: PosterContrabandShamblersJuice
     - id: PosterContrabandPwrGame
@@ -63,29 +63,30 @@
     - id: PosterContrabandInterdyne
     - id: PosterContrabandWaffleCorp
     - id: PosterContrabandMissingSpacepen
-    #- id: PosterContrabandExoAcid # SL
-    #- id: PosterContrabandExoRun # SL
-    #- id: PosterContrabandExoChomp # SL
+    # FH - Exo* removed
+    #- id: PosterContrabandExoAcid
+    #- id: PosterContrabandExoRun
+    #- id: PosterContrabandExoChomp
     #region Starlight
-    - id: PosterContrabandYoutoolpia
-    - id: PosterContrabandDoCauseCancer
-    - id: PosterContrabandLnuGlorf
-    - id: PosterContrabandRobustVox
-    - id: PosterContrabandRobirdVox
-    - id: PosterContrabandForumPost
-    - id: PosterContrabandHaveYouSeenHimJohnToe
-    - id: PosterContrabandIlluminatePropaganda
-    - id: PosterContrabandHolyInsuls
-    - id: PosterContrabandFentsAndCo
-    - id: PosterContrabandWantedClown
-    - id: PosterContrabandWantedFreak
-    - id: PosterContrabandWantedIan
-    - id: PosterContrabandWantedJohnToe
-    - id: PosterContrabandWantedMimeSexy
-    - id: PosterContrabandWantedPunPun
-    - id: PosterContrabandWantedStirStir
-    - id: PosterContrabandWantedTraitor
-    - id: PosterContrabandSELF
+    - PosterContrabandYoutoolpia
+    - PosterContrabandDoCauseCancer
+    - PosterContrabandLnuGlorf
+    - PosterContrabandRobustVox
+    - PosterContrabandRobirdVox
+    - PosterContrabandForumPost
+    - PosterContrabandHaveYouSeenHimJohnToe
+    - PosterContrabandIlluminatePropaganda
+    - PosterContrabandHolyInsuls
+    - PosterContrabandFentsAndCo
+    - PosterContrabandWantedClown
+    - PosterContrabandWantedFreak
+    - PosterContrabandWantedIan
+    - PosterContrabandWantedJohnToe
+    - PosterContrabandWantedMimeSexy
+    - PosterContrabandWantedPunPun
+    - PosterContrabandWantedStirStir
+    - PosterContrabandWantedTraitor
+    - PosterContrabandSELF
     #endregion Starlight
 
 - type: entityTable
@@ -144,24 +145,26 @@
     - id: PosterLegitTyrone
     - id: PosterLegitHelio
     - id: PosterLegitBotanyFear
+    # FH - additional legit posters
+    - PosterLegitCalendar
+    - PosterLegitCleanHands
+    - PosterLegitEyeChart
+    # end FH
     #region Starlight
-    - id: PosterLegitCalendar
-    - id: PosterLegitCleanHands
-    - id: PosterLegitEyeChart
-    - id: PosterLegitSkillIssue
-    - id: PosterLegitShoeless
-    - id: PosterLegitDoNotCauseCancer
-    - id: PosterLegitRenaissanceFair
-    - id: PosterLegitKillEmAll
-    - id: PosterLegitHaveYouSeenHimJuanToe
-    - id: PosterLegitMaxCap
-    - id: PosterLegitRipleyCertified
-    - id: PosterLegitKillersClinic
-    - id: PosterlegitLawPoster
-    - id: PosterLegitSaline
-    - id: PosterLegitKeepItClean
-    - id: PosterLegitClock
-    - id: PosterLegitBonk
+    - PosterLegitSkillIssue
+    - PosterLegitShoeless
+    - PosterLegitDoNotCauseCancer
+    - PosterLegitRenaissanceFair
+    - PosterLegitKillEmAll
+    - PosterLegitHaveYouSeenHimJuanToe
+    - PosterLegitMaxCap
+    - PosterLegitRipleyCertified
+    - PosterLegitKillersClinic
+    - PosterlegitLawPoster
+    - PosterLegitSaline
+    - PosterLegitKeepItClean
+    - PosterLegitClock
+    - PosterLegitBonk
     #endregion Starlight
 
 - type: entity
