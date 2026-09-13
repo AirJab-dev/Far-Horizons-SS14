@@ -19686,5 +19686,19 @@ Entries:
   id: 174202
   time: '2026-09-13T06:10:43.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1742
+- author: Mizuki
+  changes:
+  - message: Added NS versions of security, command, and AI sentry control panels
+    type: Add
+  id: 174100
+  time: '2026-09-13T10:13:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1741
+- author: Mizuki
+  changes:
+  - message: Missing roles/accesses have been added to the sentry control panels
+    type: Fix
+  id: 174101
+  time: '2026-09-13T10:13:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1741
 Order: -1
 
