@@ -76,7 +76,7 @@
         children:
         - id: MindShieldImplanterNS
           amount: 4
-        - id: TrackingImplanter
+        - id: TrackingImplanterNS
           amount: 4
 
 - type: entity

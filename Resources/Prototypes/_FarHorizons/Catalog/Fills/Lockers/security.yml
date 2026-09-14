@@ -524,6 +524,7 @@
       - id: RubberStampCorpsman
       - id: PlushieMorgana
       - id: PlushieKiller
+      - id: ClothingBeltCorpsmanWeb
 
 #region Racks - NT
 
@@ -1105,9 +1106,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: ClothingOuterHardsuitSecurityHeavy
-    - id: ClothingHandsGlovesSecurityPowered
-    - id: ClothingShoesBootsMagAdvSec
+    - id: PowerArmorNTJuggernautFilled
     - id: ClothingMaskGasSecurityNoHailer
     - id: WeaponLightMachineGunM492
     - id: Rifle556HeavyMagazineSP
@@ -1383,7 +1382,7 @@
       - id: ClothingEyesVisorSecMedSyndi
       - id: WeaponDisabler
         amount: 2
-      - id: TrackingImplanter
+      - id: TrackingImplanterNS
         amount: 4
       - id: ClothingOuterHardsuitBrigmedicSyndi
         amount: 2
@@ -1416,7 +1415,7 @@
       - id: ClothingEyesEyepatchHudSecMedSyndi
       - id: ClothingEyesVisorSecMedSyndi
       - id: WeaponDisabler
-      - id: TrackingImplanter
+      - id: TrackingImplanterNS
         amount: 2
       - id: ClothingOuterHardsuitBrigmedicSyndi
       - id: BoxSterileMask
@@ -1452,7 +1451,7 @@
       - id: ClothingEyesEyepatchHudSecMedSyndi
       - id: ClothingEyesVisorSecMedSyndi
       - id: WeaponDisabler
-      - id: TrackingImplanter
+      - id: TrackingImplanterNS
         amount: 2
       - id: ClothingOuterHardsuitCorpsman #Needs respriting
       - id: BoxSterileMask 

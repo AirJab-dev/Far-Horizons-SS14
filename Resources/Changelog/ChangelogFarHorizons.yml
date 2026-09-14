@@ -19348,5 +19348,486 @@ Entries:
   id: 170000
   time: '2026-09-06T15:40:28.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1700
+- author: RubiconLocked
+  changes:
+  - message: RedSword Operatives now spawn with a X-01 with the proper RSO access.
+    type: Fix
+  id: 170600
+  time: '2026-09-08T14:54:20.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1706
+- author: Killer Tamashi
+  changes:
+  - message: Fixed WT500 spawner spawning with WT500 mags (we don't use them) instead
+      of SMG mags.
+    type: Fix
+  id: 170700
+  time: '2026-09-08T14:57:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1707
+- author: Killer Tamashi
+  changes:
+  - message: Fixed Mention of "Disabler" in code blue sop in the guidebook. It now
+      says taser.
+    type: Fix
+  id: 170701
+  time: '2026-09-08T14:57:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1707
+- author: mogaiskii
+  changes:
+  - message: Actually added NSHC2 to the rotation this time. Point and laugh.
+    type: Fix
+  id: 170800
+  time: '2026-09-08T15:00:29.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1708
+- author: KarusKardin
+  changes:
+  - message: Added NS variants of the Encryption Key Boxes
+    type: Add
+  id: 171000
+  time: '2026-09-08T15:06:49.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1710
+- author: KarusKardin
+  changes:
+  - message: Fixed Mailtech not having maintenance access on NS stations
+    type: Fix
+  id: 171001
+  time: '2026-09-08T15:06:49.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1710
+- author: KarusKardin
+  changes:
+  - message: Fixed EyeImplantDiagnostic not having Robotic in ShowHealthBars Component
+    type: Fix
+  id: 171002
+  time: '2026-09-08T15:06:49.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1710
+- author: Mizuki
+  changes:
+  - message: Added NS Tracking implant
+    type: Add
+  id: 171100
+  time: '2026-09-08T15:15:21.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1711
+- author: Mizuki
+  changes:
+  - message: Added NS Tracking implant crate, which can be bought through GSL
+    type: Add
+  id: 171101
+  time: '2026-09-08T15:15:21.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1711
+- author: Mizuki
+  changes:
+  - message: NS Implanter Crate now contains NS tracking implanters
+    type: Tweak
+  id: 171102
+  time: '2026-09-08T15:15:21.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1711
+- author: Mizuki
+  changes:
+  - message: Tracking implanter crates use their faction's access only
+    type: Tweak
+  id: 171103
+  time: '2026-09-08T15:15:21.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1711
+- author: Mizuki
+  changes:
+  - message: Active crit will now trigger rattler
+    type: Fix
+  id: 171104
+  time: '2026-09-08T15:15:21.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1711
+- author: Mizuki
+  changes:
+  - message: Added filled NS medicine locker
+    type: Add
+  id: 171200
+  time: '2026-09-08T15:21:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1712
+- author: RubiconLocked
+  changes:
+  - message: NeoSol engineering cyborgs now have a diagnostic HUD, like their NanoTrasen
+      counterparts.
+    type: Fix
+  id: 172000
+  time: '2026-09-09T17:39:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1720
+- author: idkAnAlliasYetTbh
+  changes:
+  - message: (PROMETHEUS) Added a Station Beacon to the Zookeepers 'office'.
+    type: Add
+  id: 170400
+  time: '2026-09-09T17:46:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1704
+- author: idkAnAlliasYetTbh
+  changes:
+  - message: (PROMETHEUS) Tweaked the zookeeper spawn point to have standard zookeeper
+      job equipment nearby.
+    type: Tweak
+  id: 170401
+  time: '2026-09-09T17:46:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1704
+- author: idkAnAlliasYetTbh
+  changes:
+  - message: (PROMETHEUS) Penguins now have an air scrubber and vent in their exhibit.
+      No more corpses on display! Hopefully...
+    type: Fix
+  id: 170402
+  time: '2026-09-09T17:46:54.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1704
+- author: RubiconLocked
+  changes:
+  - message: SKB Implants can now extract all Mindshield types.
+    type: Fix
+  id: 171900
+  time: '2026-09-09T17:50:00.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1719
+- author: Mizuki
+  changes:
+  - message: Multiple faction mindshields can no longer be implanted in the same entity
+    type: Fix
+  id: 172400
+  time: '2026-09-10T15:54:00.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1724
+- author: princess_gurchi
+  changes:
+  - message: Hydraulic leg is no longer roundstart implantable. It became a meta selection
+      that people felt they had to take because others took it, and this was never
+      an intention for roundstart cybernetics.
+    type: Remove
+  id: 172900
+  time: '2026-09-10T20:12:40.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1729
+- author: princess_gurchi
+  changes:
+  - message: Hydraulic leg moved to earlier research until it's reworked
+    type: Tweak
+  id: 172901
+  time: '2026-09-10T20:12:40.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1729
+- author: princess_gurchi
+  changes:
+  - message: Higher chance for station to spawn at planets other than gas giant
+    type: Tweak
+  id: 172902
+  time: '2026-09-10T20:12:40.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1729
+- author: RubiconLocked
+  changes:
+  - message: The ZOZ Shotgun that spawns with a extended magazine now only accepts
+      ZOZ magazines and sounds like a regular ZOZ would.
+    type: Fix
+  id: 173100
+  time: '2026-09-10T22:26:23.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1731
+- author: AngelCastle, Crecc, Erophosea, qriqii, mogaiskii
+  changes:
+  - message: 'Unity: warden office rework.'
+    type: Tweak
+  id: 173200
+  time: '2026-09-10T22:36:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1732
+- author: AngelCastle, Crecc, Erophosea, qriqii, mogaiskii
+  changes:
+  - message: 'Unity: new medicine lockers, new trackers.'
+    type: Tweak
+  id: 173201
+  time: '2026-09-10T22:36:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1732
+- author: AngelCastle, Crecc, Erophosea, qriqii, mogaiskii
+  changes:
+  - message: 'Core: new medicine lockers, new trackers.'
+    type: Tweak
+  id: 173202
+  time: '2026-09-10T22:36:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1732
+- author: AngelCastle, Crecc, Erophosea, qriqii, mogaiskii
+  changes:
+  - message: 'Core: solar airlocks linked, medbay buttons linked'
+    type: Fix
+  id: 173203
+  time: '2026-09-10T22:36:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1732
+- author: AngelCastle, Crecc, Erophosea, qriqii, mogaiskii
+  changes:
+  - message: 'Prometheus: new medicine lockers, new trackers.'
+    type: Tweak
+  id: 173204
+  time: '2026-09-10T22:36:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1732
+- author: AngelCastle, Crecc, Erophosea, qriqii, mogaiskii
+  changes:
+  - message: 'Prometheus: some external airlocks linked, salv dock aligned, crew server
+      installed, arti pipes fixed, theater access fixed'
+    type: Fix
+  id: 173205
+  time: '2026-09-10T22:36:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1732
+- author: AngelCastle, Crecc, Erophosea, qriqii, mogaiskii
+  changes:
+  - message: 'unity-evac: new medicine lockers.'
+    type: Tweak
+  id: 173206
+  time: '2026-09-10T22:36:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1732
+- author: Killer Tamashi
+  changes:
+  - message: Added Deputy/Sheriff themed clothing for NS/NT Security. Locked behind
+      general sec time of 50 hours.
+    type: Add
+  id: 172600
+  time: '2026-09-11T08:14:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1726
+- author: Killer Tamashi
+  changes:
+  - message: Added Missing chestrigs for BSO/Corps (and added those things into their
+      lockers as well)
+    type: Add
+  id: 172601
+  time: '2026-09-11T08:14:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1726
+- author: Killer Tamashi
+  changes:
+  - message: Changed Corpsman's blue colors to be more vibrant. Also redid the belt,
+      it bugged the hell out of me.
+    type: Tweak
+  id: 172602
+  time: '2026-09-11T08:14:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1726
+- author: Killer Tamashi
+  changes:
+  - message: Changed Brigmedic's rig to actually have.. brigmedic colors.
+    type: Tweak
+  id: 172603
+  time: '2026-09-11T08:14:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1726
+- author: Killer Tamashi
+  changes:
+  - message: Replaced Brigmedic's belt with new FH sprite.
+    type: Tweak
+  id: 172604
+  time: '2026-09-11T08:14:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1726
+- author: Killer Tamashi
+  changes:
+  - message: Medical Chest Rigs now hold medical items. Revolutionary, I know.
+    type: Tweak
+  id: 172605
+  time: '2026-09-11T08:14:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1726
+- author: Killer Tamashi
+  changes:
+  - message: Lowered hour requirement for Senior Security clothes to 30.
+    type: Tweak
+  id: 172606
+  time: '2026-09-11T08:14:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1726
+- author: Killer Tamashi
+  changes:
+  - message: Lowered hour requirement for the stickynote star to 20.
+    type: Tweak
+  id: 172607
+  time: '2026-09-11T08:14:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1726
+- author: Killer Tamashi
+  changes:
+  - message: Fixed Helmet to have flats and proper % reductions
+    type: Fix
+  id: 172608
+  time: '2026-09-11T08:14:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1726
+- author: Killer Tamashi
+  changes:
+  - message: Fixed Captain's Hardsuit Helmet also not having flats. And a weirdly
+      high rad resist stronger than the main suit.
+    type: Fix
+  id: 172609
+  time: '2026-09-11T08:14:52.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1726
+- author: Fasuh
+  changes:
+  - message: Changed resomi to allow them to not have ears.
+    type: Tweak
+  id: 173800
+  time: '2026-09-11T10:36:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1738
+- author: AthenaAI
+  changes:
+  - message: Adds new modular armor system.
+    type: Add
+  id: 172700
+  time: '2026-09-11T15:51:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1727
+- author: AthenaAI
+  changes:
+  - message: Updated the security juggernaut suit to the new modular armor system.
+    type: Tweak
+  id: 172701
+  time: '2026-09-11T15:51:13.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1727
+- author: AthenaAI
+  changes:
+  - message: Instead of waiting for the full repair event armor will be repaired after
+      the first do after but will still have low health.
+    type: Tweak
+  id: 174200
+  time: '2026-09-13T06:10:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1742
+- author: AthenaAI
+  changes:
+  - message: Changed how many times you need to repair the parts from 0 to 100 to
+      just 5 loops.
+    type: Tweak
+  id: 174201
+  time: '2026-09-13T06:10:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1742
+- author: AthenaAI
+  changes:
+  - message: Fixed a bug where PA required to be equipped to be repaired else it'd
+      be bricked for the rest of round.
+    type: Fix
+  id: 174202
+  time: '2026-09-13T06:10:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1742
+- author: Mizuki
+  changes:
+  - message: Added NS versions of security, command, and AI sentry control panels
+    type: Add
+  id: 174100
+  time: '2026-09-13T10:13:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1741
+- author: Mizuki
+  changes:
+  - message: Missing roles/accesses have been added to the sentry control panels
+    type: Fix
+  id: 174101
+  time: '2026-09-13T10:13:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1741
+- author: rain_enjoyer
+  changes:
+  - message: rewrote all of the species guidebook entries to be standardized
+    type: Tweak
+  id: 174300
+  time: '2026-09-13T13:41:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
+- author: rain_enjoyer
+  changes:
+  - message: renamed moths to Nianae
+    type: Tweak
+  id: 174301
+  time: '2026-09-13T13:41:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
+- author: rain_enjoyer
+  changes:
+  - message: renamed reptilians to Unathi
+    type: Tweak
+  id: 174302
+  time: '2026-09-13T13:41:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
+- author: rain_enjoyer
+  changes:
+  - message: added missing species information to their guidebook entries
+    type: Add
+  id: 174303
+  time: '2026-09-13T13:41:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
+- author: rain_enjoyer
+  changes:
+  - message: 30% rad resistance to moths, as a treat
+    type: Add
+  id: 174304
+  time: '2026-09-13T13:41:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
+- author: rain_enjoyer
+  changes:
+  - message: removed information that was not true from species guidebook entries
+    type: Remove
+  id: 174305
+  time: '2026-09-13T13:41:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
+- author: rain_enjoyer
+  changes:
+  - message: laspi not having double the natural regeneration of humands despite the
+      guidebook saying otherwise
+    type: Fix
+  id: 174306
+  time: '2026-09-13T13:41:38.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1743
+- author: RubiconLocked
+  changes:
+  - message: Pharmacists now properly spawn with NeoSol PDAs.
+    type: Fix
+  id: 174700
+  time: '2026-09-13T14:56:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1747
+- author: RubiconLocked
+  changes:
+  - message: Enforcer Loadouts now properly shows NeoSol PDAs instead of NanoTrasen.
+    type: Fix
+  id: 174701
+  time: '2026-09-13T14:56:28.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1747
+- author: Mizuki
+  changes:
+  - message: NT tracking implants have been replaced with NS implants in NS fills
+    type: Fix
+  id: 175100
+  time: '2026-09-14T14:20:17.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1751
+- author: KarusKardin
+  changes:
+  - message: Fixed OrganCyberLegLeft spriting error
+    type: Fix
+  id: 174900
+  time: '2026-09-14T14:22:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1749
+- author: FAR HORIZONS TEAM
+  changes:
+  - message: fixed typos in the cyclorite, felionoid and avali guidebook entries
+    type: Fix
+  id: 175000
+  time: '2026-09-14T15:09:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1750
+- author: FAR HORIZONS TEAM
+  changes:
+  - message: species guidebook now says which species need iron for their blood for
+      consistency's sake
+    type: Tweak
+  id: 175001
+  time: '2026-09-14T15:09:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1750
+- author: FAR HORIZONS TEAM
+  changes:
+  - message: Added a line about diona nymphs death memory
+    type: Add
+  id: 175002
+  time: '2026-09-14T15:09:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1750
+- author: FAR HORIZONS TEAM
+  changes:
+  - message: added a line about Thavens being able to use psicodine to help with moods.
+    type: Add
+  id: 175003
+  time: '2026-09-14T15:09:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1750
+- author: Killer Tamashi & qriqii
+  changes:
+  - message: Rebalanced backpacks to give them more space than satchels, at the cost
+      of a 5% speed reduction.
+    type: Tweak
+  id: 170500
+  time: '2026-09-14T15:21:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1705
+- author: Killer Tamashi & qriqii
+  changes:
+  - message: Increased duffel bag size by one column.
+    type: Tweak
+  id: 170501
+  time: '2026-09-14T15:21:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1705
+- author: Killer Tamashi & qriqii
+  changes:
+  - message: Moved waist bag to rig slot.
+    type: Tweak
+  id: 170502
+  time: '2026-09-14T15:21:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1705
 Order: -1
 
