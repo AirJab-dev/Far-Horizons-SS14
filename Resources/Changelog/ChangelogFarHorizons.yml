@@ -19778,5 +19778,34 @@ Entries:
   id: 174900
   time: '2026-09-14T14:22:08.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1749
+- author: FAR HORIZONS TEAM
+  changes:
+  - message: fixed typos in the cyclorite, felionoid and avali guidebook entries
+    type: Fix
+  id: 175000
+  time: '2026-09-14T15:09:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1750
+- author: FAR HORIZONS TEAM
+  changes:
+  - message: species guidebook now says which species need iron for their blood for
+      consistency's sake
+    type: Tweak
+  id: 175001
+  time: '2026-09-14T15:09:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1750
+- author: FAR HORIZONS TEAM
+  changes:
+  - message: Added a line about diona nymphs death memory
+    type: Add
+  id: 175002
+  time: '2026-09-14T15:09:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1750
+- author: FAR HORIZONS TEAM
+  changes:
+  - message: added a line about Thavens being able to use psicodine to help with moods.
+    type: Add
+  id: 175003
+  time: '2026-09-14T15:09:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1750
 Order: -1
 
