@@ -505,7 +505,7 @@
     - id: SecurityAmmoTechFabCircuitboardNS
     - id: CargoRequestSecurityComputerCircuitboard
     - id: WeaponDisabler
-    - id: WantedListCartridge
+    - id: WantedListCartridgeNS
     - id: DrinkMarshalFlask
     - id: SecurityShuttleConsoleCircuitboard
     - id: PrintedDocumentGreenshiftAlert
