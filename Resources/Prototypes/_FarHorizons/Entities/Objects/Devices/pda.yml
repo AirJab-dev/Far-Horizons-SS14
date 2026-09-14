@@ -446,7 +446,7 @@
     - NotekeeperCartridge
     - NanoTaskCartridge
     - NewsReaderCartridge
-    - WantedListCartridge
+    - WantedListCartridgeNS
     - NanoChatCartridge
 
 - type: entity
@@ -599,7 +599,7 @@
     - NotekeeperCartridge
     - NanoTaskCartridge
     - NewsReaderCartridge
-    - WantedListCartridge
+    - WantedListCartridgeNS
     - LogProbeCartridge
     - NanoChatCartridge
 
@@ -1172,7 +1172,7 @@
     - NotekeeperCartridge
     - NanoTaskCartridge
     - NewsReaderCartridge
-    - WantedListCartridge
+    - WantedListCartridgeNS
     - MedTekCartridge
     - NanoChatCartridge
 
@@ -1200,7 +1200,7 @@
     - NotekeeperCartridge
     - NanoTaskCartridge
     - NewsReaderCartridge
-    - WantedListCartridge
+    - WantedListCartridgeNS
     - MedTekCartridge
     - NanoChatCartridge
 
@@ -1304,7 +1304,7 @@
     - NotekeeperCartridge
     - NanoTaskCartridge
     - NewsReaderCartridge
-    - WantedListCartridge
+    - WantedListCartridgeNS
     - LogProbeCartridge
     - NanoChatCartridge
 
@@ -1471,7 +1471,7 @@
       - NanoTaskCartridge
       - NewsReaderCartridge
       - MedTekCartridge
-      - WantedListCartridge
+      - WantedListCartridgeNS
       - LogProbeCartridge
       - AstroNavCartridge
       - HullSenseCartridge

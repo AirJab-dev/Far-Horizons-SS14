@@ -256,6 +256,18 @@
 
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
+  id: ClothingUniformSecurityTshirt
+  name: T-Shirt Security Uniform
+  suffix: NT
+  description: Light and unrestrictive uniform, so that nothing can stop you from swinging a stunbaton.
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Clothing/Uniforms/Jumpsuit/security_tshirt_nt.rsi
+  - type: Clothing
+    sprite: _FarHorizons/Clothing/Uniforms/Jumpsuit/security_tshirt_nt.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitSecDeputy
   name: Deputy Jumpsuit
   suffix: NT
@@ -808,6 +820,18 @@
     sprite: _FarHorizons/Clothing/Uniforms/Jumpsuit/NeoSol/senior_officer.rsi
   - type: Clothing
     sprite: _FarHorizons/Clothing/Uniforms/Jumpsuit/NeoSol/senior_officer.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, BaseSecurityContraband]
+  id: ClothingUniformSecurityTshirtNS
+  name: T-Shirt Security Uniform
+  suffix: NS
+  description: Light and unrestrictive uniform, so that nothing can stop you from swinging a stunbaton.
+  components:
+  - type: Sprite
+    sprite: _Starlight/Clothing/Uniforms/Jumpsuit/security_tshirt.rsi
+  - type: Clothing
+    sprite: _Starlight/Clothing/Uniforms/Jumpsuit/security_tshirt.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
