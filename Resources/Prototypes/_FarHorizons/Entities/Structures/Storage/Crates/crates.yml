@@ -91,9 +91,9 @@
   suffix: NT, Secure
   components:
   - type: Icon
-    sprite: _FarHorizons\Structures\Storage\Crates\sec_gear_nt.rsi
+    sprite: _FarHorizons/Structures/Storage/Crates/sec_gear_nt.rsi
   - type: Sprite
-    sprite: _FarHorizons\Structures\Storage\Crates\sec_gear_nt.rsi
+    sprite: _FarHorizons/Structures/Storage/Crates/sec_gear_nt.rsi
   - type: AccessReader
     access: [["Security"], ["Cadet"]]
 
@@ -116,7 +116,7 @@
   description: An armory access locked crate for storing contraband confiscated from suspects or prisoners.
   components:
   - type: Sprite
-    sprite: _FarHorizons\Structures\Storage\Crates\sec_gear_nt.rsi
+    sprite: _FarHorizons/Structures/Storage/Crates/sec_gear_nt.rsi
   - type: AccessReader
     access: [["Armory"]]
 
