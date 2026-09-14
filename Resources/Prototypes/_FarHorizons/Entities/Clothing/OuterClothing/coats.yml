@@ -162,8 +162,6 @@
     damageCoefficient: 0.90
   - type: ZombificationResistance
     zombificationResistanceCoefficient: 0.75
-  - type: ExplosionResistance
-    damageCoefficient: 1
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterWindbreakerSecurity]
