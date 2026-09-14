@@ -103,6 +103,20 @@
     - SLPlushies
     - SLSpecies
     - SLCrew
+  # Far Horizons start
+  - type: CredstickStore
+    currency: NTCredit
+    credstickSlot:
+      name: pda-credstick-slot-name
+      ejectSound: /Audio/Machines/id_swipe.ogg
+      insertSound: /Audio/Machines/id_insert.ogg
+      whitelist:
+        tags:
+        - Credstick
+  - type: ContainerContainer
+    containers:
+      credstick-slot: !type:ContainerSlot {}
+  # Far Horizons end
 
 - type: entity
   parent: SLVendingMachine
@@ -120,6 +134,20 @@
     - SLFashionSuit
     - SLFashionHead
     - SLFashionOther
+  # Far Horizons start
+  - type: CredstickStore
+    currency: NTCredit
+    credstickSlot:
+      name: pda-credstick-slot-name
+      ejectSound: /Audio/Machines/id_swipe.ogg
+      insertSound: /Audio/Machines/id_insert.ogg
+      whitelist:
+        tags:
+        - Credstick
+  - type: ContainerContainer
+    containers:
+      credstick-slot: !type:ContainerSlot {}
+  # Far Horizons end
 
 - type: entity
   parent: SLVendingMachine
@@ -136,6 +164,20 @@
     - SLChemistry
     - SLMedical
     - SLSurgery
+  # Far Horizons start
+  - type: CredstickStore
+    currency: NTCredit
+    credstickSlot:
+      name: pda-credstick-slot-name
+      ejectSound: /Audio/Machines/id_swipe.ogg
+      insertSound: /Audio/Machines/id_insert.ogg
+      whitelist:
+        tags:
+        - Credstick
+  - type: ContainerContainer
+    containers:
+      credstick-slot: !type:ContainerSlot {}
+  # Far Horizons end
 
 - type: entity
   parent: SLVendingMachine
@@ -150,6 +192,20 @@
     name: vendor-engineering-dispenser
     categories:
     - SLEnginery
+  # Far Horizons start
+  - type: CredstickStore
+    currency: NTCredit
+    credstickSlot:
+      name: pda-credstick-slot-name
+      ejectSound: /Audio/Machines/id_swipe.ogg
+      insertSound: /Audio/Machines/id_insert.ogg
+      whitelist:
+        tags:
+        - Credstick
+  - type: ContainerContainer
+    containers:
+      credstick-slot: !type:ContainerSlot {}
+  # Far Horizons end
 
 - type: entity
   parent: SLVendingMachine
@@ -165,6 +221,20 @@
     - SLClown
   - type: Sprite
     sprite: _FarHorizons/Structures/Machines/CreditVendingMachines/hohohonkers.rsi #FH
+  # Far Horizons start
+  - type: CredstickStore
+    currency: NTCredit
+    credstickSlot:
+      name: pda-credstick-slot-name
+      ejectSound: /Audio/Machines/id_swipe.ogg
+      insertSound: /Audio/Machines/id_insert.ogg
+      whitelist:
+        tags:
+        - Credstick
+  - type: ContainerContainer
+    containers:
+      credstick-slot: !type:ContainerSlot {}
+  # Far Horizons end
 
 - type: entity
   parent: SLVendingMachine
@@ -180,6 +250,20 @@
     categories:
     - SLSecurity
     - SLBrigmedic
+  # Far Horizons start
+  - type: CredstickStore
+    currency: NTCredit
+    credstickSlot:
+      name: pda-credstick-slot-name
+      ejectSound: /Audio/Machines/id_swipe.ogg
+      insertSound: /Audio/Machines/id_insert.ogg
+      whitelist:
+        tags:
+        - Credstick
+  - type: ContainerContainer
+    containers:
+      credstick-slot: !type:ContainerSlot {}
+  # Far Horizons end
 
 - type: entity
   parent: SLVendingMachine
