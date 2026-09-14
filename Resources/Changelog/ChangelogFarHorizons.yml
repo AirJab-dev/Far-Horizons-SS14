@@ -19764,5 +19764,12 @@ Entries:
   id: 174701
   time: '2026-09-13T14:56:28.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1747
+- author: Mizuki
+  changes:
+  - message: NT tracking implants have been replaced with NS implants in NS fills
+    type: Fix
+  id: 175100
+  time: '2026-09-14T14:20:17.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1751
 Order: -1
 
