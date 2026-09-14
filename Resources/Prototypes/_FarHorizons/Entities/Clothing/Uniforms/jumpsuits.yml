@@ -265,8 +265,8 @@
     sprite: _FarHorizons/Clothing/Uniforms/Jumpsuit/security_tshirt_nt.rsi
   - type: Clothing
     sprite: _FarHorizons/Clothing/Uniforms/Jumpsuit/security_tshirt_nt.rsi
- 
- - type: entity
+
+- type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitSecDeputy
   name: Deputy Jumpsuit
@@ -832,8 +832,8 @@
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/security_tshirt.rsi
   - type: Clothing
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/security_tshirt.rsi
-    
- - type: entity
+
+- type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitSecDeputySyndi
   name: Deputy Jumpsuit
