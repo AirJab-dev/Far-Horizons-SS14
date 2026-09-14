@@ -260,7 +260,7 @@
     stampedColor: "#003860"
     stampState: "paper_stamp-warden"
   - type: Sprite
-    sprite: _FarHorizons\Objects\Misc\stamps.rsi
+    sprite: _FarHorizons/Objects/Misc/stamps.rsi
     state: stamp-warden
 
 - type: entity
@@ -275,7 +275,7 @@
     stampedColor: "#0060a5"
     stampState: "paper_stamp-hos"
   - type: Sprite
-    sprite: _FarHorizons\Objects\Misc\stamps.rsi
+    sprite: _FarHorizons/Objects/Misc/stamps.rsi
     state: stamp-hos
 
 - type: entity
