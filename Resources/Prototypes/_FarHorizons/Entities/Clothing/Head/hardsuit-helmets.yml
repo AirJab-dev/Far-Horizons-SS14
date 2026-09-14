@@ -188,57 +188,31 @@
   description: A heavily armored helmet designed for work in special operations. Property of LAMBDA Hardliners.
   components:
   - type: Sprite
-    sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner.rsi #Far Horizons
+    sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner.rsi
   - type: Clothing
-    sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner.rsi #Far Horizons
-    clothingVisuals: # STARLIGHT
+    sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner.rsi
+    clothingVisuals:
       head:
         - state: off-equipped-HELMET
-          # shader: unshaded 
       head-vox:
         - state: off-equipped-HELMET-vox
-          # shader: unshaded
-      head-cyclorite:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
-      head-vulpkanin:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
-      head-felionoid:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
       head-resomi:
         - state: off-equipped-HELMET-resomi
-          # shader: unshaded #FH
       head-avali:
         - state: off-equipped-HELMET-avali
-          # shader: unshaded #FH
-  - type: ToggleableVisuals # STARLIGHT
+  - type: ToggleableVisuals 
     clothingVisuals:
       head:
         - state: on-equipped-HELMET
-          # shader: unshaded
       head-vox:
         - state: on-equipped-HELMET-vox
-          # shader: unshaded
-      head-cyclorite:
-        - state: on-equipped-HELMET
-      #     shader: unshaded
-      head-vulpkanin: #FH
-        - state: on-equipped-HELMET
-      #     shader: unshaded
-      head-felionoid:
-        - state: on-equipped-HELMET
-      #     shader: unshaded
-      head-resomi: #FH
+      head-resomi:
         - state: on-equipped-HELMET-resomi
-      #     shader: unshaded
       head-avali:
         - state: on-equipped-HELMET-avali
-      #     shader: unshaded
   - type: PointLight
     color: cyan
-    radius: 6 #STARLIGHT
+    radius: 6
     energy: 5
   - type: PressureProtection
     highPressureMultiplier: 0.08
@@ -250,7 +224,7 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
-  - type: LimbArmor # Far Horizons
+  - type: LimbArmor
     limbs:
       Head:
         flatReductions:
@@ -263,7 +237,7 @@
           Heat: 0.5
           Radiation: 0.5
           Caustic: 0.5
-  - type: Hailer # STARLIGHT
+  - type: Hailer
     hailMessage: "Death to NeoSol!!"
     hailSound:
       path: /Audio/_Starlight/Effects/nano_death.ogg
@@ -276,7 +250,6 @@
 
 #region Lambda infil helmet
 - type: entity
-  # parent: ClothingHeadHardsuitBase
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitLambdaInfiltration
   name: Lambda Infiltration Hardsuit "Hades" Helmet
@@ -286,52 +259,26 @@
   - type: Sprite
     sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner_infiltration.rsi
   - type: Clothing
-    sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner_infiltration.rsi #Far Horizons
-    clothingVisuals: # STARLIGHT
+    sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner_infiltration.rsi
+    clothingVisuals:
       head:
         - state: off-equipped-HELMET
-          # shader: unshaded 
       head-vox:
         - state: off-equipped-HELMET-vox
-          # shader: unshaded
-      head-cyclorite:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
-      head-vulpkanin:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
-      head-felionoid:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
       head-resomi:
         - state: off-equipped-HELMET-resomi
-          # shader: unshaded #FH
       head-avali:
         - state: off-equipped-HELMET-avali
-          # shader: unshaded #FH
-  - type: ToggleableVisuals # STARLIGHT
+  - type: ToggleableVisuals 
     clothingVisuals:
       head:
         - state: on-equipped-HELMET
-          # shader: unshaded
       head-vox:
         - state: on-equipped-HELMET-vox
-          # shader: unshaded
-      head-cyclorite:
-        - state: on-equipped-HELMET
-      #     shader: unshaded
-      head-vulpkanin: #FH
-        - state: on-equipped-HELMET
-      #     shader: unshaded
-      head-felionoid:
-        - state: on-equipped-HELMET
-      #     shader: unshaded
-      head-resomi: #FH
+      head-resomi:
         - state: on-equipped-HELMET-resomi
-      #     shader: unshaded
       head-avali:
         - state: on-equipped-HELMET-avali
-      #     shader: unshaded
   - type: PointLight 
     color: cyan
     radius: 6 
@@ -344,10 +291,10 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.9 #FH
-        Slash: 0.9 #FH
-        Piercing: 0.9 #FH
-  - type: LimbArmor # Far Horizons
+        Blunt: 0.9 
+        Slash: 0.9 
+        Piercing: 0.9 
+  - type: LimbArmor 
     limbs:
       Head:
         flatReductions:
@@ -360,7 +307,7 @@
           Heat: 0.6
           Radiation: 0.6
           Caustic: 0.6
-  - type: Hailer #FH
+  - type: Hailer 
     hailMessage: "Death to NeoSol!!"
     hailSound:
       path: /Audio/_Starlight/Effects/nano_death.ogg
@@ -380,54 +327,24 @@
     sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner_elite.rsi
   - type: Clothing
     sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner_elite.rsi
-    clothingVisuals: # STARLIGHT
+    clothingVisuals:
       head:
         - state: off-equipped-HELMET
-          # shader: unshaded 
       head-vox:
         - state: off-equipped-HELMET-vox
-          # shader: unshaded
-      head-cyclorite:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
-      head-vulpkanin:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
-      head-felionoid:
-        - state: off-equipped-HELMET
-          shader: unshaded #FH
-      head-resomi:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
       head-avali:
         - state: off-equipped-HELMET-avali
-          # shader: unshaded #FH
-  - type: ToggleableVisuals # STARLIGHT
+  - type: ToggleableVisuals 
     clothingVisuals:
       head:
         - state: on-equipped-HELMET
-          # shader: unshaded
       head-vox:
         - state: on-equipped-HELMET-vox
-          # shader: unshaded
-      head-cyclorite:
-        - state: on-equipped-HELMET
-      #     shader: unshaded
-      head-felionoid:
-        - state: on-equipped-HELMET
-      #     shader: unshaded
-      head-vulpkanin:
-        - state: on-equipped-HELMET
-      #     shader: unshaded
-      head-resomi:
-        - state: on-equipped-HELMET
-      #     shader: unshaded
       head-avali:
         - state: on-equipped-HELMET-avali
-      #     shader: unshaded
   - type: PointLight
     color: red
-    radius: 6 #STARLIGHT
+    radius: 6
     energy: 5
   - type: PressureProtection
     highPressureMultiplier: 0.08
@@ -444,7 +361,7 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
-  - type: LimbArmor # Far Horizons
+  - type: LimbArmor
     limbs:
       Head:
         flatReductions:
@@ -460,7 +377,7 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-  - type: Hailer # STARLIGHT
+  - type: Hailer
     hailMessage: "Death to NeoSol!!"
     hailSound:
       path: /Audio/_Starlight/Effects/nano_death.ogg
@@ -481,51 +398,25 @@
     sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner_medical.rsi
   - type: Clothing
     sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner_medical.rsi
-    clothingVisuals: # STARLIGHT
+    clothingVisuals:
       head:
         - state: off-equipped-HELMET
-          # shader: unshaded 
       head-vox:
         - state: off-equipped-HELMET-vox
-          # shader: unshaded
-      head-cyclorite:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
-      head-vulpkanin:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
-      head-felionoid:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
       head-resomi:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
+        - state: off-equipped-HELMET-resomi
       head-avali:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
-  - type: ToggleableVisuals # STARLIGHT
+        - state: off-equipped-HELMET-avali
+  - type: ToggleableVisuals
     clothingVisuals:
       head:
         - state: on-equipped-HELMET
-          # shader: unshaded
       head-vox:
         - state: on-equipped-HELMET-vox
-          # shader: unshaded
-      head-cyclorite:
-        - state: on-equipped-HELMET
-          # shader: unshaded
-      head-felionoid:
-        - state: on-equipped-HELMET
-          # shader: unshaded
       head-resomi:
-        - state: on-equipped-HELMET
-          # shader: unshaded
-      head-vulpkanin:
-        - state: on-equipped-HELMET
-          # shader: unshaded
+        - state: on-equipped-HELMET-resomi
       head-avali:
-        - state: on-equipped-HELMET
-          # shader: unshaded
+        - state: on-equipped-HELMET-avali
   - type: PointLight
     color: cyan
     radius: 6 #STARLIGHT
@@ -578,12 +469,6 @@
         - state: off-equipped-HELMET
       head-vox:
         - state: off-equipped-HELMET-vox
-      head-cyclorite:
-        - state: off-equipped-HELMET
-      head-vulpkanin:
-        - state: off-equipped-HELMET
-      head-felionoid:
-        - state: off-equipped-HELMET
       head-resomi:
         - state: off-equipped-HELMET-resomi
       head-avali:
@@ -592,28 +477,15 @@
     clothingVisuals:
       head:
         - state: on-equipped-HELMET
-          # shader: unshaded
       head-vox:
         - state: on-equipped-HELMET-vox
-          # shader: unshaded
-      head-cyclorite:
-        - state: on-equipped-HELMET
-      #     shader: unshaded
-      head-vulpkanin:
-        - state: on-equipped-HELMET
-      #     shader: unshaded
-      head-felionoid:
-        - state: on-equipped-HELMET
-      #     shader: unshaded
       head-resomi:
         - state: on-equipped-HELMET-resomi
-      #     shader: unshaded
       head-avali:
         - state: on-equipped-HELMET-avali
-      #     shader: unshaded
   - type: PointLight
     color: red
-    radius: 7 #STARLIGHT
+    radius: 7
     energy: 5
   - type: PressureProtection
     highPressureMultiplier: 0.3
@@ -638,13 +510,13 @@
           Heat: 0.2
           Radiation: 0.2
           Caustic: 0.2
-  - type: Hailer # STARLIGHT
-    hailMessage: "Who wants a piece of me!?" # FH
-    hailSound: # FH
-      path: /Audio/Machines/custom_deny.ogg # FH
-      params: # FH
-        volume: -100 # FH - shut
-    cooldownDuration: 5 #FH
+  - type: Hailer
+    hailMessage: "Who wants a piece of me!?"
+    hailSound: 
+      path: /Audio/Machines/custom_deny.ogg
+      params: 
+        volume: -100 # shut
+    cooldownDuration: 5
   - type: Tag
     tags:
     - WhitelistChameleon
@@ -658,45 +530,31 @@
   description: A bulked up version of the "Spartan" hardsuit's helmet, proving the user came to wage war.
   components:
   - type: Sprite
-    sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner_commander.rsi #Far Horizons
+    sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner_commander.rsi
   - type: Clothing
-    sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner_commander.rsi #Far Horizons
-    clothingVisuals: # STARLIGHT
+    sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner_commander.rsi
+    clothingVisuals:
       head:
         - state: off-equipped-HELMET
       head-vox:
         - state: off-equipped-HELMET-vox
-      head-cyclorite:
-        - state: off-equipped-HELMET
-      head-vulpkanin:
-        - state: off-equipped-HELMET
-      head-felionoid:
-        - state: off-equipped-HELMET
       head-resomi:
         - state: off-equipped-HELMET-resomi
       head-avali:
-        - state: off-equipped-HELMET
-        # - state: off-equipped-HELMET-avali
-  - type: ToggleableVisuals # STARLIGHT
+        - state: off-equipped-HELMET-avali
+  - type: ToggleableVisuals
     clothingVisuals:
       head:
         - state: on-equipped-HELMET
       head-vox:
         - state: on-equipped-HELMET-vox
-      head-cyclorite:
-        - state: on-equipped-HELMET
-      head-vulpkanin:
-        - state: on-equipped-HELMET
-      head-felionoid:
-        - state: on-equipped-HELMET
       head-resomi:
         - state: on-equipped-HELMET-resomi
       head-avali:
-        - state: on-equipped-HELMET
-        # - state: on-equipped-HELMET-avali
+        - state: on-equipped-HELMET-avali
   - type: PointLight
     color: cyan
-    radius: 7 #STARLIGHT
+    radius: 7
     energy: 5
   - type: PressureProtection
     highPressureMultiplier: 0.08
@@ -708,7 +566,7 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
-  - type: LimbArmor # Far Horizons
+  - type: LimbArmor
     limbs:
       Head:
         flatReductions:
@@ -721,7 +579,7 @@
           Heat: 0.5
           Radiation: 0.25
           Caustic: 0.4
-  - type: Hailer # STARLIGHT
+  - type: Hailer
     hailMessage: "Death to NeoSol!!"
     hailSound:
       path: /Audio/_Starlight/Effects/nano_death.ogg

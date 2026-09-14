@@ -152,7 +152,7 @@
 - type: entity
   parent: [ BaseSyndicateContraband, ClothingHeadHelmetBase ]
   id: ClothingHeadHelmetLambdaRaid
-  name: Lambda Raid Helmet "Apollo" #Far Horizons - The Great Capitalization Crusade
+  name: Lambda Raid Helmet "Apollo"
   suffix: NT
   description: An armored helmet for use with the "Apollo" raid suit. Very stylish.
   components:
@@ -160,17 +160,11 @@
     sprite: _FarHorizons/Clothing/Head/Helmets/hardliner_raid.rsi
   - type: Clothing
     sprite: _FarHorizons/Clothing/Head/Helmets/hardliner_raid.rsi
-    clothingVisuals: # STARLIGHT
+    clothingVisuals:
       head:
         - state: equipped-HELMET
       head-vox:
         - state: equipped-HELMET-vox
-      head-cyclorite:
-        - state: equipped-HELMET
-      head-vulpkanin:
-        - state: equipped-HELMET
-      head-felionoid:
-        - state: equipped-HELMET
       head-resomi:
         - state: equipped-HELMET-resomi
       head-avali:
@@ -178,13 +172,13 @@
   - type: Pierceable
     level: Metal
   - type: Armor
-    modifiers: #There's gotta be SOME reason to use this over other helmets.
+    modifiers:
       coefficients:
         Blunt: 0.85
         Slash: 0.85
         Piercing: 0.85
         Heat: 0.85
-  - type: LimbArmor # Far Horizons
+  - type: LimbArmor
     limbs:
       Head: {}
   - type: HideLayerClothing

@@ -792,24 +792,13 @@
     sprite: _FarHorizons/Clothing/OuterClothing/Armor/hardliner_raid.rsi
     layers:
     - state: icon
-    # - state: light-overlay 
-    #   visible: false
-    #   shader: unshaded
   - type: Clothing
     sprite: _FarHorizons/Clothing/OuterClothing/Armor/hardliner_raid.rsi
     clothingVisuals:
       outerClothing:
         - state: equipped-OUTERCLOTHING
-      outerClothing-reptilian:
-        - state: equipped-OUTERCLOTHING
       outerClothing-vox:
         - state: equipped-OUTERCLOTHING-vox
-      outerClothing-cyclorite:
-        - state: equipped-OUTERCLOTHING
-      outerClothing-felionoid:
-        - state: equipped-OUTERCLOTHING
-      outerClothing-vulpkanin:
-        - state: equipped-OUTERCLOTHING
       outerClothing-resomi:
         - state: equipped-OUTERCLOTHING-resomi
       outerClothing-avali:
@@ -818,20 +807,17 @@
     level: Metal
   - type: Armor
     modifiers:
-      flatReductions: #FH
-        Piercing: 5 #FH
-        Heat: 4 #FH
+      flatReductions:
+        Piercing: 5
+        Heat: 4 
       coefficients:
         Blunt: 0.45
         Slash: 0.45
         Piercing: 0.35
         Heat: 0.3
         Caustic: 0.5
-    # Starlight-start
     staminaModifier: 0.1
-#    ignoreKnockdown: true - FH not a combat hardsuit
-    # Starlight-end
-  - type: LimbArmor # Far Horizons
+  - type: LimbArmor 
     limbs:
       ArmRight: {}
       ArmLeft: {}
@@ -848,16 +834,8 @@
     clothingVisuals:
       outerClothing:
         - state: equipped-OUTERCLOTHING-light
-      outerClothing-reptilian:
-        - state: equipped-OUTERCLOTHING-light
       outerClothing-vox:
         - state: equipped-OUTERCLOTHING-light-vox
-      outerClothing-cyclorite:
-        - state: equipped-OUTERCLOTHING-light
-      outerClothing-felionoid:
-        - state: equipped-OUTERCLOTHING-light
-      outerClothing-vulpkanin:
-        - state: equipped-OUTERCLOTHING-light
       outerClothing-resomi:
         - state: equipped-OUTERCLOTHING-light-resomi
       outerClothing-avali:

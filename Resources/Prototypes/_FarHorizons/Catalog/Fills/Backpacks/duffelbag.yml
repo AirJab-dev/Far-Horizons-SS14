@@ -502,7 +502,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelLambdaHardsuitBundle
-  name: Lambda "Spartan" Hardsuit Bundle #FH
+  name: Lambda "Spartan" Hardsuit Bundle
   description: Contains the Lambda Hardliner's signature "Spartan" hardsuit.
   suffix: NT
   components:
@@ -537,7 +537,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelLambdaEliteHardsuitBundle
-  name: Lambda "Helios" Hardsuit Bundle #FH
+  name: Lambda "Helios" Hardsuit Bundle
   description: Contains Lambda's "Helios" hardsuit, which comes with some more stuff in it.
   suffix: NT
   components:
