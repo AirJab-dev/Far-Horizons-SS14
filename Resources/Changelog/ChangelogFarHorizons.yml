@@ -19829,5 +19829,180 @@ Entries:
   id: 170502
   time: '2026-09-14T15:21:34.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1705
+- author: Vonte
+  changes:
+  - message: some capitalisation and file location related to things I changed.
+    type: Fix
+  id: 170900
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: Security windbreaker variant for NT
+    type: Fix
+  id: 170901
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: Security bomber variant for NT
+    type: Fix
+  id: 170902
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: Security gloves variant for NT
+    type: Fix
+  id: 170903
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: HoS & Warden's stamps variants for NT
+    type: Fix
+  id: 170904
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: Armory and security door remote variants for NT
+    type: Fix
+  id: 170905
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: secglasses variant for NT
+    type: Fix
+  id: 170906
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: red gaiter, bandana and scarf all swapped to blue variants in NT Secdrobe
+    type: Fix
+  id: 170907
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: crisis button sprite for NT
+    type: Fix
+  id: 170908
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: security lock box variant for NT
+    type: Add
+  id: 170909
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: security crate variants for NT
+    type: Add
+  id: 170910
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: lizard job plushie variations for NT
+    type: Add
+  id: 170911
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: HoS's flask variation for NT
+    type: Add
+  id: 170912
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: sec tshirt variant for NT
+    type: Add
+  id: 170913
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: sec jetpack variant for NT
+    type: Add
+  id: 170914
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: sec figurine variants for NT
+    type: Add
+  id: 170915
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: perscription secglasses variant for NT
+    type: Add
+  id: 170916
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: deployable barrier variant for NT
+    type: Add
+  id: 170917
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: holobarrier projector variant for NT
+    type: Add
+  id: 170918
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: security whistle variant for NT
+    type: Add
+  id: 170919
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: blue gaiter
+    type: Add
+  id: 170920
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: Security medal variant for NT
+    type: Add
+  id: 170921
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: Security Bolas for NT sec
+    type: Add
+  id: 170922
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: Wanted list cartridge variant for NT
+    type: Add
+  id: 170923
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: Vonte
+  changes:
+  - message: Paddy variants for NT
+    type: Add
+  id: 170924
+  time: '2026-09-14T21:06:14.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
 Order: -1
 
