@@ -12,7 +12,7 @@ namespace Content.Server._Starlight.Store.Systems;
 /// <summary>
 /// Synchronizes stock-limited revolutionary listings across every revolutionary uplink.
 /// </summary>
-public sealed class RevUplinkStockLimitedListingSystem : EntitySystem
+public sealed partial class RevUplinkStockLimitedListingSystem : EntitySystem
 {
     [Dependency] private readonly StoreSystem _store = default!;
     [Dependency] private readonly IPrototypeManager _proto = default!;

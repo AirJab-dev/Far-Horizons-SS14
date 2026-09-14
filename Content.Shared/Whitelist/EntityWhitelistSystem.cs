@@ -6,9 +6,9 @@ using Robust.Shared.Utility;
 
 namespace Content.Shared.Whitelist;
 
-public sealed class EntityWhitelistSystem : EntitySystem
+public sealed partial class EntityWhitelistSystem : EntitySystem
 {
-    [Dependency] private readonly TagSystem _tag = default!;
+    [Dependency] private TagSystem _tag = default!;
 
     [Dependency] private readonly EntityQuery<ItemComponent> _itemQuery = default!;
 

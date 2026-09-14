@@ -48,7 +48,15 @@ namespace Content.Shared.Cargo
         [DataField]
         public ProtoId<CargoAccountPrototype> Account;
 
-        public CargoOrderData(int orderId, ProtoId<CargoProductPrototype> product, int amount, string requester, string reason, ProtoId<CargoAccountPrototype> account)
+        #region Starlight
+        /// <summary>
+        /// The ID of the station this order belongs to.
+        /// </summary>
+        [DataField]
+        public NetEntity StationId;
+        #endregion
+
+        public CargoOrderData(int orderId, ProtoId<CargoProductPrototype> product, int amount, string requester, string reason, ProtoId<CargoAccountPrototype> account, NetEntity stationId) // Starlight: +stationId
         {
             OrderId = orderId;
             Product = product;
@@ -56,6 +64,7 @@ namespace Content.Shared.Cargo
             Requester = requester;
             Reason = reason;
             Account = account;
+            StationId = stationId; // Starlight
         }
 
         public void SetApproverData(string? approver)

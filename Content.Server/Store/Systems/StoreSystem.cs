@@ -12,9 +12,13 @@ using Content.Shared.Access.Systems;
 
 namespace Content.Server.Store.Systems;
 
+/// <summary>
+/// Manages general interactions with a store and different entities,
+/// getting listings for stores, and interfacing with the store UI.
+/// </summary>
 public sealed partial class StoreSystem : SharedStoreSystem
 {
-    [Dependency] private readonly AccessReaderSystem _accessReader = default!; // Starlight
+    [Dependency] private AccessReaderSystem _accessReader = default!; // Starlight
     public override void Initialize()
     {
         base.Initialize();
