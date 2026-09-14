@@ -350,11 +350,11 @@
       outerClothing-felionoid:
         - state: equipped-OUTERCLOTHING
       outerClothing-vulpkanin:
-        - state: equipped-OUTERCLOTHING
+        - state: equipped-OUTERCLOTHING-vulpkanin
       outerClothing-resomi:
-        - state: equipped-OUTERCLOTHING
+        - state: equipped-OUTERCLOTHING-resomi
       outerClothing-avali:
-        - state: equipped-OUTERCLOTHING
+        - state: equipped-OUTERCLOTHING-avali
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -427,6 +427,23 @@
   - type: Item
     size: Huge
     sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_infiltration.rsi
+    clothingVisuals:
+      outerClothing:
+        - state: equipped-OUTERCLOTHING
+      outerClothing-reptilian:
+        - state: equipped-OUTERCLOTHING
+      outerClothing-vox:
+        - state: equipped-OUTERCLOTHING-vox
+      outerClothing-cyclorite:
+        - state: equipped-OUTERCLOTHING
+      outerClothing-felionoid:
+        - state: equipped-OUTERCLOTHING
+      outerClothing-vulpkanin:
+        - state: equipped-OUTERCLOTHING
+      outerClothing-resomi:
+        - state: equipped-OUTERCLOTHING-resomi
+      outerClothing-avali:
+        - state: equipped-OUTERCLOTHING-avali
   - type: PressureProtection
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 10000
@@ -523,9 +540,9 @@
       outerClothing-vulpkanin:
         - state: equipped-OUTERCLOTHING
       outerClothing-resomi:
-        - state: equipped-OUTERCLOTHING
+        - state: equipped-OUTERCLOTHING-resomi
       outerClothing-avali:
-        - state: equipped-OUTERCLOTHING
+        - state: equipped-OUTERCLOTHING-avali
     equipSound: /Audio/Mecha/mechmove03.ogg #starlight
     unequipSound: /Audio/Mecha/mechmove03.ogg #starlight
   - type: PressureProtection
@@ -616,9 +633,9 @@
       outerClothing-vulpkanin:
         - state: equipped-OUTERCLOTHING
       outerClothing-resomi:
-        - state: equipped-OUTERCLOTHING
+        - state: equipped-OUTERCLOTHING-resomi
       outerClothing-avali:
-        - state: equipped-OUTERCLOTHING
+        - state: equipped-OUTERCLOTHING-avali
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitLambdaMedic
   - type: ZombificationResistance
@@ -661,9 +678,9 @@
       outerClothing-felionoid: 
         - state: equipped-OUTERCLOTHING
       outerClothing-resomi:
-        - state: equipped-OUTERCLOTHING
+        - state: equipped-OUTERCLOTHING-resomi
       outerClothing-avali:
-        - state: equipped-OUTERCLOTHING
+        - state: equipped-OUTERCLOTHING-avali
   - type: PressureProtection
     highPressureMultiplier: 0.2
     lowPressureMultiplier: 1000
@@ -747,11 +764,11 @@
       outerClothing-felionoid:
         - state: equipped-OUTERCLOTHING
       outerClothing-vulpkanin:
-        - state: equipped-OUTERCLOTHING
+        - state: equipped-OUTERCLOTHING-vulpkanin
       outerClothing-resomi:
-        - state: equipped-OUTERCLOTHING
+        - state: equipped-OUTERCLOTHING-resomi
       outerClothing-avali:
-        - state: equipped-OUTERCLOTHING
+        - state: equipped-OUTERCLOTHING-avali
     equipSound: /Audio/Mecha/mechmove03.ogg #starlight
     unequipSound: /Audio/Mecha/mechmove03.ogg #starlight
   - type: PressureProtection

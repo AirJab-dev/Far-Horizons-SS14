@@ -208,10 +208,10 @@
         - state: off-equipped-HELMET
           # shader: unshaded #FH
       head-resomi:
-        - state: off-equipped-HELMET
+        - state: off-equipped-HELMET-resomi
           # shader: unshaded #FH
       head-avali:
-        - state: off-equipped-HELMET
+        - state: off-equipped-HELMET-avali
           # shader: unshaded #FH
   - type: ToggleableVisuals # STARLIGHT
     clothingVisuals:
@@ -231,10 +231,10 @@
         - state: on-equipped-HELMET
       #     shader: unshaded
       head-resomi: #FH
-        - state: on-equipped-HELMET
+        - state: on-equipped-HELMET-resomi
       #     shader: unshaded
       head-avali:
-        - state: on-equipped-HELMET
+        - state: on-equipped-HELMET-avali
       #     shader: unshaded
   - type: PointLight
     color: cyan
@@ -304,10 +304,10 @@
         - state: off-equipped-HELMET
           # shader: unshaded #FH
       head-resomi:
-        - state: off-equipped-HELMET
+        - state: off-equipped-HELMET-resomi
           # shader: unshaded #FH
       head-avali:
-        - state: off-equipped-HELMET
+        - state: off-equipped-HELMET-avali
           # shader: unshaded #FH
   - type: ToggleableVisuals # STARLIGHT
     clothingVisuals:
@@ -327,10 +327,10 @@
         - state: on-equipped-HELMET
       #     shader: unshaded
       head-resomi: #FH
-        - state: on-equipped-HELMET
+        - state: on-equipped-HELMET-resomi
       #     shader: unshaded
       head-avali:
-        - state: on-equipped-HELMET
+        - state: on-equipped-HELMET-avali
       #     shader: unshaded
   - type: PointLight 
     color: cyan
@@ -400,7 +400,7 @@
         - state: off-equipped-HELMET
           # shader: unshaded #FH
       head-avali:
-        - state: off-equipped-HELMET
+        - state: off-equipped-HELMET-avali
           # shader: unshaded #FH
   - type: ToggleableVisuals # STARLIGHT
     clothingVisuals:
@@ -423,7 +423,7 @@
         - state: on-equipped-HELMET
       #     shader: unshaded
       head-avali:
-        - state: on-equipped-HELMET
+        - state: on-equipped-HELMET-avali
       #     shader: unshaded
   - type: PointLight
     color: red
@@ -573,29 +573,22 @@
     sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner_heavy.rsi
   - type: Clothing
     sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner_heavy.rsi
-    clothingVisuals: # STARLIGHT
+    clothingVisuals:
       head:
         - state: off-equipped-HELMET
-          # shader: unshaded 
       head-vox:
         - state: off-equipped-HELMET-vox
-          # shader: unshaded
       head-cyclorite:
         - state: off-equipped-HELMET
-          # shader: unshaded #FH
       head-vulpkanin:
         - state: off-equipped-HELMET
-          # shader: unshaded #FH
       head-felionoid:
         - state: off-equipped-HELMET
-          shader: unshaded #FH
       head-resomi:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
+        - state: off-equipped-HELMET-resomi
       head-avali:
-        - state: off-equipped-HELMET
-          # shader: unshaded #FH
-  - type: ToggleableVisuals # STARLIGHT
+        - state: off-equipped-HELMET-avali
+  - type: ToggleableVisuals
     clothingVisuals:
       head:
         - state: on-equipped-HELMET
@@ -613,10 +606,10 @@
         - state: on-equipped-HELMET
       #     shader: unshaded
       head-resomi:
-        - state: on-equipped-HELMET
+        - state: on-equipped-HELMET-resomi
       #     shader: unshaded
       head-avali:
-        - state: on-equipped-HELMET
+        - state: on-equipped-HELMET-avali
       #     shader: unshaded
   - type: PointLight
     color: red
@@ -662,7 +655,7 @@
   id: ClothingHeadHelmetHardsuitLambdaCommander
   name: Lambda Commander Hardsuit "Ares" Helmet
   suffix: NT
-  description: A bulked up version of the "Spartan" hardsuit's helmet, allowing the user to prove they came to wage war.
+  description: A bulked up version of the "Spartan" hardsuit's helmet, proving the user came to wage war.
   components:
   - type: Sprite
     sprite: _FarHorizons/Clothing/Head/Hardsuits/hardliner_commander.rsi #Far Horizons
@@ -671,55 +664,36 @@
     clothingVisuals: # STARLIGHT
       head:
         - state: off-equipped-HELMET
-        # - state: off-equipped-HELMET-unshaded
-          # shader: unshaded 
       head-vox:
         - state: off-equipped-HELMET-vox
-        # - state: off-equipped-HELMET-unshaded-vox
-          # shader: unshaded
       head-cyclorite:
         - state: off-equipped-HELMET
-        # - state: off-equipped-HELMET-unshaded-cyclorite #FH
-          # shader: unshaded #FH
       head-vulpkanin:
         - state: off-equipped-HELMET
-        # - state: off-equipped-HELMET-unshaded-vulpkanin #FH
-          # shader: unshaded #FH
       head-felionoid:
         - state: off-equipped-HELMET
-        # - state: off-equipped-HELMET-unshaded-felionoid #FH
-          shader: unshaded #FH
       head-resomi:
-        - state: off-equipped-HELMET
-        # - state: off-equipped-HELMET-unshaded-resomi #FH
-          # shader: unshaded #FH
+        - state: off-equipped-HELMET-resomi
       head-avali:
         - state: off-equipped-HELMET
-        # - state: off-equipped-HELMET-unshaded-avali #FH
-          # shader: unshaded #FH
+        # - state: off-equipped-HELMET-avali
   - type: ToggleableVisuals # STARLIGHT
     clothingVisuals:
       head:
         - state: on-equipped-HELMET
-          # shader: unshaded
       head-vox:
         - state: on-equipped-HELMET-vox
-          # shader: unshaded
-      # head-cyclorite:
-      #   - state: on-equipped-HELMET-unshaded-cyclorite
-      #     shader: unshaded
-      # head-vulpkanin:
-      #   - state: on-equipped-HELMET-unshaded-vulpkanin
-      #     shader: unshaded
-      # head-felionoid:
-      #   - state: on-equipped-HELMET-unshaded-felionoid
-      #     shader: unshaded
-      # head-resomi:
-      #   - state: on-equipped-HELMET-unshaded-resomi
-      #     shader: unshaded
-      # head-avali:
-      #   - state: on-equipped-HELMET-unshaded-avali
-      #     shader: unshaded
+      head-cyclorite:
+        - state: on-equipped-HELMET
+      head-vulpkanin:
+        - state: on-equipped-HELMET
+      head-felionoid:
+        - state: on-equipped-HELMET
+      head-resomi:
+        - state: on-equipped-HELMET-resomi
+      head-avali:
+        - state: on-equipped-HELMET
+        # - state: on-equipped-HELMET-avali
   - type: PointLight
     color: cyan
     radius: 7 #STARLIGHT

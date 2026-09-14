@@ -160,6 +160,21 @@
     sprite: _FarHorizons/Clothing/Head/Helmets/hardliner_raid.rsi
   - type: Clothing
     sprite: _FarHorizons/Clothing/Head/Helmets/hardliner_raid.rsi
+    clothingVisuals: # STARLIGHT
+      head:
+        - state: equipped-HELMET
+      head-vox:
+        - state: equipped-HELMET-vox
+      head-cyclorite:
+        - state: equipped-HELMET
+      head-vulpkanin:
+        - state: equipped-HELMET
+      head-felionoid:
+        - state: equipped-HELMET
+      head-resomi:
+        - state: equipped-HELMET-resomi
+      head-avali:
+        - state: equipped-HELMET-avali
   - type: Pierceable
     level: Metal
   - type: Armor
