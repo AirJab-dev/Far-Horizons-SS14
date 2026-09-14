@@ -1382,7 +1382,7 @@
       - id: ClothingEyesVisorSecMedSyndi
       - id: WeaponDisabler
         amount: 2
-      - id: TrackingImplanter
+      - id: TrackingImplanterNS
         amount: 4
       - id: ClothingOuterHardsuitBrigmedicSyndi
         amount: 2
@@ -1415,7 +1415,7 @@
       - id: ClothingEyesEyepatchHudSecMedSyndi
       - id: ClothingEyesVisorSecMedSyndi
       - id: WeaponDisabler
-      - id: TrackingImplanter
+      - id: TrackingImplanterNS
         amount: 2
       - id: ClothingOuterHardsuitBrigmedicSyndi
       - id: BoxSterileMask
@@ -1451,7 +1451,7 @@
       - id: ClothingEyesEyepatchHudSecMedSyndi
       - id: ClothingEyesVisorSecMedSyndi
       - id: WeaponDisabler
-      - id: TrackingImplanter
+      - id: TrackingImplanterNS
         amount: 2
       - id: ClothingOuterHardsuitCorpsman #Needs respriting
       - id: BoxSterileMask 
