@@ -611,7 +611,7 @@
         - id: FlashlightSeclite
         - id: ClothingHandsGlovesCombat
         - id: ClothingShoesBootsCombat
-        - id: TrackingImplanter
+        - id: TrackingImplanterNS
           amount: 3
         - id: MedkitAdvancedFilled
         - id: WeaponPistolDP 
