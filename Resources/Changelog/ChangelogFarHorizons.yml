@@ -19771,5 +19771,12 @@ Entries:
   id: 175100
   time: '2026-09-14T14:20:17.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1751
+- author: KarusKardin
+  changes:
+  - message: Fixed OrganCyberLegLeft spriting error
+    type: Fix
+  id: 174900
+  time: '2026-09-14T14:22:08.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1749
 Order: -1
 
