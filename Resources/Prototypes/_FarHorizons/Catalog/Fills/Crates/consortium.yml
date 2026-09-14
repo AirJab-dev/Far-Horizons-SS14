@@ -50,17 +50,18 @@
 
 #region Lambda Juggsuit
 - type: entity
-  parent: CrateSyndicate
+  parent: CrateConsortium
   id: CrateLambdaJuggernautBundle
   name: Lambda "Polyphemus" Juggernaut Bundle
   suffix: NT, Filled
   description: Contains everything except a big gun to go postal.
   components:
-  - type: EntityTableContainerFill
-    containers:
-      entity_storage: !type:AllSelector
-        children:
-        - id: ClothingOuterHardsuitLambdaJuggernaut
-        - id: ClothingHandsGlovesSyndicatePowered
-        - !type:NestedSelector
-          tableId: SyndicateHardsuitExtrasEntityTable
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitLambdaJuggernaut
+      - id: ClothingHandsGlovesSyndicatePowered
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+      - id: EmergencyCoolingUnit

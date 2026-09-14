@@ -500,7 +500,7 @@
 
 #region base lambda hardsuit
 - type: entity
-  parent: ClothingBackpackDuffelSyndicateBundle
+  parent: ClothingBackpackDuffelLambdaBundle
   id: ClothingBackpackDuffelLambdaHardsuitBundle
   name: Lambda "Spartan" Hardsuit Bundle
   description: Contains the Lambda Hardliner's signature "Spartan" hardsuit.
@@ -516,7 +516,7 @@
 
 #region Lambda Infil suit
 - type: entity
-  parent: ClothingBackpackDuffelSyndicateBundle
+  parent: ClothingBackpackDuffelLambdaBundle
   id: ClothingBackpackDuffelLambdaInfiltration
   name: Lambda "Hades" Hardsuit Bundle
   description: Contains the Lambda "Hades" hardsuit. Perfect for infiltration.
@@ -535,7 +535,7 @@
 
 #region lambda elite suit
 - type: entity
-  parent: ClothingBackpackDuffelSyndicateBundle
+  parent: ClothingBackpackDuffelLambdaBundle
   id: ClothingBackpackDuffelLambdaEliteHardsuitBundle
   name: Lambda "Helios" Hardsuit Bundle
   description: Contains Lambda's "Helios" hardsuit, which comes with some more stuff in it.
