@@ -19807,5 +19807,27 @@ Entries:
   id: 175003
   time: '2026-09-14T15:09:41.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1750
+- author: Killer Tamashi & qriqii
+  changes:
+  - message: Rebalanced backpacks to give them more space than satchels, at the cost
+      of a 5% speed reduction.
+    type: Tweak
+  id: 170500
+  time: '2026-09-14T15:21:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1705
+- author: Killer Tamashi & qriqii
+  changes:
+  - message: Increased duffel bag size by one column.
+    type: Tweak
+  id: 170501
+  time: '2026-09-14T15:21:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1705
+- author: Killer Tamashi & qriqii
+  changes:
+  - message: Moved waist bag to rig slot.
+    type: Tweak
+  id: 170502
+  time: '2026-09-14T15:21:34.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1705
 Order: -1
 
