@@ -15,7 +15,6 @@ using Content.Shared.DeviceNetwork.Events;
 using JetBrains.Annotations;
 using Robust.Server.GameObjects;
 using Content.Shared.DeviceNetwork.Components;
-using Content.Shared.Atmos.Components;
 
 namespace Content.Server.Atmos.Piping.Binary.EntitySystems
 {

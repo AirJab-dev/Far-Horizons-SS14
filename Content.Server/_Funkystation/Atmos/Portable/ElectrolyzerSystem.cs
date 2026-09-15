@@ -15,7 +15,6 @@ using Content.Shared.Tag;
 using Content.Shared._Funkystation.Atmos.Visuals;
 using Robust.Server.Audio;
 using Robust.Shared.Audio;
-using Content.Shared.Atmos.Components;
 
 namespace Content.Server._Funkystation.Atmos.Portable;
 
