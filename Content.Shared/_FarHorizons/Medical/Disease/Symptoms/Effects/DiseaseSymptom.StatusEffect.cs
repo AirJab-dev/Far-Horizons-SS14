@@ -22,10 +22,10 @@ public sealed partial class SymptomStatusEffect : SymptomBehavior
 
 public sealed partial class SymptomStatusEffect
 {
-    [Dependency] private readonly SharedEntityEffectsSystem _effects = default!;
-    [Dependency] private readonly IGameTiming _timing = default!;
-    [Dependency] private readonly IEntityManager _entMan = default!;
-    [Dependency] private readonly INetManager _net = default!;
+    [Dependency] private SharedEntityEffectsSystem _effects = default!;
+    [Dependency] private IGameTiming _timing = default!;
+    [Dependency] private IEntityManager _entMan = default!;
+    [Dependency] private INetManager _net = default!;
 
     /// <summary>
     /// Executes the status effects.
