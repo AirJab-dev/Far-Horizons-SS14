@@ -20004,5 +20004,21 @@ Entries:
   id: 170924
   time: '2026-09-14T21:06:14.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1709
+- author: AthenaAI
+  changes:
+  - message: Fixes the issue with plasma being ignited at ridiculous low levels of
+      concentration.
+    type: Fix
+  id: 175900
+  time: '2026-09-15T15:57:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1759
+- author: AthenaAI
+  changes:
+  - message: Readds the ability of hypernob preventing atmos fires if there is enough
+      concentration.
+    type: Fix
+  id: 175901
+  time: '2026-09-15T15:57:31.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1759
 Order: -1
 
