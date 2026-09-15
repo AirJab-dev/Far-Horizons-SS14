@@ -10,6 +10,7 @@ using Content.Shared.Mind;
 using Content.Shared.PDA;
 using Content.Shared.Store;
 using Content.Shared.Store.Components;
+using Content.Shared._FarHorizons.PDA;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
 
@@ -131,6 +132,9 @@ public sealed partial class UplinkSystem : EntitySystem
         }
 
         SetUplink(user, storeEntity, balance, giveDiscounts);
+        // Far Horizons: Only PDAs given a traitor store may use any traitor's ringer code.
+        if (HasComp<PdaComponent>(uplinkEntity))
+            EnsureComp<RingerCapablePDAComponent>(uplinkEntity.Value);
 
         return true;
     }
