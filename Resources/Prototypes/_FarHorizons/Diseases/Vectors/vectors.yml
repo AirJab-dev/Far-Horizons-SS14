@@ -1,5 +1,15 @@
 - type: Vector
   id: Bacteria
+  stats:
+    stealth: 0
+    resistance: 0
+    speed: 0
+    transmittable: 0
+  timers:
+    stage01: 240
+    stage12: 180
+    stage23: 120
+    stage34: 60
 
 - type: Vector
   id: Virus
