@@ -79,8 +79,8 @@
         2: 0.04
     - symptom: SymptomSneeze
       probability:
-      1: 0.02
-      2: 0.04
+        1: 0.02
+        2: 0.04
     - symptom: SymptomToxin
   cureSteps:
   - !type:CureConditions

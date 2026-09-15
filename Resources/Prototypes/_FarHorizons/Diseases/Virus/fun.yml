@@ -14,7 +14,7 @@
     probability:
       1: 0.02
       2: 0.04
-  - symptom: SymptomGaspa
+  - symptom: SymptomGasp
     probability:
       3: 0.05
   - symptom: SymptomGib
