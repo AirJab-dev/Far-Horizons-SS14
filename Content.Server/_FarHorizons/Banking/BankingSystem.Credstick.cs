@@ -27,27 +27,6 @@ public sealed partial class BankingSystem
         UpdateBankAppUi(app, pda, actor);
     }
 
-    protected override void UpdateBankAppUi(Entity<FrontierBankAppComponent> ent, EntityUid loader, EntityUid actor)
-    {
-        if (!_mind.TryGetMind(actor, out var mindUid, out var mind) ||
-            mind.CharacterName == null ||
-            GetBalance(actor) is not {} balance)
-            return;
-        
-        int? credstickBalance = null;
-
-        if (TryComp<PdaComponent>(loader, out var pda) &&
-            pda.CredstickSlot.ContainerSlot?.ContainedEntity is {} credstickUid &&
-            TryComp<CredstickComponent>(credstickUid, out var credstick))
-            credstickBalance = credstick.Balance;
-        
-        var state = new FrontierBankUiState((mindUid, mind), balance, credstickBalance);
-        _cartridge.UpdateCartridgeUiState(loader, state);
-
-        ent.Comp.OwnerName = mind.CharacterName;
-        ent.Comp.Balance = balance;
-    }
-
     protected override void RefreshCredstickState(Entity<CartridgeLoaderComponent> ent, Entity<CredstickComponent>? credstick)
     {
         if (!_cartridge.TryGetProgram<FrontierBankAppComponent>(ent, out var programUid, out var program, loader: ent.Comp) ||

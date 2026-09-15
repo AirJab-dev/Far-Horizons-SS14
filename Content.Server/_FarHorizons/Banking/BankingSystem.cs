@@ -6,6 +6,7 @@ using Content.Server.Store.Systems;
 using Content.Shared._FarHorizons.Banking;
 using Content.Shared._FarHorizons.Banking.Components;
 using Content.Shared.Containers.ItemSlots;
+using Content.Shared.PDA;
 using Robust.Server.Audio;
 using Robust.Server.GameObjects;
 
@@ -57,5 +58,26 @@ public sealed partial class BankingSystem : SharedBankingSystem
         playerData.Balance += delta;
         role.Value.Comp2.Spent += Math.Abs(delta);
         return true;
+    }
+
+    protected override void UpdateBankAppUi(Entity<FrontierBankAppComponent> ent, EntityUid loader, EntityUid actor)
+    {
+        if (!_mind.TryGetMind(actor, out var mindUid, out var mind) ||
+            mind.CharacterName == null ||
+            GetBalance(actor) is not {} balance)
+            return;
+        
+        int? credstickBalance = null;
+
+        if (TryComp<PdaComponent>(loader, out var pda) &&
+            pda.CredstickSlot.ContainerSlot?.ContainedEntity is {} credstickUid &&
+            TryComp<CredstickComponent>(credstickUid, out var credstick))
+            credstickBalance = credstick.Balance;
+        
+        var state = new FrontierBankUiState((mindUid, mind), balance, credstickBalance);
+        _cartridge.UpdateCartridgeUiState(loader, state);
+
+        ent.Comp.OwnerName = mind.CharacterName;
+        ent.Comp.Balance = balance;
     }
 }
