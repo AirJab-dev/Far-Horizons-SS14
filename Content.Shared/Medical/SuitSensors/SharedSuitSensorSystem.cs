@@ -49,7 +49,7 @@ public abstract partial class SharedSuitSensorSystem : EntitySystem
     [Dependency] private DamageableSystem _damageable = default!;
     [Dependency] private ISharedFactionManager _factions = default!; // Far Horizons
 
-    [Dependency] private readonly EntityQuery<SuitSensorComponent> _sensorQuery = default!;
+    [Dependency] private EntityQuery<SuitSensorComponent> _sensorQuery = default!;
 
     public override void Initialize()
     {

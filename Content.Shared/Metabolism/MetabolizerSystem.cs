@@ -35,8 +35,8 @@ public sealed partial class MetabolizerSystem : EntitySystem
     [Dependency] private SharedEntityEffectsSystem _entityEffects = default!;
     [Dependency] private SharedSolutionContainerSystem _solutionContainerSystem = default!;
 
-    [Dependency] private readonly EntityQuery<OrganComponent> _organQuery = default!;
-    [Dependency] private readonly EntityQuery<SolutionContainerManagerComponent> _solutionQuery = default!;
+    [Dependency] private EntityQuery<OrganComponent> _organQuery = default!;
+    [Dependency] private EntityQuery<SolutionContainerManagerComponent> _solutionQuery = default!;
 
     public override void Initialize()
     {

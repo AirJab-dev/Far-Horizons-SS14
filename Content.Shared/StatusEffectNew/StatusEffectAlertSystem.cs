@@ -10,7 +10,7 @@ public sealed partial class StatusEffectAlertSystem : EntitySystem
 {
     [Dependency] private AlertsSystem _alerts = default!;
 
-    [Dependency] private readonly EntityQuery<StatusEffectComponent> _effectQuery = default!;
+    [Dependency] private EntityQuery<StatusEffectComponent> _effectQuery = default!;
 
     public override void Initialize()
     {

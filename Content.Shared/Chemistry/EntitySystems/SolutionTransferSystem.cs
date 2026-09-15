@@ -23,8 +23,8 @@ public sealed partial class SolutionTransferSystem : EntitySystem
     [Dependency] private SharedUserInterfaceSystem _ui = default!;
     [Dependency] private SharedDoAfterSystem _doAfter = default!;
 
-    [Dependency] private readonly EntityQuery<RefillableSolutionComponent> _refillableQuery = default!;
-    [Dependency] private readonly EntityQuery<DrainableSolutionComponent> _drainableQuery = default!;
+    [Dependency] private EntityQuery<RefillableSolutionComponent> _refillableQuery = default!;
+    [Dependency] private EntityQuery<DrainableSolutionComponent> _drainableQuery = default!;
 
     /// <summary>
     ///     Default transfer amounts for the set-transfer verb.

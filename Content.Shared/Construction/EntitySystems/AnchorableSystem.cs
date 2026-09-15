@@ -33,7 +33,7 @@ public sealed partial class AnchorableSystem : EntitySystem
     [Dependency] private TagSystem _tagSystem = default!;
     [Dependency] private SharedAppearanceSystem _appearance = default!;
 
-    [Dependency] private readonly EntityQuery<PhysicsComponent> _physicsQuery = default!;
+    [Dependency] private EntityQuery<PhysicsComponent> _physicsQuery = default!;
 
     public readonly ProtoId<TagPrototype> Unstackable = "Unstackable";
 

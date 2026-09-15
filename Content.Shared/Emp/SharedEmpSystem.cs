@@ -19,7 +19,7 @@ public abstract partial class SharedEmpSystem : EntitySystem
     [Dependency] private SharedTransformSystem _transform = default!;
     [Dependency] private SharedCyberneticDisruptionSystem _disrupt = default!; // Starlight
 
-    [Dependency] private readonly EntityQuery<EmpResistanceComponent> _resistanceQuery = default!;
+    [Dependency] private EntityQuery<EmpResistanceComponent> _resistanceQuery = default!;
 
     private HashSet<EntityUid> _entSet = new();
 

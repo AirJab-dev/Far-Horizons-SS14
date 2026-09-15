@@ -26,7 +26,7 @@ public sealed partial class BedSystem : EntitySystem
     [Dependency] private SharedPowerReceiverSystem _powerReceiver = default!;
     [Dependency] private SleepingSystem _sleepingSystem = default!;
 
-    [Dependency] private readonly EntityQuery<SleepingComponent> _sleepingQuery = default!;
+    [Dependency] private EntityQuery<SleepingComponent> _sleepingQuery = default!;
 
     public override void Initialize()
     {

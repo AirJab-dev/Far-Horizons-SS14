@@ -23,7 +23,7 @@ public sealed partial class ActionContainerSystem : EntitySystem
     [Dependency] private SharedTransformSystem _transform = default!;
     [Dependency] private SharedMindSystem _mind = default!;
 
-    [Dependency] private readonly EntityQuery<ActionComponent> _query = default!;
+    [Dependency] private EntityQuery<ActionComponent> _query = default!;
 
     public override void Initialize()
     {

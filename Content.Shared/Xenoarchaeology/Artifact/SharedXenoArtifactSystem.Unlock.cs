@@ -12,7 +12,7 @@ public abstract partial class SharedXenoArtifactSystem
 {
     [Dependency] private SharedAudioSystem _audio = default!;
 
-    [Dependency] private readonly EntityQuery<XenoArtifactUnlockingComponent> _unlockingQuery = default!;
+    [Dependency] private EntityQuery<XenoArtifactUnlockingComponent> _unlockingQuery = default!;
 
     private void InitializeUnlock()
     {

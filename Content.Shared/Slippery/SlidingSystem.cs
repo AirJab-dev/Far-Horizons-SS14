@@ -13,7 +13,7 @@ public sealed partial class SlidingSystem : EntitySystem
     [Dependency] private SharedPhysicsSystem _physics = default!;
     [Dependency] private MovementSpeedModifierSystem _speedModifierSystem = default!;
 
-    [Dependency] private readonly EntityQuery<SlipperyComponent> _slipperyQuery = default!;
+    [Dependency] private EntityQuery<SlipperyComponent> _slipperyQuery = default!;
 
     public override void Initialize()
     {

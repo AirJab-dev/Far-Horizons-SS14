@@ -15,7 +15,7 @@ public sealed partial class XAEShuffleSystem : BaseXAESystem<XAEShuffleComponent
     [Dependency] private SharedTransformSystem _xform = default!;
     [Dependency] private IGameTiming _timing = default!;
 
-    [Dependency] private readonly EntityQuery<MobStateComponent> _mobState = default!;
+    [Dependency] private EntityQuery<MobStateComponent> _mobState = default!;
 
     /// <summary> Pre-allocated and re-used collection.</summary>
     private readonly HashSet<EntityUid> _entities= new();

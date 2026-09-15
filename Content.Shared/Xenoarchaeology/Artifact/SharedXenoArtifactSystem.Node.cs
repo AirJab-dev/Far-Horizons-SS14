@@ -12,8 +12,8 @@ public abstract partial class SharedXenoArtifactSystem
 {
     [Dependency] private EntityTableSystem _entityTable =  default!;
 
-    [Dependency] private readonly EntityQuery<XenoArtifactComponent> _xenoArtifactQuery = default!;
-    [Dependency] private readonly EntityQuery<XenoArtifactNodeComponent> _nodeQuery = default!;
+    [Dependency] private EntityQuery<XenoArtifactComponent> _xenoArtifactQuery = default!;
+    [Dependency] private EntityQuery<XenoArtifactNodeComponent> _nodeQuery = default!;
 
     private void InitializeNode()
     {

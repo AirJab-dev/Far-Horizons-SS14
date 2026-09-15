@@ -56,7 +56,7 @@ public sealed partial class CloningSystem : SharedCloningSystem
     [Dependency] private TraitSystem _traitSystem = default!; //FarHorizons 
     [Dependency] private SLCharacterInfoSystem _sLSharedCharacterInfoSystem = default!; //FarHorizons 
     
-    [Dependency] private readonly EntityQuery<CloneableStatusEffectComponent> _cloneableEffectQuery = default!;
+    [Dependency] private EntityQuery<CloneableStatusEffectComponent> _cloneableEffectQuery = default!;
 
     /// <summary>
     ///     Spawns a clone of the given humanoid mob at the specified location or in nullspace.

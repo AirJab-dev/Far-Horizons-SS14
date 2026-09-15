@@ -15,7 +15,7 @@ public sealed partial class IngestionSystem
     [Dependency] private SharedInteractionSystem _interactionSystem = default!;
     [Dependency] private IGameTiming _timing = default!;
 
-    [Dependency] private readonly EntityQuery<UtensilComponent> _utensilsQuery = default!;
+    [Dependency] private EntityQuery<UtensilComponent> _utensilsQuery = default!;
 
     public void InitializeUtensils()
     {

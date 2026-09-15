@@ -23,8 +23,8 @@ public sealed partial class CatchableSystem : EntitySystem
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private EntityWhitelistSystem _whitelist = default!;
 
-    [Dependency] private readonly EntityQuery<HandsComponent> _handsQuery = default!;
-    [Dependency] private readonly EntityQuery<CombatModeComponent> _combatModeQuery = default!;
+    [Dependency] private EntityQuery<HandsComponent> _handsQuery = default!;
+    [Dependency] private EntityQuery<CombatModeComponent> _combatModeQuery = default!;
 
     public override void Initialize()
     {

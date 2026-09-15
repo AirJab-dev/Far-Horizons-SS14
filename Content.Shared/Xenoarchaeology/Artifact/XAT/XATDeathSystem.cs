@@ -11,7 +11,7 @@ public sealed partial class XATDeathSystem : BaseXATSystem<XATDeathComponent>
 {
     [Dependency] private SharedTransformSystem _transform = default!;
 
-    [Dependency] private readonly EntityQuery<XenoArtifactComponent> _xenoArtifactQuery = default!;
+    [Dependency] private EntityQuery<XenoArtifactComponent> _xenoArtifactQuery = default!;
 
     /// <inheritdoc/>
     public override void Initialize()
