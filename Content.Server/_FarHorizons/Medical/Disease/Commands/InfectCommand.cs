@@ -45,7 +45,7 @@ public sealed partial class InfectCommand : LocalizedEntityCommands
         var disease = _disease.GenerateDisease(diseaseId);
         if(disease == null ) return;
         
-        var stageData = _disease.CreateStage(disease, stage);
+        var stageData = _disease.CreateStage(disease.Value, stage);
         if(stageData == null) return;
 
         if (!_disease.Infect(targetUid, disease.Value, stageData))

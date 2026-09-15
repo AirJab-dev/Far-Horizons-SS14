@@ -18,6 +18,7 @@ using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Chemistry.Reagent;
 using Robust.Shared.Network;
 using Content.Shared.Metabolism;
+using Content.Shared.StatusEffectNew;
 
 namespace Content.Shared._FarHorizons.Medical.Disease.Systems;
 
@@ -36,6 +37,7 @@ public sealed partial class SharedDiseaseSystem : EntitySystem
     [Dependency] private SharedSolutionContainerSystem _solution = default!;
     [Dependency] private SharedBloodstreamSystem _bloodstream = default!;
     [Dependency] private INetManager _net = default!;
+    [Dependency] private StatusEffectsSystem _effect = default!;
 
     private static readonly string _firstStrainName = "StrainFirstNames";
     private static readonly string _secondStrainName = "StrainSecondNames";
@@ -258,16 +260,11 @@ public sealed partial class SharedDiseaseSystem : EntitySystem
     /// </summary>
     public bool CanBeInfected(EntityUid uid, DiseaseData diseaseId)
     {
-        if (!_prototypes.HasIndex(diseaseId.Id))
-            return false;
-
-        if (!TryComp<DiseaseCarrierComponent>(uid, out var carrier) || carrier.ActiveDiseases.Any(d => d.Key.Id == diseaseId.Id))
-            return false;
-
-        if(HasComp<PreventInfectionComponent>(uid))
-            return false;
-
-        if (_mobState.IsDead(uid))
+        if (!_prototypes.HasIndex(diseaseId.Id) 
+        || !TryComp<DiseaseCarrierComponent>(uid, out var carrier) || carrier.ActiveDiseases.Any(d => d.Key.Id == diseaseId.Id)
+        || _effect.HasStatusEffect(uid, new EntProtoId("StatusEffectDiseaseImmunity"))
+        || HasComp<PreventInfectionComponent>(uid)
+        || _mobState.IsDead(uid))
             return false;
 
         if(diseaseId.MetabolizerTypes != null 
@@ -362,7 +359,7 @@ public sealed partial class SharedDiseaseSystem : EntitySystem
             ContactDeposit = proto.ContactDeposit,
             AirborneInfect = proto.AirborneInfect,
             AirborneRange = proto.AirborneRange,
-            IconDisease = proto.IconDisease     
+            IconDisease = proto.IconDisease
         };
 
         disease.Stats = GetTotalDiseaseStats(disease);

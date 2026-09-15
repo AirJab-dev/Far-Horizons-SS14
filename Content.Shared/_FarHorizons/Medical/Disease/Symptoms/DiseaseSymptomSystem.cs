@@ -4,6 +4,7 @@ using Content.Shared._FarHorizons.Medical.Disease.Components;
 using Content.Shared._FarHorizons.Medical.Disease.Prototypes;
 using Content.Shared.Random.Helpers;
 using Robust.Shared.Timing;
+using Robust.Shared.Prototypes;
 
 namespace Content.Shared._FarHorizons.Medical.Disease.Symptoms;
 

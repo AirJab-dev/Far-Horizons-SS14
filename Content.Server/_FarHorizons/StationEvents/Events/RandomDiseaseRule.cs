@@ -31,7 +31,7 @@ public sealed partial class RandomDiseaseRule : StationEventSystem<RandomDisease
         
         var disease = _disease.GenerateDisease(chosenDisease);
         if(disease == null) return;
-        var stage = _disease.CreateStage(disease);
+        var stage = _disease.CreateStage(disease.Value);
         if(stage == null) return;
 
         // Collect eligible humanoids with carrier component on the chosen station.

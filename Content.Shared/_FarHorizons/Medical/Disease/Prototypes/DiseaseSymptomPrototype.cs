@@ -101,6 +101,8 @@ public sealed partial class SymptomAirborneBurst
 /// <summary>
 /// Base class for symptom behavior.
 /// </summary>
+[DataDefinition]
+[Serializable, NetSerializable]
 public abstract partial class SymptomBehavior
 {
     [ViewVariables]
