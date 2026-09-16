@@ -20606,5 +20606,19 @@ Entries:
   id: 169903
   time: '2026-09-16T18:30:15.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1699
+- author: KarusKardin
+  changes:
+  - message: Added Pacified Compatibility to Hand Grenades
+    type: Add
+  id: 176200
+  time: '2026-09-16T23:34:22.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1762
+- author: KarusKardin
+  changes:
+  - message: Added a tag for whitelisting grenades for use when pacified
+    type: Add
+  id: 176201
+  time: '2026-09-16T23:34:22.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1762
 Order: -1
 
