@@ -20576,5 +20576,35 @@ Entries:
   id: 176700
   time: '2026-09-16T17:47:35.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1767
+- author: MightyM1me (Prototypes), ItsAbby (Sprites)
+  changes:
+  - message: Added Lambda counterparts to syndicate hardsuits.
+    type: Add
+  id: 169900
+  time: '2026-09-16T18:30:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1699
+- author: MightyM1me (Prototypes), ItsAbby (Sprites)
+  changes:
+  - message: Added Lambda's version of a raid suit.
+    type: Add
+  id: 169901
+  time: '2026-09-16T18:30:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1699
+- author: MightyM1me (Prototypes), ItsAbby (Sprites)
+  changes:
+  - message: Lambda backpack and duffel to store all of Your traitorous items.
+    type: Add
+  id: 169902
+  time: '2026-09-16T18:30:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1699
+- author: MightyM1me (Prototypes), ItsAbby (Sprites)
+  changes:
+  - message: In the Consortium uplink, syndicate hardsuits and the raid suit have
+      been replaced with their Lambda counterparts. They come with their own neat
+      backpacks too!
+    type: Tweak
+  id: 169903
+  time: '2026-09-16T18:30:15.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1699
 Order: -1
 
