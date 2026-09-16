@@ -20020,5 +20020,547 @@ Entries:
   id: 175901
   time: '2026-09-15T15:57:31.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1759
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: '''"Reduce motion of visual effects" now works for drunk and blood loss
+      status'''
+    type: Add
+  id: 175200
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: '''Added visual overlays to the janibelt for: Soap, Cleaner Grenade,
+      Plungers, Light Replacer, Wire Brush, Wet Floor Signs, and Holosign Projector.'''
+    type: Add
+  id: 175201
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Added a new Traitor objective to kill the Station AI!
+    type: Add
+  id: 175202
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Added a new uplink category for objective items.
+    type: Add
+  id: 175203
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Added a wide variety of new tile recipes to the Cutter Machine.
+    type: Add
+  id: 175204
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Added missing sprites for trash bags when equipped on the belt.
+    type: Add
+  id: 175205
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Added new lobby art depicting a mime mocking nukies trapped behind an
+      invisible wall as the mime defuses the nuke
+    type: Add
+  id: 175206
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Added the tourist's travel camera along with very basic textual photographs.
+    type: Add
+  id: 175207
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Cameras show as in-use when AI is nearby.
+    type: Add
+  id: 175208
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Clowns may change their loadout to start with the honkmother mitre.
+    type: Add
+  id: 175209
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Crew manifest names can now appear in ion storm laws.
+    type: Add
+  id: 175210
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Kudzu Gene Removal Effect to Plant-B-Gone!
+    type: Add
+  id: 175211
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: 'NPCs no longer detect invisible targets. [FH note: this only applies
+      when they''re selecting melee targets. If the NPC has a gun, they''ll still
+      see you]'
+    type: Add
+  id: 175212
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Nuclear operatives round end summary now shows the Disk's location. If
+      it wasn't atomized, that is.
+    type: Add
+  id: 175213
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Revenants will passively chill their environments based on how much essence
+      they have
+    type: Add
+  id: 175214
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: The Station AI is now notified when their core is taking damage.
+    type: Add
+  id: 175215
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: The wire brush can now scrub away spiderwebs and posters.
+    type: Add
+  id: 175216
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Traitors can now be tasked with causing anomalies to go supercritical.
+    type: Add
+  id: 175217
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Uplink implant now links to the same store as your PDA ringtone.
+    type: Add
+  id: 175218
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: 'Web vests have new more visible sprites. [FH Note: This only applies
+      to the web vest, elite web vest, and mercenary web vest, not the FH rocket web
+      vest]'
+    type: Add
+  id: 175219
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Wrapped parcels can now fit in mail carts.
+    type: Add
+  id: 175220
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: You can now throw banana cream pies at the station AI.
+    type: Add
+  id: 175221
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Certain randomized items and decorations no longer spawn with the wrong
+      rotation.
+    type: Fix
+  id: 175222
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Character saving is no longer broken by erroneous hair.
+    type: Fix
+  id: 175223
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Clockwork Glass is now grindable
+    type: Fix
+  id: 175224
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Corrupted silicon laws now use scrambled text in the UI again.
+    type: Fix
+  id: 175225
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Fixed Cutter Machine rotation to be consistent with other lathes.
+    type: Fix
+  id: 175226
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Fixed being able to set multiple conflicting head-top visuals on humans
+      at the same time.
+    type: Fix
+  id: 175227
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Fixed certain bottled reagents not having localization text.
+    type: Fix
+  id: 175228
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Fixed melee attack animations being rotated wrong if your camera is rotated.
+    type: Fix
+  id: 175229
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Fixed some emitter alerts missing the word "emitter"
+    type: Fix
+  id: 175230
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Fixed stacks of concrete and astro mowed/jungle grass splitting in to
+      wrong items
+    type: Fix
+  id: 175231
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Fixed the Prediction Issue when trying to forcefeed someone with a pulled-down
+      mask!
+    type: Fix
+  id: 175232
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Fixed the pneumatic valve overshooting gas equalization between the two
+      connected pipenets.
+    type: Fix
+  id: 175233
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Flatpacks now use the collision of the flatpacked entity, so they can
+      be opened on tables and aren't blocked by ghosts.
+    type: Fix
+  id: 175234
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Ghost time of death display is now accurate.
+    type: Fix
+  id: 175235
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Heavily optimized the radiation system to prevent severe server lag when
+      a large number of radiation sources are active.
+    type: Fix
+  id: 175236
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Items that can be stuck to walls are now able to be unstuck properly.
+    type: Fix
+  id: 175237
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Mail no longer goes all to one person per batch.
+    type: Fix
+  id: 175238
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Midround Wizards now show up on the end results screen.
+    type: Fix
+  id: 175239
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Paradox clones will no longer be slow when spawning.
+    type: Fix
+  id: 175240
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Removed Magic Shared Seed Kudzu Removal!
+    type: Fix
+  id: 175241
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Target station map at the nuclear operative outpost will now show the
+      target station.
+    type: Fix
+  id: 175242
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: The ChemMaster UI now updates automatically when reagents are dragged
+      and dropped into the ChemMaster.
+    type: Fix
+  id: 175243
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: The chem guidebook now shows when chemicals adjust body temperature again
+    type: Fix
+  id: 175244
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Traitor kill objectives will now show stage names instead of character
+      names if applicable
+    type: Fix
+  id: 175245
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Welders no longer perform an extra pass after a repair has completed.
+    type: Fix
+  id: 175246
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: When reloading guns or magazines with stack items, it only reloads one
+      at the time, instead of inserting the whole stack.
+    type: Fix
+  id: 175247
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Wizards can hear the sound of their fireball spell again
+    type: Fix
+  id: 175248
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: AI can no longer enable lights on cameras.
+    type: Remove
+  id: 175249
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Random pill bottles can no longer spawn with ambuzol or ambuzol+
+    type: Remove
+  id: 175250
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Cell rechargers, weapon rechargers and turbo rechargers can now be picked
+      up to transport them when unanchored.
+    type: Tweak
+  id: 175251
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Certain small cargo products are now delivered in parcel wrap rather
+      than in crates.
+    type: Tweak
+  id: 175252
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Changed the hitbox of borg chargers, so they no longer get stuck in doorways.
+    type: Tweak
+  id: 175253
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Crew Manifest PDA program now displays a message when it fails to load.
+    type: Tweak
+  id: 175254
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Fixed guidebook showing the wrong value for the maximum temperature of
+      hellfire heaters.
+    type: Tweak
+  id: 175255
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Healing with a holy book now gives off a holy light.
+    type: Tweak
+  id: 175256
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Humanoids can now break out of locked genpop lockers
+    type: Tweak
+  id: 175257
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Instead of disappearing, space dragons now burst into giblets if they
+      go too long without summoning a rift.
+    type: Tweak
+  id: 175258
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Lathe machine interfaces now display their proper names
+    type: Tweak
+  id: 175259
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: PDA ringtones now feature more notes.
+    type: Tweak
+  id: 175260
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Player sell costs are now randomized when scanned with an appraisal tool.
+    type: Tweak
+  id: 175261
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Rat Kings can now pull objects.
+    type: Tweak
+  id: 175262
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Rebalanced the syndicate reinforcement specializations to be more effective
+      at their roles.
+    type: Tweak
+  id: 175263
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Renames robes of the honkmother to honkmother coat.
+    type: Tweak
+  id: 175264
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Retextured technology disk to have the color of their discipline and
+      extra marks for each tier. Also increased sell price for higher-tier disks.
+    type: Tweak
+  id: 175265
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Salt is now significantly less common in ore generation
+    type: Tweak
+  id: 175266
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Singularity distortion effects now respect the reduced motion accessibility
+      option.
+    type: Tweak
+  id: 175267
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: The reagent grinder interactions and user interface are now predicted
+      and should feel much more responsive.
+    type: Tweak
+  id: 175268
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: The value of tier 1 tech disks has been lowered.
+    type: Tweak
+  id: 175269
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Tricordrazine no longer heals radiation
+    type: Tweak
+  id: 175270
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: Tricordrazine no longer works on mobs in crit
+    type: Tweak
+  id: 175271
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
+- author: Penguinwizzard, bringing over work from our friends at WizDen
+  changes:
+  - message: 'Uplink PDA codes are now universal. This means any PDA can open an uplink
+      store, as long as they have the correct code. [FH-edit: Most PDAs do not have
+      the features needed to dial to uplink stores. Traitors may dial their stores
+      using each others'' PDAs, though]'
+    type: Tweak
+  id: 175272
+  time: '2026-09-16T16:12:36.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1752
 Order: -1
 
