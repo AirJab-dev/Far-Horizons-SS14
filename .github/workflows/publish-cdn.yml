@@ -37,8 +37,8 @@ jobs:
         mkdir out
         dotnet run --project Content.Packaging -c Release client
         mv release/SS14.Client.zip out/SS14.Client.zip
-        dotnet run --project Content.Packaging -c Release server --platform linux-arm64
-        mv release/SS14.Server_linux-arm64.zip out/SS14.Server_linux-arm64.zip
+        dotnet run --project Content.Packaging -c Release server --platform linux-x64
+        mv release/SS14.Server_linux-x64.zip out/SS14.Server_linux-x64.zip
         git rev-parse --short HEAD > out/VERSION
         sed -nr "s|.*<Version>(.*)</Version>.*|\1|p" RobustToolbox/MSBuild/Robust.Engine.Version.props > out/ENGINE_VERSION
 
