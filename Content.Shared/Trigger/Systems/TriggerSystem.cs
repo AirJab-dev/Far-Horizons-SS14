@@ -15,7 +15,8 @@ using Robust.Shared.Physics.Systems;
 using Robust.Shared.Timing;
 using Robust.Shared.Random;
 using Robust.Shared.Audio.Systems;
-using Content.Shared.Tag; //FH
+using Content.Shared.Tag;
+using Robust.Shared.Prototypes; //FH
 
 
 namespace Content.Shared.Trigger.Systems;
@@ -49,7 +50,8 @@ public sealed partial class TriggerSystem : EntitySystem
     [Dependency] private TagSystem _tag = default!; // FH
 
     public const string DefaultTriggerKey = "trigger";
-
+    private static readonly ProtoId<TagPrototype> _grenadeTag = "HandGrenade";
+    private static readonly ProtoId<TagPrototype> _whitelistTag = "HandGrenadePacifiedWhitelist";
     public override void Initialize()
     {
         base.Initialize();
@@ -97,7 +99,7 @@ public sealed partial class TriggerSystem : EntitySystem
             return false; // already activated
         
         //FH start
-        if (user != null && TryComp<TagComponent>(ent, out var tagcomp) && !_tag.HasTag(tagcomp, "HandGrenadePacifiedWhitelist") && _tag.HasTag(tagcomp, "HandGrenade") && HasComp<PacifiedComponent>(user))
+        if (user != null && TryComp<TagComponent>(ent, out var tagcomp) && !_tag.HasTag(tagcomp, _whitelistTag) && _tag.HasTag(tagcomp, _grenadeTag) && HasComp<PacifiedComponent>(user))
         {
             _popup.PopupClient(Loc.GetString("pacified-cannot-activate-handgrenade", ("entity", ent)), user.Value, user.Value);
             return true; // they cant arm this grenade
