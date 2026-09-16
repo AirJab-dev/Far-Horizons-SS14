@@ -20569,5 +20569,12 @@ Entries:
   id: 176500
   time: '2026-09-16T17:25:58.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1765
+- author: mogaiskii
+  changes:
+  - message: Fixed the nothing visible update.
+    type: Fix
+  id: 176700
+  time: '2026-09-16T17:47:35.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1767
 Order: -1
 
