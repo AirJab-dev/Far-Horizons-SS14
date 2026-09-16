@@ -15,7 +15,7 @@ using Robust.Shared.Physics.Systems;
 using Robust.Shared.Timing;
 using Robust.Shared.Random;
 using Robust.Shared.Audio.Systems;
-using Content.Shared.Tag;
+using Content.Shared.Tag; // FH
 using Robust.Shared.Prototypes; //FH
 
 
@@ -50,8 +50,8 @@ public sealed partial class TriggerSystem : EntitySystem
     [Dependency] private TagSystem _tag = default!; // FH
 
     public const string DefaultTriggerKey = "trigger";
-    private static readonly ProtoId<TagPrototype> _grenadeTag = "HandGrenade";
-    private static readonly ProtoId<TagPrototype> _whitelistTag = "HandGrenadePacifiedWhitelist";
+    private static readonly ProtoId<TagPrototype> _grenadeTag = "HandGrenade"; // FH
+    private static readonly ProtoId<TagPrototype> _whitelistTag = "HandGrenadePacifiedWhitelist"; // FH
     public override void Initialize()
     {
         base.Initialize();
