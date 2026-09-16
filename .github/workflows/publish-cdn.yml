@@ -1,4 +1,4 @@
-name: Release to GCP
+name: Publish to CDN
 
 on:
   workflow_dispatch:
@@ -23,6 +23,14 @@ jobs:
       with:
         dotnet-version: 9.0.x
 
+    - name: Set up Python 3
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.x"
+
+    - name: Install requests
+      run: pip install requests
+
     - name: Release
       shell: bash
       run: |
@@ -34,16 +42,11 @@ jobs:
         git rev-parse --short HEAD > out/VERSION
         sed -nr "s|.*<Version>(.*)</Version>.*|\1|p" RobustToolbox/MSBuild/Robust.Engine.Version.props > out/ENGINE_VERSION
 
-    - name: GCP auth
-      uses: google-github-actions/auth@v3
-      with:
-        workload_identity_provider: ${{ secrets.GCP_WIP }}
-        service_account: ${{ secrets.GCP_SA }}
-    
-    - name: GCP upload
-      uses: google-github-actions/upload-cloud-storage@v3
-      with:
-        path: out
-        destination: ${{ secrets.GCP_BUCKET }}
-        parent: false
-        gzip: false
+    - name: Publish to CDN
+      working-directory: ${{ github.workspace }}
+      env:
+        PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+        ROBUST_CDN_URL: ${{ secrets.ROBUST_CDN_URL }}
+        FORK_ID: "farhorizons"
+        RELEASE_DIR: "out"
+      run: python Tools/_FarHorizons/publish_multi_request.py
