@@ -20620,5 +20620,19 @@ Entries:
   id: 176201
   time: '2026-09-16T23:34:22.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1762
+- author: FAR HORIZONS TEAM
+  changes:
+  - message: Resprited QM job icon and ID
+    type: Tweak
+  id: 176300
+  time: '2026-09-17T00:03:35.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1763
+- author: FAR HORIZONS TEAM
+  changes:
+  - message: Resprited Salvage Lead job icon and ID
+    type: Tweak
+  id: 176301
+  time: '2026-09-17T00:03:35.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1763
 Order: -1
 
