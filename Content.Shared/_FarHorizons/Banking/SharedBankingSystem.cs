@@ -46,6 +46,8 @@ public abstract partial class SharedBankingSystem : EntitySystem
 
     protected virtual void UpdateBankAppUi(Entity<FrontierBankAppComponent> ent, EntityUid loader, EntityUid actor) {}
     protected virtual void RefreshCredstickState(Entity<CartridgeLoaderComponent> ent, Entity<CredstickComponent>? credstick) {}
+    
+    public abstract bool ChangeBalance(EntityUid ent, int delta);
 }
 
 [Serializable, NetSerializable]

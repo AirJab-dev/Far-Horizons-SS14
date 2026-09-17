@@ -34,7 +34,7 @@ public sealed partial class BankingSystem : SharedBankingSystem
         return data;
     }
 
-    public bool ChangeBalance(EntityUid ent, int delta)
+    public override bool ChangeBalance(EntityUid ent, int delta)
     {
         if (delta == 0 ||
             !_mind.TryGetMind(ent, out var mindUid, out var mind) ||
