@@ -72,6 +72,7 @@
       - MedTekCartridge
       - NanoChatCartridge
       - FrontierBankCartridge
+      - GSLNowCartridge
 
 #Security
 
@@ -104,6 +105,7 @@
     - MedTekCartridge
     - NanoChatCartridge
     - FrontierBankCartridge
+    - GSLNowCartridge
 
 # For Detective Inquisitive Tethers
 - type: entity
@@ -251,6 +253,7 @@
       - NewsReaderCartridge
       - NanoChatCartridge
       - FrontierBankCartridge
+      - GSLNowCartridge
     cartridgeSlot:
       priority: -1
       name: device-pda-slot-component-slot-name-cartridge
@@ -383,6 +386,7 @@
       - NewsReaderCartridge
       - NanoChatCartridge
       - FrontierBankCartridge
+      - GSLNowCartridge
     cartridgeSlot:
       priority: -1
       name: device-pda-slot-component-slot-name-cartridge
@@ -439,6 +443,7 @@
       - MedTekCartridge
       - NanoChatCartridge
       - FrontierBankCartridge
+      - GSLNowCartridge
 
 - type: entity
   parent: BaseNeoSolPDA
@@ -454,6 +459,7 @@
     - WantedListCartridgeNS
     - NanoChatCartridge
     - FrontierBankCartridge
+    - GSLNowCartridge
 
 - type: entity
   parent: BaseNeoSolPDA
@@ -471,6 +477,7 @@
       - AstroNavCartridge
       - NanoChatCartridge
       - FrontierBankCartridge
+      - GSLNowCartridge
 
 #endregion
 
@@ -610,6 +617,7 @@
     - LogProbeCartridge
     - NanoChatCartridge
     - FrontierBankCartridge
+    - GSLNowCartridge
 
 #endregion
 
@@ -647,6 +655,7 @@
       - MedTekCartridge
       - NanoChatCartridge
       - FrontierBankCartridge
+      - GSLNowCartridge
 
 - type: entity #Will do with Red Sword PDA
   parent: BaseNeoSolPDA
@@ -813,6 +822,7 @@
     - NewsReaderCartridge
     - NanoChatCartridge
     - FrontierBankCartridge
+    - GSLNowCartridge
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -1116,6 +1126,7 @@
       - NanoChatCartridge
       - AstroNavCartridge
       - FrontierBankCartridge
+      - GSLNowCartridge
 
 - type: entity
   parent: BaseNeoSolMedicalPDA
@@ -1187,6 +1198,7 @@
     - MedTekCartridge
     - NanoChatCartridge
     - FrontierBankCartridge
+    - GSLNowCartridge
 
 - type: entity
   parent: BaseNeoSolMedicalPDA
@@ -1216,6 +1228,7 @@
     - MedTekCartridge
     - NanoChatCartridge
     - FrontierBankCartridge
+    - GSLNowCartridge
 
 - type: entity
   parent: BaseEnforcerPDA
@@ -1321,6 +1334,7 @@
     - LogProbeCartridge
     - NanoChatCartridge
     - FrontierBankCartridge
+    - GSLNowCartridge
 
 #endregion
 
@@ -1491,6 +1505,7 @@
       - HullSenseCartridge
       - NanoChatCartridge
       - FrontierBankCartridge
+      - GSLNowCartridge
 
 - type: entity
   parent: SHCPDA

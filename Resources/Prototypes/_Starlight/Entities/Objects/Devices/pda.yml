@@ -78,6 +78,7 @@
     - MedTekCartridge
     - NanoChatCartridge
     - FrontierBankCartridge # Far Horzions
+    - GSLNowCartridge # Far Horizons
 
 # - type: entity
 #   parent: BaseMedicalPDA
@@ -142,6 +143,7 @@
     - MedTekCartridge
     - NanoChatCartridge
     - FrontierBankCartridge # Far Horzions
+    - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: BasePDA
@@ -170,6 +172,7 @@
     - WantedListCartridge
     - NanoChatCartridge #FH
     - FrontierBankCartridge # Far Horzions
+    - GSLNowCartridge # Far Horizons
   - type: PdaBorderColor
     borderColor: "#7C5D00"
   - type: Icon
@@ -229,6 +232,7 @@
     - WantedListCartridge
     - NanoChatCartridge #FH
     - FrontierBankCartridge # Far Horzions
+    - GSLNowCartridge # Far Horizons
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -269,6 +273,7 @@
       - MedTekCartridge
       - NanoChatCartridge
       - FrontierBankCartridge # Far Horzions
+      - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: BasePDA
@@ -302,6 +307,7 @@
       - AstroNavCartridge
       - NanoChatCartridge
       - FrontierBankCartridge # Far Horzions
+      - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: SalvageLeadPDA
@@ -380,6 +386,7 @@
     - AstroNavCartridge
     - NanoChatCartridge
     - FrontierBankCartridge # Far Horzions
+    - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: MiningPDA
@@ -492,6 +499,7 @@
       - AstroNavCartridge
       - NanoChatCartridge
       - FrontierBankCartridge # Far Horzions
+      - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: BasePDA
@@ -525,6 +533,7 @@
       - AstroNavCartridge
       - NanoChatCartridge
       - FrontierBankCartridge # Far Horzions
+      - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: ClearPDA
@@ -564,3 +573,4 @@
       - AstroNavCartridge
       - NanoChatCartridge
       - FrontierBankCartridge # Far Horzions
+      - GSLNowCartridge # Far Horizons

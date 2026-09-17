@@ -98,6 +98,7 @@
       - NewsReaderCartridge
       - NanoChatCartridge # CD
       - FrontierBankCartridge # Far Horzions
+      - GSLNowCartridge # Far Horizons
     cartridgeSlot:
       priority: -1
       name: device-pda-slot-component-slot-name-cartridge
@@ -175,6 +176,7 @@
     - WantedListCartridge
     - NanoChatCartridge # CD
     - FrontierBankCartridge # Far Horzions
+    - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: BasePDA
@@ -191,6 +193,7 @@
       - MedTekCartridge
       - NanoChatCartridge # CD
       - FrontierBankCartridge # Far Horzions
+      - GSLNowCartridge # Far Horizons
 
 #FarHorizons Start
 - type: entity
@@ -209,6 +212,7 @@
       - AstroNavCartridge #FH
       - NanoChatCartridge #FH
       - FrontierBankCartridge # Far Horzions
+      - GSLNowCartridge # Far Horizons
 #FarHorizons End
 
 - type: entity
@@ -488,6 +492,7 @@
     - NewsReaderCartridge
     - NanoChatCartridge #FH
     - FrontierBankCartridge # Far Horzions
+    - GSLNowCartridge # Far Horizons
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -557,6 +562,7 @@
     - AstroNavCartridge
     - NanoChatCartridge # CD
     - FrontierBankCartridge # Far Horzions
+    - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: BasePDA
@@ -605,6 +611,7 @@
       - AstroNavCartridge
       - NanoChatCartridge # CD
       - FrontierBankCartridge # Far Horzions
+      - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: BasePDA
@@ -878,6 +885,7 @@
       - NanoChatCartridge
       - AstroNavCartridge
       - FrontierBankCartridge # Far Horzions
+      - GSLNowCartridge # Far Horizons
 #FarHorizons End
 
 - type: entity
@@ -965,6 +973,7 @@
     - LogProbeCartridge
     - NanoChatCartridge # CD
     - FrontierBankCartridge # Far Horzions
+    - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: BaseSecurityPDA
@@ -1196,6 +1205,7 @@
       - NanoTaskCartridge
       - NanoChatCartridge # CD
       - FrontierBankCartridge # Far Horzions
+      - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: [ SyndiPDA, BaseSyndicateContraband ]
@@ -1239,6 +1249,7 @@
       - MedTekCartridge
       - NanoChatCartridge # CD
       - FrontierBankCartridge # Far Horzions
+      - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: [ SyndiOperativePDA, BaseSyndicateContraband ]
@@ -1290,6 +1301,7 @@
       - HullSenseCartridge #FarHorizons
       - NanoChatCartridge # CD
       - FrontierBankCartridge # Far Horzions
+      - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: ERTLeaderPDA
@@ -1461,6 +1473,7 @@
     - LogProbeCartridge
     - NanoChatCartridge # CD
     - FrontierBankCartridge # Far Horzions
+    - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: BaseMedicalPDA
@@ -1490,6 +1503,7 @@
     - MedTekCartridge
     - NanoChatCartridge # CD
     - FrontierBankCartridge # Far Horzions
+    - GSLNowCartridge # Far Horizons
 
 - type: entity
   parent: ClownPDA

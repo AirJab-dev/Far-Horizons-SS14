@@ -220,6 +220,20 @@ namespace Content.Client.Cargo.UI
                     order.Requester : Loc.GetString("cargo-console-menu-order-row-alerts-requester-unknown");
                 var account = _protoManager.Index(order.Account);
 
+                // Far Horizons start
+                var orderName = "";
+                if (order.ChargeCreditsFrom == null)
+                    orderName = Loc.GetString(
+                                "cargo-console-menu-populate-orders-cargo-order-row-product-name-text",
+                                ("orderRequester", requester),
+                                ("accountColor", account.Color),
+                                ("account", Loc.GetString(account.Code)));
+                else
+                    orderName = Loc.GetString(
+                                "cargo-console-menu-populate-orders-cargo-order-row-personal-product-name-text",
+                                ("orderRequester", requester));
+                // Far Horizons end
+
                 var row = new CargoOrderRow
                 {
                     Order = order,
@@ -246,11 +260,7 @@ namespace Content.Client.Cargo.UI
 
                     ProductName =
                     {
-                        Text = Loc.GetString(
-                            "cargo-console-menu-populate-orders-cargo-order-row-product-name-text",
-                            ("orderRequester", requester),
-                            ("accountColor", account.Color),
-                            ("account", Loc.GetString(account.Code)))
+                        Text = orderName // Far Horizons
                     },
 
                     Description =

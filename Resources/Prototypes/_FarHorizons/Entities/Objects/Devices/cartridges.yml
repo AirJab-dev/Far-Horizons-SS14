@@ -130,3 +130,26 @@
     icon:
       sprite: _FarHorizons/Interface/Misc/program_icons.rsi
       state: fb_icon
+
+- type: entity
+  parent: BaseItem
+  id: GSLNowCartridge
+  name: GSL Now! cartridge
+  description: Fastest deliveries in the sector*
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Objects/Devices/cartridge.rsi
+    state: gsl_cartridge
+  - type: UIFragment
+    ui: !type:GSLNowUi
+  - type: GSLNowApp
+    orderCooldown: 300 # 5 minutes
+    failSound:
+      path: /Audio/Machines/buzz-two.ogg
+    successSound:
+      path: /Audio/Effects/Cargo/ping.ogg
+  - type: Cartridge
+    programName: gsl-now-program-name
+    icon:
+      sprite: _FarHorizons/Interface/Misc/program_icons.rsi
+      state: gsl_icon
