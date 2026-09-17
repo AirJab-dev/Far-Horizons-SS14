@@ -20717,5 +20717,13 @@ Entries:
   id: 176110
   time: '2026-09-17T21:39:44.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1761
+- author: RubiconLocked
+  changes:
+  - message: The NeoSol DetDrobe now has its own inventory instead of using the NanoTrasen
+      DetDrobe inventory.
+    type: Tweak
+  id: 177300
+  time: '2026-09-17T21:41:41.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1773
 Order: -1
 
