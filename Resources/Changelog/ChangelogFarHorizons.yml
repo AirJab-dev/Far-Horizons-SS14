@@ -20634,5 +20634,88 @@ Entries:
   id: 176301
   time: '2026-09-17T00:03:35.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1763
+- author: AthenaAI
+  changes:
+  - message: Airborne diseases acknowledge the gear of the person infected before
+      trying to transmit their disease.
+    type: Tweak
+  id: 176100
+  time: '2026-09-17T21:39:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1761
+- author: AthenaAI
+  changes:
+  - message: Added a guard against infections with sub 0.01% chance of infection.
+    type: Tweak
+  id: 176101
+  time: '2026-09-17T21:39:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1761
+- author: AthenaAI
+  changes:
+  - message: Removed the RNG of curing people but increased the cost of curing reagents.
+    type: Tweak
+  id: 176102
+  time: '2026-09-17T21:39:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1761
+- author: AthenaAI
+  changes:
+  - message: Spaceacillin was changed from removing chems in bloodstream to preventing
+      diseases.
+    type: Tweak
+  id: 176103
+  time: '2026-09-17T21:39:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1761
+- author: AthenaAI
+  changes:
+  - message: Diagnoser is now clearer with cure options and then each cure option
+      has their cure steps listed.
+    type: Tweak
+  id: 176104
+  time: '2026-09-17T21:39:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1761
+- author: AthenaAI
+  changes:
+  - message: Disease stages are now standardized with a total of 5 stages.
+    type: Tweak
+  id: 176105
+  time: '2026-09-17T21:39:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1761
+- author: AthenaAI
+  changes:
+  - message: Each stage has a defined timer depending on disease vector type.
+    type: Tweak
+  id: 176106
+  time: '2026-09-17T21:39:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1761
+- author: AthenaAI
+  changes:
+  - message: There is vectors now this define the base stats of the disease and the
+      timers for each stage.
+    type: Tweak
+  id: 176107
+  time: '2026-09-17T21:39:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1761
+- author: AthenaAI
+  changes:
+  - message: Added the ability to cap the damage from a disease symptom. Currently
+      Fever, Chills and Toxin have their damage capped so people don't go dying of
+      the flu.
+    type: Tweak
+  id: 176108
+  time: '2026-09-17T21:39:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1761
+- author: AthenaAI
+  changes:
+  - message: Added predefined names for each of the preset disease strains.
+    type: Tweak
+  id: 176109
+  time: '2026-09-17T21:39:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1761
+- author: AthenaAI
+  changes:
+  - message: Made Cold be cured by salbutamol and Flu by Spaceallin.
+    type: Tweak
+  id: 176110
+  time: '2026-09-17T21:39:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1761
 Order: -1
 
