@@ -20806,5 +20806,33 @@ Entries:
   id: 177800
   time: '2026-09-18T14:08:00.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1778
+- author: Milterria
+  changes:
+  - message: CC-Outpost-G24 Med Adjustment
+    type: Tweak
+  id: 177000
+  time: '2026-09-18T17:27:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1770
+- author: Milterria
+  changes:
+  - message: CC-Outpost-S17 Med Adjustment
+    type: Tweak
+  id: 177001
+  time: '2026-09-18T17:27:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1770
+- author: Milterria
+  changes:
+  - message: SHC Med and Arrival
+    type: Tweak
+  id: 177002
+  time: '2026-09-18T17:27:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1770
+- author: Milterria
+  changes:
+  - message: NSHC2 Med Adjustment and Pod expansion
+    type: Tweak
+  id: 177003
+  time: '2026-09-18T17:27:04.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1770
 Order: -1
 
