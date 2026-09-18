@@ -265,6 +265,7 @@
   parent: VendingMachine
   id: VendingMachineCart
   name: PTech
+  suffix: NT #FH
   description: PTech vending! Providing a ROBUST selection of PDAs, cartridges, and anything else a dull paper pusher needs!
   components:
   - type: VendingMachine
