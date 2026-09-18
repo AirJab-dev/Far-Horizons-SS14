@@ -73,6 +73,12 @@
   id: FITZ21
 
 - type: Tag
+  id: Credstick
+
+- type: Tag
+  id: CombatShotgun
+
+- type: Tag
   id: CrusherMachete
 
 - type: Tag
