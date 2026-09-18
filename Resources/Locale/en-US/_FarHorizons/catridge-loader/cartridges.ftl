@@ -42,6 +42,7 @@ gsl-now-station-label = Station:
 gsl-now-instructions-label = Delivery Instructions:
 gsl-now-confirm = Confirm
 gsl-now-cancel = Cancel
+gsl-now-error-timer = Please wait before making another order.
 
 gsl-now-order-requested = Personal Order
 gsl-now-order-reason = Ordered from GSL Now!

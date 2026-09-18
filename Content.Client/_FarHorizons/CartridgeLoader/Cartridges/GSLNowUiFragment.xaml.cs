@@ -41,6 +41,7 @@ public sealed partial class GSLNowUiFragment : BoxContainer
         _onProductSelected += OnStartOrdering;
         OrderCancelButton.OnPressed += _ => OnCancelOrdering();
         OrderConfirmButton.OnPressed += _ => OnFinishOrdering();
+        ErrorCloseButton.OnPressed += _ => ErrorModalOverlay.Visible = false;
 
         _sprite = _entMan.System<SpriteSystem>();
     }
@@ -77,6 +78,12 @@ public sealed partial class GSLNowUiFragment : BoxContainer
             val.Product == null)
             return;
         
+        if (_nextOrder > _timing.CurTime)
+        {
+            ErrorModalOverlay.Visible = true;
+            return;
+        }
+
         OrderModalOverlay.Visible = true;
         _product = val.Product.ID;
     }

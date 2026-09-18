@@ -172,5 +172,34 @@
 
         </PanelContainer>
 
+        <PanelContainer Name="ErrorModalOverlay"
+                        HorizontalExpand="True"
+                        VerticalExpand="True"
+                        Visible="False"
+                        StyleClasses="BackgroundPanelDark">
+
+            <BoxContainer HorizontalAlignment="Center"
+                          VerticalAlignment="Center"
+                          MinWidth="200"
+                          MaxWidth="280">
+                <PanelContainer StyleClasses="BackgroundPanel">
+                    <BoxContainer Orientation="Vertical"
+                                  Margin="8"
+                                  SeparationOverride="8">
+
+                        <RichTextLabel Name="ErrorMessageLabel"
+                               Text="{Loc 'gsl-now-error-timer'}"
+                               HorizontalAlignment="Center" />
+
+                        <Button Name="ErrorCloseButton"
+                                Text="{Loc 'gsl-now-confirm'}"
+                                HorizontalAlignment="Center"
+                                MinWidth="80" />
+
+                    </BoxContainer>
+                </PanelContainer>
+            </BoxContainer>
+        </PanelContainer>
+
     </PanelContainer>
 </cartridges:GSLNowUiFragment>
