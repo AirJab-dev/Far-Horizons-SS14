@@ -1018,6 +1018,7 @@
   parent: VendingMachine
   id: VendingMachineSec
   name: SecTech
+  suffix: NT #FH
   description: A vending machine containing Security equipment. A label reads SECURITY PERSONNEL ONLY.
   components:
   - type: VendingMachine
