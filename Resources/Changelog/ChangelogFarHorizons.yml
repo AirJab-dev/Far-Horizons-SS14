@@ -20799,5 +20799,12 @@ Entries:
   id: 177408
   time: '2026-09-18T10:25:05.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1774
+- author: RubiconLocked
+  changes:
+  - message: Vendor restocks now work on NeoSol vendors.
+    type: Tweak
+  id: 177800
+  time: '2026-09-18T14:08:00.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1778
 Order: -1
 
