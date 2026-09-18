@@ -25,8 +25,9 @@ public sealed partial class CargoSystem
             return false;
         
         var cost = Math.Floor(product.Cost * product.CreditCost);
+        var spendable = BankingSystem.GetRemainingLimit(balance);
 
-        return balance.Limit >= cost;
+        return spendable >= cost;
     }
 
     private void UpdatePersonalBankAccount(NetEntity netUid, CargoProductPrototype product)
