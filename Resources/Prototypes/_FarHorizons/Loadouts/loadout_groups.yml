@@ -674,3 +674,13 @@
   parent: CivilianWeaponsFactionless
   loadouts:
   - MKSCiv
+
+#region Credstick
+- type: loadoutGroup
+  id: Credsticks
+  name: loadout-group-credsticks
+  minLimit: 1
+  loadouts:
+  - CredstickDefault
+  - CredstickGold
+  - CredstickPlatinum

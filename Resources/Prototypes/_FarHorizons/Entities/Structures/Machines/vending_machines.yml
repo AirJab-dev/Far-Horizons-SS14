@@ -251,7 +251,7 @@
   description: A machine for all your detective needs, as long as you need clothes.
   components:
   - type: VendingMachine
-    pack: DetDrobeInventory
+    pack: DetDrobeInventoryNeoSol
     offState: off
     brokenState: broken
     normalState: normal-unshaded

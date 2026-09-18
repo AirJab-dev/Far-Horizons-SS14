@@ -226,7 +226,10 @@ namespace Content.Server.Cargo.Systems
             var accountBalance = GetBalanceFromAccount((station.Value, bank), order.Account);
 
             // Not enough balance
-            if (cost > accountBalance)
+            // Far Horizons start
+            if ((order.ChargeCreditsFrom == null && (cost > accountBalance)) ||
+                (order.ChargeCreditsFrom != null && !PersonalAccountHasBalance(order.ChargeCreditsFrom.Value, product)))
+            // Far Horizons end
             {
                 ConsolePopup(args.Actor, Loc.GetString("cargo-console-insufficient-funds", ("cost", cost)));
                 PlayDenySound(uid, component);
@@ -263,9 +266,16 @@ namespace Content.Server.Cargo.Systems
                     ("orderAmount", order.OrderQuantity),
                     ("approver", order.Approver ?? string.Empty),
                     ("cost", cost));
-                _radio.SendRadioMessage(uid, message, account.RadioChannel, uid, escapeMarkup: false);
-                if (CargoOrderConsoleComponent.BaseAnnouncementChannel != account.RadioChannel)
-                    _radio.SendRadioMessage(uid, message, CargoOrderConsoleComponent.BaseAnnouncementChannel, uid, escapeMarkup: false);
+                
+                // Far Horizons start
+                // Only notify about station orders
+                if (order.ChargeCreditsFrom == null)
+                {
+                    _radio.SendRadioMessage(uid, message, account.RadioChannel, uid, escapeMarkup: false);
+                    if (CargoOrderConsoleComponent.BaseAnnouncementChannel != account.RadioChannel)
+                        _radio.SendRadioMessage(uid, message, CargoOrderConsoleComponent.BaseAnnouncementChannel, uid, escapeMarkup: false);
+                }
+                // Far Horizons end
             }
 
             ConsolePopup(args.Actor, Loc.GetString("cargo-console-trade-station", ("destination", MetaData(ev.FulfillmentEntity.Value).EntityName)));
@@ -275,8 +285,18 @@ namespace Content.Server.Cargo.Systems
                 LogImpact.Low,
                 $"{ToPrettyString(player):user} approved order [orderId:{order.OrderId}, quantity:{order.OrderQuantity}, product:{order.Product}, requester:{order.Requester}, reason:{order.Reason}] on account {order.Account} with balance at {accountBalance}");
 
-            orderDatabase.Orders[component.Account].Remove(order);
-            UpdateBankAccount((station.Value, bank), -cost, order.Account);
+            // Far Horizons start
+            if (order.ChargeCreditsFrom == null)
+            {
+                orderDatabase.Orders[component.Account].Remove(order);
+                UpdateBankAccount((station.Value, bank), -cost, order.Account);
+            }
+            else
+            {
+                UpdatePersonalBankAccount(order.ChargeCreditsFrom.Value, product);
+                NotifyAppUser(order.ChargeCreditsFrom.Value);
+            }
+            // Far Horizons end
             UpdateOrders(station.Value);
         }
 
@@ -591,6 +611,11 @@ namespace Content.Server.Cargo.Systems
             var sequenceIdx = orderDB.Orders[account].FindIndex(order => order.OrderId == index);
             if (sequenceIdx != -1)
             {
+                // Far Horizons start
+                if (orderDB.Orders[account][sequenceIdx].ChargeCreditsFrom is {} personalSource)
+                    NotifyAppUser(personalSource, false);
+                // Far Horizons end
+
                 orderDB.Orders[account].RemoveAt(sequenceIdx);
             }
             UpdateOrders(dbUid);
@@ -678,9 +703,13 @@ namespace Content.Server.Cargo.Systems
                 var val = Loc.GetString("cargo-console-paper-print-name", ("orderNumber", order.OrderId));
                 _metaSystem.SetEntityName(printed, val);
 
-                var accountProto = _protoMan.Index(account);
-                _paperSystem.SetContent((printed, paper),
-                    Loc.GetString(
+                // Far Horizons start
+                var paperContent = "";
+                if (order.ChargeCreditsFrom == null)
+                {
+                    var accountProto = _protoMan.Index(account);
+
+                    paperContent = Loc.GetString(
                         "cargo-console-paper-print-text",
                         ("orderNumber", order.OrderId),
                         ("itemName", product.Name),
@@ -689,7 +718,13 @@ namespace Content.Server.Cargo.Systems
                         ("reason", string.IsNullOrWhiteSpace(order.Reason) ? Loc.GetString("cargo-console-paper-reason-default") : order.Reason),
                         ("account", Loc.GetString(accountProto.Name)),
                         ("accountcode", Loc.GetString(accountProto.Code)),
-                        ("approver", string.IsNullOrWhiteSpace(order.Approver) ? Loc.GetString("cargo-console-paper-approver-default") : order.Approver)));
+                        ("approver", string.IsNullOrWhiteSpace(order.Approver) ? Loc.GetString("cargo-console-paper-approver-default") : order.Approver));
+                }
+                else
+                    paperContent = GetPersonalOrderPaperConent(order, product);
+
+                _paperSystem.SetContent((printed, paper), paperContent);
+                // Far Horizons end
 
                 // attempt to attach the label to the item
                 if (TryComp<PaperLabelComponent>(item, out var label))
@@ -704,6 +739,14 @@ namespace Content.Server.Cargo.Systems
                 return true;
 
             var recipient = _protoMan.Index(account);
+
+            // Far Horizons start
+            if (order.ChargeCreditsFrom != null)
+            {
+                SealPersonalOrder(item, order, product, tamperSealable);
+                return true;
+            }
+            // Far Horizons end
 
             // Apply a tamper seal to the entity. This does the actual sealing logic.
             var seal = EnsureComp<TamperSealComponent>(item);
