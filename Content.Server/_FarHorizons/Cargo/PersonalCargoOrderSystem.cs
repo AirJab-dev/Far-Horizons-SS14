@@ -49,7 +49,7 @@ public sealed partial class PersonalCargoOrderSystem : SharedPersonalCargoOrderS
         var data = new CargoOrderData(orderId,
                                       product,
                                       1,
-                                      Loc.GetString("gsl-now-order-requested"),
+                                      recipient,
                                       Loc.GetString("gsl-now-order-reason"),
                                       CargoSystem.PersonalAccount,
                                       GetNetEntity(stationUid),
