@@ -20725,5 +20725,79 @@ Entries:
   id: 177300
   time: '2026-09-17T21:41:41.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1773
+- author: princess_gurchi
+  changes:
+  - message: 'New item type: Credstick. 3 of them are available: silver, gold and
+      platinum. Any Credstick can be used to store any amount of credits on it, as
+      well as transferring these credits to other Credsticks.'
+    type: Add
+  id: 177400
+  time: '2026-09-18T10:25:05.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1774
+- author: princess_gurchi
+  changes:
+  - message: Every PDA has a Credstick slot.
+    type: Add
+  id: 177401
+  time: '2026-09-18T10:25:05.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1774
+- author: princess_gurchi
+  changes:
+  - message: Every job spawns with a Credstick in the PDA. Type of credstick can be
+      selected in loadout.
+    type: Add
+  id: 177402
+  time: '2026-09-18T10:25:05.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1774
+- author: princess_gurchi
+  changes:
+  - message: 'New PDA app: Frontier Bank. Allows you to view your bank account balance,
+      as well as transfer credits between Credstick inserted into PDA and bank account.'
+    type: Add
+  id: 177403
+  time: '2026-09-18T10:25:05.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1774
+- author: princess_gurchi
+  changes:
+  - message: ATMs now issue new Credsticks instead of working with cash
+    type: Tweak
+  id: 177404
+  time: '2026-09-18T10:25:05.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1774
+- author: princess_gurchi
+  changes:
+  - message: Vending machines that used to require cash now have a Credstick slot
+      and will use credits from inserted Credstick
+    type: Tweak
+  id: 177405
+  time: '2026-09-18T10:25:05.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1774
+- author: princess_gurchi
+  changes:
+  - message: You are only allowed to withdraw/spend no more than 5000 credits from
+      your bank account every shift. Any money you receive/deposit during the shift
+      will not be counted towards that limit,
+    type: Tweak
+  id: 177406
+  time: '2026-09-18T10:25:05.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1774
+- author: princess_gurchi
+  changes:
+  - message: 'New PDA app: GSL Now! It allows anyone on the crew to order products
+      from their PDA using funds from their bank account. Orders come in a sealed
+      container that only the person making the order can open. If the seal is broken,
+      GSL account is fined and full price refunded to bank account that paid for order.'
+    type: Add
+  id: 177407
+  time: '2026-09-18T10:25:05.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1774
+- author: princess_gurchi
+  changes:
+  - message: For the purposes of ordering through GSL Now! credits now have 2:1 conversion
+      ratio into spesos
+    type: Tweak
+  id: 177408
+  time: '2026-09-18T10:25:05.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1774
 Order: -1
 
