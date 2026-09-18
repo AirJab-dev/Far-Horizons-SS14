@@ -1,15 +1,21 @@
 using Content.Server._FarHorizons.Banking;
 using Content.Server._Starlight.Cargo.TamperSeal.Components;
 using Content.Server.Cargo.Components;
+using Content.Server.CartridgeLoader;
+using Content.Shared._FarHorizons.Banking;
 using Content.Shared._Starlight.Cargo.TamperSeal.Components;
 using Content.Shared.Cargo;
 using Content.Shared.Cargo.Prototypes;
+using Content.Shared.CartridgeLoader;
+using Content.Shared.Inventory;
 using Robust.Shared.Prototypes;
 
 namespace Content.Server.Cargo.Systems;
 public sealed partial class CargoSystem
 {
     [Dependency] private BankingSystem _banking = default!;
+    [Dependency] private InventorySystem _inventory = default!;
+    [Dependency] private CartridgeLoaderSystem _cartridge = default!;
 
     private static readonly Color _personalOrderColor = Color.Gray;
     public static readonly ProtoId<CargoAccountPrototype> PersonalAccount = "Cargo"; // Just needs to be put somewhere, money will be charged separately
@@ -37,6 +43,19 @@ public sealed partial class CargoSystem
         var cost = (int)MathF.Floor(product.Cost * product.CreditCost);
 
         _banking.ChangeBalance(uid, -cost);
+    }
+
+    private void NotifyAppUser(NetEntity user, bool success = true)
+    {
+        var ent = GetEntity(user);
+
+        if (!_inventory.TryGetSlotEntity(ent, SharedBankingSystem.PDA_SLOT_NAME, out var pdaEnt) ||
+            !TryComp<CartridgeLoaderComponent>(pdaEnt, out var loader))
+            return;
+        
+        var message = success ? Loc.GetString("gsl-now-order-status-success") : Loc.GetString("gsl-now-order-status-cancelled");
+        
+        _cartridge.SendNotification(pdaEnt.Value, Loc.GetString("gsl-now-order-status-header"), message, loader);
     }
 
     private string GetPersonalOrderPaperConent(CargoOrderData order, CargoProductPrototype product)

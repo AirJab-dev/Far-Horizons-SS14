@@ -292,7 +292,10 @@ namespace Content.Server.Cargo.Systems
                 UpdateBankAccount((station.Value, bank), -cost, order.Account);
             }
             else
+            {
                 UpdatePersonalBankAccount(order.ChargeCreditsFrom.Value, product);
+                NotifyAppUser(order.ChargeCreditsFrom.Value);
+            }
             // Far Horizons end
             UpdateOrders(station.Value);
         }
@@ -608,6 +611,11 @@ namespace Content.Server.Cargo.Systems
             var sequenceIdx = orderDB.Orders[account].FindIndex(order => order.OrderId == index);
             if (sequenceIdx != -1)
             {
+                // Far Horizons start
+                if (orderDB.Orders[account][sequenceIdx].ChargeCreditsFrom is {} personalSource)
+                    NotifyAppUser(personalSource, false);
+                // Far Horizons end
+
                 orderDB.Orders[account].RemoveAt(sequenceIdx);
             }
             UpdateOrders(dbUid);

@@ -9,7 +9,7 @@ namespace Content.Shared._FarHorizons.Banking;
 
 public abstract partial class SharedBankingSystem
 {
-    private const string PDA_SLOT_NAME = "id";
+    public const string PDA_SLOT_NAME = "id";
     private static readonly ProtoId<AlertPrototype> _transferAlert = "CredstickTransfer";
 
     public int CredstickGetBalance(Entity<CredstickComponent?> ent) => 

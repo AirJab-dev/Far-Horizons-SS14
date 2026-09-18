@@ -51,3 +51,7 @@ gsl-now-order-status-pending = Pending
 gsl-now-order-status-in-delivery = In Delivery
 gsl-now-order-status-delivery-success = Delivered
 gsl-now-order-status-delivery-fail = Refunded
+
+gsl-now-order-status-header = (GSL Now!) Order status changed
+gsl-now-order-status-success = Order is being delivered now!
+gsl-now-order-status-cancelled = Order cancelled!
