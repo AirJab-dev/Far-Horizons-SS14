@@ -3,9 +3,9 @@ meta:
   category: Grid
   engineVersion: 288.1.0
   forkId: farhorizons
-  forkVersion: e98c0483d3
-  time: 09/12/2026 22:24:05
-  entityCount: 6467
+  forkVersion: e24c79159d
+  time: 09/18/2026 07:08:46
+  entityCount: 6481
 maps: []
 grids:
 - 1
@@ -2740,6 +2740,86 @@ entities:
       parent: 1
       rot: -1.5707963267948966 rad
       pos: -14.5,23.5
+  - uid: 6202
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: 38.5,13.5
+  - uid: 6468
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: 42.5,13.5
+  - uid: 6470
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: 46.5,13.5
+  - uid: 6471
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: 50.5,13.5
+  - uid: 6472
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: 54.5,13.5
+  - uid: 6473
+    components:
+    - type: Transform
+      parent: 1
+      pos: 54.5,10.5
+  - uid: 6474
+    components:
+    - type: Transform
+      parent: 1
+      pos: 50.5,10.5
+  - uid: 6475
+    components:
+    - type: Transform
+      parent: 1
+      pos: 46.5,10.5
+  - uid: 6476
+    components:
+    - type: Transform
+      parent: 1
+      pos: 42.5,10.5
+  - uid: 6477
+    components:
+    - type: Transform
+      parent: 1
+      pos: 38.5,10.5
+  - uid: 6478
+    components:
+    - type: Transform
+      parent: 1
+      pos: 38.5,23.5
+  - uid: 6479
+    components:
+    - type: Transform
+      parent: 1
+      pos: 42.5,23.5
+  - uid: 6480
+    components:
+    - type: Transform
+      parent: 1
+      pos: 46.5,23.5
+  - uid: 6481
+    components:
+    - type: Transform
+      parent: 1
+      pos: 50.5,23.5
+  - uid: 6482
+    components:
+    - type: Transform
+      parent: 1
+      pos: 54.5,23.5
 - proto: AtmosFixBlockerMarker
   entities:
   - uid: 3500
@@ -15904,88 +15984,6 @@ entities:
     - type: Transform
       parent: 1
       pos: 11.5,53.5
-- proto: FHAirlockExternalGlassShuttleEscape
-  entities:
-  - uid: 6183
-    components:
-    - type: Transform
-      parent: 1
-      rot: 3.141592653589793 rad
-      pos: 38.5,13.5
-  - uid: 6189
-    components:
-    - type: Transform
-      parent: 1
-      pos: 38.5,10.5
-  - uid: 6190
-    components:
-    - type: Transform
-      parent: 1
-      pos: 42.5,10.5
-  - uid: 6191
-    components:
-    - type: Transform
-      parent: 1
-      pos: 46.5,10.5
-  - uid: 6192
-    components:
-    - type: Transform
-      parent: 1
-      pos: 50.5,10.5
-  - uid: 6193
-    components:
-    - type: Transform
-      parent: 1
-      pos: 54.5,10.5
-  - uid: 6194
-    components:
-    - type: Transform
-      parent: 1
-      rot: 3.141592653589793 rad
-      pos: 42.5,13.5
-  - uid: 6195
-    components:
-    - type: Transform
-      parent: 1
-      rot: 3.141592653589793 rad
-      pos: 46.5,13.5
-  - uid: 6196
-    components:
-    - type: Transform
-      parent: 1
-      pos: 38.5,23.5
-  - uid: 6197
-    components:
-    - type: Transform
-      parent: 1
-      rot: 3.141592653589793 rad
-      pos: 50.5,13.5
-  - uid: 6198
-    components:
-    - type: Transform
-      parent: 1
-      rot: 3.141592653589793 rad
-      pos: 54.5,13.5
-  - uid: 6199
-    components:
-    - type: Transform
-      parent: 1
-      pos: 50.5,23.5
-  - uid: 6200
-    components:
-    - type: Transform
-      parent: 1
-      pos: 42.5,23.5
-  - uid: 6201
-    components:
-    - type: Transform
-      parent: 1
-      pos: 46.5,23.5
-  - uid: 6202
-    components:
-    - type: Transform
-      parent: 1
-      pos: 54.5,23.5
 - proto: FHAirlockNSArmoryGlassLocked
   entities:
   - uid: 3072
@@ -16293,6 +16291,86 @@ entities:
     - type: Transform
       parent: 1
       pos: 11.5,-2.5
+  - uid: 6183
+    components:
+    - type: Transform
+      parent: 1
+      pos: 54.5,10.5
+  - uid: 6189
+    components:
+    - type: Transform
+      parent: 1
+      pos: 38.5,23.5
+  - uid: 6190
+    components:
+    - type: Transform
+      parent: 1
+      pos: 50.5,23.5
+  - uid: 6191
+    components:
+    - type: Transform
+      parent: 1
+      pos: 42.5,23.5
+  - uid: 6192
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: 46.5,13.5
+  - uid: 6193
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: 54.5,13.5
+  - uid: 6194
+    components:
+    - type: Transform
+      parent: 1
+      pos: 46.5,23.5
+  - uid: 6195
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: 38.5,13.5
+  - uid: 6196
+    components:
+    - type: Transform
+      parent: 1
+      pos: 50.5,10.5
+  - uid: 6197
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: 50.5,13.5
+  - uid: 6198
+    components:
+    - type: Transform
+      parent: 1
+      pos: 38.5,10.5
+  - uid: 6199
+    components:
+    - type: Transform
+      parent: 1
+      pos: 46.5,10.5
+  - uid: 6200
+    components:
+    - type: Transform
+      parent: 1
+      pos: 42.5,10.5
+  - uid: 6201
+    components:
+    - type: Transform
+      parent: 1
+      pos: 54.5,23.5
+  - uid: 6469
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: 42.5,13.5
 - proto: FHAirlockNSExternalGlassShuttleLocked
   entities:
   - uid: 212
@@ -16354,7 +16432,7 @@ entities:
       pos: 12.5,7.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -37591.465
+      secondsUntilStateChange: -38002.426
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -41116,14 +41194,6 @@ entities:
     - type: Transform
       parent: 1
       pos: 25.670702,12.529537
-- proto: WeaponTurretSyndicate
-  entities:
-  - uid: 3179
-    components:
-    - type: Transform
-      parent: 1
-      rot: 1.5707963267948966 rad
-      pos: -9.5,2.5
 - proto: WelderExperimental
   entities:
   - uid: 3286
