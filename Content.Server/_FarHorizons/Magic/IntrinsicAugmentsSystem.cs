@@ -17,7 +17,7 @@ public sealed partial class IntrinsicAugmentsSystem : EntitySystem
     {
         base.Initialize();
 
-        SubscribeLocalEvent<IntrinsicAugmentsComponent, MapInitEvent>(OnCantripInit);
+        SubscribeLocalEvent<IntrinsicAugmentsComponent, ComponentStartup>(OnCantripInit);
         SubscribeLocalEvent<StoreBuyFinishedEvent>(OnPurchase);
     }
 
@@ -42,7 +42,7 @@ public sealed partial class IntrinsicAugmentsSystem : EntitySystem
         RemCompDeferred<IntrinsicAugmentsComponent>(ev.Buyer);
     }
 
-    private void OnCantripInit(Entity<IntrinsicAugmentsComponent> ent, ref MapInitEvent args)
+    private void OnCantripInit(Entity<IntrinsicAugmentsComponent> ent, ref ComponentStartup args)
     {
         _actions.AddAction(ent, ent.Comp.Action);
         EntityManager.AddComponents(ent, ent.Comp.AddComponents);

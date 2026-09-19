@@ -71,7 +71,7 @@ public sealed partial class StoreBoundUserInterface : BoundUserInterface
                 _listings = msg.Listings;
 
                 _menu?.UpdateBalance(msg.Balance);
-                _menu!.GridMode = msg.GridMode; // Starlight
+                _menu?.GridMode = msg.GridMode; // Far Horizons
 
                 UpdateListingsWithSearchFilter();
                 _menu?.SetFooterVisibility(msg.ShowFooter);
