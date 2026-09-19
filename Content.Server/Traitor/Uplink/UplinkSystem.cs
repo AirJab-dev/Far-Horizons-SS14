@@ -59,8 +59,9 @@ public sealed partial class UplinkSystem : EntitySystem
 
         // If we didn't have an uplink, make an empty one.
         entity.Comp.Store = Spawn(TraitorUplinkStore, MapCoordinates.Nullspace);
+        Dirty(entity, entity.Comp); // FH - If you don't dirty the entity, the client doesn't know about the store and can't use it.
         SetUplink(args.Implanted, entity.Comp.Store.Value, 0, false);
-        Log.Error($"{ToPrettyString(args.Implanted)} did not have an uplink when they were implanted.");
+        Log.Warning($"{ToPrettyString(args.Implanted)} did not have an uplink when they were implanted."); // FH - Error to Warning so that we can explicitly do this in a test
     }
 
     /// <summary>

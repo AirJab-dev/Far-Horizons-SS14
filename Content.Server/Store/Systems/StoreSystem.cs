@@ -59,6 +59,10 @@ public sealed partial class StoreSystem : SharedStoreSystem
         if (MetaData(uid).EntityLifeStage == EntityLifeStage.MapInitialized)
         {
             RefreshAllListings(component);
+            // Far Horizons start - If the store component is added late, it doesn't get MapInitEvent (because that's only on entity init) so we don't get the BUI through the normal path.
+            if (!UI.HasUi(uid, StoreUiKey.Key))
+                UI.SetUi(uid, StoreUiKey.Key, new InterfaceData("StoreBoundUserInterface"));
+            // Far Horizons end
         }
 
         var ev = new StoreAddedEvent();
