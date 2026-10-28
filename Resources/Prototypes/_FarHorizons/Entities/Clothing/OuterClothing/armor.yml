@@ -770,7 +770,6 @@
       LegRight: {}
       LegLeft: {}
 
-
 #region High Command
 - type: entity
   parent: [ ClothingOuterArmorBaseCarapace, BaseCentcommContraband ]
@@ -817,7 +816,7 @@
         Caustic: 0.5
     staminaModifier: 0.35
   - type: LimbArmor
-      damageCoefficient: 0.5
+    damageCoefficient: 0.5
   - type: FireProtection
     reduction: 0.85
 

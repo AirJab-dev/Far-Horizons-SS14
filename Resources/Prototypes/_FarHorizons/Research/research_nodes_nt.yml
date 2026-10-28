@@ -1585,6 +1585,7 @@
     - SyringeBluespace
     - OreBagOfHolding
     - DeviceDesynchronizer
+    - BSTank
   announceTo:
     - GSL # Far Horizons
     - Medical
